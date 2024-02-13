@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>	<meta charset="utf-8" />
+	<title>Password Wallet- QR</title>
+</head>
+<body>
+To log in one of the accounts:
+<ol>
+<li> click the corresponding button
+<li> use phone to scan the QR code
+<li> browser log you to the  account
+</ol>
+<!--
+secp256r1
+http://www-cs-students.stanford.edu/~tjw/jsbn/ecdh.html
+http://www.mathsisfun.com/binary-decimal-hexadecimal-converter.html
+
+
+Alice:
+a=94680865677544003433855433232366013390881268317570814318540625406212881932630
+aG(X,Y)
+X=76255378775116378571246931052178051758273955190198135382907750490844293071026
+Y=3076198676267736988995194828993482265202206139903283832463603542430671024604
+
+Bob:
+b=70050887922395738471760024278743449478036380445555620274303996910197178170824
+bG(X,Y)
+X=73222396954717709831386911356362915423229257214404308107859432541183876049179
+Y=80133129837235452498185399645285593111053125092268334341227544636875346127201
+
+abG(X,Y)
+X=102227475501879041348171948396067042467680532428938300861569717339456183799945
+Y=42431319914267925123315559563010402504307074650442481815901611319253673372371
+
+Signature: SHA256withECDSA
+-->
+
+
+<button onclick="doQR('http://www.gmail.com/,yongge.wang,36959C42CF9299526E941FC347A1C9B061DC23420289B7202EBCCC833D5C329E#D0ED2FDD12854279467417BD6E5D7D969E65F54B9823DDC8AA801631E919BC5B,8C26456063E21A728280870D2D0CDE2E16C3A39C70E65629C8FFDE05AACB772B#6AAA1F467C5B6E0B3741E3D6E66F4277DCBCBAC56225EC11ECFF5B082C9EF43C')">Gmail</button>
+<button onclick="doQR('http://www.gmail.com/,yongge.wang,0336959C42CF9299526E941FC347A1C9B061DC23420289B7202EBCCC833D5C329E,038C26456063E21A728280870D2D0CDE2E16C3A39C70E65629C8FFDE05AACB772B')">Gmail</button>
+<button 
+onclick="doQR('http://www.gmail.com/,yongge.wang,0336959C42CF9299526E941FC347A1C9B061DC23420289B7202EBCCC833D5C329E')">
+Yahoo</button>
+<button onclick="doQR('http://www.ebay/#bankofworld#76255378775116378571246931052178051758273955190198135382907750490844293071026#3076198676267736988995194828993482265202206139903283832463603542430671024604#3045022100dce2a43fe95c93e55ffa6dda1feb0bc72e4e66b2738265c578b48e7bd065d20d02205f4d7391b670680693c086b8380a2345f3cb06207e3e9d755b8cd984fbc81e9f')">eBay</button>
+<br>
+<!--<button onclick="doTest('http://www.gmail.com/account2')">TEST</button>
+<p id="demo"></p>
+-->
+
+<script src="QRjs.js" type="text/javascript"></script>
+<script type="text/javascript">
+function doTest(txt) {
+    document.getElementById("demo").innerHTML =
+    "Welcome " + txt + ".";
+}
+</script>
+
+<canvas id="myCanvas">
+Your browser does not support the HTML5 canvas tag.
+</canvas>
+
+
+<script type="text/javascript">
+		function doQR(txt) {
+
+			var qr = new JSQR();					
+			var code = new qr.Code();				
+			code.encodeMode = code.ENCODE_MODE.BYTE;		
+			code.version = code.DEFAULT;				
+			code.errorCorrection = code.ERROR_CORRECTION.H;		
+			var input = new qr.Input();				
+			input.dataType = input.DATA_TYPE.TEXT;		
+			input.data = txt;
+			var matrix = new qr.Matrix(input, code);
+	// At this point, the QR Code get generated.
+			matrix.scale = 4;
+			matrix.margin = 2;
+			//var canvas = document.createElement('canvas');
+		        var canvas = document.getElementById("myCanvas");
+			canvas.setAttribute('width', matrix.pixelWidth);
+			canvas.setAttribute('height', matrix.pixelWidth);
+			canvas.getContext('2d').fillStyle = 'rgb(0,0,0)';
+	// Set the foreground color of the canvas to black.
+			matrix.draw(canvas, 0, 0);
+	// Draw the QR code into the canvas at position 0 (left), 0 (top).
+			//document.body.appendChild(canvas);
+		}
+	//();
+
+	</script>
+
+</body>
+</html>

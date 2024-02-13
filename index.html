@@ -1,0 +1,131 @@
+<HTML>
+<HEAD>
+  <TITLE>Quantum Resistant Public Key Cryptography</TITLE>
+  <style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</HEAD>
+<BODY background="pattern.jpg">
+ 
+
+ <h1>Quantum Resistant Public Key Cryptography</h1>
+
+
+ <b>    <a href="https://webpages.uncc.edu/yonwang/">Yongge Wang</a></b><p>
+<font size=+0>
+  We develop post-quantum (or quantum resistant) public key encryption techniques. Our first implementation is based on the Random Linear Code Based Public Key Encryption Shceme (RLCE) which was recently introduced by Dr. Yongge Wang.  The full package (including library and C codes for key generation, encryption, and decryption) is
+  available at here: <a href="https://github.com/yonggewang/RLCE">GitHub</a>
+<p>
+<b>Publications</b>
+<ul>
+<li>Yongge Wang: Random Linear Code Based Public Key Encryption Scheme RLCE. In Proc ISIT 2016 
+  (<a href="https://arxiv.org/abs/1512.08454">pdf</a>)
+<li>Yongge Wang: Decoding Generalized Reed-Solomon Codes and Its Application to RLCE Encryption Schemes. Manuscripts 2017.
+  (<a href="http://arxiv.org/abs/1702.07737">pdf</a>)
+  
+<li>Yongge Wang. Revised Quantum Resistant Public Key Encryption Scheme RLCE and IND-CCA2 Security for McEliece Schemes. (<a href="https://eprint.iacr.org/2017/206/">pdf</a>)
+  <li>Yongge Wang. RLCE Key Encapsulation Mechanism (RLCE-KEM) Specification (<a href="RLCEspec.pdf">pdf</a>)
+</ul>
+
+
+<p>
+  <h2>RLCE Performance</h2>
+<p>
+ The following Table shows the comparison of the RLCE performance against OpenSSL RSA performance. Both RSA
+and RLCE were tested with a MacOS Sierra on a MacBook Pro with 2.9 GHz Intel Core i7. The time is in miliseconds.
+<br>
+<img src="rsa.png" alt="RSA vs RLCE" height="140">
+<p>
+
+  <h2>RLCE Parameters</h2>
+  <p>
+    The following Table lists the parameters for the RLCE encryption scheme with equivalent AES-128, AES-192, and AES-256 security levels. The Tabble also lists the sizes for the corresponding public key, private key, and message bandwidth
+    <br>
+  <img src="parameter.png" alt="RLCE parameters" height="150">
+  <br>
+  where the values in the RLCEpad column are from the following padding scheme<br>
+   <img src="rlcepad.png" alt="RLCE OAEP pad" height="220">
+  <p>
+
+     <!--
+
+    <h2>RLCE Performance Table on MacOS 2.9GHz Intel Core i7</h2>
+     <br>
+  <img src="performance.png" alt="RLCE performance" height="120">
+  <br>
+   
+     <table>
+  <tr>
+    <th>ID</th>
+    <th>Key Generation</th>
+    <th>Encryption</th>
+    <th>Decryption</th>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>340.616</td>
+    <td>0.538</td>
+    <td>1.509</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>1253.926</td>
+    <td>1.166</td>
+    <td>2.937</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>3215.791</td>
+    <td>2.796</td>
+    <td>12.925</td>
+  </tr>
+  
+</table>
+-->
+    <p>
+
+<b>Tools and Software for Download</b>
+<ul>
+  <li>RLCE parameter package: <a href="RLCE.jar">RLCE.jar</a> (19KB).
+    RLCE.jar will test the security strength for given parameters and
+    calculates the padding parameters. It runs on all platforms.
+    For instructions, run: <b>java -jar RLCE.jar</b>
+    
+<li> <a href="rlcefiltration.cpp">CPP Code</a> for RLCE filtration attack analysis.
+<li> The full package (including library and C codes for key generation, encryption, and decryption) is
+  available at here: <a href="RLCE.tar.gz">RLCE.tar.gz</a>
+</ul>
+
+<b>Public keys and ciphertext for you to decrypt</b>
+<ul>
+  <li>ciphertext: <a href="samplecipher">samplecipher</a></li>
+  <li>public key: <a href="wangpubKey.txt">wangpubKey.txt</a></li>
+  <li>privafte key <a href="wangpriKey.txt">wangpriKey.txt</a></li>
+</ul>
+     
+ </BODY>
+
+</HTML>
+
+
+
+
+
+
+
+
+
