@@ -1,0 +1,7 @@
+{
+  "id": "new_feature",
+  "emoji": "🆕",
+  "label": {"en": "New Feature", "zh": "新功能"},
+  "prompt": {"en": "Tell me about the new feature", "zh": "告诉我新功能"},
+  "is_featured": true
+}
