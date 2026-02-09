@@ -7,6 +7,48 @@
     },
     "suggestions": [
         {
+            "id": "school_zone",
+            "emoji": "🏫",
+            "label": {
+                "en": "School Zone",
+                "zh": "学区查询"
+            },
+            "prompt": {
+                "en": "What school am I zoned for at [your address]?",
+                "zh": "我家地址所属的学校是什么？"
+            },
+            "category": "education",
+            "is_featured": true
+        },
+        {
+            "id": "cms_calendar",
+            "emoji": "📅",
+            "label": {
+                "en": "CMS Calendar",
+                "zh": "学校日历"
+            },
+            "prompt": {
+                "en": "When is CMS spring break?",
+                "zh": "CMS 学校的春假是什么时候？"
+            },
+            "category": "education",
+            "is_featured": false
+        },
+        {
+            "id": "hidden_gems",
+            "emoji": "✨",
+            "label": {
+                "en": "Hidden Gems",
+                "zh": "本地秘境"
+            },
+            "prompt": {
+                "en": "Show me some hidden gems in Charlotte.",
+                "zh": "带我看看夏洛特的本地秘境。"
+            },
+            "category": "lifestyle",
+            "is_featured": true
+        },
+        {
             "id": "trash",
             "emoji": "🗑️",
             "label": {
@@ -46,7 +88,7 @@
                 "zh": "夏洛特今晚有什么地方营业到很晚？"
             },
             "category": "vibe",
-            "is_featured": true
+            "is_featured": false
         },
         {
             "id": "events",
@@ -60,90 +102,6 @@
                 "zh": "夏洛特今天有什么活动？"
             },
             "category": "events",
-            "is_featured": true
-        },
-        {
-            "id": "date_night",
-            "emoji": "💑",
-            "label": {
-                "en": "Date Night",
-                "zh": "约会"
-            },
-            "prompt": {
-                "en": "Recommend a romantic dinner spot in Uptown Charlotte.",
-                "zh": "推荐夏洛特Uptown的浪漫晚餐地点"
-            },
-            "category": "vibe",
-            "is_featured": false
-        },
-        {
-            "id": "breweries",
-            "emoji": "🍺",
-            "label": {
-                "en": "Breweries",
-                "zh": "精酿"
-            },
-            "prompt": {
-                "en": "Best breweries in South End with outdoor seating?",
-                "zh": "推荐 South End 有户外座位的精酿啤酒厂"
-            },
-            "category": "vibe",
-            "is_featured": false
-        },
-        {
-            "id": "family",
-            "emoji": "👨‍👩‍👧",
-            "label": {
-                "en": "Family",
-                "zh": "家庭"
-            },
-            "prompt": {
-                "en": "Find a family-friendly park near Dilworth.",
-                "zh": "Dilworth 附近有哪些适合家庭的公园？"
-            },
-            "category": "vibe",
-            "is_featured": false
-        },
-        {
-            "id": "bbq",
-            "emoji": "🍖",
-            "label": {
-                "en": "NC BBQ",
-                "zh": "烧烤"
-            },
-            "prompt": {
-                "en": "Where to find authentic NC BBQ in Charlotte?",
-                "zh": "夏洛特哪里有正宗的北卡烧烤？"
-            },
-            "category": "vibe",
-            "is_featured": false
-        },
-        {
-            "id": "safety",
-            "emoji": "🛡️",
-            "label": {
-                "en": "Safety",
-                "zh": "安全"
-            },
-            "prompt": {
-                "en": "Is it safe to walk around Uptown at night?",
-                "zh": "晚上在 Uptown 散步安全吗？"
-            },
-            "category": "info",
-            "is_featured": false
-        },
-        {
-            "id": "schools",
-            "emoji": "🏫",
-            "label": {
-                "en": "Schools",
-                "zh": "学校"
-            },
-            "prompt": {
-                "en": "What are the top-rated schools in Ballantyne?",
-                "zh": "Ballantyne 评分最高的学校有哪些？"
-            },
-            "category": "info",
             "is_featured": false
         }
     ],
@@ -153,12 +111,12 @@
             "zh": "问'我家的垃圾日是哪天'可以获取垃圾收集日程"
         },
         {
-            "en": "Try 'What's good for a date night?' for romantic spots",
-            "zh": "问'适合约会的地方'可以获取浪漫餐厅推荐"
+            "en": "Ask 'What school am I zoned for at [address]?' to check school districts",
+            "zh": "问'我所属的学区'可以查询学校分配"
         },
         {
-            "en": "Ask about specific neighborhoods like NoDa, South End, or Plaza Midwood",
-            "zh": "可以询问特定社区如 NoDa、South End 或 Plaza Midwood"
+            "en": "Try 'Show me some hidden gems' for local secrets",
+            "zh": "试试问'有哪些本地秘境'获取深度推荐"
         }
     ]
 }
