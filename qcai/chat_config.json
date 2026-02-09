@@ -91,6 +91,34 @@
             "is_featured": false
         },
         {
+            "id": "rent_fairness",
+            "emoji": "🏠",
+            "label": {
+                "en": "Rent Fair?",
+                "zh": "房租合算吗？"
+            },
+            "prompt": {
+                "en": "Is $2300 fair for a 2BR in South End?",
+                "zh": "在 South End 租一个两居室 $2300 划算吗？"
+            },
+            "category": "lifestyle",
+            "is_featured": true
+        },
+        {
+            "id": "report_pothole",
+            "emoji": "🕳️",
+            "label": {
+                "en": "Report Pothole",
+                "zh": "报修路坑"
+            },
+            "prompt": {
+                "en": "How do I report a pothole?",
+                "zh": "如何报修路面坑洞？"
+            },
+            "category": "city_services",
+            "is_featured": true
+        },
+        {
             "id": "events",
             "emoji": "🎫",
             "label": {
