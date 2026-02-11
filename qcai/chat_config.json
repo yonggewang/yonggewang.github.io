@@ -131,6 +131,34 @@
             },
             "category": "events",
             "is_featured": false
+        },
+        {
+            "id": "col_compare",
+            "emoji": "🏠",
+            "label": {
+                "en": "COL Check",
+                "zh": "生活成本"
+            },
+            "prompt": {
+                "en": "How is the cost of living in Charlotte right now?",
+                "zh": "现在夏洛特的生活成本怎么样？"
+            },
+            "category": "lifestyle",
+            "is_featured": true
+        },
+        {
+            "id": "utility_check",
+            "emoji": "⚡",
+            "label": {
+                "en": "Utility fair?",
+                "zh": "电费贵吗？"
+            },
+            "prompt": {
+                "en": "Is $150 high for electricity in a 1BR South End apartment?",
+                "zh": "在 South End 的 1居室公寓，150 美元的电费算高吗？"
+            },
+            "category": "city_services",
+            "is_featured": true
         }
     ],
     "pro_tips": [
