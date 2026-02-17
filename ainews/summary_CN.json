@@ -2,38 +2,38 @@
     "timestamp": "2026-02-17 20:55 UTC",
     "articles": [
         {
-            "title": "Salesforce Rebuilds Slackbot as 'Super Agent' for Enterprise Data",
-            "industry": "Banking",
-            "summary": "Salesforce has transformed Slackbot into a powerful AI agent capable of searching across Salesforce records, Google Drive, and calendars to automate complex tasks. The tool is now generally available to Business+ and Enterprise+ users, aiming to act as a central hub for workplace productivity.",
-            "charlotte_impact": "Financial professionals in Uptown can use this to summarize long compliance threads or client histories directly within their chat interface. SMBs should audit their Slack permissions now to ensure these agents can safely access the data needed to automate daily reporting.",
+            "title": "Salesforce 将 Slackbot 重塑为企业数据的“超级代理”",
+            "industry": "银行",
+            "summary": "Salesforce 已将 Slackbot 转变为强大的 AI 代理，能够在 Salesforce 记录、Google Drive 和日历中进行搜索，以自动化复杂任务。该工具现已向 Business+ 和 Enterprise+ 用户全面开放，旨在成为工作场所生产力的中心枢纽。",
+            "charlotte_impact": "Uptown 的金融专业人士可以使用此工具直接在聊天界面中总结长时间的合规性讨论或客户历史记录。中小型企业现在应审核其 Slack 权限，以确保这些代理可以安全地访问自动化每日报告所需的数据。",
             "impact_score": 5
         },
         {
-            "title": "Meta Secures 1.1GW of Solar Power for Carolina-Based AI Data Centers",
-            "industry": "Energy",
-            "summary": "Meta has inked deals for over 1GW of solar power, including a 100MW project in South Carolina specifically to support regional AI data center operations. This move underscores the massive energy infrastructure required to sustain the current AI boom in the Southeast.",
-            "charlotte_impact": "With Duke Energy headquartered in Uptown, local energy contractors and electrical SMBs should prepare for a surge in grid-modernization sub-contracts. Businesses should monitor regional utility shifts as AI-driven energy demands may influence local commercial power rates.",
+            "title": "Meta 为卡罗莱纳州的 AI 数据中心确保 1.1GW 太阳能电力",
+            "industry": "能源",
+            "summary": "Meta 签署了超过 1GW 的太阳能电力协议，其中包括南卡罗来纳州的一个 100MW 项目，专门用于支持区域 AI 数据中心运营。此举凸显了维持东南部当前 AI 繁荣所需的巨大能源基础设施。",
+            "charlotte_impact": "随着杜克能源总部位于 Uptown，当地能源承包商和电气中小型企业应为电网现代化分包合同的激增做好准备。企业应通过 AI 驱动的能源需求监控区域公用事业的变化，因为这可能会影响当地的商业电价。",
             "impact_score": 4
         },
         {
-            "title": "Real Estate Industry Shifts Toward Agentic AI and Conversational Search",
-            "industry": "Real Estate",
-            "summary": "The real estate sector is moving from traditional filters to 'agentic AI' that can autonomously handle property discovery and buyer queries. Platforms like Homes.com are now integrating Microsoft Azure OpenAI to provide more nuanced, conversational search experiences.",
-            "charlotte_impact": "Brokers in high-demand areas like Myers Park and Dilworth can deploy these AI tools to provide 24/7 personalized concierge services to prospective buyers. Local firms should integrate these conversational tools to compete with national platforms by layering in hyper-local neighborhood expertise.",
+            "title": "房地产行业向代理 AI 和对话式搜索转变",
+            "industry": "房地产",
+            "summary": "房地产行业正在从传统的过滤器转向可以自主处理房产发现和买家查询的“代理 AI”。Homes.com 等平台现在正在集成 Microsoft Azure OpenAI，以提供更细致、更具对话性的搜索体验。",
+            "charlotte_impact": "Myers Park 和 Dilworth 等高需求地区的经纪人可以部署这些 AI 工具，为潜在买家提供 24/7 的个性化礼宾服务。当地公司应整合这些对话工具，通过分层超本地社区专业知识与全国性平台竞争。",
             "impact_score": 4
         },
         {
-            "title": "Listen Labs Raises $69M to Replace Traditional Surveys with AI Video Interviews",
-            "industry": "Retail",
-            "summary": "Listen Labs has secured funding to scale its platform that uses AI moderators to conduct in-depth video interviews with customers, delivering insights in hours rather than weeks. The platform aims to eliminate market research fraud and provide deeper qualitative data than standard surveys.",
-            "charlotte_impact": "Boutique retailers in NoDa or Plaza Midwood can now conduct professional-grade focus groups on new product lines without the massive overhead of traditional research firms. SMBs can use this to gather authentic video feedback from the local Charlotte community to refine their brand messaging.",
+            "title": "Listen Labs 融资 6900 万美元，用 AI 视频访谈取代传统调查",
+            "industry": "零售",
+            "summary": "Listen Labs 已获得资金以扩展其平台，该平台使用 AI 主持人与客户进行深入的视频访谈，在数小时而不是数周内提供见解。该平台旨在消除市场研究欺诈，并提供比标准调查更深入的定性数据。",
+            "charlotte_impact": "NoDa 或 Plaza Midwood 的精品零售商现在可以对新产品线进行专业级的焦点小组讨论，而无需传统研究公司的巨额开销。中小型企业可以利用这一点从夏洛特当地社区收集真实的视频反馈，以完善其品牌信息。",
             "impact_score": 3
         },
         {
-            "title": "Railway Secures $100M for AI-Native Cloud Infrastructure to Challenge AWS",
-            "industry": "Logistics",
-            "summary": "Railway has raised $100 million to provide cloud infrastructure that allows for sub-second deployments, specifically designed for the rapid pace of AI-generated code. The platform offers significant cost savings by charging only for active compute time rather than idle virtual machines.",
-            "charlotte_impact": "Tech-forward logistics startups in the South End corridor can slash their infrastructure costs by migrating from traditional cloud providers to this usage-based model. Local developers should leverage these 'agentic speed' platforms to decrease the time-to-market for new supply chain automation tools.",
+            "title": "Railway 融资 1 亿美元，打造 AI 原生云基础设施挑战 AWS",
+            "industry": "物流",
+            "summary": "Railway 已筹集 1 亿美元用于提供允许亚秒级部署的云基础设施，专为 AI 生成代码的快节奏而设计。该平台通过仅对活动计算时间而不是空闲虚拟机收费，提供了显着的成本节约。",
+            "charlotte_impact": "South End 走廊的技术前沿物流初创公司可以通过从传统云提供商迁移到这种基于使用的模型来大幅削减基础设施成本。当地开发人员应利用这些“代理速度”平台来缩短新供应链自动化工具的上市时间。",
             "impact_score": 3
         }
     ]
