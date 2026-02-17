@@ -2,38 +2,38 @@
     "timestamp": "2026-02-17 20:55 UTC",
     "articles": [
         {
-            "title": "Salesforce Rebuilds Slackbot as 'Super Agent' for Enterprise Data",
-            "industry": "Banking",
-            "summary": "Salesforce has transformed Slackbot into a powerful AI agent capable of searching across Salesforce records, Google Drive, and calendars to automate complex tasks. The tool is now generally available to Business+ and Enterprise+ users, aiming to act as a central hub for workplace productivity.",
-            "charlotte_impact": "Financial professionals in Uptown can use this to summarize long compliance threads or client histories directly within their chat interface. SMBs should audit their Slack permissions now to ensure these agents can safely access the data needed to automate daily reporting.",
+            "title": "Salesforce transforma Slackbot en 'Super Agente' para Datos Empresariales",
+            "industry": "Banca",
+            "summary": "Salesforce ha transformado Slackbot en un poderoso agente de IA capaz de buscar en registros de Salesforce, Google Drive y calendarios para automatizar tareas complejas. La herramienta ya está disponible para usuarios Business+ y Enterprise+, con el objetivo de actuar como un centro central para la productividad laboral.",
+            "charlotte_impact": "Los profesionales financieros en Uptown pueden usar esto para resumir largos hilos de cumplimiento o historiales de clientes directamente en su interfaz de chat. Las PYMES deben auditar sus permisos de Slack ahora para garantizar que estos agentes puedan acceder de forma segura a los datos necesarios para automatizar los informes diarios.",
             "impact_score": 5
         },
         {
-            "title": "Meta Secures 1.1GW of Solar Power for Carolina-Based AI Data Centers",
-            "industry": "Energy",
-            "summary": "Meta has inked deals for over 1GW of solar power, including a 100MW project in South Carolina specifically to support regional AI data center operations. This move underscores the massive energy infrastructure required to sustain the current AI boom in the Southeast.",
-            "charlotte_impact": "With Duke Energy headquartered in Uptown, local energy contractors and electrical SMBs should prepare for a surge in grid-modernization sub-contracts. Businesses should monitor regional utility shifts as AI-driven energy demands may influence local commercial power rates.",
+            "title": "Meta asegura 1.1GW de energía solar para centros de datos de IA en Carolina",
+            "industry": "Energía",
+            "summary": "Meta ha firmado acuerdos por más de 1GW de energía solar, incluido un proyecto de 100MW en Carolina del Sur específicamente para apoyar las operaciones regionales de centros de datos de IA. Este movimiento subraya la enorme infraestructura energética requerida para sostener el auge actual de la IA en el sureste.",
+            "charlotte_impact": "Con Duke Energy con sede en Uptown, los contratistas de energía locales y las PYMES eléctricas deben prepararse para un aumento en los subcontratos de modernización de la red. Las empresas deben monitorear los cambios regionales de servicios públicos ya que las demandas de energía impulsadas por la IA pueden influir en las tarifas comerciales locales.",
             "impact_score": 4
         },
         {
-            "title": "Real Estate Industry Shifts Toward Agentic AI and Conversational Search",
-            "industry": "Real Estate",
-            "summary": "The real estate sector is moving from traditional filters to 'agentic AI' that can autonomously handle property discovery and buyer queries. Platforms like Homes.com are now integrating Microsoft Azure OpenAI to provide more nuanced, conversational search experiences.",
-            "charlotte_impact": "Brokers in high-demand areas like Myers Park and Dilworth can deploy these AI tools to provide 24/7 personalized concierge services to prospective buyers. Local firms should integrate these conversational tools to compete with national platforms by layering in hyper-local neighborhood expertise.",
+            "title": "La industria inmobiliaria cambia hacia la IA de agentes y búsqueda conversacional",
+            "industry": "Bienes Raíces",
+            "summary": "El sector inmobiliario se está moviendo de los filtros tradicionales a la 'IA de agentes' que puede manejar de forma autónoma el descubrimiento de propiedades y las consultas de los compradores. Plataformas como Homes.com ahora están integrando Microsoft Azure OpenAI para proporcionar experiencias de búsqueda más matizadas y conversacionales.",
+            "charlotte_impact": "Los corredores en áreas de alta demanda como Myers Park y Dilworth pueden implementar estas herramientas de IA para brindar servicios de conserjería personalizados las 24 horas, los 7 días de la semana a posibles compradores. Las empresas locales deben integrar estas herramientas conversacionales para competir con plataformas nacionales agregando experiencia hiperlocal en el vecindario.",
             "impact_score": 4
         },
         {
-            "title": "Listen Labs Raises $69M to Replace Traditional Surveys with AI Video Interviews",
-            "industry": "Retail",
-            "summary": "Listen Labs has secured funding to scale its platform that uses AI moderators to conduct in-depth video interviews with customers, delivering insights in hours rather than weeks. The platform aims to eliminate market research fraud and provide deeper qualitative data than standard surveys.",
-            "charlotte_impact": "Boutique retailers in NoDa or Plaza Midwood can now conduct professional-grade focus groups on new product lines without the massive overhead of traditional research firms. SMBs can use this to gather authentic video feedback from the local Charlotte community to refine their brand messaging.",
+            "title": "Listen Labs recauda $69M para reemplazar encuestas tradicionales con entrevistas de video con IA",
+            "industry": "Venta al por menor",
+            "summary": "Listen Labs ha asegurado fondos para escalar su plataforma que utiliza moderadores de IA para realizar entrevistas de video en profundidad con clientes, entregando información en horas en lugar de semanas. La plataforma tiene como objetivo eliminar el fraude en la investigación de mercado y proporcionar datos cualitativos más profundos que las encuestas estándar.",
+            "charlotte_impact": "Los minoristas boutique en NoDa o Plaza Midwood ahora pueden realizar grupos focales de nivel profesional sobre nuevas líneas de productos sin los gastos generales masivos de las firmas de investigación tradicionales. Las PYMES pueden usar esto para recopilar comentarios de video auténticos de la comunidad local de Charlotte para refinar los mensajes de su marca.",
             "impact_score": 3
         },
         {
-            "title": "Railway Secures $100M for AI-Native Cloud Infrastructure to Challenge AWS",
-            "industry": "Logistics",
-            "summary": "Railway has raised $100 million to provide cloud infrastructure that allows for sub-second deployments, specifically designed for the rapid pace of AI-generated code. The platform offers significant cost savings by charging only for active compute time rather than idle virtual machines.",
-            "charlotte_impact": "Tech-forward logistics startups in the South End corridor can slash their infrastructure costs by migrating from traditional cloud providers to this usage-based model. Local developers should leverage these 'agentic speed' platforms to decrease the time-to-market for new supply chain automation tools.",
+            "title": "Railway asegura $100M para infraestructura en la nube nativa de IA para desafiar a AWS",
+            "industry": "Logística",
+            "summary": "Railway ha recaudado $100 millones para proporcionar infraestructura en la nube que permite implementaciones de segundos, diseñada específicamente para el ritmo rápido del código generado por IA. La plataforma ofrece ahorros de costos significativos al cobrar solo por el tiempo de computación activo en lugar de máquinas virtuales inactivas.",
+            "charlotte_impact": "Las startups de logística con visión tecnológica en el corredor de South End pueden reducir sus costos de infraestructura migrando de proveedores de nube tradicionales a este modelo basado en el uso. Los desarrolladores locales deben aprovechar estas plataformas de 'velocidad de agente' para disminuir el tiempo de comercialización de nuevas herramientas de automatización de la cadena de suministro.",
             "impact_score": 3
         }
     ]
