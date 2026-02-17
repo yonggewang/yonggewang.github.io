@@ -1,1 +1,40 @@
-test
+{
+    "timestamp": "2026-02-17 20:55 UTC",
+    "articles": [
+        {
+            "title": "Salesforce Rebuilds Slackbot as 'Super Agent' for Enterprise Data",
+            "industry": "Banking",
+            "summary": "Salesforce has transformed Slackbot into a powerful AI agent capable of searching across Salesforce records, Google Drive, and calendars to automate complex tasks. The tool is now generally available to Business+ and Enterprise+ users, aiming to act as a central hub for workplace productivity.",
+            "charlotte_impact": "Financial professionals in Uptown can use this to summarize long compliance threads or client histories directly within their chat interface. SMBs should audit their Slack permissions now to ensure these agents can safely access the data needed to automate daily reporting.",
+            "impact_score": 5
+        },
+        {
+            "title": "Meta Secures 1.1GW of Solar Power for Carolina-Based AI Data Centers",
+            "industry": "Energy",
+            "summary": "Meta has inked deals for over 1GW of solar power, including a 100MW project in South Carolina specifically to support regional AI data center operations. This move underscores the massive energy infrastructure required to sustain the current AI boom in the Southeast.",
+            "charlotte_impact": "With Duke Energy headquartered in Uptown, local energy contractors and electrical SMBs should prepare for a surge in grid-modernization sub-contracts. Businesses should monitor regional utility shifts as AI-driven energy demands may influence local commercial power rates.",
+            "impact_score": 4
+        },
+        {
+            "title": "Real Estate Industry Shifts Toward Agentic AI and Conversational Search",
+            "industry": "Real Estate",
+            "summary": "The real estate sector is moving from traditional filters to 'agentic AI' that can autonomously handle property discovery and buyer queries. Platforms like Homes.com are now integrating Microsoft Azure OpenAI to provide more nuanced, conversational search experiences.",
+            "charlotte_impact": "Brokers in high-demand areas like Myers Park and Dilworth can deploy these AI tools to provide 24/7 personalized concierge services to prospective buyers. Local firms should integrate these conversational tools to compete with national platforms by layering in hyper-local neighborhood expertise.",
+            "impact_score": 4
+        },
+        {
+            "title": "Listen Labs Raises $69M to Replace Traditional Surveys with AI Video Interviews",
+            "industry": "Retail",
+            "summary": "Listen Labs has secured funding to scale its platform that uses AI moderators to conduct in-depth video interviews with customers, delivering insights in hours rather than weeks. The platform aims to eliminate market research fraud and provide deeper qualitative data than standard surveys.",
+            "charlotte_impact": "Boutique retailers in NoDa or Plaza Midwood can now conduct professional-grade focus groups on new product lines without the massive overhead of traditional research firms. SMBs can use this to gather authentic video feedback from the local Charlotte community to refine their brand messaging.",
+            "impact_score": 3
+        },
+        {
+            "title": "Railway Secures $100M for AI-Native Cloud Infrastructure to Challenge AWS",
+            "industry": "Logistics",
+            "summary": "Railway has raised $100 million to provide cloud infrastructure that allows for sub-second deployments, specifically designed for the rapid pace of AI-generated code. The platform offers significant cost savings by charging only for active compute time rather than idle virtual machines.",
+            "charlotte_impact": "Tech-forward logistics startups in the South End corridor can slash their infrastructure costs by migrating from traditional cloud providers to this usage-based model. Local developers should leverage these 'agentic speed' platforms to decrease the time-to-market for new supply chain automation tools.",
+            "impact_score": 3
+        }
+    ]
+}
