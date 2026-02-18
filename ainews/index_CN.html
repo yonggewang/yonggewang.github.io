@@ -1,131 +1,149 @@
+
 <!DOCTYPE html>
-<html lang="zh">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Queen City AI Pulse (中文)</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            color: #333;
-        }
-
-        h1 {
-            color: #007AFF;
-        }
-
-        .timestamp {
-            color: #666;
-            font-size: 0.9em;
-            margin-bottom: 20px;
-        }
-
-        .article {
-            border-bottom: 1px solid #eee;
-            padding-bottom: 20px;
-            margin-bottom: 20px;
-        }
-
-        .industry {
-            display: inline-block;
-            background: #E5F1FF;
-            color: #007AFF;
-            padding: 2px 8px;
-            border-radius: 4px;
-            font-size: 0.8em;
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-
-        h2 {
-            margin-top: 5px;
-            margin-bottom: 10px;
-        }
-
-        .impact-box {
-            background: #F9F9F9;
-            border-left: 4px solid #AF52DE;
-            padding: 15px;
-            margin-top: 15px;
-        }
-
-        .impact-title {
-            color: #AF52DE;
-            font-weight: bold;
-            font-size: 0.9em;
-            text-transform: uppercase;
-            margin-bottom: 5px;
-        }
-
-        .score {
-            font-weight: bold;
-            color: #333;
-            float: right;
-        }
-    </style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body { font-family: -apple-system, sans-serif; padding: 20px; }
+.card { border-bottom: 1px solid #eee; margin-bottom: 25px; padding-bottom: 20px; }
+.score { color: #007AFF; font-weight: bold; }
+details summary { cursor: pointer; color: #333; }
+a { color: #007AFF; text-decoration: none; }
+</style>
 </head>
-
 <body>
-    <h1>Queen City AI Pulse</h1>
-    <div class="timestamp">最后更新: 2026年2月17日 20:55 UTC</div>
+<h1>Queen City AI Pulse</h1>
+<p>Last Updated: 2026-02-18 06:44 UTC</p>
 
-    <div class="article">
-        <span class="industry">银行</span> <span class="score">影响力: 5/5</span>
-        <h2>Salesforce 将 Slackbot 重塑为企业数据的“超级代理”</h2>
-        <p>Salesforce 已将 Slackbot 转变为强大的 AI 代理，能够在 Salesforce 记录、Google Drive 和日历中进行搜索，以自动化复杂任务。该工具现已向 Business+ 和
-            Enterprise+ 用户全面开放，旨在成为工作场所生产力的中心枢纽。</p>
-        <div class="impact-box">
-            <div class="impact-title">夏洛特影响力</div>
-            <p>Uptown 的金融专业人士可以使用此工具直接在聊天界面中总结长时间的合规性讨论或客户历史记录。中小型企业现在应审核其 Slack 权限，以确保这些代理可以安全地访问自动化每日报告所需的数据。</p>
+        <div class="card">
+            <h2>摩根大通商业银行人工智能大改造</h2>
+            <p><strong>Industry:</strong> 银行业</p>
+            <p><strong>Source:</strong> </p>
+            <p>摩根大通正将人工智能整合到其商业银行业务中，以简化客户服务和风险管理。这一转变标志着整个行业正向自动化财务咨询和运营效率迈进。</p>
+            <details>
+                <summary><strong>Charlotte Impact</strong></summary>
+                <p>夏洛特当地的金融科技初创公司和中小企业应调整其服务产品，以便与大型银行的人工智能 API 对接。企业主在寻求商业贷款时，应为人工智能驱动的信用评估做好准备。</p>
+            </details>
+            <p><a href="#" target="_blank">Read Original Article</a></p>
+            <p class="score">Impact Score: 5/5</p>
         </div>
-    </div>
-
-    <div class="article">
-        <span class="industry">能源</span> <span class="score">影响力: 4/5</span>
-        <h2>Meta 为卡罗莱纳州的 AI 数据中心确保 1.1GW 太阳能电力</h2>
-        <p>Meta 签署了超过 1GW 的太阳能电力协议，其中包括南卡罗来纳州的一个 100MW 项目，专门用于支持区域 AI 数据中心运营。此举凸显了维持东南部当前 AI 繁荣所需的巨大能源基础设施。</p>
-        <div class="impact-box">
-            <div class="impact-title">夏洛特影响力</div>
-            <p>随着杜克能源总部位于 Uptown，当地能源承包商和电气中小型企业应为电网现代化分包合同的激增做好准备。企业应通过 AI 驱动的能源需求监控区域公用事业的变化，因为这可能会影响当地的商业电价。</p>
+        
+        <div class="card">
+            <h2>Meta 在南卡罗来纳州扩建 100 兆瓦太阳能项目</h2>
+            <p><strong>Industry:</strong> 能源</p>
+            <p><strong>Source:</strong> </p>
+            <p>Meta 正在南卡罗来纳州投资 100 兆瓦的太阳能，以支持其区域性人工智能数据中心。此举凸显了卡罗来纳州人工智能基础设施日益增长的能源需求。</p>
+            <details>
+                <summary><strong>Charlotte Impact</strong></summary>
+                <p>夏洛特的能源中小企业应转向太阳能安装和电网管理服务，以支持区域性人工智能能源走廊。当地企业可以利用这些基础设施投资来倡导更环保的企业能源信贷。</p>
+            </details>
+            <p><a href="#" target="_blank">Read Original Article</a></p>
+            <p class="score">Impact Score: 4/5</p>
         </div>
-    </div>
-
-    <div class="article">
-        <span class="industry">房地产</span> <span class="score">影响力: 4/5</span>
-        <h2>房地产行业向代理 AI 和对话式搜索转变</h2>
-        <p>房地产行业正在从传统的过滤器转向可以自主处理房产发现和买家查询的“代理 AI”。Homes.com 等平台现在正在集成 Microsoft Azure OpenAI，以提供更细致、更具对话性的搜索体验。</p>
-        <div class="impact-box">
-            <div class="impact-title">夏洛特影响力</div>
-            <p>Myers Park 和 Dilworth 等高需求地区的经纪人可以部署这些 AI 工具，为潜在买家提供 24/7 的个性化礼宾服务。当地公司应整合这些对话工具，通过分层超本地社区专业知识与全国性平台竞争。
-            </p>
+        
+        <div class="card">
+            <h2>Anthropic 推出用于本地文件管理的 Cowork</h2>
+            <p><strong>Industry:</strong> 房地产</p>
+            <p><strong>Source:</strong> </p>
+            <p>Anthropic 推出了 Cowork，这是一款无需编程技能即可组织、编辑和分析本地文件的智能体。它允许用户直接在桌面上自动执行报销报告和文档分类等行政任务。</p>
+            <details>
+                <summary><strong>Charlotte Impact</strong></summary>
+                <p>夏洛特的房地产公司可以使用该工具自动处理成交文件和房产记录，而无需昂贵的软件。中小企业应采用此工具，以减少文档密集型工作流程中的行政开支。</p>
+            </details>
+            <p><a href="#" target="_blank">Read Original Article</a></p>
+            <p class="score">Impact Score: 4/5</p>
         </div>
-    </div>
-
-    <div class="article">
-        <span class="industry">零售</span> <span class="score">影响力: 3/5</span>
-        <h2>Listen Labs 融资 6900 万美元，用 AI 视频访谈取代传统调查</h2>
-        <p>Listen Labs 已获得资金以扩展其平台，该平台使用 AI 主持人与客户进行深入的视频访谈，在数小时而不是数周内提供见解。该平台旨在消除市场研究欺诈，并提供比标准调查更深入的定性数据。</p>
-        <div class="impact-box">
-            <div class="impact-title">夏洛特影响力</div>
-            <p>NoDa 或 Plaza Midwood 的精品零售商现在可以对新产品线进行专业级的焦点小组讨论，而无需传统研究公司的巨额开销。中小型企业可以利用这一点从夏洛特当地社区收集真实的视频反馈，以完善其品牌信息。
-            </p>
+        
+        <div class="card">
+            <h2>Salesforce 将 Slackbot 重塑为人工智能智能体</h2>
+            <p><strong>Industry:</strong> 零售业</p>
+            <p><strong>Source:</strong> </p>
+            <p>Salesforce 将 Slackbot 转型为一个超级智能体，能够跨 Google Drive 和 Salesforce 搜索企业数据并起草文档。这使得员工可以通过简单的聊天界面与复杂的业务数据进行交互。</p>
+            <details>
+                <summary><strong>Charlotte Impact</strong></summary>
+                <p>夏洛特的零售经理可以通过移动端即时查询多个平台的库存水平或销售趋势。中小企业应培训员工使用智能体提示词，以消除数小时的手动数据搜索。</p>
+            </details>
+            <p><a href="#" target="_blank">Read Original Article</a></p>
+            <p class="score">Impact Score: 5/5</p>
         </div>
-    </div>
-
-    <div class="article">
-        <span class="industry">物流</span> <span class="score">影响力: 3/5</span>
-        <h2>Railway 融资 1 亿美元，打造 AI 原生云基础设施挑战 AWS</h2>
-        <p>Railway 已筹集 1 亿美元用于提供允许亚秒级部署的云基础设施，专为 AI 生成代码的快节奏而设计。该平台通过仅对活动计算时间而不是空闲虚拟机收费，提供了显着的成本节约。</p>
-        <div class="impact-box">
-            <div class="impact-title">夏洛特影响力</div>
-            <p>South End 走廊的技术前沿物流初创公司可以通过从传统云提供商迁移到这种基于使用的模型来大幅削减基础设施成本。当地开发人员应利用这些“代理速度”平台来缩短新供应链自动化工具的上市时间。</p>
+        
+        <div class="card">
+            <h2>面向患者的人工智能驱动医学扫描报告</h2>
+            <p><strong>Industry:</strong> 医疗保健</p>
+            <p><strong>Source:</strong> </p>
+            <p>新型人工智能工具通过将专业术语翻译成通俗易懂的语言，使患者理解医学扫描报告的难度降低了一半。该技术旨在提高患者参与度，并减轻临床人员解释报告的负担。</p>
+            <details>
+                <summary><strong>Charlotte Impact</strong></summary>
+                <p>夏洛特当地的私人诊所应采用这些面向患者的人工智能工具，以实现服务质量的差异化。医疗保健中小企业可以通过提供人工智能生成的化验结果摘要来减少行政电话量。</p>
+            </details>
+            <p><a href="#" target="_blank">Read Original Article</a></p>
+            <p class="score">Impact Score: 3/5</p>
         </div>
-    </div>
+        
+        <div class="card">
+            <h2>Homes.com 推出无筛选器人工智能房产搜索</h2>
+            <p><strong>Industry:</strong> 房地产</p>
+            <p><strong>Source:</strong> </p>
+            <p>Homes.com 正在利用 Microsoft Azure OpenAI 为购房者提供自然语言、无筛选器的搜索。这允许用户详细描述他们理想的家，而不是点击复选框。</p>
+            <details>
+                <summary><strong>Charlotte Impact</strong></summary>
+                <p>夏洛特的经纪人应针对自然语言搜索而非仅仅是关键词来优化其房源描述。当地房地产中小企业应整合类似的人工智能助手，以吸引精通技术的购房群体。</p>
+            </details>
+            <p><a href="#" target="_blank">Read Original Article</a></p>
+            <p class="score">Impact Score: 4/5</p>
+        </div>
+        
+        <div class="card">
+            <h2>Listen Labs 扩展人工智能驱动的客户访谈</h2>
+            <p><strong>Industry:</strong> 零售业</p>
+            <p><strong>Source:</strong> </p>
+            <p>Listen Labs 筹集了 6900 万美元，用人工智能主持的视频访谈取代传统调查，从而大规模提供定性深度分析。该平台可检测欺诈行为，并在数小时内提供可供高管参考的见解。</p>
+            <details>
+                <summary><strong>Charlotte Impact</strong></summary>
+                <p>夏洛特的零售中小企业可以对当地消费趋势进行高质量的市场研究，而无需支付传统机构的费用。企业主应使用这些工具，通过针对夏洛特的焦点小组来测试新产品概念。</p>
+            </details>
+            <p><a href="#" target="_blank">Read Original Article</a></p>
+            <p class="score">Impact Score: 3/5</p>
+        </div>
+        
+        <div class="card">
+            <h2>瑞银警告人工智能将对信贷市场造成冲击</h2>
+            <p><strong>Industry:</strong> 银行业</p>
+            <p><strong>Source:</strong> </p>
+            <p>瑞银分析师表示，人工智能颠覆的快速步伐可能会对信贷市场系统造成冲击。这种转型发生的速度比预期的要快，可能会影响企业信用的估值方式。</p>
+            <details>
+                <summary><strong>Charlotte Impact</strong></summary>
+                <p>总部位于夏洛特的财务顾问必须监测人工智能驱动的企业信贷波动，以保护当地中小企业的投资组合。企业主应保持高度的数据透明度，以确保人工智能驱动的信用模型能够准确反映其稳定性。</p>
+            </details>
+            <p><a href="#" target="_blank">Read Original Article</a></p>
+            <p class="score">Impact Score: 4/5</p>
+        </div>
+        
+        <div class="card">
+            <h2>Goose：免费开源的人工智能编程智能体</h2>
+            <p><strong>Industry:</strong> 物流业</p>
+            <p><strong>Source:</strong> </p>
+            <p>Block 发布了 Goose，这是一款免费、开源的替代方案，可替代昂贵的人工智能编程助手，并在用户的机器上本地运行。它允许在没有订阅费或数据隐私顾虑的情况下进行自主编程和调试。</p>
+            <details>
+                <summary><strong>Charlotte Impact</strong></summary>
+                <p>拥有小型 IT 团队的夏洛特物流公司可以使用 Goose 构建自定义跟踪工具，而无需庞大的软件预算。中小企业应利用本地大语言模型 (LLM) 在自动化工作流程的同时，确保专有运营数据不离开云端。</p>
+            </details>
+            <p><a href="#" target="_blank">Read Original Article</a></p>
+            <p class="score">Impact Score: 4/5</p>
+        </div>
+        
+        <div class="card">
+            <h2>Railway 价值 1 亿美元的人工智能原生云基础设施</h2>
+            <p><strong>Industry:</strong> 物流业</p>
+            <p><strong>Source:</strong> </p>
+            <p>Railway 正在挑战 AWS，其云平台专为人工智能生成代码的速度而设计，提供不到一秒的部署速度。该平台显著降低了开发人员构建人工智能应用的成本和复杂性。</p>
+            <details>
+                <summary><strong>Charlotte Impact</strong></summary>
+                <p>夏洛特物流和金融科技行业的初创公司应评估 Railway，以将云开销降低多达 65%。技术型中小企业可以提高其部署速度，以保持与大型全国性公司的竞争力。</p>
+            </details>
+            <p><a href="#" target="_blank">Read Original Article</a></p>
+            <p class="score">Impact Score: 3/5</p>
+        </div>
+        
 </body>
-
 </html>

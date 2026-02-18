@@ -1,39 +1,74 @@
 {
-    "timestamp": "2026-02-17 20:55 UTC",
+    "timestamp": "2026-02-18 06:44 UTC",
     "articles": [
         {
-            "title": "Salesforce transforma Slackbot en 'Super Agente' para Datos Empresariales",
+            "title": "Revisión de IA en la banca comercial de JP Morgan",
             "industry": "Banca",
-            "summary": "Salesforce ha transformado Slackbot en un poderoso agente de IA capaz de buscar en registros de Salesforce, Google Drive y calendarios para automatizar tareas complejas. La herramienta ya está disponible para usuarios Business+ y Enterprise+, con el objetivo de actuar como un centro central para la productividad laboral.",
-            "charlotte_impact": "Los profesionales financieros en Uptown pueden usar esto para resumir largos hilos de cumplimiento o historiales de clientes directamente en su interfaz de chat. Las PYMES deben auditar sus permisos de Slack ahora para garantizar que estos agentes puedan acceder de forma segura a los datos necesarios para automatizar los informes diarios.",
+            "summary": "JP Morgan está integrando la IA en sus operaciones de banca comercial para agilizar los servicios al cliente y la gestión de riesgos. Este cambio señala un movimiento más amplio de la industria hacia el asesoramiento financiero automatizado y la eficiencia operativa.",
+            "charlotte_impact": "Las startups de tecnología financiera y las pymes locales de Charlotte deben alinear sus ofertas de servicios para integrarse con las API de IA de los principales bancos. Los dueños de negocios deben prepararse para evaluaciones crediticias impulsadas por IA al solicitar préstamos comerciales.",
             "impact_score": 5
         },
         {
-            "title": "Meta asegura 1.1GW de energía solar para centros de datos de IA en Carolina",
+            "title": "Expansión solar de 100 MW de Meta en Carolina del Sur",
             "industry": "Energía",
-            "summary": "Meta ha firmado acuerdos por más de 1GW de energía solar, incluido un proyecto de 100MW en Carolina del Sur específicamente para apoyar las operaciones regionales de centros de datos de IA. Este movimiento subraya la enorme infraestructura energética requerida para sostener el auge actual de la IA en el sureste.",
-            "charlotte_impact": "Con Duke Energy con sede en Uptown, los contratistas de energía locales y las PYMES eléctricas deben prepararse para un aumento en los subcontratos de modernización de la red. Las empresas deben monitorear los cambios regionales de servicios públicos ya que las demandas de energía impulsadas por la IA pueden influir en las tarifas comerciales locales.",
+            "summary": "Meta está invirtiendo en 100 MW de energía solar en Carolina del Sur para respaldar sus centros de datos regionales de IA. Este movimiento destaca la creciente demanda energética de la infraestructura de IA en las Carolinas.",
+            "charlotte_impact": "Las pymes de energía de Charlotte deben pivotar hacia servicios de instalación solar y gestión de redes para apoyar el corredor regional de IA y energía. Las empresas locales pueden aprovechar estas inversiones en infraestructura para abogar por créditos de energía corporativa más ecológicos.",
             "impact_score": 4
         },
         {
-            "title": "La industria inmobiliaria cambia hacia la IA de agentes y búsqueda conversacional",
-            "industry": "Bienes Raíces",
-            "summary": "El sector inmobiliario se está moviendo de los filtros tradicionales a la 'IA de agentes' que puede manejar de forma autónoma el descubrimiento de propiedades y las consultas de los compradores. Plataformas como Homes.com ahora están integrando Microsoft Azure OpenAI para proporcionar experiencias de búsqueda más matizadas y conversacionales.",
-            "charlotte_impact": "Los corredores en áreas de alta demanda como Myers Park y Dilworth pueden implementar estas herramientas de IA para brindar servicios de conserjería personalizados las 24 horas, los 7 días de la semana a posibles compradores. Las empresas locales deben integrar estas herramientas conversacionales para competir con plataformas nacionales agregando experiencia hiperlocal en el vecindario.",
+            "title": "Anthropic Cowork para la gestión de archivos locales",
+            "industry": "Bienes raíces",
+            "summary": "Anthropic lanzó Cowork, un agente que puede organizar, editar y analizar archivos locales sin necesidad de conocimientos de programación. Permite a los usuarios automatizar tareas administrativas como informes de gastos y clasificación de documentos directamente en sus escritorios.",
+            "charlotte_impact": "Las firmas de bienes raíces de Charlotte pueden usar esto para automatizar el procesamiento de documentos de cierre y registros de propiedad sin software de alto costo. Las pymes deben implementar esta herramienta para reducir la carga administrativa en flujos de trabajo con gran volumen de documentos.",
             "impact_score": 4
         },
         {
-            "title": "Listen Labs recauda $69M para reemplazar encuestas tradicionales con entrevistas de video con IA",
+            "title": "Salesforce reconstruye Slackbot como un agente de IA",
             "industry": "Venta al por menor",
-            "summary": "Listen Labs ha asegurado fondos para escalar su plataforma que utiliza moderadores de IA para realizar entrevistas de video en profundidad con clientes, entregando información en horas en lugar de semanas. La plataforma tiene como objetivo eliminar el fraude en la investigación de mercado y proporcionar datos cualitativos más profundos que las encuestas estándar.",
-            "charlotte_impact": "Los minoristas boutique en NoDa o Plaza Midwood ahora pueden realizar grupos focales de nivel profesional sobre nuevas líneas de productos sin los gastos generales masivos de las firmas de investigación tradicionales. Las PYMES pueden usar esto para recopilar comentarios de video auténticos de la comunidad local de Charlotte para refinar los mensajes de su marca.",
+            "summary": "Salesforce transformó Slackbot en un súper agente capaz de buscar datos empresariales y redactar documentos en Google Drive y Salesforce. Esto permite a los empleados interactuar con datos comerciales complejos a través de una interfaz de chat sencilla.",
+            "charlotte_impact": "Los gerentes de ventas al por menor de Charlotte pueden usar esto para consultar instantáneamente niveles de inventario o tendencias de ventas en múltiples plataformas a través del móvil. Las pymes deben capacitar al personal en el uso de prompts para agentes para eliminar horas de búsqueda manual de datos.",
+            "impact_score": 5
+        },
+        {
+            "title": "Informes de escaneos médicos impulsados por IA para pacientes",
+            "industry": "Atención médica",
+            "summary": "Nuevas herramientas de IA están haciendo que los informes de escaneos médicos sean el doble de fáciles de entender para los pacientes al traducir la jerga a un lenguaje sencillo. Esta tecnología tiene como objetivo mejorar la participación del paciente y reducir la carga del personal clínico para dar explicaciones.",
+            "charlotte_impact": "Los consultorios privados locales en Charlotte deben adoptar estas herramientas de IA orientadas al paciente para diferenciar su calidad de servicio. Las pymes de atención médica pueden reducir el volumen de llamadas administrativas al proporcionar resúmenes de resultados de laboratorio generados por IA.",
             "impact_score": 3
         },
         {
-            "title": "Railway asegura $100M para infraestructura en la nube nativa de IA para desafiar a AWS",
+            "title": "Homes.com lanza búsqueda de propiedades con IA sin filtros",
+            "industry": "Bienes raíces",
+            "summary": "Homes.com está utilizando Microsoft Azure OpenAI para avanzar hacia una búsqueda en lenguaje natural y sin filtros para compradores de viviendas. Esto permite a los usuarios describir su hogar ideal en detalle en lugar de marcar casillas.",
+            "charlotte_impact": "Los corredores de Charlotte deben optimizar las descripciones de sus listados para la búsqueda en lenguaje natural en lugar de solo palabras clave. Las pymes locales de bienes raíces deben integrar asistentes de IA similares para captar clientes potenciales del grupo demográfico de compradores de viviendas expertos en tecnología.",
+            "impact_score": 4
+        },
+        {
+            "title": "Listen Labs escala las entrevistas a clientes impulsadas por IA",
+            "industry": "Venta al por menor",
+            "summary": "Listen Labs recaudó 69 millones de dólares para reemplazar las encuestas tradicionales con entrevistas en video moderadas por IA que brindan profundidad cualitativa a escala. La plataforma detecta fraudes y ofrece información lista para ejecutivos en cuestión de horas.",
+            "charlotte_impact": "Las pymes de venta al por menor de Charlotte pueden realizar investigaciones de mercado de alta calidad sobre las tendencias de consumo locales sin el costo de una agencia tradicional. Los dueños de negocios deben usar estas herramientas para probar nuevos conceptos de productos con grupos focales específicos de Charlotte.",
+            "impact_score": 3
+        },
+        {
+            "title": "UBS advierte sobre un choque de IA en los mercados crediticios",
+            "industry": "Banca",
+            "summary": "Los analistas de UBS sugieren que el rápido ritmo de la disrupción de la IA podría causar un choque en el sistema de los mercados crediticios. Esta transformación está ocurriendo más rápido de lo previsto, lo que podría afectar la forma en que se valora el crédito empresarial.",
+            "charlotte_impact": "Los asesores financieros con sede en Charlotte deben monitorear la volatilidad impulsada por la IA en el crédito corporativo para proteger las carteras de las pymes locales. Los dueños de negocios deben mantener una alta transparencia de datos para garantizar que los modelos crediticios impulsados por IA reflejen con precisión su estabilidad.",
+            "impact_score": 4
+        },
+        {
+            "title": "Goose: El agente de programación de IA gratuito y de código abierto",
             "industry": "Logística",
-            "summary": "Railway ha recaudado $100 millones para proporcionar infraestructura en la nube que permite implementaciones de segundos, diseñada específicamente para el ritmo rápido del código generado por IA. La plataforma ofrece ahorros de costos significativos al cobrar solo por el tiempo de computación activo en lugar de máquinas virtuales inactivas.",
-            "charlotte_impact": "Las startups de logística con visión tecnológica en el corredor de South End pueden reducir sus costos de infraestructura migrando de proveedores de nube tradicionales a este modelo basado en el uso. Los desarrolladores locales deben aprovechar estas plataformas de 'velocidad de agente' para disminuir el tiempo de comercialización de nuevas herramientas de automatización de la cadena de suministro.",
+            "summary": "Block ha lanzado Goose, una alternativa gratuita y de código abierto a los costosos asistentes de programación de IA que se ejecuta localmente en la máquina del usuario. Permite la programación y depuración autónomas sin cuotas de suscripción ni preocupaciones por la privacidad de los datos.",
+            "charlotte_impact": "Las empresas de logística de Charlotte con equipos de TI pequeños pueden usar Goose para crear herramientas de seguimiento personalizadas sin un gran presupuesto de software. Las pymes deben aprovechar los LLM locales para mantener los datos operativos patentados fuera de la nube mientras automatizan los flujos de trabajo.",
+            "impact_score": 4
+        },
+        {
+            "title": "Infraestructura en la nube nativa de IA de 100 millones de dólares de Railway",
+            "industry": "Logística",
+            "summary": "Railway está desafiando a AWS con una plataforma en la nube diseñada para la velocidad del código generado por IA, ofreciendo despliegues en menos de un segundo. La plataforma reduce significativamente los costos y la complejidad para los desarrolladores que crean aplicaciones de IA.",
+            "charlotte_impact": "Las startups de Charlotte en los sectores de logística y tecnología financiera deben evaluar Railway para reducir los gastos generales de la nube hasta en un 65%. Las pymes técnicas pueden aumentar su velocidad de despliegue para seguir siendo competitivas frente a empresas nacionales más grandes.",
             "impact_score": 3
         }
     ]

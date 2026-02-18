@@ -1,39 +1,74 @@
 {
-    "timestamp": "2026-02-17 20:55 UTC",
+    "timestamp": "2026-02-18 06:44 UTC",
     "articles": [
         {
-            "title": "Salesforce Rebuilds Slackbot as 'Super Agent' for Enterprise Data",
+            "title": "JP Morgan Commercial Bank AI Overhaul",
             "industry": "Banking",
-            "summary": "Salesforce has transformed Slackbot into a powerful AI agent capable of searching across Salesforce records, Google Drive, and calendars to automate complex tasks. The tool is now generally available to Business+ and Enterprise+ users, aiming to act as a central hub for workplace productivity.",
-            "charlotte_impact": "Financial professionals in Uptown can use this to summarize long compliance threads or client histories directly within their chat interface. SMBs should audit their Slack permissions now to ensure these agents can safely access the data needed to automate daily reporting.",
+            "summary": "JP Morgan is integrating AI into its commercial banking operations to streamline client services and risk management. This shift signals a broader industry move toward automated financial advisory and operational efficiency.",
+            "charlotte_impact": "Local Charlotte fintech startups and SMBs should align their service offerings to integrate with major bank AI APIs. Business owners should prepare for AI-driven credit assessments when seeking commercial loans.",
             "impact_score": 5
         },
         {
-            "title": "Meta Secures 1.1GW of Solar Power for Carolina-Based AI Data Centers",
+            "title": "Meta’s 100MW Solar Expansion in South Carolina",
             "industry": "Energy",
-            "summary": "Meta has inked deals for over 1GW of solar power, including a 100MW project in South Carolina specifically to support regional AI data center operations. This move underscores the massive energy infrastructure required to sustain the current AI boom in the Southeast.",
-            "charlotte_impact": "With Duke Energy headquartered in Uptown, local energy contractors and electrical SMBs should prepare for a surge in grid-modernization sub-contracts. Businesses should monitor regional utility shifts as AI-driven energy demands may influence local commercial power rates.",
+            "summary": "Meta is investing in 100MW of solar power in South Carolina to support its regional AI data centers. This move highlights the growing energy demand of AI infrastructure in the Carolinas.",
+            "charlotte_impact": "Charlotte energy SMBs should pivot toward solar installation and grid management services to support the regional AI-Energy corridor. Local businesses can leverage these infrastructure investments to advocate for greener corporate energy credits.",
             "impact_score": 4
         },
         {
-            "title": "Real Estate Industry Shifts Toward Agentic AI and Conversational Search",
+            "title": "Anthropic Cowork for Local File Management",
             "industry": "Real Estate",
-            "summary": "The real estate sector is moving from traditional filters to 'agentic AI' that can autonomously handle property discovery and buyer queries. Platforms like Homes.com are now integrating Microsoft Azure OpenAI to provide more nuanced, conversational search experiences.",
-            "charlotte_impact": "Brokers in high-demand areas like Myers Park and Dilworth can deploy these AI tools to provide 24/7 personalized concierge services to prospective buyers. Local firms should integrate these conversational tools to compete with national platforms by layering in hyper-local neighborhood expertise.",
+            "summary": "Anthropic launched Cowork, an agent that can organize, edit, and analyze local files without requiring coding skills. It allows users to automate administrative tasks like expense reporting and document sorting directly on their desktops.",
+            "charlotte_impact": "Charlotte real estate firms can use this to automate the processing of closing documents and property records without high-cost software. SMBs should implement this tool to reduce administrative overhead in document-heavy workflows.",
             "impact_score": 4
         },
         {
-            "title": "Listen Labs Raises $69M to Replace Traditional Surveys with AI Video Interviews",
+            "title": "Salesforce Rebuilds Slackbot as an AI Agent",
             "industry": "Retail",
-            "summary": "Listen Labs has secured funding to scale its platform that uses AI moderators to conduct in-depth video interviews with customers, delivering insights in hours rather than weeks. The platform aims to eliminate market research fraud and provide deeper qualitative data than standard surveys.",
-            "charlotte_impact": "Boutique retailers in NoDa or Plaza Midwood can now conduct professional-grade focus groups on new product lines without the massive overhead of traditional research firms. SMBs can use this to gather authentic video feedback from the local Charlotte community to refine their brand messaging.",
+            "summary": "Salesforce transformed Slackbot into a super agent capable of searching enterprise data and drafting documents across Google Drive and Salesforce. This allows employees to interact with complex business data through a simple chat interface.",
+            "charlotte_impact": "Charlotte retail managers can use this to instantly query inventory levels or sales trends across multiple platforms via mobile. SMBs should train staff on agentic prompts to eliminate hours of manual data searching.",
+            "impact_score": 5
+        },
+        {
+            "title": "AI-Powered Medical Scan Reports for Patients",
+            "industry": "Healthcare",
+            "summary": "New AI tools are making medical scan reports twice as easy for patients to understand by translating jargon into plain language. This technology aims to improve patient engagement and reduce the burden on clinical staff for explanations.",
+            "charlotte_impact": "Local private practices in Charlotte should adopt these patient-facing AI tools to differentiate their service quality. Healthcare SMBs can reduce administrative call volumes by providing AI-generated summaries of lab results.",
             "impact_score": 3
         },
         {
-            "title": "Railway Secures $100M for AI-Native Cloud Infrastructure to Challenge AWS",
+            "title": "Homes.com Launches Filterless AI Property Search",
+            "industry": "Real Estate",
+            "summary": "Homes.com is utilizing Microsoft Azure OpenAI to move toward a natural language, filterless search for home buyers. This allows users to describe their ideal home in detail rather than clicking checkboxes.",
+            "charlotte_impact": "Charlotte brokers should optimize their listing descriptions for natural language search rather than just keywords. Local real estate SMBs should integrate similar AI assistants to capture leads from the tech-savvy homebuyer demographic.",
+            "impact_score": 4
+        },
+        {
+            "title": "Listen Labs Scales AI-Powered Customer Interviews",
+            "industry": "Retail",
+            "summary": "Listen Labs raised $69M to replace traditional surveys with AI-moderated video interviews that provide qualitative depth at scale. The platform detects fraud and delivers executive-ready insights in hours.",
+            "charlotte_impact": "Charlotte retail SMBs can conduct high-quality market research on local consumer trends without the cost of a traditional agency. Business owners should use these tools to test new product concepts with Charlotte-specific focus groups.",
+            "impact_score": 3
+        },
+        {
+            "title": "UBS Warns of AI Shock to Credit Markets",
+            "industry": "Banking",
+            "summary": "UBS analysts suggest that the rapid pace of AI disruption could cause a shock to the system in credit markets. This transformation is happening faster than anticipated, potentially affecting how business credit is valued.",
+            "charlotte_impact": "Charlotte-based financial advisors must monitor AI-driven volatility in corporate credit to protect local SMB portfolios. Business owners should maintain high data transparency to ensure AI-driven credit models accurately reflect their stability.",
+            "impact_score": 4
+        },
+        {
+            "title": "Goose: The Free Open-Source AI Coding Agent",
             "industry": "Logistics",
-            "summary": "Railway has raised $100 million to provide cloud infrastructure that allows for sub-second deployments, specifically designed for the rapid pace of AI-generated code. The platform offers significant cost savings by charging only for active compute time rather than idle virtual machines.",
-            "charlotte_impact": "Tech-forward logistics startups in the South End corridor can slash their infrastructure costs by migrating from traditional cloud providers to this usage-based model. Local developers should leverage these 'agentic speed' platforms to decrease the time-to-market for new supply chain automation tools.",
+            "summary": "Block has released Goose, a free, open-source alternative to expensive AI coding assistants that runs locally on a user's machine. It allows for autonomous coding and debugging without subscription fees or data privacy concerns.",
+            "charlotte_impact": "Charlotte logistics firms with small IT teams can use Goose to build custom tracking tools without a large software budget. SMBs should leverage local LLMs to keep proprietary operational data off the cloud while automating workflows.",
+            "impact_score": 4
+        },
+        {
+            "title": "Railway’s $100M AI-Native Cloud Infrastructure",
+            "industry": "Logistics",
+            "summary": "Railway is challenging AWS with a cloud platform designed for the speed of AI-generated code, offering deployments in under one second. The platform significantly reduces costs and complexity for developers building AI applications.",
+            "charlotte_impact": "Charlotte startups in the logistics and fintech sectors should evaluate Railway to reduce cloud overhead by up to 65%. Technical SMBs can increase their deployment velocity to stay competitive with larger national firms.",
             "impact_score": 3
         }
     ]
