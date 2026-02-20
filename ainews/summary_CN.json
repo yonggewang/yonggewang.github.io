@@ -1,75 +1,122 @@
-{
-    "timestamp": "2026-02-18 06:44 UTC",
-    "articles": [
-        {
-            "title": "摩根大通商业银行人工智能大改造",
-            "industry": "银行业",
-            "summary": "摩根大通正将人工智能整合到其商业银行业务中，以简化客户服务和风险管理。这一转变标志着整个行业正向自动化财务咨询和运营效率迈进。",
-            "charlotte_impact": "夏洛特当地的金融科技初创公司和中小企业应调整其服务产品，以便与大型银行的人工智能 API 对接。企业主在寻求商业贷款时，应为人工智能驱动的信用评估做好准备。",
-            "impact_score": 5
-        },
-        {
-            "title": "Meta 在南卡罗来纳州扩建 100 兆瓦太阳能项目",
-            "industry": "能源",
-            "summary": "Meta 正在南卡罗来纳州投资 100 兆瓦的太阳能，以支持其区域性人工智能数据中心。此举凸显了卡罗来纳州人工智能基础设施日益增长的能源需求。",
-            "charlotte_impact": "夏洛特的能源中小企业应转向太阳能安装和电网管理服务，以支持区域性人工智能能源走廊。当地企业可以利用这些基础设施投资来倡导更环保的企业能源信贷。",
-            "impact_score": 4
-        },
-        {
-            "title": "Anthropic 推出用于本地文件管理的 Cowork",
-            "industry": "房地产",
-            "summary": "Anthropic 推出了 Cowork，这是一款无需编程技能即可组织、编辑和分析本地文件的智能体。它允许用户直接在桌面上自动执行报销报告和文档分类等行政任务。",
-            "charlotte_impact": "夏洛特的房地产公司可以使用该工具自动处理成交文件和房产记录，而无需昂贵的软件。中小企业应采用此工具，以减少文档密集型工作流程中的行政开支。",
-            "impact_score": 4
-        },
-        {
-            "title": "Salesforce 将 Slackbot 重塑为人工智能智能体",
-            "industry": "零售业",
-            "summary": "Salesforce 将 Slackbot 转型为一个超级智能体，能够跨 Google Drive 和 Salesforce 搜索企业数据并起草文档。这使得员工可以通过简单的聊天界面与复杂的业务数据进行交互。",
-            "charlotte_impact": "夏洛特的零售经理可以通过移动端即时查询多个平台的库存水平或销售趋势。中小企业应培训员工使用智能体提示词，以消除数小时的手动数据搜索。",
-            "impact_score": 5
-        },
-        {
-            "title": "面向患者的人工智能驱动医学扫描报告",
-            "industry": "医疗保健",
-            "summary": "新型人工智能工具通过将专业术语翻译成通俗易懂的语言，使患者理解医学扫描报告的难度降低了一半。该技术旨在提高患者参与度，并减轻临床人员解释报告的负担。",
-            "charlotte_impact": "夏洛特当地的私人诊所应采用这些面向患者的人工智能工具，以实现服务质量的差异化。医疗保健中小企业可以通过提供人工智能生成的化验结果摘要来减少行政电话量。",
-            "impact_score": 3
-        },
-        {
-            "title": "Homes.com 推出无筛选器人工智能房产搜索",
-            "industry": "房地产",
-            "summary": "Homes.com 正在利用 Microsoft Azure OpenAI 为购房者提供自然语言、无筛选器的搜索。这允许用户详细描述他们理想的家，而不是点击复选框。",
-            "charlotte_impact": "夏洛特的经纪人应针对自然语言搜索而非仅仅是关键词来优化其房源描述。当地房地产中小企业应整合类似的人工智能助手，以吸引精通技术的购房群体。",
-            "impact_score": 4
-        },
-        {
-            "title": "Listen Labs 扩展人工智能驱动的客户访谈",
-            "industry": "零售业",
-            "summary": "Listen Labs 筹集了 6900 万美元，用人工智能主持的视频访谈取代传统调查，从而大规模提供定性深度分析。该平台可检测欺诈行为，并在数小时内提供可供高管参考的见解。",
-            "charlotte_impact": "夏洛特的零售中小企业可以对当地消费趋势进行高质量的市场研究，而无需支付传统机构的费用。企业主应使用这些工具，通过针对夏洛特的焦点小组来测试新产品概念。",
-            "impact_score": 3
-        },
-        {
-            "title": "瑞银警告人工智能将对信贷市场造成冲击",
-            "industry": "银行业",
-            "summary": "瑞银分析师表示，人工智能颠覆的快速步伐可能会对信贷市场系统造成冲击。这种转型发生的速度比预期的要快，可能会影响企业信用的估值方式。",
-            "charlotte_impact": "总部位于夏洛特的财务顾问必须监测人工智能驱动的企业信贷波动，以保护当地中小企业的投资组合。企业主应保持高度的数据透明度，以确保人工智能驱动的信用模型能够准确反映其稳定性。",
-            "impact_score": 4
-        },
-        {
-            "title": "Goose：免费开源的人工智能编程智能体",
-            "industry": "物流业",
-            "summary": "Block 发布了 Goose，这是一款免费、开源的替代方案，可替代昂贵的人工智能编程助手，并在用户的机器上本地运行。它允许在没有订阅费或数据隐私顾虑的情况下进行自主编程和调试。",
-            "charlotte_impact": "拥有小型 IT 团队的夏洛特物流公司可以使用 Goose 构建自定义跟踪工具，而无需庞大的软件预算。中小企业应利用本地大语言模型 (LLM) 在自动化工作流程的同时，确保专有运营数据不离开云端。",
-            "impact_score": 4
-        },
-        {
-            "title": "Railway 价值 1 亿美元的人工智能原生云基础设施",
-            "industry": "物流业",
-            "summary": "Railway 正在挑战 AWS，其云平台专为人工智能生成代码的速度而设计，提供不到一秒的部署速度。该平台显著降低了开发人员构建人工智能应用的成本和复杂性。",
-            "charlotte_impact": "夏洛特物流和金融科技行业的初创公司应评估 Railway，以将云开销降低多达 65%。技术型中小企业可以提高其部署速度，以保持与大型全国性公司的竞争力。",
-            "impact_score": 3
-        }
-    ]
-}
+[
+  {
+    "title": "你见过中国新型人形AI机器人的实力吗？",
+    "url": "https://www.shtfplan.com/technology/have-you-seen-what-chinas-new-humanoid-ai-powered-robots-are-capable-of-doing",
+    "industry": "Robotics",
+    "summary": "中国新型AI人形机器人亮相，展示先进性能，有望通过自动化与增效赋能各行各业。",
+    "charlotte_impact": "可能影响制造与物流业，催生对专业机器人技术员及AI集成专家的需求。",
+    "impact_score": 8
+  },
+  {
+    "title": "现代战争演变：军用无人机市场规模预计将突破400亿美元。",
+    "url": "https://www.globenewswire.com/news-release/2026/02/19/3241108/0/en/Military-UAV-Sector-Forecast-to-Surpass-40-Billion-as-Modern-Warfare-Evolves.html",
+    "industry": "Defense",
+    "summary": "国防预算增长与AI自主化驱动，军事无人机市场预计将突破400亿美元，重塑现代战争。",
+    "charlotte_impact": "或将惠及专注AI与无人机技术的本土国防承包商，带动就业与经济增长。",
+    "impact_score": 7
+  },
+  {
+    "title": "AI 找房或将改变购房方式。",
+    "url": "https://www.foxnews.com/tech/ai-home-search-could-change-how-you-buy-house",
+    "industry": "Real Estate",
+    "summary": "Homes.com 推出基于微软 Azure OpenAI 的 Homes AI，支持自然语言描述需求，或将革新房屋搜索流程。",
+    "charlotte_impact": "或将改变夏洛特居民的搜房方式，提升当地房产市场的效率与个性化。",
+    "impact_score": 6
+  },
+  {
+    "title": "百万青年、量子大学与AI实验室：奈杜的安得拉邦雄心蓝图。",
+    "url": "https://indianexpress.com/article/india/chandrababu-naidu-aggressive-blueprint-for-andhra-pradesh-10541084/",
+    "industry": "Government/Education",
+    "summary": "安得拉邦拟建量子大学与AI实验室，彰显政府正加大AI投资。",
+    "charlotte_impact": "聚焦全球AI竞争，强调夏洛特需推动AI教育与创新以保持竞争力。",
+    "impact_score": 5
+  },
+  {
+    "title": "印度或于周五加入美国主导的“Pax Silica”战略联盟。",
+    "url": "https://www.thehindubusinessline.com/economy/india-likely-to-join-us-led-strategic-alliance-pax-silica-on-friday/article70652113.ece",
+    "industry": "Geopolitics/Technology",
+    "summary": "印度预计加入美国主导的“硅和平”联盟，构建关键矿产与AI的安全韧性供应链，凸显了地缘政治对AI资源的日益关注。",
+    "charlotte_impact": "若当地企业依赖成员国的关键矿产或AI技术，或将影响夏洛特的供应链。",
+    "impact_score": 6
+  },
+  {
+    "title": "**每日速递：自主贩毒潜艇与道德标榜机器人**",
+    "url": "https://www.technologyreview.com/2026/02/19/1133339/the-download-autonomous-narco-submarines-and-virtue-signaling-chatbots/",
+    "industry": "Law Enforcement/Technology",
+    "summary": "自主贩毒潜艇成为哥伦比亚毒品贸易的新威胁，凸显了AI在非法活动中的应用。",
+    "charlotte_impact": "间接影响：引发AI滥用担忧，亟需应对措施。",
+    "impact_score": 4
+  },
+  {
+    "title": "GoGo AI 旗下 Algo8 为印度钢铁基建巨头部署 AI 决策系统，优化能耗。",
+    "url": "https://financialpost.com/globe-newswire/gogo-ai-network-portfolio-company-algo8-deploys-ai-decision-support-system-to-optimize-energy-use-at-major-indian-steel-infrastructure-group",
+    "industry": "Energy/Manufacturing",
+    "summary": "GoGo AI Network 旗下的 Algo8 为印度某大型钢铁基建集团部署 AI 决策支持系统以优化能效，展现了 AI 在能源领域的潜力。",
+    "charlotte_impact": "或可激励夏洛特高耗能企业采用AI方案，实现降本与可持续发展。",
+    "impact_score": 5
+  },
+  {
+    "title": "Agereh 凭资深董事会与高管团队强化治理。",
+    "url": "https://financialpost.com/globe-newswire/agereh-strengthens-governance-with-experienced-board-and-executive-leadership-team",
+    "industry": "Technology/Corporate Governance",
+    "summary": "加拿大AI公司 Agereh Technologies 强化资深董事会与高管团队，完善治理，助力商业加速增长。",
+    "charlotte_impact": "强调AI公司强有力的领导与治理，值得夏洛特企业借鉴。",
+    "impact_score": 3
+  },
+  {
+    "title": "萨蒂亚吉特·达斯：AI——人工智能还是绝对疯狂？",
+    "url": "https://biztoc.com/x/c26a2ed6238207f3?ref=ff",
+    "industry": "Commentary/Analysis",
+    "summary": "萨蒂亚吉特·达斯质疑AI是人工智能还是“绝对疯狂”，并对AI野蛮生长的风险表示担忧。",
+    "charlotte_impact": "激发夏洛特社区对 AI 伦理与社会影响的批判性思考。",
+    "impact_score": 4
+  },
+  {
+    "title": "人工智能ETF，还是AI驱动的ETF？",
+    "url": "https://etfdb.com/disruptive-technology-channel/artificial-intelligence-etfs-or-etfs-powered-by-ai/",
+    "industry": "Finance/Investment",
+    "summary": "本文探讨了AI主题ETF与AI驱动型ETF的区别。",
+    "charlotte_impact": "聚焦夏洛特金融，提供 AI 及其驱动技术的投资洞察。",
+    "impact_score": 3
+  },
+  {
+    "title": "AI 2027：人工智能将带来繁荣还是生存风险？",
+    "url": "https://medium.com/@kaustubhkalyankar/ai-2027-will-artificial-intelligence-bring-prosperity-or-pose-an-existential-risk-b3071da5e6ab",
+    "industry": "Future Trends/Analysis",
+    "summary": "探讨2027年AI风险与回报的文章，涵盖对齐失效与超级智能等风险。",
+    "charlotte_impact": "夏洛特领导者与企业应正视AI挑战，做好相应规划。",
+    "impact_score": 5
+  },
+  {
+    "title": "未来三年将为对才华与勤奋丧失信心的一代人定义资本主义。CEO们能否应对挑战？",
+    "url": "https://fortune.com/2026/02/19/capitalism-gen-z-next-3-years-defining-moment-are-ceos-up-for-it/",
+    "industry": "Business/Economy",
+    "summary": "《财富》：未来三年将定义资本主义，部分取决于 AI 对劳动力的影响。",
+    "charlotte_impact": "夏洛特CEO们需应对AI引发的劳动力变革及其对当地经济的影响。",
+    "impact_score": 6
+  },
+  {
+    "title": "Frontline Education 发布第三份年度 K-12 洞察报告，揭示学区压力点转变。",
+    "url": "https://www.globenewswire.com/news-release/2026/02/19/3241124/0/en/Frontline-Education-Releases-Third-Annual-K-12-Lens-Report-Revealing-Shift-in-District-Pressure-Points.html",
+    "industry": "Education",
+    "summary": "Frontline Education发布报告，揭示K-12学区压力点的转变。",
+    "charlotte_impact": "夏洛特学校面临日益严峻的挑战，应考虑利用AI缓解压力。",
+    "impact_score": 4
+  },
+  {
+    "title": "亚马逊超越沃尔玛，成全球营收最高公司。",
+    "url": "https://economictimes.indiatimes.com/tech/technology/amazon-dethrones-walmart-as-worlds-biggest-company-by-sales/articleshow/128560400.cms",
+    "industry": "Retail",
+    "summary": "亚马逊取代沃尔玛，成为全球营收最高的公司。",
+    "charlotte_impact": "夏洛特零售商需通过创新，抗衡亚马逊AI驱动的供应链与营销。",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI 与 Anthropic 巨头峰会拒绝握手，画面走红。",
+    "url": "https://www.infomoney.com.br/mundo/chefoes-de-openai-e-anthropic-se-recuam-a-dar-as-maos-em-cupula-de-ia-e-cena-viraliza/",
+    "industry": "Technology/Business",
+    "summary": "OpenAI与Anthropic CEO在AI峰会上气氛紧张。",
+    "charlotte_impact": "突出 AI 竞争格局，或影响夏洛特科技行业。",
+    "impact_score": 2
+  }
+]

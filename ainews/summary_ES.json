@@ -1,75 +1,122 @@
-{
-    "timestamp": "2026-02-18 06:44 UTC",
-    "articles": [
-        {
-            "title": "Revisión de IA en la banca comercial de JP Morgan",
-            "industry": "Banca",
-            "summary": "JP Morgan está integrando la IA en sus operaciones de banca comercial para agilizar los servicios al cliente y la gestión de riesgos. Este cambio señala un movimiento más amplio de la industria hacia el asesoramiento financiero automatizado y la eficiencia operativa.",
-            "charlotte_impact": "Las startups de tecnología financiera y las pymes locales de Charlotte deben alinear sus ofertas de servicios para integrarse con las API de IA de los principales bancos. Los dueños de negocios deben prepararse para evaluaciones crediticias impulsadas por IA al solicitar préstamos comerciales.",
-            "impact_score": 5
-        },
-        {
-            "title": "Expansión solar de 100 MW de Meta en Carolina del Sur",
-            "industry": "Energía",
-            "summary": "Meta está invirtiendo en 100 MW de energía solar en Carolina del Sur para respaldar sus centros de datos regionales de IA. Este movimiento destaca la creciente demanda energética de la infraestructura de IA en las Carolinas.",
-            "charlotte_impact": "Las pymes de energía de Charlotte deben pivotar hacia servicios de instalación solar y gestión de redes para apoyar el corredor regional de IA y energía. Las empresas locales pueden aprovechar estas inversiones en infraestructura para abogar por créditos de energía corporativa más ecológicos.",
-            "impact_score": 4
-        },
-        {
-            "title": "Anthropic Cowork para la gestión de archivos locales",
-            "industry": "Bienes raíces",
-            "summary": "Anthropic lanzó Cowork, un agente que puede organizar, editar y analizar archivos locales sin necesidad de conocimientos de programación. Permite a los usuarios automatizar tareas administrativas como informes de gastos y clasificación de documentos directamente en sus escritorios.",
-            "charlotte_impact": "Las firmas de bienes raíces de Charlotte pueden usar esto para automatizar el procesamiento de documentos de cierre y registros de propiedad sin software de alto costo. Las pymes deben implementar esta herramienta para reducir la carga administrativa en flujos de trabajo con gran volumen de documentos.",
-            "impact_score": 4
-        },
-        {
-            "title": "Salesforce reconstruye Slackbot como un agente de IA",
-            "industry": "Venta al por menor",
-            "summary": "Salesforce transformó Slackbot en un súper agente capaz de buscar datos empresariales y redactar documentos en Google Drive y Salesforce. Esto permite a los empleados interactuar con datos comerciales complejos a través de una interfaz de chat sencilla.",
-            "charlotte_impact": "Los gerentes de ventas al por menor de Charlotte pueden usar esto para consultar instantáneamente niveles de inventario o tendencias de ventas en múltiples plataformas a través del móvil. Las pymes deben capacitar al personal en el uso de prompts para agentes para eliminar horas de búsqueda manual de datos.",
-            "impact_score": 5
-        },
-        {
-            "title": "Informes de escaneos médicos impulsados por IA para pacientes",
-            "industry": "Atención médica",
-            "summary": "Nuevas herramientas de IA están haciendo que los informes de escaneos médicos sean el doble de fáciles de entender para los pacientes al traducir la jerga a un lenguaje sencillo. Esta tecnología tiene como objetivo mejorar la participación del paciente y reducir la carga del personal clínico para dar explicaciones.",
-            "charlotte_impact": "Los consultorios privados locales en Charlotte deben adoptar estas herramientas de IA orientadas al paciente para diferenciar su calidad de servicio. Las pymes de atención médica pueden reducir el volumen de llamadas administrativas al proporcionar resúmenes de resultados de laboratorio generados por IA.",
-            "impact_score": 3
-        },
-        {
-            "title": "Homes.com lanza búsqueda de propiedades con IA sin filtros",
-            "industry": "Bienes raíces",
-            "summary": "Homes.com está utilizando Microsoft Azure OpenAI para avanzar hacia una búsqueda en lenguaje natural y sin filtros para compradores de viviendas. Esto permite a los usuarios describir su hogar ideal en detalle en lugar de marcar casillas.",
-            "charlotte_impact": "Los corredores de Charlotte deben optimizar las descripciones de sus listados para la búsqueda en lenguaje natural en lugar de solo palabras clave. Las pymes locales de bienes raíces deben integrar asistentes de IA similares para captar clientes potenciales del grupo demográfico de compradores de viviendas expertos en tecnología.",
-            "impact_score": 4
-        },
-        {
-            "title": "Listen Labs escala las entrevistas a clientes impulsadas por IA",
-            "industry": "Venta al por menor",
-            "summary": "Listen Labs recaudó 69 millones de dólares para reemplazar las encuestas tradicionales con entrevistas en video moderadas por IA que brindan profundidad cualitativa a escala. La plataforma detecta fraudes y ofrece información lista para ejecutivos en cuestión de horas.",
-            "charlotte_impact": "Las pymes de venta al por menor de Charlotte pueden realizar investigaciones de mercado de alta calidad sobre las tendencias de consumo locales sin el costo de una agencia tradicional. Los dueños de negocios deben usar estas herramientas para probar nuevos conceptos de productos con grupos focales específicos de Charlotte.",
-            "impact_score": 3
-        },
-        {
-            "title": "UBS advierte sobre un choque de IA en los mercados crediticios",
-            "industry": "Banca",
-            "summary": "Los analistas de UBS sugieren que el rápido ritmo de la disrupción de la IA podría causar un choque en el sistema de los mercados crediticios. Esta transformación está ocurriendo más rápido de lo previsto, lo que podría afectar la forma en que se valora el crédito empresarial.",
-            "charlotte_impact": "Los asesores financieros con sede en Charlotte deben monitorear la volatilidad impulsada por la IA en el crédito corporativo para proteger las carteras de las pymes locales. Los dueños de negocios deben mantener una alta transparencia de datos para garantizar que los modelos crediticios impulsados por IA reflejen con precisión su estabilidad.",
-            "impact_score": 4
-        },
-        {
-            "title": "Goose: El agente de programación de IA gratuito y de código abierto",
-            "industry": "Logística",
-            "summary": "Block ha lanzado Goose, una alternativa gratuita y de código abierto a los costosos asistentes de programación de IA que se ejecuta localmente en la máquina del usuario. Permite la programación y depuración autónomas sin cuotas de suscripción ni preocupaciones por la privacidad de los datos.",
-            "charlotte_impact": "Las empresas de logística de Charlotte con equipos de TI pequeños pueden usar Goose para crear herramientas de seguimiento personalizadas sin un gran presupuesto de software. Las pymes deben aprovechar los LLM locales para mantener los datos operativos patentados fuera de la nube mientras automatizan los flujos de trabajo.",
-            "impact_score": 4
-        },
-        {
-            "title": "Infraestructura en la nube nativa de IA de 100 millones de dólares de Railway",
-            "industry": "Logística",
-            "summary": "Railway está desafiando a AWS con una plataforma en la nube diseñada para la velocidad del código generado por IA, ofreciendo despliegues en menos de un segundo. La plataforma reduce significativamente los costos y la complejidad para los desarrolladores que crean aplicaciones de IA.",
-            "charlotte_impact": "Las startups de Charlotte en los sectores de logística y tecnología financiera deben evaluar Railway para reducir los gastos generales de la nube hasta en un 65%. Las pymes técnicas pueden aumentar su velocidad de despliegue para seguir siendo competitivas frente a empresas nacionales más grandes.",
-            "impact_score": 3
-        }
-    ]
-}
+[
+  {
+    "title": "¿Has visto de qué son capaces los nuevos robots humanoides chinos con IA?",
+    "url": "https://www.shtfplan.com/technology/have-you-seen-what-chinas-new-humanoid-ai-powered-robots-are-capable-of-doing",
+    "industry": "Robotics",
+    "summary": "China presenta nuevos robots humanoides con IA, destacando su potencial para transformar industrias mediante la automatización y eficiencia.",
+    "charlotte_impact": "Podría impactar la manufactura y logística, generando demanda de técnicos en robótica y especialistas en integración de IA.",
+    "impact_score": 8
+  },
+  {
+    "title": "**El sector de drones militares superará los 40.000 millones de dólares ante la evolución de la guerra moderna.**",
+    "url": "https://www.globenewswire.com/news-release/2026/02/19/3241108/0/en/Military-UAV-Sector-Forecast-to-Surpass-40-Billion-as-Modern-Warfare-Evolves.html",
+    "industry": "Defense",
+    "summary": "Se prevé que el sector de drones militares supere los 40.000 millones de dólares, impulsado por mayores presupuestos de defensa y sistemas autónomos con IA, transformando la guerra moderna.",
+    "charlotte_impact": "Podría beneficiar a contratistas locales de defensa en IA y drones, impulsando el empleo y el crecimiento económico.",
+    "impact_score": 7
+  },
+  {
+    "title": "La IA podría cambiar cómo compras casa.",
+    "url": "https://www.foxnews.com/tech/ai-home-search-could-change-how-you-buy-house",
+    "industry": "Real Estate",
+    "summary": "Homes.com lanzó Homes AI, impulsado por Microsoft Azure OpenAI, permitiendo búsquedas en lenguaje natural y revolucionando potencialmente el proceso de búsqueda de viviendas.",
+    "charlotte_impact": "Podría cambiar la búsqueda de viviendas en Charlotte, aumentando la eficiencia y personalización del mercado inmobiliario local.",
+    "impact_score": 6
+  },
+  {
+    "title": "Un millón de jóvenes, una universidad cuántica y laboratorios de IA: el plan agresivo de Chandrababu Naidu para Andhra Pradesh.",
+    "url": "https://indianexpress.com/article/india/chandrababu-naidu-aggressive-blueprint-for-andhra-pradesh-10541084/",
+    "industry": "Government/Education",
+    "summary": "Andhra Pradesh planea una gran iniciativa de IA con una universidad cuántica y laboratorios, reflejando la creciente inversión pública en el sector.",
+    "charlotte_impact": "Destaca la competencia global en IA y la necesidad de que Charlotte impulse la educación e innovación para seguir siendo competitiva.",
+    "impact_score": 5
+  },
+  {
+    "title": "India se uniría este viernes a 'Pax Silica', alianza estratégica liderada por EE. UU.",
+    "url": "https://www.thehindubusinessline.com/economy/india-likely-to-join-us-led-strategic-alliance-pax-silica-on-friday/article70652113.ece",
+    "industry": "Geopolitics/Technology",
+    "summary": "Se espera que la India se una a la alianza 'Pax Silica', liderada por EE. UU., para asegurar suministros de minerales críticos e IA, reflejando el creciente enfoque geopolítico en recursos tecnológicos.",
+    "charlotte_impact": "Podría afectar las cadenas de suministro de Charlotte si las empresas locales dependen de minerales críticos o IA de países miembros.",
+    "impact_score": 6
+  },
+  {
+    "title": "**The Download: narcosubmarinos autónomos y chatbots de postureo moral.**",
+    "url": "https://www.technologyreview.com/2026/02/19/1133339/the-download-autonomous-narco-submarines-and-virtue-signaling-chatbots/",
+    "industry": "Law Enforcement/Technology",
+    "summary": "Narcosubmarinos autónomos: nueva amenaza en el narcotráfico colombiano que evidencia el uso de IA en actividades ilegales.",
+    "charlotte_impact": "Impacto indirecto; plantea inquietudes sobre el mal uso de la IA y la necesidad de contramedidas.",
+    "impact_score": 4
+  },
+  {
+    "title": "Algo8, de GoGo AI Network, implementa sistema de IA para optimizar energía en importante grupo indio de acero e infraestructura.",
+    "url": "https://financialpost.com/globe-newswire/gogo-ai-network-portfolio-company-algo8-deploys-ai-decision-support-system-to-optimize-energy-use-at-major-indian-steel-infrastructure-group",
+    "industry": "Energy/Manufacturing",
+    "summary": "Algo8, de GoGo AI Network, implementó un sistema de IA para optimizar el consumo energético en un importante grupo indio de acero e infraestructura, demostrando el potencial de la IA en eficiencia energética.",
+    "charlotte_impact": "Podría inspirar a empresas de Charlotte en industrias de alto consumo energético a adoptar IA para ahorrar costos y sostenibilidad.",
+    "impact_score": 5
+  },
+  {
+    "title": "**Agereh fortalece su gobernanza con un consejo y equipo directivo experimentados.**",
+    "url": "https://financialpost.com/globe-newswire/agereh-strengthens-governance-with-experienced-board-and-executive-leadership-team",
+    "industry": "Technology/Corporate Governance",
+    "summary": "Agereh Technologies, empresa canadiense de IA, fortalece su gobernanza con una junta y liderazgo experimentados, sentando las bases para un crecimiento comercial acelerado.",
+    "charlotte_impact": "Resalta la importancia de un liderazgo y gobernanza sólidos en IA, lección clave para las empresas de Charlotte.",
+    "impact_score": 3
+  },
+  {
+    "title": "Satyajit Das: IA – ¿Inteligencia artificial o locura absoluta?",
+    "url": "https://biztoc.com/x/c26a2ed6238207f3?ref=ff",
+    "industry": "Commentary/Analysis",
+    "summary": "Satyajit Das cuestiona si la IA es Inteligencia Artificial o Insensatez Absoluta, alertando sobre los riesgos de un desarrollo sin control.",
+    "charlotte_impact": "Fomenta el pensamiento crítico sobre las implicaciones éticas y sociales de la IA en la comunidad de Charlotte.",
+    "impact_score": 4
+  },
+  {
+    "title": "¿ETFs de Inteligencia Artificial o ETFs impulsados por IA?",
+    "url": "https://etfdb.com/disruptive-technology-channel/artificial-intelligence-etfs-or-etfs-powered-by-ai/",
+    "industry": "Finance/Investment",
+    "summary": "El artículo analiza las diferencias entre los ETFs de Inteligencia Artificial y los ETFs impulsados por IA.",
+    "charlotte_impact": "Relevante para el sector financiero de Charlotte; ofrece perspectivas sobre inversión en IA y tecnologías basadas en IA.",
+    "impact_score": 3
+  },
+  {
+    "title": "IA 2027: ¿Traerá la IA prosperidad o un riesgo existencial?",
+    "url": "https://medium.com/@kaustubhkalyankar/ai-2027-will-artificial-intelligence-bring-prosperity-or-pose-an-existential-risk-b3071da5e6ab",
+    "industry": "Future Trends/Analysis",
+    "summary": "Un artículo sobre riesgos frente a beneficios de la IA para 2027, incluyendo la falta de alineación y la superinteligencia.",
+    "charlotte_impact": "Es importante que líderes y empresas de Charlotte consideren los retos de la IA para planificar adecuadamente.",
+    "impact_score": 5
+  },
+  {
+    "title": "Los próximos 3 años definirán el capitalismo para una generación que pierde la fe en el talento y el esfuerzo. ¿Están los CEOs a la altura del reto?",
+    "url": "https://fortune.com/2026/02/19/capitalism-gen-z-next-3-years-defining-moment-are-ceos-up-for-it/",
+    "industry": "Business/Economy",
+    "summary": "Fortune analiza cómo los próximos 3 años definirán el capitalismo, en parte por el impacto de la IA en el trabajo.",
+    "charlotte_impact": "Los CEO de Charlotte deben prepararse para los cambios laborales de la IA y su impacto en la economía local.",
+    "impact_score": 6
+  },
+  {
+    "title": "Frontline Education publica el 3er Informe Anual K-12 Lens: cambian los puntos de presión de los distritos.",
+    "url": "https://www.globenewswire.com/news-release/2026/02/19/3241124/0/en/Frontline-Education-Releases-Third-Annual-K-12-Lens-Report-Revealing-Shift-in-District-Pressure-Points.html",
+    "industry": "Education",
+    "summary": "Frontline Education publica un informe sobre cambios en los puntos de presión de la educación K-12.",
+    "charlotte_impact": "Las escuelas de Charlotte enfrentan retos crecientes y deben considerar cómo la IA puede aliviar tensiones.",
+    "impact_score": 4
+  },
+  {
+    "title": "Amazon destrona a Walmart como la mayor empresa del mundo por ventas.",
+    "url": "https://economictimes.indiatimes.com/tech/technology/amazon-dethrones-walmart-as-worlds-biggest-company-by-sales/articleshow/128560400.cms",
+    "industry": "Retail",
+    "summary": "Amazon destrona a Walmart como la mayor empresa del mundo por ventas.",
+    "charlotte_impact": "Minoristas de Charlotte deben innovar para competir con la logística y el marketing de Amazon basados en IA.",
+    "impact_score": 5
+  },
+  {
+    "title": "**Jefes de OpenAI y Anthropic se niegan a darse la mano en cumbre y el video se viraliza.**",
+    "url": "https://www.infomoney.com.br/mundo/chefoes-de-openai-e-anthropic-se-recuam-a-dar-as-maos-em-cupula-de-ia-e-cena-viraliza/",
+    "industry": "Technology/Business",
+    "summary": "Los CEO de OpenAI y Anthropic viven un momento tenso en una cumbre de IA.",
+    "charlotte_impact": "Destaca el panorama competitivo de la IA y su posible impacto en el sector tecnológico de Charlotte.",
+    "impact_score": 2
+  }
+]
