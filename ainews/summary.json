@@ -3,200 +3,200 @@
     "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
     "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
     "industry": "Cloud Infrastructure",
-    "summary": "Railway, an AI-native cloud infrastructure provider, secured $100 million in Series B funding to challenge AWS and Google Cloud. Railway distinguishes itself by providing faster deployments and cost savings due to its vertically integrated hardware and software stack.",
-    "charlotte_impact": "Could provide Charlotte companies with a more cost-effective and agile cloud infrastructure option, especially beneficial for startups and companies developing AI applications.",
-    "impact_score": 8
-  },
-  {
-    "title": "OpenAI reportedly finalizing $100B deal at more than $850B valuation",
-    "url": "https://techcrunch.com/2026/02/19/openai-reportedly-finalizing-100b-deal-at-more-than-850b-valuation/",
-    "industry": "Artificial Intelligence",
-    "summary": "OpenAI is reportedly finalizing a $100 billion funding deal at an $850 billion valuation, with significant backing from major tech companies like Amazon, Nvidia, SoftBank, and Microsoft. This demonstrates the huge investment interest in leading AI companies.",
-    "charlotte_impact": "Significant valuation of OpenAI could spur increased investment in local AI startups and attract talent to the Charlotte region.",
-    "impact_score": 7
+    "summary": "Railway secured $100 million in Series B funding to challenge AWS with its AI-native cloud infrastructure, focusing on faster deployment times to match the speed of AI-generated code. The platform boasts significant cost savings and increased developer velocity for enterprise clients.",
+    "charlotte_impact": "Could attract Charlotte businesses seeking more agile and cost-effective cloud solutions for AI development, potentially disrupting existing relationships with AWS and other providers.",
+    "impact_score": 9
   },
   {
     "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
     "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
     "industry": "Enterprise Software",
-    "summary": "Salesforce launched a rebuilt Slackbot powered by Anthropic's Claude, transforming it into an AI agent capable of searching enterprise data, drafting documents, and taking actions for employees. It's being positioned to become the front door to the agentic enterprise powered by Salesforce.",
-    "charlotte_impact": "May improve efficiency and collaboration within Charlotte companies using Salesforce and Slack, especially if implemented correctly and if data access costs remain manageable.",
-    "impact_score": 7
-  },
-  {
-    "title": "All the important news from the ongoing India AI Impact Summit",
-    "url": "https://techcrunch.com/2026/02/19/all-the-important-news-from-the-ongoing-india-ai-summit/",
-    "industry": "Artificial Intelligence",
-    "summary": "India is hosting a major AI Impact Summit attended by executives from leading AI labs and Big Tech companies, highlighting the growing importance of India in the global AI landscape. This Summit focuses on discussing AI implementation, ethics and future.",
-    "charlotte_impact": "India AI Summit signals a growing competitive landscape, spurring innovation, potentially impacting global tech talent flows and outsourcing for Charlotte firms.",
-    "impact_score": 5
+    "summary": "Salesforce launched a rebuilt Slackbot, powered by Anthropic's Claude, as an AI agent capable of searching enterprise data, drafting documents, and taking action on behalf of employees, directly competing with Microsoft Copilot and Google Gemini. Internal testing showed significant time savings and high satisfaction rates among Salesforce employees.",
+    "charlotte_impact": "Charlotte businesses using Salesforce and Slack could see increased productivity and efficiency, while also facing potential cost pressures related to Salesforce's API access fees.",
+    "impact_score": 8
   },
   {
     "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
     "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
     "industry": "Market Research",
-    "summary": "Listen Labs raised $69 million to scale its AI-powered customer interview platform that automates participant recruitment, interview conduct, and insight delivery. Their AI researcher provides actionable insights in hours compared to traditional research methods.",
-    "charlotte_impact": "Charlotte-based companies can benefit from faster and more affordable customer insights, influencing product development and marketing strategies.",
+    "summary": "Listen Labs raised $69 million to scale its AI-powered customer interview platform, which automates participant recruitment, conducts in-depth interviews, and delivers actionable insights, challenging traditional market research methods. Companies like Microsoft and Chubbies are already using the platform to accelerate product development and gather customer feedback.",
+    "charlotte_impact": "Charlotte businesses can leverage Listen Labs to gather rapid customer insights and validate product decisions, potentially leading to more successful product launches and improved customer satisfaction.",
     "impact_score": 7
   },
   {
-    "title": "Nvidia deepens early-stage push into India\u2019s AI startup ecosystem",
-    "url": "https://techcrunch.com/2026/02/19/nvidia-deepens-early-stage-push-into-indias-ai-startup-ecosystem/",
+    "title": "The OpenAI mafia: 18 startups founded by alumni | TechCrunch",
+    "url": "https://techcrunch.com/2026/02/20/the-openai-mafia-15-of-the-most-notable-startups-founded-by-alumni/",
     "industry": "Venture Capital",
-    "summary": "Nvidia is increasing its early-stage investment push into India's AI startup ecosystem, aiming to build stronger connections with emerging AI founders. Nvidia is working with investors, nonprofits, and venture firms in India to build earlier ties.",
-    "charlotte_impact": "May indirectly affect Charlotte if local firms have operations or partnerships in India, or if Charlotte investors consider Indian AI companies.",
+    "summary": "This article lists 18 startups founded by OpenAI alumni, highlighting the growing ecosystem and talent pool emerging from leading AI companies. It's not really an article, just a title/link.",
+    "charlotte_impact": "Indirectly impacts Charlotte by showcasing the innovation and entrepreneurial activity within the AI sector, potentially inspiring local talent and attracting investment.",
     "impact_score": 3
   },
   {
-    "title": "Google\u2019s new Gemini Pro model has record benchmark scores \u2014 again",
-    "url": "https://techcrunch.com/2026/02/19/googles-new-gemini-pro-model-has-record-benchmark-scores-again/",
-    "industry": "Artificial Intelligence",
-    "summary": "Google's new Gemini Pro model has achieved record benchmark scores, signifying advancements in its LLM capabilities and highlighting its ability to handle more complex workloads. This improves Google's standing in the competitive AI landscape.",
-    "charlotte_impact": "Improved AI models like Gemini could provide better cloud services and AI tools that Charlotte companies can utilize for innovation.",
-    "impact_score": 6
-  },
-  {
-    "title": "Why these startup CEOs don\u2019t think AI will replace human roles",
-    "url": "https://techcrunch.com/2026/02/19/web-summit-qatar-read-ai-lucidya-notetakers-customer-support/",
-    "industry": "Artificial Intelligence",
-    "summary": "Startup CEOs from Read AI and Lucidya believe AI tools will augment human roles by replacing specific tasks, rather than replacing entire worker positions. This view suggests AI implementations will be more about efficiency and skill enhancement than outright job displacement.",
-    "charlotte_impact": "Reassures Charlotte's workforce that AI will primarily enhance, rather than eliminate, jobs, requiring upskilling and adaptation to new workflows.",
-    "impact_score": 5
-  },
-  {
-    "title": "YouTube\u2019s latest experiment brings its conversational AI tool to TVs",
-    "url": "https://techcrunch.com/2026/02/19/youtubes-latest-experiment-brings-its-conversational-ai-tool-to-tvs/",
-    "industry": "Entertainment",
-    "summary": "YouTube is experimenting with bringing its conversational AI tool to smart TVs, allowing viewers to ask questions related to the videos they are watching. This enhancement personalizes user experience.",
-    "charlotte_impact": "Limited direct impact on Charlotte businesses, primarily affects entertainment consumption habits.",
-    "impact_score": 2
-  },
-  {
-    "title": "Reddit is testing a new AI search feature for shopping",
-    "url": "https://techcrunch.com/2026/02/19/reddit-is-testing-a-new-ai-search-feature-for-shopping/",
-    "industry": "E-commerce",
-    "summary": "Reddit is testing a new AI-powered search feature for shopping, displaying interactive product carousels with pricing, images, and direct purchase links. This aims to enhance the shopping experience on the platform.",
-    "charlotte_impact": "Could provide Charlotte-based e-commerce businesses with an additional channel for product discovery and sales through Reddit, assuming effective integration.",
-    "impact_score": 5
-  },
-  {
-    "title": "Wyndham Works With Google and Anthropic on AI Bookings",
-    "url": "https://skift.com/2026/02/19/wyndham-works-with-google-and-anthropic-on-ai-bookings/",
-    "industry": "Travel",
-    "summary": "Wyndham is collaborating with Google and Anthropic to integrate AI into their booking systems, potentially reducing reliance on online travel agencies. This move highlights the evolving landscape of travel bookings with AI.",
-    "charlotte_impact": "Local Charlotte hotels could potentially benefit from AI booking platforms, leading to decreased OTA reliance and lower customer acquisition costs.",
+    "title": "The creator economy\u2019s ad revenue problem and India\u2019s AI ambitions",
+    "url": "https://techcrunch.com/video/the-creator-economys-ad-revenue-problem-and-indias-ai-ambitions/",
+    "industry": "Creator Economy",
+    "summary": "The creator economy is moving beyond ad revenue, with creators diversifying into product lines, acquisitions, and business empires. MrBeast's success in chocolate sales surpassing media revenue is highlighted.",
+    "charlotte_impact": "Local Charlotte creators could explore diversification strategies to enhance revenue streams and build sustainable businesses, inspired by the trends discussed.",
     "impact_score": 4
   },
   {
-    "title": "Meta smartwatch aims to compete with Garmin, Apple and Samsung via AI features by 2026",
-    "url": "https://www.notebookcheck.net/Meta-smartwatch-aims-to-compete-with-Garmin-Apple-and-Samsung-via-AI-features-by-2026.1230125.0.html",
-    "industry": "Wearable Technology",
-    "summary": "Meta is developing a smartwatch with AI features to compete with established players like Garmin, Apple, and Samsung, indicating a growing trend of AI-integrated wearables. Focus will be on health and wellness applications.",
-    "charlotte_impact": "Could drive demand for specialized AI and data analytics skills within Charlotte's tech sector if there are local companies involved in the wearables supply chain or development.",
-    "impact_score": 4
-  },
-  {
-    "title": "Anthropic\u2019s Super Bowl ad pays off: How Claude users surge 11% and enters Apple App Store's top 10 after taking aim at OpenAI",
-    "url": "https://economictimes.indiatimes.com/news/international/us/anthropics-super-bowl-ad-pays-off-how-claude-users-surge-11-and-enters-apple-app-stores-top-10-after-taking-aim-at-openai/articleshow/128561354.cms",
-    "industry": "Artificial Intelligence",
-    "summary": "Anthropic's Super Bowl ad significantly boosted the usage of its AI platform, Claude, after targeting competitor OpenAI. User numbers increased and it entered Apple App Store's top 10.",
-    "charlotte_impact": "Highlights the intense competition in the AI space, potentially lowering costs and improving the access of Charlotte businesses to cutting-edge AI tools.",
-    "impact_score": 4
-  },
-  {
-    "title": "Old Attorney, New Tricks: \u2018Boomer lawyer\u2019 gives AI a try",
-    "url": "https://www.abajournal.com/columns/article/a-boomer-lawyer-tries-ai",
-    "industry": "Legal",
-    "summary": "An older lawyer tries to integrate AI into their practice, showing a growing trend of AI adoption across various professions. This demonstrates a shift towards lifelong learning regarding AI.",
-    "charlotte_impact": "Encourages Charlotte legal firms to explore AI tools for enhanced efficiency and service delivery, potentially requiring training programs and technology investments.",
-    "impact_score": 4
-  },
-  {
-    "title": "This \u2018Machine Eye\u2019 Could Give Robots Superhuman Reflexes",
-    "url": "https://singularityhub.com/2026/02/19/this-machine-eye-could-give-robots-superhuman-reflexes/#article",
-    "industry": "Robotics",
-    "summary": "A new 'machine eye' running on a brain-like chip is being developed that could give robots superhuman reflexes, aiding in areas such as self-driving cars. It enables split-second decisions that are vital for safety and efficiency.",
-    "charlotte_impact": "Supports development and deployment of advanced robotics solutions in Charlotte's growing advanced manufacturing and logistics sectors.",
-    "impact_score": 3
-  },
-  {
-    "title": "Open Channels FM: How AI Is Changing the Way Developers Work",
-    "url": "https://openchannels.fm/how-ai-is-changing-the-way-developers-work/",
-    "industry": "Software Development",
-    "summary": "AI tools are changing how developers work, making coding more enjoyable but increasing workloads, demanding more visibility in contributions. The rise of AI is revitalizing programming.",
-    "charlotte_impact": "Enhances productivity of Charlotte's software developers, while increased visibility requirements necessitate stronger data governance and collaboration practices.",
+    "title": "InScope nabs $14.5M to solve the pain of financial reporting",
+    "url": "https://techcrunch.com/2026/02/20/inscope-nabs-14-5m-to-solve-the-pain-of-financial-reporting/",
+    "industry": "Financial Software",
+    "summary": "InScope secured $14.5M to automate financial reporting, addressing the challenges of preparing financial statements for businesses. The startup was founded by accountants from companies like Flexport and Miro.",
+    "charlotte_impact": "Charlotte businesses could benefit from InScope's automation capabilities, streamlining financial reporting processes and reducing manual effort for finance teams.",
     "impact_score": 5
   },
   {
-    "title": "The AI hype bubble might parallel the dot-com era bust",
-    "url": "https://www.techtarget.com/searchcio/feature/The-AI-hype-bubble-might-parallel-the-dot-com-era-bust",
-    "industry": "Investment",
-    "summary": "Some are comparing the current AI hype to the dot-com bubble. The AI hype bubble might parallel the dot-com era bust but there are significant differences as well.",
-    "charlotte_impact": "Encourages local investors to perform due diligence and avoid overinvesting in AI-related businesses without a solid financial basis. It urges caution and realistic expectations.",
-    "impact_score": 5
-  },
-  {
-    "title": "AI-generated passwords are a security risk",
-    "url": "https://www.malwarebytes.com/blog/news/2026/02/ai-generated-passwords-are-a-security-risk",
-    "industry": "Cybersecurity",
-    "summary": "AI-generated passwords are a security risk because they are predictable and not truly random, making them easier for cybercriminals to crack. AI's role in cybersecurity is double edged.",
-    "charlotte_impact": "Charlotte businesses need to be cautious about relying solely on AI to generate passwords and should invest in more robust security measures.",
-    "impact_score": 6
-  },
-  {
-    "title": "Active Pharmaceutical Ingredients Market Size Worth USD 425.26 Billion by 2035",
-    "url": "https://www.globenewswire.com/news-release/2026/02/19/3241255/0/en/Active-Pharmaceutical-Ingredients-Market-Size-Worth-USD-425-26-Billion-by-2035.html",
-    "industry": "Pharmaceuticals",
-    "summary": "The active pharmaceutical ingredients (API) market is expected to reach USD 425.26 billion by 2035, growing at a CAGR of 5.95% from 2026, driven by increased demand for pharmaceuticals. AI could play a role in API discovery and synthesis.",
-    "charlotte_impact": "If Charlotte has any pharmaceutical manufacturing or research, AI could influence API development efficiency.",
-    "impact_score": 2
-  },
-  {
-    "title": "Co-Packaged Optics & Optical Interconnects Patent Landscape Analysis Report 2026: 1,300 Patent Families Analyzed Since 2020 with Global Filing Trends, Leading Assignees and IP Newcomers Identified",
-    "url": "https://www.globenewswire.com/news-release/2026/02/19/3241254/28124/en/Co-Packaged-Optics-Optical-Interconnects-Patent-Landscape-Analysis-Report-2026-1-300-Patent-Families-Analyzed-Since-2020-with-Global-Filing-Trends-Leading-Assignees-and-IP-Newcomer.html",
-    "industry": "Semiconductors",
-    "summary": "The Co-Packaged Optics (CPO) market, driven by AI, is analyzed in a patent landscape report highlighting key players like Intel and TSMC. CPO is essential for advanced semiconductor packaging used in next-gen electronics.",
-    "charlotte_impact": "If Charlotte has any semiconductor-related industry, the growth of AI could increase demand for CPO and provide opportunities for technology development.",
-    "impact_score": 2
-  },
-  {
-    "title": "OpenAI says 18 to 24-year-olds account for nearly 50% of ChatGPT usage in India",
+    "title": "OpenAI says 18- to 24-year-olds account for nearly 50% of ChatGPT usage in India",
     "url": "https://techcrunch.com/2026/02/20/openai-says-18-to-24-year-olds-account-for-nearly-50-of-chatgpt-usage-in-india/",
-    "industry": "Artificial Intelligence",
-    "summary": "OpenAI reported that 18 to 24-year-olds make up nearly 50% of ChatGPT's users in India, highlighting the platform's appeal to younger demographics in the country. This statistic reveals an opportunity for educators and job seekers alike.",
-    "charlotte_impact": "This statistic implies that the younger generation in Charlotte is prepared for a career in AI and related topics, allowing for an opportunity in technical schools and further education.",
-    "impact_score": 4
+    "industry": "AI Adoption",
+    "summary": "OpenAI reports that 18- to 24-year-olds account for nearly 50% of ChatGPT usage in India, indicating high adoption rates among younger demographics. This suggests a strong future market for AI tools.",
+    "charlotte_impact": "This has a limited direct impact on Charlotte, but informs overall AI adoption trends which indirectly impacts tech talent market and business strategy.",
+    "impact_score": 2
   },
   {
-    "title": "Emails show 'Godfather of AGI' Ben Goertzel courted Epstein for funding and congratulated him on jail release",
-    "url": "https://www.businessinsider.com/ben-goertzel-jeffrey-epstein-agi-researcher-emails-jail-2026-2",
-    "industry": "Ethics",
-    "summary": "Ben Goertzel accepted money from Jeffrey Epstein to build the \"Sputnik of AI\", and now regrets not conducting due diligence. The association of AI research with controversial figures raises ethical questions.",
-    "charlotte_impact": "Highlights the ethical considerations when funding AI projects. It serves as a reminder for businesses in Charlotte to perform due diligence before aligning with specific investors.",
-    "impact_score": 4
-  },
-  {
-    "title": "ThreatsDay Bulletin: OpenSSL RCE, Foxit 0-Days, Copilot Leak, AI Password Flaws & 20+ Stories",
-    "url": "https://thehackernews.com/2026/02/threatsday-bulletin-openssl-rce-foxit-0.html",
-    "industry": "Cybersecurity",
-    "summary": "This bulletin discusses various cyber threats, including vulnerabilities in OpenSSL, Foxit, Copilot, and AI password flaws, underscoring the rapidly evolving threat landscape. Staying informed and taking preventive measures are essential for maintaining cybersecurity.",
-    "charlotte_impact": "Charlotte businesses need to stay informed about the latest cybersecurity threats and implement appropriate measures to protect themselves from attacks.",
-    "impact_score": 6
-  },
-  {
-    "title": "Message from her match was 'like a robot had sent it.' How AI is changing dating apps",
-    "url": "https://www.cbc.ca/news/canada/hamilton/online-dating-ai-burlington-9.7097111",
-    "industry": "Dating",
-    "summary": "This article discusses how AI is changing dating apps, with some users reporting that messages from matches sound like they were written by a robot. AI is being used to craft profiles and messages, raising questions about authenticity in online dating.",
-    "charlotte_impact": "While there is limited business impact, it may provide local dating app businesses to provide authenticity and make them more appealing to customers.",
+    "title": "India\u2019s Sarvam launches Indus AI chat app as competition heats up",
+    "url": "https://techcrunch.com/2026/02/20/indias-sarvam-launches-indus-ai-chat-app-as-competition-heats-up/",
+    "industry": "AI Chatbots",
+    "summary": "India's Sarvam launched the Indus AI chat app, signaling increasing competition in the AI chatbot market within the region. The app is currently in beta.",
+    "charlotte_impact": "Limited direct impact, but this is reflective of growing global trends in AI technology development and adoption, which indirectly may impact Charlotte's tech scene.",
     "impact_score": 1
+  },
+  {
+    "title": "Anthropic-funded group backs candidate attacked by rival AI super PAC",
+    "url": "https://techcrunch.com/2026/02/20/anthropic-funded-group-backs-candidate-attacked-by-rival-ai-super-pac/",
+    "industry": "Politics and AI",
+    "summary": "An Anthropic-funded group backs a candidate targeted by a rival AI super PAC, highlighting the growing political influence of AI companies and the debates surrounding AI regulation.",
+    "charlotte_impact": "Illustrates the rising role of AI in politics and lobbying. This could encourage Charlotte businesses to engage with policymakers on AI-related issues.",
+    "impact_score": 3
+  },
+  {
+    "title": "Peak XV raises $1.3B, doubles down on AI as global VC rivalry in India heats up",
+    "url": "https://techcrunch.com/2026/02/20/peak-xv-raises-1-3b-doubles-down-on-ai-as-global-vc-rivalry-in-india-heats-up/",
+    "industry": "Venture Capital",
+    "summary": "Peak XV raised $1.3B, prioritizing AI, fintech, and cross-border investments in India, amidst increasing global VC competition. This signals a growing focus on the Indian AI market.",
+    "charlotte_impact": "Indirectly indicates the importance of AI and fintech as areas of investment. Charlotte's fintech businesses may benefit from the capital flow, but unlikely directly.",
+    "impact_score": 4
+  },
+  {
+    "title": "PM Modi holds roundtable with 16 heads of AI, deeptech startups; nine bilaterals with leaders, CEOs",
+    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/pm-modi-holds-roundtable-with-16-heads-of-ai-deeptech-startups-nine-bilaterals-with-leaders-ceos/articleshow/128609277.cms",
+    "industry": "Government and AI",
+    "summary": "PM Modi held a roundtable with 16 heads of AI and deeptech startups, showcasing India's commitment to fostering innovation in the AI sector. He also engaged in bilateral discussions with leaders and CEOs.",
+    "charlotte_impact": "Limited direct impact on Charlotte, but underscores the global trend of governments actively promoting and shaping the AI landscape, a space that Charlotte businesses should be aware of.",
+    "impact_score": 3
+  },
+  {
+    "title": "Gemini 3.1 Targets General AI While Rivals Focus on Coding Models",
+    "url": "https://www.geeky-gadgets.com/gemini-general-model-strategy/",
+    "industry": "AI Models",
+    "summary": "Google's Gemini 3.1 focuses on general AI, multimodal reasoning, agentic reinforcement learning, and cost efficiency, contrasting with rivals focusing on coding models. This is a step closer toward artificial general intelligence (AGI).",
+    "charlotte_impact": "Indirectly impacts Charlotte by advancing the capabilities and potential applications of AI models, which Charlotte businesses might later leverage.",
+    "impact_score": 5
+  },
+  {
+    "title": "In India, Lula Puts Middle-Power Diplomacy on Display",
+    "url": "http://foreignpolicy.com/2026/02/20/brazil-india-lula-modi-visit-ai-rare-earths-cooperation/",
+    "industry": "International Relations & AI",
+    "summary": "Brazil\u2019s president hopes to cooperate with India on AI and rare earth minerals. This cooperation could shape both countries' AI development and resource access.",
+    "charlotte_impact": "Indirectly impacts Charlotte through the evolving global AI landscape, including potential supply chain and resource implications.",
+    "impact_score": 2
+  },
+  {
+    "title": "World shares, US futures advance after AI fears drag Wall Street lower",
+    "url": "https://www.bostonherald.com/2026/02/20/financial-markets-ai-us-iran/",
+    "industry": "Financial Markets",
+    "summary": "World shares and US futures advance after AI fears drag Wall Street lower. Market sentiment toward tech is subject to flux.",
+    "charlotte_impact": "May have limited impact on Charlotte, but illustrates impact of sentiment toward AI on local businesses and investment opportunities.",
+    "impact_score": 2
+  },
+  {
+    "title": "Diabetes Therapeutics and Diagnostics Industry Worth $241.5 Billion by 2030: Growing Public-Private Partnerships and Industry Collaborations Present Lucrative Business Opportunities",
+    "url": "https://www.globenewswire.com/news-release/2026/02/20/3241864/28124/en/Diabetes-Therapeutics-and-Diagnostics-Industry-Worth-241-5-Billion-by-2030-Growing-Public-Private-Partnerships-and-Industry-Collaborations-Present-Lucrative-Business-Opportunities.html",
+    "industry": "Healthcare",
+    "summary": "The diabetes therapeutics and diagnostics industry is projected to reach $241.5 billion by 2030, driven by public-private partnerships. AI is not directly mentioned, however AI applications are useful in this industry.",
+    "charlotte_impact": "Charlotte area companies engaged in healthcare analytics or medical device development could find opportunities related to diabetes research or monitoring devices.",
+    "impact_score": 4
+  },
+  {
+    "title": "Pakistan Establishes Its Sovereign AI Position with the Adoption of the Islamabad AI Declaration",
+    "url": "https://www.globenewswire.com/news-release/2026/02/20/3241856/0/en/Pakistan-Establishes-Its-Sovereign-AI-Position-with-the-Adoption-of-the-Islamabad-AI-Declaration.html",
+    "industry": "Government & AI Policy",
+    "summary": "Pakistan establishes its AI position with the adoption of the Islamabad AI Declaration, focused on Sovereign, Responsible, and Capability-Driven AI. It contains nine foundational principles.",
+    "charlotte_impact": "Reflects a global trend of governments actively shaping AI policy, which Charlotte-based companies need to be aware of for global operations or partnerships.",
+    "impact_score": 2
+  },
+  {
+    "title": "Clinical Trials Market Competitive Landscape Report 2025: Company Strategies, Sustainability Benchmarking, Key Player Developments, and Revenue Forecasts to 2033",
+    "url": "https://www.globenewswire.com/news-release/2026/02/20/3241853/28124/en/Clinical-Trials-Market-Competitive-Landscape-Report-2025-Company-Strategies-Sustainability-Benchmarking-Key-Player-Developments-and-Revenue-Forecasts-to-2033.html",
+    "industry": "Clinical Trials",
+    "summary": "The Clinical Trials market is expected to reach $99.25 Billion by 2033, driven by innovation in chronic disease treatments. The specific intersection of AI and clinical trials is not expanded upon in this article.",
+    "charlotte_impact": "Indirectly impacts Charlotte area companies involved in healthcare and pharmaceuticals, as clinical trials are an important stage for drug development and regulatory processes.",
+    "impact_score": 2
+  },
+  {
+    "title": "India's AI governance push takes center stage at summit",
+    "url": "https://www.dw.com/en/indias-ai-governance-push-takes-center-stage-at-summit/a-76058826",
+    "industry": "Government & AI",
+    "summary": "India's AI governance push takes center stage at a summit, emphasizing the responsible use of AI while India works to enforce its own AI policies. Government interest in AI is growing and becoming more complex.",
+    "charlotte_impact": "Limited direct impact on Charlotte, but shows the increasing global focus on AI governance and the need for ethical considerations in AI development and deployment.",
+    "impact_score": 3
+  },
+  {
+    "title": "Modi\u2019s Chaotic AI Summit Showed India\u2019s Clout and Constraints",
+    "url": "https://financialpost.com/pmn/business-pmn/modis-chaotic-ai-summit-showed-indias-clout-and-constraints",
+    "industry": "Government & AI",
+    "summary": "Modi's AI summit showcased India's clout and constraints in the AI sector. The summit had multiple hitches which points to the difficulties of effectively developing AI policy on a national scale.",
+    "charlotte_impact": "Charlotte may be indirectly impacted by international competition for leadership in AI, but the direct implications are likely low.",
+    "impact_score": 2
+  },
+  {
+    "title": "Central Nervous System Therapeutics Market Growth Accelerates to USD 285.72 Billion by 2035 with Strong Investment in Neuropharma Innovations",
+    "url": "https://www.globenewswire.com/news-release/2026/02/20/3241846/0/en/Central-Nervous-System-Therapeutics-Market-Growth-Accelerates-to-USD-285-72-Billion-by-2035-with-Strong-Investment-in-Neuropharma-Innovations.html",
+    "industry": "Healthcare",
+    "summary": "The Central Nervous System Therapeutics market is set to reach $285.72 Billion by 2035 with investment in neuropharma innovations. AI's application within this market is implied.",
+    "charlotte_impact": "Charlotte area companies engaged in healthcare or medical research could find opportunities in CNS therapeutics, including leveraging AI for drug discovery and personalized treatment.",
+    "impact_score": 4
   },
   {
     "title": "Artificial Intelligence ETFs, or ETFs Powered by AI?",
     "url": "https://etfdb.com/disruptive-technology-channel/artificial-intelligence-etfs-or-etfs-powered-by-ai/",
-    "industry": "Finance",
-    "summary": "Artificial Intelligence ETFs, or ETFs Powered by AI? VettaFi writers take a look at artificial intelligence ETFs and ETFs powered by AI, and the differences between the two categories.",
-    "charlotte_impact": "Greater understanding of investment options in Artificial Intelligence can lead to more informed decisions by investors in Charlotte.",
+    "industry": "Investing",
+    "summary": "The article discusses the difference between AI ETFs and ETFs powered by AI. This helps investors clarify which ETFs are making use of AI.",
+    "charlotte_impact": "May have some limited indirect impact on Charlotte, but it is unlikely to directly impact the investment decisions of local people.",
+    "impact_score": 2
+  },
+  {
+    "title": "AI 2027: Will Artificial Intelligence Bring Prosperity or Pose an Existential Risk?",
+    "url": "https://medium.com/@kaustubhkalyankar/ai-2027-will-artificial-intelligence-bring-prosperity-or-pose-an-existential-risk-b3071da5e6ab",
+    "industry": "General AI",
+    "summary": "This article questions the future of AI and if it will bring prosperity or existential risk. It covers topics such as misalignment and super intelligence.",
+    "charlotte_impact": "May have some very limited and indirect impact on Charlotte, by bringing more visibility to AI topics, but unlikely to have meaningful local impact.",
+    "impact_score": 1
+  },
+  {
+    "title": "Great news for xAI: Grok is now pretty good at answering questions about Baldur\u2019s Gate",
+    "url": "https://techcrunch.com/2026/02/20/great-news-for-xai-grok-is-now-pretty-good-at-answering-questions-about-baldurs-gate/",
+    "industry": "AI Models",
+    "summary": "Engineers at xAI prioritized improving Grok's ability to answer questions about the video game Baldur's Gate. This highlights the quirks and occasional misprioritization in AI model development.",
+    "charlotte_impact": "Limited direct impact, but serves as a reminder of the current state of AI technology - powerful, but also prone to unexpected quirks.  This indirectly informs Charlotte businesses' expectations and use of AI.",
+    "impact_score": 1
+  },
+  {
+    "title": "AI\u2019s promise to indie filmmakers: Faster, cheaper, lonelier",
+    "url": "https://techcrunch.com/2026/02/20/ais-promise-to-indie-filmmakers-faster-cheaper-lonelier/",
+    "industry": "Film Industry",
+    "summary": "AI offers indie filmmakers faster, cheaper, and potentially lonelier filmmaking. AI might overwhelm creatives.",
+    "charlotte_impact": "Charlotte area filmmakers might get more value out of AI.",
     "impact_score": 3
+  },
+  {
+    "title": "Assistant Professor in Data-driven Marketing with a special focus on Data Science for Marketing - Akadeus",
+    "url": "https://akadeus.com/announcement/9672",
+    "industry": "Education",
+    "summary": "Akadeus.com advertised a Data-Driven Marketing professor with a focus on data science for marketing.",
+    "charlotte_impact": "Local educational institutions might want to add professors with similar qualifications.",
+    "impact_score": 2
   }
 ]

@@ -2,213 +2,697 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Pulso de IA de Queen City</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Informe de Inteligencia IA</title>
+<style>
+:root {
+  --bg-light:#f6f8fb;
+  --card-light:#ffffff;
+  --text-light:#111;
+  --accent:#2563eb;
+
+  --bg-dark:#0f172a;
+  --card-dark:#1e293b;
+  --text-dark:#f1f5f9;
+}
+
+body {
+  margin:0;
+  padding:20px;
+  font-family:-apple-system,BlinkMacSystemFont;
+  background:var(--bg-light);
+  color:var(--text-light);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background:var(--bg-dark);
+    color:var(--text-dark);
+  }
+  .card {
+    background:var(--card-dark);
+  }
+}
+
+h1 {
+  font-size:32px;
+  margin-bottom:5px;
+}
+
+.subtitle {
+  color:#6b7280;
+  margin-bottom:30px;
+}
+
+.section-title {
+  font-size:20px;
+  margin:30px 0 15px 0;
+  font-weight:600;
+}
+
+.card {
+  background:var(--card-light);
+  border-radius:20px;
+  padding:22px;
+  margin-bottom:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.05);
+}
+
+.card.featured {
+  border:1px solid rgba(37,99,235,0.3);
+}
+
+.card-header {
+  display:flex;
+  justify-content:space-between;
+  font-size:13px;
+  margin-bottom:10px;
+}
+
+.industry {
+  background:#eef2ff;
+  padding:4px 10px;
+  border-radius:20px;
+}
+
+.badge {
+  background:linear-gradient(90deg,#2563eb,#3b82f6);
+  color:white;
+  padding:4px 10px;
+  border-radius:20px;
+  font-size:12px;
+}
+
+.impact-bar {
+  height:6px;
+  background:#e5e7eb;
+  border-radius:6px;
+  margin:10px 0 15px 0;
+  overflow:hidden;
+}
+
+.impact-fill {
+  height:6px;
+  background:linear-gradient(90deg,#2563eb,#60a5fa);
+}
+
+.summary {
+  font-size:15px;
+  line-height:1.5;
+}
+
+.charlotte {
+  background:rgba(37,99,235,0.06);
+  padding:12px;
+  border-radius:12px;
+  margin-top:12px;
+  font-size:14px;
+}
+
+.readmore {
+  display:inline-block;
+  margin-top:15px;
+  font-weight:600;
+  text-decoration:none;
+  color:var(--accent);
+}
+
+.footer {
+  text-align:center;
+  font-size:12px;
+  margin-top:40px;
+  opacity:0.6;
+}
+
+</style>
 </head>
 <body>
-<h1>Pulso de IA de Queen City</h1>
-<p>Last Updated: 2026-02-20 15:18 UTC</p>
-<hr>
 
-<h2>Railway recauda $100 millones para desafiar a AWS con infraestructura de nube nativa de IA.</h2>
-<p><strong>Industry:</strong> Cloud Infrastructure</p>
-<p><strong>Impact Score:</strong> 8/10</p>
-<p>Railway, proveedor de infraestructura en la nube nativa de IA, recaudó $100 millones en Serie B para competir con AWS y Google Cloud. Se destaca por ofrecer despliegues más rápidos y menores costos gracias a su integración vertical de hardware y software.</p>
-<p><strong>Charlotte Impact:</strong> Ofrecería a las empresas de Charlotte una infraestructura en la nube más ágil y rentable, ideal para startups y desarrolladores de IA.</p>
-<p><a href="https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud" target="_blank">Read Original</a></p>
-<hr>
+<h1>Informe de Inteligencia IA</h1>
+<p class="subtitle">
+2026-02-21 13:03 UTC
+</p>
 
-<h2>OpenAI cerraría acuerdo de $100 mil millones con valoración superior a $850 mil millones.</h2>
-<p><strong>Industry:</strong> Artificial Intelligence</p>
-<p><strong>Impact Score:</strong> 7/10</p>
-<p>OpenAI estaría finalizando una ronda de financiación de 100.000 millones de dólares con una valoración de 850.000 millones, respaldada por Amazon, Nvidia, SoftBank y Microsoft. Esto refleja el enorme interés inversor en las empresas líderes de IA.</p>
-<p><strong>Charlotte Impact:</strong> La alta valoración de OpenAI podría impulsar la inversión en startups locales de IA y atraer talento a la región de Charlotte.</p>
-<p><a href="https://techcrunch.com/2026/02/19/openai-reportedly-finalizing-100b-deal-at-more-than-850b-valuation/" target="_blank">Read Original</a></p>
-<hr>
+<div class="section-title">⭐ Top 5 Today</div>
 
-<h2>Salesforce lanza un nuevo agente de IA para Slackbot frente a Microsoft y Google.</h2>
-<p><strong>Industry:</strong> Enterprise Software</p>
-<p><strong>Impact Score:</strong> 7/10</p>
-<p>Salesforce lanzó un Slackbot rediseñado con Claude de Anthropic, transformándolo en un agente de IA que busca datos, redacta y ejecuta tareas. Se posiciona como la puerta de entrada a la "empresa agéntica" de Salesforce.</p>
-<p><strong>Charlotte Impact:</strong> Puede mejorar la eficiencia y colaboración en empresas de Charlotte con Salesforce y Slack, si se implementa bien y los costos de datos son manejables.</p>
-<p><a href="https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and" target="_blank">Read Original</a></p>
-<hr>
+<div class="card featured">
+  <div class="card-header">
+    <span class="industry">Cloud Infrastructure</span>
+    <span class="badge">High Impact</span>
+  </div>
 
-<h2>**Lo más relevante del India AI Impact Summit.**</h2>
-<p><strong>Industry:</strong> Artificial Intelligence</p>
-<p><strong>Impact Score:</strong> 5/10</p>
-<p>India organiza una cumbre clave sobre el impacto de la IA con líderes de laboratorios y Big Tech, resaltando su creciente peso global. El evento analiza la implementación, ética y futuro de esta tecnología.</p>
-<p><strong>Charlotte Impact:</strong> La Cumbre de IA de la India señala una mayor competencia e innovación, con impacto potencial en el talento global y el *outsourcing* de empresas en Charlotte.</p>
-<p><a href="https://techcrunch.com/2026/02/19/all-the-important-news-from-the-ongoing-india-ai-summit/" target="_blank">Read Original</a></p>
-<hr>
+  <h2>Railway obtiene 100 millones de dólares para desafiar a AWS con una infraestructura de nube nativa de IA</h2>
 
-<h2>Listen Labs recauda $69M tras viral campaña de contratación para escalar entrevistas con IA.</h2>
-<p><strong>Industry:</strong> Market Research</p>
-<p><strong>Impact Score:</strong> 7/10</p>
-<p>Listen Labs recaudó $69 millones para escalar su plataforma de entrevistas con IA, que automatiza el reclutamiento, la ejecución y el análisis. Su investigador de IA genera hallazgos accionables en horas, superando a los métodos tradicionales.</p>
-<p><strong>Charlotte Impact:</strong> Empresas de Charlotte pueden obtener insights de clientes más rápidos y económicos, optimizando su desarrollo de productos y marketing.</p>
-<p><a href="https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai" target="_blank">Read Original</a></p>
-<hr>
+  <div class="impact-bar">
+      <div class="impact-fill" style="width:90%"></div>
+  </div>
 
-<h2>Nvidia profundiza su apuesta por las startups de IA en fase inicial en la India.</h2>
-<p><strong>Industry:</strong> Venture Capital</p>
-<p><strong>Impact Score:</strong> 3/10</p>
-<p>Nvidia aumenta su inversión inicial en el ecosistema de IA de la India para fortalecer vínculos con fundadores emergentes. Colabora con inversores y firmas de capital de riesgo para forjar lazos desde etapas tempranas.</p>
-<p><strong>Charlotte Impact:</strong> Podría afectar indirectamente a Charlotte si empresas locales tienen operaciones en India o si inversores locales consideran firmas indias de IA.</p>
-<p><a href="https://techcrunch.com/2026/02/19/nvidia-deepens-early-stage-push-into-indias-ai-startup-ecosystem/" target="_blank">Read Original</a></p>
-<hr>
+  <p class="summary">Railway obtuvo 100 millones de dólares en financiación Serie B para desafiar a AWS con su infraestructura de nube nativa de IA, centrándose en tiempos de implementación más rápidos para igualar la velocidad del código generado por IA. La plataforma cuenta con importantes ahorros de costos y una mayor velocidad de desarrollo para clientes empresariales.</p>
 
-<h2>El nuevo Gemini Pro de Google logra puntuaciones récord — otra vez.</h2>
-<p><strong>Industry:</strong> Artificial Intelligence</p>
-<p><strong>Impact Score:</strong> 6/10</p>
-<p>Gemini Pro de Google logró puntuaciones récord, demostrando avances en sus capacidades de LLM y manejo de tareas complejas. Esto refuerza su posición en el competitivo mercado de la IA.</p>
-<p><strong>Charlotte Impact:</strong> Modelos de IA mejorados como Gemini podrían ofrecer mejores servicios de nube y herramientas para que las empresas de Charlotte innoven.</p>
-<p><a href="https://techcrunch.com/2026/02/19/googles-new-gemini-pro-model-has-record-benchmark-scores-again/" target="_blank">Read Original</a></p>
-<hr>
+  <div class="charlotte">
+    <strong>Charlotte Impact</strong>
+    <p>Podría atraer a empresas de Charlotte que buscan soluciones en la nube más ágiles y rentables para el desarrollo de IA, lo que podría alterar las relaciones existentes con AWS y otros proveedores.</p>
+  </div>
 
-<h2>**Por qué estos CEOs de startups no creen que la IA reemplace los roles humanos.**</h2>
-<p><strong>Industry:</strong> Artificial Intelligence</p>
-<p><strong>Impact Score:</strong> 5/10</p>
-<p>Los CEO de Read AI y Lucidya creen que la IA potenciará el trabajo humano al reemplazar tareas, no puestos. Esto prioriza la eficiencia y la mejora de habilidades sobre el desplazamiento laboral.</p>
-<p><strong>Charlotte Impact:</strong> Asegura a la fuerza laboral de Charlotte que la IA potenciará los empleos en lugar de eliminarlos, exigiendo capacitación y adaptación a nuevos procesos.</p>
-<p><a href="https://techcrunch.com/2026/02/19/web-summit-qatar-read-ai-lucidya-notetakers-customer-support/" target="_blank">Read Original</a></p>
-<hr>
+  <a href="https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud" target="_blank" class="readmore">Read Full Article →</a>
+</div>
 
-<h2>El último experimento de YouTube lleva su IA conversacional a la TV.</h2>
-<p><strong>Industry:</strong> Entertainment</p>
-<p><strong>Impact Score:</strong> 2/10</p>
-<p>YouTube prueba su IA conversacional en smart TVs para que los usuarios pregunten sobre los videos, personalizando así su experiencia.</p>
-<p><strong>Charlotte Impact:</strong> Impacto directo limitado en empresas de Charlotte; afecta principalmente hábitos de consumo de entretenimiento.</p>
-<p><a href="https://techcrunch.com/2026/02/19/youtubes-latest-experiment-brings-its-conversational-ai-tool-to-tvs/" target="_blank">Read Original</a></p>
-<hr>
+<div class="card featured">
+  <div class="card-header">
+    <span class="industry">Enterprise Software</span>
+    <span class="badge">High Impact</span>
+  </div>
 
-<h2>Reddit prueba una nueva función de búsqueda con IA para compras.</h2>
-<p><strong>Industry:</strong> E-commerce</p>
-<p><strong>Impact Score:</strong> 5/10</p>
-<p>Reddit prueba una búsqueda con IA para compras, con carruseles interactivos de productos, precios y enlaces directos para mejorar la experiencia en la plataforma.</p>
-<p><strong>Charlotte Impact:</strong> Podría ofrecer a los e-commerce de Charlotte un canal adicional de ventas y descubrimiento vía Reddit, con una integración eficaz.</p>
-<p><a href="https://techcrunch.com/2026/02/19/reddit-is-testing-a-new-ai-search-feature-for-shopping/" target="_blank">Read Original</a></p>
-<hr>
+  <h2>Salesforce lanza un nuevo agente de IA Slackbot mientras lucha contra Microsoft y Google en la IA en el lugar de trabajo</h2>
 
-<h2>Wyndham colabora con Google y Anthropic en reservas con IA.</h2>
-<p><strong>Industry:</strong> Travel</p>
-<p><strong>Impact Score:</strong> 4/10</p>
-<p>Wyndham colabora con Google y Anthropic para integrar IA en sus sistemas de reserva, reduciendo potencialmente su dependencia de agencias externas. Este movimiento destaca la evolución de las reservas de viajes mediante la IA.</p>
-<p><strong>Charlotte Impact:</strong> Hoteles locales de Charlotte podrían beneficiarse de plataformas de reserva con IA, reduciendo la dependencia de OTAs y los costos de adquisición.</p>
-<p><a href="https://skift.com/2026/02/19/wyndham-works-with-google-and-anthropic-on-ai-bookings/" target="_blank">Read Original</a></p>
-<hr>
+  <div class="impact-bar">
+      <div class="impact-fill" style="width:80%"></div>
+  </div>
 
-<h2>Smartwatch de Meta busca competir con Garmin, Apple y Samsung mediante IA para 2026.</h2>
-<p><strong>Industry:</strong> Wearable Technology</p>
-<p><strong>Impact Score:</strong> 4/10</p>
-<p>Meta desarrolla un smartwatch con IA para competir con Garmin, Apple y Samsung. Se centrará en salud y bienestar, reflejando la tendencia de *wearables* con inteligencia artificial.</p>
-<p><strong>Charlotte Impact:</strong> Podría impulsar la demanda de especialistas en IA y analítica de datos en el sector tecnológico de Charlotte si hay empresas locales vinculadas al desarrollo o suministro de *wearables*.</p>
-<p><a href="https://www.notebookcheck.net/Meta-smartwatch-aims-to-compete-with-Garmin-Apple-and-Samsung-via-AI-features-by-2026.1230125.0.html" target="_blank">Read Original</a></p>
-<hr>
+  <p class="summary">Salesforce lanzó un Slackbot reconstruido, impulsado por Claude de Anthropic, como un agente de inteligencia artificial capaz de buscar datos empresariales, redactar documentos y tomar medidas en nombre de los empleados, compitiendo directamente con Microsoft Copilot y Google Gemini. Las pruebas internas mostraron importantes ahorros de tiempo y altos índices de satisfacción entre los empleados de Salesforce.</p>
 
-<h2>El anuncio de Anthropic en el Super Bowl da frutos: Claude crece un 11% y entra al top 10 de Apple tras desafiar a OpenAI.</h2>
-<p><strong>Industry:</strong> Artificial Intelligence</p>
-<p><strong>Impact Score:</strong> 4/10</p>
-<p>El anuncio de Anthropic en el Super Bowl impulsó el uso de Claude tras atacar a OpenAI. Los usuarios crecieron y la app entró al top 10 de la App Store.</p>
-<p><strong>Charlotte Impact:</strong> Destaca la intensa competencia en IA, lo que podría reducir costos y mejorar el acceso de las empresas de Charlotte a herramientas de vanguardia.</p>
-<p><a href="https://economictimes.indiatimes.com/news/international/us/anthropics-super-bowl-ad-pays-off-how-claude-users-surge-11-and-enters-apple-app-stores-top-10-after-taking-aim-at-openai/articleshow/128561354.cms" target="_blank">Read Original</a></p>
-<hr>
+  <div class="charlotte">
+    <strong>Charlotte Impact</strong>
+    <p>Las empresas de Charlotte que utilizan Salesforce y Slack podrían ver una mayor productividad y eficiencia, al mismo tiempo que enfrentan posibles presiones de costos relacionadas con las tarifas de acceso a API de Salesforce.</p>
+  </div>
 
-<h2>**Perro viejo, trucos nuevos: un abogado "boomer" prueba la IA.**</h2>
-<p><strong>Industry:</strong> Legal</p>
-<p><strong>Impact Score:</strong> 4/10</p>
-<p>Un abogado veterano integra la IA en su práctica, reflejando la creciente adopción en diversas profesiones y un cambio hacia el aprendizaje continuo.</p>
-<p><strong>Charlotte Impact:</strong> Incentiva a los bufetes de Charlotte a explorar la IA para mejorar su eficiencia y servicios, lo que podría exigir capacitación e inversión tecnológica.</p>
-<p><a href="https://www.abajournal.com/columns/article/a-boomer-lawyer-tries-ai" target="_blank">Read Original</a></p>
-<hr>
+  <a href="https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and" target="_blank" class="readmore">Read Full Article →</a>
+</div>
 
-<h2>Este ‘ojo de máquina’ daría reflejos sobrehumanos a los robots.</h2>
-<p><strong>Industry:</strong> Robotics</p>
-<p><strong>Impact Score:</strong> 3/10</p>
-<p>Desarrollan un "ojo artificial" con un chip inspirado en el cerebro que dota a los robots de reflejos sobrehumanos. Permite tomar decisiones instantáneas, vitales para la seguridad y eficiencia en vehículos autónomos.</p>
-<p><strong>Charlotte Impact:</strong> Impulsa el desarrollo y despliegue de robótica avanzada en los sectores de manufactura y logística de Charlotte.</p>
-<p><a href="https://singularityhub.com/2026/02/19/this-machine-eye-could-give-robots-superhuman-reflexes/#article" target="_blank">Read Original</a></p>
-<hr>
+<div class="card featured">
+  <div class="card-header">
+    <span class="industry">Market Research</span>
+    
+  </div>
 
-<h2>**Open Channels FM: Cómo la IA está cambiando el trabajo de los desarrolladores.**</h2>
-<p><strong>Industry:</strong> Software Development</p>
-<p><strong>Impact Score:</strong> 5/10</p>
-<p>Las herramientas de IA transforman el desarrollo: lo hacen más ameno pero aumentan la carga y exigen visibilidad. Su auge revitaliza la programación.</p>
-<p><strong>Charlotte Impact:</strong> Mejora la productividad de los desarrolladores de Charlotte, mientras que la mayor visibilidad exige reforzar la gobernanza de datos y la colaboración.</p>
-<p><a href="https://openchannels.fm/how-ai-is-changing-the-way-developers-work/" target="_blank">Read Original</a></p>
-<hr>
+  <h2>Listen Labs recauda 69 millones de dólares después de un truco de contratación de vallas publicitarias virales para escalar las entrevistas con clientes de IA</h2>
 
-<h2>La burbuja de la IA podría asemejarse al estallido de las punto-com.</h2>
-<p><strong>Industry:</strong> Investment</p>
-<p><strong>Impact Score:</strong> 5/10</p>
-<p>Algunos comparan el auge actual de la IA con la burbuja de las puntocom. Aunque hay paralelismos con aquel estallido, también existen diferencias significativas.</p>
-<p><strong>Charlotte Impact:</strong> Alienta a los inversores locales a realizar la debida diligencia y evitar sobreinvertir en IA sin bases financieras sólidas, instando a la cautela y al realismo.</p>
-<p><a href="https://www.techtarget.com/searchcio/feature/The-AI-hype-bubble-might-parallel-the-dot-com-era-bust" target="_blank">Read Original</a></p>
-<hr>
+  <div class="impact-bar">
+      <div class="impact-fill" style="width:70%"></div>
+  </div>
 
-<h2>Las contraseñas generadas por IA son un riesgo de seguridad.</h2>
-<p><strong>Industry:</strong> Cybersecurity</p>
-<p><strong>Impact Score:</strong> 6/10</p>
-<p>Las contraseñas generadas por IA son un riesgo: su falta de aleatoriedad las hace predecibles y fáciles de descifrar. La IA en ciberseguridad es un arma de doble filo.</p>
-<p><strong>Charlotte Impact:</strong> Las empresas de Charlotte no deben confiar solo en la IA para generar contraseñas, sino invertir en seguridad más robusta.</p>
-<p><a href="https://www.malwarebytes.com/blog/news/2026/02/ai-generated-passwords-are-a-security-risk" target="_blank">Read Original</a></p>
-<hr>
+  <p class="summary">Listen Labs recaudó 69 millones de dólares para ampliar su plataforma de entrevistas a clientes impulsada por IA, que automatiza el reclutamiento de participantes, realiza entrevistas en profundidad y ofrece información procesable, desafiando los métodos tradicionales de investigación de mercado. Empresas como Microsoft y Chubbies ya están utilizando la plataforma para acelerar el desarrollo de productos y recopilar comentarios de los clientes.</p>
 
-<h2>Mercado de principios activos farmacéuticos alcanzará los 425.260 millones de USD en 2035.</h2>
-<p><strong>Industry:</strong> Pharmaceuticals</p>
-<p><strong>Impact Score:</strong> 2/10</p>
-<p>El mercado de principios activos farmacéuticos (API) alcanzará los 425,26 mil millones de USD en 2035, con un crecimiento anual del 5,95% desde 2026, impulsado por la demanda de fármacos. La IA podría optimizar su descubrimiento y síntesis.</p>
-<p><strong>Charlotte Impact:</strong> Si Charlotte tiene investigación o manufactura farmacéutica, la IA podría optimizar el desarrollo de APIs.</p>
-<p><a href="https://www.globenewswire.com/news-release/2026/02/19/3241255/0/en/Active-Pharmaceutical-Ingredients-Market-Size-Worth-USD-425-26-Billion-by-2035.html" target="_blank">Read Original</a></p>
-<hr>
+  <div class="charlotte">
+    <strong>Charlotte Impact</strong>
+    <p>Las empresas de Charlotte pueden aprovechar Listen Labs para recopilar información rápida sobre los clientes y validar decisiones sobre productos, lo que podría conducir a lanzamientos de productos más exitosos y una mayor satisfacción del cliente.</p>
+  </div>
 
-<h2>**Informe 2026: Análisis de patentes en óptica co-empaquetada e interconexiones. 1.300 familias analizadas desde 2020, tendencias globales, líderes y nuevos actores de PI.**</h2>
-<p><strong>Industry:</strong> Semiconductors</p>
-<p><strong>Impact Score:</strong> 2/10</p>
-<p>El mercado de Óptica Co-Empaquetada (CPO), impulsado por la IA, se analiza en un informe de patentes que destaca a Intel y TSMC. El CPO es vital para el empaquetado avanzado de semiconductores en electrónica de próxima generación.</p>
-<p><strong>Charlotte Impact:</strong> Si Charlotte tiene industria de semiconductores, el auge de la IA podría aumentar la demanda de CPO y generar oportunidades de desarrollo tecnológico.</p>
-<p><a href="https://www.globenewswire.com/news-release/2026/02/19/3241254/28124/en/Co-Packaged-Optics-Optical-Interconnects-Patent-Landscape-Analysis-Report-2026-1-300-Patent-Families-Analyzed-Since-2020-with-Global-Filing-Trends-Leading-Assignees-and-IP-Newcomer.html" target="_blank">Read Original</a></p>
-<hr>
+  <a href="https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai" target="_blank" class="readmore">Read Full Article →</a>
+</div>
 
-<h2>OpenAI: jóvenes de 18 a 24 años representan casi el 50% del uso de ChatGPT en India.</h2>
-<p><strong>Industry:</strong> Artificial Intelligence</p>
-<p><strong>Impact Score:</strong> 4/10</p>
-<p>OpenAI informó que casi el 50% de los usuarios de ChatGPT en India tienen entre 18 y 24 años, destacando su atractivo para los jóvenes. Esto representa una oportunidad tanto para educadores como para quienes buscan empleo.</p>
-<p><strong>Charlotte Impact:</strong> Esta estadística indica que los jóvenes de Charlotte están preparados para carreras en IA, abriendo oportunidades en educación técnica y superior.</p>
-<p><a href="https://techcrunch.com/2026/02/20/openai-says-18-to-24-year-olds-account-for-nearly-50-of-chatgpt-usage-in-india/" target="_blank">Read Original</a></p>
-<hr>
+<div class="card featured">
+  <div class="card-header">
+    <span class="industry">Financial Software</span>
+    
+  </div>
 
-<h2>Correos muestran que Ben Goertzel, "padrino de la AGI", buscó fondos de Epstein y lo felicitó tras salir de la cárcel.</h2>
-<p><strong>Industry:</strong> Ethics</p>
-<p><strong>Impact Score:</strong> 4/10</p>
-<p>Ben Goertzel aceptó dinero de Jeffrey Epstein para crear el "Sputnik de la IA" y lamenta su falta de diligencia. Vincular la investigación en IA con figuras polémicas plantea dilemas éticos.</p>
-<p><strong>Charlotte Impact:</strong> Resalta la ética en la financiación de proyectos de IA y recuerda a las empresas de Charlotte realizar la debida diligencia antes de asociarse con inversores.</p>
-<p><a href="https://www.businessinsider.com/ben-goertzel-jeffrey-epstein-agi-researcher-emails-jail-2026-2" target="_blank">Read Original</a></p>
-<hr>
+  <h2>InScope obtiene 14,5 millones de dólares para solucionar el problema de la presentación de informes financieros</h2>
 
-<h2>**Boletín ThreatsDay: RCE en OpenSSL, 0-days en Foxit, filtración de Copilot, fallos de IA y +20 noticias.**</h2>
-<p><strong>Industry:</strong> Cybersecurity</p>
-<p><strong>Impact Score:</strong> 6/10</p>
-<p>Este boletín analiza amenazas en OpenSSL, Foxit, Copilot y fallos de IA, resaltando un panorama en constante evolución. Informarse y prevenir es esencial para la ciberseguridad.</p>
-<p><strong>Charlotte Impact:</strong> Las empresas de Charlotte deben informarse sobre las últimas ciberamenazas y aplicar medidas de protección.</p>
-<p><a href="https://thehackernews.com/2026/02/threatsday-bulletin-openssl-rce-foxit-0.html" target="_blank">Read Original</a></p>
-<hr>
+  <div class="impact-bar">
+      <div class="impact-fill" style="width:50%"></div>
+  </div>
 
-<h2>El mensaje de su match "parecía de un robot". Cómo la IA cambia las apps de citas.</h2>
-<p><strong>Industry:</strong> Dating</p>
-<p><strong>Impact Score:</strong> 1/10</p>
-<p>Este artículo analiza cómo la IA transforma las apps de citas. El uso de esta tecnología para crear perfiles y mensajes genera dudas sobre la autenticidad de las interacciones en línea.</p>
-<p><strong>Charlotte Impact:</strong> Aunque el impacto comercial es limitado, aporta autenticidad y atractivo a las apps de citas locales.</p>
-<p><a href="https://www.cbc.ca/news/canada/hamilton/online-dating-ai-burlington-9.7097111" target="_blank">Read Original</a></p>
-<hr>
+  <p class="summary">InScope obtuvo 14,5 millones de dólares para automatizar los informes financieros, abordando los desafíos de preparar estados financieros para empresas. La startup fue fundada por contadores de empresas como Flexport y Miro.</p>
 
-<h2>¿ETFs de Inteligencia Artificial o ETFs impulsados por IA?</h2>
-<p><strong>Industry:</strong> Finance</p>
-<p><strong>Impact Score:</strong> 3/10</p>
-<p>¿ETFs de Inteligencia Artificial o impulsados por IA? VettaFi analiza ambas categorías y sus diferencias.</p>
-<p><strong>Charlotte Impact:</strong> Un mayor conocimiento de las opciones de inversión en IA permite decisiones más informadas para los inversores de Charlotte.</p>
-<p><a href="https://etfdb.com/disruptive-technology-channel/artificial-intelligence-etfs-or-etfs-powered-by-ai/" target="_blank">Read Original</a></p>
-<hr>
+  <div class="charlotte">
+    <strong>Charlotte Impact</strong>
+    <p>Las empresas de Charlotte podrían beneficiarse de las capacidades de automatización de InScope, optimizando los procesos de informes financieros y reduciendo el esfuerzo manual de los equipos financieros.</p>
+  </div>
+
+  <a href="https://techcrunch.com/2026/02/20/inscope-nabs-14-5m-to-solve-the-pain-of-financial-reporting/" target="_blank" class="readmore">Read Full Article →</a>
+</div>
+
+<div class="card featured">
+  <div class="card-header">
+    <span class="industry">AI Models</span>
+    
+  </div>
+
+  <h2>Gemini 3.1 apunta a la IA general, mientras que sus rivales se centran en modelos de codificación</h2>
+
+  <div class="impact-bar">
+      <div class="impact-fill" style="width:50%"></div>
+  </div>
+
+  <p class="summary">Gemini 3.1 de Google se centra en la IA general, el razonamiento multimodal, el aprendizaje por refuerzo de agentes y la rentabilidad, en contraste con sus rivales que se centran en los modelos de codificación. Este es un paso más hacia la inteligencia artificial general (AGI).</p>
+
+  <div class="charlotte">
+    <strong>Charlotte Impact</strong>
+    <p>Impacta indirectamente a Charlotte al mejorar las capacidades y aplicaciones potenciales de los modelos de IA, que las empresas de Charlotte podrían aprovechar más adelante.</p>
+  </div>
+
+  <a href="https://www.geeky-gadgets.com/gemini-general-model-strategy/" target="_blank" class="readmore">Read Full Article →</a>
+</div>
+
+
+<div class="section-title">All Intelligence</div>
+
+<div class="card ">
+  <div class="card-header">
+    <span class="industry">Creator Economy</span>
+    
+  </div>
+
+  <h2>El problema de los ingresos publicitarios de la economía creadora y las ambiciones de IA de la India</h2>
+
+  <div class="impact-bar">
+      <div class="impact-fill" style="width:40%"></div>
+  </div>
+
+  <p class="summary">La economía de los creadores está yendo más allá de los ingresos publicitarios, y los creadores se diversifican hacia líneas de productos, adquisiciones e imperios comerciales. Se destaca el éxito de MrBeast en las ventas de chocolate, superando los ingresos de los medios.</p>
+
+  <div class="charlotte">
+    <strong>Charlotte Impact</strong>
+    <p>Los creadores locales de Charlotte podrían explorar estrategias de diversificación para mejorar los flujos de ingresos y construir negocios sostenibles, inspirados en las tendencias discutidas.</p>
+  </div>
+
+  <a href="https://techcrunch.com/video/the-creator-economys-ad-revenue-problem-and-indias-ai-ambitions/" target="_blank" class="readmore">Read Full Article →</a>
+</div>
+
+<div class="card ">
+  <div class="card-header">
+    <span class="industry">Venture Capital</span>
+    
+  </div>
+
+  <h2>Peak XV recauda 1.300 millones de dólares y duplica su inversión en IA a medida que se intensifica la rivalidad global de capital de riesgo en India</h2>
+
+  <div class="impact-bar">
+      <div class="impact-fill" style="width:40%"></div>
+  </div>
+
+  <p class="summary">Peak XV recaudó 1.300 millones de dólares, dando prioridad a la IA, la tecnología financiera y las inversiones transfronterizas en la India, en medio de una creciente competencia mundial de capital de riesgo. Esto indica un creciente enfoque en el mercado indio de IA.</p>
+
+  <div class="charlotte">
+    <strong>Charlotte Impact</strong>
+    <p>Indica indirectamente la importancia de la IA y las fintech como áreas de inversión. Las empresas fintech de Charlotte pueden beneficiarse del flujo de capital, pero es poco probable que lo hagan directamente.</p>
+  </div>
+
+  <a href="https://techcrunch.com/2026/02/20/peak-xv-raises-1-3b-doubles-down-on-ai-as-global-vc-rivalry-in-india-heats-up/" target="_blank" class="readmore">Read Full Article →</a>
+</div>
+
+<div class="card ">
+  <div class="card-header">
+    <span class="industry">Healthcare</span>
+    
+  </div>
+
+  <h2>Industria de terapias y diagnóstico de la diabetes valorada en 241.500 millones de dólares para 2030: las crecientes asociaciones público-privadas y las colaboraciones industriales presentan lucrativas oportunidades comerciales</h2>
+
+  <div class="impact-bar">
+      <div class="impact-fill" style="width:40%"></div>
+  </div>
+
+  <p class="summary">Se prevé que la industria de la terapia y el diagnóstico de la diabetes alcance los 241.500 millones de dólares en 2030, impulsada por asociaciones público-privadas. La IA no se menciona directamente, sin embargo, las aplicaciones de IA son útiles en esta industria.</p>
+
+  <div class="charlotte">
+    <strong>Charlotte Impact</strong>
+    <p>Las empresas del área de Charlotte dedicadas al análisis de la atención sanitaria o al desarrollo de dispositivos médicos podrían encontrar oportunidades relacionadas con la investigación de la diabetes o los dispositivos de seguimiento.</p>
+  </div>
+
+  <a href="https://www.globenewswire.com/news-release/2026/02/20/3241864/28124/en/Diabetes-Therapeutics-and-Diagnostics-Industry-Worth-241-5-Billion-by-2030-Growing-Public-Private-Partnerships-and-Industry-Collaborations-Present-Lucrative-Business-Opportunities.html" target="_blank" class="readmore">Read Full Article →</a>
+</div>
+
+<div class="card ">
+  <div class="card-header">
+    <span class="industry">Healthcare</span>
+    
+  </div>
+
+  <h2>El crecimiento del mercado terapéutico del sistema nervioso central se acelera a 285,72 mil millones de dólares para 2035 con una fuerte inversión en innovaciones neurofarmacéuticas</h2>
+
+  <div class="impact-bar">
+      <div class="impact-fill" style="width:40%"></div>
+  </div>
+
+  <p class="summary">Se prevé que el mercado terapéutico del sistema nervioso central alcance los 285.720 millones de dólares en 2035 con inversiones en innovaciones neurofarmacéuticas. La aplicación de la IA dentro de este mercado está implícita.</p>
+
+  <div class="charlotte">
+    <strong>Charlotte Impact</strong>
+    <p>Las empresas del área de Charlotte dedicadas a la atención médica o la investigación médica podrían encontrar oportunidades en la terapia del SNC, incluido el aprovechamiento de la inteligencia artificial para el descubrimiento de fármacos y el tratamiento personalizado.</p>
+  </div>
+
+  <a href="https://www.globenewswire.com/news-release/2026/02/20/3241846/0/en/Central-Nervous-System-Therapeutics-Market-Growth-Accelerates-to-USD-285-72-Billion-by-2035-with-Strong-Investment-in-Neuropharma-Innovations.html" target="_blank" class="readmore">Read Full Article →</a>
+</div>
+
+<div class="card ">
+  <div class="card-header">
+    <span class="industry">Venture Capital</span>
+    
+  </div>
+
+  <h2>La mafia OpenAI: 18 startups fundadas por antiguos alumnos | TechCrunch</h2>
+
+  <div class="impact-bar">
+      <div class="impact-fill" style="width:30%"></div>
+  </div>
+
+  <p class="summary">Este artículo enumera 18 nuevas empresas fundadas por ex alumnos de OpenAI, destacando el creciente ecosistema y el grupo de talentos que surgen de las principales empresas de IA. En realidad no es un artículo, sólo un título/enlace.</p>
+
+  <div class="charlotte">
+    <strong>Charlotte Impact</strong>
+    <p>Impacta indirectamente a Charlotte al mostrar la innovación y la actividad empresarial dentro del sector de la IA, lo que potencialmente inspira el talento local y atrae inversiones.</p>
+  </div>
+
+  <a href="https://techcrunch.com/2026/02/20/the-openai-mafia-15-of-the-most-notable-startups-founded-by-alumni/" target="_blank" class="readmore">Read Full Article →</a>
+</div>
+
+<div class="card ">
+  <div class="card-header">
+    <span class="industry">Politics and AI</span>
+    
+  </div>
+
+  <h2>Un grupo financiado por Anthropic respalda al candidato atacado por el super PAC rival de AI</h2>
+
+  <div class="impact-bar">
+      <div class="impact-fill" style="width:30%"></div>
+  </div>
+
+  <p class="summary">Un grupo financiado por Anthropic respalda a un candidato objetivo de un súper PAC de IA rival, destacando la creciente influencia política de las empresas de IA y los debates en torno a la regulación de la IA.</p>
+
+  <div class="charlotte">
+    <strong>Charlotte Impact</strong>
+    <p>Ilustra el creciente papel de la IA en la política y el lobby. Esto podría alentar a las empresas de Charlotte a colaborar con los responsables políticos en cuestiones relacionadas con la IA.</p>
+  </div>
+
+  <a href="https://techcrunch.com/2026/02/20/anthropic-funded-group-backs-candidate-attacked-by-rival-ai-super-pac/" target="_blank" class="readmore">Read Full Article →</a>
+</div>
+
+<div class="card ">
+  <div class="card-header">
+    <span class="industry">Government and AI</span>
+    
+  </div>
+
+  <h2>El primer ministro Modi organiza una mesa redonda con 16 jefes de IA y nuevas empresas de tecnología profunda; Nueve reuniones bilaterales con líderes y directores ejecutivos.</h2>
+
+  <div class="impact-bar">
+      <div class="impact-fill" style="width:30%"></div>
+  </div>
+
+  <p class="summary">El primer ministro Modi celebró una mesa redonda con 16 jefes de empresas emergentes de tecnología profunda y de inteligencia artificial, en la que se mostró el compromiso de la India de fomentar la innovación en el sector de la inteligencia artificial. También participó en conversaciones bilaterales con líderes y directores ejecutivos.</p>
+
+  <div class="charlotte">
+    <strong>Charlotte Impact</strong>
+    <p>Impacto directo limitado en Charlotte, pero subraya la tendencia global de los gobiernos a promover y dar forma activamente al panorama de la IA, un espacio que las empresas de Charlotte deben conocer.</p>
+  </div>
+
+  <a href="https://economictimes.indiatimes.com/tech/artificial-intelligence/pm-modi-holds-roundtable-with-16-heads-of-ai-deeptech-startups-nine-bilaterals-with-leaders-ceos/articleshow/128609277.cms" target="_blank" class="readmore">Read Full Article →</a>
+</div>
+
+<div class="card ">
+  <div class="card-header">
+    <span class="industry">Government & AI</span>
+    
+  </div>
+
+  <h2>El impulso de la India para la gobernanza de la IA ocupa un lugar central en la cumbre</h2>
+
+  <div class="impact-bar">
+      <div class="impact-fill" style="width:30%"></div>
+  </div>
+
+  <p class="summary">El impulso de la India para la gobernanza de la IA ocupa un lugar central en una cumbre, que enfatiza el uso responsable de la IA mientras la India trabaja para hacer cumplir sus propias políticas de IA. El interés de los gobiernos en la IA está creciendo y volviéndose más complejo.</p>
+
+  <div class="charlotte">
+    <strong>Charlotte Impact</strong>
+    <p>Impacto directo limitado en Charlotte, pero muestra el creciente enfoque global en la gobernanza de la IA y la necesidad de consideraciones éticas en el desarrollo y la implementación de la IA.</p>
+  </div>
+
+  <a href="https://www.dw.com/en/indias-ai-governance-push-takes-center-stage-at-summit/a-76058826" target="_blank" class="readmore">Read Full Article →</a>
+</div>
+
+<div class="card ">
+  <div class="card-header">
+    <span class="industry">Film Industry</span>
+    
+  </div>
+
+  <h2>La promesa de la IA a los cineastas independientes: más rápido, más barato y más solitario</h2>
+
+  <div class="impact-bar">
+      <div class="impact-fill" style="width:30%"></div>
+  </div>
+
+  <p class="summary">La IA ofrece a los cineastas independientes una realización cinematográfica más rápida, más barata y potencialmente más solitaria. La IA podría abrumar a los creativos.</p>
+
+  <div class="charlotte">
+    <strong>Charlotte Impact</strong>
+    <p>Los cineastas del área de Charlotte podrían sacar más provecho de la IA.</p>
+  </div>
+
+  <a href="https://techcrunch.com/2026/02/20/ais-promise-to-indie-filmmakers-faster-cheaper-lonelier/" target="_blank" class="readmore">Read Full Article →</a>
+</div>
+
+<div class="card ">
+  <div class="card-header">
+    <span class="industry">AI Adoption</span>
+    
+  </div>
+
+  <h2>OpenAI dice que los jóvenes de 18 a 24 años representan casi el 50% del uso de ChatGPT en India</h2>
+
+  <div class="impact-bar">
+      <div class="impact-fill" style="width:20%"></div>
+  </div>
+
+  <p class="summary">OpenAI informa que los jóvenes de 18 a 24 años representan casi el 50% del uso de ChatGPT en la India, lo que indica altas tasas de adopción entre los grupos demográficos más jóvenes. Esto sugiere un mercado futuro sólido para las herramientas de inteligencia artificial.</p>
+
+  <div class="charlotte">
+    <strong>Charlotte Impact</strong>
+    <p>Esto tiene un impacto directo limitado en Charlotte, pero informa las tendencias generales de adopción de IA que impactan indirectamente el mercado de talento tecnológico y la estrategia comercial.</p>
+  </div>
+
+  <a href="https://techcrunch.com/2026/02/20/openai-says-18-to-24-year-olds-account-for-nearly-50-of-chatgpt-usage-in-india/" target="_blank" class="readmore">Read Full Article →</a>
+</div>
+
+<div class="card ">
+  <div class="card-header">
+    <span class="industry">International Relations & AI</span>
+    
+  </div>
+
+  <h2>En India, Lula exhibe la diplomacia de potencia media</h2>
+
+  <div class="impact-bar">
+      <div class="impact-fill" style="width:20%"></div>
+  </div>
+
+  <p class="summary">El presidente de Brasil espera cooperar con la India en materia de inteligencia artificial y minerales de tierras raras. Esta cooperación podría dar forma al desarrollo de la IA y al acceso a los recursos de ambos países.</p>
+
+  <div class="charlotte">
+    <strong>Charlotte Impact</strong>
+    <p>Afecta indirectamente a Charlotte a través del cambiante panorama global de la IA, incluidas las posibles implicaciones para la cadena de suministro y los recursos.</p>
+  </div>
+
+  <a href="http://foreignpolicy.com/2026/02/20/brazil-india-lula-modi-visit-ai-rare-earths-cooperation/" target="_blank" class="readmore">Read Full Article →</a>
+</div>
+
+<div class="card ">
+  <div class="card-header">
+    <span class="industry">Financial Markets</span>
+    
+  </div>
+
+  <h2>Las acciones mundiales y los futuros de EE. UU. avanzan después de que los temores sobre la IA arrastran a Wall Street a la baja</h2>
+
+  <div class="impact-bar">
+      <div class="impact-fill" style="width:20%"></div>
+  </div>
+
+  <p class="summary">Las acciones mundiales y los futuros estadounidenses avanzan después de que los temores sobre la IA arrastraran a Wall Street a la baja. El sentimiento del mercado hacia la tecnología está sujeto a cambios.</p>
+
+  <div class="charlotte">
+    <strong>Charlotte Impact</strong>
+    <p>Puede tener un impacto limitado en Charlotte, pero ilustra el impacto del sentimiento hacia la IA en las empresas locales y las oportunidades de inversión.</p>
+  </div>
+
+  <a href="https://www.bostonherald.com/2026/02/20/financial-markets-ai-us-iran/" target="_blank" class="readmore">Read Full Article →</a>
+</div>
+
+<div class="card ">
+  <div class="card-header">
+    <span class="industry">Government & AI Policy</span>
+    
+  </div>
+
+  <h2>Pakistán establece su posición soberana en materia de IA con la adopción de la Declaración de Islamabad sobre IA</h2>
+
+  <div class="impact-bar">
+      <div class="impact-fill" style="width:20%"></div>
+  </div>
+
+  <p class="summary">Pakistán establece su posición en materia de IA con la adopción de la Declaración de Islamabad sobre la IA, centrada en una IA soberana, responsable y basada en las capacidades. Contiene nueve principios fundamentales.</p>
+
+  <div class="charlotte">
+    <strong>Charlotte Impact</strong>
+    <p>Refleja una tendencia global en la que los gobiernos dan forma activamente a la política de IA, algo que las empresas con sede en Charlotte deben tener en cuenta para operaciones o asociaciones globales.</p>
+  </div>
+
+  <a href="https://www.globenewswire.com/news-release/2026/02/20/3241856/0/en/Pakistan-Establishes-Its-Sovereign-AI-Position-with-the-Adoption-of-the-Islamabad-AI-Declaration.html" target="_blank" class="readmore">Read Full Article →</a>
+</div>
+
+<div class="card ">
+  <div class="card-header">
+    <span class="industry">Clinical Trials</span>
+    
+  </div>
+
+  <h2>Informe sobre el panorama competitivo del mercado de ensayos clínicos 2025: estrategias de la empresa, evaluación comparativa de sostenibilidad, desarrollos de actores clave y pronósticos de ingresos hasta 2033</h2>
+
+  <div class="impact-bar">
+      <div class="impact-fill" style="width:20%"></div>
+  </div>
+
+  <p class="summary">Se espera que el mercado de ensayos clínicos alcance los 99.250 millones de dólares en 2033, impulsado por la innovación en los tratamientos de enfermedades crónicas. En este artículo no se amplía la intersección específica entre la IA y los ensayos clínicos.</p>
+
+  <div class="charlotte">
+    <strong>Charlotte Impact</strong>
+    <p>Afecta indirectamente a las empresas del área de Charlotte involucradas en la atención médica y los productos farmacéuticos, ya que los ensayos clínicos son una etapa importante para el desarrollo de medicamentos y los procesos regulatorios.</p>
+  </div>
+
+  <a href="https://www.globenewswire.com/news-release/2026/02/20/3241853/28124/en/Clinical-Trials-Market-Competitive-Landscape-Report-2025-Company-Strategies-Sustainability-Benchmarking-Key-Player-Developments-and-Revenue-Forecasts-to-2033.html" target="_blank" class="readmore">Read Full Article →</a>
+</div>
+
+<div class="card ">
+  <div class="card-header">
+    <span class="industry">Government & AI</span>
+    
+  </div>
+
+  <h2>La caótica cumbre de IA de Modi mostró la influencia y las limitaciones de la India</h2>
+
+  <div class="impact-bar">
+      <div class="impact-fill" style="width:20%"></div>
+  </div>
+
+  <p class="summary">La cumbre de IA de Modi mostró la influencia y las limitaciones de la India en el sector de la IA. La cumbre tuvo múltiples obstáculos que apuntan a las dificultades para desarrollar eficazmente una política de IA a escala nacional.</p>
+
+  <div class="charlotte">
+    <strong>Charlotte Impact</strong>
+    <p>Charlotte puede verse afectada indirectamente por la competencia internacional por el liderazgo en IA, pero las implicaciones directas probablemente sean bajas.</p>
+  </div>
+
+  <a href="https://financialpost.com/pmn/business-pmn/modis-chaotic-ai-summit-showed-indias-clout-and-constraints" target="_blank" class="readmore">Read Full Article →</a>
+</div>
+
+<div class="card ">
+  <div class="card-header">
+    <span class="industry">Investing</span>
+    
+  </div>
+
+  <h2>¿ETF de inteligencia artificial o ETF impulsados ​​por IA?</h2>
+
+  <div class="impact-bar">
+      <div class="impact-fill" style="width:20%"></div>
+  </div>
+
+  <p class="summary">El artículo analiza la diferencia entre los ETF de IA y los ETF impulsados ​​por IA. Esto ayuda a los inversores a aclarar qué ETF utilizan la IA.</p>
+
+  <div class="charlotte">
+    <strong>Charlotte Impact</strong>
+    <p>Puede tener un impacto indirecto limitado en Charlotte, pero es poco probable que afecte directamente las decisiones de inversión de la población local.</p>
+  </div>
+
+  <a href="https://etfdb.com/disruptive-technology-channel/artificial-intelligence-etfs-or-etfs-powered-by-ai/" target="_blank" class="readmore">Read Full Article →</a>
+</div>
+
+<div class="card ">
+  <div class="card-header">
+    <span class="industry">Education</span>
+    
+  </div>
+
+  <h2>Profesor Asistente en Marketing basado en Datos con especial enfoque en Ciencia de Datos para Marketing - Akadeus</h2>
+
+  <div class="impact-bar">
+      <div class="impact-fill" style="width:20%"></div>
+  </div>
+
+  <p class="summary">Akadeus.com anunció un profesor de marketing basado en datos centrado en ciencia de datos para marketing.</p>
+
+  <div class="charlotte">
+    <strong>Charlotte Impact</strong>
+    <p>Es posible que las instituciones educativas locales quieran agregar profesores con calificaciones similares.</p>
+  </div>
+
+  <a href="https://akadeus.com/announcement/9672" target="_blank" class="readmore">Read Full Article →</a>
+</div>
+
+<div class="card ">
+  <div class="card-header">
+    <span class="industry">AI Chatbots</span>
+    
+  </div>
+
+  <h2>Sarvam de la India lanza la aplicación de chat Indus AI a medida que aumenta la competencia</h2>
+
+  <div class="impact-bar">
+      <div class="impact-fill" style="width:10%"></div>
+  </div>
+
+  <p class="summary">Sarvam de India lanzó la aplicación de chat Indus AI, lo que indica una creciente competencia en el mercado de chatbots de IA dentro de la región. La aplicación se encuentra actualmente en versión beta.</p>
+
+  <div class="charlotte">
+    <strong>Charlotte Impact</strong>
+    <p>Impacto directo limitado, pero esto refleja las crecientes tendencias globales en el desarrollo y adopción de tecnología de inteligencia artificial, que indirectamente pueden afectar la escena tecnológica de Charlotte.</p>
+  </div>
+
+  <a href="https://techcrunch.com/2026/02/20/indias-sarvam-launches-indus-ai-chat-app-as-competition-heats-up/" target="_blank" class="readmore">Read Full Article →</a>
+</div>
+
+<div class="card ">
+  <div class="card-header">
+    <span class="industry">General AI</span>
+    
+  </div>
+
+  <h2>IA 2027: ¿La inteligencia artificial traerá prosperidad o planteará un riesgo existencial?</h2>
+
+  <div class="impact-bar">
+      <div class="impact-fill" style="width:10%"></div>
+  </div>
+
+  <p class="summary">Este artículo cuestiona el futuro de la IA y si traerá prosperidad o riesgo existencial. Cubre temas como la desalineación y la superinteligencia.</p>
+
+  <div class="charlotte">
+    <strong>Charlotte Impact</strong>
+    <p>Puede tener un impacto muy limitado e indirecto en Charlotte, al brindar más visibilidad a los temas de IA, pero es poco probable que tenga un impacto local significativo.</p>
+  </div>
+
+  <a href="https://medium.com/@kaustubhkalyankar/ai-2027-will-artificial-intelligence-bring-prosperity-or-pose-an-existential-risk-b3071da5e6ab" target="_blank" class="readmore">Read Full Article →</a>
+</div>
+
+<div class="card ">
+  <div class="card-header">
+    <span class="industry">AI Models</span>
+    
+  </div>
+
+  <h2>Buenas noticias para xAI: Grok ahora es bastante bueno respondiendo preguntas sobre Baldur's Gate</h2>
+
+  <div class="impact-bar">
+      <div class="impact-fill" style="width:10%"></div>
+  </div>
+
+  <p class="summary">Los ingenieros de xAI dieron prioridad a mejorar la capacidad de Grok para responder preguntas sobre el videojuego Baldur's Gate. Esto pone de relieve las peculiaridades y la ocasional priorización errónea en el desarrollo de modelos de IA.</p>
+
+  <div class="charlotte">
+    <strong>Charlotte Impact</strong>
+    <p>Impacto directo limitado, pero sirve como recordatorio del estado actual de la tecnología de IA: poderosa, pero también propensa a peculiaridades inesperadas.  Esto influye indirectamente en las expectativas y el uso de la IA de las empresas de Charlotte.</p>
+  </div>
+
+  <a href="https://techcrunch.com/2026/02/20/great-news-for-xai-grok-is-now-pretty-good-at-answering-questions-about-baldurs-gate/" target="_blank" class="readmore">Read Full Article →</a>
+</div>
+
+
+<div class="footer">
+Premium AI Intelligence Platform
+</div>
 
 </body>
 </html>
