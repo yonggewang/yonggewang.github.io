@@ -1,1 +1,202 @@
-[]
+[
+  {
+    "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+    "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+    "industry": "Cloud Infrastructure",
+    "summary": "Railway, an AI-native cloud infrastructure provider, raised $100 million to challenge AWS, citing developer frustration with existing cloud complexities. Their platform boasts faster deployment times and cost savings, attracting Fortune 500 clients.",
+    "charlotte_impact": "Could offer Charlotte businesses a more agile and cost-effective cloud solution, potentially attracting startups and established companies seeking to optimize infrastructure.",
+    "impact_score": 9
+  },
+  {
+    "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
+    "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+    "industry": "Enterprise Software",
+    "summary": "Salesforce launched a rebuilt Slackbot powered by Anthropic's Claude, aiming to position Slack as a central AI agent for enterprises. Early internal testing shows significant productivity gains, placing Salesforce in competition with Microsoft Copilot and Google Gemini.",
+    "charlotte_impact": "Charlotte-based businesses using Slack can leverage the new Slackbot for improved data analysis, document drafting, and task automation, potentially enhancing productivity.",
+    "impact_score": 9
+  },
+  {
+    "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
+    "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+    "industry": "Market Research",
+    "summary": "Listen Labs raised $69 million to scale its AI-powered customer interview platform, addressing limitations in traditional market research and combating rampant fraud. They provide faster, deeper customer insights to companies like Microsoft and Chubbies, potentially reshaping product development.",
+    "charlotte_impact": "Charlotte businesses can utilize Listen Labs for quicker and more accurate market research, enabling data-driven product decisions and improved customer understanding.",
+    "impact_score": 8
+  },
+  {
+    "title": "Google VP warns that two types of AI startups may not survive",
+    "url": "https://techcrunch.com/2026/02/21/google-vp-warns-that-two-types-of-ai-startups-may-not-survive/",
+    "industry": "AI Startups",
+    "summary": "A Google VP warns that AI startups focusing on simple LLM wrappers or AI aggregation may struggle to survive due to shrinking margins and lack of unique value.",
+    "charlotte_impact": "Charlotte-based AI startups need to focus on core innovation and differentiation to avoid becoming commoditized and facing viability challenges.",
+    "impact_score": 7
+  },
+  {
+    "title": "InScope nabs $14.5M to solve the pain of financial reporting",
+    "url": "https://techcrunch.com/2026/02/20/inscope-nabs-14-5m-to-solve-the-pain-of-financial-reporting/",
+    "industry": "Fintech",
+    "summary": "InScope secured $14.5M to automate financial reporting, simplifying the process for businesses and improving efficiency in financial statement preparation.",
+    "charlotte_impact": "Charlotte businesses can benefit from InScope's platform, reducing the complexities and time spent on financial reporting, which may free up resources for other strategic initiatives.",
+    "impact_score": 6
+  },
+  {
+    "title": "India\u2019s Sarvam launches Indus AI chat app as competition heats up",
+    "url": "https://techcrunch.com/2026/02/20/indias-sarvam-launches-indus-ai-chat-app-as-competition-heats-up/",
+    "industry": "AI Chatbots",
+    "summary": "India's Sarvam launched the Indus AI chat app, increasing competition in the AI chatbot market and offering localized AI solutions in India.",
+    "charlotte_impact": "While directly focused on India, the increased competition and innovation in the chatbot space could indirectly lead to improved chatbot technologies available for Charlotte businesses.",
+    "impact_score": 4
+  },
+  {
+    "title": "Peak XV raises $1.3B, doubles down on AI as global VC rivalry in India heats up",
+    "url": "https://techcrunch.com/2026/02/20/peak-xv-raises-1-3b-doubles-down-on-ai-as-global-vc-rivalry-in-india-heats-up/",
+    "industry": "Venture Capital",
+    "summary": "Peak XV raised $1.3B, with a focus on AI investments in India, signaling increased global VC competition in the Indian AI market.",
+    "charlotte_impact": "Indirectly, this highlights the growing importance of AI in emerging markets and may inspire investment in similar technologies with impacts on global business.",
+    "impact_score": 4
+  },
+  {
+    "title": "Infosys Limited (INFY) Expands AI and Enterprise Partnerships",
+    "url": "https://finance.yahoo.com/news/infosys-limited-infy-expands-ai-165457596.html",
+    "industry": "IT Services",
+    "summary": "Infosys expands its AI and enterprise partnerships, showcasing the continued importance of established IT services companies in the AI landscape.",
+    "charlotte_impact": "Charlotte companies working with Infosys or similar IT services may see expanded AI capabilities offered and integrated into their existing systems.",
+    "impact_score": 5
+  },
+  {
+    "title": "Modi\u2019s Chaotic AI Summit Showed India\u2019s Clout and Constraints - Yahoo Finance",
+    "url": "https://slashdot.org/firehose.pl?op=view&amp;id=180831902",
+    "industry": "AI Policy",
+    "summary": "Modi's AI summit in India demonstrates the country's ambition and challenges in the global AI arena, highlighting the intersection of AI, policy, and international relations.",
+    "charlotte_impact": "Highlights the international focus on AI policy and regulation that ultimately affects businesses globally, including those in Charlotte.",
+    "impact_score": 3
+  },
+  {
+    "title": "\u2018Doubts around the AI revolution are emerging,\u2019 BofA says, as the market sees a \u2018double-edged sword\u2019 that could \u2018cannibalize\u2019 you",
+    "url": "https://fortune.com/2026/02/20/doubts-ai-revolution-emerging-bank-of-america-double-edged-sword-cannibalize/",
+    "industry": "Investment Analysis",
+    "summary": "Bank of America suggests doubts are emerging about the AI revolution, potentially cannibalizing existing revenue streams if not implemented effectively.",
+    "charlotte_impact": "Serves as a warning for Charlotte companies to carefully assess the potential impact of AI investments and to mitigate risks related to revenue cannibalization.",
+    "impact_score": 6
+  },
+  {
+    "title": "South Korea: Comprehensive AI Legal Framework Takes Effect",
+    "url": "https://www.loc.gov/item/global-legal-monitor/2026-02-20/south-korea-comprehensive-ai-legal-framework-takes-effect/",
+    "industry": "AI Regulation",
+    "summary": "South Korea's comprehensive AI legal framework takes effect, showcasing the growing trend of governments establishing clear AI regulations.",
+    "charlotte_impact": "Provides a benchmark for AI regulation that Charlotte businesses and other US companies may see mirrored in future domestic legislation.",
+    "impact_score": 5
+  },
+  {
+    "title": "PM Modi holds bilateral talks with top leaders of Mauritius, Sri Lanka and Slovakia",
+    "url": "https://economictimes.indiatimes.com/news/india/pm-modi-holds-bilateral-talks-with-top-leaders-of-mauritius-sri-lanka-and-slovakia/articleshow/128617485.cms",
+    "industry": "International Relations",
+    "summary": "PM Modi held bilateral talks focusing on cooperation in trade and technology, including discussions on making AI inclusive, showcasing AI as a global cooperation topic.",
+    "charlotte_impact": "Reinforces the importance of international collaboration in AI development and deployment, affecting businesses with global operations.",
+    "impact_score": 3
+  },
+  {
+    "title": "Science-Based Policy, Not Guesswork, Key to Ensure Artificial Intelligence Serves Humanity, Secretary-General Tells AI Impact Summit Event, Outlining UN\u2019s Role",
+    "url": "https://press.un.org/en/2026/sgsm23023.doc.htm",
+    "industry": "AI Governance",
+    "summary": "The UN Secretary-General emphasized the importance of science-based policy to ensure AI serves humanity at an AI Impact Summit event, outlining the UN's role in AI governance.",
+    "charlotte_impact": "Underlines the global effort to ensure ethical and responsible AI development, potentially shaping future regulations and guidelines affecting Charlotte businesses.",
+    "impact_score": 4
+  },
+  {
+    "title": "US leads AI brain race followed by China, Singapore; India at 6th spot: Report",
+    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-leads-ai-brain-race-followed-by-china-singapore-india-at-6th-spot-report/articleshow/128617141.cms",
+    "industry": "AI Talent",
+    "summary": "A report indicates the US leads the AI brain race, followed by China and Singapore, with India at 6th, revealing the global distribution of AI talent and research.",
+    "charlotte_impact": "Highlights the competitive landscape for AI talent, which is important for Charlotte companies seeking to build or expand their AI capabilities.",
+    "impact_score": 5
+  },
+  {
+    "title": "Why real-time voice AI is harder than it sounds",
+    "url": "https://siliconangle.com/2026/02/20/real-time-voice-ai-harder-sounds/",
+    "industry": "Voice AI",
+    "summary": "Explores the challenges in real-time voice AI, highlighting the complexity behind a technology that is now widely used.",
+    "charlotte_impact": "Informs businesses using voice AI of the continuous research and development needed to improve the accuracy and reliability of this technology.",
+    "impact_score": 4
+  },
+  {
+    "title": "Fox News AI Newsletter: AI giant moves HQ to red state",
+    "url": "https://www.foxnews.com/tech/ai-newsletter-ai-giant-moves-hq-red-state",
+    "industry": "AI News",
+    "summary": "A Fox News AI Newsletter reports on an AI giant moving HQ to a red state, suggesting the continued growth and expansion of the AI industry across different geographic locations.",
+    "charlotte_impact": "Could signify a trend of AI companies looking beyond traditional tech hubs, which could potentially benefit cities like Charlotte trying to attract AI investment.",
+    "impact_score": 3
+  },
+  {
+    "title": "India\u2019s tougher AI social media rules spark censorship fears",
+    "url": "https://www.digitaljournal.com/social-media/indias-tougher-ai-social-media-rules-spark-censorship-fears/article",
+    "industry": "AI Social Media",
+    "summary": "India has tightened rules governing the use of AI on social media to combat a flood of disinformation, raising concerns about censorship.",
+    "charlotte_impact": "While specifically about India's rules, this highlights the growing need for regulation of AI in social media to combat disinformation, impacting global media strategies.",
+    "impact_score": 3
+  },
+  {
+    "title": "United States Sports Intelligent Marketing Software Market ROI, Size & Trends 2026-2033",
+    "url": "https://www.linkedin.com/pulse/united-states-sports-intelligent-marketing-software-ndivf",
+    "industry": "Sports Marketing",
+    "summary": "The United States Sports Intelligent Marketing Software Market is projected to reach USD 6.5 billion by 2033, indicating a strong growth in AI-driven marketing within the sports industry.",
+    "charlotte_impact": "Charlotte sports teams and businesses involved in sports marketing can leverage intelligent marketing software to improve engagement and ROI.",
+    "impact_score": 5
+  },
+  {
+    "title": "New Report \u201cHow to Transition from Software Engineer to Machine Learning Engineer\u201d \u2013 Interview Kickstart Publishes Definitive Guide for Engineers Looking to Move Into Production Machine Learning Roles",
+    "url": "https://www.globenewswire.com/news-release/2026/02/20/3242039/0/en/New-Report-How-to-Transition-from-Software-Engineer-to-Machine-Learning-Engineer-Interview-Kickstart-Publishes-Definitive-Guide-for-Engineers-Looking-to-Move-Into-Production-Machin.html",
+    "industry": "AI Education",
+    "summary": "Interview Kickstart publishes a guide on transitioning from Software Engineer to Machine Learning Engineer, addressing the growing demand for skilled AI professionals.",
+    "charlotte_impact": "Can help Charlotte's workforce acquire the necessary skills to transition into machine learning roles, supporting the city's growing tech sector.",
+    "impact_score": 5
+  },
+  {
+    "title": "Media87 Named 2026\u2019s Top Digital Marketing Agency and Local SEO Leader",
+    "url": "https://www.globenewswire.com/news-release/2026/02/20/3242032/0/en/Media87-Named-2026-s-Top-Digital-Marketing-Agency-and-Local-SEO-Leader.html",
+    "industry": "Digital Marketing",
+    "summary": "Media87 named top digital marketing agency for innovation in AI-powered automation, content strategy, and SEO.",
+    "charlotte_impact": "Demonstrates the growing importance of AI in digital marketing and SEO, providing benchmarks for other marketing agencies in the Charlotte area.",
+    "impact_score": 4
+  },
+  {
+    "title": "Satyajit Das: AI \u2013 Artificial Intelligence or Absolute Insanity?",
+    "url": "https://biztoc.com/x/c26a2ed6238207f3?ref=ff",
+    "industry": "Economic Analysis",
+    "summary": "An article questions whether AI is \"Artificial Intelligence or Absolute Insanity?\", raising concerns about the economic impact.",
+    "charlotte_impact": "This article serves as a caution for Charlotte companies to carefully consider the strategic and financial impact of their AI investments.",
+    "impact_score": 3
+  },
+  {
+    "title": "Artificial Intelligence ETFs, or ETFs Powered by AI?",
+    "url": "https://etfdb.com/disruptive-technology-channel/artificial-intelligence-etfs-or-etfs-powered-by-ai/",
+    "industry": "AI Investments",
+    "summary": "Discusses the difference between Artificial Intelligence ETFs and ETFs powered by AI, a trend in investment.",
+    "charlotte_impact": "Provides insights for Charlotte-based investors interested in the potential returns, risks, and strategic approaches to investing in companies involved with AI.",
+    "impact_score": 3
+  },
+  {
+    "title": "The creator economy\u2019s ad revenue problem and India\u2019s AI ambitions",
+    "url": "https://techcrunch.com/video/the-creator-economys-ad-revenue-problem-and-indias-ai-ambitions/",
+    "industry": "Creator Economy",
+    "summary": "The creator economy is diversifying beyond ad revenue, with creators launching product lines and acquiring startups, requiring new strategies for creator success.",
+    "charlotte_impact": "While not directly AI focused, AI tools enable creator diversification (content creation, community management, etc.) making these revenue strategies more viable.  Charlotte creators can use AI to expand their operations and revenue streams.",
+    "impact_score": 4
+  },
+  {
+    "title": "AI\u2019s promise to indie filmmakers: Faster, cheaper, lonelier",
+    "url": "https://techcrunch.com/2026/02/20/ais-promise-to-indie-filmmakers-faster-cheaper-lonelier/",
+    "industry": "Film Industry",
+    "summary": "AI expands access to filmmaking for indie filmmakers, enabling faster and cheaper production, but creativity risks being overwhelmed by low-effort, AI-generated content.",
+    "charlotte_impact": "Charlotte's indie filmmakers can leverage AI tools to create content with fewer resources. Focus on creativity and unique storytelling is vital to stand out.",
+    "impact_score": 4
+  },
+  {
+    "title": "AI 2027: Will Artificial Intelligence Bring Prosperity or Pose an Existential Risk?",
+    "url": "https://medium.com/@kaustubhkalyankar/ai-2027-will-artificial-intelligence-bring-prosperity-or-pose-an-existential-risk-b3071da5e6ab",
+    "industry": "Future of AI",
+    "summary": "An article explores the future of AI in 2027, discussing whether AI will bring prosperity or pose an existential risk, including the challenge of AI alignment.",
+    "charlotte_impact": "Highlights important questions for businesses in Charlotte regarding the ethical implications of AI and the importance of responsible AI deployment and planning.",
+    "impact_score": 3
+  }
+]
