@@ -3,200 +3,136 @@
     "title": "Railway obtiene 100 millones de dólares para desafiar a AWS con una infraestructura de nube nativa de IA",
     "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
     "industry": "Cloud Infrastructure",
-    "summary": "Railway, un proveedor de infraestructura de nube nativa de IA, recaudó 100 millones de dólares para desafiar a AWS, citando la frustración de los desarrolladores con las complejidades existentes de la nube. Su plataforma cuenta con tiempos de implementación más rápidos y ahorros de costos, lo que atrae a clientes de Fortune 500.",
-    "charlotte_impact": "Podría ofrecer a las empresas de Charlotte una solución en la nube más ágil y rentable, atrayendo potencialmente a empresas emergentes y establecidas que buscan optimizar la infraestructura.",
+    "summary": "Railway obtuvo una financiación Serie B de 100 millones de dólares para desafiar a AWS con su infraestructura de nube nativa de IA, abordando la frustración de los desarrolladores con la complejidad y el costo de la nube tradicional. Su plataforma permite implementaciones más rápidas y ahorros de costos significativos, lo que atrae a clientes de Fortune 500.",
+    "charlotte_impact": "Podría proporcionar a las empresas de Charlotte una solución de infraestructura en la nube más rentable y eficiente, lo que podría atraer empresas de tecnología a la región.",
     "impact_score": 9
   },
   {
     "title": "Salesforce lanza un nuevo agente de IA Slackbot mientras lucha contra Microsoft y Google en la IA en el lugar de trabajo",
     "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
     "industry": "Enterprise Software",
-    "summary": "Salesforce lanzó un Slackbot reconstruido impulsado por Claude de Anthropic, con el objetivo de posicionar a Slack como un agente central de IA para las empresas. Las primeras pruebas internas muestran mejoras significativas en la productividad, lo que coloca a Salesforce en competencia con Microsoft Copilot y Google Gemini.",
-    "charlotte_impact": "Las empresas con sede en Charlotte que utilizan Slack pueden aprovechar el nuevo Slackbot para mejorar el análisis de datos, la redacción de documentos y la automatización de tareas, lo que potencialmente mejora la productividad.",
-    "impact_score": 9
+    "summary": "Salesforce lanzó un agente Slackbot AI reconstruido impulsado por Claude de Anthropic, destinado a transformar las interacciones en el lugar de trabajo al permitir la búsqueda de datos, la redacción de documentos y la ejecución de tareas. Esto pone a Salesforce en competencia directa con Copilot de Microsoft y Gemini de Google en el espacio de la IA empresarial.",
+    "charlotte_impact": "Las empresas con sede en Charlotte que utilizan Salesforce y Slack podrían ver una productividad mejorada y flujos de trabajo optimizados, lo que podría generar ahorros de costos y una mejor toma de decisiones.",
+    "impact_score": 8
   },
   {
     "title": "Listen Labs recauda 69 millones de dólares después de un truco de contratación de vallas publicitarias virales para escalar las entrevistas con clientes de IA",
     "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
     "industry": "Market Research",
-    "summary": "Listen Labs recaudó 69 millones de dólares para ampliar su plataforma de entrevistas a clientes basada en inteligencia artificial, abordando las limitaciones de la investigación de mercado tradicional y combatiendo el fraude desenfrenado. Proporcionan conocimientos de los clientes más rápidos y profundos a empresas como Microsoft y Chubbies, lo que potencialmente remodela el desarrollo de productos.",
-    "charlotte_impact": "Las empresas de Charlotte pueden utilizar Listen Labs para realizar investigaciones de mercado más rápidas y precisas, lo que permite tomar decisiones sobre productos basadas en datos y mejorar la comprensión del cliente.",
-    "impact_score": 8
+    "summary": "Listen Labs recaudó 69 millones de dólares Serie B para escalar su plataforma de entrevistas a clientes impulsada por inteligencia artificial, ofreciendo una investigación de mercado más rápida y reveladora que los métodos tradicionales. Su plataforma encuentra participantes, realiza entrevistas con IA y entrega informes, abordando problemas de fraude en la industria de la investigación de mercado.",
+    "charlotte_impact": "Las empresas de Charlotte podrían beneficiarse de conocimientos de los clientes más rápidos y asequibles, lo que permitiría mejores estrategias de marketing y desarrollo de productos, especialmente en industrias como las finanzas y el comercio minorista.",
+    "impact_score": 7
   },
   {
     "title": "El vicepresidente de Google advierte que es posible que dos tipos de startups de IA no sobrevivan",
     "url": "https://techcrunch.com/2026/02/21/google-vp-warns-that-two-types-of-ai-startups-may-not-survive/",
     "industry": "AI Startups",
-    "summary": "Un vicepresidente de Google advierte que las nuevas empresas de IA que se centran en simples envoltorios de LLM o agregación de IA pueden tener dificultades para sobrevivir debido a la reducción de los márgenes y la falta de valor único.",
-    "charlotte_impact": "Las nuevas empresas de IA con sede en Charlotte deben centrarse en la innovación y la diferenciación fundamentales para evitar convertirse en productos básicos y enfrentar desafíos de viabilidad.",
-    "impact_score": 7
+    "summary": "Un vicepresidente de Google advierte que las nuevas empresas de IA centradas en envoltorios de LLM y agregadores de IA pueden enfrentar desafíos a largo plazo debido a márgenes cada vez más reducidos y una diferenciación limitada.",
+    "charlotte_impact": "Podría afectar a las nuevas empresas de Charlotte en el espacio de la IA, empujándolas a innovar más allá de simples envoltorios o agregadores y centrarse en propuestas de valor más profundas.",
+    "impact_score": 6
   },
   {
     "title": "InScope obtiene 14,5 millones de dólares para solucionar el problema de la presentación de informes financieros",
     "url": "https://techcrunch.com/2026/02/20/inscope-nabs-14-5m-to-solve-the-pain-of-financial-reporting/",
     "industry": "Fintech",
-    "summary": "InScope obtuvo 14,5 millones de dólares para automatizar los informes financieros, simplificando el proceso para las empresas y mejorando la eficiencia en la preparación de los estados financieros.",
-    "charlotte_impact": "Las empresas de Charlotte pueden beneficiarse de la plataforma de InScope, reduciendo las complejidades y el tiempo dedicado a la presentación de informes financieros, lo que puede liberar recursos para otras iniciativas estratégicas.",
+    "summary": "InScope recaudó 14,5 millones de dólares para automatizar los informes financieros, un proceso que suele ser un problema para las empresas.  La startup fue fundada por ex contadores de Flexport, Miro, Hopin y Thrive Global.",
+    "charlotte_impact": "El creciente sector fintech de Charlotte podría ver una mayor eficiencia y precisión en los informes financieros, beneficiando a empresas de todos los tamaños.",
+    "impact_score": 5
+  },
+  {
+    "title": "Seis razones por las que la adopción de la IA empresarial comienza poco a poco",
+    "url": "https://www.techtarget.com/searchenterprisedesktop/feature/6-reasons-enterprise-AI-adoption-starts-small",
+    "industry": "Enterprise AI",
+    "summary": "La adopción de la IA empresarial suele comenzar poco a poco, determinada por factores como los límites de integración, la preparación de los datos, la gobernanza y las limitaciones arquitectónicas, lo que destaca la necesidad de un enfoque estratégico.",
+    "charlotte_impact": "Las empresas de Charlotte deben planificar cuidadosamente la adopción de la IA, centrándose en casos de uso específicos y garantizando la preparación de los datos antes de la implementación a gran escala.",
     "impact_score": 6
   },
   {
-    "title": "Sarvam de la India lanza la aplicación de chat Indus AI a medida que aumenta la competencia",
-    "url": "https://techcrunch.com/2026/02/20/indias-sarvam-launches-indus-ai-chat-app-as-competition-heats-up/",
-    "industry": "AI Chatbots",
-    "summary": "Sarvam de la India lanzó la aplicación de chat Indus AI, aumentando la competencia en el mercado de chatbots de IA y ofreciendo soluciones de IA localizadas en la India.",
-    "charlotte_impact": "Si bien se centra directamente en la India, el aumento de la competencia y la innovación en el espacio de los chatbots podría conducir indirectamente a mejores tecnologías de chatbots disponibles para las empresas de Charlotte.",
-    "impact_score": 4
-  },
-  {
-    "title": "Peak XV recauda 1.300 millones de dólares y duplica su inversión en IA a medida que se intensifica la rivalidad global de capital de riesgo en India",
-    "url": "https://techcrunch.com/2026/02/20/peak-xv-raises-1-3b-doubles-down-on-ai-as-global-vc-rivalry-in-india-heats-up/",
-    "industry": "Venture Capital",
-    "summary": "Peak XV recaudó 1.300 millones de dólares, centrándose en inversiones en IA en India, lo que indica una mayor competencia global de capital de riesgo en el mercado indio de IA.",
-    "charlotte_impact": "Indirectamente, esto resalta la creciente importancia de la IA en los mercados emergentes y puede inspirar inversiones en tecnologías similares con impacto en los negocios globales.",
-    "impact_score": 4
-  },
-  {
-    "title": "Infosys Limited (INFY) amplía las asociaciones empresariales y de inteligencia artificial",
-    "url": "https://finance.yahoo.com/news/infosys-limited-infy-expands-ai-165457596.html",
-    "industry": "IT Services",
-    "summary": "Infosys amplía sus asociaciones empresariales y de IA, mostrando la importancia continua de las empresas de servicios de TI establecidas en el panorama de la IA.",
-    "charlotte_impact": "Las empresas de Charlotte que trabajan con Infosys o servicios de TI similares pueden ver capacidades ampliadas de IA ofrecidas e integradas en sus sistemas existentes.",
+    "title": "Google presenta WebMCP para brindar acceso al navegador a agentes de inteligencia artificial",
+    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/google-introduces-webmcp-to-give-browser-access-for-ai-agents/",
+    "industry": "AI Infrastructure",
+    "summary": "Google introdujo WebMCP para brindar acceso al navegador a los agentes de IA, formalizando cómo la IA interactúa con la web y permitiendo que los sitios web expongan datos estructurados.",
+    "charlotte_impact": "Las empresas de Charlotte con presencia en la web deberán considerar cómo optimizar sus sitios para la interacción de los agentes de IA mediante WebMCP.",
     "impact_score": 5
   },
   {
-    "title": "La caótica cumbre de IA de Modi mostró la influencia y las limitaciones de la India - Yahoo Finanzas",
-    "url": "https://slashdot.org/firehose.pl?op=view&amp;id=180831902",
-    "industry": "AI Policy",
-    "summary": "La cumbre de IA de Modi en India demuestra la ambición y los desafíos del país en el ámbito global de la IA, destacando la intersección de la IA, las políticas y las relaciones internacionales.",
-    "charlotte_impact": "Destaca el enfoque internacional en las políticas y regulaciones de IA que, en última instancia, afecta a las empresas a nivel mundial, incluidas las de Charlotte.",
-    "impact_score": 3
+    "title": "WestFax lanza una plataforma de procesamiento de documentos inteligente impulsada por IA para el sector sanitario",
+    "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/westfax-launches-ai-powered-intelligent-document-processing-platform-for-healthcare",
+    "industry": "Healthcare",
+    "summary": "WestFax lanzó una plataforma de procesamiento de documentos inteligente impulsada por IA para atención médica, que automatiza la clasificación de documentos médicos, la extracción de datos y el enrutamiento del flujo de trabajo, mejorando la eficiencia y el cumplimiento.",
+    "charlotte_impact": "Los hospitales y proveedores de atención médica en Charlotte podrían beneficiarse de un procesamiento de documentos simplificado, reduciendo la carga administrativa y mejorando la atención al paciente.",
+    "impact_score": 7
   },
   {
-    "title": "\"Están surgiendo dudas en torno a la revolución de la IA\", dice BofA, mientras el mercado ve un \"arma de doble filo\" que podría \"canibalizarlo\".",
-    "url": "https://fortune.com/2026/02/20/doubts-ai-revolution-emerging-bank-of-america-double-edged-sword-cannibalize/",
-    "industry": "Investment Analysis",
-    "summary": "Bank of America sugiere que están surgiendo dudas sobre la revolución de la IA, que podría canibalizar los flujos de ingresos existentes si no se implementa de manera efectiva.",
-    "charlotte_impact": "Sirve como advertencia para que las empresas de Charlotte evalúen cuidadosamente el impacto potencial de las inversiones en IA y mitiguen los riesgos relacionados con la canibalización de ingresos.",
+    "title": "La plataforma que se comió el proceso: el replanteamiento de la infraestructura de IA por parte de Vast Data",
+    "url": "https://siliconangle.com/2026/02/20/vast-reshaes-data-infrastructure-agentic-ai-vastforward/",
+    "industry": "AI Infrastructure",
+    "summary": "Vast Data está repensando la infraestructura de IA para respaldar una IA agente autónoma y continua, enfocándose en entregar datos de manera consistente, global y en tiempo real.",
+    "charlotte_impact": "Las empresas de Charlotte que invierten en IA deben considerar soluciones modernas de infraestructura de datos como Vast Data para respaldar sus iniciativas de IA.",
     "impact_score": 6
   },
   {
-    "title": "Corea del Sur: Entra en vigor un marco legal integral sobre IA",
-    "url": "https://www.loc.gov/item/global-legal-monitor/2026-02-20/south-korea-comprehensive-ai-legal-framework-takes-effect/",
-    "industry": "AI Regulation",
-    "summary": "El marco legal integral de IA de Corea del Sur entra en vigor, lo que muestra la creciente tendencia de los gobiernos a establecer regulaciones claras sobre la IA.",
-    "charlotte_impact": "Proporciona un punto de referencia para la regulación de la IA que las empresas de Charlotte y otras empresas estadounidenses pueden ver reflejada en la futura legislación nacional.",
-    "impact_score": 5
-  },
-  {
-    "title": "El primer ministro Modi mantiene conversaciones bilaterales con los máximos líderes de Mauricio, Sri Lanka y Eslovaquia",
-    "url": "https://economictimes.indiatimes.com/news/india/pm-modi-holds-bilateral-talks-with-top-leaders-of-mauritius-sri-lanka-and-slovakia/articleshow/128617485.cms",
-    "industry": "International Relations",
-    "summary": "El Primer Ministro Modi mantuvo conversaciones bilaterales centradas en la cooperación en comercio y tecnología, incluidas discusiones sobre cómo hacer que la IA sea inclusiva, mostrando la IA como un tema de cooperación global.",
-    "charlotte_impact": "Refuerza la importancia de la colaboración internacional en el desarrollo y la implementación de la IA, lo que afecta a las empresas con operaciones globales.",
-    "impact_score": 3
-  },
-  {
-    "title": "Una política basada en la ciencia, no conjeturas, es clave para garantizar que la inteligencia artificial sirva a la humanidad, dice el Secretario General en un evento de la Cumbre sobre el Impacto de la IA, describiendo el papel de la ONU",
-    "url": "https://press.un.org/en/2026/sgsm23023.doc.htm",
-    "industry": "AI Governance",
-    "summary": "El Secretario General de la ONU enfatizó la importancia de una política basada en la ciencia para garantizar que la IA sirva a la humanidad en un evento de la Cumbre sobre el Impacto de la IA, y describió el papel de la ONU en la gobernanza de la IA.",
-    "charlotte_impact": "Subraya el esfuerzo global para garantizar el desarrollo ético y responsable de la IA, lo que podría dar forma a futuras regulaciones y directrices que afecten a las empresas de Charlotte.",
+    "title": "Los vínculos entre India y los Emiratos Árabes Unidos pasan de la coinversión a la coinnovación y la inteligencia artificial: enviado especial de los Emiratos Árabes Unidos",
+    "url": "https://economictimes.indiatimes.com/news/international/world-news/india-uae-ties-moving-from-co-investment-to-co-innovation-and-ai-uae-special-envoy/articleshow/128620863.cms",
+    "industry": "International Relations/AI",
+    "summary": "India y los Emiratos Árabes Unidos están pasando de la coinversión a la coinnovación y la inteligencia artificial, explorando tecnologías informáticas y estableciendo centros de datos, lo que significa una asociación cada vez más profunda.",
+    "charlotte_impact": "Las empresas de Charlotte con intereses internacionales podrían encontrar oportunidades de colaboración con India y Emiratos Árabes Unidos en el espacio de la IA.",
     "impact_score": 4
   },
   {
-    "title": "Estados Unidos lidera la carrera de cerebros en IA, seguido por China y Singapur; India en el sexto lugar: informe",
-    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-leads-ai-brain-race-followed-by-china-singapore-india-at-6th-spot-report/articleshow/128617141.cms",
-    "industry": "AI Talent",
-    "summary": "Un informe indica que Estados Unidos lidera la carrera de cerebros en IA, seguido de China y Singapur, y la India en sexto lugar, lo que revela la distribución global del talento y la investigación en IA.",
-    "charlotte_impact": "Destaca el panorama competitivo para el talento de IA, que es importante para las empresas de Charlotte que buscan desarrollar o ampliar sus capacidades de IA.",
+    "title": "La IA y el aprendizaje automático son el futuro de la gestión de Wi-Fi: informe de la WBA",
+    "url": "https://www.telecompetitor.com/ai-and-machine-learning-are-the-future-of-wi-fi-management-wba-report/",
+    "industry": "Telecom",
+    "summary": "Un informe de Wireless Broadband Alliance (WBA) dice que la IA y el aprendizaje automático son el futuro de la gestión de Wi-Fi, a medida que crece la naturaleza de misión crítica y la complejidad de las redes Wi-Fi.",
+    "charlotte_impact": "Los ISP y las empresas de Charlotte deberán adoptar soluciones de gestión de Wi-Fi impulsadas por IA para garantizar una conectividad confiable y eficiente para clientes y empleados.",
     "impact_score": 5
-  },
-  {
-    "title": "Por qué la IA de voz en tiempo real es más difícil de lo que parece",
-    "url": "https://siliconangle.com/2026/02/20/real-time-voice-ai-harder-sounds/",
-    "industry": "Voice AI",
-    "summary": "Explora los desafíos de la IA de voz en tiempo real, destacando la complejidad detrás de una tecnología que ahora se usa ampliamente.",
-    "charlotte_impact": "Informa a las empresas que utilizan IA de voz sobre la investigación y el desarrollo continuos necesarios para mejorar la precisión y confiabilidad de esta tecnología.",
-    "impact_score": 4
-  },
-  {
-    "title": "Boletín informativo de Fox News AI: el gigante de la IA traslada su sede al estado rojo",
-    "url": "https://www.foxnews.com/tech/ai-newsletter-ai-giant-moves-hq-red-state",
-    "industry": "AI News",
-    "summary": "Un boletín de IA de Fox News informa sobre un gigante de la IA que traslada su sede a un estado rojo, lo que sugiere el crecimiento y la expansión continuos de la industria de la IA en diferentes ubicaciones geográficas.",
-    "charlotte_impact": "Podría significar una tendencia de las empresas de IA a mirar más allá de los centros tecnológicos tradicionales, lo que podría beneficiar potencialmente a ciudades como Charlotte que intentan atraer inversiones en IA.",
-    "impact_score": 3
-  },
-  {
-    "title": "Las normas más estrictas sobre IA en las redes sociales de la India provocan temores de censura",
-    "url": "https://www.digitaljournal.com/social-media/indias-tougher-ai-social-media-rules-spark-censorship-fears/article",
-    "industry": "AI Social Media",
-    "summary": "India ha endurecido las reglas que rigen el uso de la IA en las redes sociales para combatir una avalancha de desinformación, lo que genera preocupaciones sobre la censura.",
-    "charlotte_impact": "Si bien se trata específicamente de las reglas de la India, esto resalta la creciente necesidad de regular la IA en las redes sociales para combatir la desinformación, lo que afecta las estrategias de los medios globales.",
-    "impact_score": 3
-  },
-  {
-    "title": "ROI, tamaño y tendencias del mercado de software de marketing inteligente deportivo de Estados Unidos 2026-2033",
-    "url": "https://www.linkedin.com/pulse/united-states-sports-intelligent-marketing-software-ndivf",
-    "industry": "Sports Marketing",
-    "summary": "Se prevé que el mercado de software de marketing inteligente para deportes de Estados Unidos alcance los 6.500 millones de dólares en 2033, lo que indica un fuerte crecimiento del marketing impulsado por la IA dentro de la industria del deporte.",
-    "charlotte_impact": "Los equipos deportivos de Charlotte y las empresas involucradas en el marketing deportivo pueden aprovechar el software de marketing inteligente para mejorar el compromiso y el retorno de la inversión.",
-    "impact_score": 5
-  },
-  {
-    "title": "Nuevo informe “Cómo hacer la transición de ingeniero de software a ingeniero de aprendizaje automático”: entrevista Kickstart publica una guía definitiva para ingenieros que buscan pasar a funciones de aprendizaje automático de producción",
-    "url": "https://www.globenewswire.com/news-release/2026/02/20/3242039/0/en/New-Report-How-to-Transition-from-Software-Engineer-to-Machine-Learning-Engineer-Interview-Kickstart-Publishes-Definitive-Guide-for-Engineers-Looking-to-Move-Into-Production-Machin.html",
-    "industry": "AI Education",
-    "summary": "Interview Kickstart publica una guía sobre la transición de ingeniero de software a ingeniero de aprendizaje automático, abordando la creciente demanda de profesionales capacitados en IA.",
-    "charlotte_impact": "Puede ayudar a la fuerza laboral de Charlotte a adquirir las habilidades necesarias para realizar la transición a roles de aprendizaje automático, respaldando el creciente sector tecnológico de la ciudad.",
-    "impact_score": 5
-  },
-  {
-    "title": "Media87 nombrada la principal agencia de marketing digital y líder de SEO local de 2026",
-    "url": "https://www.globenewswire.com/news-release/2026/02/20/3242032/0/en/Media87-Named-2026-s-Top-Digital-Marketing-Agency-and-Local-SEO-Leader.html",
-    "industry": "Digital Marketing",
-    "summary": "Media87 nombrada agencia de marketing digital líder por su innovación en automatización impulsada por IA, estrategia de contenido y SEO.",
-    "charlotte_impact": "Demuestra la creciente importancia de la IA en el marketing digital y el SEO, proporcionando puntos de referencia para otras agencias de marketing en el área de Charlotte.",
-    "impact_score": 4
-  },
-  {
-    "title": "Satyajit Das: IA: ¿Inteligencia artificial o locura absoluta?",
-    "url": "https://biztoc.com/x/c26a2ed6238207f3?ref=ff",
-    "industry": "Economic Analysis",
-    "summary": "Un artículo cuestiona si la IA es \"Inteligencia artificial o locura absoluta\", lo que genera preocupación sobre el impacto económico.",
-    "charlotte_impact": "Este artículo sirve como advertencia para que las empresas de Charlotte consideren cuidadosamente el impacto estratégico y financiero de sus inversiones en IA.",
-    "impact_score": 3
   },
   {
     "title": "¿ETF de inteligencia artificial o ETF impulsados ​​por IA?",
     "url": "https://etfdb.com/disruptive-technology-channel/artificial-intelligence-etfs-or-etfs-powered-by-ai/",
-    "industry": "AI Investments",
-    "summary": "Analiza la diferencia entre los ETF de inteligencia artificial y los ETF impulsados ​​por IA, una tendencia en la inversión.",
-    "charlotte_impact": "Proporciona información para inversores con sede en Charlotte interesados ​​en los posibles rendimientos, riesgos y enfoques estratégicos para invertir en empresas relacionadas con la IA.",
-    "impact_score": 3
+    "industry": "Investment/Finance",
+    "summary": "VettaFi analiza la diferencia entre invertir en ETF de inteligencia artificial e invertir en ETF impulsados ​​por IA.",
+    "charlotte_impact": "Los inversores y asesores financieros locales pueden explorar los ETF relacionados con la IA y comprender la diferencia entre las empresas que desarrollan IA y las que la utilizan para mejorar sus negocios.",
+    "impact_score": 4
   },
   {
     "title": "El problema de los ingresos publicitarios de la economía creadora y las ambiciones de IA de la India",
     "url": "https://techcrunch.com/video/the-creator-economys-ad-revenue-problem-and-indias-ai-ambitions/",
-    "industry": "Creator Economy",
-    "summary": "La economía de los creadores se está diversificando más allá de los ingresos publicitarios: los creadores lanzan líneas de productos y adquieren nuevas empresas, lo que requiere nuevas estrategias para el éxito de los creadores.",
-    "charlotte_impact": "Si bien no se centran directamente en la IA, las herramientas de IA permiten la diversificación de los creadores (creación de contenido, gestión de comunidades, etc.), lo que hace que estas estrategias de ingresos sean más viables.  Los creadores de Charlotte pueden utilizar la IA para ampliar sus operaciones y fuentes de ingresos.",
+    "industry": "Creator Economy/Finance",
+    "summary": "La economía de los creadores está viendo a los creadores diversificar sus fuentes de ingresos más allá de los anuncios. La compañía de MrBeast compró la startup fintech Step, y su negocio de chocolate está ganando más que su brazo de medios.",
+    "charlotte_impact": "Los creadores con sede en Charlotte pueden aprender de esta tendencia para diversificar sus ingresos y crear negocios sostenibles.",
     "impact_score": 4
+  },
+  {
+    "title": "Un grupo financiado por Anthropic respalda al candidato atacado por el super PAC rival de AI",
+    "url": "https://techcrunch.com/2026/02/20/anthropic-funded-group-backs-candidate-attacked-by-rival-ai-super-pac/",
+    "industry": "Politics/AI",
+    "summary": "Un grupo financiado por Anthropic respalda a un candidato atacado por un súper PAC rival de IA.  Los PAC en duelo a favor de la IA se han centrado en respaldar o atacar a una candidatura al Congreso de Nueva York: Alex Bores, cuya Ley RAISE exige que los desarrolladores de IA revelen protocolos de seguridad e informen sobre el uso indebido grave del sistema.",
+    "charlotte_impact": "Destaca la creciente influencia política y el debate en torno a la regulación de la IA, que pueden afectar la forma en que operan las empresas de IA en cualquier geografía, incluida Charlotte.",
+    "impact_score": 3
   },
   {
     "title": "La promesa de la IA a los cineastas independientes: más rápido, más barato y más solitario",
     "url": "https://techcrunch.com/2026/02/20/ais-promise-to-indie-filmmakers-faster-cheaper-lonelier/",
-    "industry": "Film Industry",
-    "summary": "La IA amplía el acceso a la realización cinematográfica para los cineastas independientes, lo que permite una producción más rápida y más barata, pero la creatividad corre el riesgo de verse abrumada por el contenido generado por IA que requiere poco esfuerzo.",
-    "charlotte_impact": "Los cineastas independientes de Charlotte pueden aprovechar las herramientas de inteligencia artificial para crear contenido con menos recursos. Centrarse en la creatividad y la narración única es vital para destacar.",
-    "impact_score": 4
+    "industry": "Entertainment/AI",
+    "summary": "La IA amplía el acceso a la realización cinematográfica para creadores con recursos limitados. Pero a medida que la eficiencia se convierte en la estrella del norte de la industria, la creatividad corre el riesgo de verse abrumada por una avalancha de contenido generado por IA que requiere poco esfuerzo.",
+    "charlotte_impact": "Los cineastas y artistas locales pueden aprovechar la IA para crear contenidos de forma más rápida y económica y, al mismo tiempo, enfatizar la importancia de la creatividad.",
+    "impact_score": 3
   },
   {
-    "title": "IA 2027: ¿La inteligencia artificial traerá prosperidad o planteará un riesgo existencial?",
-    "url": "https://medium.com/@kaustubhkalyankar/ai-2027-will-artificial-intelligence-bring-prosperity-or-pose-an-existential-risk-b3071da5e6ab",
-    "industry": "Future of AI",
-    "summary": "Un artículo explora el futuro de la IA en 2027 y analiza si traerá prosperidad o representará un riesgo existencial, incluido el desafío de la alineación de la IA.",
-    "charlotte_impact": "Destaca preguntas importantes para las empresas de Charlotte con respecto a las implicaciones éticas de la IA y la importancia de una implementación y planificación responsable de la IA.",
-    "impact_score": 3
+    "title": "El 'punto ciego' de la IA podría permitir a los delincuentes apoderarse de vehículos autónomos",
+    "url": "https://www.futurity.org/ai-blind-spot-self-driving-cars-3323122/",
+    "industry": "Automotive/Cybersecurity",
+    "summary": "Una vulnerabilidad recientemente descubierta podría permitir a los ciberdelincuentes secuestrar silenciosamente los sistemas de inteligencia artificial de los vehículos autónomos.",
+    "charlotte_impact": "Destaca la importancia de medidas sólidas de ciberseguridad para los vehículos autónomos y la necesidad de que los fabricantes de automóviles y las empresas de tecnología locales se mantengan alerta.",
+    "impact_score": 2
+  },
+  {
+    "title": "Sarvam de la India lanza la aplicación de chat Indus AI a medida que aumenta la competencia",
+    "url": "https://techcrunch.com/2026/02/20/indias-sarvam-launches-indus-ai-chat-app-as-competition-heats-up/",
+    "industry": "AI Chat App",
+    "summary": "Sarvam lanza la aplicación de chat Indus AI en India. Está en fase beta y la competencia se está intensificando en el espacio.",
+    "charlotte_impact": "Proporciona información sobre un mercado global de rápido crecimiento que las empresas con sede en Charlotte deben conocer.",
+    "impact_score": 2
   }
 ]
