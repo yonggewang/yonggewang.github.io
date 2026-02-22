@@ -3,200 +3,144 @@
     "title": "Railway obtiene 100 millones de dólares para desafiar a AWS con una infraestructura de nube nativa de IA",
     "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
     "industry": "Cloud Infrastructure",
-    "summary": "Railway obtuvo 100 millones de dólares para desafiar a AWS con una infraestructura de nube nativa de IA, centrándose en tiempos de implementación más rápidos, cruciales para el código generado por IA.  Están construyendo sus propios centros de datos y ofreciendo precios significativamente más bajos en comparación con los proveedores de nube tradicionales.",
-    "charlotte_impact": "Podría generar ahorros de costos para las empresas de Charlotte que utilizan servicios en la nube, particularmente aquellas en los sectores de tecnología financiera y análisis de datos. Las nuevas empresas locales podrían encontrar en Railway una plataforma más accesible para implementar aplicaciones de IA.",
+    "summary": "Railway, una plataforma en la nube nativa de IA, recaudó 100 millones de dólares para desafiar a AWS y Google Cloud al ofrecer tiempos de implementación más rápidos y ahorros de costos. Su plataforma aprovecha la IA para agilizar el proceso de desarrollo y ha experimentado una adopción significativa por parte de las empresas.",
+    "charlotte_impact": "Podría proporcionar a las empresas de Charlotte una solución de infraestructura en la nube más rentable y eficiente, impulsando el desarrollo tecnológico local.",
     "impact_score": 9
   },
   {
     "title": "Salesforce lanza un nuevo agente de IA Slackbot mientras lucha contra Microsoft y Google en la IA en el lugar de trabajo",
     "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
-    "industry": "Enterprise Software/Collaboration",
-    "summary": "Salesforce lanzó un Slackbot reconstruido impulsado por Claude de Anthropic, transformándolo en un agente de inteligencia artificial capaz de buscar datos empresariales y redactar documentos. Esto compite directamente con Microsoft Copilot y Google Gemini, con el objetivo de ser el \"superagente\" central para coordinar otras herramientas de IA.",
-    "charlotte_impact": "Las empresas con sede en Charlotte que utilizan Salesforce y Slack podrían ver una mayor productividad y flujos de trabajo optimizados. La integración puede afectar a las empresas consultoras locales especializadas en implementaciones de Salesforce.",
-    "impact_score": 8
+    "industry": "Enterprise Software",
+    "summary": "Salesforce lanzó un Slackbot reconstruido, impulsado por Claude de Anthropic, convirtiéndolo en un agente de inteligencia artificial para la búsqueda de datos empresariales, la redacción de documentos y la ejecución de acciones. Este movimiento posiciona a Slack en el centro del movimiento de IA agente, compitiendo con Microsoft Copilot y Google Gemini.",
+    "charlotte_impact": "Las empresas de Charlotte que utilizan productos Salesforce podrían experimentar una mayor eficiencia y automatización a través del nuevo Slackbot, mejorando los flujos de trabajo internos.",
+    "impact_score": 9
   },
   {
     "title": "Listen Labs recauda 69 millones de dólares después de un truco de contratación de vallas publicitarias virales para escalar las entrevistas con clientes de IA",
     "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
     "industry": "Market Research",
-    "summary": "Listen Labs recaudó 69 millones de dólares para ampliar las entrevistas con clientes mediante IA, reemplazando las encuestas tradicionales con conversaciones en vídeo moderadas por IA. Abordan el fraude desenfrenado en la investigación de mercado, prometiendo conocimientos más rápidos y honestos, lo que podría alterar la industria de la investigación de mercado de 140 mil millones de dólares.",
-    "charlotte_impact": "Las agencias de marketing y las empresas de Charlotte que dependen de la investigación de clientes podrían beneficiarse de información más rápida impulsada por la IA. Esto podría conducir a cambios en la forma en que se realizan las investigaciones de mercado a nivel local.",
-    "impact_score": 7
+    "summary": "Listen Labs recaudó 69 millones de dólares para escalar su plataforma de entrevistas a clientes basada en inteligencia artificial, proporcionando información procesable en horas en lugar de semanas. Su plataforma utiliza inteligencia artificial para realizar entrevistas en video en profundidad, reemplazando las encuestas tradicionales y los grupos focales con comentarios más escalables y honestos.",
+    "charlotte_impact": "Las empresas de Charlotte podrían obtener información sobre los clientes de forma más rápida y precisa, lo que permitiría un mejor desarrollo de productos y estrategias de marketing.",
+    "impact_score": 8
   },
   {
     "title": "El vicepresidente de Google advierte que es posible que dos tipos de startups de IA no sobrevivan",
     "url": "https://techcrunch.com/2026/02/21/google-vp-warns-that-two-types-of-ai-startups-may-not-survive/",
     "industry": "AI Startups",
-    "summary": "Un vicepresidente de Google advirtió que dos tipos de nuevas empresas de IA, los contenedores LLM y los agregadores de IA, pueden tener dificultades para sobrevivir debido a la reducción de los márgenes y la falta de diferenciación en el panorama de la IA en rápida evolución.",
-    "charlotte_impact": "Esto resalta las presiones competitivas que enfrentan las nuevas empresas de IA, lo que podría afectar el panorama de inversión para el ecosistema de IA emergente de Charlotte y enfatizar la necesidad de diferenciación y valor comercial.",
-    "impact_score": 6
-  },
-  {
-    "title": "India apuesta por los centros de datos de IA. Los costes medioambientales tendrán que esperar",
-    "url": "https://www.cbc.ca/news/world/india-ai-data-centres-water-energy-9.7099293",
-    "industry": "Data Centers/Sustainability",
-    "summary": "India está invirtiendo mucho en centros de datos de IA, pero los costos ambientales de la escasez de agua y energía son motivo de preocupación, especialmente en regiones donde los recursos ya son limitados.",
-    "charlotte_impact": "Destaca los desafíos de sostenibilidad asociados con la infraestructura de IA, que podrían influir en las estrategias de los centros de datos propios de Charlotte y atraer inversiones en tecnologías de centros de datos ecológicos.",
-    "impact_score": 5
-  },
-  {
-    "title": "El nuevo director ejecutivo de juegos de Microsoft promete no inundar el ecosistema con una “infinita caída de IA”",
-    "url": "https://techcrunch.com/2026/02/21/microsofts-new-gaming-ceo-vows-not-to-flood-the-ecosystem-with-endless-ai-slop/",
-    "industry": "Gaming",
-    "summary": "El nuevo director ejecutivo de juegos de Microsoft se comprometió a no inundar el ecosistema de juegos con un \"abandono interminable de IA\", sugiriendo un enfoque cauteloso para la integración de la IA en el desarrollo de juegos y la creación de contenido.",
-    "charlotte_impact": "Si bien Charlotte tiene una industria de juegos más pequeña, esto refleja un debate más amplio en la industria sobre el uso apropiado de la IA, lo que influye en cómo los desarrolladores de juegos abordan las herramientas de IA.",
-    "impact_score": 3
+    "summary": "Un vicepresidente de Google advirtió que las nuevas empresas de IA que se centran únicamente en complementar los LLM existentes o agregar servicios de IA pueden tener dificultades para sobrevivir debido a la reducción de los márgenes y la falta de diferenciación. Esto destaca la necesidad de que las nuevas empresas de IA ofrezcan propuestas de valor únicas más allá de las aplicaciones básicas de LLM.",
+    "charlotte_impact": "Las nuevas empresas locales de IA necesitan innovar más allá de las aplicaciones genéricas de LLM para mantener la viabilidad a largo plazo y atraer inversiones.",
+    "impact_score": 7
   },
   {
     "title": "El problema de los ingresos publicitarios de la economía creadora y las ambiciones de IA de la India",
     "url": "https://techcrunch.com/video/the-creator-economys-ad-revenue-problem-and-indias-ai-ambitions/",
     "industry": "Creator Economy",
-    "summary": "La economía de los creadores está pasando de los ingresos exclusivamente publicitarios a modelos de negocios diversificados, en los que los creadores lanzan líneas de productos y adquieren nuevas empresas, creando imperios comerciales sólidos.",
-    "charlotte_impact": "La creciente comunidad de creadores de Charlotte puede aprender de estas estrategias, diversificar las fuentes de ingresos y crear negocios sostenibles. El auge de las herramientas basadas en inteligencia artificial podría ayudar a los creadores a escalar sus negocios de manera más eficiente.",
-    "impact_score": 4
+    "summary": "La economía de los creadores se está diversificando más allá de los ingresos publicitarios: los creadores lanzan líneas de productos y adquieren nuevas empresas, lo que indica un cambio hacia la construcción de imperios comerciales más amplios. La compra de una startup de tecnología financiera por parte de la compañía MrBeast subraya esta tendencia, indicando el nuevo manual para los creadores.",
+    "charlotte_impact": "Podría crear nuevas oportunidades para que las empresas con sede en Charlotte se asocien con creadores o sean adquiridas por ellos, ampliando el panorama empresarial local.",
+    "impact_score": 6
   },
   {
     "title": "InScope obtiene 14,5 millones de dólares para solucionar el problema de la presentación de informes financieros",
     "url": "https://techcrunch.com/2026/02/20/inscope-nabs-14-5m-to-solve-the-pain-of-financial-reporting/",
     "industry": "Financial Reporting",
-    "summary": "InScope recaudó 14,5 millones de dólares para automatizar los informes financieros, centrándose en las ineficiencias y complejidades de la preparación de estados financieros para empresas.",
-    "charlotte_impact": "Podría proporcionar ganancias de eficiencia para las empresas y firmas de contabilidad de Charlotte en la preparación de informes financieros. Esto refleja la creciente tendencia a la automatización de los procesos financieros.",
-    "impact_score": 4
+    "summary": "InScope obtuvo 14,5 millones de dólares para automatizar los informes financieros, abordando los puntos débiles de la preparación de estados financieros. Fundada por contadores de empresas tecnológicas líderes, la startup simplifica procesos financieros complejos.",
+    "charlotte_impact": "El sector financiero de Charlotte podría beneficiarse de una mayor eficiencia y precisión en los informes financieros, reduciendo errores y ahorrando tiempo.",
+    "impact_score": 6
   },
   {
     "title": "Sarvam de la India lanza la aplicación de chat Indus AI a medida que aumenta la competencia",
     "url": "https://techcrunch.com/2026/02/20/indias-sarvam-launches-indus-ai-chat-app-as-competition-heats-up/",
-    "industry": "AI Chat Applications",
-    "summary": "Sarvam de la India lanzó Indus, una aplicación de chat de IA, aumentando la competencia en el mercado de aplicaciones de chat de IA.",
-    "charlotte_impact": "Destaca la expansión global de la tecnología de IA y sus implicaciones para la competencia internacional y la investigación de IA.",
-    "impact_score": 2
+    "industry": "AI Chatbots",
+    "summary": "Sarvam de la India lanzó la aplicación de chat Indus AI, uniéndose al cada vez más competitivo mercado de chatbots de IA. Esto demuestra la expansión global de las tecnologías de IA y la creciente demanda de interfaces conversacionales impulsadas por IA.",
+    "charlotte_impact": "Puede influir en el panorama de los chatbots de IA, lo que podría impulsar a las empresas de Charlotte a explorar o adoptar soluciones de IA similares culturalmente relevantes.",
+    "impact_score": 4
   },
   {
     "title": "Un grupo financiado por Anthropic respalda al candidato atacado por el super PAC rival de AI",
     "url": "https://techcrunch.com/2026/02/20/anthropic-funded-group-backs-candidate-attacked-by-rival-ai-super-pac/",
-    "industry": "Politics/AI Ethics",
-    "summary": "Un grupo financiado por Anthropic apoya a un candidato atacado por un súper PAC de IA rival, destacando la creciente influencia política y las consideraciones éticas que rodean el desarrollo de la IA.",
-    "charlotte_impact": "Esto subraya la necesidad de un desarrollo y una gobernanza responsables de la IA, lo que genera debates sobre la política y la ética de la IA en Charlotte.",
-    "impact_score": 3
+    "industry": "AI Ethics & Politics",
+    "summary": "Un grupo financiado por Anthropic respaldó a un candidato atacado por un súper PAC rival de IA, destacando las crecientes implicaciones políticas de la IA. Se trata de Alex Bores, cuya Ley RAISE exige que los desarrolladores de IA revelen protocolos de seguridad.",
+    "charlotte_impact": "Crea conciencia sobre las cuestiones éticas y regulatorias que rodean a la IA, importantes para las empresas de Charlotte que desarrollan o utilizan tecnologías de IA.",
+    "impact_score": 5
   },
   {
-    "title": "Asha Sharma: la nueva directora ejecutiva de origen indio de Microsoft Gaming tiene tres cosas que traería a los fanáticos de Xbox en todo el mundo",
-    "url": "https://economictimes.indiatimes.com/news/new-updates/asha-sharma-new-indian-origin-ceo-of-microsoft-gaming-has-three-things-she-would-bring-for-the-xbox-fans-worldwide/articleshow/128640799.cms",
-    "industry": "Gaming",
-    "summary": "Asha Sharma ha sido nombrada nueva vicepresidenta ejecutiva y directora ejecutiva de Microsoft Gaming, un panorama que evoluciona a través de estrategias innovadoras e inteligencia artificial.",
-    "charlotte_impact": "Si bien Charlotte tiene una industria del juego más pequeña, esto refleja un panorama industrial más amplio de evolución de la IA.",
-    "impact_score": 2
-  },
-  {
-    "title": "La IA sanitaria sin confianza es solo una demostración. India está tratando de arreglar eso.",
-    "url": "https://www.timesnownews.com/health/health-ai-without-trust-is-just-a-demo-india-is-trying-to-fix-that-article-153660569",
-    "industry": "Healthcare AI",
-    "summary": "India está estableciendo un marco ético, SAHI, para la gobernanza de la IA en la atención médica y BODH, una plataforma segura para entrenar modelos de IA sin comprometer los datos de los pacientes para mejorar el papel de la IA en el sector de la salud indio.",
-    "charlotte_impact": "Destaca la necesidad de una implementación ética de la IA y prácticas de datos seguras aplicables al creciente sector de tecnología sanitaria de Charlotte.",
+    "title": "El presidente francés Macron dice que la defensa de la libertad de expresión es \"pura tontería\" sin transparencia en el algoritmo",
+    "url": "https://www.foxnews.com/media/french-president-macron-says-free-speech-defense-pure-bulls-without-algorithm-transparency",
+    "industry": "Social Media",
+    "summary": "El presidente francés Macron calificó la defensa de la libertad de expresión como \"puros toros...\" sin transparencia en los algoritmos, exigiendo responsabilidad de los algoritmos. Esto subraya el creciente escrutinio de los algoritmos de las redes sociales y su impacto en la difusión de información.",
+    "charlotte_impact": "Puede influir en los debates sobre el uso responsable de la IA y la transparencia de los algoritmos para las empresas de tecnología con sede en Charlotte.",
     "impact_score": 4
   },
   {
-    "title": "Brasil e India sellan acuerdo sobre tierras raras en medio de tensiones en el suministro global",
-    "url": "https://financialpost.com/pmn/business-pmn/brazil-india-seal-rare-earth-deal-amid-global-supply-strains",
-    "industry": "Geopolitics/Rare Earth Minerals",
-    "summary": "Brasil e India firmaron un acuerdo sobre minerales críticos para asegurar el suministro de tierras raras en medio de una perturbación global que podría afectar las cadenas de suministro y las asociaciones económicas.",
-    "charlotte_impact": "Esto puede afectar indirectamente a los sectores tecnológico y de fabricación de Charlotte que dependen de una cadena de suministro global que depende de materiales de tierras raras.",
+    "title": "Los cafés de citas con IA ahora son una realidad",
+    "url": "https://www.foxnews.com/tech/ai-dating-cafes-now-real-thing",
+    "industry": "Dating & AI",
+    "summary": "Los cafés de citas con IA son ahora una realidad y demuestran la integración de los compañeros de IA en las interacciones sociales. La gente está llevando compañeros de IA a citas reales, lo que muestra un cambio en las relaciones con la tecnología.",
+    "charlotte_impact": "Destaca aplicaciones novedosas de la IA en la vida personal y social, que potencialmente inspiran soluciones creativas en la escena tecnológica de Charlotte.",
     "impact_score": 3
   },
   {
-    "title": "Tecnologías de impresión 3D para diseñadores industriales: la comparación completa de 2026 que cambia la forma de crear prototipos",
-    "url": "https://weandthecolor.com/3d-printing-technologies-for-industrial-designers-the-complete-2026-comparison-that-changes-how-you-prototype/208299",
-    "industry": "3D Printing",
-    "summary": "Un artículo destaca las tecnologías de impresión 3D para diseñadores industriales con una comparación de 2026, cambiando la forma en que se crean los prototipos.",
-    "charlotte_impact": "Los fabricantes locales podrían estar interesados ​​en esta comparación de tecnologías y es probable que haya empresas de diseño o fabricación en Charlotte que podrían aprovechar la impresión 3D.",
+    "title": "Perspectivas del mercado de software de inteligencia de marketing deportivo de Estados Unidos sobre la competencia en crecimiento sostenible",
+    "url": "https://www.linkedin.com/pulse/united-states-sports-marketing-intelligence-software-market-sdtif",
+    "industry": "Sports Marketing",
+    "summary": "Se prevé que el mercado de software de inteligencia de marketing deportivo de Estados Unidos alcance los 3.000 millones de dólares en 2033, lo que demuestra un crecimiento sostenible. El software de marketing deportivo basado en inteligencia artificial está desempeñando un papel cada vez más importante en la estrategia.",
+    "charlotte_impact": "Podría impactar las estrategias de marketing para los equipos deportivos de Charlotte y negocios relacionados, destacando el potencial de la IA en este sector.",
+    "impact_score": 5
+  },
+  {
+    "title": "\"Atribución 3.0\": solución del camino de compra multimodal y entre dispositivos",
+    "url": "https://techbullion.com/attribution-3-0-solving-the-cross-device-multi-modal-path-to-purchase/",
+    "industry": "Marketing & Advertising",
+    "summary": "En 2026, la atribución de marketing está evolucionando para resolver rutas de compra multimodales y entre dispositivos. \"Attribution 3.0\" aborda el complejo recorrido del cliente a través de gafas AR, asistentes de voz y avatares sociales, desafiando los métodos tradicionales.",
+    "charlotte_impact": "Las agencias de marketing de Charlotte deben adoptar modelos de atribución avanzados basados ​​en IA para medir con precisión el ROI del marketing en el nuevo panorama digital.",
+    "impact_score": 6
+  },
+  {
+    "title": "Lo que podemos aprender de la religión sobre los valores que no caducan",
+    "url": "https://www.psychologytoday.com/us/blog/harnessing-hybrid-intelligence/202602/what-we-can-learn-from-religion-about-values-that-do-not",
+    "industry": "AI Ethics",
+    "summary": "Un artículo de Psychology Today enfatiza la importancia de definir los valores que estamos optimizando en el desarrollo de la IA. Dado que la IA está orientada a la optimización, es crucial considerar la cuestión fundamental de qué estamos tratando de lograr.",
+    "charlotte_impact": "Las empresas de tecnología y los formuladores de políticas de Charlotte deben abordar de manera proactiva las consideraciones éticas en el desarrollo de la IA para alinearse con los valores de la sociedad.",
+    "impact_score": 5
+  },
+  {
+    "title": "El ciclo de vida del silicio: recuperación de tierras raras en la economía circular de 2026",
+    "url": "https://techbullion.com/the-silicon-lifecycle-reclaiming-rare-earths-in-the-2026-circular-economy/",
+    "industry": "Sustainability & Technology",
+    "summary": "El ciclo de vida del silicio y la recuperación de tierras raras son cruciales en la economía circular de 2026, ya que aborda la demanda de informática de alto rendimiento de la industria tecnológica. La recuperación de tierras raras ayuda a impulsar la IA y las redes 6G globales.",
+    "charlotte_impact": "Podría fomentar prácticas más sostenibles en la fabricación y el uso de tecnología dentro de la comunidad empresarial de Charlotte.",
+    "impact_score": 4
+  },
+  {
+    "title": "Seedance2ai.online lanza la plataforma de creación de vídeos todo en uno Seedance 2.0 con nivel gratuito para creadores globales",
+    "url": "https://www.globenewswire.com/news-release/2026/02/21/3242242/0/en/Seedance2ai-online-Launches-All-in-One-Seedance-2-0-Video-Creation-Platform-With-Free-Tier-for-Global-Creators.html",
+    "industry": "Video Creation",
+    "summary": "Seedance2ai.online lanzó una plataforma de creación de videos todo en uno con un nivel gratuito para creadores globales. Esta plataforma proporciona acceso basado en navegador creado en torno al modelo Seedance 2.0.",
+    "charlotte_impact": "Puede empoderar a los creadores y especialistas en marketing de Charlotte con herramientas accesibles de creación de videos de IA, mejorando la creación de contenido y los esfuerzos de marketing.",
     "impact_score": 3
-  },
-  {
-    "title": "Locutor alemán retira a corresponsal por imágenes generadas por IA",
-    "url": "https://www.thelocal.de/20260221/german-broadcaster-recalls-correspondent-over-ai-generated-images",
-    "industry": "Media/Ethics",
-    "summary": "Una emisora ​​alemana recordó a un corresponsal después de que se proyectaran imágenes generadas por IA durante un reportaje de noticias, lo que generó preocupaciones éticas sobre el uso de la IA en el periodismo.",
-    "charlotte_impact": "El evento destacó la ética de la creación de contenido, que probablemente causaría preocupaciones locales sobre la creación de contenido de IA entre los medios de comunicación y los creadores de contenido locales.",
-    "impact_score": 2
-  },
-  {
-    "title": "AI: el mejor actor de reparto que jamás verás",
-    "url": "https://www.pymnts.com/the-weekender/2026/ai-the-best-supporting-actor-youll-never-see/",
-    "industry": "Entertainment/AI Adoption",
-    "summary": "Este artículo analiza cómo la IA apoya el arte sin quejas y se da a conocer silenciosamente en los plazos de entrega de películas.",
-    "charlotte_impact": "Charlotte tiene una pequeña industria local para la creación de contenido y esto puede aplicarse a su situación.",
-    "impact_score": 1
-  },
-  {
-    "title": "Caos, confusión y sueños de 200 mil millones de dólares: lo que vi en la cumbre de IA de la India",
-    "url": "https://www.cnbc.com/2026/02/21/ai-summit-india-tech.html",
-    "industry": "AI Conferences/India",
-    "summary": "India fue sede de una gran cumbre sobre IA, aunque enfrentó desafíos organizativos.",
-    "charlotte_impact": "La creciente comunidad tecnológica de Charlotte puede aprender de los eventos globales de IA, adaptando las mejores prácticas y aprendiendo de los desafíos organizacionales.",
-    "impact_score": 1
-  },
-  {
-    "title": "Mostrar HN: GenPPT AI: convierta cualquier idea en diapositivas profesionales en segundos",
-    "url": "https://genppt.ai/",
-    "industry": "Productivity",
-    "summary": "GenPPT AI es un software que convierte cualquier idea en una presentación profesional en segundos.",
-    "charlotte_impact": "Muchas empresas en Charlotte se benefician de las presentaciones PPT y podrían aprovechar GenPPT AI para hacerlo.",
-    "impact_score": 2
-  },
-  {
-    "title": "iOS 26.4 amplía CarPlay con IA más inteligente y entretenimiento en el automóvil mejorado",
-    "url": "https://indianexpress.com/article/technology/tech-news-technology/ios-26-4-expands-carplay-with-smarter-ai-and-enhanced-in-car-entertainment-10544255/",
-    "industry": "Automotive/Software",
-    "summary": "La versión más nueva de iOS amplía CarPlay con una IA más inteligente y entretenimiento en el automóvil mejorado.",
-    "charlotte_impact": "Charlotte tiene una industria de fabricación de automóviles y esto es potencialmente interesante para ellos.",
-    "impact_score": 2
-  },
-  {
-    "title": "Satyajit Das: IA: ¿Inteligencia artificial o locura absoluta?",
-    "url": "https://biztoc.com/x/c26a2ed6238207f3?ref=ff",
-    "industry": "Economics",
-    "summary": "El artículo sugiere que la IA puede ser Inteligencia Artificial o Locura Absoluta.",
-    "charlotte_impact": "Los propietarios de empresas locales pueden tomar nota del potencial absoluto o de las desventajas de esta tecnología.",
-    "impact_score": 1
   },
   {
     "title": "¿ETF de inteligencia artificial o ETF impulsados ​​por IA?",
     "url": "https://etfdb.com/disruptive-technology-channel/artificial-intelligence-etfs-or-etfs-powered-by-ai/",
-    "industry": "Financial Technology",
-    "summary": "Este artículo analiza los ETF de inteligencia artificial y los ETF impulsados ​​por IA, y las diferencias entre las dos categorías.",
-    "charlotte_impact": "Charlotte tiene una alta concentración de empresas financieras y probablemente estén interesadas en los avances de Fintech y AI.",
+    "industry": "Finance & ETFs",
+    "summary": "Un análisis de los ETF de inteligencia artificial frente a los ETF impulsados ​​por IA diferencia entre las dos categorías. Esto resalta la importancia de comprender los impulsores subyacentes de los ETF en el espacio de la IA.",
+    "charlotte_impact": "Los inversores de Charlotte deben distinguir entre ETF de IA y ETF impulsados ​​por IA para tomar decisiones de inversión informadas.",
+    "impact_score": 3
+  },
+  {
+    "title": "El ministro elogia las innovaciones de Bihar impulsadas por la inteligencia artificial en materia de gobernanza y encuestas",
+    "url": "https://timesofindia.indiatimes.com/city/patna/minister-praises-bihars-ai-driven-innovations-in-governance-polls/articleshow/128652713.cms",
+    "industry": "Government & Public Sector",
+    "summary": "Un ministro elogió las innovaciones de Bihar impulsadas por la IA en materia de gobernanza y elecciones en la Cumbre de Impacto de la IA de la India. Esto indica la creciente adopción de la IA para mejorar sectores como la gobernanza, la agricultura, la atención sanitaria y la educación.",
+    "charlotte_impact": "Alienta al gobierno local de Charlotte a explorar soluciones de inteligencia artificial para mejorar la eficiencia y la transparencia en los servicios.",
     "impact_score": 4
   },
   {
     "title": "IA 2027: ¿La inteligencia artificial traerá prosperidad o planteará un riesgo existencial?",
     "url": "https://medium.com/@kaustubhkalyankar/ai-2027-will-artificial-intelligence-bring-prosperity-or-pose-an-existential-risk-b3071da5e6ab",
-    "industry": "Ethics",
-    "summary": "Explore el pronóstico de AI 2027 sobre el futuro de la inteligencia artificial, incluidos riesgos como la desalineación y la superinteligencia.",
-    "charlotte_impact": "Charlotte tiene una empresa de tecnología en crecimiento y podría aprovechar este pronóstico para implementar barreras de seguridad y mejores prácticas éticas.",
-    "impact_score": 2
-  },
-  {
-    "title": "El fin de la Corte Suprema de Estados Unidos a la rabieta arancelaria de Trump impulsa a la India",
-    "url": "https://www.livemint.com/opinion/columns/us-supreme-court-ruling-trump-tariffs-india-trade-impact-global-economy-11771656486603.html",
-    "industry": "International Trade",
-    "summary": "El fin de la Corte Suprema de Estados Unidos a la rabieta arancelaria de Trump fortalece la posición de India.",
-    "charlotte_impact": "Esto permite a la India reexaminar sus términos de intercambio, lo que podría afectar los mercados locales.",
-    "impact_score": 1
-  },
-  {
-    "title": "India y Brasil fijaron objetivo comercial bilateral de más de 20.000 millones de dólares en cinco años",
-    "url": "https://www.thehindubusinessline.com/economy/india-brazil-set-bilateral-trade-target-of-over-20-billion-in-5-years/article70659537.ece",
-    "industry": "International Trade",
-    "summary": "India y Brasil establecieron un objetivo comercial bilateral de más de 20 mil millones de dólares en cinco años.",
-    "charlotte_impact": "Esto podría traer consigo una mayor cooperación económica.",
-    "impact_score": 2
-  },
-  {
-    "title": "El mundo reacciona cuando el máximo tribunal de EE.UU. limita los poderes arancelarios de Trump",
-    "url": "https://www.aljazeera.com/news/2026/2/21/trump-tariff-reactions",
-    "industry": "International Trade",
-    "summary": "El mundo reacciona cuando el máximo tribunal de Estados Unidos limita los poderes arancelarios de Trump.",
-    "charlotte_impact": "Algunos países acogen con satisfacción el fallo, mientras que otros revisan los acuerdos comerciales y el efecto económico.",
-    "impact_score": 2
+    "industry": "AI Research",
+    "summary": "Un artículo explora el pronóstico de IA para 2027, incluidos riesgos como la desalineación y la superinteligencia. Se cuestiona si la IA traerá prosperidad o planteará un riesgo existencial.",
+    "charlotte_impact": "Promueve la conciencia local sobre los riesgos de la IA y la investigación responsable de la IA dentro de las comunidades académicas y tecnológicas de Charlotte.",
+    "impact_score": 3
   }
 ]
