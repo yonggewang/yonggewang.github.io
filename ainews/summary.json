@@ -1,1 +1,202 @@
-[]
+[
+  {
+    "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+    "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+    "industry": "Cloud Infrastructure",
+    "summary": "Railway, an AI-native cloud infrastructure provider, raised $100 million to challenge AWS and Google Cloud by offering faster and more cost-effective deployment solutions tailored for AI applications. They achieve this by building their own datacenters and vertically integrating the full stack.",
+    "charlotte_impact": "Charlotte businesses could benefit from reduced cloud costs and increased developer velocity by using Railway's platform, potentially attracting more tech talent and enabling faster innovation.",
+    "impact_score": 9
+  },
+  {
+    "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
+    "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+    "industry": "Enterprise Software",
+    "summary": "Salesforce launched a rebuilt Slackbot AI agent powered by Anthropic's Claude, enabling it to search enterprise data, draft documents, and automate tasks within Slack. This move puts Salesforce in direct competition with Microsoft Copilot and Google Gemini for enterprise AI dominance.",
+    "charlotte_impact": "Charlotte businesses using Salesforce and Slack could see increased productivity and efficiency through Slackbot's AI capabilities, streamlining workflows and data access.",
+    "impact_score": 8
+  },
+  {
+    "title": "All the important news from the ongoing India AI Impact Summit",
+    "url": "https://techcrunch.com/2026/02/22/all-the-important-news-from-the-ongoing-india-ai-summit/",
+    "industry": "AI Industry",
+    "summary": "India hosted a major AI summit attended by executives from OpenAI, Anthropic, Nvidia, Microsoft, and Google, highlighting India's growing importance in the global AI landscape.",
+    "charlotte_impact": "Indirectly, the summit signifies the importance of AI development globally which will impact all industry as new AI products are developed and used by businesses globally, including those in Charlotte.",
+    "impact_score": 4
+  },
+  {
+    "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
+    "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+    "industry": "Market Research",
+    "summary": "Listen Labs raised $69 million to scale its AI-powered customer interview platform, offering faster and more insightful market research compared to traditional methods. The platform uses open-ended video conversations and AI analysis to provide actionable insights, addressing issues of fraud and scalability in the $140 billion market research industry.",
+    "charlotte_impact": "Charlotte-based companies can leverage Listen Labs to gain rapid customer insights for product development and marketing, potentially improving decision-making and competitiveness.",
+    "impact_score": 7
+  },
+  {
+    "title": "Google VP warns that two types of AI startups may not survive",
+    "url": "https://techcrunch.com/2026/02/21/google-vp-warns-that-two-types-of-ai-startups-may-not-survive/",
+    "industry": "AI Industry",
+    "summary": "A Google VP warned that AI startups focusing on simply wrapping LLMs or aggregating existing AI models may struggle to survive due to shrinking margins and limited differentiation.",
+    "charlotte_impact": "This impacts investment strategies for Charlotte investors; it could discourage investing in simple AI solutions and shift focus towards more innovative and sustainable AI business models.",
+    "impact_score": 6
+  },
+  {
+    "title": "InScope nabs $14.5M to solve the pain of financial reporting",
+    "url": "https://techcrunch.com/2026/02/20/inscope-nabs-14-5m-to-solve-the-pain-of-financial-reporting/",
+    "industry": "Financial Reporting",
+    "summary": "InScope raised $14.5M to automate financial reporting processes, targeting the pain points of financial statement preparation for companies.",
+    "charlotte_impact": "Could offer local companies enhanced software options for automating financial reporting and increase efficiency and compliance in this process.",
+    "impact_score": 5
+  },
+  {
+    "title": "India\u2019s Sarvam launches Indus AI chat app as competition heats up",
+    "url": "https://techcrunch.com/2026/02/20/indias-sarvam-launches-indus-ai-chat-app-as-competition-heats-up/",
+    "industry": "AI Chat App",
+    "summary": "Sarvam, an Indian company, launched its Indus AI chat app, highlighting the increasing competition in the AI chatbot market.",
+    "charlotte_impact": "Shows the growing adoption of AI chatbots which will continue to impact businesses, even those in Charlotte, as they continue to adopt this technology.",
+    "impact_score": 3
+  },
+  {
+    "title": "U.S. Stock Market prediction: S&P 500, Dow Jones, Nasdaq set for positive opening, Nvidia stock likely to be biggest driving factor",
+    "url": "https://economictimes.indiatimes.com/news/international/us/u-s-stock-market-prediction-sp-500-dow-jones-nasdaq-set-for-positive-opening-nvidia-stock-likely-to-be-biggest-driving-factor/articleshow/128677330.cms",
+    "industry": "Financial Markets",
+    "summary": "Nvidia's stock performance is heavily influencing major market indexes like the S&P 500, highlighting the significant impact of AI-related companies on the stock market.",
+    "charlotte_impact": "Charlotte investors and financial institutions are affected by fluctuations in Nvidia and other AI stock prices, impacting portfolio performance and investment strategies.",
+    "impact_score": 5
+  },
+  {
+    "title": "Meet the teen tycoons powering AI start-ups \u2014 and making bank off them",
+    "url": "https://nypost.com/2026/02/22/business/teens-are-launching-artificial-intelligence-companies-and-making-big-money/",
+    "industry": "AI Industry",
+    "summary": "Teenagers are launching successful AI startups and raising venture capital, illustrating a new generation of entrepreneurs driving innovation in the AI space.",
+    "charlotte_impact": "Could inspire younger Charlotte residents to get into entrepreneurship. May increase the talent pool in future years.",
+    "impact_score": 3
+  },
+  {
+    "title": "Israel to to accelerate building of an AI server farm",
+    "url": "https://www.israelnationalnews.com/news/422803",
+    "industry": "AI Infrastructure",
+    "summary": "Israel is accelerating the construction of an AI server farm, driven by national security concerns and the potential for significant economic benefits.",
+    "charlotte_impact": "Shows the importance that national governments are putting on AI development, which will only help move the technology forward for all businesses in all industries.",
+    "impact_score": 3
+  },
+  {
+    "title": "Faith in the Age of AI: Sikh Body Flags Fabricated Gurbani by Chatbots at India AI Summit",
+    "url": "https://www.thehindubusinessline.com/news/faith-in-the-age-of-ai-sikh-body-flags-fabricated-gurbani-by-chatbots-at-india-ai-summit/article70663266.ece",
+    "industry": "AI Ethics",
+    "summary": "At the India AI Summit, Sikh leaders raised concerns about AI-generated misinformation in religious content, emphasizing the importance of integrity in faith-related AI applications.",
+    "charlotte_impact": "Highlights the potential of misinformation in the new AI world which requires everyone to be cautious when making decisions based on AI. Impacts all businesses and individual.",
+    "impact_score": 3
+  },
+  {
+    "title": "HREX Podcast v1.11 Jeremy Roberts",
+    "url": "https://www.hrexaminer.com/p/hrex-podcast-v111-jeremy-roberts",
+    "industry": "HR Tech",
+    "summary": "Podcast focuses on the ins and outs of AI and automation with a sourcing veteran.",
+    "charlotte_impact": "May allow Charlotte companies to better understand how to adopt AI into their HR and sourcing processes.",
+    "impact_score": 3
+  },
+  {
+    "title": "Democrats and Republicans agree on one thing: regulating the use of AI",
+    "url": "https://www.npr.org/2026/02/22/nx-s1-5712709/democrats-and-republicans-agree-on-one-thing-regulating-the-use-of-ai",
+    "industry": "AI Policy",
+    "summary": "There is increasing bipartisan agreement around regulating AI and data centers.",
+    "charlotte_impact": "Since Charlotte is a major business hub, any type of AI regulation, even at the state level, will impact adoption and compliance.",
+    "impact_score": 3
+  },
+  {
+    "title": "Top Wall Street analysts are bullish on the growth potential of these three stocks",
+    "url": "https://www.cnbc.com/2026/02/22/top-analysts-are-bullish-on-the-growth-potential-of-these-3-stocks.html",
+    "industry": "Financial Markets",
+    "summary": "Analysis of stocks to watch for growth in the AI sector.",
+    "charlotte_impact": "Can help Charlotte businesses to make informed decisions about investing in AI and tech stocks for profits.",
+    "impact_score": 2
+  },
+  {
+    "title": "The Nobel laureate who co-wrote \u2018Why Nations Fail\u2019 warns U.S. democracy won\u2019t survive unless these two things change",
+    "url": "https://fortune.com/2026/02/22/who-is-daron-acemoglu-nobel-laureate-ai-job-layoffs-economic-inequality-donald-trump/",
+    "industry": "AI Policy",
+    "summary": "Discusses potential policy effects if AI regulation is not properly implemented.",
+    "charlotte_impact": "Impact on policy making decisions.",
+    "impact_score": 2
+  },
+  {
+    "title": "Artificial Intelligence ETFs, or ETFs Powered by AI?",
+    "url": "https://etfdb.com/disruptive-technology-channel/artificial-intelligence-etfs-or-etfs-powered-by-ai/",
+    "industry": "Financial Markets",
+    "summary": "Explores the difference between actual AI ETFs and ETFs that are simply powered by AI.",
+    "charlotte_impact": "Financial decisions about investing in AI. Can also help Charlotte-based investors.",
+    "impact_score": 2
+  },
+  {
+    "title": "AI 2027: Will Artificial Intelligence Bring Prosperity or Pose an Existential Risk?",
+    "url": "https://medium.com/@kaustubhkalyankar/ai-2027-will-artificial-intelligence-bring-prosperity-or-pose-an-existential-risk-b3071da5e6ab",
+    "industry": "AI Ethics",
+    "summary": "Explores whether the AI forecast for 2027 will bring prosperity or existential risk.",
+    "charlotte_impact": "Understanding both the positive and potentially negative affects that AI can bring about.",
+    "impact_score": 2
+  },
+  {
+    "title": "Microsoft\u2019s new gaming CEO vows not to flood the ecosystem with \u2018endless AI slop\u2019",
+    "url": "https://techcrunch.com/2026/02/21/microsofts-new-gaming-ceo-vows-not-to-flood-the-ecosystem-with-endless-ai-slop/",
+    "industry": "Gaming",
+    "summary": "Microsoft's gaming division is vowing not to flood their ecosystem with 'endless AI slop'.",
+    "charlotte_impact": "Shows the possible impact that AI can have when adopted too fast without proper oversight.",
+    "impact_score": 1
+  },
+  {
+    "title": "OpenAI debated calling police about suspected Canadian shooter\u2019s chats",
+    "url": "https://techcrunch.com/2026/02/21/openai-debated-calling-police-about-suspected-canadian-shooters-chats/",
+    "industry": "AI Ethics",
+    "summary": "OpenAI debated calling the police about a suspected shooter.",
+    "charlotte_impact": "Shows the potential impact of misuse of AI and privacy concerns.",
+    "impact_score": 1
+  },
+  {
+    "title": "The creator economy\u2019s ad revenue problem and India\u2019s AI ambitions",
+    "url": "https://techcrunch.com/video/the-creator-economys-ad-revenue-problem-and-indias-ai-ambitions/",
+    "industry": "Creator Economy",
+    "summary": "The creator economy is looking for more income and starting their own product lines and actual business empires to generate additional sources of income.",
+    "charlotte_impact": "Indicates potential opportunities for new business creation and revenue for Charlotte based influencers and entrepreneurs.",
+    "impact_score": 1
+  },
+  {
+    "title": "Anthropic-funded group backs candidate attacked by rival AI super PAC",
+    "url": "https://techcrunch.com/2026/02/20/anthropic-funded-group-backs-candidate-attacked-by-rival-ai-super-pac/",
+    "industry": "AI Policy",
+    "summary": "Anthropic funded group backs AI candidate for congress.",
+    "charlotte_impact": "Impacts policy and political decisions.",
+    "impact_score": 1
+  },
+  {
+    "title": "Intelligence officer issues severe warning after Elon Musk's Grok advice",
+    "url": "https://www.ladbible.com/news/technology/elon-musk-ai-platform-medical-information-severe-warning-702740-20260222",
+    "industry": "AI Ethics",
+    "summary": "Intelligence officer warns about uploading medical information to AI.",
+    "charlotte_impact": "Increased privacy concerns about sharing sensitive information.",
+    "impact_score": 1
+  },
+  {
+    "title": "Satyajit Das: AI \u2013 Artificial Intelligence or Absolute Insanity?",
+    "url": "https://biztoc.com/x/c26a2ed6238207f3?ref=ff",
+    "industry": "AI Industry",
+    "summary": "Explores some concerns about AI.",
+    "charlotte_impact": "Ethical decision making.",
+    "impact_score": 1
+  },
+  {
+    "title": "Why adults in midlife and beyond are filling college courses",
+    "url": "https://apnews.com/article/education-adult-learning-upskilling-hobbies-6b5ba4c45b1451ad5ebecd49e1d7b0b5",
+    "industry": "Education",
+    "summary": "Adults are filling college courses for personal and career growth.",
+    "charlotte_impact": "Local colleges in Charlotte may benefit from more students.",
+    "impact_score": 1
+  },
+  {
+    "title": "Why adults pursuing career growth or personal interests are the 'new majority' student",
+    "url": "https://abcnews.com/Business/wireStory/adults-pursuing-career-growth-personal-interests-new-majority-130383186",
+    "industry": "Education",
+    "summary": "Adults are continuing to increase their education.",
+    "charlotte_impact": "Could impact local educational businesses as Charlotte residents upskill for career and personal growth.",
+    "impact_score": 1
+  }
+]
