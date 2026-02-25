@@ -324,6 +324,29 @@
             transform: scale(1.02);
         }
 
+        .btn-strategy {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 14px 28px;
+            border-radius: 14px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1rem;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            margin-top: 25px;
+            box-shadow: 0 10px 25px rgba(0, 122, 255, 0.25);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .btn-strategy:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 15px 35px rgba(0, 122, 255, 0.45);
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
         /* External Resources */
         .resources-section {
             margin-top: 80px;
@@ -446,6 +469,9 @@
             <h1>LLM Knowledge Base</h1>
             <p class="subtitle">An advanced research directory for Large Language Models, optimizing hardware builds and
                 performance benchmarking.</p>
+            <a href="https://quantumpropertyllc.github.io/aihardware/aistrategy.html" class="btn-strategy">
+                🎯 Build Your AI Strategy Roadmap
+            </a>
         </header>
 
         <section class="controls">
