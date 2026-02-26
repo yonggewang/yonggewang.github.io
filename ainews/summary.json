@@ -3,104 +3,200 @@
     "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
     "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
     "industry": "Cloud Infrastructure",
-    "summary": "Railway secured $100 million in Series B funding to challenge AWS with its AI-native cloud infrastructure, emphasizing faster deployment times for AI-generated code. The platform boasts significant cost savings and increased developer velocity for enterprise clients.",
-    "charlotte_impact": "Could offer Charlotte's growing tech sector a more cost-effective and efficient cloud solution for AI application development, potentially attracting new tech companies.",
+    "summary": "Railway secured $100 million in Series B funding to challenge AWS with its AI-native cloud infrastructure, boasting faster deployment times and cost savings. The company's focus on developer experience and vertical integration is attracting Fortune 500 clients.",
+    "charlotte_impact": "Could lead to lower cloud infrastructure costs for Charlotte businesses, freeing up resources for other initiatives. May also attract tech talent interested in working with cutting-edge cloud solutions.",
     "impact_score": 9
   },
   {
     "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
     "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
     "industry": "Enterprise Software",
-    "summary": "Salesforce launched a rebuilt Slackbot powered by Anthropic's Claude, transforming it into an AI agent for enterprise data search, document drafting, and task completion. Internal testing showed high adoption and significant time savings, positioning Slackbot as a 'super agent' for coordinating other AI tools.",
-    "charlotte_impact": "Charlotte businesses using Salesforce and Slack could see improved efficiency and productivity through automated tasks and easier access to information.",
-    "impact_score": 9
+    "summary": "Salesforce launched a rebuilt Slackbot powered by Anthropic's Claude, aiming to make it a central 'super agent' for enterprise AI, competing with Microsoft Copilot and Google Gemini. Early internal testing shows significant time savings and high satisfaction rates.",
+    "charlotte_impact": "Charlotte businesses using Salesforce and Slack could see increased productivity and better insights from their data. Increased efficiency of local talent.",
+    "impact_score": 8
   },
   {
     "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
     "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
     "industry": "Market Research",
-    "summary": "Listen Labs raised $69 million after a viral hiring campaign to scale its AI-powered customer interview platform, offering faster and more honest insights than traditional surveys. The company's platform has been used by Microsoft and other major companies to improve product development.",
-    "charlotte_impact": "Charlotte companies in consumer goods, finance or healthcare could benefit by quickly gathering customer insights using listenlabs cutting-edge research tool to build better products and services.",
-    "impact_score": 8
-  },
-  {
-    "title": "Nvidia challenger AI chip startup MatX raised $500M",
-    "url": "https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m/",
-    "industry": "Semiconductors",
-    "summary": "MatX, an AI chip startup founded by former Google TPU engineers, raised $500 million to challenge Nvidia in the AI chip market.",
-    "charlotte_impact": "Indirectly benefits Charlotte by fostering competition in the AI chip market, potentially leading to more diverse and cost-effective AI solutions for local businesses.",
+    "summary": "Listen Labs raised $69 million to scale its AI-powered customer interview platform, offering faster and more honest insights than traditional methods. The company is targeting the $140 billion market research industry with an AI researcher that delivers actionable insights in hours.",
+    "charlotte_impact": "Charlotte companies can use AI interviews to better understand customer needs and improve product development. Could lead to more targeted marketing and product strategies, thus saving money.",
     "impact_score": 7
   },
   {
-    "title": "OpenAI COO says \u2018we have not yet really seen AI penetrate enterprise business processes\u2019",
-    "url": "https://techcrunch.com/2026/02/24/openai-coo-says-we-have-not-yet-really-seen-ai-penetrate-enterprise-business-processes/",
-    "industry": "Enterprise Software",
-    "summary": "OpenAI COO stated that AI has not yet significantly penetrated enterprise business processes, suggesting that claims of AI agents completely taking over SaaS are premature.",
-    "charlotte_impact": "Provides a realistic outlook for Charlotte businesses investing in AI, suggesting a gradual integration rather than an immediate disruption of existing systems.",
+    "title": "Anthropic acquires computer-use AI startup Vercept after Meta poached one of its founders",
+    "url": "https://techcrunch.com/2026/02/25/anthropic-acquires-vercept-ai-startup-agents-computer-use-founders-investors/",
+    "industry": "AI Agents",
+    "summary": "Anthropic acquired Vercept, a startup developing AI agents capable of completing tasks inside applications like a human, suggesting a focus on advanced AI agent capabilities.",
+    "charlotte_impact": "Indirect impact, potentially benefiting Charlotte businesses that leverage Anthropic's technology for AI-driven automation.",
+    "impact_score": 5
+  },
+  {
+    "title": "Gushwork bets on AI search for customer leads \u2014 and early results are emerging",
+    "url": "https://techcrunch.com/2026/02/25/gushwork-bets-on-ai-search-for-customer-leads-and-early-results-are-emerging/",
+    "industry": "AI-Powered Lead Generation",
+    "summary": "Gushwork, an AI powered lead generation tool, raised $9 million seed to further its development. Early results have been promising, which point to a positive outlook for AI led sales in 2026 and beyond.",
+    "charlotte_impact": "Local Charlotte marketing agencies are potentially able to drastically reduce costs and increase the size of their current client bases.",
     "impact_score": 6
   },
   {
-    "title": "SambaNova steps up its challenge to Nvidia with new chip, $350M funding and a powerful ally in Intel",
-    "url": "https://siliconangle.com/2026/02/24/sambanova-steps-challenge-nvidia-new-chip-350m-funding-powerful-ally-intel/",
-    "industry": "Semiconductors",
-    "summary": "SambaNova unveiled a new AI processor and secured $350 million in funding, with Intel as a key partner, to challenge Nvidia in the AI chip market.",
-    "charlotte_impact": "Same as ID 3; fostering competition in the AI chip market, potentially leading to more diverse and cost-effective AI solutions for local businesses.",
+    "title": "OpenAI COO says ads will be \u2018an iterative process\u2019",
+    "url": "https://techcrunch.com/2026/02/25/openai-coo-says-ads-will-be-an-iterative-process/",
+    "industry": "AI Governance",
+    "summary": "OpenAI's COO addressed concerns about incorporating ads into the user experience, emphasizing a gradual, iterative approach to ensure relevance and minimize disruption.",
+    "charlotte_impact": "Indirect impact, related to the overall advertising landscape and how Charlotte businesses might use AI-driven advertising platforms.",
+    "impact_score": 3
+  },
+  {
+    "title": "The White House wants AI companies to cover rate hikes. Most have already said they would.",
+    "url": "https://techcrunch.com/2026/02/25/the-white-house-wants-ai-companies-to-cover-rate-hikes-most-have-already-said-they-would/",
+    "industry": "AI Infrastructure",
+    "summary": "The White House is urging AI companies to cover potential electricity rate hikes, with many hyperscalers already committing to doing so, highlighting the infrastructure costs associated with AI.",
+    "charlotte_impact": "May have implications for data center development and energy costs for Charlotte businesses involved in AI development or deployment.",
+    "impact_score": 4
+  },
+  {
+    "title": "The public opposition to AI infrastructure is heating up",
+    "url": "https://techcrunch.com/2026/02/25/the-public-opposition-to-ai-infrastructure-is-heating-up/",
+    "industry": "AI Infrastructure",
+    "summary": "Growing public opposition to AI infrastructure projects is leading to stricter policies, including bans on new data center construction, posing challenges to AI expansion.",
+    "charlotte_impact": "Could affect the feasibility of building new data centers in the Charlotte region to support AI initiatives.",
+    "impact_score": 5
+  },
+  {
+    "title": "Teetering US tech trade puts anchor on market as Nvidia test looms",
+    "url": "https://www.channelnewsasia.com/business/teetering-us-tech-trade-puts-anchor-market-nvidia-test-looms-5952336",
+    "industry": "Financial Markets",
+    "summary": "The technology stock trade is facing pressure from AI disruption fears, with Nvidia's performance being a key test for the market.",
+    "charlotte_impact": "Investors in Charlotte may face increasing volatility.",
+    "impact_score": 3
+  },
+  {
+    "title": "Atos \u2018IT services staff of the future\u2019 begin apprenticeships",
+    "url": "https://www.computerweekly.com/news/366639497/Atos-IT-services-staff-of-the-future-begin-apprenticeships",
+    "industry": "IT Services",
+    "summary": "Atos has launched an apprenticeship program to train 'artificial intelligence-ready' IT services staff, reflecting the growing demand for AI skills in the workforce.",
+    "charlotte_impact": "Charlotte can learn from Atos with workforce development that focuses on AI skills, thus boosting local talent.",
+    "impact_score": 5
+  },
+  {
+    "title": "91 per cent Indian firms now pilot workplace AI: Report",
+    "url": "https://www.dtnext.in/news/business/91-per-cent-indian-firms-now-pilot-workplace-ai-report",
+    "industry": "Workplace AI",
+    "summary": "A report indicates that 91% of Indian firms are piloting workplace AI solutions, suggesting a global trend in adopting AI for corporate real estate management.",
+    "charlotte_impact": "Local Charlotte companies may increase investment in AI powered automation to enhance the efficiency of corporate real estate.",
+    "impact_score": 4
+  },
+  {
+    "title": "AI meets the search for a BA",
+    "url": "https://www.marketplace.org/episode/2026/02/25/ai-meets-the-search-for-a-ba",
+    "industry": "Education",
+    "summary": "Teenagers are increasingly using AI to help decide whether and where to go to college, influencing the higher education market.",
+    "charlotte_impact": "The application pool sizes and makeup of local colleges may change.",
+    "impact_score": 2
+  },
+  {
+    "title": "Mumbai civic body asked to ensure AI, IoT-driven system to track pollution: Devendra Fadnavis",
+    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/mumbai-civic-body-asked-to-ensure-ai-iot-driven-system-to-track-pollution-devendra-fadnavis/articleshow/128779349.cms",
+    "industry": "Environmental Monitoring",
+    "summary": "The Mumbai civic body has been instructed to implement an AI and IoT-driven system for tracking air pollution sources, highlighting the use of AI in environmental management.",
+    "charlotte_impact": "Similar solutions may emerge to combat other environmental problems in the charlotte market.",
+    "impact_score": 3
+  },
+  {
+    "title": "TCS\u2019 Krithivasan urges senior employees to build AI solutions",
+    "url": "https://www.livemint.com/companies/tcs-leadership-ai-strategy-future-india-it-industry-11772008314836.html",
+    "industry": "IT Services",
+    "summary": "TCS' Krithivasan is encouraging senior employees to develop AI solutions to bridge the gap between junior staff and management, indicating a top-down approach to AI adoption.",
+    "charlotte_impact": "Local organizations can empower their team to develop AI solutions to solve problems.",
+    "impact_score": 4
+  },
+  {
+    "title": "WiseTech to axe a third of global workforce in two\u2011year AI pivot",
+    "url": "https://www.channelnewsasia.com/business/wisetech-axe-third-global-workforce-in-two-year-ai-pivot-5952311",
+    "industry": "Software",
+    "summary": "WiseTech Global is planning to cut a third of its workforce in a two-year AI pivot, potentially one of Australia's largest AI-linked job cuts, demonstrating the disruptive impact of AI on employment.",
+    "charlotte_impact": "Other companies may adopt a similar strategy, which is a concerning trend.",
     "impact_score": 7
   },
   {
-    "title": "Intel partners with AI chip startup SambaNova after acquisition talks reportedly failed",
-    "url": "https://www.cnbc.com/2026/02/24/intel-partners-with-sambanova-after-buyout-talks-reportedly-failed.html",
-    "industry": "AI Adoption",
-    "summary": "India's AI boom is pushing companies to prioritize user acquisition over immediate revenue, indicating a strategy focused on long-term market dominance in a rapidly growing AI sector.",
-    "charlotte_impact": "Highlights the global competition in the AI space and the need for Charlotte businesses to innovate and acquire users to remain competitive.",
-    "impact_score": 5
+    "title": "Satyajit Das: AI \u2013 Artificial Intelligence or Absolute Insanity?",
+    "url": "https://biztoc.com/x/c26a2ed6238207f3?ref=ff",
+    "industry": "Economics",
+    "summary": "The future economic benefits are uncertain as economists question whether AI will bring intelligence or absolute insanity.",
+    "charlotte_impact": "Difficult to determine the full impact.",
+    "impact_score": 2
   },
   {
-    "title": "Uber engineers built an AI version of their boss",
-    "url": "https://techcrunch.com/2026/02/24/uber-engineers-built-ai-version-of-boss-dara-khosrowshahi/",
-    "industry": "Enterprise Innovation",
-    "summary": "Uber engineers built an AI version of their CEO, Dara Khosrowshahi, to practice pitches, showcasing the increasing adoption of AI within large companies.",
-    "charlotte_impact": "Demonstrates the potential for AI to be used creatively within companies, encouraging Charlotte businesses to explore innovative applications of AI.",
-    "impact_score": 5
+    "title": "Artificial Intelligence ETFs, or ETFs Powered by AI?",
+    "url": "https://etfdb.com/disruptive-technology-channel/artificial-intelligence-etfs-or-etfs-powered-by-ai/",
+    "industry": "Financial Markets",
+    "summary": "An article discusses the differences between Artificial Intelligence ETFs and ETFs powered by AI, and the differences between the two categories.",
+    "charlotte_impact": "Charlotte investments may face increase volitility as AI stocks adjust.",
+    "impact_score": 3
   },
   {
-    "title": "Global Digital Twins in Healthcare Market Set to Hit USD 69.67 Billion by 2035 Driven by Accelerating Adoption of AI-Powered Virtual Modeling and Precision Medicine Initiatives \u2013 SNS Insider",
-    "url": "https://www.globenewswire.com/news-release/2026/02/24/3243276/0/en/Global-Digital-Twins-in-Healthcare-Market-Set-to-Hit-USD-69-67-Billion-by-2035-Driven-by-Accelerating-Adoption-of-AI-Powered-Virtual-Modeling-and-Precision-Medicine-Initiatives-SNS.html",
+    "title": "AI 2027: Will Artificial Intelligence Bring Prosperity or Pose an Existential Risk?",
+    "url": "https://medium.com/@kaustubhkalyankar/ai-2027-will-artificial-intelligence-bring-prosperity-or-pose-an-existential-risk-b3071da5e6ab",
+    "industry": "AI Risk Analysis",
+    "summary": "An analysis forecasts the future of AI and covers the existential risk.",
+    "charlotte_impact": "Could cause issues for investors in Charlotte.",
+    "impact_score": 2
+  },
+  {
+    "title": "Wearable startup CUDIS launches a new health ring line with an AI-fueled \u2018coach\u2019",
+    "url": "https://techcrunch.com/2026/02/25/wearable-startup-cudis-launches-a-new-health-ring-line-with-an-ai-fueled-coach/",
+    "industry": "Wearables",
+    "summary": "The new wearable by CUDIS, incentivizes healthy behavior with points redeemable for health products, shows AI can positively influence health metrics.",
+    "charlotte_impact": "Local healthcare providers and related partners may begin to expand their tech base to incorporate wearable devices in their preventative medicine treatment plans.",
+    "impact_score": 4
+  },
+  {
+    "title": "OpenClaw creator\u2019s advice to AI builders is to be more playful and allow yourself time to improve",
+    "url": "https://techcrunch.com/2026/02/25/openclaw-creators-advice-to-ai-builders-is-to-be-more-playful-and-allow-yourself-time-to-improve/",
+    "industry": "AI Training",
+    "summary": "Peter Steinberger talks about the creation of his viral AI agent OpenClaw and how being more playful makes for a better way to learn AI coding.",
+    "charlotte_impact": "Local talent can begin a playful relationship with AI to foster future training.",
+    "impact_score": 3
+  },
+  {
+    "title": "I'm finally learning to code, and I have NotebookLM to thank for it",
+    "url": "https://www.androidpolice.com/learn-code-with-notebooklm/",
+    "industry": "Coding",
+    "summary": "NotebookLM is helping more people learn to code.",
+    "charlotte_impact": "More local Charlotte talent can gain coding skills.",
+    "impact_score": 3
+  },
+  {
+    "title": "The Abundance Gang Has a Big AI Problem",
+    "url": "https://newrepublic.com/article/206423/abundance-ai-problem-data-centers",
+    "industry": "Politics",
+    "summary": "Ezra Kliens Abundance movement and its effects with politics.",
+    "charlotte_impact": "Has potential to cause political problems.",
+    "impact_score": 2
+  },
+  {
+    "title": "Trump Defends Economy & Tariffs in State of the Union",
+    "url": "https://omny.fm/shows/bloomberg-daybreak/trump-defends-economy-tariffs-in-state-of-the-union",
+    "industry": "Economics",
+    "summary": "Trump defends tariffs in State of the Union.",
+    "charlotte_impact": "Increased tariffs may influence investments in Charlotte.",
+    "impact_score": 2
+  },
+  {
+    "title": "10 Awesome Claude Code CLI Tools : Markdown, Models, System Monitoring & More",
+    "url": "https://www.geeky-gadgets.com/terminal-tools-claude-code/",
+    "industry": "Coding",
+    "summary": "10 command line tools for claude code.",
+    "charlotte_impact": "Charlotte coders may have more tools for the development of new technologies.",
+    "impact_score": 2
+  },
+  {
+    "title": "Six new focuses in national agenda to combat drug abuse, says Ahmad Zahid",
+    "url": "https://www.thestar.com.my/news/nation/2026/02/25/six-new-focuses-in-national-agenda-to-combat-drug-abuse-says-ahmad-zahid",
     "industry": "Healthcare",
-    "summary": "The global digital twins in healthcare market is projected to reach $69.67 billion by 2035, driven by AI-powered virtual modeling and personalized medicine initiatives.",
-    "charlotte_impact": "Charlotte's healthcare sector, including Atrium Health and Novant Health, could benefit from adopting digital twin technology to improve patient care and personalize treatments.",
-    "impact_score": 7
-  },
-  {
-    "title": "Data Center Market Competitive Analysis Report 2025: Key Players Analysis, Profiles, Strategic Developments, Product Launches, Sustainability, Mergers, Innovations, Revenue, and Forecasts to 2033",
-    "url": "https://www.globenewswire.com/news-release/2026/02/24/3243291/28124/en/Data-Center-Market-Competitive-Analysis-Report-2025-Key-Players-Analysis-Profiles-Strategic-Developments-Product-Launches-Sustainability-Mergers-Innovations-Revenue-and-Forecasts-t.html",
-    "industry": "Data Centers",
-    "summary": "The global data center market is projected to grow from $263.48 billion in 2025 to $613.36 billion by 2033, driven by cloud computing and the need for secure data storage.",
-    "charlotte_impact": "Charlotte's data center industry and associated businesses could see significant growth, supporting AI-driven initiatives and cloud computing adoption in the region.",
-    "impact_score": 6
-  },
-  {
-    "title": "JPMorgan Chase CEO Warns Of \u2018Dumb\u2019 Risk-Taking By Financial Firms, Sees Echoes Of 2008 Crisis",
-    "url": "https://www.news18.com/business/banking-finance/jpmorgan-chase-ceo-warns-of-dumb-risk-taking-by-financial-firms-sees-echoes-of-2008-crisis-ws-l-9926903.html",
-    "industry": "Financial Services",
-    "summary": "JPMorgan Chase CEO Jamie Dimon warned of 'dumb' risk-taking by financial firms, drawing parallels to the 2008 financial crisis.",
-    "charlotte_impact": "Highlights the need for responsible AI implementation in Charlotte's financial sector to avoid potential risks and ensure stability.",
-    "impact_score": 5
-  },
-  {
-    "title": "Here's how to prep for a job interview with AI",
-    "url": "https://www.marketplace.org/episode/2026/02/24/heres-how-to-prep-for-a-job-interview-with-ai",
-    "industry": "Human Resources",
-    "summary": "Article discusses the increasing use of AI in job interviews and how candidates can prepare for them.",
-    "charlotte_impact": "Companies in Charlotte may start using AI interview tools, changing the way candidates prepare and interview for new roles.",
-    "impact_score": 4
-  },
-  {
-    "title": "Hashgraph Group launches Hedera-based tool for EU digital product passports",
-    "url": "https://cointelegraph.com/news/hashgraph-launches-hedera-tool-for-eu-digital-product-passports",
-    "industry": "Supply Chain",
-    "summary": "Hashgraph Group launched a blockchain-based tool for EU digital product passports.",
-    "charlotte_impact": "Demonstrates how global regulations may be requiring the use of supply chain tools, requiring businesses to re-evaluate their existing software stack.",
-    "impact_score": 4
+    "summary": "Six new focus points in the national agenda to combat drug abuse.",
+    "charlotte_impact": "Increased awareness of the drug problems in the Charlotte area may occur.",
+    "impact_score": 2
   }
 ]
