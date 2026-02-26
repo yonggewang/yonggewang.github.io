@@ -521,7 +521,7 @@
             <div class="grid">
                 <a href="https://apxml.com/models" class="card" target="_blank">
                     <span class="card-icon">🧠</span>
-                    <h3 class="card-title">LLM Models</h3>
+                    <h3 class="card-title">LLM Models, VRAM calculator, and more</h3>
                     <p class="card-desc">Original source database for context windows and performance metadata.</p>
                     <div class="card-link">Explore Site <span>→</span></div>
                 </a>
@@ -530,18 +530,6 @@
                     <h3 class="card-title">r/LocalLLaMA</h3>
                     <p class="card-desc">The primary community hub for edge-computing AI and local inference.</p>
                     <div class="card-link">Visit Reddit <span>→</span></div>
-                </a>
-                <a href="https://apxml.com/tools/vram-calculator" class="card" target="_blank">
-                    <span class="card-icon">📟</span>
-                    <h3 class="card-title">VRAM Calculator</h3>
-                    <p class="card-desc">Plan your hardware infrastructure with precise memory estimations.</p>
-                    <div class="card-link">Open Tool <span>→</span></div>
-                </a>
-                <a href="https://lmstudio.ai" class="card" target="_blank">
-                    <span class="card-icon">🏗️</span>
-                    <h3 class="card-title">LM Studio</h3>
-                    <p class="card-desc">Superior local environment for discovering and deploying open-weights.</p>
-                    <div class="card-link">Get Software <span>→</span></div>
                 </a>
             </div>
         </section>
@@ -552,6 +540,23 @@
     </div>
     <script id="modelData" type="application/json">
 [
+  {
+    "Model": "Llama 4 Scout",
+    "Provider": "Meta",
+    "Parameters (Total)": "109.0",
+    "Parameters (Active)": "17.0",
+    "Context": "10000000",
+    "Tokens/s (RTX 5090)": "40 - 70 tok/s",
+    "GGUF Download Link": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct",
+    "VRAM Q4 (32k ctx)": "69.4",
+    "VRAM Q8 (32k ctx)": "120.0",
+    "VRAM FP16 (32k ctx)": "220.0",
+    "Buyer's Guide (Budget <$5k)": "Tier 4: Professional ($4,000 - $6,000). Sweet spot for high reasoning.",
+    "Step-by-Step Build Guide": "Recommended Hardware (Mac): Mac Studio M4 Ultra 128GB. Recommended Hardware (PC): 3x RTX 5090.",
+    "Target/Best For": "Frontier-class reasoning, 10M token context window, mult-doc analysis.",
+    "Modality": "Native Vision + Text",
+    "Architecture": "MoE with 16 experts (17B active)"
+  },
   {
     "Model": "Qwen3.5-397B-A17",
     "Provider": "Alibaba Qwen",
