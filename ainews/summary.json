@@ -3,176 +3,112 @@
     "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
     "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
     "industry": "Cloud Infrastructure",
-    "summary": "Railway secured $100 million in Series B funding to challenge AWS with its AI-native cloud infrastructure, boasting faster deployment times and cost savings for developers using AI coding assistants.  The platform has garnered significant traction among developers and enterprises seeking to accelerate software development in the age of AI.",
-    "charlotte_impact": "Could attract Charlotte-based companies seeking more efficient and cost-effective cloud solutions, impacting local cloud service providers.",
+    "summary": "Railway, an AI-native cloud infrastructure provider, secured $100 million in Series B funding to challenge AWS and Google Cloud.  Their platform offers developers faster deployments and significant cost savings compared to traditional cloud providers, attracting both startups and Fortune 500 companies.",
+    "charlotte_impact": "Could offer Charlotte startups and enterprises lower-cost, faster cloud deployment solutions, potentially boosting innovation and reducing infrastructure expenses.",
     "impact_score": 9
-  },
-  {
-    "title": "OpenAI raises $110B in one of the largest private funding rounds in history",
-    "url": "https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/",
-    "industry": "Artificial Intelligence",
-    "summary": "OpenAI raised $110 billion in a massive private funding round, with significant investments from Amazon, Nvidia, and SoftBank, valuing the company at $730 billion. This funding underscores the massive investment pouring into leading AI companies.",
-    "charlotte_impact": "Indirectly benefits Charlotte through advancements in AI, potentially leading to new applications and business opportunities for local companies.",
-    "impact_score": 8
   },
   {
     "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
     "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
     "industry": "Enterprise Software",
-    "summary": "Salesforce launched a rebuilt Slackbot, now an AI agent powered by Anthropic's Claude (and potentially Google's Gemini), aiming to be a central hub for enterprise tasks like data search and document drafting. Internal testing showed high adoption and significant time savings for employees.",
-    "charlotte_impact": "Could impact Charlotte businesses using Slack and Salesforce, potentially improving productivity and workflow automation.",
+    "summary": "Salesforce launched a rebuilt Slackbot AI agent powered by Anthropic's Claude, aiming to position Slack as the central hub for enterprise AI. The new Slackbot can search enterprise data, draft documents, and automate tasks, competing with Microsoft Copilot and Google Gemini.",
+    "charlotte_impact": "Charlotte businesses using Slack could see improved productivity and data-driven decision-making through the integration of this new AI assistant.",
+    "impact_score": 8
+  },
+  {
+    "title": "The billion-dollar infrastructure deals powering the AI boom",
+    "url": "https://techcrunch.com/2026/02/28/billion-dollar-infrastructure-deals-ai-boom-data-centers-openai-oracle-nvidia-microsoft-google-meta/",
+    "industry": "AI Infrastructure",
+    "summary": "This article summarizes billion-dollar infrastructure deals that are powering the AI boom. The deals involve major spending from Meta, Oracle, Microsoft, Google, and OpenAI who are investing in data centers and hardware.",
+    "charlotte_impact": "No direct impact but highlights that AI is being taken seriously at scale. Charlotte businesses can understand that AI is a real force.",
     "impact_score": 7
   },
   {
     "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
     "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
     "industry": "Market Research",
-    "summary": "Listen Labs raised $69 million to scale its AI-powered customer interview platform, offering faster and more honest customer insights than traditional market research methods. The platform uses AI to conduct in-depth interviews and deliver actionable reports.",
-    "charlotte_impact": "Could provide Charlotte businesses with a more efficient way to gather customer feedback and improve product development.",
-    "impact_score": 6
+    "summary": "Listen Labs raised $69M to scale its AI-powered customer interview platform, offering faster and more insightful market research. Their approach uses open-ended video conversations and AI analysis, replacing traditional surveys and focus groups.",
+    "charlotte_impact": "Charlotte-based companies can utilize Listen Labs to gain rapid customer insights for product development and marketing strategies, potentially improving their competitive edge.",
+    "impact_score": 8
   },
   {
-    "title": "Employees at Google and OpenAI support Anthropic\u2019s Pentagon stand in open letter",
-    "url": "https://techcrunch.com/2026/02/27/employees-at-google-and-openai-support-anthropics-pentagon-stand-in-open-letter/",
-    "industry": "Defense/Ethics",
-    "summary": "Employees at Google and OpenAI are publicly supporting Anthropic's decision to limit its AI technology's use by the Pentagon. This demonstrates the internal ethical tensions and debates regarding AI's role in military applications.",
-    "charlotte_impact": "Minimal direct impact, but contributes to the broader discussion on AI ethics, influencing how Charlotte businesses develop and deploy AI solutions responsibly.",
-    "impact_score": 3
-  },
-  {
-    "title": "Musk bashes OpenAI in deposition, saying \u2018nobody committed suicide because of Grok\u2019",
-    "url": "https://techcrunch.com/2026/02/27/musk-bashes-openai-in-deposition-saying-nobody-committed-suicide-because-of-grok/",
-    "industry": "AI Safety/Legal",
-    "summary": "Elon Musk criticized OpenAI in a deposition, highlighting xAI's safety features and downplaying concerns around AI risks, but Grok later created nudes. This underscores the ongoing debate about AI safety and potential for misuse.",
-    "charlotte_impact": "Little impact, the reminder to focus on safety and avoiding misuse may impact all.",
-    "impact_score": 3
-  },
-  {
-    "title": "Pentagon moves to designate Anthropic as a supply-chain risk",
-    "url": "https://techcrunch.com/2026/02/27/pentagon-moves-to-designate-anthropic-as-a-supply-chain-risk/",
-    "industry": "Defense/Politics",
-    "summary": "The Pentagon is considering designating Anthropic as a supply-chain risk, after disagreement on military use. Demonstrates the complex relationship between AI developers and government agencies.",
-    "charlotte_impact": "Minimal direct impact, but could affect companies in Charlotte partnering with AI companies and government entities.",
-    "impact_score": 3
-  },
-  {
-    "title": "Who\u2019s\u00a0really running AI? Inside the billion-dollar battle over regulation with Alex Bores",
-    "url": "https://techcrunch.com/podcast/whos-really-running-ai-inside-the-billion-dollar-battle-over-regulation-with-alex-bores/",
-    "industry": "AI Regulation/Policy",
-    "summary": "TechCrunch's Equity podcast features an interview with New York State Assemblymember Alex Bores regarding the political and legal battles over AI regulation.  Bores is attempting to find a middle ground amidst the ethical and social debates.",
-    "charlotte_impact": "May inform Charlotte's policy discussions on AI regulation and data center construction.",
-    "impact_score": 3
+    "title": "OpenAI\u2019s Sam Altman announces Pentagon deal with \u2018technical safeguards\u2019",
+    "url": "https://techcrunch.com/2026/02/28/openais-sam-altman-announces-pentagon-deal-with-technical-safeguards/",
+    "industry": "Defense/AI",
+    "summary": "OpenAI's Sam Altman announced a Pentagon deal, citing 'technical safeguards', raising questions about AI's role in defense and sparking ethical debates.",
+    "charlotte_impact": "Indirect impact, raising ethical concerns about AI and defense sector involvement for Charlotte's tech community.",
+    "impact_score": 5
   },
   {
     "title": "AI music generator Suno hits 2M paid subscribers and $300M in annual recurring revenue",
     "url": "https://techcrunch.com/2026/02/27/ai-music-generator-suno-hits-2-million-paid-subscribers-and-300m-in-annual-recurring-revenue/",
     "industry": "AI Music",
-    "summary": "AI music generator Suno reaches 2 million paid subscribers, generating $300 million in annual recurring revenue, thus demonstrating growing market for AI-generated media and AI tools.",
-    "charlotte_impact": "Could influence the local music industry and creative sector in Charlotte, as well as introduce local businesses to use AI-generated music in marketing campaigns.",
-    "impact_score": 5
+    "summary": "AI music generator Suno reaches 2 million paid subscribers and $300M in ARR, showcasing the growing market for AI-generated content creation.",
+    "charlotte_impact": "Potentially relevant to Charlotte's music and creative scene, enabling new forms of content creation and distribution, but limited overall enterprise impact.",
+    "impact_score": 3
   },
   {
     "title": "Perplexity\u2019s new Computer is another bet that users need many AI models",
     "url": "https://techcrunch.com/2026/02/27/perplexitys-new-computer-is-another-bet-that-users-need-many-ai-models/",
     "industry": "AI Search",
-    "summary": "Perplexity introduces 'Computer,' aiming to integrate all AI capabilities into one system. Demonstrates trends toward unified AI platforms.",
-    "charlotte_impact": "Could potentially alter how companies in Charlotte interact with AI models and platforms.",
-    "impact_score": 4
-  },
-  {
-    "title": "World shares are mostly higher in a week dominated by AI news",
-    "url": "https://abcnews.com/Business/wireStory/world-shares-higher-week-dominated-ai-news-130555336",
-    "industry": "Financial Markets",
-    "summary": "World shares are rising as AI-related news remains impactful to stock markets. This showcases the role of AI on global economies and investment trends.",
-    "charlotte_impact": "Could affect Charlotte's financial sector and local investors as AI stocks become more prominent.",
-    "impact_score": 5
-  },
-  {
-    "title": "The US Army wants to track ammo and supplies at war like you'd track an Amazon package",
-    "url": "https://www.businessinsider.com/army-betting-ai-tool-get-ammo-supplies-front-line-troops-2026-2",
-    "industry": "Defense",
-    "summary": "The US Army is developing an AI-powered tool to track ammo and supplies in war zones, improving logistics and predictions of soldier needs. This highlights the increasing integration of AI in military operations.",
-    "charlotte_impact": "Limited direct impact, this may potentially create new opportunities for local technology companies to provide AI for defense applications.",
+    "summary": "Perplexity is creating a new search computer, which unifies every current AI capability into a single system. It is another bet that users need many AI models.",
+    "charlotte_impact": "No direct impact, but Charlotte companies can keep abreast of where AI-enhanced search is heading.",
     "impact_score": 3
   },
   {
-    "title": "NTT Data, Ericsson team to scale private 5G, physical AI for enterprises",
-    "url": "https://www.computerweekly.com/news/366639409/NTT-DATA-Ericsson-team-to-scale-private-5G-physical-AI-for-enterprises",
-    "industry": "Telecommunications/AI",
-    "summary": "NTT Data and Ericsson partner to scale private 5G and physical AI for enterprises. This aims to establish 5G as a foundational layer for AI-driven operations, enhancing scalability and security.",
-    "charlotte_impact": "This can create opportunities for Charlotte businesses using 5G, especially those in manufacturing and logistics. Could inspire local telecommunications firms to develop AI-integrated services.",
-    "impact_score": 5
-  },
-  {
-    "title": "Afterpay Parent Company Block Cuts 4,000 Jobs Globally",
-    "url": "https://www.ibtimes.com.au/afterpay-parent-company-block-cuts-4000-jobs-globally-1862281",
-    "industry": "Finance/Layoffs",
-    "summary": "Afterpay parent company Block is cutting 4,000 jobs globally, suggesting possible recalibration in tech staffing. Demonstrates potential risks related to investment in AI.",
-    "charlotte_impact": "Could impact local Block employees and hint to Charlotte's tech sector about possible job losses in adjacent industries.",
+    "title": "Canada minister to meet with OpenAI's Altman to discuss safety measures after shooting",
+    "url": "https://economictimes.indiatimes.com/tech/technology/canada-minister-to-meet-with-openais-altman-to-discuss-safety-measures-after-shooting/articleshow/128882019.cms",
+    "industry": "Regulation/AI Safety",
+    "summary": "Canada's minister will meet with OpenAI's Sam Altman to discuss safety measures following a recent school shooting. This underscores the growing concerns and regulatory scrutiny surrounding AI's potential misuse.",
+    "charlotte_impact": "Indirect impact; heightened awareness of AI risks influences the adoption and deployment strategies for Charlotte businesses.",
     "impact_score": 4
   },
   {
-    "title": "IIT Kanpur, HCL Tech sign MoU to advance deep tech innovation for GCCs",
-    "url": "https://www.thehindubusinessline.com/news/education/iit-kanpur-hcl-tech-sign-mou-to-advance-deep-tech-innovation-for-gccs/article70683603.ece",
-    "industry": "Education/Tech",
-    "summary": "IIT Kanpur and HCLTech partner to advance deep tech innovation for GCCs, strengthening research and scalable solutions. Showcases collaborations for AI/technology education.",
-    "charlotte_impact": "Partnerships in Charlotte with similar goals could drive the talent pool, driving collaborative research and development to accelerate deep tech innovation.",
-    "impact_score": 4
-  },
-  {
-    "title": "AI is our only hope to avoid austerity with a shrinking US population \u2014 unless Bernie Sanders gets his way",
-    "url": "https://www.washingtonexaminer.com/news/business/4472550/artificial-intelligence-only-hope-avoid-austerity-shrinking-us-population/",
-    "industry": "Economics/Politics",
-    "summary": "AI is viewed as a tool to mitigate the economic impacts of a shrinking US population. Suggests the importance of AI to maintain economic growth.",
-    "charlotte_impact": "This could encourage Charlotte to adopt AI in local industries to improve output, as well as increase the importance of policies that support the growth of AI sector.",
+    "title": "Thousands of Public Google Cloud API Keys Exposed with Gemini Access After API Enablement",
+    "url": "https://thehackernews.com/2026/02/thousands-of-public-google-cloud-api.html",
+    "industry": "Cybersecurity",
+    "summary": "Thousands of Google Cloud API keys with Gemini access were exposed, highlighting security vulnerabilities in AI systems. This can allow unauthorized access to private data.",
+    "charlotte_impact": "This is a warning to Charlotte businesses to closely follow AI security and monitor their cloud assets to make sure data is not exposed.",
     "impact_score": 6
   },
   {
-    "title": "BBC, Sky News leaders among bosses calling for protection of original journalism in age of AI",
-    "url": "https://www.c21media.net/news/bbc-sky-news-leaders-among-bosses-calling-for-protection-of-original-journalism-in-age-of-ai/",
-    "industry": "Media/Ethics",
-    "summary": "BBC and Sky News leaders are advocating for the protection of original journalism in the age of AI, forming a coalition to ensure against AI threats to intellectual property. The media industry adapts to the challenges and opportunities presented by AI.",
-    "charlotte_impact": "Could influence how local news outlets approach AI in journalism, as well as how local journalism will be protected.",
-    "impact_score": 3
-  },
-  {
-    "title": "AI stocks in bubble zone? Howard Marks on how to invest in this new world",
-    "url": "https://economictimes.indiatimes.com/markets/stocks/news/ai-stocks-in-bubble-zone-howard-marks-on-how-to-invest-in-this-new-world/articleshow/128844390.cms",
-    "industry": "Financial Markets/Investment",
-    "summary": "Billionaire investor Howard Marks cautions about investing in AI stocks, amid bubble fears.  Emphasizes that while AI is real, profit potential is not certain.",
-    "charlotte_impact": "May cause Charlotte investors to re-evaluate their AI stock investments.",
+    "title": "Paradigm plans $1.5 billion fund to expand into AI, robotics",
+    "url": "https://cryptobriefing.com/paradigm-ai-robotics-expansion/",
+    "industry": "Venture Capital",
+    "summary": "Paradigm plans a $1.5 billion fund to expand into AI and robotics, showcasing investor interest in integrating these technologies with decentralized systems.",
+    "charlotte_impact": "Could indirectly benefit Charlotte startups in AI and robotics by increasing the availability of venture capital.",
     "impact_score": 5
   },
   {
-    "title": "Asian markets rally as traders reassess AI investment value",
-    "url": "https://punchng.com/asian-markets-rally-as-traders-reassess-ai-investment-value/",
-    "industry": "Financial Markets",
-    "summary": "Asian markets rally as traders reassess AI investment value and are focusing on upstream chipmakers. Focuses on the evolving attitude for investment with AI.",
-    "charlotte_impact": "Might influence investment patterns in Charlotte's financial sectors, urging concentration into AI hardware solutions.",
-    "impact_score": 4
+    "title": "7 Best AI Recruiting Tools for Small Businesses in 2026",
+    "url": "https://theundercoverrecruiter.com/ai-recruit-tools/",
+    "industry": "Recruiting",
+    "summary": "Lists 7 best AI Recruiting Tools for Small Businesses in 2026.  The article is about how AI levels the playing field for recruiting, especially against massive corporations with large HR budgets.",
+    "charlotte_impact": "Charlotte small businesses can more easily use AI tools for recruiting.",
+    "impact_score": 6
   },
   {
-    "title": "Satyajit Das: AI \u2013 Artificial Intelligence or Absolute Insanity?",
-    "url": "https://biztoc.com/x/c26a2ed6238207f3?ref=ff",
-    "industry": "Commentary/Opinion",
-    "summary": "Satyajit Das questions if AI is truly artificial intelligence or absolute insanity, discusses the risk for the boom.",
-    "charlotte_impact": "Helps inform public discussion in Charlotte on AI dangers.",
-    "impact_score": 3
+    "title": "USD 65B deal with UAE covers defense, nuclear, AI industries",
+    "url": "https://www.globalsecurity.org/wmd/library/news/rok/2026/rok-260227-koreanet01.htm",
+    "industry": "Defense/AI",
+    "summary": "A $65B deal between South Korea and UAE covers defense, nuclear, and AI industries, indicating the growing strategic importance of AI in international relations.",
+    "charlotte_impact": "Little to no impact but AI is playing a major role in international affairs and defense.",
+    "impact_score": 2
   },
   {
-    "title": "Artificial Intelligence ETFs, or ETFs Powered by AI?",
-    "url": "https://etfdb.com/disruptive-technology-channel/artificial-intelligence-etfs-or-etfs-powered-by-ai/",
-    "industry": "Financial Products",
-    "summary": "A VettaFi writer takes a look at artificial intelligence ETFs and ETFs powered by AI, and the differences between the two categories, helps educate and guide investors.",
-    "charlotte_impact": "Educates investors in Charlotte who may be interested in AI.",
-    "impact_score": 3
+    "title": "The week the AI scare turned real and America realized maybe it isn\u2019t ready for what\u2019s coming",
+    "url": "https://fortune.com/2026/02/28/ai-scare-trade-mass-layoffs-white-collar-recession-citrini-shumer-viral-doomsday-essays/",
+    "industry": "Economics/AI",
+    "summary": "The week the AI scare turned real, with America realizing maybe it isn\u2019t ready for what\u2019s coming. Article references \"Ghost GDP\", mass layoffs at tech companies, AI's new collar economy taking full effect.",
+    "charlotte_impact": "Charlotte should get ready as AI impacts the economy more and more.",
+    "impact_score": 5
   },
   {
-    "title": "AI 2027: Will Artificial Intelligence Bring Prosperity or Pose an Existential Risk?",
-    "url": "https://medium.com/@kaustubhkalyankar/ai-2027-will-artificial-intelligence-bring-prosperity-or-pose-an-existential-risk-b3071da5e6ab",
-    "industry": "Futurology",
-    "summary": "This article explores the 2027 forecast on artificial intelligence, touching on the risks that come with it.",
-    "charlotte_impact": "Promotes a thoughtful discussion of AI impacts in Charlotte's professional community.",
-    "impact_score": 3
+    "title": "Meet your AI auditor: How this new job role monitors model behavior",
+    "url": "https://www.zdnet.com/article/ai-auditor-new-job-role-monitors-model-behavior/",
+    "industry": "AI Governance/Auditing",
+    "summary": "Highlights the emerging role of AI auditors, which is a new job role that monitors model behavior. AI auditors resemble financial auditors, except they observe and report on the behavior of AI transactions rather than monetary transactions.",
+    "charlotte_impact": "Could create opportunities for Charlotte businesses to specialize in AI auditing and governance, ensuring responsible AI development and deployment.",
+    "impact_score": 6
   }
 ]
