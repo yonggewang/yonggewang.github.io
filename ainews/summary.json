@@ -3,120 +3,200 @@
     "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
     "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
     "industry": "Cloud Infrastructure",
-    "summary": "Railway secured $100 million in Series B funding to challenge AWS with its AI-native cloud infrastructure, boasting faster deployment times and cost savings. The platform aims to empower developers in the age of AI coding assistants.",
-    "charlotte_impact": "Could provide Charlotte's growing tech sector with a more agile and cost-effective cloud infrastructure solution, attracting talent and investment.",
+    "summary": "Railway, an AI-native cloud platform, secured $100 million in Series B funding to challenge AWS and Google Cloud.  They offer faster deployment times and cost savings by building their own data centers and optimizing for AI-generated code, impacting developers.",
+    "charlotte_impact": "Could provide Charlotte companies, particularly startups and those in fintech, with more cost-effective and efficient cloud solutions, boosting competitiveness.",
     "impact_score": 9
   },
   {
     "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
     "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
     "industry": "Enterprise Software",
-    "summary": "Salesforce launched a rebuilt Slackbot AI agent powered by Anthropic's Claude, integrating enterprise data and automating tasks. Internal testing shows significant productivity gains, positioning Slack as a central hub for AI-driven workflows.",
-    "charlotte_impact": "Charlotte businesses using Salesforce/Slack could see increased efficiency and streamlined workflows, particularly in customer service and project management.",
-    "impact_score": 8
-  },
-  {
-    "title": "The billion-dollar infrastructure deals powering the AI boom",
-    "url": "https://techcrunch.com/2026/02/28/billion-dollar-infrastructure-deals-ai-boom-data-centers-openai-oracle-nvidia-microsoft-google-meta/",
-    "industry": "AI Infrastructure",
-    "summary": "The article discusses billion-dollar infrastructure deals powering the AI boom, including major investments from Meta, Oracle, Microsoft, Google, and OpenAI in data centers and computing resources.",
-    "charlotte_impact": "While direct impact may be limited, Charlotte's data centers could benefit from increased demand and potential expansion opportunities.",
-    "impact_score": 7
+    "summary": "Salesforce launched a rebuilt Slackbot AI agent powered by Anthropic's Claude (initially) to compete with Microsoft Copilot and Google Gemini.  The AI assistant can search enterprise data, draft documents, and automate tasks, aiming to make Slack a central hub for AI activity.",
+    "charlotte_impact": "Charlotte-based businesses using Salesforce and Slack stand to benefit from increased productivity and streamlined workflows through AI-powered assistance within their existing communication platform.",
+    "impact_score": 9
   },
   {
     "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
     "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
     "industry": "Market Research",
-    "summary": "Listen Labs raised $69 million to scale its AI-powered customer interview platform, offering faster and more honest insights compared to traditional methods. The platform is used by companies like Microsoft and Chubbies to improve product development.",
-    "charlotte_impact": "Could enable Charlotte businesses to gain quicker and more actionable customer insights, improving marketing strategies and product design.",
+    "summary": "Listen Labs raised $69 million to scale its AI-powered customer interview platform, disrupting the traditional market research industry. Their AI researcher finds participants, conducts interviews, and delivers insights faster, offering a more scalable and honest approach compared to surveys and human interviews.",
+    "charlotte_impact": "Charlotte marketing agencies and businesses that need consumer insights and product testing may now have a faster, more reliable alternative to focus groups, enabling better product development and marketing decisions.",
+    "impact_score": 8
+  },
+  {
+    "title": "A married founder duo\u2019s company, 14.ai, is replacing customer support teams at startups",
+    "url": "https://techcrunch.com/2026/03/02/a-married-founder-duos-company-14-ai-is-replacing-customer-support-teams-at-startups/",
+    "industry": "Customer Support",
+    "summary": "14.ai, a company founded by a married couple, is replacing customer support teams at startups with AI-powered solutions. They also launched a consumer brand to learn how AI can handle customer support.",
+    "charlotte_impact": "Startups in Charlotte may find that by utilizing 14.ai, they can lower customer service costs, thus freeing up finances for investment elsewhere.",
     "impact_score": 7
+  },
+  {
+    "title": "Investors spill what they aren\u2019t looking for anymore in AI SaaS companies",
+    "url": "https://techcrunch.com/2026/03/01/investors-spill-what-they-arent-looking-for-anymore-in-ai-saas-companies/",
+    "industry": "Venture Capital",
+    "summary": "Investors are becoming more selective about AI SaaS companies, indicating a shift in investment trends. Investors reveal what they aren't looking for anymore in AI SaaS startups.",
+    "charlotte_impact": "Charlotte AI startups seeking funding need to adapt their strategies to align with current investor preferences, focusing on proven value and sustainable business models.",
+    "impact_score": 7
+  },
+  {
+    "title": "$81.04 Bn Artificial Intelligence of Things (AIoT) Markets - Global Forecast to 2030 with IBM, Cisco, AWS, Google, Microsoft, Oracle, HPE, Intel, Hitachi, and SAP Leading",
+    "url": "https://www.globenewswire.com/news-release/2026/03/02/3247162/28124/en/81-04-Bn-Artificial-Intelligence-of-Things-AIoT-Markets-Global-Forecast-to-2030-with-IBM-Cisco-AWS-Google-Microsoft-Oracle-HPE-Intel-Hitachi-and-SAP-Leading.html",
+    "industry": "AIoT",
+    "summary": "The global Artificial Intelligence of Things (AIoT) market is projected to grow to $81.04 billion by 2030. The increased use of IoT paired with AI enhances real-time analytics, aided by advancements in 5G and edge computing.",
+    "charlotte_impact": "Charlotte companies invested in smart technologies or manufacturing will want to be aware of these trends in the AIoT market. Increased usage of AIoT can provide insights that were previously inaccessible.",
+    "impact_score": 7
+  },
+  {
+    "title": "Virtual twins and AI companions target enterprise war rooms",
+    "url": "https://www.computerweekly.com/news/366639596/Virtual-twins-and-AI-companions-target-enterprise-war-rooms",
+    "industry": "Enterprise Software",
+    "summary": "Dassault Syst\u00e8mes promotes virtual twins and AI companions targeting enterprise war rooms.  The platform claims to answer complex business questions rapidly, but requires rethinking enterprise data architecture.",
+    "charlotte_impact": "Businesses in Charlotte might be able to utilize AI in this way. However, if they would like to leverage virtual twins and AI companions to their fullest, there would need to be significant changes to their data architecture.",
+    "impact_score": 6
+  },
+  {
+    "title": "Fed races to adapt to AI promises and pitfalls for jobs, inflation",
+    "url": "https://www.channelnewsasia.com/business/fed-races-adapt-ai-promises-and-pitfalls-jobs-inflation-5963931",
+    "industry": "Economics",
+    "summary": "The Federal Reserve is actively trying to adapt to AI with regards to the economy. There are promises and pitfalls to jobs and inflation that the Fed is now grappling with.",
+    "charlotte_impact": "The implications for AI on the economy may require the Fed to act or react in a way that could have both positive and negative effects for businesses in Charlotte.",
+    "impact_score": 6
+  },
+  {
+    "title": "RadNet Acquires Gleamer, Making RadNet\u2019s DeepHealth the Largest Provider of Radiology Clinical AI Solutions Worldwide",
+    "url": "https://www.globenewswire.com/news-release/2026/03/02/3247141/10985/en/RadNet-Acquires-Gleamer-Making-RadNet-s-DeepHealth-the-Largest-Provider-of-Radiology-Clinical-AI-Solutions-Worldwide.html",
+    "industry": "Healthcare",
+    "summary": "RadNet acquired Gleamer, solidifying DeepHealth as the biggest provider of radiology AI solutions around the world. The use of AI is meant to improve image quality, reduce the need for radiologists, and make quicker diagnoses.",
+    "charlotte_impact": "Hospitals in the Charlotte region may be able to cut costs in terms of radiologist salaries, reduce the need for new hires, and diagnose ailments faster through the use of AI radiology.",
+    "impact_score": 6
+  },
+  {
+    "title": "No one has a good plan for how AI companies should work with the government",
+    "url": "https://techcrunch.com/2026/03/02/openai-anthropic-department-of-defense-war-hegseth-ai-companies-work-with-us-government/",
+    "industry": "National Security",
+    "summary": "OpenAI is transitioning from a consumer startup to a part of national security infrastructure. The company appears unequipped to manage these new responsibilities.",
+    "charlotte_impact": "Although Charlotte does not house national security infrastructure, cybersecurity companies in the region will need to ensure that their products are more secure than ever.",
+    "impact_score": 5
   },
   {
     "title": "OpenAI reveals more details about its agreement with the Pentagon",
     "url": "https://techcrunch.com/2026/03/01/openai-shares-more-details-about-its-agreement-with-the-pentagon/",
-    "industry": "Defense",
-    "summary": "OpenAI revealed more details about its agreement with the Pentagon, with CEO Sam Altman admitting it was \u201cdefinitely rushed\u201d and \u201cthe optics don\u2019t look good.\u201d",
-    "charlotte_impact": "Minimal direct impact on Charlotte businesses, but highlights the ethical considerations of AI in defense and potential impact on societal values.",
+    "industry": "Government",
+    "summary": "OpenAI revealed more details on its agreement with the Department of Defense. CEO Sam Altman conceded that the deal was 'definitely rushed' and 'the optics don't look good.'",
+    "charlotte_impact": "The optics related to a rushed deal between OpenAI and the Department of Defense do not directly involve Charlotte businesses.",
     "impact_score": 4
   },
   {
-    "title": "OpenAI\u2019s Sam Altman announces Pentagon deal with \u2018technical safeguards\u2019",
-    "url": "https://techcrunch.com/2026/02/28/openais-sam-altman-announces-pentagon-deal-with-technical-safeguards/",
-    "industry": "Defense",
-    "summary": "OpenAI's Sam Altman announced a Pentagon deal with 'technical safeguards,' addressing concerns similar to those that caused issues for Anthropic, emphasizing responsible AI development in defense applications.",
-    "charlotte_impact": "Minimal direct impact on Charlotte businesses, but underscores the growing intersection of AI and national security.",
+    "title": "Tech workers urge DOD, Congress to withdraw Anthropic label as a supply-chain risk",
+    "url": "https://techcrunch.com/2026/03/02/tech-workers-urge-dod-congress-to-withdraw-anthropic-label-as-a-supply-chain-risk/",
+    "industry": "Government",
+    "summary": "Tech workers are imploring the DOD and Congress to withdraw the Anthropic label as a supply-chain risk. These tech workers believe that the matter should be settled quietly.",
+    "charlotte_impact": "As with the OpenAI deal, the Anthropic situation is unlikely to affect Charlotte businesses in any direct fashion.",
     "impact_score": 4
   },
   {
-    "title": "Musk bashes OpenAI in deposition, saying \u2018nobody committed suicide because of Grok\u2019",
-    "url": "https://techcrunch.com/2026/02/27/musk-bashes-openai-in-deposition-saying-nobody-committed-suicide-because-of-grok/",
-    "industry": "AI Safety",
-    "summary": "Musk criticized OpenAI in a deposition, contrasting xAI's safety with ChatGPT, while ironically xAI's Grok later faced controversy for generating nonconsensual nude images.",
-    "charlotte_impact": "Indirectly impacts Charlotte by highlighting the critical importance of AI safety and the potential for unintended consequences.",
-    "impact_score": 5
-  },
-  {
-    "title": "Pentagon moves to designate Anthropic as a supply-chain risk",
-    "url": "https://techcrunch.com/2026/02/27/pentagon-moves-to-designate-anthropic-as-a-supply-chain-risk/",
-    "industry": "Defense",
-    "summary": "The Pentagon moved to designate Anthropic as a supply-chain risk, signaling a potential shift in the government's relationship with the AI company.",
-    "charlotte_impact": "Limited direct impact, but demonstrates the complexities and political considerations surrounding AI adoption in the defense sector.",
+    "title": "Can the Military Prevent AI From Going Full Terminator?",
+    "url": "http://nymag.com/intelligencer/article/military-ai-iran-openai-claude.html",
+    "industry": "Military",
+    "summary": "Can the military prevent OpenAI, Claude, and others from going full Terminator? The expert on AI warfare, Emelia Probasco, takes a less apocalyptic view.",
+    "charlotte_impact": "This article relates to AI in the Military which is not a sector that strongly affects Charlotte businesses.",
     "impact_score": 4
   },
   {
-    "title": "The government's AI standoff could decide who really controls America's military tech",
-    "url": "https://www.businessinsider.com/government-ai-standoff-anthropic-openai-decide-who-controls-military-tech-2026-3",
-    "industry": "Defense",
-    "summary": "The government's AI standoff between the Department of Defense, Anthropic, and OpenAI could determine who really controls America's military tech.",
-    "charlotte_impact": "Limited direct impact on Charlotte businesses, but showcases the power dynamics and control of AI used for military purposes.",
+    "title": "OpenAI ChatGPT 5.4 Leak Spotted During Codex Demo",
+    "url": "https://www.geeky-gadgets.com/openai-gpt-54-leak/",
+    "industry": "AI Models",
+    "summary": "A leak of OpenAI's ChatGPT 5.4 model has sparked excitement and concern. According to Universe of AI, the model advancements showcase reasoning capabilities.",
+    "charlotte_impact": "This leak only affects businesses in Charlotte by perhaps giving them earlier access to features that would otherwise not be released yet.",
     "impact_score": 4
   },
   {
-    "title": "USAA CEO says Gen Z \u2018are not going to be as well off\u2019 as boomers and Gen Xers\u2014they need to take ownership of their success, he urges",
-    "url": "https://fortune.com/2026/03/01/usaa-ceo-juan-andrade-gen-z-not-as-well-off-as-boomers-gen-x-take-ownership-success/",
-    "industry": "Economics",
-    "summary": "USAA CEO suggests Gen Z faces economic challenges due to AI disrupting entry-level jobs, urging them to take ownership of their career strategies.",
-    "charlotte_impact": "Raises concerns about the impact of AI on Charlotte's workforce and the need for upskilling and adaptation.",
-    "impact_score": 6
+    "title": "Guidance: Preventative Analytics for Youth Justice Advisory Panel: Terms of Reference",
+    "url": "https://www.gov.uk/government/publications/preventative-analytics-for-youth-justice-advisory-panel-terms-of-reference",
+    "industry": "Government",
+    "summary": "An advisory panel in the UK will use AI and machine learning for analytics in youth justice. The panel will give and review proposals for utilizing machine learning, AI, and advanced analytics.",
+    "charlotte_impact": "This situation has no bearing on Charlotte businesses.",
+    "impact_score": 1
   },
   {
-    "title": "Who Controls Military AI? Anthropic Standoff and America\u2019s New Power Struggle",
-    "url": "https://www.globalresearch.ca/ai-anthropic-standoff-america/5917506",
-    "industry": "Defense/Politics",
-    "summary": "The standoff between Anthropic and the Pentagon signifies a larger power struggle regarding control over military AI, intertwining AI, rare earths, and national security.",
-    "charlotte_impact": "Indirectly impacts Charlotte, highlighting the ethical and political considerations of AI's role in defense.",
-    "impact_score": 4
+    "title": "How to Create AI-Powered Content Briefs for WordPress \u2013 My Proven Strategy",
+    "url": "https://www.wpbeginner.com/wp-tutorials/ai-powered-content-briefs-in-wordpress/",
+    "industry": "Content Creation",
+    "summary": "The author is creating AI powered content for WordPress bloggers who spend too much time analyzing competitors. They moved workflows to AI-powered content.",
+    "charlotte_impact": "This has the potential to help content creators in Charlotte produce more content by reducing the amount of time to research.",
+    "impact_score": 3
   },
   {
-    "title": "The strategist who said $140k is the new poverty line sees the potential for a 1929-style stock crash, and it's not because of AI",
-    "url": "https://www.businessinsider.com/stock-market-crash-bubble-1929-passive-investing-michael-green-2026-2",
-    "industry": "Finance/Investment",
-    "summary": "A strategist warns of a potential 1929-style stock market crash, not due to AI, but due to concerns about a bubble in passive investing and US stock valuations.",
-    "charlotte_impact": "Impacts Charlotte's financial sector and investors, indicating potential risks in the stock market and need for strategic investment approaches.",
-    "impact_score": 6
+    "title": "Anthropic and Alignment",
+    "url": "https://stratechery.com/2026/anthropic-and-alignment/",
+    "industry": "Government",
+    "summary": "Anthropic is in a standoff with the Department of War. While the company's concerns are legitimate, its position is intolerable and misaligned with reality.",
+    "charlotte_impact": "This article does not have any bearing on Charlotte businesses.",
+    "impact_score": 1
   },
   {
-    "title": "Not your last job, but what you are capable of: Linkedin lists down most on-demand skills for 2026",
-    "url": "https://economictimes.indiatimes.com/magazines/panache/not-your-last-job-but-what-you-are-capable-of-linkedin-lists-down-most-on-demand-skills-for-2026/articleshow/128911006.cms",
-    "industry": "HR/Skills",
-    "summary": "LinkedIn lists the most in-demand skills for 2026, highlighting a shift towards skills-based hiring, emphasizing what individuals are capable of rather than just their past job titles.",
-    "charlotte_impact": "Charlotte's workforce needs to focus on acquiring the listed in-demand skills, and local businesses must adapt their hiring strategies to prioritize skills-based recruitment.",
-    "impact_score": 7
+    "title": "Who\u2019s Deciding Where the Bombs Drop in Iran? Maybe Not Even Humans.",
+    "url": "https://newrepublic.com/article/207189/iran-war-ai-deciding-bombs-drop",
+    "industry": "Military",
+    "summary": "Bombs were dropped in Iran in a war by the U.S. and Israel and maybe not even humans were deciding where those bombs would drop. An explosion occurred at a girls' school in Southern Iran that killed at least 153 people.",
+    "charlotte_impact": "This article contains no implications for Charlotte businesses.",
+    "impact_score": 1
   },
   {
     "title": "Satyajit Das: AI \u2013 Artificial Intelligence or Absolute Insanity?",
     "url": "https://biztoc.com/x/c26a2ed6238207f3?ref=ff",
-    "industry": "Economics/AI",
-    "summary": "The article questions whether AI is 'Artificial Intelligence' or 'Absolute Insanity,' implying it traces the familiar, weary boom.",
-    "charlotte_impact": "Indirectly impacts Charlotte by making one question the long-term impact of AI on society and business.",
-    "impact_score": 4
+    "industry": "Economics",
+    "summary": "Author Satjayit Das writes of the artificial nature of AI. He believes AI is tracing the familiar, weary boom.",
+    "charlotte_impact": "There are very few implications for Charlotte businesses.",
+    "impact_score": 1
   },
   {
     "title": "Artificial Intelligence ETFs, or ETFs Powered by AI?",
     "url": "https://etfdb.com/disruptive-technology-channel/artificial-intelligence-etfs-or-etfs-powered-by-ai/",
-    "industry": "Finance/Investment",
-    "summary": "The article discusses the difference between artificial intelligence ETFs and ETFs powered by AI.",
-    "charlotte_impact": "Indirectly impacts Charlotte by highlighting the need to understand the different types of AI-related investments and their potential benefits and risks.",
-    "impact_score": 5
+    "industry": "Finance",
+    "summary": "VettaFi writers take a look at artificial intelligence ETFs and ETFs powered by AI. They also analyze the differences between the two categories.",
+    "charlotte_impact": "Charlotte firms who have investments in ETFs of either kind may learn more about their product. Aside from that, there are few business related takeaways.",
+    "impact_score": 2
+  },
+  {
+    "title": "Renters at uptown 'luxury' apartments demand action after safety failures allow intruders inside",
+    "url": "https://www.wcnc.com/article/news/local/gateway-west-apartment-issues-unhoused-3-2-2-2026/275-39ab6777-d6a1-4fc4-b4dd-801a95024441",
+    "industry": "Real Estate",
+    "summary": "Renters at a luxury apartment complex are demanding action after a series of safety failures allow intruders inside. Some are making storage closets and hallways their temporary homes.",
+    "charlotte_impact": "This is a Charlotte-specific event, but is unrelated to AI.",
+    "impact_score": 1
+  },
+  {
+    "title": "Black Political Caucus to file restraining order against NCDOT to stop I-77 expansion",
+    "url": "https://www.wcnc.com/article/news/local/black-political-caucus-to-file-restraining-order-against-ncdot-to-stop-i-77-expansion/275-e1f88f02-2a4b-4009-91be-ac7df3a82483",
+    "industry": "Infrastructure",
+    "summary": "The Black Political Caucus will file a restraining order against NCDOT to stop the I-77 expansion. The expansion project has been drawing parallels to past expansions that tore down black neighborhoods.",
+    "charlotte_impact": "This local Charlotte event is unrelated to AI.",
+    "impact_score": 1
+  },
+  {
+    "title": "The Cathedral of Plastic: How We Manufactured a Year of Excess",
+    "url": "https://www.resilience.org/stories/2026-03-02/the-cathedral-of-plastic-how-we-manufactured-a-year-of-excess/",
+    "industry": "Consumerism",
+    "summary": "The world is manufacturing a year of excess with plastics. We need our autonomy back, and that starts with walking out of the toy store empty-handed and realizing that the most resilient thing we can give the next generation isn't a piece of plastic.",
+    "charlotte_impact": "There are very few implications for businesses or Charlotte.",
+    "impact_score": 1
+  },
+  {
+    "title": "RadNet Reports Fourth Quarter 2025 Results, Including Record Revenue and Adjusted EBITDA\u207d\u00b9\u207e and Releases 2026 Financial Guidance",
+    "url": "https://www.globenewswire.com/news-release/2026/03/02/3247156/10985/en/RadNet-Reports-Fourth-Quarter-2025-Results-Including-Record-Revenue-and-Adjusted-EBITDA-and-Releases-2026-Financial-Guidance.html",
+    "industry": "Healthcare",
+    "summary": "RadNet Reports Fourth Quarter 2025 Results, Including Record Revenue and Adjusted EBITDA\u207d\u00b9\u207e and Releases 2026 Financial Guidance.",
+    "charlotte_impact": "This article has no implications for businesses in Charlotte.",
+    "impact_score": 1
+  },
+  {
+    "title": "The Modern Conditions",
+    "url": "https://www.newyorker.com/magazine/2026/03/09/the-modern-conditions",
+    "industry": "Society",
+    "summary": "Shouts & Murmurs by Alexis Wilkinson: \u201cKeeping Cough,\u201d \u201cTheraphonia,\u201d and, oh, yes, \u201cpolio\u201d: common ailments in the age of R.F.K., Jr..",
+    "charlotte_impact": "This New Yorker story has no impact on businesses in Charlotte.",
+    "impact_score": 1
   }
 ]
