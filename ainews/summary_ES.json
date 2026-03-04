@@ -3,200 +3,200 @@
     "title": "Railway obtiene 100 millones de dólares para desafiar a AWS con una infraestructura de nube nativa de IA",
     "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
     "industry": "Cloud Infrastructure",
-    "summary": "Railway, una plataforma en la nube nativa de IA, obtuvo 100 millones de dólares en financiación Serie B para desafiar a AWS y Google Cloud.  Ofrecen tiempos de implementación más rápidos y ahorros de costos al construir sus propios centros de datos y optimizarlos para el código generado por IA, lo que impacta a los desarrolladores.",
-    "charlotte_impact": "Podría proporcionar a las empresas de Charlotte, en particular a las nuevas empresas y a las de tecnología financiera, soluciones en la nube más rentables y eficientes, impulsando la competitividad.",
+    "summary": "Railway obtiene 100 millones de dólares para desafiar a AWS con una nube nativa de IA, aprovechando la frustración de los desarrolladores por la complejidad y el costo. Su plataforma ofrece una implementación más rápida y ahorros de costos significativos, aprovechando los centros de datos personalizados.",
+    "charlotte_impact": "Las empresas de Charlotte podrían beneficiarse de implementaciones en la nube más rápidas y económicas, lo que permitiría un desarrollo más ágil y costos de TI reducidos. A las nuevas empresas locales podría resultarles más fácil escalar sus aplicaciones.",
     "impact_score": 9
   },
   {
     "title": "Salesforce lanza un nuevo agente de IA Slackbot mientras lucha contra Microsoft y Google en la IA en el lugar de trabajo",
     "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
     "industry": "Enterprise Software",
-    "summary": "Salesforce lanzó un agente de inteligencia artificial Slackbot reconstruido impulsado por Claude de Anthropic (inicialmente) para competir con Microsoft Copilot y Google Gemini.  El asistente de IA puede buscar datos empresariales, redactar documentos y automatizar tareas, con el objetivo de hacer de Slack un centro central para la actividad de IA.",
-    "charlotte_impact": "Las empresas con sede en Charlotte que utilizan Salesforce y Slack se beneficiarán de una mayor productividad y flujos de trabajo optimizados a través de asistencia impulsada por IA dentro de su plataforma de comunicación existente.",
-    "impact_score": 9
+    "summary": "Salesforce lanza un agente Slackbot AI reconstruido impulsado por Claude de Anthropic, con el objetivo de centralizar el acceso a los datos empresariales y la automatización de tareas. La empresa promociona pruebas internas que muestran importantes ahorros de tiempo de los empleados y altos índices de satisfacción.",
+    "charlotte_impact": "Las empresas de Charlotte que utilizan Salesforce y Slack podrían ver una mayor productividad de los empleados y una mejor toma de decisiones basada en datos. La integración con los flujos de trabajo existentes de las empresas locales será crucial.",
+    "impact_score": 8
   },
   {
     "title": "Listen Labs recauda 69 millones de dólares después de un truco de contratación de vallas publicitarias virales para escalar las entrevistas con clientes de IA",
     "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
     "industry": "Market Research",
-    "summary": "Listen Labs recaudó 69 millones de dólares para escalar su plataforma de entrevistas a clientes basada en inteligencia artificial, revolucionando la industria tradicional de investigación de mercado. Su investigador de IA encuentra participantes, realiza entrevistas y brinda información más rápidamente, ofreciendo un enfoque más escalable y honesto en comparación con las encuestas y las entrevistas humanas.",
-    "charlotte_impact": "Las agencias de marketing y las empresas de Charlotte que necesitan información sobre los consumidores y pruebas de productos ahora pueden tener una alternativa más rápida y confiable a los grupos focales, lo que permite un mejor desarrollo de productos y decisiones de marketing.",
-    "impact_score": 8
-  },
-  {
-    "title": "La empresa de un dúo de fundadores casados, 14.ai, está reemplazando los equipos de atención al cliente en las nuevas empresas",
-    "url": "https://techcrunch.com/2026/03/02/a-married-founder-duos-company-14-ai-is-replacing-customer-support-teams-at-startups/",
-    "industry": "Customer Support",
-    "summary": "14.ai, una empresa fundada por un matrimonio, está reemplazando los equipos de atención al cliente en las nuevas empresas con soluciones basadas en inteligencia artificial. También lanzaron una marca de consumo para aprender cómo la IA puede manejar la atención al cliente.",
-    "charlotte_impact": "Las empresas emergentes en Charlotte pueden descubrir que al utilizar 14.ai pueden reducir los costos de servicio al cliente, liberando así finanzas para invertir en otros lugares.",
+    "summary": "Listen Labs recauda 69 millones de dólares para ampliar las entrevistas a clientes basadas en inteligencia artificial, ofreciendo información más rápida y honesta que la investigación de mercado tradicional. Su plataforma utiliza IA para reclutar participantes, realizar entrevistas y generar informes.",
+    "charlotte_impact": "Las agencias de marketing y las empresas de desarrollo de productos de Charlotte pueden utilizar Listen Labs para obtener comentarios de los clientes de forma más rápida y eficiente. Los conocimientos impulsados ​​por la IA pueden contribuir a mejorar el diseño de productos y las estrategias de marketing.",
     "impact_score": 7
-  },
-  {
-    "title": "Los inversores revelan lo que ya no buscan en las empresas AI SaaS",
-    "url": "https://techcrunch.com/2026/03/01/investors-spill-what-they-arent-looking-for-anymore-in-ai-saas-companies/",
-    "industry": "Venture Capital",
-    "summary": "Los inversores se están volviendo más selectivos con las empresas de AI SaaS, lo que indica un cambio en las tendencias de inversión. Los inversores revelan lo que ya no buscan en las nuevas empresas de AI SaaS.",
-    "charlotte_impact": "Las nuevas empresas de IA de Charlotte que buscan financiación deben adaptar sus estrategias para alinearse con las preferencias actuales de los inversores, centrándose en valor probado y modelos de negocio sostenibles.",
-    "impact_score": 7
-  },
-  {
-    "title": "Mercados de inteligencia artificial de las cosas (AIoT) de 81,04 mil millones de dólares: pronóstico global hasta 2030 con IBM, Cisco, AWS, Google, Microsoft, Oracle, HPE, Intel, Hitachi y SAP a la cabeza",
-    "url": "https://www.globenewswire.com/news-release/2026/03/02/3247162/28124/en/81-04-Bn-Artificial-Intelligence-of-Things-AIoT-Markets-Global-Forecast-to-2030-with-IBM-Cisco-AWS-Google-Microsoft-Oracle-HPE-Intel-Hitachi-and-SAP-Leading.html",
-    "industry": "AIoT",
-    "summary": "Se prevé que el mercado mundial de la Inteligencia Artificial de las Cosas (AIoT) crezca hasta alcanzar los 81.040 millones de dólares para 2030. El mayor uso de la IoT junto con la IA mejora el análisis en tiempo real, con la ayuda de los avances en 5G y la informática de punta.",
-    "charlotte_impact": "Las empresas de Charlotte que inviertan en tecnologías o fabricación inteligentes querrán estar al tanto de estas tendencias en el mercado AIoT. Un mayor uso de AIoT puede proporcionar información que antes era inaccesible.",
-    "impact_score": 7
-  },
-  {
-    "title": "Los gemelos virtuales y los compañeros de IA apuntan a las salas de guerra empresariales",
-    "url": "https://www.computerweekly.com/news/366639596/Virtual-twins-and-AI-companions-target-enterprise-war-rooms",
-    "industry": "Enterprise Software",
-    "summary": "Dassault Systèmes promueve gemelos virtuales y compañeros de IA dirigidos a salas de guerra empresariales.  La plataforma pretende responder rápidamente a preguntas empresariales complejas, pero requiere repensar la arquitectura de datos empresariales.",
-    "charlotte_impact": "Las empresas de Charlotte podrían utilizar la IA de esta manera. Sin embargo, si quisieran aprovechar al máximo los gemelos virtuales y los compañeros de IA, sería necesario realizar cambios significativos en su arquitectura de datos.",
-    "impact_score": 6
-  },
-  {
-    "title": "La Reserva Federal se apresura a adaptarse a las promesas y obstáculos de la IA para el empleo y la inflación",
-    "url": "https://www.channelnewsasia.com/business/fed-races-adapt-ai-promises-and-pitfalls-jobs-inflation-5963931",
-    "industry": "Economics",
-    "summary": "La Reserva Federal está intentando activamente adaptarse a la IA en lo que respecta a la economía. Hay promesas y obstáculos para el empleo y la inflación con los que la Reserva Federal está lidiando ahora.",
-    "charlotte_impact": "Las implicaciones de la IA en la economía pueden requerir que la Reserva Federal actúe o reaccione de una manera que podría tener efectos tanto positivos como negativos para las empresas de Charlotte.",
-    "impact_score": 6
-  },
-  {
-    "title": "RadNet adquiere Gleamer, lo que convierte a DeepHealth de RadNet en el mayor proveedor de soluciones de IA clínica de radiología en todo el mundo",
-    "url": "https://www.globenewswire.com/news-release/2026/03/02/3247141/10985/en/RadNet-Acquires-Gleamer-Making-RadNet-s-DeepHealth-the-Largest-Provider-of-Radiology-Clinical-AI-Solutions-Worldwide.html",
-    "industry": "Healthcare",
-    "summary": "RadNet adquirió Gleamer, consolidando a DeepHealth como el mayor proveedor de soluciones de inteligencia artificial en radiología en todo el mundo. El uso de IA tiene como objetivo mejorar la calidad de la imagen, reducir la necesidad de radiólogos y realizar diagnósticos más rápidos.",
-    "charlotte_impact": "Los hospitales de la región de Charlotte pueden reducir costos en términos de salarios de radiólogos, reducir la necesidad de nuevas contrataciones y diagnosticar enfermedades más rápido mediante el uso de radiología de IA.",
-    "impact_score": 6
   },
   {
     "title": "Nadie tiene un buen plan sobre cómo las empresas de IA deberían trabajar con el gobierno.",
     "url": "https://techcrunch.com/2026/03/02/openai-anthropic-department-of-defense-war-hegseth-ai-companies-work-with-us-government/",
-    "industry": "National Security",
-    "summary": "OpenAI está pasando de ser una startup de consumo a una parte de la infraestructura de seguridad nacional. La empresa parece no estar preparada para gestionar estas nuevas responsabilidades.",
-    "charlotte_impact": "Aunque Charlotte no alberga una infraestructura de seguridad nacional, las empresas de ciberseguridad de la región deberán asegurarse de que sus productos sean más seguros que nunca.",
+    "industry": "Government/AI Ethics",
+    "summary": "Este artículo plantea preocupaciones sobre la preparación de OpenAI para manejar sus nuevas responsabilidades a medida que pasa de una startup de consumo a una pieza de infraestructura de seguridad nacional, específicamente en lo que respecta al trabajo con el gobierno.",
+    "charlotte_impact": "Si bien este artículo no tiene un impacto inmediato en las empresas de Charlotte, aborda un factor importante que puede generar riesgos para cualquier empresa que trabaje con IA, ya que las regulaciones gubernamentales pueden aumentar debido a los riesgos.",
     "impact_score": 5
   },
   {
-    "title": "OpenAI revela más detalles sobre su acuerdo con el Pentágono",
-    "url": "https://techcrunch.com/2026/03/01/openai-shares-more-details-about-its-agreement-with-the-pentagon/",
-    "industry": "Government",
-    "summary": "OpenAI reveló más detalles sobre su acuerdo con el Departamento de Defensa. El director ejecutivo, Sam Altman, admitió que el acuerdo fue \"definitivamente apresurado\" y que \"la óptica no parece buena\".",
-    "charlotte_impact": "La óptica relacionada con un acuerdo apresurado entre OpenAI y el Departamento de Defensa no involucra directamente a las empresas de Charlotte.",
+    "title": "Por qué las nuevas empresas de IA venden el mismo capital a dos precios diferentes",
+    "url": "https://techcrunch.com/2026/03/03/why-ai-startups-are-selling-the-same-equity-at-two-different-prices/",
+    "industry": "Venture Capital",
+    "summary": "Algunas nuevas empresas de IA están utilizando un mecanismo de valoración novedoso para fabricar el estatus de unicornio, lo que podría crear valoraciones infladas y distorsionar el mercado.",
+    "charlotte_impact": "Los inversores de Charlotte deben ser cautelosos con las valoraciones de las nuevas empresas de IA y realizar la debida diligencia. El ecosistema de startups local debe priorizar el crecimiento sostenible sobre los hitos artificiales.",
+    "impact_score": 6
+  },
+  {
+    "title": "La empresa de un dúo de fundadores casados, 14.ai, está reemplazando los equipos de atención al cliente en las nuevas empresas",
+    "url": "https://techcrunch.com/2026/03/02/a-married-founder-duos-company-14-ai-is-replacing-customer-support-teams-at-startups/",
+    "industry": "Customer Service",
+    "summary": "14.ai, una empresa fundada por un matrimonio, ofrece una solución basada en inteligencia artificial que reemplaza a los equipos de atención al cliente en las empresas emergentes, lo que afecta los roles laborales dentro de la industria.",
+    "charlotte_impact": "Las nuevas empresas de Charlotte pueden considerar implementar 14.ai para obtener un servicio de atención al cliente más económico; sin embargo, también pondría a los representantes de servicio al cliente en riesgo de quedarse sin empleo.",
+    "impact_score": 6
+  },
+  {
+    "title": "El líder tecnológico Qwen de Alibaba dimite tras un importante impulso de la IA",
+    "url": "https://techcrunch.com/2026/03/03/alibabas-qwen-tech-lead-steps-down-after-major-ai-push/",
+    "industry": "AI Leadership",
+    "summary": "El líder tecnológico de Qwen de Alibaba, Junyang Lin, dimite después de un importante impulso a la IA, lo que podría afectar la estrategia de desarrollo de IA de la compañía.",
+    "charlotte_impact": "Si bien esto sucede en el extranjero, representa la volatilidad del mercado de la IA y la importancia de un buen liderazgo para el éxito de cualquier esfuerzo de IA.",
+    "impact_score": 3
+  },
+  {
+    "title": "Las empresas de inteligencia artificial están gastando millones para frustrar la candidatura al Congreso de este ex ejecutivo de tecnología",
+    "url": "https://techcrunch.com/2026/03/03/ai-companies-are-spending-millions-to-thwart-this-former-tech-execs-congressional-bid/",
+    "industry": "Politics/AI Regulation",
+    "summary": "Las empresas de IA están gastando millones para frustrar la candidatura al Congreso de un ex ejecutivo de tecnología, lo que indica lo mucho que está en juego en la configuración de la regulación de la IA.",
+    "charlotte_impact": "Esto pone de relieve la creciente influencia política de la industria de la IA y el potencial del lobby para dar forma a regulaciones favorables, impactando a las empresas locales sujetas a esas reglas.",
+    "impact_score": 5
+  },
+  {
+    "title": "Infosys e Intel amplían su alianza estratégica para acelerar la adopción de la IA empresarial a nivel mundial",
+    "url": "https://economictimes.indiatimes.com/tech/information-tech/infosys-intel-expand-strategic-tie-up-to-accelerate-enterprise-ai-adoption-globally/articleshow/128967458.cms",
+    "industry": "IT Services",
+    "summary": "Infosys e Intel amplían su alianza estratégica para acelerar la adopción de la IA empresarial a nivel mundial, integrando Topaz Fabric de Infosys con las plataformas informáticas de alto rendimiento de Intel.",
+    "charlotte_impact": "Las empresas de Charlotte pueden aprovechar esta colaboración para acceder a soluciones y experiencia avanzadas en IA, mejorando su competitividad y eficiencia a través de los servicios de Infosys y la tecnología de Intel.",
+    "impact_score": 7
+  },
+  {
+    "title": "El nuevo alcalde de Pittsburgh ha llamado en frío a decenas de directores ejecutivos de tecnología para que trasladen sus nuevas empresas a su ciudad.",
+    "url": "https://www.businessinsider.com/mayor-pittsburgh-called-tech-ceos-to-get-them-to-move-2026-2",
+    "industry": "Economic Development",
+    "summary": "El alcalde de Pittsburgh está llamando personalmente a los directores ejecutivos de tecnología para que reubiquen sus nuevas empresas en su ciudad, mostrando un enfoque proactivo para atraer talento e inversión.",
+    "charlotte_impact": "Esto crea una presión competitiva sobre Charlotte para que también encuentre formas creativas de atraer nuevas empresas tecnológicas y directores ejecutivos a la ciudad.",
     "impact_score": 4
+  },
+  {
+    "title": "Informe comercial de la industria del agua y las aguas residuales 2026 sobre automatización y control: el mercado se expandirá en $ 1,5 mil millones entre 2024 y 2030: las asociaciones público-privadas facilitan la modernización de la infraestructura",
+    "url": "https://www.globenewswire.com/news-release/2026/03/03/3248127/28124/en/Automation-and-Control-in-Water-and-Wastewater-Industry-Business-Report-2026-Market-to-Expand-by-1-5-Billion-Between-2024-2030-Public-Private-Partnerships-Facilitate-Infrastructure.html",
+    "industry": "Water/Wastewater",
+    "summary": "Se espera que el mercado de automatización y control en la industria del agua y las aguas residuales crezca significativamente, impulsado por las tecnologías AI, IoT y SCADA.",
+    "charlotte_impact": "Las instalaciones de agua y aguas residuales de Charlotte pueden mejorar la eficiencia y la gestión de recursos mediante la adopción de sistemas de control y automatización impulsados ​​por IA. Las empresas locales de ingeniería ambiental pueden aprovechar esta tendencia.",
+    "impact_score": 6
+  },
+  {
+    "title": "La IA va a revolucionar la publicidad de la peor manera imaginable",
+    "url": "https://newrepublic.com/article/207106/chatgpt-ads-open-ai-revolutionize-advertising-worst-imaginable-way",
+    "industry": "Advertising",
+    "summary": "Han comenzado a aparecer anuncios en ChatGPT, lo que genera preocupación sobre la posibilidad de que la IA tenga un impacto negativo en la experiencia del usuario y revolucione la publicidad de maneras no deseadas.",
+    "charlotte_impact": "Los anunciantes de Charlotte deben considerar las implicaciones éticas de la publicidad basada en IA y priorizar la experiencia del usuario. Las empresas locales deben tener cuidado con las estrategias publicitarias demasiado intrusivas o manipuladoras.",
+    "impact_score": 4
+  },
+  {
+    "title": "Las ambiciones económicas de China tocan los límites del crecimiento cuando se reúne su congreso nacional",
+    "url": "https://abcnews.com/Business/wireStory/chinas-economic-ambitions-hit-limits-growth-national-congress-130699546",
+    "industry": "Global Economics",
+    "summary": "Las ambiciones económicas de China enfrentan límites al crecimiento, lo que afecta su progreso en la modernización de su economía, incluido el desarrollo y la adopción de la IA.",
+    "charlotte_impact": "Si bien este artículo no tiene un impacto inmediato en las empresas de Charlotte, la economía de China está ligada a la economía de todos y representa el panorama económico que cualquier empresa debe conocer.",
+    "impact_score": 2
+  },
+  {
+    "title": "Informe empresarial sobre automatización en la industria automotriz 2026: un mercado de 15 mil millones de dólares para 2030, impulsado por las colaboraciones entre los fabricantes de automóviles y los esfuerzos de I+D de las empresas tecnológicas",
+    "url": "https://www.globenewswire.com/news-release/2026/03/03/3248095/28124/en/Automation-in-Automotive-Industry-Business-Report-2026-A-15-Billion-Market-by-2030-Driven-by-Collaborations-Between-Automakers-and-Tech-Companies-R-D-Efforts.html",
+    "industry": "Automotive",
+    "summary": "Se prevé que el mercado de la automatización en la industria automotriz alcance los 15 mil millones de dólares para 2030, impulsado por colaboraciones entre fabricantes de automóviles y empresas de tecnología.",
+    "charlotte_impact": "Aunque Charlotte no tiene fabricantes de automóviles con sede en la ciudad, sí tiene tiendas minoristas de automóviles y talleres de reparación de automóviles que pueden considerar adoptar la IA en el futuro.",
+    "impact_score": 2
   },
   {
     "title": "Los trabajadores tecnológicos instan al Departamento de Defensa y al Congreso a retirar la etiqueta antrópica como un riesgo para la cadena de suministro",
     "url": "https://techcrunch.com/2026/03/02/tech-workers-urge-dod-congress-to-withdraw-anthropic-label-as-a-supply-chain-risk/",
-    "industry": "Government",
-    "summary": "Los trabajadores tecnológicos están implorando al Departamento de Defensa y al Congreso que retiren la etiqueta Anthropic como un riesgo para la cadena de suministro. Estos trabajadores tecnológicos creen que el asunto debería resolverse silenciosamente.",
-    "charlotte_impact": "Al igual que con el acuerdo de OpenAI, es poco probable que la situación de Anthropic afecte a las empresas de Charlotte de manera directa.",
+    "industry": "Defense/AI Ethics",
+    "summary": "Los trabajadores tecnológicos instan al Departamento de Defensa y al Congreso a retirar la etiqueta Antrópica como un riesgo para la cadena de suministro, lo que indica un debate interno sobre el papel de la IA en la seguridad nacional.",
+    "charlotte_impact": "Los trabajadores tecnológicos están intentando mantener limpio el nombre de Anthropic, y ese es un paso en la dirección correcta para mantener estable la industria de la IA.",
+    "impact_score": 2
+  },
+  {
+    "title": "\"Los diseñadores de software deben abandonar su papel de custodios de bibliotecas, lógica y grids\"",
+    "url": "https://www.dezeen.com/2026/03/03/software-design-ai-nick-foster-opinion/",
+    "industry": "Software Design",
+    "summary": "Los diseñadores deberían aprovechar las deficiencias de la IA como una oportunidad para alejarse del enfoque puramente racional que domina el software y adoptar la IA como un socio creativo.",
+    "charlotte_impact": "La comunidad de desarrollo de software de Charlotte puede aprovechar la IA para mejorar la creatividad y la experiencia del usuario, en lugar de simplemente automatizar los procesos existentes. Las empresas de diseño locales pueden adoptar la IA como herramienta de innovación.",
     "impact_score": 4
   },
   {
-    "title": "¿Pueden los militares evitar que la IA se convierta en un exterminador total?",
-    "url": "http://nymag.com/intelligencer/article/military-ai-iran-openai-claude.html",
-    "industry": "Military",
-    "summary": "¿Pueden los militares evitar que OpenAI, Claude y otros se conviertan en Terminator completo? La experta en guerra con IA, Emelia Probasco, adopta una visión menos apocalíptica.",
-    "charlotte_impact": "Este artículo se relaciona con la IA en el ejército, que no es un sector que afecte fuertemente a las empresas de Charlotte.",
-    "impact_score": 4
-  },
-  {
-    "title": "Fuga de OpenAI ChatGPT 5.4 detectada durante la demostración del Codex",
-    "url": "https://www.geeky-gadgets.com/openai-gpt-54-leak/",
-    "industry": "AI Models",
-    "summary": "Una filtración del modelo ChatGPT 5.4 de OpenAI ha generado entusiasmo y preocupación. Según Universe of AI, los avances del modelo muestran capacidades de razonamiento.",
-    "charlotte_impact": "Esta filtración solo afecta a las empresas en Charlotte al darles quizás acceso más temprano a funciones que de otro modo no se lanzarían todavía.",
-    "impact_score": 4
-  },
-  {
-    "title": "Orientación: Panel Asesor de Análisis Preventivo para la Justicia Juvenil: Términos de Referencia",
-    "url": "https://www.gov.uk/government/publications/preventative-analytics-for-youth-justice-advisory-panel-terms-of-reference",
-    "industry": "Government",
-    "summary": "Un panel asesor del Reino Unido utilizará la inteligencia artificial y el aprendizaje automático para realizar análisis en la justicia juvenil. El panel presentará y revisará propuestas para utilizar el aprendizaje automático, la inteligencia artificial y el análisis avanzado.",
-    "charlotte_impact": "Esta situación no afecta a las empresas de Charlotte.",
-    "impact_score": 1
-  },
-  {
-    "title": "Cómo crear resúmenes de contenido impulsados ​​por IA para WordPress: mi estrategia probada",
-    "url": "https://www.wpbeginner.com/wp-tutorials/ai-powered-content-briefs-in-wordpress/",
-    "industry": "Content Creation",
-    "summary": "El autor está creando contenido impulsado por inteligencia artificial para blogueros de WordPress que dedican demasiado tiempo a analizar a la competencia. Trasladaron los flujos de trabajo a contenido impulsado por IA.",
-    "charlotte_impact": "Esto tiene el potencial de ayudar a los creadores de contenido en Charlotte a producir más contenido al reducir la cantidad de tiempo de investigación.",
+    "title": "Estados Unidos debe impulsar la IA con velocidad y disciplina, o China dominará",
+    "url": "https://www.foxnews.com/opinion/america-must-power-ai-speed-discipline-china-dominate",
+    "industry": "Geopolitics/AI Competition",
+    "summary": "Estados Unidos debe impulsar la IA con velocidad y disciplina, o China dominará, lo que destaca la importancia estratégica de la infraestructura y el liderazgo de la IA.",
+    "charlotte_impact": "Esto sirve como recordatorio para las empresas de IA de Charlotte de que es importante mejorar la velocidad, pero también ser disciplinados, o Estados Unidos en su conjunto podría perder el liderazgo en IA.",
     "impact_score": 3
-  },
-  {
-    "title": "Antrópico y alineación",
-    "url": "https://stratechery.com/2026/anthropic-and-alignment/",
-    "industry": "Government",
-    "summary": "Anthropic está en un enfrentamiento con el Departamento de Guerra. Si bien las preocupaciones de la empresa son legítimas, su posición es intolerable y desalineada con la realidad.",
-    "charlotte_impact": "Este artículo no tiene ninguna relación con las empresas de Charlotte.",
-    "impact_score": 1
-  },
-  {
-    "title": "¿Quién decide dónde caen las bombas en Irán? Quizás ni siquiera los humanos.",
-    "url": "https://newrepublic.com/article/207189/iran-war-ai-deciding-bombs-drop",
-    "industry": "Military",
-    "summary": "Se lanzaron bombas en Irán en una guerra entre Estados Unidos e Israel y tal vez ni siquiera los humanos estaban decidiendo dónde caerían esas bombas. Se produjo una explosión en una escuela de niñas en el sur de Irán que mató al menos a 153 personas.",
-    "charlotte_impact": "Este artículo no contiene implicaciones para las empresas de Charlotte.",
-    "impact_score": 1
-  },
-  {
-    "title": "Satyajit Das: IA: ¿Inteligencia artificial o locura absoluta?",
-    "url": "https://biztoc.com/x/c26a2ed6238207f3?ref=ff",
-    "industry": "Economics",
-    "summary": "El autor Satjayit Das escribe sobre la naturaleza artificial de la IA. Él cree que la IA está siguiendo el conocido y cansado auge.",
-    "charlotte_impact": "Hay muy pocas implicaciones para las empresas de Charlotte.",
-    "impact_score": 1
   },
   {
     "title": "¿ETF de inteligencia artificial o ETF impulsados ​​por IA?",
     "url": "https://etfdb.com/disruptive-technology-channel/artificial-intelligence-etfs-or-etfs-powered-by-ai/",
-    "industry": "Finance",
-    "summary": "Los escritores de VettaFi analizan los ETF de inteligencia artificial y los ETF impulsados ​​por IA. También analizan las diferencias entre ambas categorías.",
-    "charlotte_impact": "Las empresas de Charlotte que tienen inversiones en ETF de cualquier tipo pueden obtener más información sobre su producto. Aparte de eso, hay pocas conclusiones relacionadas con los negocios.",
+    "industry": "Financial Services",
+    "summary": "Este artículo analiza los ETF de inteligencia artificial, o ETF impulsados ​​por IA, y las diferencias entre las dos categorías.",
+    "charlotte_impact": "Este artículo sirve como guía sobre cómo diversificar su cartera utilizando IA. Información importante para inversores de Charlotte.",
     "impact_score": 2
   },
   {
-    "title": "Los inquilinos de apartamentos de 'lujo' en la zona alta exigen acción después de que las fallas de seguridad permitieran el ingreso de intrusos",
-    "url": "https://www.wcnc.com/article/news/local/gateway-west-apartment-issues-unhoused-3-2-2-2026/275-39ab6777-d6a1-4fc4-b4dd-801a95024441",
-    "industry": "Real Estate",
-    "summary": "Los inquilinos de un complejo de apartamentos de lujo exigen que se tomen medidas después de que una serie de fallas de seguridad permitieran el ingreso de intrusos. Algunos están haciendo de los armarios de almacenamiento y los pasillos sus hogares temporales.",
-    "charlotte_impact": "Este es un evento específico de Charlotte, pero no está relacionado con la IA.",
+    "title": "El jefe de Ingram Micro habla de Xvantage, aumentos de precios y crecimiento",
+    "url": "https://www.computerweekly.com/microscope/news/366639607/Ingram-Micro-boss-talks-Xvantage-price-rises-and-growth",
+    "industry": "IT Distribution",
+    "summary": "El jefe de Ingram Micro habla sobre Xvantage, aumentos de precios y crecimiento, y comparte el progreso realizado con su plataforma asociada.",
+    "charlotte_impact": "Ingram Micro es una plataforma que pueden utilizar otras empresas. Una empresa de Charlotte puede crear una plataforma de TI distribuida por Ingram Micro, lo que le ayudará a ganar dinero.",
     "impact_score": 1
   },
   {
-    "title": "El Caucus Político Negro presentará una orden de restricción contra el NCDOT para detener la expansión de la I-77",
-    "url": "https://www.wcnc.com/article/news/local/black-political-caucus-to-file-restraining-order-against-ncdot-to-stop-i-77-expansion/275-e1f88f02-2a4b-4009-91be-ac7df3a82483",
-    "industry": "Infrastructure",
-    "summary": "El Black Political Caucus presentará una orden de restricción contra el NCDOT para detener la expansión de la I-77. El proyecto de expansión ha establecido paralelismos con expansiones pasadas que derribaron barrios negros.",
-    "charlotte_impact": "Este evento local de Charlotte no está relacionado con la IA.",
+    "title": "Los científicos crean un cerebro de IA de bolsillo con la ayuda de neuronas de mono",
+    "url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons",
+    "industry": "AI Research",
+    "summary": "Los científicos crean un cerebro de IA de bolsillo con la ayuda de neuronas de mono.",
+    "charlotte_impact": "Las empresas de Charlotte interesadas en la tecnología siempre quieren ver las últimas tecnologías y tendencias para estar actualizadas. Esto muestra lo rápido que avanza la tecnología de IA.",
     "impact_score": 1
   },
   {
-    "title": "La catedral del plástico: cómo fabricamos un año de exceso",
-    "url": "https://www.resilience.org/stories/2026-03-02/the-cathedral-of-plastic-how-we-manufactured-a-year-of-excess/",
-    "industry": "Consumerism",
-    "summary": "El mundo está fabricando un año de exceso con plásticos. Necesitamos recuperar nuestra autonomía, y eso comienza con salir de la juguetería con las manos vacías y darnos cuenta de que lo más resistente que podemos darle a la próxima generación no es un trozo de plástico.",
-    "charlotte_impact": "Hay muy pocas implicaciones para las empresas o para Charlotte.",
-    "impact_score": 1
+    "title": "Una de las faltas más brutales: gran polémica por este incidente de Rüdiger",
+    "url": "https://onefootball.com/en/news/one-of-the-most-brutal-fouls-big-controversy-over-this-ruediger-incident-42496632",
+    "industry": "Sports",
+    "summary": "Un futbolista cometió una brutal falta durante un partido, generando polémica por el hecho.",
+    "charlotte_impact": "Este es solo un artículo sobre un juego de fútbol sin conexión alguna con la IA.",
+    "impact_score": 0
   },
   {
-    "title": "RadNet informa los resultados del cuarto trimestre de 2025, incluidos ingresos récord y EBITDA ajustado⁽¹⁾, y publica orientación financiera para 2026",
-    "url": "https://www.globenewswire.com/news-release/2026/03/02/3247156/10985/en/RadNet-Reports-Fourth-Quarter-2025-Results-Including-Record-Revenue-and-Adjusted-EBITDA-and-Releases-2026-Financial-Guidance.html",
-    "industry": "Healthcare",
-    "summary": "RadNet informa los resultados del cuarto trimestre de 2025, incluidos ingresos récord y EBITDA ajustado⁽¹⁾, y publica orientación financiera para 2026.",
-    "charlotte_impact": "Este artículo no tiene implicaciones para las empresas en Charlotte.",
-    "impact_score": 1
+    "title": "¿Podría el futuro de la IA reconectarnos con lo que más importa?",
+    "url": "https://theinnovativeeducator.blogspot.com/2026/03/could-future-of-ai-reconnect-us-to-what.html",
+    "industry": "AI and Society",
+    "summary": "Este blog analiza cómo el futuro de la IA nos vuelve a conectar con lo que más importa.",
+    "charlotte_impact": "Esta es sólo una publicación de blog. No es relevante para la IA en la empresa, la financiación o el impacto económico.",
+    "impact_score": 0
   },
   {
-    "title": "Las condiciones modernas",
-    "url": "https://www.newyorker.com/magazine/2026/03/09/the-modern-conditions",
-    "industry": "Society",
-    "summary": "Gritos y murmullos de Alexis Wilkinson: “Keeping Cough”, “Theraphonia” y, oh, sí, “polio”: dolencias comunes en la era de R.F.K., Jr..",
-    "charlotte_impact": "Esta historia del New Yorker no tiene ningún impacto en las empresas de Charlotte.",
-    "impact_score": 1
+    "title": "Reemplacé el detergente para ropa con bicarbonato de sodio durante una semana y no esperaba esto",
+    "url": "https://www.homedit.com/i-replaced-laundry-detergent-with-baking-soda-for-a-week-and-i-wasnt-expecting-this/",
+    "industry": "Lifestyle",
+    "summary": "El autor de este artículo sustituye el detergente para ropa por bicarbonato de sodio durante una semana.",
+    "charlotte_impact": "Este es sólo un artículo sobre detergente para ropa.",
+    "impact_score": 0
+  },
+  {
+    "title": "¿Podrá Michael Pollan resolver el problema de la conciencia en su nuevo libro?",
+    "url": "https://www.newscientist.com/article/2517590-can-michael-pollan-crack-the-problem-of-consciousness-in-his-new-book/",
+    "industry": "Science/Psychology",
+    "summary": "¿Podrá Michael Pollan resolver el problema de la conciencia en su nuevo libro?",
+    "charlotte_impact": "Este es solo un artículo sobre libros sin conexión alguna con la IA.",
+    "impact_score": 0
+  },
+  {
+    "title": "Los bonos del Tesoro de EE.UU. prolongan su caída mientras la guerra de Irán alimenta la caída global de los bonos",
+    "url": "https://financialpost.com/pmn/business-pmn/us-treasuries-extend-fall-as-iran-war-fuels-global-bond-rout",
+    "industry": "Finance",
+    "summary": "Los bonos del Tesoro de Estados Unidos prolongan su caída mientras la guerra de Irán alimenta la caída global de los bonos.",
+    "charlotte_impact": "Este es solo un artículo sobre vínculos sin conexión alguna con la IA.",
+    "impact_score": 0
   }
 ]

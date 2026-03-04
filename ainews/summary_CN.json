@@ -3,200 +3,200 @@
     "title": "Railway 融资 1 亿美元，利用 AI 原生云基础设施挑战 AWS",
     "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
     "industry": "Cloud Infrastructure",
-    "summary": "人工智能原生云平台Railway获得1亿美元B轮融资，挑战AWS和谷歌云。  他们通过构建自己的数据中心并针对人工智能生成的代码进行优化，提供更快的部署时间并节省成本，从而对开发人员产生影响。",
-    "charlotte_impact": "可以为夏洛特的公司，特别是初创公司和金融科技公司，提供更具成本效益和更高效的云解决方案，从而提高竞争力。",
+    "summary": "Railway 筹集了 1 亿美元资金，利用开发人员对复杂性和成本的不满，利用 AI 原生云挑战 AWS。他们的平台利用定制的数据中心，提供更快的部署并显着节省成本。",
+    "charlotte_impact": "夏洛特的企业可以受益于更快、更便宜的云部署，从而实现更敏捷的开发并降低 IT 成本。本地初创公司可能会发现扩展其应用程序更容易。",
     "impact_score": 9
   },
   {
     "title": "Salesforce 推出新的 Slackbot AI 代理，在工作场所 AI 领域与微软和谷歌展开竞争",
     "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
     "industry": "Enterprise Software",
-    "summary": "Salesforce 推出了由 Anthropic 的 Claude（最初）支持的重建的 Slackbot AI 代理，以与 Microsoft Copilot 和 Google Gemini 竞争。  AI助手可以搜索企业数据、起草文档和自动执行任务，旨在使Slack成为AI活动的中心枢纽。",
-    "charlotte_impact": "使用 Salesforce 和 Slack 的夏洛特企业将通过其现有通信平台内的人工智能辅助，提高生产力并简化工作流程，从而受益。",
-    "impact_score": 9
+    "summary": "Salesforce 推出了由 Anthropic 的 Claude 提供支持的重建的 Slackbot AI 代理，旨在集中企业数据访问和任务自动化。该公司宣传的内部测试显示，员工的时间得到了显着节省，满意度也很高。",
+    "charlotte_impact": "使用 Salesforce 和 Slack 的夏洛特公司可以看到员工生产力的提高和更好的数据驱动决策。与当地企业现有工作流程的集成至关重要。",
+    "impact_score": 8
   },
   {
     "title": "Listen Labs 在病毒式广告牌招聘噱头扩大 AI 客户访谈后筹集了 6900 万美元",
     "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
     "industry": "Market Research",
-    "summary": "Listen Labs 筹集了 6900 万美元，用于扩展其人工智能驱动的客户访谈平台，颠覆了传统的市场研究行业。他们的人工智能研究人员更快地找到参与者、进行访谈并提供见解，与调查和人工访谈相比，提供了更具可扩展性和诚实的方法。",
-    "charlotte_impact": "需要消费者洞察和产品测试的夏洛特营销机构和企业现在可能拥有比焦点小组更快、更可靠的替代方案，从而实现更好的产品开发和营销决策。",
-    "impact_score": 8
-  },
-  {
-    "title": "一对已婚创始人的公司 14.ai 正在更换初创公司的客户支持团队",
-    "url": "https://techcrunch.com/2026/03/02/a-married-founder-duos-company-14-ai-is-replacing-customer-support-teams-at-startups/",
-    "industry": "Customer Support",
-    "summary": "14.ai 是一家由一对已婚夫妇创立的公司，正在用人工智能驱动的解决方案取代初创公司的客户支持团队。他们还推出了一个消费品牌，以了解人工智能如何处理客户支持。",
-    "charlotte_impact": "夏洛特的初创公司可能会发现，通过利用 14.ai，他们可以降低客户服务成本，从而腾出资金用于其他地方的投资。",
+    "summary": "Listen Labs 筹集了 6900 万美元，用于扩大人工智能驱动的客户访谈，提供比传统市场研究更快、更诚实的见解。他们的平台使用人工智能来招募参与者、进行采访并生成报告。",
+    "charlotte_impact": "夏洛特营销机构和产品开发公司可以使用 Listen Labs 获得更快、更有效的客户反馈。人工智能驱动的洞察可以为更好的产品设计和营销策略提供信息。",
     "impact_score": 7
-  },
-  {
-    "title": "投资者在 AI SaaS 公司中泄露了他们不再寻找的东西",
-    "url": "https://techcrunch.com/2026/03/01/investors-spill-what-they-arent-looking-for-anymore-in-ai-saas-companies/",
-    "industry": "Venture Capital",
-    "summary": "投资者对AI SaaS公司的挑剔程度越来越高，这表明投资趋势发生了转变。投资者透露他们不再在 AI SaaS 初创公司中寻找什么。",
-    "charlotte_impact": "寻求资金的夏洛特人工智能初创公司需要调整其策略，以适应当前投资者的偏好，重点关注经过验证的价值和可持续的商业模式。",
-    "impact_score": 7
-  },
-  {
-    "title": "价值 810.4 亿美元的物联网人工智能 (AIoT) 市场 - 到 2030 年的全球预测，IBM、思科、AWS、谷歌、微软、甲骨文、HPE、英特尔、日立和 SAP 领先",
-    "url": "https://www.globenewswire.com/news-release/2026/03/02/3247162/28124/en/81-04-Bn-Artificial-Intelligence-of-Things-AIoT-Markets-Global-Forecast-to-2030-with-IBM-Cisco-AWS-Google-Microsoft-Oracle-HPE-Intel-Hitachi-and-SAP-Leading.html",
-    "industry": "AIoT",
-    "summary": "预计到 2030 年，全球人工智能物联网 (AIoT) 市场将增长至 810.4 亿美元。在 5G 和边缘计算进步的帮助下，物联网与人工智能的广泛使用增强了实时分析。",
-    "charlotte_impact": "夏洛特投资智能技术或制造的公司将希望了解 AIoT 市场的这些趋势。 AIoT 的使用增加可以提供以前无法获得的见解。",
-    "impact_score": 7
-  },
-  {
-    "title": "虚拟双胞胎和人工智能伙伴瞄准企业作战室",
-    "url": "https://www.computerweekly.com/news/366639596/Virtual-twins-and-AI-companions-target-enterprise-war-rooms",
-    "industry": "Enterprise Software",
-    "summary": "达索系统针对企业作战室推广虚拟双胞胎和人工智能伴侣。  该平台声称可以快速回答复杂的业务问题，但需要重新思考企业数据架构。",
-    "charlotte_impact": "夏洛特的企业也许能够以这种方式利用人工智能。然而，如果他们想充分利用虚拟双胞胎和人工智能伴侣，就需要对其数据架构进行重大改变。",
-    "impact_score": 6
-  },
-  {
-    "title": "美联储竞相适应人工智能的承诺以及就业和通胀方面的陷阱",
-    "url": "https://www.channelnewsasia.com/business/fed-races-adapt-ai-promises-and-pitfalls-jobs-inflation-5963931",
-    "industry": "Economics",
-    "summary": "美联储正在积极尝试适应人工智能对经济的影响。美联储目前正在努力应对就业和通胀方面的承诺和陷阱。",
-    "charlotte_impact": "人工智能对经济的影响可能要求美联储采取可能对夏洛特企业产生积极和消极影响的行动或反应。",
-    "impact_score": 6
-  },
-  {
-    "title": "RadNet 收购 Gleamer，使 RadNet 旗下 DeepHealth 成为全球最大的放射临床人工智能解决方案提供商",
-    "url": "https://www.globenewswire.com/news-release/2026/03/02/3247141/10985/en/RadNet-Acquires-Gleamer-Making-RadNet-s-DeepHealth-the-Largest-Provider-of-Radiology-Clinical-AI-Solutions-Worldwide.html",
-    "industry": "Healthcare",
-    "summary": "RadNet 收购了 Gleamer，巩固了 DeepHealth 作为全球最大的放射学人工智能解决方案提供商的地位。人工智能的使用旨在提高图像质量、减少对放射科医生的需求并更快地做出诊断。",
-    "charlotte_impact": "夏洛特地区的医院或许能够削减放射科医生的工资成本，减少对新员工的需求，并通过使用人工智能放射学更快地诊断疾病。",
-    "impact_score": 6
   },
   {
     "title": "对于人工智能公司如何与政府合作，没有人有一个好的计划",
     "url": "https://techcrunch.com/2026/03/02/openai-anthropic-department-of-defense-war-hegseth-ai-companies-work-with-us-government/",
-    "industry": "National Security",
-    "summary": "OpenAI 正在从一家消费者初创公司转型为国家安全基础设施的一部分。该公司似乎没有能力承担这些新职责。",
-    "charlotte_impact": "尽管夏洛特没有国家安全基础设施，但该地区的网络安全公司需要确保其产品比以往更加安全。",
+    "industry": "Government/AI Ethics",
+    "summary": "本文引发了人们对 OpenAI 在从消费者初创公司转型为国家安全基础设施时是否准备好应对新职责的担忧，特别是在与政府合作方面。",
+    "charlotte_impact": "虽然这篇文章不会对夏洛特的企业产生立竿见影的影响，但它触及了一个可能给任何从事人工智能工作的公司带来风险的重要因素，因为政府法规可能会因风险而增加。",
     "impact_score": 5
   },
   {
-    "title": "OpenAI 透露了与五角大楼协议的更多细节",
-    "url": "https://techcrunch.com/2026/03/01/openai-shares-more-details-about-its-agreement-with-the-pentagon/",
-    "industry": "Government",
-    "summary": "OpenAI 透露了与国防部协议的更多细节。首席执行官萨姆·奥尔特曼承认，这笔交易“绝对是仓促的”，而且“看起来不太好”。",
-    "charlotte_impact": "OpenAI 和国防部之间仓促达成的协议并不直接涉及夏洛特的企业。",
+    "title": "为什么人工智能初创公司以两种不同的价格出售相同的股权",
+    "url": "https://techcrunch.com/2026/03/03/why-ai-startups-are-selling-the-same-equity-at-two-different-prices/",
+    "industry": "Venture Capital",
+    "summary": "一些人工智能初创公司正在使用一种新颖的估值机制来制造独角兽地位，这可能会造成估值过高并扭曲市场。",
+    "charlotte_impact": "夏洛特投资者需要对人工智能初创公司的估值保持谨慎，并进行彻底的尽职调查。当地的创业生态系统必须优先考虑可持续增长而不是人为的里程碑。",
+    "impact_score": 6
+  },
+  {
+    "title": "一对已婚创始人的公司 14.ai 正在更换初创公司的客户支持团队",
+    "url": "https://techcrunch.com/2026/03/02/a-married-founder-duos-company-14-ai-is-replacing-customer-support-teams-at-startups/",
+    "industry": "Customer Service",
+    "summary": "14.ai 是一家由一对已婚夫妇创立的公司，提供人工智能驱动的解决方案，取代初创公司的客户支持团队，影响行业内的工作角色。",
+    "charlotte_impact": "夏洛特的初创公司可能会考虑实施 14.ai 以获得更便宜的客户服务支持，但这也会使客户服务代表面临失业的风险。",
+    "impact_score": 6
+  },
+  {
+    "title": "阿里巴巴的 Qwen 技术负责人在大力推动人工智能后辞职",
+    "url": "https://techcrunch.com/2026/03/03/alibabas-qwen-tech-lead-steps-down-after-major-ai-push/",
+    "industry": "AI Leadership",
+    "summary": "阿里巴巴的 Qwen 技术负责人林俊阳在大力推动人工智能之后辞职，这可能会影响该公司的人工智能发展战略。",
+    "charlotte_impact": "虽然这种情况发生在海外，但它代表了人工智能市场的波动性，以及良好领导力对于任何人工智能工作成功的重要性。",
+    "impact_score": 3
+  },
+  {
+    "title": "人工智能公司正花费数百万美元来阻止这位前科技高管的国会竞选",
+    "url": "https://techcrunch.com/2026/03/03/ai-companies-are-spending-millions-to-thwart-this-former-tech-execs-congressional-bid/",
+    "industry": "Politics/AI Regulation",
+    "summary": "人工智能公司正花费数百万美元来阻止一位前科技高管的国会竞选，这表明制定人工智能监管涉及很高的风险。",
+    "charlotte_impact": "这凸显了人工智能行业日益增长的政治影响力以及游说制定有利法规的潜力，从而影响受这些规则约束的当地企业。",
+    "impact_score": 5
+  },
+  {
+    "title": "Infosys 与英特尔扩大战略合作，加速全球企业人工智能的采用",
+    "url": "https://economictimes.indiatimes.com/tech/information-tech/infosys-intel-expand-strategic-tie-up-to-accelerate-enterprise-ai-adoption-globally/articleshow/128967458.cms",
+    "industry": "IT Services",
+    "summary": "Infosys 和英特尔扩大战略合作，将 Infosys 的 Topaz Fabric 与英特尔的高性能计算平台集成，以加速全球企业人工智能的采用。",
+    "charlotte_impact": "夏洛特的企业可以利用此次合作获得先进的人工智能解决方案和专业知识，通过印孚瑟斯的服务和英特尔的技术提高竞争力和效率。",
+    "impact_score": 7
+  },
+  {
+    "title": "匹兹堡新市长给数十位科技公​​司首席执行官打电话，让他​​们将初创公司迁往他的城市",
+    "url": "https://www.businessinsider.com/mayor-pittsburgh-called-tech-ceos-to-get-them-to-move-2026-2",
+    "industry": "Economic Development",
+    "summary": "匹兹堡市长亲自致电科技公司首席执行官，将他们的初创企业迁至他的城市，展示了吸引人才和投资的积极主动的方法。",
+    "charlotte_impact": "这给夏洛特带来了竞争压力，要求夏洛特寻找创造性的方法来吸引科技初创公司和首席执行官来到这座城市。",
     "impact_score": 4
+  },
+  {
+    "title": "2026 年给排水行业自动化与控制业务报告：2024 年至 2030 年市场规模将扩大 15 亿美元 - 公私合作促进基础设施现代化",
+    "url": "https://www.globenewswire.com/news-release/2026/03/03/3248127/28124/en/Automation-and-Control-in-Water-and-Wastewater-Industry-Business-Report-2026-Market-to-Expand-by-1-5-Billion-Between-2024-2030-Public-Private-Partnerships-Facilitate-Infrastructure.html",
+    "industry": "Water/Wastewater",
+    "summary": "在人工智能、物联网和 SCADA 技术的推动下，水和废水处理行业的自动化和控制市场预计将显着增长。",
+    "charlotte_impact": "夏洛特供水和污水处理设施可以通过采用人工智能驱动的自动化和控制系统来提高效率和资源管理。当地环境工程公司可以利用这一趋势。",
+    "impact_score": 6
+  },
+  {
+    "title": "人工智能将以最糟糕的方式彻底改变广告",
+    "url": "https://newrepublic.com/article/207106/chatgpt-ads-open-ai-revolutionize-advertising-worst-imaginable-way",
+    "industry": "Advertising",
+    "summary": "广告已开始出现在 ChatGPT 上，引发了人们对人工智能可能对用户体验产生负面影响并以不良方式彻底改变广告的担忧。",
+    "charlotte_impact": "夏洛特广告商需要考虑人工智能驱动广告的道德影响，并优先考虑用户体验。本地企业应警惕过度侵入或操纵性的广告策略。",
+    "impact_score": 4
+  },
+  {
+    "title": "全国代表大会召开之际，中国的经济雄心遭遇增长限制",
+    "url": "https://abcnews.com/Business/wireStory/chinas-economic-ambitions-hit-limits-growth-national-congress-130699546",
+    "industry": "Global Economics",
+    "summary": "中国的经济雄心面临增长限制，影响了其经济现代化的进展，包括人工智能的开发和采用。",
+    "charlotte_impact": "虽然本文不会对夏洛特企业产生直接影响，但中国经济与每个人的经济息息相关，并且代表了任何企业都需要了解的经济格局。",
+    "impact_score": 2
+  },
+  {
+    "title": "2026 年汽车行业自动化业务报告：在汽车制造商与科技公司研发工作合作的推动下，到 2030 年市场规模将达到 150 亿美元",
+    "url": "https://www.globenewswire.com/news-release/2026/03/03/3248095/28124/en/Automation-in-Automotive-Industry-Business-Report-2026-A-15-Billion-Market-by-2030-Driven-by-Collaborations-Between-Automakers-and-Tech-Companies-R-D-Efforts.html",
+    "industry": "Automotive",
+    "summary": "在汽车制造商和科技公司之间的合作推动下，到 2030 年，汽车行业的自动化市场预计将达到 150 亿美元。",
+    "charlotte_impact": "尽管夏洛特市内没有汽车制造商总部，但它确实有汽车零售店和汽车维修店，未来可能会考虑采用人工智能。",
+    "impact_score": 2
   },
   {
     "title": "科技工作者敦促国防部和国会撤销“人为”标签，称其为供应链风险",
     "url": "https://techcrunch.com/2026/03/02/tech-workers-urge-dod-congress-to-withdraw-anthropic-label-as-a-supply-chain-risk/",
-    "industry": "Government",
-    "summary": "科技工作者恳求国防部和国会撤销“人择”这一供应链风险标签。这些科技工作者认为此事应该悄悄解决。",
-    "charlotte_impact": "与 OpenAI 交易一样，Anthropic 的情况不太可能以任何直接方式影响夏洛特的业务。",
+    "industry": "Defense/AI Ethics",
+    "summary": "科技工作者敦促国防部和国会撤销“人择”标签，将其视为供应链风险，这表明内部存在关于人工智能在国家安全中的作用的争论。",
+    "charlotte_impact": "科技工作者正试图保持 Anthropic 的名声清白，这是朝着保持人工智能行业稳定的正确方向迈出的一步。",
+    "impact_score": 2
+  },
+  {
+    "title": "“软件设计师必须放弃库、逻辑和网格保管人的角色”",
+    "url": "https://www.dezeen.com/2026/03/03/software-design-ai-nick-foster-opinion/",
+    "industry": "Software Design",
+    "summary": "设计师应该利用人工智能的缺点作为机会，摆脱主导软件的纯粹理性方法，将人工智能作为创意伙伴。",
+    "charlotte_impact": "夏洛特的软件开发社区可以利用人工智能来增强创造力和用户体验，而不是简单地自动化现有流程。本地设计公司可以将人工智能作为创新工具。",
     "impact_score": 4
   },
   {
-    "title": "军方能阻止人工智能彻底终结吗？",
-    "url": "http://nymag.com/intelligencer/article/military-ai-iran-openai-claude.html",
-    "industry": "Military",
-    "summary": "军方能否阻止 OpenAI、Claude 和其他人全面终结者？人工智能战争专家埃米莉亚·普罗巴斯科 (Emelia Probasco) 的观点不那么悲观。",
-    "charlotte_impact": "本文涉及军事中的人工智能，这不是一个对夏洛特企业产生强烈影响的领域。",
-    "impact_score": 4
-  },
-  {
-    "title": "Codex 演示期间发现 OpenAI ChatGPT 5.4 泄漏",
-    "url": "https://www.geeky-gadgets.com/openai-gpt-54-leak/",
-    "industry": "AI Models",
-    "summary": "OpenAI 的 ChatGPT 5.4 模型的泄露引发了兴奋和担忧。根据人工智能宇宙的说法，模型的进步展示了推理能力。",
-    "charlotte_impact": "这次泄露只会影响夏洛特的企业，因为它们可能会让他们更早地访问原本尚未发布的功能。",
-    "impact_score": 4
-  },
-  {
-    "title": "指南：青少年司法咨询小组的预防性分析：职权范围",
-    "url": "https://www.gov.uk/government/publications/preventative-analytics-for-youth-justice-advisory-panel-terms-of-reference",
-    "industry": "Government",
-    "summary": "英国的一个咨询小组将使用人工智能和机器学习来分析青少年司法。该小组将提出并审查利用机器学习、人工智能和高级分析的建议。",
-    "charlotte_impact": "这种情况对夏洛特的企业没有影响。",
-    "impact_score": 1
-  },
-  {
-    "title": "如何为 WordPress 创建人工智能驱动的内容简介 – 我行之有效的策略",
-    "url": "https://www.wpbeginner.com/wp-tutorials/ai-powered-content-briefs-in-wordpress/",
-    "industry": "Content Creation",
-    "summary": "作者正在为花费太多时间分析竞争对手的 WordPress 博主创建人工智能驱动的内容。他们将工作流程转移到人工智能驱动的内容。",
-    "charlotte_impact": "这有可能帮助夏洛特的内容创作者通过减少研究时间来制作更多内容。",
+    "title": "美国必须以速度和纪律为人工智能提供动力——否则中国将占据主导地位",
+    "url": "https://www.foxnews.com/opinion/america-must-power-ai-speed-discipline-china-dominate",
+    "industry": "Geopolitics/AI Competition",
+    "summary": "美国必须以速度和纪律为人工智能提供动力，否则中国将占据主导地位，这凸显了人工智能基础设施和领导力的战略重要性。",
+    "charlotte_impact": "这提醒夏洛特人工智能公司，提高速度很重要，但也要遵守纪律，否则美国可能会失去人工智能的领先地位。",
     "impact_score": 3
-  },
-  {
-    "title": "人择与对齐",
-    "url": "https://stratechery.com/2026/anthropic-and-alignment/",
-    "industry": "Government",
-    "summary": "人类与战争部处于对峙状态。尽管该公司的担忧是合理的，但其立场是无法容忍的，而且与现实不符。",
-    "charlotte_impact": "本文与夏洛特的企业没有任何关系。",
-    "impact_score": 1
-  },
-  {
-    "title": "谁在决定伊朗的炸弹投向何处？也许连人类都不是。",
-    "url": "https://newrepublic.com/article/207189/iran-war-ai-deciding-bombs-drop",
-    "industry": "Military",
-    "summary": "美国和以色列在一场战争中向伊朗投下了炸弹，也许连人类都没有决定这些炸弹将投在哪里。伊朗南部一所女子学校发生爆炸，造成至少 153 人死亡。",
-    "charlotte_impact": "本文对夏洛特企业没有任何影响。",
-    "impact_score": 1
-  },
-  {
-    "title": "Satyajit Das：AI——人工智能还是绝对的疯狂？",
-    "url": "https://biztoc.com/x/c26a2ed6238207f3?ref=ff",
-    "industry": "Economics",
-    "summary": "作者 Satjayit Das 描述了人工智能的人工本质。他相信人工智能正在追踪熟悉的、令人厌倦的繁荣。",
-    "charlotte_impact": "这对夏洛特的企业影响很小。",
-    "impact_score": 1
   },
   {
     "title": "人工智能 ETF，还是人工智能支持的 ETF？",
     "url": "https://etfdb.com/disruptive-technology-channel/artificial-intelligence-etfs-or-etfs-powered-by-ai/",
-    "industry": "Finance",
-    "summary": "VettaFi 作家研究了人工智能 ETF 和由人工智能驱动的 ETF。他们还分析了这两个类别之间的差异。",
-    "charlotte_impact": "投资任何一种 ETF 的夏洛特公司可能会更多地了解他们的产品。除此之外，几乎没有与业务相关的要点。",
+    "industry": "Financial Services",
+    "summary": "本文讨论人工智能 ETF，或由人工智能驱动的 ETF，以及这两个类别之间的差异。",
+    "charlotte_impact": "本文作为如何使用人工智能实现投资组合多元化的指南。夏洛特投资者的重要信息。",
     "impact_score": 2
   },
   {
-    "title": "上城区“豪华”公寓的租户要求采取行动，因为安全故障导致入侵者进入",
-    "url": "https://www.wcnc.com/article/news/local/gateway-west-apartment-issues-unhoused-3-2-2-2026/275-39ab6777-d6a1-4fc4-b4dd-801a95024441",
-    "industry": "Real Estate",
-    "summary": "在一系列安全故障导致入侵者进入后，豪华公寓大楼的租户要求采取行动。有些人把储藏室和走廊当作临时住所。",
-    "charlotte_impact": "这是夏洛特特有的活动，但与 AI 无关。",
+    "title": "英迈国际老板谈论 Xvantage、价格上涨和增长",
+    "url": "https://www.computerweekly.com/microscope/news/366639607/Ingram-Micro-boss-talks-Xvantage-price-rises-and-growth",
+    "industry": "IT Distribution",
+    "summary": "英迈国际老板谈论 Xvantage、价格上涨和增长，并分享与其合作伙伴平台取得的进展。",
+    "charlotte_impact": "英迈国际是一个供其他公司使用的平台。夏洛特的一家企业也许能够创建一个由英迈国际分销的 IT 平台，从而帮助其赚钱。",
     "impact_score": 1
   },
   {
-    "title": "黑人政治核心小组将向 NCDOT 提交限制令，以阻止 I-77 扩建",
-    "url": "https://www.wcnc.com/article/news/local/black-political-caucus-to-file-restraining-order-against-ncdot-to-stop-i-77-expansion/275-e1f88f02-2a4b-4009-91be-ac7df3a82483",
-    "industry": "Infrastructure",
-    "summary": "黑人政治核心小组将向 NCDOT 提交限制令，以阻止 I-77 扩建。该扩建项目与过去拆除黑人社区的扩建项目有相似之处。",
-    "charlotte_impact": "夏洛特当地的这一事件与人工智能无关。",
+    "title": "科学家在猴子神经元的帮助下制造出口袋大小的人工智能大脑",
+    "url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons",
+    "industry": "AI Research",
+    "summary": "科学家在猴子神经元的帮助下制造了一个口袋大小的人工智能大脑。",
+    "charlotte_impact": "对技术感兴趣的夏洛特公司总是希望看到最新的技术和趋势。这表明人工智能技术的发展速度有多快。",
     "impact_score": 1
   },
   {
-    "title": "塑料大教堂：我们如何制造过剩的一年",
-    "url": "https://www.resilience.org/stories/2026-03-02/the-cathedral-of-plastic-how-we-manufactured-a-year-of-excess/",
-    "industry": "Consumerism",
-    "summary": "世界正在经历塑料过剩的一年。我们需要恢复自主权，而这首先要从空手走出玩具店开始，并意识到我们能给下一代的最有弹性的东西不是一块塑料。",
-    "charlotte_impact": "这对企业或夏洛特的影响很小。",
-    "impact_score": 1
+    "title": "最残暴犯规之一：吕迪格事件争议大",
+    "url": "https://onefootball.com/en/news/one-of-the-most-brutal-fouls-big-controversy-over-this-ruediger-incident-42496632",
+    "industry": "Sports",
+    "summary": "一名足球运动员在比赛中犯规，引发争议。",
+    "charlotte_impact": "这只是一篇关于足球比赛的文章，没有任何人工智能连接。",
+    "impact_score": 0
   },
   {
-    "title": "RadNet 报告 2025 年第四季度业绩，包括创纪录的收入和调整后的 EBITDA⁽1⁾ 并发布 2026 年财务指引",
-    "url": "https://www.globenewswire.com/news-release/2026/03/02/3247156/10985/en/RadNet-Reports-Fourth-Quarter-2025-Results-Including-Record-Revenue-and-Adjusted-EBITDA-and-Releases-2026-Financial-Guidance.html",
-    "industry": "Healthcare",
-    "summary": "RadNet 报告 2025 年第四季度业绩，包括创纪录的收入和调整后的 EBITDA⁽1⁾，并发布 2026 年财务指引。",
-    "charlotte_impact": "本文对夏洛特的企业没有任何影响。",
-    "impact_score": 1
+    "title": "人工智能的未来能否将我们重新与最重要的事情联系起来？",
+    "url": "https://theinnovativeeducator.blogspot.com/2026/03/could-future-of-ai-reconnect-us-to-what.html",
+    "industry": "AI and Society",
+    "summary": "本博客讨论人工智能的未来如何将我们重新与最重要的事情联系起来。",
+    "charlotte_impact": "这只是一篇博客文章。与人工智能在企业、资金或经济影响方面无关。",
+    "impact_score": 0
   },
   {
-    "title": "现代条件",
-    "url": "https://www.newyorker.com/magazine/2026/03/09/the-modern-conditions",
-    "industry": "Society",
-    "summary": "亚历克西斯·威尔金森 (Alexis Wilkinson) 的《喊叫与杂音》：“咳嗽”、“治疗发声症”，哦，对了，还有“脊髓灰质炎”：小 R.F.K. 时代的常见疾病。",
-    "charlotte_impact": "《纽约客》的这篇报道对夏洛特的企业没有影响。",
-    "impact_score": 1
+    "title": "我用小苏打代替洗衣粉一周，没想到会这样",
+    "url": "https://www.homedit.com/i-replaced-laundry-detergent-with-baking-soda-for-a-week-and-i-wasnt-expecting-this/",
+    "industry": "Lifestyle",
+    "summary": "本文作者用小苏打代替洗衣粉一周。",
+    "charlotte_impact": "这只是一篇关于洗衣液的文章。",
+    "impact_score": 0
+  },
+  {
+    "title": "迈克尔·波伦能否在他的新书中破解意识问题？",
+    "url": "https://www.newscientist.com/article/2517590-can-michael-pollan-crack-the-problem-of-consciousness-in-his-new-book/",
+    "industry": "Science/Psychology",
+    "summary": "迈克尔·波伦能否在他的新书中破解意识问题？",
+    "charlotte_impact": "这只是一篇关于与人工智能无关的书籍的文章。",
+    "impact_score": 0
+  },
+  {
+    "title": "伊朗战争加剧全球债券溃败，美国国债延续跌势",
+    "url": "https://financialpost.com/pmn/business-pmn/us-treasuries-extend-fall-as-iran-war-fuels-global-bond-rout",
+    "industry": "Finance",
+    "summary": "由于伊朗战争加剧全球债券溃败，美国国债延续跌势。",
+    "charlotte_impact": "这只是一篇关于债券的文章，没有任何人工智能连接。",
+    "impact_score": 0
   }
 ]
