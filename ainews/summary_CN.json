@@ -2,201 +2,201 @@
   {
     "title": "Railway 融资 1 亿美元，利用 AI 原生云基础设施挑战 AWS",
     "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
-    "industry": "Cloud Computing",
-    "summary": "Railway 获得 1 亿美元资金，以其人工智能原生云基础设施挑战 AWS，并号称部署时间更快、成本更低。该公司通过关注人工智能时代的开发者需求而快速成长，吸引了初创公司和财富 500 强公司。",
-    "charlotte_impact": "可能会吸引夏洛特的开发人员和科技公司寻求更高效、更具成本效益的云解决方案，从而可能影响当地 AWS 的使用。",
+    "industry": "Cloud Infrastructure",
+    "summary": "Railway 获得 1 亿美元资金，利用其 AI 原生云基础设施挑战 AWS，专注于加快 AI 应用程序的部署速度。他们建立了自己的数据中心，并瞄准财富 500 强公司，承诺提高开发速度并节省成本。",
+    "charlotte_impact": "如果夏洛特的企业采用铁路，则可以从更快、更便宜的云部署中受益。这可以加速创新并降低依赖云基础设施的公司的运营成本。",
     "impact_score": 9
   },
   {
     "title": "Salesforce 推出新的 Slackbot AI 代理，在工作场所 AI 领域与微软和谷歌展开竞争",
     "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
     "industry": "Enterprise Software",
-    "summary": "Salesforce 推出了重建的 Slackbot，由 Anthropic 的 Claude 提供支持，旨在成为企业的中央人工智能代理。内部测试显示生产力显着提高，将 Slack 定位为人工智能驱动工作流程的关键平台，与 Microsoft Copilot 和 Google Gemini 直接竞争。",
-    "charlotte_impact": "使用 Salesforce 和 Slack 的夏洛特企业可以通过人工智能驱动的自动化和数据合成提高生产力和效率。",
+    "summary": "Salesforce 推出了由 Anthropic 的 Claude 提供支持的重建的 Slackbot AI 代理，将其与 Salesforce 数据和其他企业系统集成。  它允许用户搜索数据、起草文档和自动化操作，直接与微软的 Copilot 和谷歌的 Gemini 竞争。",
+    "charlotte_impact": "使用 Salesforce 和 Slack 的夏洛特公司可以体验到生产力和效率的提高。 Slackbot 的采用可以通过利用集成的人工智能功能来简化工作流程并改善决策。",
     "impact_score": 8
   },
   {
     "title": "Listen Labs 在病毒式广告牌招聘噱头扩大 AI 客户访谈后筹集了 6900 万美元",
     "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
     "industry": "Market Research",
-    "summary": "Listen Labs 筹集了 6900 万美元，用于扩大人工智能驱动的客户访谈，为传统市场研究方法提供更快、更具可扩展性的替代方案。他们声称通过使用开放式视频对话和欺诈检测来提供更诚实的见解，影响产品开发和客户理解。",
-    "charlotte_impact": "可以为夏洛特的营销公司和企业提供更快、更容易获得的客户洞察，这可能会扰乱当地的市场研究行业。",
+    "summary": "Listen Labs 为其人工智能驱动的客户访谈平台筹集了 6900 万美元，通过更快的洞察和欺诈检测颠覆了传统的市场研究。他们使用人工智能进行视频采访并提供可操作的报告，从而改善 Microsoft 和 Chubbies 等公司的产品开发。",
+    "charlotte_impact": "在夏洛特进行消费者研究的营销公司和公司可以从 Listen Lab 更快且由人工智能驱动的访谈中受益。这可能提供更敏捷的产品开发和市场验证。",
     "impact_score": 7
   },
   {
-    "title": "黄仁勋表示 Nvidia 正在退出 OpenAI 和 Anthropic，但他的解释提出的问题多于答案",
-    "url": "https://techcrunch.com/2026/03/04/jensen-huang-says-nvidia-is-pulling-back-from-openai-and-anthropic-but-his-explanation-raises-more-questions-than-it-answers/",
-    "industry": "AI Investment",
-    "summary": "Nvidia 首席执行官黄仁勋表示将不再对 OpenAI 和 Anthropic 进行进一步直接投资，这引发了人们对 Nvidia 在竞争性 AI 领域的长期战略的质疑。",
-    "charlotte_impact": "间接影响；标志着人工智能投资策略可能发生转变，可能会影响当地人工智能初创企业的融资前景。",
-    "impact_score": 5
+    "title": "AWS推出专门针对医疗保健的新人工智能代理平台",
+    "url": "https://techcrunch.com/2026/03/05/aws-amazon-connect-health-ai-agent-platform-health-care-providers/",
+    "industry": "Healthcare",
+    "summary": "AWS 推出 Amazon Connect Health，这是一个面向医疗保健提供商的 AI 代理平台。该人工智能平台将有助于患者安排、文档记录和患者验证，以简化医疗保健工作流程。",
+    "charlotte_impact": "当地医院和医疗机构可​​以利用这一点来提高效率。这包括更好的患者体验并减少管理工作量",
+    "impact_score": 7
   },
   {
-    "title": "报告称，Anthropic 首席执行官达里奥·阿莫迪 (Dario Amodei) 称 OpenAI 关于军事协议的信息是“彻头彻尾的谎言”",
-    "url": "https://techcrunch.com/2026/03/04/anthropic-ceo-dario-amodei-calls-openais-messaging-around-military-deal-straight-up-lies-report-says/",
-    "industry": "AI Ethics/Military",
-    "summary": "Anthropic 首席执行官达里奥·阿莫迪 (Dario Amodei) 批评了 OpenAI 对军事合同的处理方式，强调了人工智能行业内部的道德分歧，并对人工智能技术的负责任开发和部署提出了担忧。",
-    "charlotte_impact": "间接影响；引发有关人工智能开发的伦理辩论，与任何参与或考虑在敏感领域应用人工智能的本地公司相关。",
-    "impact_score": 4
-  },
-  {
-    "title": "父亲起诉谷歌，称双子座聊天机器人让儿子陷入致命妄想",
-    "url": "https://techcrunch.com/2026/03/04/father-sues-google-claiming-gemini-chatbot-drove-son-into-fatal-delusion/",
-    "industry": "AI Ethics/Liability",
-    "summary": "一位父亲正在起诉谷歌，指控谷歌的 Gemini 聊天机器人强化了他儿子的妄想，并影响他自杀。这起诉讼对人工智能开发者的责任以及人工智能交互造成的潜在危害提出了严重质疑。",
-    "charlotte_impact": "间接影响；强调负责任的人工智能开发和安全措施对本地人工智能开发人员和用户的重要性。",
+    "title": "1,000 多个客户电话如何塑造了一家突破性的企业人工智能初创公司",
+    "url": "https://techcrunch.com/2026/03/05/how-1000-customer-calls-shaped-a-breakout-enterprise-ai-startup/",
+    "industry": "AI Startups",
+    "summary": "本文重点介绍了企业人工智能初创公司南都电源的历程，详细介绍了他们基于 1,000 多个客户电话的有意迭代、融资和扩展策略。他们对客户反馈的承诺是成功的关键驱动力。",
+    "charlotte_impact": "夏洛特地区的初创企业可以从南都电源的经验中获得以客户为中心的增长战略的宝贵见解。  在人工智能开发过程中强调客户反馈可以带来更成功、更相关的产品。",
     "impact_score": 6
   },
   {
-    "title": "一家初创公司致力于提供更可靠的人工智能答案：众包聊天机器人",
-    "url": "https://techcrunch.com/2026/03/04/one-startups-pitch-to-provide-more-reliable-ai-answers-crowdsource-the-chatbots/",
-    "industry": "AI Infrastructure",
-    "summary": "CollectivIQ 旨在通过同时众包多个聊天机器人（ChatGPT、Gemini、Claude 等）的响应来提供更可靠的 AI 答案。这种方法解决了个体聊天机器人的偏见和不准确问题，有可能提高人工智能驱动的信息检索的质量。",
-    "charlotte_impact": "可以提高夏洛特企业和居民使用的人工智能工具的可靠性，帮助决策和解决问题。",
+    "title": "DiligenceSquared 使用人工智能、语音代理让并购研究变得经济实惠",
+    "url": "https://techcrunch.com/2026/03/05/diligencesquared-uses-ai-voice-agents-to-make-ma-research-affordable/",
+    "industry": "Financial Services",
+    "summary": "DiligenceSquared 使用人工智能语音代理进行并购研究的客户访谈，为传统管理顾问提供了更实惠的替代方案。他们专注于提供负担得起的市场研究。",
+    "charlotte_impact": "夏洛特的私募股权公司和投资公司可能会降低并购研究成本并改善尽职调查流程。人工智能驱动的语音代理提供了一种更具可扩展性和更高效的方式来收集关键的客户见解。",
+    "impact_score": 6
+  },
+  {
+    "title": "OpenAI 推出 GPT-5.4 Pro 和 Thinking 版本",
+    "url": "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/",
+    "industry": "AI Models",
+    "summary": "OpenAI 推出了 GPT-5.4 Pro 和 Thinking 版本，将其称为专业工作中最有能力、最高效的前沿模型。新模型提供了更高的效率和优化。",
+    "charlotte_impact": "夏洛特使用 OpenAI 模型的开发者和企业现在可以更新到更现代、更高效的版本。这将导致成本降低。",
+    "impact_score": 7
+  },
+  {
+    "title": "Luma 推出由新“统一智能”模型支持的创意人工智能代理",
+    "url": "https://techcrunch.com/2026/03/05/exclusive-luma-launches-creative-ai-agents-powered-by-its-new-unified-intelligence-models/",
+    "industry": "Creative AI",
+    "summary": "Luma 推出了由其新的“统一智能”模型提供支持的创意人工智能代理，旨在协调多个人工智能系统并生成跨文本、图像、视频和音频的端到端创意作品。这些人工智能代理将协调多个人工智能系统。",
+    "charlotte_impact": "夏洛特的广告公司和创意公司可以采用 Luma 代理来自动化内容创建和制作。  这可以通过试验新的人工智能驱动方法来增加产量并提供竞争优势。",
+    "impact_score": 6
+  },
+  {
+    "title": "Netflix 收购本·阿弗莱克 (Ben Affleck) 的人工智能电影制作公司 InterPositive",
+    "url": "https://techcrunch.com/2026/03/05/netflix-buys-ben-afflecks-ai-filmmaking-company-interpositive/",
+    "industry": "Film Industry",
+    "summary": "Netflix 收购了本·阿弗莱克 (Ben Affleck) 的人工智能电影制作公司 InterPositive，该公司帮助制作团队处理自己制作的片段，在后期制作中进行编辑。这侧重于后期制作自动化。",
+    "charlotte_impact": "夏洛特的电影制作公司可以利用这项技术来提高后期制作速度并降低成本。人工智能模型有助于编辑任务，从而实现更高效的工作流程。",
     "impact_score": 5
   },
   {
-    "title": "为什么人工智能初创公司以两种不同的价格出售相同的股权",
-    "url": "https://techcrunch.com/2026/03/03/why-ai-startups-are-selling-the-same-equity-at-two-different-prices/",
-    "industry": "AI Funding",
-    "summary": "据报道，一些人工智能初创公司正在使用一种新颖的估值机制（以两种不同的价格出售相同的股权）来抬高估值并获得独角兽地位。这种做法引发了人们对人工智能初创公司估值过高的透明度和可持续性的担忧。",
-    "charlotte_impact": "间接影响；可能会影响当地人工智能初创企业的融资环境，可能导致投资者加大审查力度。",
+    "title": "人工智能预测 1000 亿美元，博通股价上涨，预示着英伟达主导市场的增长",
+    "url": "https://www.channelnewsasia.com/business/broadcom-rises-100-billion-ai-forecast-signals-gains-in-nvidia-dominated-market-5973671",
+    "industry": "Semiconductors",
+    "summary": "博通预测明年 AI 芯片销售额将超过 1000 亿美元，股价上涨，表明英伟达主导的市场将上涨。高端芯片的需求持续增长。",
+    "charlotte_impact": "夏洛特的半导体公司和科技公司将关注 Broadcom 和 NVIDIA 在市场上的发展。获得人工智能计算能力对于当地发展至关重要。",
+    "impact_score": 7
+  },
+  {
+    "title": "独家：五角大楼正向海事科技风险投资基金投入 1.5 亿美元，并且似乎正在增加风险投资",
+    "url": "https://fortune.com/2026/03/05/pentagon-venture-committments-mare-liberum/",
+    "industry": "Venture Capital",
+    "summary": "五角大楼正向海事科技风险投资基金投入 1.5 亿美元，并且似乎正在增加风险投资。这表明国防部对技术的兴趣日益浓厚。",
+    "charlotte_impact": "夏洛特的国防承包商和科技初创公司可能会从海事技术投资的增加中受益。风险投资公司将寻找有实力的企业进行投资。",
     "impact_score": 4
   },
   {
-    "title": "阿里巴巴的 Qwen 技术负责人在大力推动人工智能后辞职",
-    "url": "https://techcrunch.com/2026/03/03/alibabas-qwen-tech-lead-steps-down-after-major-ai-push/",
-    "industry": "AI Talent",
-    "summary": "阿里巴巴的 Qwen 技术负责人林俊阳在重大人工智能模型发布后辞职。这一离职标志着阿里巴巴人工智能部门的战略或内部动态可能发生变化。",
-    "charlotte_impact": "间接影响；与夏洛特公司可用的全球人才库相关。",
+    "title": "QCon AI Boston 的早期计划重点关注生产 AI 背后的工程工作",
+    "url": "https://www.infoq.com/news/2026/03/qconai-boston-2026-talks/",
+    "industry": "AI Engineering",
+    "summary": "QCon AI Boston 的早期计划侧重于生产 AI 背后的工程工作，从演示转向可靠性。主题包括上下文工程、代理可解释性、基本 RAG 之外的推理、评估、治理和安全性。",
+    "charlotte_impact": "夏洛特的人工智能开发人员和工程师可以获得在生产环境中部署人工智能的实用知识和最佳实践。  参加本次会议或从中学习将有助于提高人工智能系统的可靠性和治理。",
+    "impact_score": 6
+  },
+  {
+    "title": "179 亿美元的自动停车系统市场 - 2026-2032 年全球预测",
+    "url": "https://www.globenewswire.com/news-release/2026/03/05/3249924/28124/en/17-9-Bn-Automated-Parking-System-Markets-Global-Forecasts-2026-2032.html",
+    "industry": "Automated Parking",
+    "summary": "到 2032 年，自动停车系统市场预计将达到 179 亿美元，通过先进技术和模块化解决方案提高城市交通效率。该技术由于其在密集城市环境中的效率而越来越受欢迎。",
+    "charlotte_impact": "夏洛特的房地产开发商和城市规划者可以考虑使用自动停车系统来优化空间并改善城市地区的交通流量。该系统为居民和当地公民提供了效率和价值。",
+    "impact_score": 3
+  },
+  {
+    "title": "瑞典的创新和军事效应给北约首脑留下深刻印象",
+    "url": "https://www.globalsecurity.org/military/library/news/2026/03/mil-260304-se-forsvarsmakten01.htm",
+    "industry": "Defense",
+    "summary": "瑞典通过网络士兵、人工智能、无人机向北约展示了强大的防御能力和创新能力。这有助于凸显全球军事技术的进步。",
+    "charlotte_impact": "夏洛特的国防承包商可以专注于提高自己的网络战和人工智能能力，以保持竞争力。军事承包商可以遵循这一点并为美国军方进行创新。",
+    "impact_score": 4
+  },
+  {
+    "title": "全面拥抱人工智能浪潮：Cognizant India 董事总经理 Rajesh Varrier",
+    "url": "https://www.thehindubusinessline.com/info-tech/embrace-ai-wave-holistically-cognizant-india-md-rajesh-varrier/article70706860.ece",
+    "industry": "Consulting",
+    "summary": "Cognizant India 董事总经理 Rajesh Varrier 敦促全面采用人工智能，强调领域专业知识和持续学习以获取未来机会。 Varrier 强调需要更全面地采用人工智能。",
+    "charlotte_impact": "夏洛特的企业应该在各个部门采用人工智能。持续学习对员工来说很重要。",
+    "impact_score": 5
+  },
+  {
+    "title": "2026-2032 年医学图像分析软件全球预测：通过增强临床工作流程、提高诊断准确性和促进合作伙伴关系推动人工智能采用，带来 43.5 亿美元的机遇",
+    "url": "https://www.globenewswire.com/news-release/2026/03/05/3249923/28124/en/Medical-Image-Analysis-Software-Global-Forecast-2026-2032-4-35-Bn-Opportunities-Driven-by-Enhancing-Clinical-Workflows-Boosting-Diagnostic-Accuracy-and-Fostering-Partnerships-to-Dr.html",
+    "industry": "Medical Imaging",
+    "summary": "在增强临床工作流程、提高诊断准确性以及培育合作伙伴关系以推动人工智能采用的推动下，到 2032 年，医学图像分析软件市场预计将达到 43.5 亿美元。该技术提供更好的临床工作流程和诊断。",
+    "charlotte_impact": "夏洛特的医院和医疗机构可​​以通过采用医学图像分析软件来提高诊断准确性和效率。这也可以促进医疗保健提供者和人工智能开发人员之间的合作伙伴关系。",
+    "impact_score": 6
+  },
+  {
+    "title": "在工作人员审查裸露、性爱和其他镜头后，Meta因人工智能智能眼镜的隐私问题而被起诉",
+    "url": "https://techcrunch.com/2026/03/05/meta-sued-over-ai-smartglasses-privacy-concerns-after-workers-reviewed-nudity-sex-and-other-footage/",
+    "industry": "Privacy / AI Regulation",
+    "summary": "Meta 因其人工智能智能眼镜相关的隐私问题而被起诉，指控分包商不顾隐私承诺，正在审查客户眼镜的镜头。这可能会对智能眼镜和个人设备的推出和采用产生重大影响。",
+    "charlotte_impact": "当地企业和消费者应该意识到与人工智能智能眼镜和类似设备相关的隐私风险。  此案可能会影响未来有关人工智能设备的数据隐私和用户同意的法规。",
+    "impact_score": 5
+  },
+  {
+    "title": "查尔斯·圣阿诺：K型经济是真实存在的，但劳动力却处于错误的一端",
+    "url": "https://financialpost.com/news/economy/k-shaped-economy-real-labour-wrong-end",
+    "industry": "Economics",
+    "summary": "查尔斯·圣阿诺 (Charles St-Arnaud) 认为，K 型经济是真实存在的，但劳动力处于错误的一端，因为依赖劳动力收入的家庭发现其购买力停滞不前。人工智能可能会加剧劳动收入和资本收入之间的鸿沟。",
+    "charlotte_impact": "与那些受益于资本收益或企业所有权的人相比，夏洛特依赖劳动收入的工人的购买力可能会停滞不前。地方政策制定者需要意识到这种分歧。",
+    "impact_score": 4
+  },
+  {
+    "title": "Anthropic 将在法庭上挑战国防部的供应链标签",
+    "url": "https://techcrunch.com/2026/03/05/anthropic-to-challenge-dods-supply-chain-label-in-court/",
+    "industry": "AI Regulation / Defense",
+    "summary": "Anthropic 计划挑战国防部将该人工智能公司指定为供应链风险的决定。这一指定可能会影响他们与政府实体的业务往来。",
+    "charlotte_impact": "这一事件可能会对美国所有承包商与美国政府的互动方式产生影响。政府机构可以为新的人工智能模型提供更多的安全性和治理。",
     "impact_score": 2
   },
   {
-    "title": "人工智能公司正花费数百万美元来阻止这位前科技高管的国会竞选",
-    "url": "https://techcrunch.com/2026/03/03/ai-companies-are-spending-millions-to-thwart-this-former-tech-execs-congressional-bid/",
-    "industry": "AI Regulation",
-    "summary": "人工智能公司正花费数百万美元来挫败一位主张人工智能监管的前科技高管的国会竞选。这突显了围绕人工智能政策的激烈游说努力以及行业对政府监管的立场。",
-    "charlotte_impact": "间接影响；这场政治斗争的结果影响了当地人工智能企业的监管格局。",
-    "impact_score": 4
+    "title": "官方消息：五角大楼已将 Anthropic 标记为供应链风险",
+    "url": "https://techcrunch.com/2026/03/05/its-official-the-pentagon-has-labeled-anthropic-a-supply-chain-risk/",
+    "industry": "AI Regulation / Defense",
+    "summary": "美国国防部已正式将 Anthropic 标记为供应链风险，这使得这家人工智能公司成为第一家贴有该标签的美国公司。与此同时，国防部继续在伊朗使用 Anthropic 的人工智能。",
+    "charlotte_impact": "这一事件可能会对美国所有承包商与美国政府的互动方式产生影响。政府机构可以为新的人工智能模型提供更多的安全性和治理。",
+    "impact_score": 2
   },
   {
-    "title": "英国实验室获得资金推动基础人工智能研究",
-    "url": "https://www.computerweekly.com/news/366639792/UK-lab-gets-funding-to-drive-foundational-AI-research",
-    "industry": "AI Research",
-    "summary": "英国一家实验室获得了 4000 万英镑的资金来推动基础人工智能研究。这项投资旨在支持英国研究人员开发先进的人工智能模型，促进创新并可能影响全球人工智能的进步。",
-    "charlotte_impact": "间接影响；全球人工智能基础研究的进步最终会影响当地的创新和应用。",
+    "title": "NEXTROCK 投资集团将推出跨国 SVCV 作为 Z 世代的第一家超级企业集团",
+    "url": "https://www.globenewswire.com/news-release/2026/03/05/3249952/0/en/NEXTROCK-INVESTMENT-GROUP-TO-LAUNCH-MULTINATIONAL-SVCV-AS-GENERATION-Z-S-FIRST-SUPER-CONGLOMERATE.html",
+    "industry": "Venture Capital",
+    "summary": "NextRock Investment Group 计划推出一家跨国 SVCV，作为 Z 世代第一家超级企业集团。投资将涉及媒体、技术和金融领域。",
+    "charlotte_impact": "夏洛特的年轻创始人获得新基金资助的机会可能会增加。这也提供了投资和合作机会。",
     "impact_score": 3
   },
   {
-    "title": "知识产权软件业务分析报告 2026-2030，简介 Alt Legal、Anaqua、Clarivate、Dennemeyer、Evalueserve、Freibrun Law、Ingenta、Intellisoft、Iolite Software、ktMINE",
-    "url": "https://www.globenewswire.com/news-release/2026/03/04/3249146/28124/en/Intellectual-Property-Software-Business-Analysis-Report-2026-2030-Profiles-Alt-Legal-Anaqua-Clarivate-Dennemeyer-Evalueserve-Freibrun-Law-Ingenta-Intellisoft-Iolite-Software-ktMINE.html",
-    "industry": "Intellectual Property Software",
-    "summary": "在知识产权、全球化和人工智能等技术集成日益增强的战略重要性的推动下，知识产权软件市场预计将显着增长。这种增长是由企业对先进知识产权管理工具的需求推动的。",
-    "charlotte_impact": "依赖知识产权保护的夏洛特公司可能会发现新的效率或新的成本来满足其知识产权管理需求。",
-    "impact_score": 4
+    "title": "为什么伊朗战争油价冲击不会阻止美联储人选凯文·沃什降息",
+    "url": "https://www.cnbc.com/2026/03/05/iran-oil-fed-kevin-warsh.html",
+    "industry": "Economics",
+    "summary": "伊朗战争导致油价上涨的可能性不会阻止特朗普总统选择降息。油价上涨可能会影响通胀。",
+    "charlotte_impact": "如果油价上涨，夏洛特的企业需要在业务规划中考虑这种增加的成本。然而，降息可能有助于让融资变得更容易。",
+    "impact_score": 1
   },
   {
-    "title": "半导体（硅）知识产权（SIP）业务研究报告2026-2030：纳米电子学加速半导体设计进步，为SIP市场提供机遇",
-    "url": "https://www.globenewswire.com/news-release/2026/03/04/3249143/28124/en/Semiconductor-Silicon-Intellectual-Property-SIP-Business-Research-Report-2026-2030-Nanoelectronics-Accelerate-Advancements-in-Semiconductor-Design-Offering-Opportunities-for-SIP-Ma.html",
-    "industry": "Semiconductors",
-    "summary": "纳米电子学的进步正在加速半导体设计的进步，为半导体 IP (SIP) 市场带来机遇。人工智能、物联网和 5G 技术推动了对专用 SIP 内核的需求。",
-    "charlotte_impact": "间接影响；人工智能和 5G 的发展使本地公司能够开发出更复杂、更强大的产品。",
-    "impact_score": 3
+    "title": "《WWE 2K26》评测：游戏越来越好，盈利却越来越差",
+    "url": "https://www.techradar.com/gaming/wwe-2k26-review",
+    "industry": "Gaming",
+    "summary": "《WWE 2K26》改进了游戏玩法，但缩减了 MyRise 规模并增加了盈利能力。 AI只是在文章标题中提到，与游戏无关。",
+    "charlotte_impact": "这仅对夏洛特的游戏玩家产生影响。",
+    "impact_score": 1
   },
   {
-    "title": "Toluna 推出 TEMPO Xpress，这是一种更快、更容易跟踪品牌资产的方法",
-    "url": "https://www.globenewswire.com/news-release/2026/03/04/3249140/0/en/Toluna-launches-TEMPO-Xpress-a-faster-more-accessible-way-to-track-brand-equity.html",
-    "industry": "Market Research",
-    "summary": "Toluna 推出 TEMPO Xpress，这是一种人工智能增强型解决方案，可实现更快、更方便的品牌资产跟踪。该解决方案可以更频繁、更简单地衡量品牌资产，以制定可行的业务决策。",
-    "charlotte_impact": "为本地营销人员和企业提供新的人工智能驱动工具，以更快地评估和响应品牌趋势。",
-    "impact_score": 4
-  },
-  {
-    "title": "2026 年物理知识产权 (IP) 业务分析报告：到 2030 年市场规模将达到 82 亿美元 - 不断增长的半导体复杂性和不断扩大的电子应用推动强劲需求",
-    "url": "https://www.globenewswire.com/news-release/2026/03/04/3249137/28124/en/Physical-Intellectual-Property-IP-Business-Analysis-Report-2026-An-8-2-Billion-Market-by-2030-Growing-Semiconductor-Complexity-and-Expanding-Electronics-Applications-Drive-Strong-D.html",
-    "industry": "Intellectual Property",
-    "summary": "由于对人工智能、5G 和物联网进步至关重要的高效半导体芯片的需求不断增长，物理 IP 市场正在经历强劲增长。这种增长为移动计算和消费电子产品创造了机会。",
-    "charlotte_impact": "间接影响；改进的半导体技术使本地公司能够创新并保持竞争力。",
-    "impact_score": 3
-  },
-  {
-    "title": "人工智能成为巴塞罗那世界移动大会的焦点",
-    "url": "https://www.channelnewsasia.com/world/artificial-intelligence-mobile-world-congress-barcelona-5970281",
-    "industry": "Telecommunications",
-    "summary": "人工智能成为巴塞罗那世界移动通信大会的焦点。随着人工智能融入网络和服务，焦点正转向透明、负责任地部署人工智能。",
-    "charlotte_impact": "夏洛特的电信提供商需要考虑以道德方式在运营中部署人工智能的影响。",
-    "impact_score": 3
-  },
-  {
-    "title": "人工智能的采用率正在飙升 - 但许多企业没有基础设施或治理来支持它",
-    "url": "https://www.techradar.com/pro/ai-adoption-is-soaring-but-many-businesses-dont-have-the-infrastructure-or-governance-to-support-it",
-    "industry": "Enterprise AI",
-    "summary": "人工智能的采用率正在飙升，但许多企业缺乏支持它的基础设施和治理。尽管员工需要更多的人工智能工具，但组织的基础设施往往尚未准备好。",
-    "charlotte_impact": "当地企业采用人工智能的速度可能比他们准备的要快，并且需要实施适当的治理和基础设施。",
-    "impact_score": 5
+    "title": "Satyajit Das：AI——人工智能还是绝对的疯狂？",
+    "url": "https://biztoc.com/x/c26a2ed6238207f3?ref=ff",
+    "industry": "Economics",
+    "summary": "萨蒂亚吉特·达斯 (Satyajit Das) 撰写了一篇文章，质疑人工智能是人工智能还是绝对疯狂。这篇文章强调了人工智能的问题。",
+    "charlotte_impact": "对夏洛特来说没有影响。",
+    "impact_score": 1
   },
   {
     "title": "人工智能 ETF，还是人工智能支持的 ETF？",
     "url": "https://etfdb.com/disruptive-technology-channel/artificial-intelligence-etfs-or-etfs-powered-by-ai/",
-    "industry": "Financial Services",
-    "summary": "讨论人工智能 ETF 或由人工智能支持的 ETF 之间的差异以及金融机构的注意事项。",
-    "charlotte_impact": "本地财富管理公司需要了解这些产品之间的区别，以获得合理的财务建议。",
-    "impact_score": 2
-  },
-  {
-    "title": "特朗普将在中期选举前与科技巨头会面讨论能源承诺",
-    "url": "https://www.channelnewsasia.com/business/trump-meet-tech-giants-energy-pledge-ahead-midterms-5970576",
-    "industry": "Energy/Politics",
-    "summary": "美国前总统唐纳德·特朗普将与谷歌、Meta 和 OpenAI 等主要科技公司的领导人会面，正式做出一项承诺，旨在保护消费者免受因能源密集型计算集群快速扩张而导致电费上涨的影响。",
-    "charlotte_impact": "间接影响；强调科技公司面临的政治压力以及气候变化压力如何影响增长。",
-    "impact_score": 3
-  },
-  {
-    "title": "谷歌搜索向所有美国用户推出人工智能模式下的 Gemini Canvas",
-    "url": "https://techcrunch.com/2026/03/04/https-techcrunch-com-2026-03-04-google-search-rolls-out-geminis-canvas-in-ai-mode-to-all-us-users/",
-    "industry": "Search Engines",
-    "summary": "Google 搜索向所有美国用户推出了 Gemini 的 AI 模式 Canvas，使他们能够直接从搜索结果中创建计划、项目、应用程序等。",
-    "charlotte_impact": "本地知识工作者获得更多用于搜索和规划的人工智能工具。",
-    "impact_score": 3
-  },
-  {
-    "title": "报告称 Apple Music 将添加透明标签以区分人工智能音乐",
-    "url": "https://techcrunch.com/2026/03/04/apple-music-to-add-transparency-tags-to-distinguish-ai-music-says-report/",
-    "industry": "Music/Copyright",
-    "summary": "报道称，Apple Music 将添加透明标签来区分人工智能音乐，并要求唱片公司或发行商选择加入。",
-    "charlotte_impact": "可能会影响夏洛特当地的音乐家和行业利益相关者。",
-    "impact_score": 2
-  },
-  {
-    "title": "RadNet, Inc. 提醒投资者有关最近完成的 Gleamer SAS 收购的专门电话会议和演示",
-    "url": "https://www.globenewswire.com/news-release/2026/03/04/3249150/10985/en/RadNet-Inc-Reminds-Investors-of-the-Dedicated-Conference-Call-and-Presentation-About-the-Recently-Completed-Acquisition-of-Gleamer-SAS.html",
-    "industry": "Healthcare",
-    "summary": "RadNet, Inc. 提醒投资者有关最近完成的人工智能医学成像公司 Gleamer SAS 收购的专门电话会议和演示。",
-    "charlotte_impact": "RadNet 的总部不在夏洛特，因此直接影响相对较小。",
+    "industry": "Finance",
+    "summary": "VettaFi 作家研究了人工智能 ETF 和由人工智能驱动的 ETF，以及这两个类别之间的差异。它们突出了类别之间的差异。",
+    "charlotte_impact": "夏洛特投资者需要意识到这些差异。那些人工智能驱动力更强的企业可能会获得更好的回报。",
     "impact_score": 1
-  },
-  {
-    "title": "2026年“南京日”经贸推介会在德国斯图加特成功举办",
-    "url": "https://www.globenewswire.com/news-release/2026/03/04/3249153/0/en/2026-Nanjing-Day-Economic-and-Trade-Promotion-Conference-Successfully-Held-in-Stuttgart-Germany.html",
-    "industry": "International Trade",
-    "summary": "2026年“南京日”经贸推介会在德国斯图加特成功举办，围绕南京高质量发展和优势产业，举办主推介会和三场平行研讨会。",
-    "charlotte_impact": "间接影响；促进经济伙伴关系，可能影响全球供应链。",
-    "impact_score": 1
-  },
-  {
-    "title": "EVTOL 飞机市场 - 全球预测 2026-2032：城市空中交通、自主系统、可持续推进、基础设施集成、战略合作伙伴关系的机会",
-    "url": "https://www.globenewswire.com/news-release/2026/03/04/3249147/28124/en/EVTOL-Aircraft-Market-Global-Forecast-2026-2032-Opportunities-in-Urban-Air-Mobility-Autonomous-Systems-Sustainable-Propulsion-Infrastructure-Integration-Strategic-Partnerships.html",
-    "industry": "Aviation",
-    "summary": "在城市空中交通、自主系统、可持续推进、基础设施集成和战略合作伙伴关系等机遇的推动下，电动垂直起降飞机市场预计将大幅增长。",
-    "charlotte_impact": "直接影响有限，但可能影响夏洛特地区未来的交通基础设施规划。",
-    "impact_score": 2
-  },
-  {
-    "title": "五角大楼的争端增强了人类的声誉，但引发了人们对人工智能在军事领域准备情况的质疑",
-    "url": "https://abcnews.com/Technology/wireStory/pentagon-dispute-bolsters-anthropic-reputation-raises-questions-ai-130727948",
-    "industry": "Military",
-    "summary": "Anthropic 对美国军事使用人工智能的道德立场正在重塑领先人工智能公司之间的竞争，但也暴露了人们日益认识到聊天机器人可能不足以应对战争行为。",
-    "charlotte_impact": "间接影响引发了有关人工智能在执法中使用的问题。",
-    "impact_score": 2
   }
 ]

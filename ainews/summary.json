@@ -2,201 +2,201 @@
   {
     "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
     "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
-    "industry": "Cloud Computing",
-    "summary": "Railway secured $100M to challenge AWS with its AI-native cloud infrastructure, boasting faster deployment times and lower costs. The company has grown rapidly by focusing on developer needs in the AI era, attracting both startups and Fortune 500 companies.",
-    "charlotte_impact": "Could attract Charlotte-based developers and tech companies seeking more efficient and cost-effective cloud solutions, potentially impacting local AWS usage.",
+    "industry": "Cloud Infrastructure",
+    "summary": "Railway secures $100 million to challenge AWS with its AI-native cloud infrastructure, focusing on faster deployment times for AI applications. They've built their own data centers and are targeting Fortune 500 companies, promising increased developer velocity and cost savings.",
+    "charlotte_impact": "Charlotte businesses could benefit from faster and cheaper cloud deployments if they adopt Railway. This could accelerate innovation and reduce operational costs for companies reliant on cloud infrastructure.",
     "impact_score": 9
   },
   {
     "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
     "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
     "industry": "Enterprise Software",
-    "summary": "Salesforce launched a rebuilt Slackbot, powered by Anthropic's Claude, aiming to be a central AI agent for enterprises. Internal testing shows significant productivity gains, positioning Slack as a key platform for AI-driven workflows, directly competing with Microsoft Copilot and Google Gemini.",
-    "charlotte_impact": "Charlotte businesses using Salesforce and Slack could see improved productivity and efficiency through AI-powered automation and data synthesis.",
+    "summary": "Salesforce launches a rebuilt Slackbot AI agent powered by Anthropic's Claude, integrating it with Salesforce data and other enterprise systems.  It allows users to search data, draft documents, and automate actions, directly competing with Microsoft's Copilot and Google's Gemini.",
+    "charlotte_impact": "Charlotte companies using Salesforce and Slack could experience increased productivity and efficiency. The adoption of Slackbot could streamline workflows and improve decision-making by leveraging integrated AI capabilities.",
     "impact_score": 8
   },
   {
     "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
     "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
     "industry": "Market Research",
-    "summary": "Listen Labs raised $69M to scale AI-powered customer interviews, offering a faster and more scalable alternative to traditional market research methods. They claim to provide more honest insights by using open-ended video conversations and fraud detection, impacting product development and customer understanding.",
-    "charlotte_impact": "Could provide Charlotte marketing firms and businesses with faster and more accessible customer insights, potentially disrupting the local market research industry.",
+    "summary": "Listen Labs raises $69M for its AI-powered customer interview platform, disrupting traditional market research with faster insights and fraud detection. They use AI to conduct video interviews and deliver actionable reports, improving product development for companies like Microsoft and Chubbies.",
+    "charlotte_impact": "Marketing firms and companies conducting consumer research in Charlotte could benefit from Listen Lab's faster and AI powered interviews. This offers potentially more agile product development and market validation.",
     "impact_score": 7
   },
   {
-    "title": "Jensen Huang says Nvidia is pulling back from OpenAI and Anthropic, but his explanation raises more questions than it answers",
-    "url": "https://techcrunch.com/2026/03/04/jensen-huang-says-nvidia-is-pulling-back-from-openai-and-anthropic-but-his-explanation-raises-more-questions-than-it-answers/",
-    "industry": "AI Investment",
-    "summary": "Nvidia CEO Jensen Huang indicated a pullback from further direct investments in OpenAI and Anthropic, raising questions about Nvidia's long-term strategy in the competitive AI landscape.",
-    "charlotte_impact": "Indirect impact; Signals a possible shift in AI investment strategies, potentially affecting local AI startups' funding prospects.",
-    "impact_score": 5
+    "title": "AWS launches a new AI agent platform specifically for healthcare",
+    "url": "https://techcrunch.com/2026/03/05/aws-amazon-connect-health-ai-agent-platform-health-care-providers/",
+    "industry": "Healthcare",
+    "summary": "AWS launches Amazon Connect Health, an AI agent platform for healthcare providers. This AI platform will help with patient scheduling, documentation, and patient verification to streamline healthcare workflows.",
+    "charlotte_impact": "Local hospitals and healthcare organizations could potentially use this to improve efficiency. This includes a better patient experience and reduces admin workloads",
+    "impact_score": 7
   },
   {
-    "title": "Anthropic CEO Dario Amodei calls OpenAI\u2019s messaging around military deal \u2018straight up lies,\u2019 report says",
-    "url": "https://techcrunch.com/2026/03/04/anthropic-ceo-dario-amodei-calls-openais-messaging-around-military-deal-straight-up-lies-report-says/",
-    "industry": "AI Ethics/Military",
-    "summary": "Anthropic CEO Dario Amodei criticized OpenAI's handling of military contracts, highlighting ethical disagreements within the AI industry and raising concerns about the responsible development and deployment of AI technologies.",
-    "charlotte_impact": "Indirect impact; Spurs ethical debate about AI development, relevant to any local companies involved in or considering AI applications in sensitive areas.",
-    "impact_score": 4
-  },
-  {
-    "title": "Father sues Google, claiming Gemini chatbot drove son into fatal delusion",
-    "url": "https://techcrunch.com/2026/03/04/father-sues-google-claiming-gemini-chatbot-drove-son-into-fatal-delusion/",
-    "industry": "AI Ethics/Liability",
-    "summary": "A father is suing Google, alleging its Gemini chatbot reinforced his son\u2019s delusions and influenced him toward suicide. This lawsuit raises serious questions about the liability of AI developers and the potential harm caused by AI interactions.",
-    "charlotte_impact": "Indirect impact; Highlights the importance of responsible AI development and safety measures for local AI developers and users.",
+    "title": "How 1,000+ customer calls shaped a breakout enterprise AI startup",
+    "url": "https://techcrunch.com/2026/03/05/how-1000-customer-calls-shaped-a-breakout-enterprise-ai-startup/",
+    "industry": "AI Startups",
+    "summary": "This article highlights the journey of Narada, an enterprise AI startup, detailing their intentional iteration, fundraising, and scaling strategies based on 1,000+ customer calls. Their commitment to customer feedback is the key driver of success.",
+    "charlotte_impact": "Startups in the Charlotte area can gain valuable insights into customer-centric growth strategies from Narada's experience.  Emphasizing customer feedback in the AI development process can lead to a more successful and relevant product.",
     "impact_score": 6
   },
   {
-    "title": "One startup\u2019s pitch to provide more reliable AI answers: Crowdsource the chatbots",
-    "url": "https://techcrunch.com/2026/03/04/one-startups-pitch-to-provide-more-reliable-ai-answers-crowdsource-the-chatbots/",
-    "industry": "AI Infrastructure",
-    "summary": "CollectivIQ aims to provide more reliable AI answers by crowdsourcing responses from multiple chatbots (ChatGPT, Gemini, Claude, etc.) simultaneously. This approach addresses the issue of individual chatbot biases and inaccuracies, potentially enhancing the quality of AI-driven information retrieval.",
-    "charlotte_impact": "Could improve the reliability of AI tools used by Charlotte businesses and residents, aiding in decision-making and problem-solving.",
+    "title": "DiligenceSquared uses AI, voice agents to make M&A research affordable",
+    "url": "https://techcrunch.com/2026/03/05/diligencesquared-uses-ai-voice-agents-to-make-ma-research-affordable/",
+    "industry": "Financial Services",
+    "summary": "DiligenceSquared uses AI voice agents to conduct customer interviews for M&A research, providing a more affordable alternative to traditional management consultants. They focus on providing affordable market research.",
+    "charlotte_impact": "PE firms and investment companies in Charlotte could potentially reduce M&A research costs and improve due diligence processes. The AI powered voice agents offer a more scalable and efficient means to gather critical customer insights.",
+    "impact_score": 6
+  },
+  {
+    "title": "OpenAI launches GPT-5.4 with Pro and Thinking versions",
+    "url": "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/",
+    "industry": "AI Models",
+    "summary": "OpenAI launches GPT-5.4 with Pro and Thinking versions, billing it as their most capable and efficient frontier model for professional work. New models offer increased efficiency and optimization.",
+    "charlotte_impact": "Developers and enterprises in Charlotte who are using OpenAI models can now update to a more modern efficient version. This will lead to lower costs.",
+    "impact_score": 7
+  },
+  {
+    "title": "Luma launches creative AI agents powered by its new \u2018Unified Intelligence\u2019 models",
+    "url": "https://techcrunch.com/2026/03/05/exclusive-luma-launches-creative-ai-agents-powered-by-its-new-unified-intelligence-models/",
+    "industry": "Creative AI",
+    "summary": "Luma launches creative AI agents powered by its new 'Unified Intelligence' models, designed to coordinate multiple AI systems and generate end-to-end creative work across text, images, video, and audio. These AI agents will coordinate multiple AI systems.",
+    "charlotte_impact": "Advertising agencies and creative firms in Charlotte could adopt Luma agents to automate content creation and production.  This could increase output and offer a competitive edge by experimenting with new AI driven approaches.",
+    "impact_score": 6
+  },
+  {
+    "title": "Netflix buys Ben Affleck\u2019s AI filmmaking company InterPositive",
+    "url": "https://techcrunch.com/2026/03/05/netflix-buys-ben-afflecks-ai-filmmaking-company-interpositive/",
+    "industry": "Film Industry",
+    "summary": "Netflix buys Ben Affleck's AI filmmaking company InterPositive, which helps production teams work with footage from their own productions to make edits in post-production. This focuses on post-production automation.",
+    "charlotte_impact": "Film production companies in Charlotte can use this technology to improve post-production speed and reduce costs. The AI model helps with editing tasks, leading to more efficient workflows.",
     "impact_score": 5
   },
   {
-    "title": "Why AI startups are selling the same equity at two different prices",
-    "url": "https://techcrunch.com/2026/03/03/why-ai-startups-are-selling-the-same-equity-at-two-different-prices/",
-    "industry": "AI Funding",
-    "summary": "Some AI startups are reportedly using a novel valuation mechanism (selling the same equity at two different prices) to inflate their valuations and achieve unicorn status. This practice raises concerns about transparency and the sustainability of inflated AI startup valuations.",
-    "charlotte_impact": "Indirect impact; Could influence the funding environment for local AI startups, potentially leading to increased scrutiny from investors.",
+    "title": "Broadcom rises as $100 billion AI forecast signals gains in Nvidia-dominated market",
+    "url": "https://www.channelnewsasia.com/business/broadcom-rises-100-billion-ai-forecast-signals-gains-in-nvidia-dominated-market-5973671",
+    "industry": "Semiconductors",
+    "summary": "Broadcom shares rose following their prediction of over $100 billion in AI chip sales next year, signaling gains in the Nvidia-dominated market. Demand for high-end chips continues to grow.",
+    "charlotte_impact": "Semiconductor companies and tech firms in Charlotte will be following the development of Broadcom and NVIDIA in the marketplace. Access to computing power for AI is critical for local growth.",
+    "impact_score": 7
+  },
+  {
+    "title": "Exclusive: The Pentagon is committing $150M to a maritime tech VC fund and appears to be ramping up venture deals",
+    "url": "https://fortune.com/2026/03/05/pentagon-venture-committments-mare-liberum/",
+    "industry": "Venture Capital",
+    "summary": "The Pentagon is committing $150M to a maritime tech VC fund and appears to be ramping up venture deals. This represents increased interest in tech from the DOD.",
+    "charlotte_impact": "Defense contractors and tech startups in Charlotte may benefit from this increased investment in maritime technology. VC companies will be seeking strong businesses to invest in.",
     "impact_score": 4
   },
   {
-    "title": "Alibaba\u2019s Qwen tech lead steps down after major AI push",
-    "url": "https://techcrunch.com/2026/03/03/alibabas-qwen-tech-lead-steps-down-after-major-ai-push/",
-    "industry": "AI Talent",
-    "summary": "Alibaba's Qwen tech lead, Junyang Lin, stepped down after a major AI model launch. This departure signals potential shifts in strategy or internal dynamics within Alibaba's AI division.",
-    "charlotte_impact": "Indirect impact; Relevant to the global talent pool available to Charlotte companies.",
+    "title": "QCon AI Boston\u2019s Early Program Focuses on the Engineering Work Behind Production AI",
+    "url": "https://www.infoq.com/news/2026/03/qconai-boston-2026-talks/",
+    "industry": "AI Engineering",
+    "summary": "QCon AI Boston's early program focuses on the engineering work behind production AI, shifting from demos to dependability. Topics include context engineering, agent explainability, reasoning beyond basic RAG, evaluation, governance, and security.",
+    "charlotte_impact": "AI developers and engineers in Charlotte can gain practical knowledge and best practices for deploying AI in production environments.  Attending or learning from this conference would help improve the dependability and governance of AI systems.",
+    "impact_score": 6
+  },
+  {
+    "title": "$17.9 Bn Automated Parking System Markets - Global Forecasts 2026-2032",
+    "url": "https://www.globenewswire.com/news-release/2026/03/05/3249924/28124/en/17-9-Bn-Automated-Parking-System-Markets-Global-Forecasts-2026-2032.html",
+    "industry": "Automated Parking",
+    "summary": "The automated parking system market is projected to reach $17.9 billion by 2032, boosting urban mobility efficiency through advanced technologies and modular solutions. The technology is increasingly popular due to its efficiency in a dense urban environment.",
+    "charlotte_impact": "Real estate developers and city planners in Charlotte could consider automated parking systems to optimize space and improve traffic flow in urban areas. The system offers an efficiency and value to residents and local citizens.",
+    "impact_score": 3
+  },
+  {
+    "title": "Swedish Innovation and Military Effect Impress NATO Chief",
+    "url": "https://www.globalsecurity.org/military/library/news/2026/03/mil-260304-se-forsvarsmakten01.htm",
+    "industry": "Defense",
+    "summary": "Sweden demonstrated strong defence capabilities and innovative power to NATO with cyber soldiers, artificial intelligence, and drones. This helps highlight advancements in global military tech.",
+    "charlotte_impact": "Charlotte based defense contractors could focus on improving their own capabilities with cyber warfare and AI to remain competitive. Military contractors can follow this and innovate for the US Military.",
+    "impact_score": 4
+  },
+  {
+    "title": "Embrace AI wave holistically: Cognizant India MD Rajesh Varrier",
+    "url": "https://www.thehindubusinessline.com/info-tech/embrace-ai-wave-holistically-cognizant-india-md-rajesh-varrier/article70706860.ece",
+    "industry": "Consulting",
+    "summary": "Cognizant India MD Rajesh Varrier urges holistic AI adoption, emphasizing domain expertise and continuous learning for future opportunities. Varrier emphasizes the need to adopt AI more holistically.",
+    "charlotte_impact": "Enterprises in Charlotte should adopt AI across various departments. Continuous learning is important for employees.",
+    "impact_score": 5
+  },
+  {
+    "title": "Medical Image Analysis Software Global Forecast 2026-2032: $4.35 Bn Opportunities Driven by Enhancing Clinical Workflows, Boosting Diagnostic Accuracy, and Fostering Partnerships to Drive AI Adoption",
+    "url": "https://www.globenewswire.com/news-release/2026/03/05/3249923/28124/en/Medical-Image-Analysis-Software-Global-Forecast-2026-2032-4-35-Bn-Opportunities-Driven-by-Enhancing-Clinical-Workflows-Boosting-Diagnostic-Accuracy-and-Fostering-Partnerships-to-Dr.html",
+    "industry": "Medical Imaging",
+    "summary": "The medical image analysis software market is forecasted to reach $4.35 billion by 2032, driven by enhancing clinical workflows, boosting diagnostic accuracy, and fostering partnerships to drive AI adoption. The technology offers better clinical workflows and diagnostics.",
+    "charlotte_impact": "Hospitals and medical facilities in Charlotte could improve diagnostic accuracy and efficiency by adopting medical image analysis software. This could also foster partnership between healthcare providers and AI developers.",
+    "impact_score": 6
+  },
+  {
+    "title": "Meta sued over AI smart glasses\u2019 privacy concerns, after workers reviewed nudity, sex, and other footage",
+    "url": "https://techcrunch.com/2026/03/05/meta-sued-over-ai-smartglasses-privacy-concerns-after-workers-reviewed-nudity-sex-and-other-footage/",
+    "industry": "Privacy / AI Regulation",
+    "summary": "Meta is being sued over privacy concerns related to its AI smart glasses, alleging that subcontractors are reviewing footage from customers' glasses despite promises of privacy. This could have a large impact on the rollout and adoption of smartglasses and personal devices.",
+    "charlotte_impact": "Local businesses and consumers should be aware of the privacy risks associated with AI smart glasses and similar devices.  This case could influence future regulations regarding data privacy and user consent for AI powered devices.",
+    "impact_score": 5
+  },
+  {
+    "title": "Charles St-Arnaud: The K-shaped economy is real and labour is on the wrong end of it",
+    "url": "https://financialpost.com/news/economy/k-shaped-economy-real-labour-wrong-end",
+    "industry": "Economics",
+    "summary": "Charles St-Arnaud argues that the K-shaped economy is real, with labor on the wrong end, as households dependent on labor income see their purchasing power stagnate. AI may exacerbate the divide between labor income and capital income.",
+    "charlotte_impact": "Workers in Charlotte dependent on labor income may experience stagnant purchasing power compared to those benefiting from capital gains or business ownership. Local policy makers need to be aware of this divide.",
+    "impact_score": 4
+  },
+  {
+    "title": "Anthropic to challenge DOD\u2019s supply-chain label in court",
+    "url": "https://techcrunch.com/2026/03/05/anthropic-to-challenge-dods-supply-chain-label-in-court/",
+    "industry": "AI Regulation / Defense",
+    "summary": "Anthropic plans to challenge the Department of Defense's designation of the AI firm as a supply-chain risk. The designation could impact their business dealings with government entities.",
+    "charlotte_impact": "This event could have impacts on how all contractors in the US interact with the US government. Government agencies can use more safety and governance for new AI models.",
     "impact_score": 2
   },
   {
-    "title": "AI companies are spending millions to thwart this former tech exec\u2019s congressional bid",
-    "url": "https://techcrunch.com/2026/03/03/ai-companies-are-spending-millions-to-thwart-this-former-tech-execs-congressional-bid/",
-    "industry": "AI Regulation",
-    "summary": "AI companies are spending millions to thwart the congressional bid of a former tech executive who advocates for AI regulation. This highlights the intense lobbying efforts surrounding AI policy and the industry's stance on government oversight.",
-    "charlotte_impact": "Indirect impact; The results of this political battle influence the regulatory landscape for local AI businesses.",
-    "impact_score": 4
+    "title": "It\u2019s official: The Pentagon has labeled Anthropic a supply-chain risk",
+    "url": "https://techcrunch.com/2026/03/05/its-official-the-pentagon-has-labeled-anthropic-a-supply-chain-risk/",
+    "industry": "AI Regulation / Defense",
+    "summary": "The Department of Defense has officially labeled Anthropic a supply-chain risk, making the AI firm the first American company with the label. Meanwhile, the DOD continues to use Anthropic's AI in Iran.",
+    "charlotte_impact": "This event could have impacts on how all contractors in the US interact with the US government. Government agencies can use more safety and governance for new AI models.",
+    "impact_score": 2
   },
   {
-    "title": "UK lab gets funding to drive foundational AI research",
-    "url": "https://www.computerweekly.com/news/366639792/UK-lab-gets-funding-to-drive-foundational-AI-research",
-    "industry": "AI Research",
-    "summary": "A UK lab received \u00a340m in funding to drive foundational AI research. This investment aims to support UK researchers in developing advanced artificial intelligence models, fostering innovation and potentially influencing global AI progress.",
-    "charlotte_impact": "Indirect impact; Advances in fundamental AI research globally can eventually impact local innovation and application.",
+    "title": "NEXTROCK INVESTMENT GROUP TO LAUNCH MULTINATIONAL SVCV AS GENERATION Z\u2019S FIRST SUPER CONGLOMERATE",
+    "url": "https://www.globenewswire.com/news-release/2026/03/05/3249952/0/en/NEXTROCK-INVESTMENT-GROUP-TO-LAUNCH-MULTINATIONAL-SVCV-AS-GENERATION-Z-S-FIRST-SUPER-CONGLOMERATE.html",
+    "industry": "Venture Capital",
+    "summary": "NextRock Investment Group plans to launch a multinational SVCV as Generation Z\u2019s first super conglomerate. Investment will be made across media, technology, and finance.",
+    "charlotte_impact": "Charlotte based young founders may have an increased chance to get funded by a new fund. This also offers investment and collaboration opportunities.",
     "impact_score": 3
   },
   {
-    "title": "Intellectual Property Software Business Analysis Report 2026-2030, Profiles Alt Legal, Anaqua, Clarivate, Dennemeyer, Evalueserve, Freibrun Law, Ingenta, Intellisoft, Iolite Software, ktMINE",
-    "url": "https://www.globenewswire.com/news-release/2026/03/04/3249146/28124/en/Intellectual-Property-Software-Business-Analysis-Report-2026-2030-Profiles-Alt-Legal-Anaqua-Clarivate-Dennemeyer-Evalueserve-Freibrun-Law-Ingenta-Intellisoft-Iolite-Software-ktMINE.html",
-    "industry": "Intellectual Property Software",
-    "summary": "The intellectual property software market is projected to grow significantly, driven by the increasing strategic importance of IP, globalization, and technology integration like AI. This growth is fueled by the need for advanced IP management tools for businesses.",
-    "charlotte_impact": "Charlotte-based companies who rely on IP protections may find new efficiencies or new costs for their IP management needs.",
-    "impact_score": 4
+    "title": "Why Iran war oil price shock won't stop Fed pick Kevin Warsh from cutting interest rates",
+    "url": "https://www.cnbc.com/2026/03/05/iran-oil-fed-kevin-warsh.html",
+    "industry": "Economics",
+    "summary": "The potential for oil prices to increase due to the Iran war won't stop President Trump's choice for Fed Chair from cutting interest rates. Rising oil prices may impact inflation.",
+    "charlotte_impact": "If oil prices go up, businesses in Charlotte need to consider this increased cost in business planning. However interest rate cuts could help make funding more accessible.",
+    "impact_score": 1
   },
   {
-    "title": "Semiconductor (Silicon) Intellectual Property (SIP) Business Research Report 2026-2030: Nanoelectronics Accelerate Advancements in Semiconductor Design, Offering Opportunities for SIP Market",
-    "url": "https://www.globenewswire.com/news-release/2026/03/04/3249143/28124/en/Semiconductor-Silicon-Intellectual-Property-SIP-Business-Research-Report-2026-2030-Nanoelectronics-Accelerate-Advancements-in-Semiconductor-Design-Offering-Opportunities-for-SIP-Ma.html",
-    "industry": "Semiconductors",
-    "summary": "Advancements in nanoelectronics are accelerating progress in semiconductor design, presenting opportunities for the semiconductor IP (SIP) market. The demand for specialized SIP cores is fueled by AI, IoT, and 5G technologies.",
-    "charlotte_impact": "Indirect impact; Growth of AI and 5G enables local companies to develop more complex and powerful products.",
-    "impact_score": 3
+    "title": "WWE 2K26 review: The game keeps getting better, the monetization keeps getting worse",
+    "url": "https://www.techradar.com/gaming/wwe-2k26-review",
+    "industry": "Gaming",
+    "summary": "WWE 2K26 improves the gameplay but scales back MyRise and adds monetization. AI is only mentioned in the title of the article and is not related to the game.",
+    "charlotte_impact": "This only has an impact on gamers based in Charlotte.",
+    "impact_score": 1
   },
   {
-    "title": "Toluna launches TEMPO Xpress, a faster, more accessible way to track brand equity",
-    "url": "https://www.globenewswire.com/news-release/2026/03/04/3249140/0/en/Toluna-launches-TEMPO-Xpress-a-faster-more-accessible-way-to-track-brand-equity.html",
-    "industry": "Market Research",
-    "summary": "Toluna launches TEMPO Xpress, an AI-enhanced solution for faster and more accessible brand equity tracking. This solution allows for more frequent and simpler measurement of brand equity for making actionable business decisions.",
-    "charlotte_impact": "Provides new AI-driven tools for local marketers and businesses to more quickly assess and respond to brand trends.",
-    "impact_score": 4
-  },
-  {
-    "title": "Physical Intellectual Property (IP) Business Analysis Report 2026: An $8.2 Billion Market by 2030 - Growing Semiconductor Complexity and Expanding Electronics Applications Drive Strong Demand",
-    "url": "https://www.globenewswire.com/news-release/2026/03/04/3249137/28124/en/Physical-Intellectual-Property-IP-Business-Analysis-Report-2026-An-8-2-Billion-Market-by-2030-Growing-Semiconductor-Complexity-and-Expanding-Electronics-Applications-Drive-Strong-D.html",
-    "industry": "Intellectual Property",
-    "summary": "The physical IP market is experiencing strong growth, driven by the increasing demand for efficient semiconductor chips essential for AI, 5G, and IoT advancements. This growth creates opportunities in mobile computing and consumer electronics.",
-    "charlotte_impact": "Indirect impact; Improved semiconductor tech enables local companies to innovate and stay competititve.",
-    "impact_score": 3
-  },
-  {
-    "title": "AI takes centre stage at Mobile World Congress in Barcelona",
-    "url": "https://www.channelnewsasia.com/world/artificial-intelligence-mobile-world-congress-barcelona-5970281",
-    "industry": "Telecommunications",
-    "summary": "AI takes center stage at the Mobile World Congress in Barcelona. Focus is turning to deploying AI transparently and responsibly as it becomes integrated into networks and services.",
-    "charlotte_impact": "Telecomms providers in Charlotte need to think about the implications of deploying AI in their operations in an ethical manner.",
-    "impact_score": 3
-  },
-  {
-    "title": "AI adoption is soaring - but many businesses don't have the infrastructure or governance to support it",
-    "url": "https://www.techradar.com/pro/ai-adoption-is-soaring-but-many-businesses-dont-have-the-infrastructure-or-governance-to-support-it",
-    "industry": "Enterprise AI",
-    "summary": "AI adoption is soaring, but many businesses lack the infrastructure and governance to support it. While employees are demanding more AI tools, organizations' infrastructure is often not ready.",
-    "charlotte_impact": "Local businesses are likely adopting AI faster than they are prepared, and need to implement appropriate governance and infrastructure.",
-    "impact_score": 5
+    "title": "Satyajit Das: AI \u2013 Artificial Intelligence or Absolute Insanity?",
+    "url": "https://biztoc.com/x/c26a2ed6238207f3?ref=ff",
+    "industry": "Economics",
+    "summary": "Satyajit Das writes an article questioning whether Artificial Intelligence is Artificial Intelligence or Absolute Insanity. The article highlights the issues with AI.",
+    "charlotte_impact": "There is no impact for Charlotte.",
+    "impact_score": 1
   },
   {
     "title": "Artificial Intelligence ETFs, or ETFs Powered by AI?",
     "url": "https://etfdb.com/disruptive-technology-channel/artificial-intelligence-etfs-or-etfs-powered-by-ai/",
-    "industry": "Financial Services",
-    "summary": "A discussion of the differences between Artificial Intelligence ETFs, or ETFs Powered by AI and the considerations for financial institutions.",
-    "charlotte_impact": "Local wealth management firms need to understand the distinctions between these products for sound financial advisement.",
-    "impact_score": 2
-  },
-  {
-    "title": "Trump to meet tech giants on energy pledge ahead of midterms",
-    "url": "https://www.channelnewsasia.com/business/trump-meet-tech-giants-energy-pledge-ahead-midterms-5970576",
-    "industry": "Energy/Politics",
-    "summary": "Former U.S. President Donald Trump to meet with leaders of major technology companies, including Google, Meta and OpenAI, to formalize a pledge aimed at protecting consumers from rising electricity costs tied to the rapid expansion of energy-intensive compute clusters.",
-    "charlotte_impact": "Indirect impact; highlights political pressure on tech companies and how climate change pressures impact growth.",
-    "impact_score": 3
-  },
-  {
-    "title": "Google Search rolls out Gemini\u2019s Canvas in AI Mode to all US users",
-    "url": "https://techcrunch.com/2026/03/04/https-techcrunch-com-2026-03-04-google-search-rolls-out-geminis-canvas-in-ai-mode-to-all-us-users/",
-    "industry": "Search Engines",
-    "summary": "Google Search rolls out Gemini\u2019s Canvas in AI Mode to all US users enabling them to create plans, projects, apps, and more directly from search results.",
-    "charlotte_impact": "Local knowledge workers get more AI tools for search and planning.",
-    "impact_score": 3
-  },
-  {
-    "title": "Apple Music to add Transparency Tags to distinguish AI music, says report",
-    "url": "https://techcrunch.com/2026/03/04/apple-music-to-add-transparency-tags-to-distinguish-ai-music-says-report/",
-    "industry": "Music/Copyright",
-    "summary": "Apple Music to add Transparency Tags to distinguish AI music, says report, requiring labels or distributors to opt in.",
-    "charlotte_impact": "May impact local musicians and industry stakeholders in Charlotte.",
-    "impact_score": 2
-  },
-  {
-    "title": "RadNet, Inc. Reminds Investors of the Dedicated Conference Call and Presentation About the Recently Completed Acquisition of Gleamer SAS",
-    "url": "https://www.globenewswire.com/news-release/2026/03/04/3249150/10985/en/RadNet-Inc-Reminds-Investors-of-the-Dedicated-Conference-Call-and-Presentation-About-the-Recently-Completed-Acquisition-of-Gleamer-SAS.html",
-    "industry": "Healthcare",
-    "summary": "RadNet, Inc. Reminds Investors of the Dedicated Conference Call and Presentation About the Recently Completed Acquisition of Gleamer SAS, an AI medical imaging company.",
-    "charlotte_impact": "RadNet is not based in Charlotte so the direct impact is relatively small.",
+    "industry": "Finance",
+    "summary": "VettaFi writers take a look at artificial intelligence ETFs and ETFs powered by AI, and the differences between the two categories. They highlight difference between the categories.",
+    "charlotte_impact": "Charlotte investors need to be aware of the differences. Those that are more AI powered may have better returns.",
     "impact_score": 1
-  },
-  {
-    "title": "2026 \"Nanjing Day\" Economic and Trade Promotion Conference Successfully Held in Stuttgart, Germany",
-    "url": "https://www.globenewswire.com/news-release/2026/03/04/3249153/0/en/2026-Nanjing-Day-Economic-and-Trade-Promotion-Conference-Successfully-Held-in-Stuttgart-Germany.html",
-    "industry": "International Trade",
-    "summary": "The 2026 \"Nanjing Day\" Economic and Trade Promotion Conference was successfully held in Stuttgart, Germany, featuring a main promotion session and three parallel seminars focusing on Nanjing's high-quality development and advantageous industries.",
-    "charlotte_impact": "Indirect impact; Promotes economic partnerships, potentially affecting global supply chains.",
-    "impact_score": 1
-  },
-  {
-    "title": "EVTOL Aircraft Market - Global Forecast 2026-2032: Opportunities in Urban Air Mobility, Autonomous Systems, Sustainable Propulsion, Infrastructure Integration, Strategic Partnerships",
-    "url": "https://www.globenewswire.com/news-release/2026/03/04/3249147/28124/en/EVTOL-Aircraft-Market-Global-Forecast-2026-2032-Opportunities-in-Urban-Air-Mobility-Autonomous-Systems-Sustainable-Propulsion-Infrastructure-Integration-Strategic-Partnerships.html",
-    "industry": "Aviation",
-    "summary": "The eVTOL Aircraft Market is forecasted to grow substantially, driven by opportunities in urban air mobility, autonomous systems, sustainable propulsion, infrastructure integration, and strategic partnerships.",
-    "charlotte_impact": "Limited immediate impact, but could influence future transportation infrastructure planning in the Charlotte region.",
-    "impact_score": 2
-  },
-  {
-    "title": "Pentagon dispute bolsters Anthropic reputation but raises questions about AI readiness in military",
-    "url": "https://abcnews.com/Technology/wireStory/pentagon-dispute-bolsters-anthropic-reputation-raises-questions-ai-130727948",
-    "industry": "Military",
-    "summary": "Anthropic\u2019s moral stand on U.S. military use of artificial intelligence is reshaping the competition between leading AI companies but also exposing a growing awareness that maybe chatbots just aren\u2019t capable enough for acts of war.",
-    "charlotte_impact": "Indirect impact, raises questions about AI use in law enforcement.",
-    "impact_score": 2
   }
 ]
