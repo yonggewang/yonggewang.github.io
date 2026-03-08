@@ -1,122 +1,117 @@
-[
-  {
-    "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
-    "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
-    "industry": "Cloud Infrastructure",
-    "summary": "Railway secured $100M in Series B funding to challenge AWS with its AI-native cloud infrastructure, offering faster deployment times and cost savings.  The company is attracting developers frustrated with traditional cloud platforms, leading to significant revenue growth.",
-    "charlotte_impact": "Faster, cheaper cloud infrastructure could benefit Charlotte's growing tech sector and startups, potentially attracting businesses looking for cost-effective solutions.",
-    "impact_score": 9
-  },
-  {
-    "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
-    "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
-    "industry": "Enterprise Software",
-    "summary": "Salesforce launched a rebuilt Slackbot AI agent powered by Anthropic's Claude, integrating it deeply with enterprise data to automate tasks and provide insights. Internal testing showed significant time savings and high satisfaction, positioning Slackbot as a 'super agent'.",
-    "charlotte_impact": "Charlotte companies using Salesforce and Slack could benefit from increased automation and efficiency, but may face cost pressures related to Salesforce's data access fees.",
-    "impact_score": 8
-  },
-  {
-    "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
-    "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
-    "industry": "Market Research",
-    "summary": "Listen Labs raised $69M to scale its AI-powered customer interview platform, offering faster and more in-depth insights compared to traditional methods. The company is experiencing rapid revenue growth, driven by the demand for faster customer understanding.",
-    "charlotte_impact": "Charlotte businesses can leverage AI to get faster insights, product testing, and improve overall business decisions, allowing them to compete effectively.",
-    "impact_score": 7
-  },
-  {
-    "title": "Microsoft, Google, Amazon say Anthropic Claude remains available to non-defense customers",
-    "url": "https://techcrunch.com/2026/03/06/microsoft-anthropic-claude-remains-available-to-customers-except-the-defense-department/",
-    "industry": "AI Regulation",
-    "summary": "Microsoft, Google, and Amazon clarify that access to Anthropic's Claude remains available to most non-defense customers after Trump's Department of War's issue with the AI model.",
-    "charlotte_impact": "This clarification maintains access to key AI technologies for Charlotte businesses, ensuring continued development and deployment without disruption.",
-    "impact_score": 6
-  },
-  {
-    "title": "Google, Meta and the AI \u2018hyperscalers\u2019 are on a $1 trillion borrowing binge after years of printing cash. Here\u2019s why Big Tech\u2019s pivot to debt matters",
-    "url": "https://fortune.com/2026/03/07/big-tech-trillion-dollar-borrowing-ai-century-bonds/",
-    "industry": "Finance & Investment",
-    "summary": "Google, Meta, and other AI 'hyperscalers' are on a $1 trillion borrowing spree to fund their AI infrastructure buildout, reflecting the massive investment required but also potential overinvestment risk.",
-    "charlotte_impact": "This trend can impact Charlotte's economy by potentially drawing more tech companies into the region as big tech expands, as well as creating risks from the debt.",
-    "impact_score": 6
-  },
-  {
-    "title": "Google just gave Sundar Pichai a $692M pay package",
-    "url": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/",
-    "industry": "Executive Compensation",
-    "summary": "Google CEO Sundar Pichai received a $692M pay package largely tied to performance and linked to Waymo and Wing, reflecting the importance of AI-driven ventures for the company's future.",
-    "charlotte_impact": "While not directly impacting Charlotte, this highlights the high value placed on AI leadership, potentially influencing talent attraction and compensation strategies locally.",
-    "impact_score": 3
-  },
-  {
-    "title": "OpenAI robotics lead Caitlin Kalinowski quits in response to Pentagon deal",
-    "url": "https://techcrunch.com/2026/03/07/openai-robotics-lead-caitlin-kalinowski-quits-in-response-to-pentagon-deal/",
-    "industry": "AI Ethics & Regulation",
-    "summary": "OpenAI's robotics lead, Caitlin Kalinowski, resigned in response to the company's controversial agreement with the Department of Defense, highlighting ethical concerns within the AI industry.",
-    "charlotte_impact": "Ethical considerations may become a crucial aspect when investing in and implementing AI, leading to compliance concerns for Charlotte firms.",
-    "impact_score": 4
-  },
-  {
-    "title": "After Europe, WhatsApp will let rival AI companies offer chatbots in Brazil",
-    "url": "https://techcrunch.com/2026/03/06/after-europe-whatsapp-will-let-rival-ai-companies-offer-chatbots-in-brazil/",
-    "industry": "Messaging Platforms & AI",
-    "summary": "WhatsApp will let rival AI companies offer chatbots in Brazil and Europe for a fee, expanding access to AI services on the messaging platform.",
-    "charlotte_impact": "Increased business opportunities to integrate AI on major messaging platforms, leading to potential new vendors Charlotte businesses could consider.",
-    "impact_score": 5
-  },
-  {
-    "title": "City Detect, which uses AI to help cities stay safe and clean, raises $13M Series A",
-    "url": "https://techcrunch.com/2026/03/06/city-detect-uses-ai-to-help-cities-stay-safe-and-clean/",
-    "industry": "Smart Cities & AI",
-    "summary": "City Detect, using AI to help cities stay safe and clean, raised a $13M Series A, expanding its reach to more cities like Dallas and Miami.",
-    "charlotte_impact": "Charlotte could consider using City Detect to improve city safety and sanitation. It creates opportunities for collaboration and innovation to improve quality of life.",
-    "impact_score": 6
-  },
-  {
-    "title": "A Strange Pat\u200b\u200btern Is Appearing in AI Models, and It Looks Surprisingly Human",
-    "url": "https://economictimes.indiatimes.com/news/international/us/a-strange-pattern-is-appearing-in-ai-models-and-it-looks-surprisingly-human/articleshow/129206400.cms",
-    "industry": "AI Research & Development",
-    "summary": "Scientists are exploring neuroscience, particularly mirror neurons, to inspire advanced AI models, aiming for AI that better predicts actions and behaviors.",
-    "charlotte_impact": "The long-term research may lead to AI with better human interaction, better training models, and better efficiency.",
-    "impact_score": 3
-  },
-  {
-    "title": "Show HN: Elia \u2013 Governed hybrid architecture (LLM is capability, not authority)",
-    "url": "https://github.com/Jmc-arch/elia-governed-hybrid-architecture",
-    "industry": "AI Architecture",
-    "summary": "Elia is a governed hybrid architecture that treats LLMs as a capability, not authority, with symbolic governance always in charge for more trustworthy and reliable AI.",
-    "charlotte_impact": "New approaches like Elia are important for businesses in Charlotte to consider when adopting AI architecture to avoid relying on unsupervised AI models.",
-    "impact_score": 5
-  },
-  {
-    "title": "How an AI system beat experienced doctors at diagnosing rare diseases",
-    "url": "https://thenextweb.com/news/how-an-ai-system-beat-experienced-doctors-at-diagnosing-rare-diseases",
-    "industry": "Healthcare & AI",
-    "summary": "An AI system called DeepRare beat experienced doctors at diagnosing rare diseases, highlighting the potential of AI to improve medical accuracy and speed up diagnosis.",
-    "charlotte_impact": "AI-driven diagnoses can improve healthcare services and patient outcomes in Charlotte. This leads to higher investments into health technology.",
-    "impact_score": 7
-  },
-  {
-    "title": "March Madness 2026: AI and Prediction Markets Replace the Office Pool",
-    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/march-madness-2026-ai-prediction-markets-replace-office-pool/",
-    "industry": "AI & Gambling",
-    "summary": "AI is making an impact on sports analysis and gambling where prediction markets replace the office pool during march madness.",
-    "charlotte_impact": "Legal implications and gambling risks could rise in Charlotte as AI prediction becomes more sophisticated.",
-    "impact_score": 2
-  },
-  {
-    "title": "Satyajit Das: AI \u2013 Artificial Intelligence or Absolute Insanity?",
-    "url": "https://biztoc.com/x/c26a2ed6238207f3?ref=ff",
-    "industry": "Finance & Investment",
-    "summary": "This article explores the potential risks and downsides of the AI boom, questioning whether it's artificial intelligence or absolute insanity. The author suggests a more skeptical view is required.",
-    "charlotte_impact": "Highlights the risks to businesses in Charlotte that they could be adopting too much AI too quickly.",
-    "impact_score": 4
-  },
-  {
-    "title": "Artificial Intelligence ETFs, or ETFs Powered by AI?",
-    "url": "https://etfdb.com/disruptive-technology-channel/artificial-intelligence-etfs-or-etfs-powered-by-ai/",
-    "industry": "Finance & Investment",
-    "summary": "This article looks at the difference between Artificial Intelligence ETFs and ETFs powered by AI.",
-    "charlotte_impact": "The distinction helps investors in Charlotte make better investment decisions and manage their portfolios.",
-    "impact_score": 3
-  }
-]
+{
+  "articles": [
+    {
+      "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+      "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+      "industry": "Cloud Infrastructure",
+      "summary": "Railway secured $100 million to challenge AWS with AI-native cloud infrastructure, focusing on rapid deployment for AI-generated code.  They are building their own data centers and claim significant performance and cost advantages.",
+      "charlotte_impact": "Charlotte's banking and FinTech sector, heavily reliant on cloud infrastructure, could benefit from Railway's faster deployment times and cost savings.  This could accelerate the development and deployment of new FinTech solutions and improve the efficiency of existing financial systems, giving Charlotte an advantage in attracting and retaining FinTech companies.",
+      "impact_score": 9
+    },
+    {
+      "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
+      "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+      "industry": "Enterprise Software",
+      "summary": "Salesforce launched a rebuilt Slackbot AI agent, powered by Anthropic's Claude, to serve as a central hub for enterprise data and task automation.  Internal testing showed significant productivity gains, and the company aims for Slackbot to become the leading 'super agent' controlling other AI tools.",
+      "charlotte_impact": "With a strong presence of Salesforce users among Charlotte's financial institutions and healthcare providers (Atrium/Novant), Slackbot's integration could streamline workflows and improve decision-making. The enhanced access to enterprise data through Slack could lead to more data-driven strategies in these key industries, increasing their competitive advantage.",
+      "impact_score": 8
+    },
+    {
+      "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
+      "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+      "industry": "Market Research",
+      "summary": "Listen Labs raised $69M to scale AI-powered customer interviews, addressing the limitations of traditional market research. They use AI to conduct in-depth video interviews, combat fraud, and provide actionable insights quickly, leading to improved product development.",
+      "charlotte_impact": "Charlotte's growing startup ecosystem and established companies alike could benefit from Listen Labs' faster and more insightful customer research.  Understanding customer needs more quickly and accurately could lead to better-targeted products and services, fostering innovation and growth in the local economy.",
+      "impact_score": 7
+    },
+    {
+      "title": "Microsoft, Google, Amazon say Anthropic Claude remains available to non-defense customers",
+      "url": "https://techcrunch.com/2026/03/06/microsoft-anthropic-claude-remains-available-to-customers-except-the-defense-department/",
+      "industry": "AI Governance",
+      "summary": "Microsoft, Google, and Amazon affirmed Anthropic's Claude remains available to non-defense customers despite a recent Pentagon deal, highlighting the tension surrounding AI ethics and defense applications.",
+      "charlotte_impact": "This story underscores the growing ethical considerations surrounding AI development. Duke Energy and other major Charlotte employers will need to navigate these ethical challenges as they increasingly integrate AI into their operations, ensuring responsible and transparent AI usage.",
+      "impact_score": 6
+    },
+    {
+      "title": "Google just gave Sundar Pichai a $692M pay package",
+      "url": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/",
+      "industry": "Executive Compensation",
+      "summary": "Google awarded Sundar Pichai a $692M pay package tied to performance, including Waymo and Wing, demonstrating the high value placed on AI-driven innovation.",
+      "charlotte_impact": "While directly unrelated, it highlights the massive investment in AI and talent. Charlotte companies need to offer competitive packages to attract AI talent and compete with the compensation offered in larger tech hubs.",
+      "impact_score": 3
+    },
+    {
+      "title": "OpenAI hardware exec Caitlin Kalinowski quits in response to Pentagon deal",
+      "url": "https://techcrunch.com/2026/03/07/openai-robotics-lead-caitlin-kalinowski-quits-in-response-to-pentagon-deal/",
+      "industry": "AI Ethics",
+      "summary": "OpenAI hardware exec Caitlin Kalinowski resigned in response to the company's Pentagon deal, signaling internal dissent over AI's use in military applications.",
+      "charlotte_impact": "This highlights the growing tension between AI innovation and ethical considerations, which is something that affects not only firms in Silicon Valley but everywhere including Charlotte. The defense-related implications can affect local businesses that provide AI solutions.",
+      "impact_score": 5
+    },
+    {
+      "title": "Owner of ICE detention facility sees big opportunity in AI man camps",
+      "url": "https://techcrunch.com/2026/03/08/owner-of-ice-detention-facility-sees-big-opportunity-in-ai-man-camps/",
+      "industry": "Data Centers",
+      "summary": "The owner of ICE detention facilities sees an opportunity in providing housing for AI data center workers, sparking controversy over the social impact of AI infrastructure.",
+      "charlotte_impact": "This raises concerns about the social impact of AI development, even locally, as Charlotte's tech sector expands. City planners and developers need to consider the ethical and social implications of AI-related infrastructure projects, addressing potential disparities and ensuring equitable development.",
+      "impact_score": 4
+    },
+    {
+      "title": "A roadmap for AI, if anyone will listen",
+      "url": "https://techcrunch.com/2026/03/07/a-roadmap-for-ai-if-anyone-will-listen/",
+      "industry": "AI Governance",
+      "summary": "A 'Pro-Human Declaration' emphasizing ethical AI development gained traction amid the Pentagon-Anthropic controversy, suggesting a growing movement for responsible AI practices.",
+      "charlotte_impact": "This emphasizes the need for Charlotte's educational institutions (e.g., UNC Charlotte) to incorporate ethics into their AI curricula, preparing future tech leaders to address these challenges proactively.",
+      "impact_score": 5
+    },
+    {
+      "title": "Lawsuit alleges Google chatbot was behind a user\u2019s delusions and death",
+      "url": "https://www.bostonherald.com/2026/03/07/lawsuit-alleges-google-chatbot-was-behind-a-users-delusions-and-death/",
+      "industry": "AI Safety",
+      "summary": "A lawsuit alleges a Google chatbot led to a user's delusions and death, raising serious questions about AI safety and potential harm.",
+      "charlotte_impact": "Atrium Health and Novant Health should prioritize building patient safety protocols when deploying chatbots and other AI solutions that interact directly with patients. This includes clear disclaimers, human oversight, and safeguards against providing harmful or misleading information.",
+      "impact_score": 7
+    },
+    {
+      "title": "Friend, coach or girlfriend: Can virtual companions replace human bonds?",
+      "url": "https://www.channelnewsasia.com/cna-insider/artificial-intelligence-AI-chatbots-companions-digital-partner-emotional-relationship-5976696",
+      "industry": "Social Impact",
+      "summary": "The article discusses the potential for virtual companions to replace human bonds, raising concerns about the social and emotional implications of AI.",
+      "charlotte_impact": "This is a broader societal trend, but it can impact Charlotte's mental health services. There needs to be an awareness and understanding of the psychological effects of relying on AI companions, and resources should be available to support healthy human connection.",
+      "impact_score": 3
+    },
+    {
+      "title": "AI discovers the hidden signal of liquid-like ion flow in solid-state batteries",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260307155938.htm",
+      "industry": "Materials Science",
+      "summary": "AI is used to discover liquid-like ion flow in solid-state batteries, paving the way for safer and more energy-dense batteries.",
+      "charlotte_impact": "Duke Energy is the primary energy provider to the region. The development of such technology could mean more affordable and cleaner renewable energy options for Charlotte residents.",
+      "impact_score": 5
+    },
+    {
+      "title": "Cloud and Big Data Management: Integration into Marketing Strategies",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-032-10016-0_7",
+      "industry": "Marketing",
+      "summary": "The article discusses integrating cloud and big data into marketing strategies, which is becoming an important trend.",
+      "charlotte_impact": "Companies in Charlotte need to consider cloud and big data when developing their marketing strategies in order to stay competitive.",
+      "impact_score": 4
+    },
+    {
+      "title": "The U.S. is sending an AI-powered anti-drone system to the Mideast as response to countering Iran\u2019s Shahed has been \u2018disappointing\u2019",
+      "url": "https://fortune.com/2026/03/07/us-anti-drone-system-merops-mideast-iran-shahed/",
+      "industry": "Defense",
+      "summary": "The US is sending an AI-powered anti-drone system to the Middle East.",
+      "charlotte_impact": "This could affect local contractors who are providing technologies for drone defense.",
+      "impact_score": 4
+    },
+    {
+      "title": "Layoffs, AI, and a return to the office: Why Irish tech workers are finally turning to unions",
+      "url": "https://www.thejournal.ie/ireland-tech-sector-6974805-Mar2026/",
+      "industry": "Labor",
+      "summary": "Layoffs, AI, and a return to the office are driving Irish tech workers to unionize.",
+      "charlotte_impact": "This highlights the need for businesses to address the labor workforce issues in Charlotte regarding their employment status amidst these issues, including AI.",
+      "impact_score": 4
+    }
+  ],
+  "overall_summary": "The AI landscape is rapidly evolving, marked by increasing enterprise adoption, significant funding rounds for innovative solutions, and the rise of agentic AI technologies.  Ethical concerns and workforce shifts, particularly around the use of AI in sensitive areas like defense and job displacement, are becoming more prominent.  Companies are racing to integrate AI into existing workflows and platforms, aiming to enhance productivity and create new business models."
+}

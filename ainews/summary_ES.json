@@ -1,122 +1,117 @@
-[
-  {
-    "title": "Railway obtiene 100 millones de dólares para desafiar a AWS con una infraestructura de nube nativa de IA",
-    "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
-    "industry": "Cloud Infrastructure",
-    "summary": "Railway obtuvo 100 millones de dólares en financiación Serie B para desafiar a AWS con su infraestructura de nube nativa de IA, que ofrece tiempos de implementación más rápidos y ahorros de costos.  La empresa está atrayendo a desarrolladores frustrados con las plataformas tradicionales en la nube, lo que genera un crecimiento significativo de los ingresos.",
-    "charlotte_impact": "Una infraestructura de nube más rápida y económica podría beneficiar al creciente sector tecnológico y a las nuevas empresas de Charlotte, atrayendo potencialmente a empresas que buscan soluciones rentables.",
-    "impact_score": 9
-  },
-  {
-    "title": "Salesforce lanza un nuevo agente de IA Slackbot mientras lucha contra Microsoft y Google en la IA en el lugar de trabajo",
-    "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
-    "industry": "Enterprise Software",
-    "summary": "Salesforce lanzó un agente de inteligencia artificial de Slackbot reconstruido impulsado por Claude de Anthropic, integrándolo profundamente con los datos empresariales para automatizar tareas y proporcionar información. Las pruebas internas mostraron un importante ahorro de tiempo y una alta satisfacción, lo que posicionó a Slackbot como un \"superagente\".",
-    "charlotte_impact": "Las empresas de Charlotte que utilizan Salesforce y Slack podrían beneficiarse de una mayor automatización y eficiencia, pero pueden enfrentar presiones de costos relacionadas con las tarifas de acceso a datos de Salesforce.",
-    "impact_score": 8
-  },
-  {
-    "title": "Listen Labs recauda 69 millones de dólares después de un truco de contratación de vallas publicitarias virales para escalar las entrevistas con clientes de IA",
-    "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
-    "industry": "Market Research",
-    "summary": "Listen Labs recaudó 69 millones de dólares para escalar su plataforma de entrevistas a clientes basada en inteligencia artificial, ofreciendo información más rápida y profunda en comparación con los métodos tradicionales. La empresa está experimentando un rápido crecimiento de los ingresos, impulsado por la demanda de una comprensión más rápida del cliente.",
-    "charlotte_impact": "Las empresas de Charlotte pueden aprovechar la IA para obtener información más rápida, probar productos y mejorar las decisiones comerciales generales, lo que les permitirá competir de manera efectiva.",
-    "impact_score": 7
-  },
-  {
-    "title": "Microsoft, Google y Amazon dicen que Anthropic Claude sigue disponible para clientes no relacionados con el sector de defensa",
-    "url": "https://techcrunch.com/2026/03/06/microsoft-anthropic-claude-remains-available-to-customers-except-the-defense-department/",
-    "industry": "AI Regulation",
-    "summary": "Microsoft, Google y Amazon aclaran que el acceso a Claude de Anthropic sigue estando disponible para la mayoría de los clientes no relacionados con el sector de defensa después del problema del Departamento de Guerra de Trump con el modelo de IA.",
-    "charlotte_impact": "Esta aclaración mantiene el acceso a tecnologías de inteligencia artificial clave para las empresas de Charlotte, lo que garantiza un desarrollo e implementación continuos sin interrupciones.",
-    "impact_score": 6
-  },
-  {
-    "title": "Google, Meta y los “hiperescaladores” de la IA se encuentran en un atracón de préstamos por valor de un billón de dólares después de años de imprimir efectivo. He aquí por qué es importante el giro de las Big Tech hacia la deuda",
-    "url": "https://fortune.com/2026/03/07/big-tech-trillion-dollar-borrowing-ai-century-bonds/",
-    "industry": "Finance & Investment",
-    "summary": "Google, Meta y otros 'hiperescaladores' de IA están endeudados por un billón de dólares para financiar el desarrollo de su infraestructura de IA, lo que refleja la enorme inversión requerida pero también el posible riesgo de sobreinversión.",
-    "charlotte_impact": "Esta tendencia puede afectar la economía de Charlotte al atraer potencialmente más empresas tecnológicas a la región a medida que las grandes tecnológicas se expanden, además de crear riesgos derivados de la deuda.",
-    "impact_score": 6
-  },
-  {
-    "title": "Google acaba de darle a Sundar Pichai un paquete de pago de 692 millones de dólares",
-    "url": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/",
-    "industry": "Executive Compensation",
-    "summary": "El director ejecutivo de Google, Sundar Pichai, recibió un paquete salarial de 692 millones de dólares vinculado en gran medida al rendimiento y a Waymo y Wing, lo que refleja la importancia de las empresas impulsadas por la IA para el futuro de la empresa.",
-    "charlotte_impact": "Si bien no afecta directamente a Charlotte, esto resalta el alto valor que se otorga al liderazgo en IA, lo que potencialmente influye en la atracción de talentos y las estrategias de compensación a nivel local.",
-    "impact_score": 3
-  },
-  {
-    "title": "La líder de robótica OpenAI, Caitlin Kalinowski, renuncia en respuesta al acuerdo con el Pentágono",
-    "url": "https://techcrunch.com/2026/03/07/openai-robotics-lead-caitlin-kalinowski-quits-in-response-to-pentagon-deal/",
-    "industry": "AI Ethics & Regulation",
-    "summary": "La líder de robótica de OpenAI, Caitlin Kalinowski, renunció en respuesta al controvertido acuerdo de la compañía con el Departamento de Defensa, destacando preocupaciones éticas dentro de la industria de la IA.",
-    "charlotte_impact": "Las consideraciones éticas pueden convertirse en un aspecto crucial al invertir e implementar IA, lo que genera preocupaciones de cumplimiento para las empresas de Charlotte.",
-    "impact_score": 4
-  },
-  {
-    "title": "Después de Europa, WhatsApp permitirá que empresas rivales de inteligencia artificial ofrezcan chatbots en Brasil",
-    "url": "https://techcrunch.com/2026/03/06/after-europe-whatsapp-will-let-rival-ai-companies-offer-chatbots-in-brazil/",
-    "industry": "Messaging Platforms & AI",
-    "summary": "WhatsApp permitirá que empresas rivales de IA ofrezcan chatbots en Brasil y Europa por una tarifa, ampliando el acceso a los servicios de IA en la plataforma de mensajería.",
-    "charlotte_impact": "Mayores oportunidades comerciales para integrar la IA en las principales plataformas de mensajería, lo que lleva a nuevos proveedores potenciales que las empresas de Charlotte podrían considerar.",
-    "impact_score": 5
-  },
-  {
-    "title": "City Detect, que utiliza IA para ayudar a las ciudades a mantenerse seguras y limpias, recauda 13 millones de dólares Serie A",
-    "url": "https://techcrunch.com/2026/03/06/city-detect-uses-ai-to-help-cities-stay-safe-and-clean/",
-    "industry": "Smart Cities & AI",
-    "summary": "City Detect, que utiliza IA para ayudar a las ciudades a mantenerse seguras y limpias, recaudó una Serie A de 13 millones de dólares, ampliando su alcance a más ciudades como Dallas y Miami.",
-    "charlotte_impact": "Charlotte podría considerar utilizar City Detect para mejorar la seguridad y el saneamiento de la ciudad. Crea oportunidades de colaboración e innovación para mejorar la calidad de vida.",
-    "impact_score": 6
-  },
-  {
-    "title": "Está apareciendo un patrón extraño en los modelos de IA y parece sorprendentemente humano",
-    "url": "https://economictimes.indiatimes.com/news/international/us/a-strange-pattern-is-appearing-in-ai-models-and-it-looks-surprisingly-human/articleshow/129206400.cms",
-    "industry": "AI Research & Development",
-    "summary": "Los científicos están explorando la neurociencia, en particular las neuronas espejo, para inspirar modelos avanzados de IA, con el objetivo de lograr una IA que prediga mejor acciones y comportamientos.",
-    "charlotte_impact": "La investigación a largo plazo puede conducir a una IA con una mejor interacción humana, mejores modelos de entrenamiento y mayor eficiencia.",
-    "impact_score": 3
-  },
-  {
-    "title": "Mostrar HN: Elia – Arquitectura híbrida gobernada (LLM es capacidad, no autoridad)",
-    "url": "https://github.com/Jmc-arch/elia-governed-hybrid-architecture",
-    "industry": "AI Architecture",
-    "summary": "Elia es una arquitectura híbrida gobernada que trata a los LLM como una capacidad, no como una autoridad, con una gobernanza simbólica siempre a cargo de una IA más confiable y confiable.",
-    "charlotte_impact": "Es importante que las empresas de Charlotte consideren nuevos enfoques como Elia al adoptar una arquitectura de IA para evitar depender de modelos de IA no supervisados.",
-    "impact_score": 5
-  },
-  {
-    "title": "Cómo un sistema de inteligencia artificial venció a los médicos experimentados en el diagnóstico de enfermedades raras",
-    "url": "https://thenextweb.com/news/how-an-ai-system-beat-experienced-doctors-at-diagnosing-rare-diseases",
-    "industry": "Healthcare & AI",
-    "summary": "Un sistema de inteligencia artificial llamado DeepRare superó a los médicos experimentados en el diagnóstico de enfermedades raras, destacando el potencial de la inteligencia artificial para mejorar la precisión médica y acelerar el diagnóstico.",
-    "charlotte_impact": "Los diagnósticos basados ​​en IA pueden mejorar los servicios de atención médica y los resultados de los pacientes en Charlotte. Esto conduce a mayores inversiones en tecnología sanitaria.",
-    "impact_score": 7
-  },
-  {
-    "title": "Locura de marzo de 2026: los mercados de predicción e inteligencia artificial reemplazan el grupo de oficinas",
-    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/march-madness-2026-ai-prediction-markets-replace-office-pool/",
-    "industry": "AI & Gambling",
-    "summary": "La IA está teniendo un impacto en el análisis deportivo y los juegos de azar, donde los mercados de predicción reemplazan al grupo de oficinas durante la locura de las marchas.",
-    "charlotte_impact": "Las implicaciones legales y los riesgos del juego podrían aumentar en Charlotte a medida que la predicción de la IA se vuelva más sofisticada.",
-    "impact_score": 2
-  },
-  {
-    "title": "Satyajit Das: IA: ¿Inteligencia artificial o locura absoluta?",
-    "url": "https://biztoc.com/x/c26a2ed6238207f3?ref=ff",
-    "industry": "Finance & Investment",
-    "summary": "Este artículo explora los riesgos y desventajas potenciales del auge de la IA, cuestionando si se trata de inteligencia artificial o de locura absoluta. El autor sugiere que se requiere una visión más escéptica.",
-    "charlotte_impact": "Destaca los riesgos para las empresas de Charlotte de que podrían estar adoptando demasiada IA ​​demasiado rápido.",
-    "impact_score": 4
-  },
-  {
-    "title": "¿ETF de inteligencia artificial o ETF impulsados ​​por IA?",
-    "url": "https://etfdb.com/disruptive-technology-channel/artificial-intelligence-etfs-or-etfs-powered-by-ai/",
-    "industry": "Finance & Investment",
-    "summary": "Este artículo analiza la diferencia entre los ETF de inteligencia artificial y los ETF impulsados ​​por IA.",
-    "charlotte_impact": "La distinción ayuda a los inversores de Charlotte a tomar mejores decisiones de inversión y gestionar sus carteras.",
-    "impact_score": 3
-  }
-]
+{
+  "articles": [
+    {
+      "title": "Railway obtiene 100 millones de dólares para desafiar a AWS con una infraestructura de nube nativa de IA",
+      "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+      "industry": "Cloud Infrastructure",
+      "summary": "Railway obtuvo 100 millones de dólares para desafiar a AWS con una infraestructura de nube nativa de IA, centrándose en la implementación rápida de código generado por IA.  Están construyendo sus propios centros de datos y afirman tener importantes ventajas en términos de rendimiento y costos.",
+      "charlotte_impact": "El sector bancario y de tecnología financiera de Charlotte, que depende en gran medida de la infraestructura de la nube, podría beneficiarse de los tiempos de implementación más rápidos y los ahorros de costos de Railway.  Esto podría acelerar el desarrollo y la implementación de nuevas soluciones FinTech y mejorar la eficiencia de los sistemas financieros existentes, dando a Charlotte una ventaja para atraer y retener empresas FinTech.",
+      "impact_score": 9
+    },
+    {
+      "title": "Salesforce lanza un nuevo agente de IA Slackbot mientras lucha contra Microsoft y Google en la IA en el lugar de trabajo",
+      "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+      "industry": "Enterprise Software",
+      "summary": "Salesforce lanzó un agente de inteligencia artificial de Slackbot reconstruido, impulsado por Claude de Anthropic, para que sirva como centro central para la automatización de tareas y datos empresariales.  Las pruebas internas mostraron mejoras significativas en la productividad y la empresa aspira a que Slackbot se convierta en el \"superagente\" líder que controle otras herramientas de inteligencia artificial.",
+      "charlotte_impact": "Con una fuerte presencia de usuarios de Salesforce entre las instituciones financieras y los proveedores de atención médica de Charlotte (Atrium/Novant), la integración de Slackbot podría optimizar los flujos de trabajo y mejorar la toma de decisiones. El acceso mejorado a los datos empresariales a través de Slack podría conducir a más estrategias basadas en datos en estas industrias clave, aumentando su ventaja competitiva.",
+      "impact_score": 8
+    },
+    {
+      "title": "Listen Labs recauda 69 millones de dólares después de un truco de contratación de vallas publicitarias virales para escalar las entrevistas con clientes de IA",
+      "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+      "industry": "Market Research",
+      "summary": "Listen Labs recaudó 69 millones de dólares para ampliar las entrevistas a clientes basadas en inteligencia artificial, abordando las limitaciones de la investigación de mercado tradicional. Utilizan IA para realizar entrevistas en video en profundidad, combatir el fraude y proporcionar información útil rápidamente, lo que conduce a un mejor desarrollo de productos.",
+      "charlotte_impact": "Tanto el creciente ecosistema de startups de Charlotte como las empresas establecidas podrían beneficiarse de la investigación de clientes más rápida y reveladora de Listen Labs.  Comprender las necesidades de los clientes con mayor rapidez y precisión podría conducir a productos y servicios mejor orientados, fomentando la innovación y el crecimiento en la economía local.",
+      "impact_score": 7
+    },
+    {
+      "title": "Microsoft, Google y Amazon dicen que Anthropic Claude sigue disponible para clientes no relacionados con el sector de defensa",
+      "url": "https://techcrunch.com/2026/03/06/microsoft-anthropic-claude-remains-available-to-customers-except-the-defense-department/",
+      "industry": "AI Governance",
+      "summary": "Microsoft, Google y Amazon afirmaron que Claude de Anthropic sigue disponible para clientes no relacionados con el sector de defensa a pesar de un acuerdo reciente con el Pentágono, lo que destaca la tensión en torno a la ética de la IA y las aplicaciones de defensa.",
+      "charlotte_impact": "Esta historia subraya las crecientes consideraciones éticas que rodean el desarrollo de la IA. Duke Energy y otros empleadores importantes de Charlotte deberán superar estos desafíos éticos a medida que integran cada vez más la IA en sus operaciones, garantizando un uso responsable y transparente de la IA.",
+      "impact_score": 6
+    },
+    {
+      "title": "Google acaba de darle a Sundar Pichai un paquete de pago de 692 millones de dólares",
+      "url": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/",
+      "industry": "Executive Compensation",
+      "summary": "Google otorgó a Sundar Pichai un paquete salarial de 692 millones de dólares vinculado al rendimiento, incluidos Waymo y Wing, lo que demuestra el alto valor que se otorga a la innovación impulsada por la IA.",
+      "charlotte_impact": "Si bien no tiene ninguna relación directa, destaca la inversión masiva en inteligencia artificial y talento. Las empresas de Charlotte deben ofrecer paquetes competitivos para atraer talentos en inteligencia artificial y competir con la compensación que se ofrece en los centros tecnológicos más grandes.",
+      "impact_score": 3
+    },
+    {
+      "title": "La ejecutiva de hardware de OpenAI, Caitlin Kalinowski, renuncia en respuesta al acuerdo con el Pentágono",
+      "url": "https://techcrunch.com/2026/03/07/openai-robotics-lead-caitlin-kalinowski-quits-in-response-to-pentagon-deal/",
+      "industry": "AI Ethics",
+      "summary": "La ejecutiva de hardware de OpenAI, Caitlin Kalinowski, renunció en respuesta al acuerdo de la compañía con el Pentágono, lo que indica una disconformidad interna sobre el uso de la IA en aplicaciones militares.",
+      "charlotte_impact": "Esto pone de relieve la creciente tensión entre la innovación en IA y las consideraciones éticas, algo que afecta no sólo a las empresas de Silicon Valley sino de todas partes, incluida Charlotte. Las implicaciones relacionadas con la defensa pueden afectar a las empresas locales que ofrecen soluciones de inteligencia artificial.",
+      "impact_score": 5
+    },
+    {
+      "title": "El propietario del centro de detención de ICE ve una gran oportunidad en los campos de hombres AI",
+      "url": "https://techcrunch.com/2026/03/08/owner-of-ice-detention-facility-sees-big-opportunity-in-ai-man-camps/",
+      "industry": "Data Centers",
+      "summary": "El propietario de los centros de detención de ICE ve una oportunidad en proporcionar alojamiento a los trabajadores de los centros de datos de IA, lo que genera controversia sobre el impacto social de la infraestructura de IA.",
+      "charlotte_impact": "Esto genera preocupación sobre el impacto social del desarrollo de la IA, incluso a nivel local, a medida que se expande el sector tecnológico de Charlotte. Los planificadores y desarrolladores urbanos deben considerar las implicaciones éticas y sociales de los proyectos de infraestructura relacionados con la IA, abordando las posibles disparidades y garantizando un desarrollo equitativo.",
+      "impact_score": 4
+    },
+    {
+      "title": "Una hoja de ruta para la IA, si alguien quiere escuchar",
+      "url": "https://techcrunch.com/2026/03/07/a-roadmap-for-ai-if-anyone-will-listen/",
+      "industry": "AI Governance",
+      "summary": "Una 'Declaración Prohumana' que enfatiza el desarrollo ético de la IA ganó fuerza en medio de la controversia entre el Pentágono y Antrópico, lo que sugiere un movimiento creciente a favor de prácticas responsables de IA.",
+      "charlotte_impact": "Esto enfatiza la necesidad de que las instituciones educativas de Charlotte (por ejemplo, UNC Charlotte) incorporen la ética en sus planes de estudio de IA, preparando a los futuros líderes tecnológicos para abordar estos desafíos de manera proactiva.",
+      "impact_score": 5
+    },
+    {
+      "title": "La demanda alega que el chatbot de Google estaba detrás de los delirios y la muerte de un usuario",
+      "url": "https://www.bostonherald.com/2026/03/07/lawsuit-alleges-google-chatbot-was-behind-a-users-delusions-and-death/",
+      "industry": "AI Safety",
+      "summary": "Una demanda alega que un chatbot de Google provocó delirios y la muerte de un usuario, lo que plantea serias dudas sobre la seguridad de la IA y sus posibles daños.",
+      "charlotte_impact": "Atrium Health y Novant Health deberían priorizar la creación de protocolos de seguridad del paciente al implementar chatbots y otras soluciones de inteligencia artificial que interactúen directamente con los pacientes. Esto incluye exenciones de responsabilidad claras, supervisión humana y salvaguardias contra el suministro de información dañina o engañosa.",
+      "impact_score": 7
+    },
+    {
+      "title": "Amigo, entrenador o novia: ¿Pueden los compañeros virtuales sustituir los vínculos humanos?",
+      "url": "https://www.channelnewsasia.com/cna-insider/artificial-intelligence-AI-chatbots-companions-digital-partner-emotional-relationship-5976696",
+      "industry": "Social Impact",
+      "summary": "El artículo analiza el potencial de los compañeros virtuales para reemplazar los vínculos humanos, lo que genera preocupación sobre las implicaciones sociales y emocionales de la IA.",
+      "charlotte_impact": "Esta es una tendencia social más amplia, pero puede afectar los servicios de salud mental de Charlotte. Es necesario que haya conciencia y comprensión de los efectos psicológicos de depender de compañeros de IA, y deben estar disponibles recursos para apoyar una conexión humana saludable.",
+      "impact_score": 3
+    },
+    {
+      "title": "La IA descubre la señal oculta del flujo de iones similares a los líquidos en baterías de estado sólido",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260307155938.htm",
+      "industry": "Materials Science",
+      "summary": "La IA se utiliza para descubrir flujos de iones similares a los líquidos en baterías de estado sólido, allanando el camino para baterías más seguras y con mayor densidad energética.",
+      "charlotte_impact": "Duke Energy es el principal proveedor de energía de la región. El desarrollo de dicha tecnología podría significar opciones de energía renovable más asequibles y limpias para los residentes de Charlotte.",
+      "impact_score": 5
+    },
+    {
+      "title": "Gestión de la nube y Big Data: integración en estrategias de marketing",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-032-10016-0_7",
+      "industry": "Marketing",
+      "summary": "El artículo analiza la integración de la nube y big data en las estrategias de marketing, que se está convirtiendo en una tendencia importante.",
+      "charlotte_impact": "Las empresas de Charlotte deben considerar la nube y el big data al desarrollar sus estrategias de marketing para seguir siendo competitivas.",
+      "impact_score": 4
+    },
+    {
+      "title": "Estados Unidos está enviando un sistema antidrones impulsado por inteligencia artificial a Medio Oriente como respuesta para contrarrestar al Shahed de Irán ha sido “decepcionante”",
+      "url": "https://fortune.com/2026/03/07/us-anti-drone-system-merops-mideast-iran-shahed/",
+      "industry": "Defense",
+      "summary": "Estados Unidos está enviando un sistema antidrones impulsado por inteligencia artificial a Medio Oriente.",
+      "charlotte_impact": "Esto podría afectar a los contratistas locales que proporcionan tecnologías para la defensa con drones.",
+      "impact_score": 4
+    },
+    {
+      "title": "Despidos, inteligencia artificial y regreso a la oficina: por qué los trabajadores tecnológicos irlandeses finalmente están recurriendo a los sindicatos",
+      "url": "https://www.thejournal.ie/ireland-tech-sector-6974805-Mar2026/",
+      "industry": "Labor",
+      "summary": "Los despidos, la inteligencia artificial y el regreso a la oficina están impulsando a los trabajadores tecnológicos irlandeses a sindicalizarse.",
+      "charlotte_impact": "Esto resalta la necesidad de que las empresas aborden los problemas de la fuerza laboral en Charlotte con respecto a su situación laboral en medio de estos problemas, incluida la IA.",
+      "impact_score": 4
+    }
+  ],
+  "overall_summary": "El panorama de la IA está evolucionando rápidamente, marcado por una creciente adopción empresarial, importantes rondas de financiación para soluciones innovadoras y el auge de las tecnologías de IA agentes.  Las preocupaciones éticas y los cambios en la fuerza laboral, particularmente en torno al uso de la IA en áreas sensibles como la defensa y el desplazamiento laboral, son cada vez más prominentes.  Las empresas están compitiendo por integrar la IA en los flujos de trabajo y plataformas existentes, con el objetivo de mejorar la productividad y crear nuevos modelos de negocio."
+}
