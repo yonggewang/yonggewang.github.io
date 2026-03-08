@@ -3,200 +3,120 @@
     "title": "Railway 融资 1 亿美元，利用 AI 原生云基础设施挑战 AWS",
     "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
     "industry": "Cloud Infrastructure",
-    "summary": "Railway 获得了 1 亿美元的 B 轮融资，以人工智能原生云基础设施挑战 AWS。 Railway 声称，与传统云提供商相比，其平台可以实现更快的部署并显着节省成本，对采用人工智能驱动开发的企业具有吸引力。",
-    "charlotte_impact": "夏洛特的企业可以受益于铁路较低的云成本和更快的部署时间，从而有可能吸引科技公司和初创公司来到该地区。",
+    "summary": "Railway 获得了 1 亿美元的 B 轮融资，以利用其 AI 原生云基础设施挑战 AWS，提供更快的部署时间并节省成本。  该公司正在吸引对传统云平台感到沮丧的开发人员，从而带来显着的收入增长。",
+    "charlotte_impact": "更快、更便宜的云基础设施可能有利于夏洛特不断发展的科技行业和初创企业，有可能吸引寻求经济高效解决方案的企业。",
     "impact_score": 9
   },
   {
     "title": "Salesforce 推出新的 Slackbot AI 代理，在工作场所 AI 领域与微软和谷歌展开竞争",
     "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
     "industry": "Enterprise Software",
-    "summary": "Salesforce 推出了与 Claude 集成的重建 Slackbot AI 代理，旨在提高工作场所生产力。它的定位是通过在 Slack 环境中提供上下文 AI 帮助来与 Microsoft Copilot 和 Google Gemini 竞争。",
-    "charlotte_impact": "使用 Salesforce 和 Slack 的夏洛特公司可以通过改进的信息检索和任务自动化来提高生产力。",
+    "summary": "Salesforce 推出了由 Anthropic 的 Claude 提供支持的重建的 Slackbot AI 代理，将其与企业数据深度集成，以自动化任务并提供见解。内部测试显示出显着的时间节省和高满意度，将 Slackbot 定位为“超级代理”。",
+    "charlotte_impact": "使用 Salesforce 和 Slack 的夏洛特公司可以从自动化程度和效率的提高中受益，但可能面临与 Salesforce 数据访问费用相关的成本压力。",
     "impact_score": 8
   },
   {
     "title": "Listen Labs 在病毒式广告牌招聘噱头扩大 AI 客户访谈后筹集了 6900 万美元",
     "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
     "industry": "Market Research",
-    "summary": "Listen Labs 筹集了 6900 万美元，用于扩展其人工智能驱动的客户访谈平台，该平台可帮助公司快速有效地获得客户洞察。 Listen Labs 承诺用人工智能取代传统的昂贵的营销研究，以提供速度和可操作的客户洞察。",
-    "charlotte_impact": "夏洛特的企业可以利用 Listen Labs 的平台以更低的成本进行更频繁、更深入的客户研究，从而获得竞争优势。",
+    "summary": "Listen Labs 筹集了 6900 万美元来扩展其人工智能驱动的客户访谈平台，与传统方法相比，提供更快、更深入的见解。在对更快了解客户的需求的推动下，该公司的收入正在快速增长。",
+    "charlotte_impact": "夏洛特的企业可以利用人工智能来更快地获得洞察、产品测试并改进整体业务决策，从而使他们能够有效竞争。",
     "impact_score": 7
-  },
-  {
-    "title": "AWS推出专门针对医疗保健的新人工智能代理平台",
-    "url": "https://techcrunch.com/2026/03/05/aws-amazon-connect-health-ai-agent-platform-health-care-providers/",
-    "industry": "Healthcare",
-    "summary": "AWS 推出了 Amazon Connect Health，这是一个专为医疗保健量身定制的 AI 代理平台。该平台旨在自动化患者安排、文档和验证等任务，从而有可能减轻管理负担并改善患者体验。",
-    "charlotte_impact": "夏洛特大型医疗保健系统（Atrium、Novant）的患者接收相关成本可能会降低。",
-    "impact_score": 7
-  },
-  {
-    "title": "DiligenceSquared 使用人工智能、语音代理让并购研究变得经济实惠",
-    "url": "https://techcrunch.com/2026/03/05/diligencesquared-uses-ai-voice-agents-to-make-ma-research-affordable/",
-    "industry": "Financial Services",
-    "summary": "DiligenceSquared 使用人工智能语音代理进行并购尽职调查访谈，旨在为传统管理顾问提供更实惠的替代方案。这可以使私募股权公司获得重要见解的方式民主化。",
-    "charlotte_impact": "夏洛特当地从事并购活动的私募股权公司可能会降低与客户研究相关的成本。",
-    "impact_score": 6
-  },
-  {
-    "title": "华为提升金融AI解决方案，助力全球金融数字化、智能化转型",
-    "url": "https://www.thehindubusinessline.com/brandhub/pr-release/huawei-elevates-financial-ai-solutions-to-power-digital-and-intelligent-transformation-in-global-finance/article70706090.ece",
-    "industry": "Financial Services",
-    "summary": "华为增强金融人工智能解决方案，协助全球银行数字化转型，提高弹性和效率。该技术可能会用于减少欺诈并自动化客户交互。",
-    "charlotte_impact": "总部位于夏洛特的富国银行和美国银行将通过更好地服务客户和防止欺诈来获得竞争优势。",
-    "impact_score": 6
-  },
-  {
-    "title": "City Detect 利用人工智能帮助城市保持安全和清洁，筹集了 1300 万美元的 A 轮融资",
-    "url": "https://techcrunch.com/2026/03/06/city-detect-uses-ai-to-help-cities-stay-safe-and-clean/",
-    "industry": "Government/Smart Cities",
-    "summary": "City Detect 是一家利用人工智能帮助城市防止城市衰退的公司，筹集了 1300 万美元的 A 轮融资。通过利用人工智能识别和解决涂鸦和财产损失等问题，它使地方政府能够更有效地分配资源并维护更安全、更清洁的环境。",
-    "charlotte_impact": "北卡罗来纳州夏洛特市有一个重大的增长计划。 City Detect 可以协助该增长计划。",
-    "impact_score": 6
-  },
-  {
-    "title": "报告称，采用 Gen AI 将为印度 IT 公司带来新机遇",
-    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/gen-ai-adoption-to-drive-new-opportunities-for-indian-it-companies-report/articleshow/129149319.cms",
-    "industry": "IT Services",
-    "summary": "一份报告表明，生成式人工智能的采用预计将为印度 IT 公司创造新的机遇。这表明，尽管存在潜在的干扰，IT 外包行业可能会扩大其与人工智能相关的服务产品。",
-    "charlotte_impact": "一家大型印度公司（Wipro、TCS、Infosys 等）在夏洛特设有办事处，并雇用了许多员工。人工智能可能会改变这些员工的一些角色。",
-    "impact_score": 5
-  },
-  {
-    "title": "马哈拉施特拉邦预算：CM 宣布成立地质技术应用中心，采取措施推动数字生态系统",
-    "url": "https://economictimes.indiatimes.com/tech/technology/maharashtra-budget-cm-announces-geo-tech-application-centre-steps-to-boost-digital-ecosystem/articleshow/129149579.cms",
-    "industry": "Government/Technology",
-    "summary": "马哈拉施特拉邦正在建立一个地质技术应用中心，以促进国家项目和经济增长。所有服务都将数字化，旨在实现无纸化政府。",
-    "charlotte_impact": "与夏洛特当地政府服务的潜在比较/竞争分析。",
-    "impact_score": 3
-  },
-  {
-    "title": "“技术是我们的超级大国”——随着人工智能革命的蔓延，非洲和印度位居榜首",
-    "url": "https://fortune.com/2026/03/06/technology-superpower-africa-india-top-table-ai-revolution-spreads-mobile-world-congress/",
-    "industry": "Technology/Emerging Markets",
-    "summary": "尼日利亚和印度等新兴经济体正在迅速采用技术，移动网络和人工智能有可能重新定义发展。这可以重塑全球数字鸿沟。",
-    "charlotte_impact": "夏洛特有很多移民。这将增加与印度和尼日利亚的贸易机会。",
-    "impact_score": 4
-  },
-  {
-    "title": "卡纳塔克邦 2026 年预算：迈苏鲁将发展为卡纳塔克邦第二个 IT 中心",
-    "url": "https://economictimes.indiatimes.com/tech/information-tech/karnataka-budget-2026-mysuru-to-be-developed-as-karnatakas-second-it-hub/articleshow/129148200.cms",
-    "industry": "IT/Government",
-    "summary": "卡纳塔克邦计划将迈索尔开发为第二个 IT 中心，以减轻班加罗尔的压力。他们将投资人工智能实验室、卓越中心、机器人和基因组研究。",
-    "charlotte_impact": "再次，夏洛特及其金融机构的竞争对手。",
-    "impact_score": 3
-  },
-  {
-    "title": "人工智能尚未引发失业，但年轻工人招聘速度放缓的早期迹象：人类研究",
-    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-yet-to-trigger-job-losses-but-early-signs-of-slower-hiring-for-younger-workers-anthropic-study/articleshow/129148670.cms",
-    "industry": "Labor Market",
-    "summary": "一项人类学研究表明，人工智能尚未引发大范围的失业，但有早期迹象表明，年轻员工的招聘速度正在放缓。涉及编码和数据分析的白领角色受影响最大。",
-    "charlotte_impact": "夏洛特是主要的银行/金融中心。这些角色将受到人工智能的影响。",
-    "impact_score": 7
-  },
-  {
-    "title": "人工智能投资推动全球专利增长：联合国",
-    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-investments-fuelling-global-patent-growth-un/articleshow/129147332.cms",
-    "industry": "Patents/Technology",
-    "summary": "人工智能投资正在推动国际专利申请的增长，特别是在数字通信和半导体领域。这种增长凸显了人工智能在技术创新和竞争中日益重要。",
-    "charlotte_impact": "夏洛特的公司需要获得尽可能多的人工智能专利。",
-    "impact_score": 5
-  },
-  {
-    "title": "随着华尔街为矿工的人工智能逃生舱提供资金，比特币挖矿利润暴跌至每比特币 300 美元，成本飙升至 7 万美元以上",
-    "url": "https://cryptoslate.com/bitcoin-mining-costs-has-surged-past-70000-and-wall-street-is-funding-miners-ai-escape-hatch/",
-    "industry": "Financial Services/Energy",
-    "summary": "华尔街正在资助比特币矿业公司，以探索人工智能作为逃生出口。投资主题围绕这些加密货币公司的基础设施，而不是加密货币的未来。",
-    "charlotte_impact": "比特币与金融投资和监管有关，所以这在夏洛特值得关注。",
-    "impact_score": 4
-  },
-  {
-    "title": "史蒂夫·福布斯：人工智能冷战已经开始，美国输不起",
-    "url": "https://www.foxnews.com/opinion/steve-forbes-ai-cold-war-has-begun-america-cannot-afford-lose",
-    "industry": "Geopolitics/Technology",
-    "summary": "随着中国部署策略挑战美国的人工智能领导地位，中美之间的人工智能冷战正在升温。这场竞赛将重塑全球人工智能标准。",
-    "charlotte_impact": "夏洛特必须在人工智能曲线上保持领先才能参与竞争。",
-    "impact_score": 7
-  },
-  {
-    "title": "2026 年量子人工智能 (AI) 高频交易风险业务报告：12+ 十亿美元的市场趋势、机遇、竞争分析和长期预测，2020-2025 年、2025-2030F、2035F",
-    "url": "https://www.globenewswire.com/news-release/2026/03/06/3250891/28124/en/Quantum-Artificial-Intelligence-AI-High-Frequency-Trading-Risk-Business-Report-2026-12-Bn-Market-Trends-Opportunities-Competitive-Analysis-and-Long-term-Forecasts-2020-2025-2025-20.html",
-    "industry": "Financial Services/AI",
-    "summary": "量子人工智能高频交易风险市场的增长动力包括不断增加的量子计算投资、先进的风险管理和实时市场工具。这将在监管技术、基于云的解决方案和网络安全方面得到应用。",
-    "charlotte_impact": "夏洛特银行和金融机构必须跟上最新技术。",
-    "impact_score": 5
-  },
-  {
-    "title": "2026 年固体废物管理业务报告：2020-2025 年、2025-2030 年、2035 年价值 405 亿美元以上的市场趋势、机遇、竞争分析和长期预测",
-    "url": "https://www.globenewswire.com/news-release/2026/03/06/3250868/28124/en/Solid-Waste-Management-Business-Report-2026-405-Bn-Market-Trends-Opportunities-Competitive-Analysis-and-Long-term-Forecasts-2020-2025-2025-2030F-2035F.html",
-    "industry": "Waste Management",
-    "summary": "固体废物管理市场提供了先进废物处理、智能解决方案和回收利用的机会。日益增长的环境问题和对可持续实践的投资以及垃圾分类机器人等技术创新推动了增长。",
-    "charlotte_impact": "夏洛特-梅克伦堡废物管理需要投资最新的废物管理技术。",
-    "impact_score": 3
-  },
-  {
-    "title": "人工智能 ETF，还是人工智能支持的 ETF？",
-    "url": "https://etfdb.com/disruptive-technology-channel/artificial-intelligence-etfs-or-etfs-powered-by-ai/",
-    "industry": "Financial Services",
-    "summary": "本文讨论了人工智能 ETF 和由人工智能驱动的 ETF 之间的区别。前者投资人工智能公司，后者利用人工智能做出投资决策。",
-    "charlotte_impact": "夏洛特的金融公司和经纪公司需要了解这些区别。",
-    "impact_score": 4
   },
   {
     "title": "微软、谷歌和亚马逊表示 Anthropic Claude 仍可供非国防客户使用",
     "url": "https://techcrunch.com/2026/03/06/microsoft-anthropic-claude-remains-available-to-customers-except-the-defense-department/",
     "industry": "AI Regulation",
-    "summary": "微软、谷歌和亚马逊确认，Anthropic 的 Claude 仍可供其客户使用，但国防部门内的客户除外。这一消息表明国防部的限制对更广泛的商业人工智能服务的影响有限。",
-    "charlotte_impact": "在夏洛特使用微软、谷歌或亚马逊的企业可能不会受到影响。",
+    "summary": "微软、谷歌和亚马逊澄清，在特朗普的战争部对人工智能模型提出问题后，大多数非国防客户仍然可以使用 Anthropic 的 Claude。",
+    "charlotte_impact": "这一澄清保留了夏洛特企业对关键人工智能技术的访问，确保持续开发和部署而不会中断。",
+    "impact_score": 6
+  },
+  {
+    "title": "经过多年的印钞，谷歌、Meta 和人工智能“超大规模企业”正在大举借贷 1 万亿美元。这就是为什么大型科技公司转向债务很重要",
+    "url": "https://fortune.com/2026/03/07/big-tech-trillion-dollar-borrowing-ai-century-bonds/",
+    "industry": "Finance & Investment",
+    "summary": "谷歌、Meta 和其他人工智能“超大规模企业”正在大肆举债 1 万亿美元，为其人工智能基础设施建设提供资金，这反映出所需的巨额投资，但也反映出潜在的过度投资风险。",
+    "charlotte_impact": "随着大型科技公司的扩张，这种趋势可能会吸引更多科技公司进入该地区，并带来债务风险，从而影响夏洛特的经济。",
+    "impact_score": 6
+  },
+  {
+    "title": "谷歌刚刚向桑达尔·皮查伊支付了 6.92 亿美元的薪酬",
+    "url": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/",
+    "industry": "Executive Compensation",
+    "summary": "谷歌首席执行官桑达尔·皮查伊 (Sundar Pichai) 获得的 6.92 亿美元薪酬在很大程度上与业绩挂钩，并与 Waymo 和 Wing 挂钩，反映出人工智能驱动的企业对公司未来的重要性。",
+    "charlotte_impact": "虽然不会直接影响夏洛特，但这凸显了人工智能领导力的高度价值，可能会影响当地的人才吸引和薪酬策略。",
     "impact_score": 3
+  },
+  {
+    "title": "OpenAI 机器人负责人 Caitlin Kalinowski 因五角大楼交易而辞职",
+    "url": "https://techcrunch.com/2026/03/07/openai-robotics-lead-caitlin-kalinowski-quits-in-response-to-pentagon-deal/",
+    "industry": "AI Ethics & Regulation",
+    "summary": "OpenAI 的机器人技术主管凯特琳·卡利诺夫斯基 (Caitlin Kalinowski) 因该公司与国防部达成的有争议的协议而辞职，凸显了人工智能行业内的道德问题。",
+    "charlotte_impact": "在投资和实施人工智能时，道德考虑可能成为一个关键方面，导致夏洛特公司面临合规问题。",
+    "impact_score": 4
   },
   {
     "title": "继欧洲之后，WhatsApp 将允许竞争对手人工智能公司在巴西提供聊天机器人",
     "url": "https://techcrunch.com/2026/03/06/after-europe-whatsapp-will-let-rival-ai-companies-offer-chatbots-in-brazil/",
-    "industry": "Social Media",
-    "summary": "在欧洲推出后，WhatsApp 将向巴西的竞争对手 AI 聊天机器人公司提供收费服务。此举是 Meta 平台上人工智能产品多元化战略的一部分，可能受益于人工智能服务的扩展。",
-    "charlotte_impact": "影响不大。",
-    "impact_score": 1
+    "industry": "Messaging Platforms & AI",
+    "summary": "WhatsApp 将允许竞争对手的人工智能公司在巴西和欧洲提供收费的聊天机器人，从而扩大消息平台上人工智能服务的使用范围。",
+    "charlotte_impact": "在主要消息平台上集成人工智能的商机增加，夏洛特企业可以考虑潜在的新供应商。",
+    "impact_score": 5
   },
   {
-    "title": "Anthropic 将在法庭上挑战国防部的供应链标签",
-    "url": "https://techcrunch.com/2026/03/05/anthropic-to-challenge-dods-supply-chain-label-in-court/",
-    "industry": "AI Regulation",
-    "summary": "Anthropic 计划对国防部 (DOD) 将人工智能公司归类为供应链风险提出质疑。首席执行官声称 Anthropic 的大多数客户不会受到这一指定的影响，这表明了对监管影响和市场认知的担忧。",
-    "charlotte_impact": "不太可能影响夏洛特地区。",
+    "title": "City Detect 利用人工智能帮助城市保持安全和清洁，筹集了 1300 万美元的 A 轮融资",
+    "url": "https://techcrunch.com/2026/03/06/city-detect-uses-ai-to-help-cities-stay-safe-and-clean/",
+    "industry": "Smart Cities & AI",
+    "summary": "City Detect 利用人工智能帮助城市保持安全和清洁，筹集了 1300 万美元的 A 轮融资，将业务范围扩大到达拉斯和迈阿密等更多城市。",
+    "charlotte_impact": "夏洛特可以考虑使用 City Detect 来改善城市安全和卫生。它创造了合作和创新的机会，以提高生活质量。",
+    "impact_score": 6
+  },
+  {
+    "title": "人工智能模型中出现了一种奇怪的模式，它看起来令人惊讶地像人类",
+    "url": "https://economictimes.indiatimes.com/news/international/us/a-strange-pattern-is-appearing-in-ai-models-and-it-looks-surprisingly-human/articleshow/129206400.cms",
+    "industry": "AI Research & Development",
+    "summary": "科学家们正在探索神经科学，特别是镜像神经元，以激发先进的人工智能模型，旨在让人工智能更好地预测行动和行为。",
+    "charlotte_impact": "长期的研究可能会带来更好的人机交互、更好的训练模型和更高的效率。",
+    "impact_score": 3
+  },
+  {
+    "title": "Show HN：Elia – 受控混合架构（LLM 是能力，而不是权威）",
+    "url": "https://github.com/Jmc-arch/elia-governed-hybrid-architecture",
+    "industry": "AI Architecture",
+    "summary": "Elia 是一种受治理的混合架构，它将法学硕士视为一种能力，而不是权威，符号治理始终负责更值得信赖和可靠的人工智能。",
+    "charlotte_impact": "像 Elia 这样的新方法对于夏洛特的企业在采用人工智能架构时需要考虑很重要，以避免依赖无监督的人工智能模型。",
+    "impact_score": 5
+  },
+  {
+    "title": "人工智能系统如何在诊断罕见疾病方面击败经验丰富的医生",
+    "url": "https://thenextweb.com/news/how-an-ai-system-beat-experienced-doctors-at-diagnosing-rare-diseases",
+    "industry": "Healthcare & AI",
+    "summary": "名为 DeepRare 的人工智能系统在诊断罕见疾病方面击败了经验丰富的医生，凸显了人工智能在提高医疗准确性和加快诊断速度方面的潜力。",
+    "charlotte_impact": "人工智能驱动的诊断可以改善夏洛特的医疗保健服务和患者治疗结果。这导致对卫生技术的投资增加。",
+    "impact_score": 7
+  },
+  {
+    "title": "2026 年疯狂三月：人工智能和预测市场取代办公室池",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/march-madness-2026-ai-prediction-markets-replace-office-pool/",
+    "industry": "AI & Gambling",
+    "summary": "人工智能正在对体育分析和赌博产生影响，在疯狂的三月期间，预测市场取代了办公室池。",
+    "charlotte_impact": "随着人工智能预测变得更加复杂，夏洛特的法律影响和赌博风险可能会上升。",
     "impact_score": 2
   },
   {
-    "title": "官方消息：五角大楼已将 Anthropic 标记为供应链风险",
-    "url": "https://techcrunch.com/2026/03/05/its-official-the-pentagon-has-labeled-anthropic-a-supply-chain-risk/",
-    "industry": "AI Regulation",
-    "summary": "美国国防部已正式将 Anthropic 指定为供应链风险，这是美国公司首次获得此标签。尽管如此，国防部继续在伊朗境内使用 Anthropic 的人工智能，这引发了有关战略考虑的问题。",
-    "charlotte_impact": "不太可能影响夏洛特地区。",
-    "impact_score": 2
+    "title": "Satyajit Das：AI——人工智能还是绝对的疯狂？",
+    "url": "https://biztoc.com/x/c26a2ed6238207f3?ref=ff",
+    "industry": "Finance & Investment",
+    "summary": "本文探讨了人工智能热潮的潜在风险和缺点，质疑它是人工智能还是绝对的疯狂。作者建议需要采取更加怀疑的态度。",
+    "charlotte_impact": "强调了夏洛特企业面临的风险，即他们可能过快地采用过多的人工智能。",
+    "impact_score": 4
   },
   {
-    "title": "安瓦尔敦促公务员继续致力于马来西亚迈达尼",
-    "url": "https://www.thestar.com.my/news/nation/2026/03/06/stay-committed-to-malaysia-madani-anwar-urges-civil-servants",
-    "industry": "Government",
-    "summary": "拿督斯里安瓦尔易卜拉欣敦促公务员维护马来西亚迈达尼的愿望。他希望国家达到更先进、更有竞争力的水平。",
-    "charlotte_impact": "不太可能影响夏洛特。",
-    "impact_score": 1
-  },
-  {
-    "title": "莫迪在加拿大：印度的多部分战略展开。米歇尔·陶布的社论",
-    "url": "https://www.opinion-internationale.com/2026/03/06/modi-in-canada-indias-multi-part-strategy-unfolds-michel-taubes-editorial_141262.html",
-    "industry": "Geopolitics",
-    "summary": "印度总理纳伦德拉·莫迪 (Narendra Modi) 于 3 月初前往加拿大会见加拿大总理马克·卡尼 (Mark Carney)，在紧张局势数月之后签署了经济协议。目前紧张局势有所缓解。",
-    "charlotte_impact": "不太可能影响夏洛特。",
-    "impact_score": 1
-  },
-  {
-    "title": "人工智能能否推进欧洲联邦制？",
-    "url": "https://blogs.lse.ac.uk/europpblog/2026/03/06/artificial-intelligence-european-federalism-integration/",
-    "industry": "European Politics",
-    "summary": "人工智能可能有助于克服一些阻碍欧洲更紧密一体化的障碍。人工智能应被视为追求欧洲联邦制的手段和动力。",
-    "charlotte_impact": "不太可能影响夏洛特。",
-    "impact_score": 1
+    "title": "人工智能 ETF，还是人工智能支持的 ETF？",
+    "url": "https://etfdb.com/disruptive-technology-channel/artificial-intelligence-etfs-or-etfs-powered-by-ai/",
+    "industry": "Finance & Investment",
+    "summary": "本文探讨了人工智能 ETF 和由人工智能驱动的 ETF 之间的区别。",
+    "charlotte_impact": "这一区别有助于夏洛特的投资者做出更好的投资决策并管理他们的投资组合。",
+    "impact_score": 3
   }
 ]
