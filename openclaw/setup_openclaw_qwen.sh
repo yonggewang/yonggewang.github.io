@@ -184,8 +184,8 @@ cat <<EOF > "$SERVER_PLIST"
 </plist>
 EOF
 
-NODE_PATH=\$(which node)
-OPENCLAW_PATH=\$(which openclaw)
+NODE_PATH=$(which node)
+OPENCLAW_PATH=$(which openclaw)
 
 cat <<EOF > "$GATEWAY_PLIST"
 <?xml version="1.0" encoding="UTF-8"?>
@@ -196,8 +196,8 @@ cat <<EOF > "$GATEWAY_PLIST"
     <string>com.openclaw.gateway</string>
     <key>ProgramArguments</key>
     <array>
-        <string>\$NODE_PATH</string>
-        <string>\$OPENCLAW_PATH</string>
+        <string>${NODE_PATH}</string>
+        <string>${OPENCLAW_PATH}</string>
         <string>gateway</string>
         <string>--port</string>
         <string>18789</string>
