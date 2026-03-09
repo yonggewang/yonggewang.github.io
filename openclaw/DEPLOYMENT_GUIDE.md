@@ -42,11 +42,18 @@ openclaw tui
 ```
 
 ### Web Control UI (Recommended)
-OpenClaw has a full **web-based management dashboard** called the **Control UI**. Open it with:
+OpenClaw has a full **web-based management dashboard** called the **Control UI**. For security, it requires a token to log in.
+
+**The correct way to open it:**
 ```bash
 openclaw dashboard
 ```
-This command automatically opens your browser to `http://127.0.0.1:18789/` with the correct auth token injected. The Control UI lets you:
+This command automatically opens your browser to `http://127.0.0.1:18789/` with the correct auth token injected.
+
+> [!WARNING]
+> **Unauthorized Errors:** If you visit the URL directly in your browser without the token, you will see an "unauthorized" error. Always use the `openclaw dashboard` command to log in automatically.
+
+The Control UI lets you:
 - 💬 **Chat** with your agent and browse full message/session history
 - ⚙️ **Configure** the system via a visual form editor (no JSON editing needed)
 - 📡 **Connect chat channels** — Telegram, Discord, WhatsApp, and more
