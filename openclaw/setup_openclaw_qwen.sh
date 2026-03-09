@@ -19,6 +19,9 @@ if ! command -v brew &> /dev/null; then
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
+# Ensure Homebrew is in the current session's path for completely new Macs
+export PATH="/opt/homebrew/bin:$PATH"
+
 if ! command -v node &> /dev/null; then
     echo "Installing Node.js..."
     brew install node
@@ -39,7 +42,7 @@ echo "--- Setting up MLX Model Server ---"
 python3 -m venv venv
 source venv/bin/activate
 pip install --upgrade pip
-pip install mlx-vlm huggingface_hub
+pip install mlx-vlm huggingface_hub torch torchvision
 
 MODEL_ID="mlx-community/Qwen3.5-35B-A3B-4bit"
 MODEL_PATH="$LLM_DIR/model"
@@ -71,7 +74,7 @@ cd "\$(dirname "\$0")"
 source venv/bin/activate
 export MLX_VLM_MODEL="$MODEL_PATH"
 echo "Starting Qwen 3.5 MoE Server on port 1234..."
-python3 -m mlx_vlm.server --model "\$MLX_VLM_MODEL" --host 0.0.0.0 --port 1234
+python3 -m mlx_vlm.server --host 0.0.0.0 --port 1234
 EOF
 chmod +x start_server.sh
 

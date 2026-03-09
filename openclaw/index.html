@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +16,7 @@
             --text-muted: #94A3B8;
             --accent: #38BDF8;
         }
-        
+
         body {
             font-family: 'Inter', sans-serif;
             background-color: var(--bg);
@@ -35,7 +36,7 @@
             text-align: center;
             margin-bottom: 60px;
             padding-bottom: 40px;
-            border-bottom: 1px solid rgba(255,255,255,0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         h1 {
@@ -44,6 +45,7 @@
             margin-bottom: 10px;
             background: linear-gradient(to right, #38BDF8, #818CF8);
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
@@ -62,14 +64,14 @@
             background-color: var(--surface);
             border-radius: 16px;
             padding: 30px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
-            border: 1px solid rgba(255,255,255,0.05);
+            border: 1px solid rgba(255, 255, 255, 0.05);
         }
 
         .card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 15px 40px rgba(0,0,0,0.7);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.7);
             border-color: rgba(56, 189, 248, 0.3);
         }
 
@@ -111,7 +113,7 @@
         }
 
         code {
-            background-color: rgba(0,0,0,0.3);
+            background-color: rgba(0, 0, 0, 0.3);
             padding: 4px 8px;
             border-radius: 4px;
             font-family: monospace;
@@ -142,7 +144,7 @@
             color: var(--accent);
             text-decoration: none;
         }
-        
+
         a.link:hover {
             text-decoration: underline;
         }
@@ -155,72 +157,84 @@
         }
     </style>
 </head>
+
 <body>
 
-<div class="container">
-    <header>
-        <h1>Autonomous Agent Portal</h1>
-        <div class="subtitle">Deploy, manage, and extend your private Qwen 3.5 AI system</div>
-    </header>
+    <div class="container">
+        <header>
+            <h1>Autonomous Agent Portal</h1>
+            <div class="subtitle">Deploy, manage, and extend your private Qwen 3.5 AI system</div>
+        </header>
 
-    <div class="grid">
-        <!-- Installation Section -->
-        <div class="card">
-            <h2>🚀 1. Installation</h2>
-            <p>Get started by downloading the automated setup script and the deployment guide. The script handles the Qwen 3.5 Model, OpenClaw gateway, and background services.</p>
-            
-            <a href="setup_openclaw_qwen.sh" class="btn" download>Download Setup Script</a>
-            <a href="DEPLOYMENT_GUIDE.md" class="btn btn-outline" download>Download Guide (.md)</a>
-            
-            <p style="margin-top: 20px; font-size: 0.9rem; color: var(--text-muted);">
-                Run in terminal: <br>
-                <span class="code-block">bash setup_openclaw_qwen.sh</span>
-            </p>
+        <div class="grid">
+            <!-- Installation Section -->
+            <div class="card">
+                <h2>🚀 1. Installation</h2>
+                <p>Get started by downloading the automated setup script and the deployment guide. The script handles
+                    the Qwen 3.5 Model, OpenClaw gateway, and background services.</p>
+
+                <a href="setup_openclaw_qwen.sh" class="btn" download>Download Setup Script</a>
+                <a href="DEPLOYMENT_GUIDE.md" class="btn btn-outline" download>Download Guide (.md)</a>
+
+                <p style="margin-top: 20px; font-size: 0.9rem; color: var(--text-muted);">
+                    Run in terminal: <br>
+                    <span class="code-block">bash setup_openclaw_qwen.sh</span>
+                </p>
+            </div>
+
+            <!-- Management Section -->
+            <div class="card">
+                <h2>🖥️ 2. Control UI (Dashboard)</h2>
+                <p>Access your professional management dashboard to chat, see full message history, connect Telegram
+                    channels, and tweak settings visually.</p>
+                <p>The system runs automatically in the background. Open your admin dashboard here:</p>
+
+                <a href="http://localhost:18789/" target="_blank" class="btn">Open Web Dashboard</a>
+
+                <p style="margin-top: 20px; font-size: 0.9rem; color: var(--text-muted);">
+                    Open via terminal with auth automatic token:<br>
+                    <span class="code-block">openclaw dashboard</span>
+                </p>
+            </div>
+
+            <!-- Plugins & Skills Section -->
+            <div class="card">
+                <h2>🧩 3. Install Plugins</h2>
+                <p>Your agent can be extended to use email, search the web, and control your apps. OpenClaw uses
+                    <strong>Plugins</strong> and <strong>Skills</strong>.
+                </p>
+
+                <p>To see all available skills:</p>
+                <code>openclaw skills list</code>
+
+                <p style="margin-top: 15px;">To install a new community plugin via ClawHub:</p>
+                <span class="code-block">npx clawhub install [plugin-name]</span>
+
+                <p style="font-size: 0.9rem; color: var(--text-muted);">Example:
+                    <code>npx clawhub install @openclaw/plugin-web-search</code>
+                </p>
+            </div>
+
+            <!-- Resources Section -->
+            <div class="card">
+                <h2>📚 4. Community Resources</h2>
+                <p>Discover new capabilities, read documentation, and find third-party skills built by the community to
+                    supercharge your agent.</p>
+                <ul>
+                    <li><a href="https://clawhub.ai/" target="_blank" class="link">ClawHub Official Registry</a></li>
+                    <li><a href="https://github.com/SamurAIGPT/awesome-openclaw" target="_blank" class="link">Awesome
+                            OpenClaw Resource List</a></li>
+                    <li><a href="https://github.com/VoltAgent/awesome-openclaw-skills" target="_blank"
+                            class="link">Awesome OpenClaw Skills</a></li>
+                </ul>
+            </div>
         </div>
 
-        <!-- Management Section -->
-        <div class="card">
-            <h2>🖥️ 2. Management Canvas</h2>
-            <p>Once your system is installed and running, you can manage your AI's thoughts, files, and visual interactions through the local Canvas UI.</p>
-            <p>The system runs automatically in the background. Access your visual dashboard here:</p>
-            <a href="http://localhost:18789/__openclaw__/canvas/" target="_blank" class="btn">Open Canvas Dashboard</a>
-            
-            <p style="margin-top: 20px; font-size: 0.9rem; color: var(--text-muted);">
-                Or use the Terminal UI:<br>
-                <span class="code-block">openclaw tui</span>
-            </p>
-        </div>
-
-        <!-- Plugins & Skills Section -->
-        <div class="card">
-            <h2>🧩 3. Install Plugins</h2>
-            <p>Your agent can be extended to use email, search the web, and control your apps. OpenClaw uses <strong>Plugins</strong> and <strong>Skills</strong>.</p>
-            
-            <p>To see all available skills:</p>
-            <code>openclaw skills list</code>
-            
-            <p style="margin-top: 15px;">To install a new community plugin via ClawHub:</p>
-            <span class="code-block">npx clawhub install [plugin-name]</span>
-            
-            <p style="font-size: 0.9rem; color: var(--text-muted);">Example: <code>npx clawhub install @openclaw/plugin-web-search</code></p>
-        </div>
-
-        <!-- Resources Section -->
-        <div class="card">
-            <h2>📚 4. Community Resources</h2>
-            <p>Discover new capabilities, read documentation, and find third-party skills built by the community to supercharge your agent.</p>
-            <ul>
-                <li><a href="https://clawhub.ai/" target="_blank" class="link">ClawHub Official Registry</a></li>
-                <li><a href="https://github.com/SamurAIGPT/awesome-openclaw" target="_blank" class="link">Awesome OpenClaw Resource List</a></li>
-                <li><a href="https://github.com/VoltAgent/awesome-openclaw-skills" target="_blank" class="link">Awesome OpenClaw Skills</a></li>
-            </ul>
+        <div class="footer">
+            <p>100% Local. 100% Private. Powered by OpenClaw & Apple Silicon MLX.</p>
         </div>
     </div>
-
-    <div class="footer">
-        <p>100% Local. 100% Private. Powered by OpenClaw & Apple Silicon MLX.</p>
-    </div>
-</div>
 
 </body>
+
 </html>

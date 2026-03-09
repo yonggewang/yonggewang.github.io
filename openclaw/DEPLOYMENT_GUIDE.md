@@ -27,30 +27,63 @@ bash <(curl -s -L https://raw.githubusercontent.com/your-repo/path/to/setup_open
 ### 2. What the Script Does
 - Installs **Homebrew**, **Node.js**, and **Python**.
 - Downloads the **Qwen 3.5-35B-A3B** 4-bit quantized model (optimized for speed).
-- Configures **OpenClaw** with the "Brain-Transplant" settings verified for local-only operation.
+- Configures **OpenClaw** with settings verified for local-only operation.
 - Sets up a **128,000 token** context window.
-- **Pre-installs Essential Plugins**: Automatically enables Email, Slack, Teams, and Web Search integrations.
 - **Configures Auto-Start**: Installs macOS `LaunchAgents` so the AI server and OpenClaw gateway start completely silently in the background every time the Mac boots.
 
 ## 🛠️ Operating the System
 
 Because the setup installs background `LaunchAgents`, **you do not need to manually start any servers!** They are always running and ready.
 
-### Interaction
-Whenever you want to talk to the agent, simply open a terminal and type:
+### Chat via Terminal (TUI)
+Open a terminal and type:
 ```bash
 openclaw tui
 ```
 
-### Visual Dashboard (Canvas)
-You can also view the agent's thought process, files, and chat UI by opening your browser to:
-👉 **[http://localhost:18789/__openclaw__/canvas/](http://localhost:18789/__openclaw__/canvas/)**
+### Web Control UI (Recommended)
+OpenClaw has a full **web-based management dashboard** called the **Control UI**. Open it with:
+```bash
+openclaw dashboard
+```
+This command automatically opens your browser to `http://127.0.0.1:18789/` with the correct auth token injected. The Control UI lets you:
+- 💬 **Chat** with your agent and browse full message/session history
+- ⚙️ **Configure** the system via a visual form editor (no JSON editing needed)
+- 📡 **Connect chat channels** — Telegram, Discord, WhatsApp, and more
+- 🩺 **Monitor health** — see backend status, active nodes, and activity logs
+- 🔧 **Manage agents**, cron jobs, memory, approvals, and plugins
+
+> **Note:** Do not expose this URL publicly — it is an admin interface intended for local access only.
+
+### Setting Up a Telegram Channel
+To receive and send messages via Telegram:
+1. Open the Control UI: `openclaw dashboard`
+2. Go to the **Channels** tab
+3. Click **Add Channel → Telegram**
+4. Follow the on-screen steps to connect your Telegram bot token
+
+Or use the CLI wizard:
+```bash
+openclaw channels --help
+```
+
+### Other Useful Commands
+```bash
+openclaw doctor          # Run health checks and diagnose issues
+openclaw logs            # Tail live gateway logs
+openclaw configure       # Re-run the interactive setup wizard
+openclaw config get <path>   # Read a config value
+openclaw config set <path> <value>  # Set a config value
+```
 
 ## 🔒 Security & Privacy
 - **100% Local**: No data leaves the machine. No API keys from OpenAI or Anthropic are required.
 - **Encrypted Gateway**: Uses a local token-based protocol for secure channel connections.
+- The web Control UI (`http://127.0.0.1:18789/`) is admin-only — never expose it to the internet.
 
 ## 🛠️ Troubleshooting
 - **Missing Xcode Tools**: If prompted, click "Install" when the terminal asks for Command Line Tools.
 - **Port 1234 in use**: Ensure no other LLM servers are running.
+- **HTTP 500 from TUI**: The LLM model may still be loading. Wait 10–20 seconds and try again.
 - **RAM Pressure**: If the system is sluggish, close browser tabs or other memory-heavy apps.
+- **Gateway warnings about plugins**: Edit `~/.openclaw/openclaw.json` and remove any plugin entries that are not installed.
