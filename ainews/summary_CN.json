@@ -1,117 +1,138 @@
-{
-  "articles": [
-    {
-      "title": "Railway 融资 1 亿美元，利用 AI 原生云基础设施挑战 AWS",
-      "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
-      "industry": "Cloud Infrastructure",
-      "summary": "Railway 获得 1 亿美元资金，以 AI 原生云基础设施挑战 AWS，重点关注 AI 生成代码的快速部署。  他们正在建设自己的数据中心，并声称具有显着的性能和成本优势。",
-      "charlotte_impact": "夏洛特的银行和金融科技行业严重依赖云基础设施，可以从 Railway 更快的部署时间和成本节约中受益。  这可以加速新金融科技解决方案的开发和部署，提高现有金融系统的效率，使夏洛特在吸引和留住金融科技公司方面具有优势。",
-      "impact_score": 9
-    },
-    {
-      "title": "Salesforce 推出新的 Slackbot AI 代理，在工作场所 AI 领域与微软和谷歌展开竞争",
-      "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
-      "industry": "Enterprise Software",
-      "summary": "Salesforce 推出了重建的 Slackbot AI 代理，由 Anthropic 的 Claude 提供支持，作为企业数据和任务自动化的中心枢纽。  内部测试显示生产力显着提高，该公司的目标是让 Slackbot 成为控制其他人工智能工具的领先“超级代理”。",
-      "charlotte_impact": "由于 Salesforce 用户在夏洛特的金融机构和医疗保健提供商（Atrium/Novant）中占有很大份额，Slackbot 的集成可以简化工作流程并改进决策。通过 Slack 增强对企业数据的访问可能会在这些关键行业中带来更多数据驱动的战略，从而提高其竞争优势。",
-      "impact_score": 8
-    },
-    {
-      "title": "Listen Labs 在病毒式广告牌招聘噱头扩大 AI 客户访谈后筹集了 6900 万美元",
-      "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
-      "industry": "Market Research",
-      "summary": "Listen Labs 筹集了 6900 万美元，用于扩大人工智能驱动的客户访谈，解决传统市场研究的局限性。他们使用人工智能进行深入的视频采访，打击欺诈，并快速提供可行的见解，从而改进产品开发。",
-      "charlotte_impact": "夏洛特不断发展的初创企业生态系统和老牌公司都可以从 Listen Labs 更快、更有洞察力的客户研究中受益。  更快、更准确地了解客户需求可以带来更有针对性的产品和服务，促进当地经济的创新和增长。",
-      "impact_score": 7
-    },
-    {
-      "title": "微软、谷歌和亚马逊表示 Anthropic Claude 仍可供非国防客户使用",
-      "url": "https://techcrunch.com/2026/03/06/microsoft-anthropic-claude-remains-available-to-customers-except-the-defense-department/",
-      "industry": "AI Governance",
-      "summary": "微软、谷歌和亚马逊确认，尽管五角大楼最近达成了一项协议，但 Anthropic 的 Claude 仍可供非国防客户使用，这凸显了围绕人工智能道德和国防应用的紧张关系。",
-      "charlotte_impact": "这个故事强调了围绕人工智能开发日益增长的道德考虑。杜克能源公司和夏洛特其他主要雇主将需要应对这些道德挑战，因为他们越来越多地将人工智能融入到他们的运营中，确保负责任和透明的人工智能使用。",
-      "impact_score": 6
-    },
-    {
-      "title": "谷歌刚刚向桑达尔·皮查伊支付了 6.92 亿美元的薪酬",
-      "url": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/",
-      "industry": "Executive Compensation",
-      "summary": "谷歌向 Sundar Pichai 授予了与业绩挂钩的 6.92 亿美元薪酬，其中包括 Waymo 和 Wing，这表明了对人工智能驱动创新的高度重视。",
-      "charlotte_impact": "虽然没有直接关系，但它凸显了对人工智能和人才的大规模投资。夏洛特的公司需要提供有竞争力的套餐来吸引人工智能人才，并与大型科技中心提供的薪酬竞争。",
-      "impact_score": 3
-    },
-    {
-      "title": "OpenAI 硬件高管 Caitlin Kalinowski 因五角大楼交易而辞职",
-      "url": "https://techcrunch.com/2026/03/07/openai-robotics-lead-caitlin-kalinowski-quits-in-response-to-pentagon-deal/",
-      "industry": "AI Ethics",
-      "summary": "OpenAI 硬件高管凯特琳·卡利诺夫斯基 (Caitlin Kalinowski) 因该公司与五角大楼的交易而辞职，这表明内部对人工智能在军事应用中的使用存在异议。",
-      "charlotte_impact": "这凸显了人工智能创新与道德考虑之间日益紧张的关系，这不仅影响着硅谷的公司，也影响着包括夏洛特在内的世界各地的公司。与国防相关的影响可能会影响提供人工智能解决方案的当地企业。",
-      "impact_score": 5
-    },
-    {
-      "title": "ICE 拘留设施所有者看到人工智能营地的巨大机遇",
-      "url": "https://techcrunch.com/2026/03/08/owner-of-ice-detention-facility-sees-big-opportunity-in-ai-man-camps/",
-      "industry": "Data Centers",
-      "summary": "ICE 拘留设施的所有者看到了为人工智能数据中心工作人员提供住房的机会，引发了关于人工智能基础设施社会影响的争议。",
-      "charlotte_impact": "随着夏洛特科技行业的扩张，这引发了人们对人工智能发展的社会影响的担忧，甚至在当地也是如此。城市规划者和开发商需要考虑人工智能相关基础设施项目的道德和社会影响，解决潜在的差异并确保公平发展。",
-      "impact_score": 4
-    },
-    {
-      "title": "人工智能路线图，如果有人愿意听的话",
-      "url": "https://techcrunch.com/2026/03/07/a-roadmap-for-ai-if-anyone-will-listen/",
-      "industry": "AI Governance",
-      "summary": "在五角大楼与人类的争议中，一份强调道德人工智能发展的“亲人类宣言”受到关注，这表明负责任的人工智能实践运动正在兴起。",
-      "charlotte_impact": "这强调了夏洛特的教育机构（例如北卡罗来纳大学夏洛特分校）将道德规范纳入其人工智能课程的必要性，为未来的技术领导者积极应对这些挑战做好准备。",
-      "impact_score": 5
-    },
-    {
-      "title": "诉讼称谷歌聊天机器人是用户妄想和死亡的幕后黑手",
-      "url": "https://www.bostonherald.com/2026/03/07/lawsuit-alleges-google-chatbot-was-behind-a-users-delusions-and-death/",
-      "industry": "AI Safety",
-      "summary": "一项诉讼指控谷歌聊天机器人导致用户产生妄想和死亡，引发了有关人工智能安全和潜在危害的严重问题。",
-      "charlotte_impact": "Atrium Health 和 Novant Health 在部署聊天机器人和其他直接与患者互动的人工智能解决方案时，应优先考虑建立患者安全协议。这包括明确的免责声明、人工监督以及防止提供有害或误导性信息的保障措施。",
-      "impact_score": 7
-    },
-    {
-      "title": "朋友、教练或女朋友：虚拟伴侣能否取代人际关系？",
-      "url": "https://www.channelnewsasia.com/cna-insider/artificial-intelligence-AI-chatbots-companions-digital-partner-emotional-relationship-5976696",
-      "industry": "Social Impact",
-      "summary": "这篇文章讨论了虚拟伴侣取代人类纽带的潜力，引发了人们对人工智能的社会和情感影响的担忧。",
-      "charlotte_impact": "这是一个更广泛的社会趋势，但它可能会影响夏洛特的心理健康服务。需要认识和理解依赖人工智能伴侣的心理影响，并且应该提供资源来支持健康的人际关系。",
-      "impact_score": 3
-    },
-    {
-      "title": "AI发现固态电池中液态离子流的隐藏信号",
-      "url": "https://www.sciencedaily.com/releases/2026/03/260307155938.htm",
-      "industry": "Materials Science",
-      "summary": "人工智能用于发现固态电池中的类液体离子流，为更安全、能量密度更高的电池铺平道路。",
-      "charlotte_impact": "杜克能源公司是该地区的主要能源供应商。此类技术的发展可能意味着夏洛特居民可以选择更实惠、更清洁的可再生能源。",
-      "impact_score": 5
-    },
-    {
-      "title": "云和大数据管理：整合到营销策略中",
-      "url": "https://link.springer.com/chapter/10.1007/978-3-032-10016-0_7",
-      "industry": "Marketing",
-      "summary": "本文讨论了将云和大数据整合到营销策略中，这正在成为一个重要趋势。",
-      "charlotte_impact": "夏洛特的公司在制定营销策略时需要考虑云和大数据，以保持竞争力。",
-      "impact_score": 4
-    },
-    {
-      "title": "美国正在向中东派遣人工智能反无人机系统，因为对抗伊朗沙希德的反应“令人失望”",
-      "url": "https://fortune.com/2026/03/07/us-anti-drone-system-merops-mideast-iran-shahed/",
-      "industry": "Defense",
-      "summary": "美国正在向中东派遣人工智能反无人机系统。",
-      "charlotte_impact": "这可能会影响提供无人机防御技术的当地承包商。",
-      "impact_score": 4
-    },
-    {
-      "title": "裁员、人工智能和重返办公室：为什么爱尔兰科技工人最终转向工会",
-      "url": "https://www.thejournal.ie/ireland-tech-sector-6974805-Mar2026/",
-      "industry": "Labor",
-      "summary": "裁员、人工智能和重返办公室正在推动爱尔兰科技工人成立工会。",
-      "charlotte_impact": "这凸显了企业需要解决夏洛特的劳动力问题，包括人工智能在内的这些问题中的就业状况。",
-      "impact_score": 4
-    }
-  ],
-  "overall_summary": "人工智能领域正在迅速发展，其特点是企业采用率不断提高、创新解决方案的大量融资以及代理人工智能技术的兴起。  道德问题和劳动力转移，特别是在国防和工作岗位流失等敏感领域使用人工智能，正变得越来越突出。  公司正在竞相将人工智能集成到现有的工作流程和平台中，旨在提高生产力并创建新的商业模式。"
-}
+[
+  {
+    "title": "Railway 融资 1 亿美元，利用 AI 原生云基础设施挑战 AWS",
+    "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+    "industry": "Cloud Infrastructure",
+    "summary": "Railway 获得 1 亿美元资金，通过提供人工智能原生云基础设施来挑战 AWS，该基础设施拥有更快的部署时间和节省的成本。他们正在构建自己的数据中心以实现“代理速度”，以满足人工智能驱动的开发工作流程和企业的需求。",
+    "charlotte_impact": "Railway 作为 AWS 替代方案的崛起可能有利于夏洛特的金融科技和银行业。更低的成本和更快的部署可以加速美国银行和 Truist 等公司的创新周期，使他们能够快速构建原型并部署人工智能驱动的金融服务。定制基础设施的能力可能会吸引夏洛特的科技初创公司。",
+    "impact_score": 9
+  },
+  {
+    "title": "Salesforce 推出新的 Slackbot AI 代理，在工作场所人工智能领域与微软和谷歌展开竞争",
+    "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+    "industry": "Enterprise Software",
+    "summary": "Salesforce 推出了由 Anthropic 的 Claude 提供支持的重建的 Slackbot AI 代理，将其定位为能够访问企业数据和自动化任务的“超级代理”。  内部测试显示 Salesforce 员工可节省大量时间并提高满意度。",
+    "charlotte_impact": "新的 Slackbot 可能会极大地影响 Atrium Health 和 Novant Health 等夏洛特主要雇主的生产力。简化的数据访问和自动化的任务管理可以让医疗保健专业人员腾出时间来专注于患者护理。大型金融机构是夏洛特经济的基石，可以改善内部沟通和效率。",
+    "impact_score": 8
+  },
+  {
+    "title": "Listen Labs 在病毒式广告牌招聘噱头扩大 AI 客户访谈后筹集了 6900 万美元",
+    "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+    "industry": "Market Research",
+    "summary": "Listen Labs 筹集了 6900 万美元，用于扩大 AI 客户访谈规模，为传统市场研究提供更快、更具扩展性的替代方案。他们的平台使用人工智能进行视频采访、检测欺诈并生成可行的见解，从而加快产品开发周期。",
+    "charlotte_impact": "Listen Labs 的人工智能研究平台可以为夏洛特公司带来竞争优势。  更快、更敏捷的洞察可以帮助本地企业适应不断变化的消费者偏好。  这对于零售和消费品等行业以及了解不断增长的夏洛特人口的需求尤其重要。",
+    "impact_score": 7
+  },
+  {
+    "title": "微软、谷歌和亚马逊表示 Anthropic Claude 仍可供非国防客户使用",
+    "url": "https://techcrunch.com/2026/03/06/microsoft-anthropic-claude-remains-available-to-customers-except-the-defense-department/",
+    "industry": "AI Policy",
+    "summary": "尽管最近五角大楼与 Anthropic 之间存在争议，微软、谷歌和亚马逊澄清，Anthropic 的 Claude 仍然可供非国防客户使用。这确保了许多公司可以继续利用人工智能模型。",
+    "charlotte_impact": "这一澄清确保夏洛特公司通过微软、谷歌或亚马逊服务使用克劳德的服务不会受到干扰。当地金融机构和医疗保健提供者可以继续利用克劳德来完成数据分析和患者沟通等任务，而不必担心与国防合同相关的访问限制。",
+    "impact_score": 6
+  },
+  {
+    "title": "谷歌刚刚向桑达尔·皮查伊支付了 6.92 亿美元的薪酬",
+    "url": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/",
+    "industry": "AI Leadership",
+    "summary": "谷歌向 Sundar Pichai 授予 6.92 亿美元的薪酬，该薪酬与业绩指标密切相关，包括 Waymo（自动驾驶）和 Wing（无人机送货）的成功。这凸显了该公司对人工智能驱动型企业的关注和投资。",
+    "charlotte_impact": "虽然皮查伊的薪酬不会直接影响夏洛特，但它标志着谷歌对 Waymo 和 Wing 的承诺，这可能会影响夏洛特等不断发展的城市的基础设施和交通规​​划。如果谷歌在这里投资扩大无人机送货或自动驾驶汽车服务，它可以创造就业机会并改善物流。",
+    "impact_score": 4
+  },
+  {
+    "title": "OpenAI 硬件高管 Caitlin Kalinowski 因五角大楼交易而辞职",
+    "url": "https://techcrunch.com/2026/03/07/openai-robotics-lead-caitlin-kalinowski-quits-in-response-to-pentagon-deal/",
+    "industry": "AI Ethics",
+    "summary": "OpenAI 硬件高管凯特琳·卡利诺夫斯基 (Caitlin Kalinowski) 辞职，以抗议该公司与国防部的交易。这次辞职凸显了围绕人工智能军事应用和员工担忧的道德争论。",
+    "charlotte_impact": "这场道德辩论引起了夏洛特不断发展的科技社区的共鸣。这可能会影响对拥有国防合同的公司的人才吸引力，或影响当地科技公司在人工智能开发和部署方面采取更严格的道德准则。关于人工智能伦理的讨论可能会在夏洛特的大学和科技活动中变得更加突出。",
+    "impact_score": 6
+  },
+  {
+    "title": "ICE 拘留设施所有者看到人工智能营地的巨大机遇",
+    "url": "https://techcrunch.com/2026/03/08/owner-of-ice-detention-facility-sees-big-opportunity-in-ai-man-camps/",
+    "industry": "AI Infrastructure",
+    "summary": "ICE 拘留设施的所有者正在探索开发“人工智能营地”的机会，以安置偏远地区的数据中心工作人员。这反映出对支持人工智能发展的基础设施的需求不断增长，以及剥削性劳动行为的可能性。",
+    "charlotte_impact": "虽然不太可能在夏洛特直接复制，但这一趋势凸显了人工智能的基础设施需求以及潜在的不平衡经济效益。杜克能源公司和当地建筑公司在规划夏洛特的发展时应了解未来数据中心的能源和资源需求。",
+    "impact_score": 3
+  },
+  {
+    "title": "人工智能路线图，如果有人愿意听的话",
+    "url": "https://techcrunch.com/2026/03/07/a-roadmap-for-ai-if-anyone-will-listen/",
+    "industry": "AI Policy",
+    "summary": "在五角大楼与人类的争议之后，倡导符合道德的人工智能发展的《亲人类宣言》变得越来越重要。该宣言是负责任的人工智能开发和治理的路线图。",
+    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "impact_score": 5
+  },
+  {
+    "title": "印度公司呼吁更多女性参加长期比赛",
+    "url": "https://economictimes.indiatimes.com/jobs/hr-policies-trends/india-inc-bats-for-more-women-to-play-long-game/articleshow/129229507.cms",
+    "industry": "HR and AI",
+    "summary": "印度公司正在采取积极措施，鼓励更多女性进入并留在劳动力市场，包括利用人工智能执行人力资源相关任务。",
+    "charlotte_impact": "这里的教训是印度公司如何利用更大的灵活性来鼓励女性加入劳动力市场。美国银行和杜克能源等公司也可能考虑采用此类策略。",
+    "impact_score": 4
+  },
+  {
+    "title": "OpenAI 机器人主管因公司与五角大楼交易而辞职",
+    "url": "https://www.livemint.com/companies/openais-head-of-robotics-resigns-over-company-s-pentagon-deal-11772923969241.html",
+    "industry": "AI Ethics",
+    "summary": "OpenAI 的机器人主管辞职以抗议该公司在五角大楼机密网络内部署人工智能模型的交易。",
+    "charlotte_impact": "围绕人工智能在国防中使用的道德担忧可能会影响夏洛特的技术专业人员为从事类似项目的公司工作的意愿。拥有人工智能项目的当地大学可能面临在课程中解决这些道德考虑的压力。",
+    "impact_score": 5
+  },
+  {
+    "title": "诉讼称谷歌聊天机器人是用户妄想和死亡的幕后黑手",
+    "url": "https://www.bostonherald.com/2026/03/07/lawsuit-alleges-google-chatbot-was-behind-a-users-delusions-and-death/",
+    "industry": "AI Risk",
+    "summary": "一项诉讼称，谷歌聊天机器人（Gemini 2.5 Pro）导致了用户的妄想和死亡，引发了人们对人工智能可能对心理健康产生负面影响的担忧。",
+    "charlotte_impact": "该诉讼强调了负责任的人工智能开发和部署的必要性。夏洛特的医疗保健提供者，包括 Atrium 和 Novant，应该意识到人工智能驱动的心理健康工具的潜在风险，并采取措施确保患者的安全和福祉。",
+    "impact_score": 7
+  },
+  {
+    "title": "人工智能翻译增强中文文本计划",
+    "url": "https://languagelog.ldc.upenn.edu/nll/?p=72985",
+    "industry": "AI and Language",
+    "summary": "中文文本计划通过人工智能翻译得到增强。这使得更多的研究人员和读者能够接触到中国古代文本。",
+    "charlotte_impact": "这不会直接影响夏洛特，但它确实说明了其他当地文化和文学机构如何利用人工智能来提供更好的内容访问。",
+    "impact_score": 1
+  },
+  {
+    "title": "6G 网络中 AI 驱动的 ISAC 系统动态资源分配：智能波束成形、干扰管理和功率分配",
+    "url": "https://www.nature.com/articles/s41598-026-42247-y",
+    "industry": "6G Networks & AI",
+    "summary": "一篇论文提出了一种基于人工智能的 6G 网络 ISAC 系统动态资源管理框架。 DRL 用于优化资源控制任务，例如智能波束成形、干扰管理和功率分配。",
+    "charlotte_impact": "随着夏洛特逐渐成为电信和智慧城市计划的潜在中心，对人工智能驱动的 6G 网络的研究可能具有重要意义。当地公司和大学可以合作开发和测试这些技术，以提高网络效率和可靠性。",
+    "impact_score": 3
+  },
+  {
+    "title": "朋友、教练或女朋友：虚拟伴侣能否取代人际关系？",
+    "url": "https://www.channelnewsasia.com/cna-insider/artificial-intelligence-AI-chatbots-companions-digital-partner-emotional-relationship-5976696",
+    "industry": "AI and Relationships",
+    "summary": "人工智能聊天机器人作为虚拟伙伴进行探索，讨论它们取代人类纽带的潜力并提供可编程的关系。重点关注对孤独率高的国家的影响。",
+    "charlotte_impact": "这凸显了人工智能伴侣的增长趋势以及其潜在的优点和缺点。当地心理健康专业人士和科技公司应考虑人工智能关系的伦理影响以及对夏洛特社区内社会隔离的影响。",
+    "impact_score": 3
+  },
+  {
+    "title": "AI发现固态电池中液态离子流的隐藏信号",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260307155938.htm",
+    "industry": "Materials Science & AI",
+    "summary": "人工智能用于发现固态电池中液态离子流的隐藏信号。这可能会导致比当今的锂离子技术更安全、能量密度更高的电池。",
+    "charlotte_impact": "这是人工智能应用于材料科学和研发的一个例子。这是杜克能源等本地公司也可以利用的一个潜在领域，有可能降低成本并改进生产和流程。",
+    "impact_score": 4
+  },
+  {
+    "title": "云和大数据管理：整合到营销策略中",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-032-10016-0_7",
+    "industry": "Marketing & Big Data",
+    "summary": "将云技术和大数据整合到营销策略中是一个重要领域。本文探讨了云技术对大数据的影响以及潜在的营销应用。",
+    "charlotte_impact": "夏洛特的营销机构和公司可以利用这些技术来提高目标定位和客户参与度。本文可以帮助他们更好地了解如何在营销策略中使用云计算和大数据。",
+    "impact_score": 4
+  },
+  {
+    "title": "美国正在向中东派遣人工智能反无人机系统，因为对抗伊朗沙希德的反应“令人失望”",
+    "url": "https://fortune.com/2026/03/07/us-anti-drone-system-merops-mideast-iran-shahed/",
+    "industry": "AI and Defense",
+    "summary": "美国正在向中东派遣人工智能反无人机系统，以应对伊朗无人机的袭击。该系统名为 Merops，用于对抗伊朗无人机。",
+    "charlotte_impact": "这表明人工智能武器系统的增长趋势。像这样的人工智能军事应用可能会影响对拥有国防合同的公司的人才吸引力，或影响当地科技公司在人工智能开发和部署方面采取更严格的道德准则。",
+    "impact_score": 5
+  }
+]
