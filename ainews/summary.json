@@ -3,200 +3,120 @@
     "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
     "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
     "industry": "Cloud Infrastructure",
-    "summary": "Railway secured $100M to challenge AWS with AI-native cloud infrastructure, claiming faster deployment times and cost savings, driven by the need to keep pace with AI-generated code. They are building their own data centers to optimize performance.",
-    "charlotte_impact": "Charlotte's financial sector, especially FinTech companies, could benefit from Railway's faster deployment speeds, allowing for quicker iteration and deployment of new financial products. Duke Energy could explore Railway's infrastructure for managing its energy grid and optimizing resource allocation, potentially leading to cost savings and improved efficiency. The growing local tech scene could leverage Railway to more rapidly deploy and scale their AI-driven applications.",
+    "summary": "Railway secured $100 million to challenge AWS with its AI-native cloud infrastructure. Railway's platform offers faster deployment times and cost savings compared to traditional cloud providers, which resonates with developers increasingly relying on AI coding assistants.",
+    "charlotte_impact": "Charlotte's growing FinTech sector could benefit from Railway's infrastructure by enabling faster deployment and testing of new AI-driven financial applications. Reduced infrastructure costs could also free up capital for innovation within local FinTech companies.",
     "impact_score": 9
   },
   {
     "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
     "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
     "industry": "Enterprise Software",
-    "summary": "Salesforce launched a rebuilt Slackbot AI agent, powered by Anthropic's Claude, to integrate enterprise data, draft documents, and automate tasks. Internal testing showed high adoption rates and significant time savings for employees.",
-    "charlotte_impact": "Atrium Health and Novant Health could leverage the new Slackbot to improve internal communication, streamline workflows, and facilitate data-driven decision-making across their healthcare networks. FinTech companies could utilize it to enhance collaboration, automate compliance tasks, and expedite customer service processes. Widespread adoption by Charlotte enterprises would likely improve productivity, but it may also reduce the need for certain office personnel.",
+    "summary": "Salesforce launched a rebuilt Slackbot, powered by Anthropic's Claude, transforming it into an AI agent capable of searching enterprise data, drafting documents, and taking actions on behalf of employees. Slackbot's internal testing revealed significant time savings and high satisfaction rates among employees.",
+    "charlotte_impact": "Many of Charlotte's major employers, particularly in banking and financial services, utilize Salesforce and Slack. The improved Slackbot will likely be adopted by these organizations, potentially increasing employee productivity and improving data-driven decision-making processes. This could give Charlotte companies a competitive edge.",
     "impact_score": 8
   },
   {
     "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
     "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
     "industry": "Market Research",
-    "summary": "Listen Labs raised $69M to scale its AI-powered customer interview platform, promising faster and more honest insights compared to traditional market research. They use AI to conduct interviews, analyze data, and generate reports, disrupting the $140 billion market research industry.",
-    "charlotte_impact": "Charlotte businesses across various sectors could use Listen Labs to gain faster and more accurate insights into customer preferences and market trends. Atrium Health and Novant Health could use the platform to gather patient feedback, improve healthcare services, and develop targeted marketing campaigns. Duke Energy could use it to understand customer attitudes towards renewable energy and inform its sustainability initiatives.",
+    "summary": "Listen Labs raised $69 million to scale its AI-powered customer interview platform. Listen's platform uses AI to conduct in-depth interviews, providing actionable insights faster and more efficiently than traditional market research methods.",
+    "charlotte_impact": "Charlotte's marketing agencies and corporate marketing departments could leverage Listen Labs' platform to gain quicker and more nuanced customer insights. This could lead to more effective marketing campaigns, improved product development, and better understanding of local consumer preferences.",
     "impact_score": 7
   },
   {
-    "title": "OpenAI and Google employees rush to Anthropic\u2019s defense in DOD lawsuit",
-    "url": "https://techcrunch.com/2026/03/09/openai-and-google-employees-rush-to-anthropics-defense-in-dod-lawsuit/",
-    "industry": "AI Governance",
-    "summary": "OpenAI and Google employees supported Anthropic's lawsuit against the Defense Department after the agency labeled the AI firm a supply-chain risk, highlighting concerns over AI regulation.",
-    "charlotte_impact": "While not directly impacted, Charlotte companies involved in sensitive data or government contracts, especially in the defense or financial sectors, must be aware of the increasing scrutiny and potential regulations surrounding AI supply chains. This could lead to increased compliance costs and require more rigorous due diligence when selecting AI vendors. The local technology and innovation ecosystem must remain up-to-date on the latest regulatory developments in the AI industry.",
-    "impact_score": 5
+    "title": "Oracle earnings will show whether its expensive AI bet is starting to pay off",
+    "url": "https://www.cnbc.com/2026/03/10/oracle-orcl-stock-earnings-ai-data-center.html",
+    "industry": "Cloud Computing",
+    "summary": "Oracle's earnings will indicate if its expensive AI bet, including a $300 billion deal with OpenAI, is starting to pay off. Oracle is positioning itself as a major player in AI cloud computing.",
+    "charlotte_impact": "While Charlotte doesn't have a large Oracle presence compared to other cloud providers, Duke Energy and other large enterprises in the region likely use Oracle services. The success of Oracle's AI initiatives could influence their adoption of AI-powered cloud solutions.",
+    "impact_score": 6
   },
   {
-    "title": "Yann LeCun\u2019s AMI Labs raises $1.03 billion to build world models",
-    "url": "https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/",
-    "industry": "AI Research",
-    "summary": "Yann LeCun's AMI Labs raised $1.03 billion to build world models, representing a significant investment in fundamental AI research and development.",
-    "charlotte_impact": "While AMI Labs' research is unlikely to have immediate direct impacts on Charlotte, it contributes to the overall advancement of AI technologies that will eventually benefit local businesses. The long-term implications include advancements in computer vision, robotics, and other AI-driven applications that can be adopted by various Charlotte industries, attracting additional venture capital.",
+    "title": "Amazon launches its healthcare AI assistant on its website and app",
+    "url": "https://techcrunch.com/2026/03/10/amazon-launches-its-healthcare-ai-assistant-on-its-website-and-app/",
+    "industry": "Healthcare",
+    "summary": "Amazon launched its healthcare AI assistant on its website and app. The AI can answer questions, explain health records, manage prescription renewals, and book appointments.",
+    "charlotte_impact": "Atrium Health and Novant Health, the two major healthcare providers in Charlotte, could face increased competition from Amazon's AI-powered healthcare services. This could push them to accelerate their own AI initiatives to improve patient experience and streamline administrative tasks.",
+    "impact_score": 7
+  },
+  {
+    "title": "Meta Vet Yann LeCun\u2019s AI Startup Pulls in $1 Billion",
+    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/meta-vet-yann-lecuns-ai-startup-pulls-in-1-billion/",
+    "industry": "Artificial Intelligence",
+    "summary": "Yann LeCun's AI startup, AMI, raised $1.03 billion to build AI systems with persistent memory and world understanding. The company aims to develop more advanced AI agents.",
+    "charlotte_impact": "While AMI's direct impact on Charlotte is limited, its research and development in advanced AI could indirectly benefit the local tech scene by contributing to the overall progress of AI technology.",
     "impact_score": 4
   },
   {
-    "title": "Anthropic launches code review tool to check flood of AI-generated code",
-    "url": "https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code/",
-    "industry": "AI Security",
-    "summary": "Anthropic launched Code Review in Claude Code, a multi-agent system to automatically analyze AI-generated code for logic errors, improving security and manageability of AI-developed systems.",
-    "charlotte_impact": "As Charlotte businesses increasingly adopt AI coding assistants, tools like Anthropic's Code Review become essential for ensuring the quality and security of AI-generated code. FinTech firms, in particular, need to prioritize code security to protect sensitive financial data and prevent cyberattacks. The local tech community must adopt robust code review practices for AI-generated code.",
-    "impact_score": 7
-  },
-  {
-    "title": "OpenAI acquires Promptfoo to secure its AI agents",
-    "url": "https://techcrunch.com/2026/03/09/openai-acquires-promptfoo-to-secure-its-ai-agents/",
-    "industry": "AI Security",
-    "summary": "OpenAI acquired Promptfoo to enhance the security of its AI agents, emphasizing the growing need for AI safety measures in business operations.",
-    "charlotte_impact": "This acquisition underscores the importance of AI security for Charlotte businesses deploying AI agents. Companies should prioritize safety and security to protect sensitive data and prevent malicious use of AI. This may involve investments in AI security technologies, risk and ethical considerations, and training programs for employees.",
-    "impact_score": 7
-  },
-  {
-    "title": "Google just gave Sundar Pichai a $692M pay package",
-    "url": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/",
-    "industry": "Executive Compensation",
-    "summary": "Google awarded Sundar Pichai a $692M pay package tied to performance, including Waymo and Wing, its drone delivery venture.",
-    "charlotte_impact": "While Pichai's compensation is unrelated to Charlotte directly, it signals the value that Alphabet places on AI-driven ventures like Waymo and Wing. As these technologies mature, they could lead to new business opportunities in Charlotte, such as autonomous transportation and drone delivery services. The local innovation ecosystem should be aware of these trends and prepare for potential disruption and business opportunities.",
-    "impact_score": 3
-  },
-  {
-    "title": "Anthropic sues Defense Department over supply-chain risk designation",
-    "url": "https://techcrunch.com/2026/03/09/anthropic-sues-defense-department-over-supply-chain-risk-designation/",
-    "industry": "AI Regulation",
-    "summary": "Anthropic sued the Defense Department over a supply-chain risk designation, highlighting the growing tension between AI companies and government regulators.",
-    "charlotte_impact": "This lawsuit underscores the evolving regulatory landscape for AI and the potential for government intervention. Charlotte businesses should stay informed about AI regulations and be prepared to adapt their business practices to comply with new requirements. Local legal professionals should develop expertise in AI law.",
+    "title": "Meta acquired Moltbook, the AI agent social network that went viral because of fake posts",
+    "url": "https://techcrunch.com/2026/03/10/meta-acquired-moltbook-the-ai-agent-social-network-that-went-viral-because-of-fake-posts/",
+    "industry": "Social Media",
+    "summary": "Meta acquired Moltbook, an AI agent social network, highlighting the potential for AI agents to interact and connect. Meta sees potential in connecting agents through an always-on directory.",
+    "charlotte_impact": "This acquisition indicates Meta's continued focus on AI and its impact on social networking. Charlotte's marketing firms and social media managers will need to adapt to the evolving landscape of AI-driven social interactions and potential for AI-generated content.",
     "impact_score": 5
   },
   {
-    "title": "Owner of ICE detention facility sees big opportunity in AI man camps",
-    "url": "https://techcrunch.com/2026/03/08/owner-of-ice-detention-facility-sees-big-opportunity-in-ai-man-camps/",
+    "title": "AgentMail raises $6M to build an email service for AI agents",
+    "url": "https://techcrunch.com/2026/03/10/agentmail-raises-6m-to-build-an-email-service-for-ai-agents/",
     "industry": "AI Infrastructure",
-    "summary": "AI data center developers are increasingly relying on 'man camps' to house workers, raising concerns about labor practices and community impact.",
-    "charlotte_impact": "If Charlotte attracts significant AI data center development, the city needs to consider the potential social and economic impacts of housing construction workers in temporary 'man camps'. Careful planning and community engagement are crucial to mitigating any negative consequences. Housing availability may be affected, impacting home sales.",
-    "impact_score": 4
-  },
-  {
-    "title": "A roadmap for AI, if anyone will listen",
-    "url": "https://techcrunch.com/2026/03/07/a-roadmap-for-ai-if-anyone-will-listen/",
-    "industry": "AI Ethics",
-    "summary": "The Pro-Human AI Declaration emphasizes ethical considerations in AI development, advocating for human-centered AI practices.",
-    "charlotte_impact": "Charlotte companies should adopt ethical AI principles to ensure their AI systems are fair, transparent, and accountable. This involves developing AI ethics policies, conducting impact assessments, and engaging with stakeholders to address potential concerns. The local business community needs to prioritize ethical AI development.",
+    "summary": "AgentMail raised $6M to build an email service specifically for AI agents. This highlights the emerging need for specialized infrastructure to support the growing ecosystem of AI agents.",
+    "charlotte_impact": "The rise of AI agents and platforms like AgentMail could lead to increased demand for AI engineers and developers in Charlotte. Local tech companies may need to invest in training and recruitment to build expertise in this area.",
     "impact_score": 6
   },
   {
-    "title": "Dubai\u2019s road to code: From AI pilots to enterprise deployment",
-    "url": "https://economictimes.indiatimes.com/news/international/uae/dubais-road-to-code-from-ai-pilots-to-enterprise-deployment/articleshow/129327161.cms",
-    "industry": "AI Adoption",
-    "summary": "Dubai is integrating AI into critical infrastructure, backed by regulatory clarity and enterprise support, showcasing the potential of AI adoption in urban environments.",
-    "charlotte_impact": "Charlotte can learn from Dubai's experience in integrating AI into city infrastructure, such as transportation, energy, and public safety. This involves developing a clear regulatory framework, fostering public-private partnerships, and investing in AI education and training. Could impact drone delivery services.",
-    "impact_score": 5
-  },
-  {
-    "title": "Bitfarms Expands Leadership Team with Seasoned U.S. Industry Experts to Support HPC/AI Infrastructure Development",
-    "url": "https://www.globenewswire.com/news-release/2026/03/09/3251704/0/en/Bitfarms-Expands-Leadership-Team-with-Seasoned-U-S-Industry-Experts-to-Support-HPC-AI-Infrastructure-Development.html",
-    "industry": "AI Infrastructure",
-    "summary": "Bitfarms expanded its leadership team to support HPC/AI infrastructure development, reflecting the growing demand for specialized AI infrastructure expertise.",
-    "charlotte_impact": "If Charlotte attracts AI infrastructure projects, there will be a need for professionals with expertise in high-performance computing and AI infrastructure. Local educational institutions should develop training programs to meet this demand. Duke Energy could work with Bitfarms to improve HPC infrastructure.",
-    "impact_score": 4
-  },
-  {
-    "title": "Drone Market Competitive Analysis Report 2025: Key Players Analysis, Company Profiles, Product Developments, Mergers, Strategic Collaborations, and Revenue Forecast Insights to 2033",
-    "url": "https://www.globenewswire.com/news-release/2026/03/09/3251701/28124/en/Drone-Market-Competitive-Analysis-Report-2025-Key-Players-Analysis-Company-Profiles-Product-Developments-Mergers-Strategic-Collaborations-and-Revenue-Forecast-Insights-to-2033.html",
-    "industry": "Drone Technology",
-    "summary": "The global drone market is projected to reach USD 85.85 billion by 2033, driven by increasing demand in sectors like aerial photography and construction.",
-    "charlotte_impact": "Charlotte companies can explore opportunities in the growing drone market, such as drone-based aerial photography, construction monitoring, and delivery services. However, local regulations and safety concerns need to be addressed to ensure responsible drone use. Duke Energy may be able to utilize drones for infrastructure inspection. The aviation industry will also be impacted.",
-    "impact_score": 5
-  },
-  {
-    "title": "(PR) MSI Showcases a Complete Edge AI Ecosystem at Embedded World 2026",
-    "url": "https://www.techpowerup.com/347185/msi-showcases-a-complete-edge-ai-ecosystem-at-embedded-world-2026",
-    "industry": "Edge AI",
-    "summary": "MSI showcased a complete Edge AI ecosystem at Embedded World 2026, demonstrating industrial-grade Edge AI computing and vertical industry solutions.",
-    "charlotte_impact": "Charlotte businesses can leverage Edge AI technologies to improve efficiency and automation in various industries, such as manufacturing, logistics, and healthcare. Edge AI enables real-time data processing and decision-making at the edge of the network, reducing latency and improving security. Atrium and Novant may be able to improve response times. Duke could use edge AI for power grid stability.",
-    "impact_score": 6
-  },
-  {
-    "title": "Why AI-Augmented leadership is becoming a business imperative",
-    "url": "https://economictimes.indiatimes.com/jobs/mid-career/why-ai-augmented-leadership-is-becoming-a-business-imperative/articleshow/129314089.cms",
-    "industry": "AI Leadership",
-    "summary": "AI-Augmented leadership is becoming a business imperative, demanding new skills beyond experience and requiring executives to integrate AI insights with human judgment.",
-    "charlotte_impact": "Charlotte companies need to invest in training programs to develop AI-fluent leaders who can effectively leverage AI insights and make informed decisions. This involves equipping leaders with the skills to understand AI technologies, interpret AI-generated data, and integrate AI into strategic planning. Many leaders in the Charlotte area may benefit from such training.",
+    "title": "Legora reaches $5.55 billion valuation as AI legal tech boom endures",
+    "url": "https://techcrunch.com/2026/03/10/legora-reaches-5-55-billion-valuation-as-ai-legaltech-boom-endures/",
+    "industry": "Legal Tech",
+    "summary": "Legora, an AI platform for lawyers, reached a $5.55 billion valuation, demonstrating the AI legal tech boom. The platform is used to fuel growth in the U.S.",
+    "charlotte_impact": "Charlotte's large legal firms, particularly those involved in corporate law and finance, could leverage AI legal tech like Legora to improve efficiency and accuracy in legal research, document review, and contract analysis. This could impact the local legal job market.",
     "impact_score": 7
   },
   {
-    "title": "AI isn't a side dish. It's the whole damn menu.",
-    "url": "https://www.optimizely.com/insights/blog/ai-isnt-a-side-dish/",
-    "industry": "AI Implementation",
-    "summary": "AI isn't a side dish, it should be embedded throughout your content menu to create the tastiest experience for you AND your customers.",
-    "charlotte_impact": "For Charlotte enterprises and local companies, a strategic focus on embedding AI across various aspects of their business can lead to substantial improvements in operations and customer satisfaction. Duke Energy could leverage AI to personalize their consumer engagement, while Atrium Health and Novant Health could utilize it to enhance their treatment plans and customer relations. Similarly, the banking and financial sector could implement AI to boost customer service via personalized experiences.",
+    "title": "Adobe is debuting an AI assistant for Photoshop",
+    "url": "https://techcrunch.com/2026/03/10/adobe-is-debuting-an-ai-assistant-for-photoshop/",
+    "industry": "Creative Software",
+    "summary": "Adobe is debuting an AI assistant for Photoshop and adding new AI-powered image-editing features to Firefly. This allows users to create and edit images using AI.",
+    "charlotte_impact": "Charlotte's creative agencies, marketing firms, and freelance designers will likely adopt Adobe's AI-powered tools to enhance their creative workflows and produce higher-quality visual content. This could lead to increased demand for professionals skilled in using these AI tools.",
     "impact_score": 6
   },
   {
-    "title": "Scientists Gave Mice and AI the Same Task, And The Results Were Strangely Similar",
-    "url": "https://economictimes.indiatimes.com/news/international/us/scientists-gave-mice-and-ai-the-same-task-and-the-results-were-strangely-similar/articleshow/129325940.cms",
-    "industry": "AI Research",
-    "summary": "Scientists gave mice and AI the same task, and the results were strangely similar, revealing shared principles of coordination in biological and artificial intelligence.",
-    "charlotte_impact": "While this research has limited immediate impact, it contributes to a deeper understanding of intelligence and could inspire new AI algorithms and architectures. It suggests that there may be fundamental principles that govern both biological and artificial intelligence. Research like this could eventually lead to more sophisticated AI, especially in robotics.",
-    "impact_score": 3
-  },
-  {
-    "title": "Interview: Nick Pearson, CIO, Ricoh Europe",
-    "url": "https://www.computerweekly.com/news/366639330/Interview-Nick-Pearson-CIO-Ricoh-Europe",
-    "industry": "Business Transformation",
-    "summary": "CIO of Ricoh Europe discusses undergoing a major pivot in the company's business model, creating a variety of opportunities.",
-    "charlotte_impact": "Companies in Charlotte that rely on older business models may need to consider pivoting as new AI technologies arise. Banks, Duke and local hospitals can all learn from Ricoh Europe to stay relevent. Companies may need to pivot and change their product offerings.",
+    "title": "Zoom introduces an AI-powered office suite, says AI avatars for meetings arrive this month",
+    "url": "https://techcrunch.com/2026/03/10/zoom-launches-an-ai-powered-office-suite-says-ai-avatars-for-meetings-are-coming-soon/",
+    "industry": "Communication",
+    "summary": "Zoom introduced an AI-powered office suite and announced AI avatars for meetings. Zoom is also introducing real-time deepfake detection technology for meetings.",
+    "charlotte_impact": "With many Charlotte businesses relying on remote and hybrid work models, the adoption of Zoom's AI-powered features could improve communication and collaboration. The deepfake detection technology can also enhance security and trust in online meetings.",
     "impact_score": 5
   },
   {
-    "title": "United States Security Market Report 2025-2033: Rapid Development of Surveillance Systems, Access Control, Alarm Monitoring, and Cybersecurity Underscores the Push Towards Safeguarding Assets and Data",
-    "url": "https://www.globenewswire.com/news-release/2026/03/09/3251635/28124/en/United-States-Security-Market-Report-2025-2033-Rapid-Development-of-Surveillance-Systems-Access-Control-Alarm-Monitoring-and-Cybersecurity-Underscores-the-Push-Towards-Safeguarding.html",
-    "industry": "Security",
-    "summary": "The United States Security Market is poised to reach $77.59 billion by 2033, with a 6.83% CAGR from 2025 to 2033, driven by growing safety concerns, technological advancements, and widespread adoption of advanced security solutions across various sectors.",
-    "charlotte_impact": "As the security market grows, Charlotte's local businesses and communities can prepare for more advanced security such as more surveillance cameras, alarms, and cyber security. If there is growth, Charlotte could become a center for security. However, Charlotte businesses must work to become more aware of the growing security concerns.",
+    "title": "Nitra Secures $187 Million to Automate Healthcare Practice Operations",
+    "url": "https://www.pymnts.com/healthcare/2026/nitra-secures-187-million-to-automate-healthcare-practice-operations/",
+    "industry": "Healthcare",
+    "summary": "Nitra secured $187 million to automate healthcare practice operations with its AI-native operating platform. This will enable healthcare professionals to use this AI platform to automate processes.",
+    "charlotte_impact": "Local healthcare practices and hospitals in Charlotte could potentially adopt Nitra's platform to streamline administrative tasks, reduce costs, and improve patient care. This could also create opportunities for AI specialists in the healthcare sector.",
+    "impact_score": 6
+  },
+  {
+    "title": "China\u2019s AI push shaping a burgeoning \u201csmart economy\u201d",
+    "url": "https://mypeoplesreview.com/2026/03/10/chinas-ai-push-shaping-a-burgeoning-smart-economy/",
+    "industry": "Economy",
+    "summary": "China\u2019s AI push is shaping a burgeoning \u201csmart economy\u201d. China is now using AI as a driver ushering for a new economy.",
+    "charlotte_impact": "As China\u2019s AI economy develops, the Queen City\u2019s international investment opportunities in the tech sector may increase as well.",
     "impact_score": 4
   },
   {
-    "title": "Aviation Test Equipment Market Report 2025-2033 - Global Air Traffic and MRO Growth Boosts the Need for Precise Diagnostic Tools with Technological Integration",
-    "url": "https://www.globenewswire.com/news-release/2026/03/09/3251634/28124/en/Aviation-Test-Equipment-Market-Report-2025-2033-Global-Air-Traffic-and-MRO-Growth-Boosts-the-Need-for-Precise-Diagnostic-Tools-with-Technological-Integration.html",
-    "industry": "Aviation",
-    "summary": "The Global Aviation Test Equipment Market is poised for robust growth, expanding from USD 7.5 billion in 2025 to USD 9.99 billion by 2033. Key drivers include technological advancements, increasing air travel, and stringent safety standards.",
-    "charlotte_impact": "Charlotte Douglas International Airport could benefit from technological advances in aviation testing equipment. Technological advancements could lead to Charlotte's airport being ranked higher in safety, boosting travel to and from Charlotte. If the aviation market grows, Charlotte's airport and surrounding businesses could see a boom.",
+    "title": "Neura Robotics accelerates next-generation physical AI",
+    "url": "https://www.computerweekly.com/news/366639921/NEURA-Robotics-accelerates-next-generation-physical-AI",
+    "industry": "Robotics",
+    "summary": "Neura Robotics accelerates next-generation physical AI. Robotics firm inks strategic collaboration with chip giant to advance next-generation robotics and physical AI, and work jointly on reference architectures for full-stack robotics systems",
+    "charlotte_impact": "While the city is not necessarily a leader in robotics, companies operating advanced production facilities may be drawn to use this in the region.",
     "impact_score": 4
   },
   {
-    "title": "QClaw AI: What is Tencent\u2019s \u2018Little Lobster\u2019 tool and will you be able to access it with WeChat and QQ",
-    "url": "https://economictimes.indiatimes.com/news/international/us/qclaw-ai-what-is-tencents-little-lobster-tool-and-will-you-be-able-to-access-it-with-wechat-and-qq/articleshow/129328397.cms",
-    "industry": "AI Tools",
-    "summary": "QClaw AI is presently being tested internally at Tencent and could see a wider release if the trials are successful. QClaw is expected to provide a one-click launch for OpenClaw on systems.",
-    "charlotte_impact": "If Tencent's QClaw tool is adopted, Charlotte developers can expect easier access to open systems and tools. As one of the top tech cities in the US, Charlotte can expect this tool to potentially reach local companies. OpenClaw tools could lead to faster innovation.",
-    "impact_score": 3
-  },
-  {
-    "title": "The Strange \u201cPerformances\u201d Animals Use When They Realize a Predator Is On The Watch",
-    "url": "https://economictimes.indiatimes.com/news/international/us/the-strange-performances-animals-use-when-they-realize-a-predator-is-on-the-watch/articleshow/129325910.cms",
-    "industry": "AI Models",
-    "summary": "Animals employ diverse survival strategies beyond speed, using erratic movements, visual displays, and warning colors to confuse and deter predators.",
-    "charlotte_impact": "As AI models become more diverse, Charlotte could see innovation in the way that AI is utilized. More diverse AI models can lead to a better future for all people in the city. Safety measures must be taken to ensure diversity in AI.",
-    "impact_score": 3
-  },
-  {
-    "title": "North America Pretzel Market Analysis/Forecast Report 2025-2033: Innovations Like Reese's Filled Pretzels and Cheetos Pretzels Highlight the $2.4 Bn Market' Dynamic Nature and Ongoing Diversification",
-    "url": "https://www.globenewswire.com/news-release/2026/03/09/3251642/28124/en/North-America-Pretzel-Market-Analysis-Forecast-Report-2025-2033-Innovations-Like-Reese-s-Filled-Pretzels-and-Cheetos-Pretzels-Highlight-the-2-4-Bn-Market-Dynamic-Nature-and-Ongoing.html",
-    "industry": "Innovation",
-    "summary": "The North America Pretzel Market is poised to grow from US$ 1.8 billion in 2025 to US$ 2.40 billion by 2033, driven by a 3.62% CAGR. Key growth factors include increasing consumer demand for healthy, ready-to-eat snacks and innovative products, like whole-gra\u2026",
-    "charlotte_impact": "While growth may not be tied to AI, the growth could lead to increased food processing. Charlotte can innovate on new pretzel flavor profiles, but the city must also be aware of the negative health effects related to salty products.",
-    "impact_score": 1
-  },
-  {
-    "title": " Not just D\u017eeko: What makes Schalke so strong this season",
-    "url": "https://onefootball.com/en/news/not-just-dzeko-what-makes-schalke-so-strong-this-season-42528259",
-    "industry": "Sports",
-    "summary": "Schalke is doing good this year",
-    "charlotte_impact": "None",
-    "impact_score": 1
+    "title": "2 neurodivergent founders share how AI supports executive function and growth",
+    "url": "https://www.businessinsider.com/ai-helps-neurodivergent-solopreneurs-grow-their-business",
+    "industry": "Workforce",
+    "summary": "2 neurodivergent founders share how AI supports executive function and growth. AI aids solopreneurs with ADHD and autism in task management, energy planning, and business growth, increasing efficiency.",
+    "charlotte_impact": "As Charlotte continues to grow, diversity should be a continued focus, making Charlotte firms and organizations a desirable location for all to work and develop with the assistance of AI.",
+    "impact_score": 4
   }
 ]
