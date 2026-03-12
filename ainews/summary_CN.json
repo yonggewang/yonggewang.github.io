@@ -3,120 +3,200 @@
     "title": "Railway 融资 1 亿美元，利用 AI 原生云基础设施挑战 AWS",
     "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
     "industry": "Cloud Infrastructure",
-    "summary": "Railway 筹集了 1 亿美元资金，利用其 AI 原生云基础设施挑战 AWS。与传统云提供商相比，Railway 的平台提供更快的部署时间并节省成本，这引起了越来越依赖人工智能编码助手的开发人员的共鸣。",
-    "charlotte_impact": "夏洛特不断发展的金融科技行业可以通过更快地部署和测试新的人工智能驱动的金融应用程序来受益于铁路基础设施。基础设施成本的降低还可以释放资金用于当地金融科技公司的创新。",
+    "summary": "Railway 获得 1 亿美元资金，利用其 AI 原生云基础设施挑战 AWS，旨在提供更快的部署时间，与 AI 生成的代码保持同步。该公司通过建立自己的数据中心并提供基于使用情况的定价来使自己脱颖而出。",
+    "charlotte_impact": "夏洛特的银行和金融科技部门可以受益于铁路更快的部署时间和成本节约，从而可以更快速地设计和部署人工智能驱动的金融服务。科技领域的本地初创公司还可以利用该平台与使用传统云基础设施的大型公司更有效地竞争。杜克能源公司可能还会发现铁路更适合，因为他们正在寻求优化天气和定价预测性能的方法",
     "impact_score": 9
   },
   {
     "title": "Salesforce 推出新的 Slackbot AI 代理，在工作场所 AI 领域与微软和谷歌展开竞争",
     "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
     "industry": "Enterprise Software",
-    "summary": "Salesforce 推出了重建的 Slackbot，由 Anthropic 的 Claude 提供支持，将其转变为能够搜索企业数据、起草文档并代表员工采取行动的人工智能代理。 Slackbot 的内部测试显示，它节省了大量时间，并且员工满意度很高。",
-    "charlotte_impact": "夏洛特的许多主要雇主，尤其是银行和金融服务行业的雇主，都使用 Salesforce 和 Slack。改进后的 Slackbot 很可能会被这些组织采用，从而有可能提高员工生产力并改进数据驱动的决策流程。这可能会给夏洛特公司带来竞争优势。",
-    "impact_score": 8
+    "summary": "Salesforce 推出了重建的 Slackbot AI 代理，由 Anthropic 的 Claude 提供支持，作为企业数据和操作的中央枢纽。  早期测试表明，可以为员工节省大量时间，并有可能将分散的数据转化为可供高管使用的见解。",
+    "charlotte_impact": "新的 Slackbot 有潜力显着提高夏洛特的大型金融机构（如美国银行和 Truist）的生产力和协作能力。通过简化数据访问和通信，员工可以做出更快、更明智的决策。  Atrium Health 和 Novant Health 也可以从改进的信息共享和协调中受益，从而有可能带来更好的患者护理。",
+    "impact_score": 9
   },
   {
     "title": "Listen Labs 在病毒式广告牌招聘噱头扩大 AI 客户访谈后筹集了 6900 万美元",
     "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
     "industry": "Market Research",
-    "summary": "Listen Labs 筹集了 6900 万美元，用于扩展其人工智能驱动的客户访谈平台。 Listen 的平台使用人工智能进行深度访谈，比传统的市场研究方法更快、更有效地提供可行的见解。",
-    "charlotte_impact": "夏洛特的营销机构和企业营销部门可以利用 Listen Labs 的平台获得更快、更细致的客户洞察。这可以带来更有效的营销活动、改进产品开发以及更好地了解当地消费者的偏好。",
-    "impact_score": 7
+    "summary": "Listen Labs 筹集了 6900 万美元来扩展其人工智能驱动的客户访谈平台，与传统的市场研究相比，该平台承诺更快、更诚实的反馈。  该平台可自动招募参与者，进行深入访谈，并在数小时内提供可行的见解。",
+    "charlotte_impact": "位于夏洛特的公司，包括消费品和零售行业的公司，可以利用 Listen Labs 快速收集客户对新产品和服务的反馈。这可以实现更快的产品开发周期和更有针对性的营销活动。该平台的欺诈检测功能也很重要，可确保可靠的客户洞察。",
+    "impact_score": 8
   },
   {
-    "title": "甲骨文的财报将显示其昂贵的人工智能赌注是否开始获得回报",
-    "url": "https://www.cnbc.com/2026/03/10/oracle-orcl-stock-earnings-ai-data-center.html",
-    "industry": "Cloud Computing",
-    "summary": "甲骨文的财报将表明其昂贵的人工智能赌注（包括与 OpenAI 的 3000 亿美元交易）是否开始获得回报。甲骨文将自己定位为人工智能云计算领域的主要参与者。",
-    "charlotte_impact": "虽然与其他云提供商相比，夏洛特没有大量 Oracle 存在，但杜克能源公司和该地区的其他大型企业可能会使用 Oracle 服务。 Oracle 人工智能计划的成功可能会影响他们对人工智能驱动的云解决方案的采用。",
-    "impact_score": 6
-  },
-  {
-    "title": "亚马逊在其网站和应用程序上推出医疗保健人工智能助手",
-    "url": "https://techcrunch.com/2026/03/10/amazon-launches-its-healthcare-ai-assistant-on-its-website-and-app/",
-    "industry": "Healthcare",
-    "summary": "亚马逊在其网站和应用程序上推出了医疗保健人工智能助手。人工智能可以回答问题、解释健康记录、管理处方续订和预约。",
-    "charlotte_impact": "夏洛特的两家主要医疗保健提供商 Atrium Health 和 Novant Health 可能面临来自亚马逊人工智能医疗保健服务的日益激烈的竞争。这可能会促使他们加快自己的人工智能计划，以改善患者体验并简化管理任务。",
-    "impact_score": 7
-  },
-  {
-    "title": "Meta Vet Yann LeCun 的人工智能初创公司筹集了 10 亿美元资金",
-    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/meta-vet-yann-lecuns-ai-startup-pulls-in-1-billion/",
-    "industry": "Artificial Intelligence",
-    "summary": "Yann LeCun 的人工智能初创公司 AMI 筹集了 10.3 亿美元，用于构建具有持久记忆和世界理解能力的人工智能系统。该公司的目标是开发更先进的人工智能代理。",
-    "charlotte_impact": "虽然AMI对夏洛特的直接影响有限，但其在先进人工智能领域的研发可以通过促进人工智能技术的整体进步，间接造福当地科技界。",
-    "impact_score": 4
-  },
-  {
-    "title": "Meta 收购了 Moltbook，这是一个因虚假帖子而疯传的人工智能代理社交网络",
-    "url": "https://techcrunch.com/2026/03/10/meta-acquired-moltbook-the-ai-agent-social-network-that-went-viral-because-of-fake-posts/",
-    "industry": "Social Media",
-    "summary": "Meta 收购了 AI 代理社交网络 Moltbook，突显了 AI 代理交互和连接的潜力。 Meta 看到了通过始终在线目录连接代理的潜力。",
-    "charlotte_impact": "此次收购表明 Meta 持续关注人工智能及其对社交网络的影响。夏洛特的营销公司和社交媒体经理将需要适应人工智能驱动的社交互动不断发展的格局以及人工智能生成内容的潜力。",
+    "title": "Netflix 可能斥资 6 亿美元收购本·阿弗莱克 (Ben Affleck) 的人工智能初创公司",
+    "url": "https://techcrunch.com/2026/03/11/netflix-may-have-paid-600-million-for-ben-afflecks-ai-startup/",
+    "industry": "Entertainment",
+    "summary": "Netflix 可能以 6 亿美元收购了本·阿弗莱克 (Ben Affleck) 的人工智能初创公司，这将是其有史以来最大的收购之一，这表明 Netflix 对人工智能驱动的娱乐技术进行了大量投资。",
+    "charlotte_impact": "虽然 Charlotte 与 Netflix 没有主要的直接联系，但此次收购表明人工智能融入内容创作和分发的趋势不断增长，这可能间接使寻求利用人工智能提高效率和创新的当地媒体和电影制作公司受益。",
     "impact_score": 5
   },
   {
-    "title": "AgentMail 融资 600 万美元，为 AI 代理构建电子邮件服务",
-    "url": "https://techcrunch.com/2026/03/10/agentmail-raises-6m-to-build-an-email-service-for-ai-agents/",
-    "industry": "AI Infrastructure",
-    "summary": "AgentMail 筹集了 600 万美元来专门为 AI 代理构建电子邮件服务。这凸显了对专业基础设施的新兴需求，以支持不断增长的人工智能代理生态系统。",
-    "charlotte_impact": "人工智能代理和 AgentMail 等平台的兴起可能会导致夏洛特对人工智能工程师和开发人员的需求增加。当地科技公司可能需要投资于培训和招聘，以建立该领域的专业知识。",
-    "impact_score": 6
-  },
-  {
-    "title": "随着人工智能法律技术的持续繁荣，Legora 估值达到 55.5 亿美元",
-    "url": "https://techcrunch.com/2026/03/10/legora-reaches-5-55-billion-valuation-as-ai-legaltech-boom-endures/",
-    "industry": "Legal Tech",
-    "summary": "律师人工智能平台Legora估值达到55.5亿美元，展现了人工智能法律科技的繁荣。该平台用于推动美国的增长",
-    "charlotte_impact": "夏洛特的大型律师事务所，特别是涉及公司法和金融的律师事务所，可以利用 Legora 等人工智能法律技术来提高法律研究、文件审查和合同分析的效率和准确性。这可能会影响当地的合法就业市场。",
+    "title": "Meta 的 Moltbook 交易预示着围绕人工智能代理构建的未来",
+    "url": "https://techcrunch.com/2026/03/11/metas-moltbook-deal-points-to-a-future-built-around-ai-agents/",
+    "industry": "Social Media/Advertising",
+    "summary": "Meta 收购 Moltbook 标志着未来广告和商业的人工智能代理的战略重点，凸显了向代理网络的转变。",
+    "charlotte_impact": "夏洛特当地的广告公司和营销公司将需要适应人工智能代理在广告领域的崛起。了解如何利用这些代理来创建更加个性化和有效的活动对于保持竞争力至关重要。  夏洛特的零售企业还可以探索使用人工智能代理来提高客户参与度并推动销售。",
     "impact_score": 7
   },
   {
-    "title": "Adobe 首次推出 Photoshop 人工智能助手",
-    "url": "https://techcrunch.com/2026/03/10/adobe-is-debuting-an-ai-assistant-for-photoshop/",
-    "industry": "Creative Software",
-    "summary": "Adobe 首次推出 Photoshop 人工智能助手，并为 Firefly 添加新的人工智能图像编辑功能。这允许用户使用人工智能创建和编辑图像。",
-    "charlotte_impact": "夏洛特的创意机构、营销公司和自由设计师可能会采用 Adob​​e 的人工智能工具来增强他们的创意工作流程并制作更高质量的视觉内容。这可能会导致对熟练使用这些人工智能工具的专业人员的需求增加。",
+    "title": "谷歌正在使用旧新闻报道和人工智能来预测山洪",
+    "url": "https://techcrunch.com/2026/03/12/google-is-using-old-news-reports-and-ai-to-predict-flash-floods/",
+    "industry": "AI/Disaster Prediction",
+    "summary": "谷歌正在使用旧新闻报道和人工智能来预测山洪爆发，展示了一种利用定性信息解决数据稀缺问题的新方法。",
+    "charlotte_impact": "虽然夏洛特不像其他一些地区那样容易发生同样规模的山洪，但这项技术可以用于预测和管理其他类型的局部天气事件，例如严重雷暴或局部洪水。像杜克能源这样的公用事业公司可以利用它来更好地规划基础设施。",
     "impact_score": 6
   },
   {
-    "title": "Zoom 推出人工智能办公套件，会议用人工智能头像将于本月上市",
-    "url": "https://techcrunch.com/2026/03/10/zoom-launches-an-ai-powered-office-suite-says-ai-avatars-for-meetings-are-coming-soon/",
-    "industry": "Communication",
-    "summary": "Zoom 推出了人工智能驱动的办公套件，并宣布了用于会议的人工智能头像。 Zoom 还推出了用于会议的实时深度伪造检测技术。",
-    "charlotte_impact": "由于夏洛特的许多企业都依赖远程和混合工作模式，采用 Zoom 的人工智能功能可以改善沟通和协作。 Deepfake检测技术还可以增强在线会议的安全性和信任度。",
+    "title": "Rivian 分拆公司 Mind Robotics 为工业人工智能机器人融资 5 亿美元",
+    "url": "https://techcrunch.com/2026/03/11/rivian-mind-robotics-series-a-500m-fund-raise-industrial-ai-powered-robots/",
+    "industry": "Industrial Automation",
+    "summary": "Rivian 的衍生公司 Mind Robotics 为工业人工智能驱动的机器人筹集了 5 亿美元，重点关注来自 Rivian 工厂的数据培训和部署。",
+    "charlotte_impact": "虽然夏洛特没有主要的汽车制造业，但这凸显了人工智能在工业自动化中日益重要的作用，这可能会影响当地寻求提高效率和降低成本的制造和物流公司。采用先进的机器人技术可以提高效率并降低长期成本。可能会影响当地制造商。制造业将越来越需要人工智能和机器人技术的熟练工人。",
+    "impact_score": 6
+  },
+  {
+    "title": "Canal+ 利用 Google 和 OpenAI 进行人工智能驱动的视频制作和内容推荐",
+    "url": "https://economictimes.indiatimes.com/tech/technology/canal-taps-google-and-openai-for-ai-driven-video-production-content-recommendation/articleshow/129457113.cms",
+    "industry": "Entertainment/AI",
+    "summary": "一位人工智能“演员”发布了一首反响不佳的歌曲，凸显了人工智能在创作方面的挑战和局限性。",
+    "charlotte_impact": "这个故事对于探索人工智能应用的当地艺术家和创意专业人士来说是一个警示。虽然人工智能可以成为一种有用的工具，但重要的是要认识到它的局限性并保持对人类创造力和艺术性的关注。",
+    "impact_score": 2
+  },
+  {
+    "title": "福特的新人工智能助手将帮助车队所有者了解是否使用了安全带",
+    "url": "https://techcrunch.com/2026/03/11/fords-new-ai-assistant-will-help-fleet-owners-know-if-seatbelts-are-being-used/",
+    "industry": "Automotive/Fleet Management",
+    "summary": "福特的新人工智能助手将帮助车队所有者跟踪安全带的使用情况，展示人工智能在提高安全性和合规性方面的应用。",
+    "charlotte_impact": "运营车队的当地企业（例如送货服务或运输公司）可以通过提高驾驶员安全性并减少责任来受益于福特的人工智能助手。这还可能降低保险成本并提高运营效率。",
     "impact_score": 5
   },
   {
-    "title": "Nitra 获得 1.87 亿美元资金用于自动化医疗实践运营",
-    "url": "https://www.pymnts.com/healthcare/2026/nitra-secures-187-million-to-automate-healthcare-practice-operations/",
+    "title": "今天的股市是否处于人工智能（AI）泡沫之中？这里有 3 个可能的警告信号。",
+    "url": "https://www.aol.com/articles/stock-market-artificial-intelligence-ai-110500371.html",
+    "industry": "Financial Markets",
+    "summary": "文章质疑股市是否处于人工智能泡沫之中，并指出“七大”科技股对标准普尔 500 指数的重大影响。",
+    "charlotte_impact": "本文与夏洛特的金融业相关，因为当地投资公司和财富管理机构需要仔细评估与人工智能驱动的股票市场相关的风险和机遇。投资组合多元化并避免过度投资人工智能相关股票对于长期稳定至关重要。",
+    "impact_score": 7
+  },
+  {
+    "title": "NetraMark 与全球生物制药公司签署合同，分析 2 期抑郁症试验数据",
+    "url": "https://financialpost.com/globe-newswire/netramark-signs-contract-with-global-biopharmaceutical-company-to-analyze-phase-2-depression-trial-data",
+    "industry": "Pharmaceuticals/Healthcare",
+    "summary": "NetraMark 与一家全球生物制药公司签署了一份合同，使用人工智能分析 2 期抑郁症试验数据。",
+    "charlotte_impact": "这凸显了人工智能在临床试验优化和精准医疗中日益重要的作用，这可能有利于夏洛特的医疗保健部门和研究机构。 Atrium Health 和 Novant Health 可以与 NetraMark 等公司合作，提高临床试验效率并开发更个性化的治疗方法。",
+    "impact_score": 7
+  },
+  {
+    "title": "论文称，AMD首席执行官将在韩国会见三星首席执行官，以争夺人工智能存储芯片的竞争",
+    "url": "https://economictimes.indiatimes.com/tech/technology/amd-ceo-to-meet-samsung-chief-in-south-korea-amid-race-for-ai-memory-chips-paper-says/articleshow/129456909.cms",
+    "industry": "Semiconductors",
+    "summary": "AMD首席执行官计划在人工智能存储芯片竞赛中会见三星首席执行官",
+    "charlotte_impact": "尽管夏洛特在微芯片行业内没有强大的制造基础，但这篇文章提醒人们，人工智能开发所需的存储芯片需求不断增长，为其他地区创造了就业机会，并增加了电子产品的成本。",
+    "impact_score": 4
+  },
+  {
+    "title": "根据 Anthropic 的数据，建筑师和工程师是最容易被人工智能自动化的职业之一",
+    "url": "https://www.dezeen.com/2026/03/11/architects-highly-expose-ai-anthropic-research/",
+    "industry": "Architecture/Engineering",
+    "summary": "人工智能公司 Anthropic 的一项研究发现，使用大型语言模型，建筑师和工程师完成的许多工作可以以两倍的速度完成。",
+    "charlotte_impact": "夏洛特的建筑和工程公司可以通过采用人工智能工具提高效率和生产力。然而，这也引发了人们对潜在工作岗位流失以及专业人员需要调整自己的技能以与人工智能一起工作的担忧。",
+    "impact_score": 8
+  },
+  {
+    "title": "法律专家表示，Anthropic 有充分理由反对五角大楼列入黑名单",
+    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-has-strong-case-against-pentagon-blacklisting-legal-experts-say/articleshow/129456323.cms",
+    "industry": "Government/AI",
+    "summary": "法律专家表示，Anthropic 可能对五角大楼列入黑名单有强有力的理由",
+    "charlotte_impact": "本文与夏洛特没有直接关系，但是，人工智能公司如何从政府列入黑名单的概念可能会对像夏洛特这样在都会区设有联邦政府分支机构的城市产生影响。",
+    "impact_score": 3
+  },
+  {
+    "title": "与 WGA 谈判代表就当前员工工会罢工、最低基本协议谈判、人工智能、2023 年罢工、迪士尼和 Sora、版权等问题进行问答（Gene Maddaus/Variety）",
+    "url": "https://mediagazer.com/260311/p3",
+    "industry": "Entertainment/Labor",
+    "summary": "与 WGA 谈判代表就当前员工工会罢工、最低基本协议谈判、人工智能、2023 年罢工、迪士尼和 Sora、版权等进行问答",
+    "charlotte_impact": "本文强调了创意空间中劳动力与人工智能之间的冲突。虽然本文对夏洛特没有直接影响，但随着人工智能工具变得更加容易获得，创意工作者可能希望为未来有关工作保障的谈判做好准备。",
+    "impact_score": 4
+  },
+  {
+    "title": "亚马逊扩展了一项允许客户从其他零售商网站购物的计划",
+    "url": "https://techcrunch.com/2026/03/11/amazon-expands-a-program-that-lets-customers-shop-from-other-retailers-sites/",
+    "industry": "Retail/E-commerce",
+    "summary": "亚马逊正在扩展一项允许客户从其他零售商网站购物的计划，进一步增强亚马逊在电子商务领域的影响力。",
+    "charlotte_impact": "随着保持竞争力的需求增加，这可能会对当地企业产生轻微影响。",
+    "impact_score": 4
+  },
+  {
+    "title": "AI“演员”蒂莉·诺伍德演唱了我听过的最糟糕的歌曲",
+    "url": "https://techcrunch.com/2026/03/11/ai-actor-tilly-norwood-put-out-the-worst-song-ive-ever-heard/",
+    "industry": "AI/Entertainment",
+    "summary": "人工智能“演员”蒂莉·诺伍德演唱了我听过的最糟糕的歌曲，表明人工智能在创作方面的局限性。",
+    "charlotte_impact": "这对夏洛特没有影响。",
+    "impact_score": 1
+  },
+  {
+    "title": "Xanadu 和 ETRI 合作使用 PennyLane 加速容错量子算法设计",
+    "url": "https://financialpost.com/globe-newswire/xanadu-and-etri-partner-to-accelerate-fault-tolerant-quantum-algorithm-design-using-pennylane",
+    "industry": "Quantum Computing",
+    "summary": "Xanadu 和 ETRI 合作使用 PennyLane 加速容错量子算法设计",
+    "charlotte_impact": "量子计算仍然是一项新兴技术，还处于起步阶段。夏洛特可以继续投资技术以保持相关性。",
+    "impact_score": 3
+  },
+  {
+    "title": "Canal+ 利用 Google 和 OpenAI 进行人工智能驱动的视频制作和内容推荐",
+    "url": "https://economictimes.indiatimes.com/tech/technology/canal-taps-google-and-openai-for-ai-driven-video-production-content-recommendation/articleshow/129457113.cms",
+    "industry": "Entertainment",
+    "summary": "Canal+ 正在寻求利用 Google 和 OpenAI 来增强其视频制作和内容分发。",
+    "charlotte_impact": "虽然与夏洛特没有直接关系，但这篇新闻报道表明人工智能在娱乐领域的使用正在增长。",
+    "impact_score": 2
+  },
+  {
+    "title": "睡眠是公共卫生的下一个前沿领域",
+    "url": "https://blogs.lse.ac.uk/impactofsocialsciences/2026/03/11/sleep-is-the-next-frontier-for-public-health/",
     "industry": "Healthcare",
-    "summary": "Nitra 获得了 1.87 亿美元资金，用于通过其人工智能原生操作平台实现医疗保健实践操作的自动化。这将使医疗保健专业人员能够使用该人工智能平台来实现流程自动化。",
-    "charlotte_impact": "夏洛特当地的医疗保健机构和医院可能会采用 Nitra 的平台来简化管理任务、降低成本并改善患者护理。这也可以为医疗保健领域的人工智能专家创造机会。",
-    "impact_score": 6
+    "summary": "睡眠被认为是公共卫生的下一个前沿领域。",
+    "charlotte_impact": "Atrium Health 和 Novant Health 可以合作使用人工智能来创建面向未来的工具和应用程序。",
+    "impact_score": 5
   },
   {
-    "title": "中国的人工智能推动塑造了蓬勃发展的“智能经济”",
-    "url": "https://mypeoplesreview.com/2026/03/10/chinas-ai-push-shaping-a-burgeoning-smart-economy/",
-    "industry": "Economy",
-    "summary": "中国的人工智能推动正在塑造蓬勃发展的“智能经济”。中国现在正在利用人工智能作为新经济的驱动力。",
-    "charlotte_impact": "随着中国人工智能经济的发展，皇后城在科技领域的国际投资机会也可能会增加。",
-    "impact_score": 4
+    "title": "Xanadu 和 ETRI 合作使用 PennyLane 加速容错量子算法设计",
+    "url": "https://www.globenewswire.com/news-release/2026/03/11/3253626/0/en/Xanadu-and-ETRI-Partner-to-Accelerate-Fault-Tolerant-Quantum-Algorithm-Design-using-PennyLane.html",
+    "industry": "Quantum Computing",
+    "summary": "Xanadu 和 ETRI 合作使用 PennyLane 加速容错量子算法设计",
+    "charlotte_impact": "量子计算仍然是一项新兴技术，还处于起步阶段。夏洛特可以继续投资技术以保持相关性。",
+    "impact_score": 3
   },
   {
-    "title": "Neura Robotics 加速下一代物理人工智能",
-    "url": "https://www.computerweekly.com/news/366639921/NEURA-Robotics-accelerates-next-generation-physical-AI",
-    "industry": "Robotics",
-    "summary": "Neura Robotics 加速下一代物理人工智能。机器人公司与芯片巨头签署战略合作协议，推进下一代机器人技术和物理人工智能，并共同开发全栈机器人系统的参考架构",
-    "charlotte_impact": "虽然该城市不一定是机器人技术的领导者，但运营先进生产设施的公司可能会被吸引在该地区使用机器人技术。",
-    "impact_score": 4
+    "title": "斯旺森：嘘！湖人队球迷知道巴姆·阿德巴约以 83 分欺骗科比·布莱恩特",
+    "url": "https://sports.yahoo.com/articles/swanson-booooo-lakers-fans-know-110000636.html",
+    "industry": "Sports",
+    "summary": "巴姆·阿德巴约在对阵奇才队的比赛中拿下 83 分，超越了科比·布莱恩特标志性的 81 分，奇才队帮助他的数据膨胀。",
+    "charlotte_impact": "没有任何",
+    "impact_score": 1
   },
   {
-    "title": "两位神经分歧的创始人分享人工智能如何支持执行功能和成长",
-    "url": "https://www.businessinsider.com/ai-helps-neurodivergent-solopreneurs-grow-their-business",
-    "industry": "Workforce",
-    "summary": "两位神经分歧的创始人分享人工智能如何支持执行功能和成长。人工智能可以帮助患有多动症和自闭症的个体企业家进行任务管理、能源规划和业务增长，从而提高效率。",
-    "charlotte_impact": "随着夏洛特的不断发展，多样性应该成为持续关注的焦点，使夏洛特的公司和组织成为所有人在人工智能的帮助下工作和发展的理想场所。",
-    "impact_score": 4
+    "title": "NetraMark 与全球生物制药公司签署合同，分析 2 期抑郁症试验数据",
+    "url": "https://www.globenewswire.com/news-release/2026/03/11/3253628/0/en/NetraMark-Signs-Contract-With-Global-Biopharmaceutical-Company-to-Analyze-Phase-2-Depression-Trial-Data.html",
+    "industry": "Pharmaceuticals/Healthcare",
+    "summary": "NetraMark 与一家全球生物制药公司签署了一份合同，使用人工智能分析 2 期抑郁症试验数据。",
+    "charlotte_impact": "这凸显了人工智能在临床试验优化和精准医疗中日益重要的作用，这可能有利于夏洛特的医疗保健部门和研究机构。 Atrium Health 和 Novant Health 可以与 NetraMark 等公司合作，提高临床试验效率并开发更个性化的治疗方法。",
+    "impact_score": 7
+  },
+  {
+    "title": "独家报道：埃隆·马斯克在虚拟大屠杀后爆发——大亨在涉嫌技术驱动的谋杀自杀事件后将人工智能称为“存在威胁”",
+    "url": "https://radaronline.com/p/elon-musk-ai-threat-tech-murder-suicide/",
+    "industry": "Ethics",
+    "summary": "在涉嫌技术驱动的谋杀自杀事件引发公愤后，埃隆·马斯克将人工智能称为“生存威胁”。",
+    "charlotte_impact": "对夏洛特没有立即影响。",
+    "impact_score": 2
+  },
+  {
+    "title": "BranchOut Food 宣布与 Zesty Snackz 和 YouTube 顶级创作者合作推出单一成分水果片",
+    "url": "https://www.globenewswire.com/news-release/2026/03/11/3253601/0/en/BranchOut-Food-Announces-Partnership-with-Zesty-Snackz-and-Top-YouTube-Creators-to-Launch-Single-Ingredient-Fruit-Chips.html",
+    "industry": "Food",
+    "summary": "BranchOut Food 宣布与 Zesty Snackz 和 YouTube 顶级创作者合作推出单一成分水果片",
+    "charlotte_impact": "对夏洛特没有立即影响。",
+    "impact_score": 1
   }
 ]
