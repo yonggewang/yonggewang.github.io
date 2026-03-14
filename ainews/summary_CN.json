@@ -3,200 +3,192 @@
     "title": "Railway 融资 1 亿美元，利用 AI 原生云基础设施挑战 AWS",
     "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
     "industry": "Cloud Infrastructure",
-    "summary": "Railway 获得 1 亿美元资金，利用 AI 原生云基础设施挑战 AWS，从而更快地部署 AI 生成的代码。他们建立了自己的数据中心，并提供经济高效、高度可扩展的解决方案，吸引了个人开发人员和财富 500 强公司。",
-    "charlotte_impact": "这可能会吸引夏洛特不断发展的金融科技和技术公司，为 AWS、Azure 和谷歌云提供经济高效且高性能的替代方案。  金融科技初创公司可能会特别受益于铁路公司的合规认证，从而有可能提高开发运营和云工程的采用率并创造本地就业机会。",
+    "summary": "Railway 是一个面向 AI 开发人员的云平台，筹集了 1 亿美元，通过提供更快的部署时间和更低的成本来挑战 AWS。他们建立了自己的数据中心来优化人工智能驱动的代码生成和部署的性能，显着提高了开发人员的速度并为企业客户节省了成本。",
+    "charlotte_impact": "这一发展直接影响夏洛特的金融科技和银行业，其中快速的软件迭代至关重要。  铁路提供的更低的基础设施成本和更快的部署周期可以为当地公司带来竞争优势。杜克能源公司还可以受益于更高效的云解决方案来管理智能电网技术和数据分析，从而可能节省成本。",
     "impact_score": 9
   },
   {
     "title": "Salesforce 推出新的 Slackbot AI 代理，在工作场所 AI 领域与微软和谷歌展开竞争",
     "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
     "industry": "Enterprise Software",
-    "summary": "Salesforce 推出了由 Anthropic 的 Claude 提供支持的重建的 Slackbot AI 代理，旨在成为“代理企业的前门”。 Slackbot 可以搜索企业数据、起草文档并代表员工采取行动，与 Salesforce 和其他第三方系统无缝集成。",
-    "charlotte_impact": "这直接影响了夏洛特庞大的银行/金融科技行业以及医疗保健（Atrium/Novant）。增强型 Slackbot 可以简化这些公司的工作流程，提高客户服务和运营效率。  这些大型组织中代理人工智能的兴起为本地人工智能人才和咨询服务提供了机会。",
-    "impact_score": 8
+    "summary": "Salesforce 推出了重建的 Slackbot，由 Anthropic 的 Claude 提供支持，将其转变为能够搜索企业数据、起草文档并为员工采取行动的人工智能代理。内部测试显示出显着的时间节省和高满意度，将 Slack 定位为人工智能驱动的工作流程的中心枢纽，并在工作场所人工智能领域挑战微软和谷歌。",
+    "charlotte_impact": "升级后的 Slackbot 为夏洛特的大型金融机构和医疗保健提供商提供了重大机遇。快速综合各种来源的数据并自动执行任务的能力可以提高生产力和决策。 Atrium Health 和 Novant Health 可以利用它进行高效的患者数据分析并改善员工之间的沟通，而 Bank of America 和 Truist 可以简化运营和客户服务。",
+    "impact_score": 9
   },
   {
     "title": "Listen Labs 在病毒式广告牌招聘噱头扩大 AI 客户访谈后筹集了 6900 万美元",
     "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
     "industry": "Market Research",
-    "summary": "Listen Labs 筹集了 6900 万美元，用于扩大人工智能驱动的客户访谈，旨在颠覆传统的市场研究行业。他们的平台对人工智能主持人进行深入的视频采访，比传统方法更快、更经济高效地提供可行的见解。",
-    "charlotte_impact": "位于夏洛特的营销机构和 Bojangles 和 Food Lion 等以消费者为中心的企业可以利用 Listen Labs 快速获得客户洞察、改进产品开发并完善营销策略。  这可以通过实现更敏捷和数据驱动的决策来创造竞争优势。",
+    "summary": "Listen Labs 筹集了 6900 万美元来扩展其人工智能驱动的客户访谈平台，该平台用人工智能驱动的视频对话取代传统的市场研究方法，以获得更快、更有洞察力的反馈。  该平台通过提供速度和准确性以及自动化洞察生成来瞄准 1,400 亿美元的市场研究行业。",
+    "charlotte_impact": "Listen Labs 可以通过更快地提高客户洞察力来使夏洛特的企业受益。该地区的公司可以利用更快、更有洞察力的反馈来改进营销活动和产品开发。这种影响涉及从零售到金融服务的各个行业。",
     "impact_score": 7
   },
   {
-    "title": "消息人士称，销售自动化初创公司 Rox AI 估值达到 1.2B 美元",
-    "url": "https://techcrunch.com/2026/03/12/sales-automation-startup-rox-ai-hits-1-2b-valuation-sources-say/",
-    "industry": "Sales Automation",
-    "summary": "销售自动化初创公司 Rox AI 通过提供 CRM 工具的 AI 原生替代方案，估值达到 1.2B 美元。",
-    "charlotte_impact": "鉴于 Charlotte 专注于银行和金融领域，传统 CRM 工具的人工智能原生替代品有可能大幅改善这些行业的销售流程和客户关系。它可能会带来更有效的销售策略、有针对性的营销工作，并最终增加夏洛特公司的收入，同时也推动该地区对人工智能销售专家的需求。",
-    "impact_score": 7
+    "title": "Nyne 由一对父子创立，为人工智能代理提供他们所缺少的人类背景",
+    "url": "https://techcrunch.com/2026/03/13/nyne-founded-by-a-father-son-duo-gives-ai-agents-the-human-context-theyre-missing/",
+    "industry": "AI Agents",
+    "summary": "Nyne 是一家数据基础设施初创公司，由一对父子创立，筹集了 530 万美元的种子资金。该公司致力于为人工智能代理提供他们目前缺乏的人类背景。",
+    "charlotte_impact": "这是一个更普遍的发展，但如果该公司取得成功，它可以为夏洛特地区的各种用例提供​​帮助。任何目前正在利用人工智能或计划这样做的公司都可以从具有人类背景的人工智能代理中受益。这可能尤其会影响银行业和医疗保健等领域。",
+    "impact_score": 6
   },
   {
-    "title": "Facebook Marketplace 现在允许 Meta AI 响应买家的消息",
-    "url": "https://techcrunch.com/2026/03/12/facebook-marketplace-now-lets-meta-ai-respond-to-buyers-messages/",
-    "industry": "E-commerce",
-    "summary": "Facebook Marketplace 现在允许 Meta AI 自动回复买家的消息，使用列表中的信息起草回复。",
-    "charlotte_impact": "在夏洛特的 Facebook Marketplace 上销售的当地小型企业和个人可以受益于自动响应，从而节省时间并提高客户参与度。这增强了当地的电子商务生态系统，从而加快了交易速度并增加了销售潜力。",
-    "impact_score": 4
+    "title": "“第一次就没有成功”——马斯克的 xAI 又重新开始了",
+    "url": "https://techcrunch.com/2026/03/13/not-built-right-the-first-time-musks-xai-is-starting-over-again-again/",
+    "industry": "AI Coding Tools",
+    "summary": "埃隆·马斯克 (Elon Musk) 的 xAI 正在改进其构建 AI 编码工具的工作，两名来自 Cursor 的新高管加入。这表明人们重新关注提高人工智能在软件开发方面的能力。",
+    "charlotte_impact": "这一发展可能会提高当地软件开发人员的生产力，从而影响夏洛特不断发展的科技领域。人工智能驱动的编码工具可以帮助他们更有效地编写代码，从而加速创新并降低开发成本。",
+    "impact_score": 6
   },
   {
-    "title": "Wonderful 以 20 亿美元估值筹集 1.5 亿美元 B 轮融资",
-    "url": "https://techcrunch.com/2026/03/12/wonderful-raises-150m-series-b-at-2b-valuation/",
-    "industry": "AI Development",
-    "summary": "Wonderful 以 2B 美元的估值筹集了 1.5 亿美元的 B 轮融资，距离 A 轮融资 1 亿美元仅四个月。",
-    "charlotte_impact": "Wonderful的高估值和融资表明投资者对人工智能领域的强大信心。虽然摘要中没有详细介绍 Wonderful 的具体活动，但它强调了更广泛的人工智能行业的增长潜力和投资机会，这可能会吸引风险资本进入夏洛特正在发展的科技领域。",
-    "impact_score": 4
+    "title": "Peacock 扩展到人工智能驱动的视频、移动优先的体育直播和游戏领域",
+    "url": "https://techcrunch.com/2026/03/13/peacock-expands-into-ai-driven-video-mobile-first-live-sports-and-gaming/",
+    "industry": "Media & Entertainment",
+    "summary": "Peacock 正在扩展到人工智能驱动的视频体验、移动优先的体育直播和游戏领域。这表明人工智能在媒体中集成的更广泛趋势，以提供个性化内容和增强的用户体验。",
+    "charlotte_impact": "虽然没有直接影响夏洛特的特定行业，但这反映了人工智能在媒体和娱乐领域的增长趋势。任何专注于媒体制作或发行的本地公司都需要考虑人工智能在内容创建和个性化方面的作用。",
+    "impact_score": 3
   },
   {
-    "title": "Atlassian追随Block的脚步，以AI之名裁员",
-    "url": "https://techcrunch.com/2026/03/12/atlassian-follows-blocks-footsteps-and-cuts-staff-in-the-name-of-ai/",
+    "title": "尽管美元走强，比特币仍跑赢股票，突破 72,000 美元",
+    "url": "https://www.coindesk.com/markets/2026/03/13/bitcoin-outperforms-stocks-tops-usd72-000-even-as-dollar-strengthens",
+    "industry": "Finance/Crypto",
+    "summary": "即使美元走强，比特币的表现仍优于股票，突破 72,000 美元。山寨币和人工智能代币加入了更广泛的加密货币涨势。",
+    "charlotte_impact": "夏洛特是一个大型银行中心，因此金融业始终具有重要意义。本文重点介绍了人工智能代币的增长，因此当地银行公司应该意识到加密货币的潜在影响。",
+    "impact_score": 3
+  },
+  {
+    "title": "Atlassian 将战略转向人工智能，裁员 1,600 人",
+    "url": "https://www.ubergizmo.com/2026/03/atlassian-cuts-1600-jobs-ai/",
     "industry": "Enterprise Software",
-    "summary": "Atlassian 解雇了 10% 的员工（约 1,600 人），因为该公司希望将更多资金用于人工智能计划。",
-    "charlotte_impact": "这凸显了人工智能的颠覆性本质，有可能取代传统软件开发职位。  夏洛特需要重点开展再培训计划，为工人配备人工智能相关技能，以减少失业并确保未来拥有熟练的劳动力。",
-    "impact_score": 8
-  },
-  {
-    "title": "Bumble 推出人工智能约会助手“Bee”",
-    "url": "https://techcrunch.com/2026/03/12/bumble-introduces-an-ai-dating-assistant-bee/",
-    "industry": "Dating Apps",
-    "summary": "Bumble 推出了人工智能约会助手“Bee”，可以根据兼容性和目标来匹配人们，超越了传统的滑动机制。",
-    "charlotte_impact": "虽然主要以消费者为中心，但这表明人工智能在个性化匹配和推荐系统中的应用越来越多。  夏洛特的企业可以探索类似的人工智能应用程序，用于人才获取、客户细分和个性化服务交付。",
-    "impact_score": 3
-  },
-  {
-    "title": "一名作家起诉 Grammarly，称其未经同意将她和其他作者变成“人工智能编辑”",
-    "url": "https://techcrunch.com/2026/03/12/a-writer-is-suing-grammarly-for-turning-her-and-other-authors-into-ai-editors-without-consent/",
-    "industry": "Legal Tech",
-    "summary": "一名作家正在起诉 Grammarly，称其涉嫌在未经同意的情况下将她和其他作者变成“人工智能编辑”，引发了隐私和公开权方面的担忧。",
-    "charlotte_impact": "这凸显了与人工智能工具相关的法律和道德风险，特别是在知识产权和数据隐私方面。夏洛特企业需要仔细考虑采用人工智能的法律影响，并确保遵守相关法规。",
-    "impact_score": 6
-  },
-  {
-    "title": "Gumloop 从 Benchmark 获得 5000 万美元，旨在将每位员工转变为 AI 代理构建者",
-    "url": "https://techcrunch.com/2026/03/12/gumloop-lands-50m-from-benchmark-to-turn-every-employee-into-an-ai-agent-builder/",
-    "industry": "AI Development Tools",
-    "summary": "Gumloop 从 Benchmark 获得 5000 万美元，旨在将每位员工转变为 AI 代理构建者，赋予员工 AI 超能力。",
-    "charlotte_impact": "这符合人工智能发展民主化的趋势。  夏洛特公司可以利用 Gumloop 等平台来提高员工的技能，并使他们能够根据自己的特定需求创建定制的人工智能解决方案。这可以提高各个部门的创新和生产力。",
-    "impact_score": 7
-  },
-  {
-    "title": "两个法律科技竞争对手最大的斗争可能不是相互对抗",
-    "url": "https://www.businessinsider.com/harvey-legora-ai-law-legal-2026-3",
-    "industry": "Legal Tech",
-    "summary": "人工智能初创公司 Harvey 和 Legora 正在争夺公司法的未来，对于人工智能将如何颠覆法律世界有着不同的愿景。",
-    "charlotte_impact": "人工智能在法律技术领域的兴起与夏洛特的律师事务所息息相关。这可能会提高法律研究、合同分析和尽职调查的效率，从而可能为采用人工智能的公司带来竞争优势，并为法律技术专业人士创造机会。",
+    "summary": "Atlassian 是一家生产力软件公司，由于将战略转向人工智能，因此将裁员 1,600 人。这表明愿意重组劳动力以优先考虑人工智能计划。",
+    "charlotte_impact": "科技行业的裁员可能会导致本地人才的出现。虽然这可能对一些公司产生总体积极影响，但也可能创造更具竞争力的人才格局。",
     "impact_score": 5
   },
   {
-    "title": "谷歌将其新的伦敦总部命名为“Platform 37”。原因如下",
-    "url": "https://www.the-independent.com/tech/google-new-office-london-platform-37-b2937044.html",
-    "industry": "Real Estate",
-    "summary": "谷歌将其新的伦敦总部命名为“Platform 37”，容纳了来自谷歌及其人工智能研究部门 DeepMind 的团队。",
-    "charlotte_impact": "虽然以伦敦为中心，但这强调了谷歌对人工智能研发的承诺，这可以通过技术进步和未来潜在的合作间接使夏洛特受益。它还代表了投资致力于人工智能研究的物理空间的潜在经济影响。",
-    "impact_score": 2
-  },
-  {
-    "title": "马来西亚对非人工智能数据中心的限制被视为“战略节流”，但挑战仍然存在",
-    "url": "https://www.channelnewsasia.com/asia/malaysias-curb-non-ai-data-centres-seen-strategic-throttle-challenges-remain-5988916",
-    "industry": "Data Centers",
-    "summary": "马来西亚正在限制非人工智能数据中心，以专注于人工智能相关基础设施。",
-    "charlotte_impact": "这凸显了对人工智能专用数据中心不断增长的需求。夏洛特需要投资支持人工智能开发和部署的基础设施，以吸引人工智能公司并保持竞争力。它还可能为该地区带来专门的数据中心机会。",
+    "title": "2035 年运动控制市场规模将超过 250 亿美元",
+    "url": "https://www.globenewswire.com/news-release/2026/03/13/3255334/28124/en/25-Bn-Motion-Control-Markets-2035.html",
+    "industry": "Manufacturing/Automation",
+    "summary": "由于对先进电子设备的需求不断增长以及制造业自动化程度的提高，运动控制市场有望实现显着增长。关键机遇在于用于预测性维护、节能交流电机等的人工智能集成。",
+    "charlotte_impact": "在制造中使用运动控制可以提高夏洛特地区工厂的效率。更多的自动化和预测性维护可以降低运营成本。将人工智能集成到节能交流电机中可以有助于该地区的可持续发展目标。",
     "impact_score": 5
   },
   {
-    "title": "与伊朗有关的黑客袭击医疗科技巨头史赛克后，战争蔓延到网络空间",
-    "url": "https://www.helpnetsecurity.com/2026/03/12/iran-linked-hacking-group-stryker-cyberattack/",
-    "industry": "Healthcare",
-    "summary": "一个与伊朗有关的黑客组织声称对美国医疗设备巨头史赛克 (Stryker) 的网络攻击负责，网络活动不断升级。",
-    "charlotte_impact": "网络安全对于 Atrium 和 Novant 等夏洛特的医疗保健提供商至关重要。这强调需要采取强有力的网络安全措施来保护敏感的患者数据和关键医疗设备免受网络攻击，确保患者安全和监管合规性。",
-    "impact_score": 8
+    "title": "AMC Robotics 和 HIVE 宣布合作推进人工智能驱动的机器人计算基础设施",
+    "url": "https://www.globenewswire.com/news-release/2026/03/13/3255325/0/en/AMC-Robotics-and-HIVE-Announce-Collaboration-to-Advance-AI-Driven-Robotics-Compute-Infrastructure.html",
+    "industry": "Robotics",
+    "summary": "AMC Robotics 和 HIVE 宣布合作推进人工智能驱动的机器人计算基础设施。两家公司的目标是提高机器人解决方案的能力和效率。",
+    "charlotte_impact": "人工智能驱动的机器人技术可能会与制造、医疗保健和银行业相关。这种合作可能会为当地行业引入新工具。",
+    "impact_score": 4
   },
   {
-    "title": "甲骨文准备裁员 拨出21亿美元用于重组",
-    "url": "https://economictimes.indiatimes.com/tech/technology/oracle-prepares-for-layoffs-sets-aside-2-1-billion-for-restructuring/articleshow/129503335.cms",
-    "industry": "Technology",
-    "summary": "甲骨文正在准备裁员，并拨出 21 亿美元用于重组，因为它增加了对人工智能的依赖，并为昂贵的人工智能数据中心提供资金。",
-    "charlotte_impact": "甲骨文的举动反映了公司将资源转向人工智能的更广泛趋势。这表明当地科技公司应该评估他们的人工智能战略，并可能考虑类似的重组，而员工应该意识到需要将他们的技能升级到人工智能相关领域。",
-    "impact_score": 6
+    "title": "年度最大的人工智能故事（迄今为止）",
+    "url": "https://techcrunch.com/2026/03/13/the-biggest-ai-stories-of-the-year-so-far/",
+    "industry": "News",
+    "summary": "本文总结了今年迄今为止的主要人工智能故事。它强调收购、开发商的成功、公众的抗议和合同谈判。",
+    "charlotte_impact": "这对夏洛特地区的直接影响很小，但它对于提供有关人工智能的新闻周期的背景很有用。这可能有助于夏洛特企业改进有关人工智能如何融入其运营的计划。",
+    "impact_score": 2
   },
   {
-    "title": "芯片制造工具提供商 KLA 宣布额外回购 70 亿美元股票并增加股息",
-    "url": "https://www.channelnewsasia.com/business/chipmaking-tool-provider-kla-unveils-additional-7-billion-share-buyback-and-dividend-increase-5988946",
-    "industry": "Semiconductors",
-    "summary": "芯片制造工具提供商 KLA 宣布追加 70 亿美元的股票回购和股息增加。",
-    "charlotte_impact": "这表明了对半导体行业的信心，半导体行业是人工智能的关键推动者。  虽然夏洛特没有主要的半导体制造业，但对该领域的投资增加对于依赖先进计算能力和专用芯片的公司（包括金融科技领域的公司）来说是个好兆头。",
+    "title": "人工智能精神病案件背后的律师警告大规模伤亡风险",
+    "url": "https://techcrunch.com/2026/03/13/lawyer-behind-ai-psychosis-cases-warns-of-mass-casualty-risks/",
+    "industry": "Law",
+    "summary": "一位律师警告说，人工智能聊天机器人与自杀有关，并出现在大规模伤亡案件中。技术的发展速度快于保障措施。",
+    "charlotte_impact": "这一发展主要影响夏洛特的医疗保健、法律和金融部门。医疗保健公司应该在人工智能风险计划中考虑这一点，律师事务所应该熟悉本文描述的事件类型。此外，当地金融公司可能需要修改聊天机器人以降低风险。",
     "impact_score": 3
   },
   {
-    "title": "谷歌将于今年夏天开始期待已久的迁入 Platform 37 伦敦总部",
-    "url": "https://www.the-independent.com/tech/google-london-alphago-google-deepmind-visitors-b2937093.html",
-    "industry": "Technology",
-    "summary": "谷歌将于今年夏天开始其期待已久的迁入 Platform 37 伦敦总部的行动。",
-    "charlotte_impact": "凸显人工智能人才和资源在主要技术中心的集中。虽然夏洛特可能不会直接受益，但它强调需要为人工智能研究人员和开发人员创建一个更具吸引力的生态系统以吸引公司。",
-    "impact_score": 2
-  },
-  {
-    "title": "维斯塔潘与国际汽联分享了想法，但 F1 中的“溜溜球赛车”有可能结束吗？",
-    "url": "https://www.autosport.com/f1/news/max-verstappen-in-talks-with-the-fia-but-is-it-possible-to-end-yo-yo-racing-in-f1/10804340/",
-    "industry": "Sports",
-    "summary": "维斯塔潘与国际汽联分享了想法，但 F1 中的“溜溜球赛车”有可能结束吗？",
-    "charlotte_impact": "人工智能在专注于 F1 的同时，也越来越多地用于体育分析，以优化表现并提高粉丝参与度。当地运动队和企业可以探索人工智能应用程序，以提高球员表现、球迷体验和体育博彩平台，为当地科技公司创造机会。",
+    "title": "史蒂文·斯皮尔伯格表示他“从未在他的任何电影中使用过人工智能”",
+    "url": "https://techcrunch.com/2026/03/13/steven-spielberg-says-hes-never-used-ai-in-any-of-his-films/",
+    "industry": "Entertainment",
+    "summary": "史蒂文·斯皮尔伯格表示，他从未在自己的任何电影中使用过人工智能。他指出，它不应该用来取代有创造力的人。",
+    "charlotte_impact": "虽然人工智能娱乐不太可能对夏洛特产生太大影响，但当地的娱乐创作者可以留意文章对人类创造力价值的讨论。",
     "impact_score": 1
   },
   {
-    "title": "《海勒日报》：Ronen Tanchum 的移动绘画是一个活生生的生态系统",
-    "url": "https://www.printmag.com/daily-heller/the-daily-heller-ronen-tanchum/",
-    "industry": "Art",
-    "summary": "Ronen Tanchum 的动人画作是一个活生生的生态系统，揭示了人类身份与人工智能之间的相互作用。",
-    "charlotte_impact": "人工智能与艺术的交叉凸显了人工智能在创意产业中的潜力。当地艺术机构可以探索与人工智能开发商合作，创造新的艺术形式和互动体验，促进创新并吸引更广泛的受众。",
-    "impact_score": 1
+    "title": "新参与者，旧风险——不断变化的格局中的金融稳定性——加拿大央行",
+    "url": "https://www.bankofcanada.ca/2026/03/new-players-old-risks-financial-stability-in-a-changing-landscape/",
+    "industry": "Finance",
+    "summary": "本文讨论了对冲基金和私人信贷在全球债务市场中发挥更大作用时对金融稳定造成的风险。",
+    "charlotte_impact": "这可能会影响夏洛特的大型银行业，大型金融公司必须意识到潜在的债务风险。",
+    "impact_score": 4
   },
   {
-    "title": "随着投资者在人工智能驱动的重启中向右滑动，Bumble 股价飙升",
-    "url": "https://www.channelnewsasia.com/business/bumble-shares-surge-investors-swipe-right-ai-powered-reboot-5988941",
-    "industry": "Dating Apps",
-    "summary": "随着投资者在人工智能驱动的重启上向右滑动，Bumble 股价飙升。",
-    "charlotte_impact": "约会中人工智能的市场验证。股价飙升证实投资者看到了人工智能可以为个人婚介带来的附加值，有助于提高服务的吸引力和产品的用户体验。这个概念可以很好地转化为其他类型的应用程序和服务。",
+    "title": "TechEx North America 2026 将在圣何塞举办年度企业技术情报简报会",
+    "url": "https://thenextweb.com/news/techex-north-america-2026",
+    "industry": "News",
+    "summary": "TechEx North America 将在圣何塞举行，以解决企业领导者提出的实际问题。这与多种技术相关。",
+    "charlotte_impact": "此次活动可能与夏洛特的一些科技工作者提高他们的技术知识和意识有关。",
     "impact_score": 2
   },
   {
-    "title": "世界肾脏日：年轻的健身爱好者因肾脏受损而入院，肾病专家警告这一趋势令人担忧",
-    "url": "https://economictimes.indiatimes.com/news/new-updates/world-kidney-day-young-gym-goers-landing-in-hospitals-with-kidney-damage-nephrologists-warn-of-worrying-trend/articleshow/129501935.cms",
-    "industry": "Healthcare",
-    "summary": "肾病专家警告称，年轻的健身爱好者因肾脏受损而入院治疗，这一趋势令人担忧。",
-    "charlotte_impact": "这是间接影响，但人工智能可用于分析患者数据并识别因使用补充剂而面临肾脏损害风险的个体。人工智能驱动的工具还可以分析公共卫生数据，以确定补充剂趋势和风险因素，以提醒医生并教育患者，特别是 Atrium 和 Novant 的患者。",
-    "impact_score": 2
-  },
-  {
-    "title": "美国承认无法控制霍尔木兹海峡后油价再次突破100美元",
-    "url": "https://fortune.com/2026/03/12/oil-price-100-barrel-the-strait-of-hormuz/",
-    "industry": "Energy",
-    "summary": "美国承认无法控制霍尔木兹海峡后油价再次突破100美元",
-    "charlotte_impact": "杜克能源是一家当地大型公司，利用人工智能更好地优化其能源分配。油价飙升使可再生能源解决方案变得更加紧迫。",
-    "impact_score": 2
-  },
-  {
-    "title": "GURU Organic Energy 报告第一季度收入创纪录的 880 万美元，且 EBITDA 连续第三个季度为正",
-    "url": "https://www.globenewswire.com/news-release/2026/03/12/3254453/0/en/GURU-Organic-Energy-Reports-Record-Q1-Revenue-of-8-8-Million-and-Third-Consecutive-EBITDA-Positive-Quarter.html",
-    "industry": "Food and Beverage",
-    "summary": "Guru Organic Energy 报告第一季度收入创纪录的 880 万美元，且 EBITDA 连续第三个季度为正",
-    "charlotte_impact": "直接影响非常小，也许是在营销中利用人工智能来提高增长和销量的机会。",
+    "title": "五角大楼人工智能负责人埃米尔·迈克尔 (Emil Michael) 表示，Anthropic 不会支持美国，这“完全是疯子”，并批评微软绥靖进步员工",
+    "url": "https://nypost.com/2026/03/13/business/pentagon-ai-chief-emil-michael-says-anthropic-is-bananas/",
+    "industry": "Politics",
+    "summary": "五角大楼人工智能负责人表示，人类公司不支持美国的说法“完全是疯子”。他还批评微软绥靖进步员工。",
+    "charlotte_impact": "这对夏洛特的直接影响很小；然而，它具有与人工智能相关的政治和军事影响。",
     "impact_score": 1
   },
   {
-    "title": "欧洲杯上这些不太可能的帽子戏法",
-    "url": "https://onefootball.com/en/news/these-unlikely-hat-tricks-in-european-cups-42545086",
-    "industry": "Sports",
-    "summary": "欧洲杯上这些不太可能的帽子戏法",
-    "charlotte_impact": "该摘要纯粹与体育相关，对夏洛特的直接影响非常小。不太可能成功的概念及其分析可以应用于许多不同的领域",
+    "title": "Atlassian 将裁员 1,600 人并更换 CTO",
+    "url": "https://thenextweb.com/news/atlassian-is-cutting-1600-jobs-and-replacing-its-cto",
+    "industry": "Jobs",
+    "summary": "Atlassian 将裁员 1,600 人并更换 CTO。该公司引用了市场的变化。",
+    "charlotte_impact": "这可能会导致可用于夏洛特不断发展的科技领域的工人失业。这可能会影响需要雇用开发商的当地公司。",
+    "impact_score": 4
+  },
+  {
+    "title": "Raspberry Pi 5 本地 AI 助手获得离线视觉、语音和图像生成功能",
+    "url": "https://www.geeky-gadgets.com/raspberry-pi-5-offline-ai/",
+    "industry": "Hardware",
+    "summary": "Raspberry Pi 5 本地 AI 助手获得离线视觉、语音和图像生成功能。这使得本地人工智能系统能够感知和创造。",
+    "charlotte_impact": "这可能会创建不需要连接到互联网的人工智能系统。夏洛特的所有类型的企业都可以使用它。",
+    "impact_score": 3
+  },
+  {
+    "title": "10 周五上午阅读",
+    "url": "https://ritholtz.com/2026/03/10-friday-am-reads-490/",
+    "industry": "Analysis",
+    "summary": "这是各种文章的摘要，其中包括一些有关人工智能对就业影响的文章。它指出了人工智能的局限性。",
+    "charlotte_impact": "夏洛特的企业可能会考虑其中一些有关人工智能局限性的论点。这可能有助于当地的人工智能计划。",
+    "impact_score": 2
+  },
+  {
+    "title": "伊朗战争的虚假图片在网上传播。以下是如何发现它们",
+    "url": "https://www.poynter.org/fact-checking/2026/fake-images-iran-war-how-spot-them/",
+    "industry": "Media",
+    "summary": "伊朗战争的虚假图片在网上传播。这篇文章解释了如何发现它们。",
+    "charlotte_impact": "这对夏洛特地区影响较小。它强调了媒体意识的重要性，当地企业应注意这一点。",
     "impact_score": 1
   },
   {
-    "title": "Vivid Seats 报告 2025 年第四季度和全年业绩",
-    "url": "https://www.globenewswire.com/news-release/2026/03/12/3254419/0/en/Vivid-Seats-Reports-Fourth-Quarter-and-Full-Year-2025-Results.html",
-    "industry": "Commerce",
-    "summary": "Vivid Seats 报告 2025 年第四季度和全年业绩。",
-    "charlotte_impact": "该摘要是典型的收入和增长报表，虽然可以用于基准比较，但对夏洛特没有任何直接影响",
+    "title": "美国手工冰淇淋市场报告 2025-2033：对优质、正宗体验、天然、有机和清洁标签成分的需求不断增加",
+    "url": "https://www.globenewswire.com/news-release/2026/03/13/3255345/28124/en/United-States-Artisanal-Ice-Cream-Market-Report-2025-2033-Increasing-Demand-for-Premium-and-Authentic-Experiences-Natural-Organic-and-Clean-Label-Ingredients.html",
+    "industry": "Food Industry",
+    "summary": "美国手工冰淇淋市场预计将从2025年的24.7亿美元增长到2033年的39.6亿美元，复合年增长率为6.07%。这是由不断增长的消费者需求推动的。",
+    "charlotte_impact": "这可以为当地食品企业提供增长和创造更多收入的想法。它凸显了对优质甜点体验的需求。",
+    "impact_score": 1
+  },
+  {
+    "title": "Sustain Charlotte 对 I-77 South 替代方案发起公开挑战",
+    "url": "https://www.wcnc.com/article/news/community/transportation/sustain-charlotte-interstate-77-toll-expansion-design-idea-challenge-neighborhood-pushback/275-02fe3df1-b627-4c0e-8659-e7f060786808",
+    "industry": "Infrastructure",
+    "summary": "Sustain Charlotte 针对 I-77 South 替代方案发起公开挑战。这一挑战可能会带来公共基础设施的创新。",
+    "charlotte_impact": "当地人工智能企业可能会通过协助该项目来应对这一挑战。",
+    "impact_score": 1
+  },
+  {
+    "title": "夏洛特机场警告称，政府部分关闭可能导致 TSA 等待时间延长",
+    "url": "https://www.wcnc.com/article/travel/charlotte-douglas-international-airport-partial-government-shutdown-security-wait-times/275-a0353ad8-c474-402c-bd40-3c86f7d089c7",
+    "industry": "Infrastructure",
+    "summary": "夏洛特机场警告称，政府部分关闭可能会导致美国运输安全管理局 (TSA) 等待时间延长。这可能会对旅行产生影响。",
+    "charlotte_impact": "使用人工智能对 TSA 进行的任何改进都可能变得更加有用。这与夏洛特道格拉斯国际机场相关。",
+    "impact_score": 2
+  },
+  {
+    "title": "中国外长、国防部长将访问越南",
+    "url": "https://www.channelnewsasia.com/east-asia/china-vietnam-visit-foreign-defence-ministers-wang-yi-dong-jun-5991691",
+    "industry": "Geopolitics",
+    "summary": "中国外长、国防部长访问越南。中国可能将自己定位为美国的替代者。",
+    "charlotte_impact": "人工智能与政治之间的关系变得越来越复杂。一些本地企业可能需要了解全球人工智能政策。",
     "impact_score": 1
   }
 ]
