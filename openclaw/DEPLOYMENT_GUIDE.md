@@ -25,12 +25,13 @@ bash <(curl -s -L https://raw.githubusercontent.com/your-repo/path/to/setup_open
 *(Note: For now, you can copy the `setup_openclaw_qwen.sh` file provided or host it on your GitHub/Server.)*
 
 ### 2. What the Script Does
-- Installs **Homebrew**, **Node.js**, and **Python**.
-- Downloads the **Qwen 3.5-35B-A3B** 4-bit quantized model (optimized for speed).
-- Installs the **oMLX** inference engine for maximum Apple Silicon performance.
-- Configures **OpenClaw** with settings verified for local-only operation.
-- Sets up a **128,000 token** context window with tiered KV caching (SSD offloading).
-- **Configures Auto-Start**: Installs macOS `LaunchAgents` so the AI server and OpenClaw gateway start completely silently in the background every time the Mac boots.
+- **System Prerequisites**: Automatically checks and triggers installation for **Xcode Command Line Tools** and **Homebrew** if missing.
+- **Toolchain Setup**: Installs and configures **Node.js**, **Python**, and **Git** via Homebrew.
+- **High-Performance Engine**: Installs the **oMLX** inference engine (optimized for Apple Silicon) and the **Qwen 3.5-35B-A3B** model.
+- **Self-Healing & Robustness**: 
+    - Automatically detects and **clears port conflicts** (e.g., port 1234).
+    - Ensures all paths are synchronized for background services.
+- **Configures Auto-Start**: Installs macOS `LaunchAgents` so the AI server and OpenClaw gateway start silently every time the Mac boots.
 
 ## 🛠️ Operating the System
 
