@@ -225,6 +225,10 @@ cat <<EOF > "$SERVER_PLIST"
     <true/>
     <key>KeepAlive</key>
     <true/>
+    <key>StartInterval</key>
+    <integer>0</integer>
+    <key>ThrottleInterval</key>
+    <integer>5</integer>
     <key>StandardErrorPath</key>
     <string>/tmp/openclaw-llmserver.err</string>
     <key>StandardOutPath</key>
@@ -257,6 +261,10 @@ cat <<EOF > "$GATEWAY_PLIST"
     <true/>
     <key>KeepAlive</key>
     <true/>
+    <key>StartInterval</key>
+    <integer>0</integer>
+    <key>ThrottleInterval</key>
+    <integer>5</integer>
     <key>StandardErrorPath</key>
     <string>/tmp/openclaw-gateway.err</string>
     <key>StandardOutPath</key>

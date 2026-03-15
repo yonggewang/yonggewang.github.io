@@ -85,6 +85,22 @@ openclaw config get <path>   # Read a config value
 openclaw config set <path> <value>  # Set a config value
 ```
 
+## 🛠️ Managing Services Locally
+
+If you need to manually restart, stop, or check the status of your background services, we have provided a utility script:
+
+```bash
+cd ~/llm
+./manage_services.sh status   # Check if services are running
+./manage_services.sh restart  # Restart everything (Port 1234 and 18789)
+./manage_services.sh stop     # Stop all background processes
+```
+
+If you download this script from the portal, remember to make it executable:
+```bash
+chmod +x manage_services.sh
+```
+
 ## 🔒 Security & Privacy
 - **100% Local**: No data leaves the machine. No API keys from OpenAI or Anthropic are required.
 - **Encrypted Gateway**: Uses a local token-based protocol for secure channel connections.
