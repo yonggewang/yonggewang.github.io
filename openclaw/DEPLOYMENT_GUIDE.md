@@ -1,6 +1,6 @@
-# Professional Deployment Guide: OpenClaw + Qwen 3.5
+# Professional Deployment Guide: OpenClaw + Qwen 3.5 (oMLX Optimized)
 
-This guide provides a turnkey solution for deploying a high-performance, private AI agent system on a new Mac using OpenClaw and the Qwen 3.5-35B Model (MLX optimized).
+This guide provides a turnkey solution for deploying a high-performance, private AI agent system on a new Mac using OpenClaw and the Qwen 3.5-35B Model (optimized with oMLX).
 
 ## 🖥️ Hardware Requirements
 
@@ -27,8 +27,9 @@ bash <(curl -s -L https://raw.githubusercontent.com/your-repo/path/to/setup_open
 ### 2. What the Script Does
 - Installs **Homebrew**, **Node.js**, and **Python**.
 - Downloads the **Qwen 3.5-35B-A3B** 4-bit quantized model (optimized for speed).
+- Installs the **oMLX** inference engine for maximum Apple Silicon performance.
 - Configures **OpenClaw** with settings verified for local-only operation.
-- Sets up a **128,000 token** context window.
+- Sets up a **128,000 token** context window with tiered KV caching (SSD offloading).
 - **Configures Auto-Start**: Installs macOS `LaunchAgents` so the AI server and OpenClaw gateway start completely silently in the background every time the Mac boots.
 
 ## 🛠️ Operating the System

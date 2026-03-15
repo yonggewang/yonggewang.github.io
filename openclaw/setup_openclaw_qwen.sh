@@ -1,55 +1,122 @@
 #!/bin/bash
 
-# OpenClaw + Qwen 3.5-35B Auto-Setup Script
-# Purpose: Professional deployment for Apple Silicon Macs
+# OpenClaw + Qwen 3.5 (oMLX Optimized) Turnkey Setup Script
+# Purpose: Robust deployment for brand-new Apple Silicon Macs
 
 set -e
 
-echo "🦞 Starting OpenClaw + Qwen 3.5 deployment..."
+# --- Styles and Helpers ---
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+BLUE='\033[0;34m'
+YELLOW='\033[1;33m'
+NC='\033[0m' # No Color
 
-# 1. Prerequisite Checks
-echo "--- Checking Prerequisites ---"
-if [[ $(uname -m) != "arm64" ]]; then
-    echo "ERROR: This script requires an Apple Silicon (M1/M2/M3/M4) Mac."
+info() { echo -e "${BLUE}INFO:${NC} $1"; }
+success() { echo -e "${GREEN}SUCCESS:${NC} $1"; }
+warn() { echo -e "${YELLOW}WARNING:${NC} $1"; }
+error() { echo -e "${RED}ERROR:${NC} $1"; }
+
+fail_with_instruction() {
+    echo -e "\n${RED}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
+    error "$1"
+    echo -e "${YELLOW}WHAT TO DO NEXT:${NC}"
+    echo -e "$2"
+    echo -e "${RED}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}\n"
     exit 1
+}
+
+echo -e "${BLUE}"
+echo "  🦞 OpenClaw + Qwen 3.5 (oMLX) Auto-Setup"
+echo "  Apple Silicon macOS Optimized Deployment"
+echo -e "${NC}"
+
+# 1. Prerequisite: Apple Silicon Check
+info "Checking hardware compatibility..."
+if [[ $(uname -m) != "arm64" ]]; then
+    fail_with_instruction "This script requires an Apple Silicon (M1/M2/M3/M4/M5) Mac." "oMLX and MLX are specifically designed for Apple Silicon. Intel Macs are not supported for this turnkey setup."
+fi
+success "Apple Silicon detected."
+
+# 2. Prerequisite: Xcode Command Line Tools
+info "Checking Xcode Command Line Tools..."
+if ! xcode-select -p &>/dev/null; then
+    warn "Xcode Command Line Tools are missing."
+    echo -e "Starting installation popup... ${YELLOW}Please follow the native macOS prompts if they appear.${NC}"
+    xcode-select --install &>/dev/null || true
+    fail_with_instruction "Xcode Command Line Tools installation triggered." "1. Click 'Install' on the popup that just appeared.\n2. Wait for it to finish (this can take 5-10 mins).\n3. Re-run this script: bash setup_openclaw_qwen.sh"
+fi
+success "Xcode Command Line Tools found."
+
+# 3. Prerequisite: Homebrew
+info "Checking Homebrew..."
+if ! command -v brew &>/dev/null; then
+    warn "Homebrew not found. Attempting to install..."
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" || true
 fi
 
-if ! command -v brew &> /dev/null; then
-    echo "Installing Homebrew..."
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# Ensure Homebrew is in current session path
+if [ -f "/opt/homebrew/bin/brew" ]; then
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+elif [ -f "/usr/local/bin/brew" ]; then
+    eval "$(/usr/local/bin/brew shellenv)"
 fi
 
-# Ensure Homebrew is in the current session's path for completely new Macs
-export PATH="/opt/homebrew/bin:$PATH"
-
-if ! command -v node &> /dev/null; then
-    echo "Installing Node.js..."
-    brew install node
+if ! command -v brew &>/dev/null; then
+    fail_with_instruction "Homebrew installation failed or path not detected." "Please install Homebrew manually from https://brew.sh and then re-run this script."
 fi
+success "Homebrew is ready."
 
-if ! command -v python3 &> /dev/null; then
-    echo "Installing Python..."
-    brew install python
-fi
+# 4. Install System Tools (Node, Python, Git)
+info "Ensuring system tools are installed..."
+for tool in node python git; do
+    if ! command -v $tool &>/dev/null; then
+        info "Installing $tool via Homebrew..."
+        brew install $tool
+    fi
+done
+success "System tools verified."
 
-# 2. Setup Directories
+# 5. Setup Directories and Cleanup
 LLM_DIR="$HOME/openclaw-llm"
+info "Setting up workspace at $LLM_DIR..."
+
+# Check for port conflict on 1234
+if lsof -i :1234 &>/dev/null; then
+    warn "Port 1234 is currently in use. Attempting to clear it for the new server..."
+    # Get PIDs of processes using port 1234
+    PIDS=$(lsof -t -i :1234)
+    if [ -n "$PIDS" ]; then
+        info "Terminating processes using port 1234: $PIDS"
+        kill -9 $PIDS &>/dev/null || true
+    fi
+fi
+
+# Ensure any previous instances of the specific server are stopped
+pkill -f "omlx serve" &>/dev/null || true
+pkill -f "mlx_vlm.server" &>/dev/null || true
+
 mkdir -p "$LLM_DIR"
 cd "$LLM_DIR"
 
-# 3. Install Requirements and Dependencies
-echo "--- Setting up MLX Model Server ---"
-python3 -m venv venv
+# 6. Install Requirements and oMLX
+info "Setting up Python environment and installing oMLX..."
+if [ ! -d "venv" ]; then
+    python3 -m venv venv
+fi
 source venv/bin/activate
 pip install --upgrade pip
 pip install mlx-vlm huggingface_hub torch torchvision
 
+info "Installing oMLX server from source (optimized)..."
+pip install git+https://github.com/jundot/omlx.git
+
+# 7. Model Download
 MODEL_ID="mlx-community/Qwen3.5-35B-A3B-4bit"
 MODEL_PATH="$LLM_DIR/model"
 mkdir -p "$MODEL_PATH"
 
-echo "Downloading $MODEL_ID to $MODEL_PATH..."
-echo "This uses 'snapshot_download' which is resumable and avoids symlinks for stability."
+info "Downloading $MODEL_ID (Approx 20GB)..."
 python3 <<EOF
 from huggingface_hub import snapshot_download
 import os
@@ -66,34 +133,39 @@ except Exception as e:
     exit(1)
 EOF
 
-# 4. Create Start Script
+# 8. Create Start Script
+info "Creating automated start script..."
 cat <<EOF > start_server.sh
 #!/bin/bash
-# Professional start script for Qwen 3.5 MLX
-cd "\$(dirname "\$0")"
-source venv/bin/activate
-export MLX_VLM_MODEL="$MODEL_PATH"
-echo "Starting Qwen 3.5 MoE Server on port 1234..."
-python3 -m mlx_vlm.server --host 0.0.0.0 --port 1234
+# Professional start script for Qwen 3.5 oMLX
+cd "$(dirname "$0")"
+# Standardize PATH to ensure binaries are found
+export PATH="$(pwd)/venv/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin:$PATH"
+
+echo "Starting Qwen 3.5 MoE Server via oMLX on port 1234..."
+# omlx serve uses --model-dir to point to the directory containing weights
+omlx serve --model-dir "$MODEL_PATH" --port 1234 --host 0.0.0.0
 EOF
 chmod +x start_server.sh
 
-# 5. Install OpenClaw
-echo "--- Installing OpenClaw ---"
-# Check if sudo is needed, but for global npm it usually is
-if [ -w "/usr/local/lib/node_modules" ] || [ -w "/opt/homebrew/lib/node_modules" ]; then
-    npm install -g openclaw
-else
-    echo "Requires sudo for global npm installation:"
-    sudo npm install -g openclaw
+# 9. Install OpenClaw
+info "Installing OpenClaw gateway..."
+if ! command -v openclaw &>/dev/null; then
+    if [ -w "/usr/local/lib/node_modules" ] || [ -w "/opt/homebrew/lib/node_modules" ]; then
+        npm install -g openclaw
+    else
+        warn "Requires sudo for global npm installation."
+        sudo npm install -g openclaw
+    fi
 fi
 
-# 6. Inject Verified Configuration
-echo "--- Configuring OpenClaw ---"
+# 10. Inject Configuration
+info "Injecting verified configuration..."
 mkdir -p "$HOME/.openclaw/agents/main/agent"
 
-# openclaw.json
-# We use the full technical ID to ensure the server recognizes it
+# Generate token if not exists
+TOKEN=$(node -e "if (require('fs').existsSync(process.env.HOME + '/.openclaw/openclaw.json')) { console.log(require(process.env.HOME + '/.openclaw/openclaw.json').gateway.auth.token) } else { console.log(require('crypto').randomBytes(24).toString('hex')) }" 2>/dev/null || node -e "console.log(require('crypto').randomBytes(24).toString('hex'))")
+
 cat <<EOF > "$HOME/.openclaw/openclaw.json"
 {
   "agents": {
@@ -113,7 +185,7 @@ cat <<EOF > "$HOME/.openclaw/openclaw.json"
         "models": [
           {
             "id": "$MODEL_ID",
-            "name": "Local Qwen 3.5",
+            "name": "Local Qwen 3.5 (oMLX)",
             "contextWindow": 131072
           }
         ]
@@ -124,38 +196,14 @@ cat <<EOF > "$HOME/.openclaw/openclaw.json"
     "mode": "local",
     "auth": {
       "mode": "token",
-      "token": "$(node -e "console.log(require('crypto').randomBytes(24).toString('hex'))")"
+      "token": "$TOKEN"
     }
   }
 }
 EOF
 
-# auth-profiles.json
-cat <<EOF > "$HOME/.openclaw/agents/main/agent/auth-profiles.json"
-{
-  "version": 1,
-  "profiles": {
-    "openai": {
-      "type": "api_key",
-      "provider": "openai",
-      "key": "sk-local-setup",
-      "baseUrl": "http://localhost:1234"
-    }
-  },
-  "lastGood": {
-    "openai": "openai"
-  }
-}
-EOF
-
-# 7. Pre-Install Essential Plugins
-echo "--- Installing Essential Plugins ---"
-# Note: "clawhub" and valid names depend on the OpenClaw version.
-# Typical bundled components can be accessed via skills or enabled directly if supported.
-echo "Plugins feature is available but requires specific bundle names. Skipping strict enable to prevent setup failure."
-
-# 8. Setup Background Services (Start on Boot)
-echo "--- Configuring Auto-Start Services ---"
+# 11. Setup Background Services (Start on Boot)
+info "Configuring macOS LaunchAgents (Auto-Start)..."
 LAUNCH_AGENTS_DIR="$HOME/Library/LaunchAgents"
 mkdir -p "$LAUNCH_AGENTS_DIR"
 
@@ -222,14 +270,16 @@ cat <<EOF > "$GATEWAY_PLIST"
 </plist>
 EOF
 
-echo "Loading LaunchAgents (they will run in the background)..."
+# Load agents and ignore errors if already loaded
+launchctl unload -w "$SERVER_PLIST" &>/dev/null || true
+launchctl unload -w "$GATEWAY_PLIST" &>/dev/null || true
 launchctl load -w "$SERVER_PLIST" || true
 launchctl load -w "$GATEWAY_PLIST" || true
 
-echo "--- Setup Complete ---"
-echo "✅ The Qwen 3.5 Server and OpenClaw Gateway are now running in the background!"
-echo "✅ They will start automatically every time the Mac turns on."
-echo "✅ Essential plugins (Email, Slack, Web Search) have been installed."
-echo ""
-echo "Type 'openclaw tui' to start chatting with your private agent."
-
+echo -e "\n${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
+success "Turnkey Setup Complete!"
+echo -e "✅ AI Server (oMLX) and Gateway are running in the background."
+echo -e "✅ They will start automatically every time you turn on your Mac."
+echo -e "\nTo start chatting now, type:"
+echo -e "${YELLOW}openclaw tui${NC}"
+echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}\n"
