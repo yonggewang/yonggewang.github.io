@@ -170,7 +170,7 @@ cat <<EOF > "$HOME/.openclaw/openclaw.json"
 {
   "agents": {
     "defaults": {
-      "model": "openai/$MODEL_ID",
+      "model": "openai/llm",
       "compaction": {
         "mode": "safeguard"
       }
@@ -179,12 +179,12 @@ cat <<EOF > "$HOME/.openclaw/openclaw.json"
   "models": {
     "providers": {
       "openai": {
-        "baseUrl": "http://localhost:1234",
-        "api": "openai-completions",
+        "baseUrl": "http://127.0.0.1:1234/v1",
+        "api": "openai-responses",
         "auth": "api-key",
         "models": [
           {
-            "id": "$MODEL_ID",
+            "id": "llm",
             "name": "Local Qwen 3.5 (oMLX)",
             "contextWindow": 131072
           }
@@ -197,6 +197,13 @@ cat <<EOF > "$HOME/.openclaw/openclaw.json"
     "auth": {
       "mode": "token",
       "token": "$TOKEN"
+    },
+    "http": {
+      "endpoints": {
+        "chatCompletions": {
+          "enabled": true
+        }
+      }
     }
   }
 }

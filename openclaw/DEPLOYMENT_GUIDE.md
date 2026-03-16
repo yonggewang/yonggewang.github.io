@@ -109,6 +109,6 @@ chmod +x manage_services.sh
 ## 🛠️ Troubleshooting
 - **Missing Xcode Tools**: If prompted, click "Install" when the terminal asks for Command Line Tools.
 - **Port 1234 in use**: Ensure no other LLM servers are running.
-- **HTTP 500 from TUI**: The LLM model may still be loading. Wait 10–20 seconds and try again.
+- **HTTP 404 from TUI/Dashboard**: Ensure the model is loaded as `openai/llm` and the gateway is pointing to `http://127.0.0.1:1234/v1`.
 - **RAM Pressure**: If the system is sluggish, close browser tabs or other memory-heavy apps.
 - **Gateway warnings about plugins**: Edit `~/.openclaw/openclaw.json` and remove any plugin entries that are not installed.
