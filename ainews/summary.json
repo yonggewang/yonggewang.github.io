@@ -3,200 +3,200 @@
     "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
     "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
     "industry": "Cloud Infrastructure",
-    "summary": "Railway secured $100 million to challenge AWS with an AI-native cloud, claiming deployments under one second and significant cost savings compared to traditional cloud providers.  They abandoned Google Cloud to build their own data centers optimized for 'agentic speed'. Their approach underscores the increasing demand for infrastructure that can keep pace with AI-generated code.",
-    "charlotte_impact": "Charlotte's growing tech sector, particularly FinTech, could benefit from Railway's cost-effective and high-speed deployment capabilities.  If Duke Energy explores AI-driven grid optimization, the speed and scalability of Railway could be attractive for rapid prototyping and deployment of AI models. The focus on developer experience aligns with Charlotte's efforts to attract and retain tech talent.",
+    "summary": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure, boasting faster deployment times and cost savings. They are building their own data centers to have full control over the network, compute, and storage layers for faster deployments.",
+    "charlotte_impact": "Charlotte's robust financial sector, including Bank of America and Truist, relies heavily on cloud infrastructure. Railway's promise of faster deployment and cost savings could attract FinTech companies and banks in Charlotte seeking to optimize their cloud operations. Duke Energy, also based in Charlotte, could benefit from the increased reliability offered by Railway's independent infrastructure, making their grid operations more resilient to outages. This could stimulate innovation and lower costs within these crucial sectors.",
     "impact_score": 9
   },
   {
     "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
     "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
     "industry": "Enterprise Software",
-    "summary": "Salesforce launched a rebuilt Slackbot AI agent powered by Anthropic's Claude, positioning Slack as a central hub for agentic AI within the enterprise. The new Slackbot aims to synthesize data, draft documents, and take action on behalf of employees, competing with Microsoft's Copilot and Google's Gemini.",
-    "charlotte_impact": "As a major FinTech hub, Charlotte businesses like Bank of America and Truist could leverage Slackbot to improve internal communication, automate reporting, and enhance customer service through AI-driven insights.  Increased efficiency through tools like Slackbot could also free up resources for innovation within Charlotte's healthcare giants like Atrium and Novant.",
+    "summary": "Salesforce rolls out a rebuilt Slackbot AI agent powered by Anthropic's Claude (and potentially Gemini in the future) to serve as a 'super agent' for enterprise tasks. Early internal tests showed significant time savings and high satisfaction.",
+    "charlotte_impact": "Many Charlotte businesses, including those in the banking, healthcare, and energy sectors, use Salesforce and Slack. The new Slackbot could streamline workflows and improve collaboration for these organizations. Atrium Health and Novant Health could see improvements in internal communications and data analysis related to patient care and operational efficiency. The widespread adoption of Slackbot will reinforce Charlotte's existing reliance on the Salesforce ecosystem.",
     "impact_score": 8
   },
   {
     "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
     "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
     "industry": "Market Research",
-    "summary": "Listen Labs raised $69M to scale AI-powered customer interviews, aiming to replace traditional market research with faster, more honest insights. The platform uses AI to conduct video interviews, identify fraud, and deliver executive-ready reports, attracting customers like Microsoft and Sweetgreen.",
-    "charlotte_impact": "Charlotte's consumer-facing businesses, especially those in retail and food service, could utilize Listen Labs to gain rapid customer insights on new product development and marketing campaigns.  The ability to quickly identify and address issues, as Chubbies did with their shorts, could be particularly valuable for Charlotte's burgeoning startup scene.",
+    "summary": "Listen Labs raises $69M to scale its AI-powered customer interview platform, promising faster and more honest customer insights than traditional methods.  They use AI to conduct video interviews, combat fraud, and generate reports.",
+    "charlotte_impact": "Charlotte's large financial institutions and consumer-focused businesses (like Lowe's) can leverage Listen Labs to gain rapid customer insights for product development and marketing. This could help them stay competitive in a rapidly changing market. Moreover, Atrium and Novant can get fast and accurate patient feedback. The local tech scene can use this technology to hone product-market fit more efficiently than traditional methods.",
     "impact_score": 7
   },
   {
     "title": "Multiverse Computing pushes its compressed AI models into the mainstream",
     "url": "https://techcrunch.com/2026/03/19/multiverse-computing-pushes-its-compressed-ai-models-into-the-mainstream/",
-    "industry": "AI Model Compression",
-    "summary": "Multiverse Computing is pushing compressed AI models into the mainstream with an app and API that showcases the capabilities of its compressed models from OpenAI, Meta, DeepSeek, and Mistral AI.",
-    "charlotte_impact": "Model compression is crucial for efficient AI deployment in resource-constrained environments. Charlotte's FinTech sector, which requires real-time processing of financial data, could benefit from deploying faster, smaller models. Model compression could help Charlotte's companies compete in price and speed as the cost of AI is lowered.",
+    "industry": "AI Models",
+    "summary": "Multiverse Computing pushes its compressed AI models into the mainstream with a showcase app and API.  This makes AI more accessible and efficient.",
+    "charlotte_impact": "Compressed models mean that local startups in Charlotte can create products and compete without needing massive resources. Local startups can get access to APIs and create products more quickly, lowering the entry barrier.",
     "impact_score": 6
   },
   {
-    "title": "Microsoft hires the team of Sequoia-backed AI collaboration platform, Cove",
-    "url": "https://techcrunch.com/2026/03/18/microsoft-hires-the-team-of-sequioa-backed-ai-collaboration-platform-cove/",
-    "industry": "AI Collaboration",
-    "summary": "AI collaboration startup Cove is shutting down after its team joined Microsoft, indicating a consolidation of AI talent and technologies within larger tech companies.",
-    "charlotte_impact": "Cove's shutdown suggests the competitive landscape for AI collaboration tools is consolidating. Microsoft's acquisition underscores a challenge for Charlotte's tech scene where attracting and retaining top AI talent is a hurdle. Further expansion and collaboration efforts with regional institutions will be crucial in bridging this gap.",
-    "impact_score": 5
+    "title": "Jeff Bezos reportedly wants $100 billion to buy and transform old manufacturing firms with AI",
+    "url": "https://techcrunch.com/2026/03/19/jeff-bezos-reportedly-wants-100-billion-to-buy-and-transform-old-manufacturing-firms-with-ai/",
+    "industry": "Manufacturing",
+    "summary": "Jeff Bezos reportedly seeks $100 billion to buy and transform old manufacturing firms with AI. This signals a major push to modernize traditional industries with AI.",
+    "charlotte_impact": "While Charlotte is not a major manufacturing hub, this could indirectly impact the region if companies supply components or services to these revitalized manufacturing firms. It can also inspire Charlotte to rethink the way certain areas like transportation are built and maintained.",
+    "impact_score": 4
+  },
+  {
+    "title": "Meta rolls out new AI content enforcement systems while reducing reliance on third-party vendors",
+    "url": "https://techcrunch.com/2026/03/19/meta-rolls-out-new-ai-content-enforcement-systems-while-reducing-reliance-on-third-party-vendors/",
+    "industry": "Content Moderation",
+    "summary": "Meta rolls out new AI content enforcement systems, reducing reliance on third-party vendors and improving accuracy and speed in detecting violations.",
+    "charlotte_impact": "This will allow Charlotte residents to have a safer online experience and decrease the exposure to scams. There is no direct local impact but it highlights a general improvement that has a positive impact for everyone.",
+    "impact_score": 3
   },
   {
     "title": "Meta is having trouble with rogue AI agents",
     "url": "https://techcrunch.com/2026/03/18/meta-is-having-trouble-with-rogue-ai-agents/",
     "industry": "AI Safety",
-    "summary": "Meta is reportedly facing challenges with rogue AI agents that inadvertently exposed company and user data to unauthorized engineers, raising concerns about AI safety and data security.",
-    "charlotte_impact": "This incident underscores the importance of robust AI governance and security protocols, relevant to Charlotte's financial institutions which handle sensitive customer data. Companies in the Charlotte region that use AI must be transparent and responsible in the use of AI to maintain customer trust.",
-    "impact_score": 8
+    "summary": "Meta is having trouble with rogue AI agents, with one inadvertently exposing company and user data. This underscores the challenges of controlling and securing advanced AI systems.",
+    "charlotte_impact": "This is very significant for Charlotte's large financial institutions (BoA, Truist) and healthcare providers (Atrium, Novant). Any data breach that happens due to AI failure can have very serious consequences. This incident should accelerate internal audits of AI security across many industries.",
+    "impact_score": 9
+  },
+  {
+    "title": "DoorDash launches a new \u2018Tasks\u2019 app that pays couriers to submit videos to train AI",
+    "url": "https://techcrunch.com/2026/03/19/doordash-launches-a-new-tasks-app-that-pays-couriers-to-submit-videos-to-train-ai/",
+    "industry": "AI Training Data",
+    "summary": "DoorDash launches a new 'Tasks' app that pays couriers to submit videos to train AI, showing a trend of crowdsourcing data for AI development.",
+    "charlotte_impact": "Charlotte residents who drive for DoorDash can use the new Tasks app. This provides another income stream for those who drive for DoorDash, helping the local economy.",
+    "impact_score": 3
   },
   {
     "title": "Nothing CEO Carl Pei says smartphone apps will disappear as AI agents take their place",
     "url": "https://techcrunch.com/2026/03/18/nothing-ceo-carl-pei-says-smartphone-apps-will-disappear-as-ai-agents-take-their-place/",
-    "industry": "Mobile",
-    "summary": "Nothing CEO Carl Pei predicts that smartphone apps will disappear as AI agents take their place, shifting smartphones toward systems that understand intent and act on a user's behalf.",
-    "charlotte_impact": "This prediction, if realized, could disrupt the app development ecosystem in Charlotte. Duke Energy can leverage this agentic capability to provide personalized energy-saving recommendations to customers, enhancing engagement and promoting sustainability.",
-    "impact_score": 4
+    "industry": "Mobile Technology",
+    "summary": "Nothing CEO Carl Pei predicts smartphone apps will disappear as AI agents take their place, suggesting a fundamental shift in how we interact with technology.",
+    "charlotte_impact": "This is more of a futurist idea, but if this happens, Charlotte's tech sector must adapt to the new paradigm of AI agents replacing apps. Local developers might need to focus on creating AI-powered solutions rather than traditional mobile apps.",
+    "impact_score": 5
   },
   {
     "title": "Patreon CEO calls AI companies\u2019 fair use argument \u2018bogus,\u2019 says creators should be paid",
     "url": "https://techcrunch.com/2026/03/18/patreon-ceo-calls-ai-companies-fair-use-argument-bogus-says-creators-should-be-paid/",
-    "industry": "Content Creation",
-    "summary": "Patreon CEO Jack Conte argues that AI companies should pay creators for training data, challenging the 'fair use' argument and advocating for compensation for content used in AI model development.",
-    "charlotte_impact": "While Charlotte may not be a major content creation hub, this debate has implications for local artists and media companies potentially using AI to enhance or augment their work.  As AI companies build more revenue from their products, creators are demanding a portion of those revenues as their work has contributed to these models.",
+    "industry": "AI Ethics",
+    "summary": "Patreon CEO calls AI companies' fair use argument 'bogus,' arguing creators should be paid for training data. This highlights the ongoing debate about copyright and AI.",
+    "charlotte_impact": "This reinforces the need for Charlotte's creative community (artists, musicians, writers) to understand their rights regarding AI and data scraping. Local organizations supporting the arts should educate creators about protecting their intellectual property.",
     "impact_score": 4
   },
   {
-    "title": "Policy paper: Report and impact assessment on Copyright and Artificial Intelligence",
-    "url": "https://www.gov.uk/government/publications/report-and-impact-assessment-on-copyright-and-artificial-intelligence",
-    "industry": "Copyright",
-    "summary": "The UK government released a report and impact assessment on copyright and AI, examining the use of copyright works in the development of AI systems.",
-    "charlotte_impact": "This underscores the importance of understanding AI copyright implications. Law firms in Charlotte that specialize in intellectual property will need to adapt their practices to address the new challenges presented by AI-generated content. Firms that can lead in this area will be crucial for companies to navigate the copyright risks in the age of AI.",
-    "impact_score": 5
-  },
-  {
-    "title": "Sony Takes Aim at Studio Ghibli AI Slop, Developing Tool to Stop Copyright Infringing Content and Compensate Original Creators",
-    "url": "https://www.ign.com/articles/sony-takes-aim-at-studio-ghibli-ai-slop-developing-tool-to-stop-copyright-infringing-content-and-compensate-original-creators",
-    "industry": "Copyright",
-    "summary": "Sony is developing a \"Protective AI\" model trained on Studio Ghibli content to stop copyright-infringing images, videos, and music generation, aiming to compensate original creators.",
-    "charlotte_impact": "This highlights the emerging market for AI-powered copyright protection tools. While Charlotte doesn't have a major film studio, the focus on copyright protection could be relevant to the local music and arts scene, as well as companies utilizing AI in marketing and content creation.",
-    "impact_score": 5
-  },
-  {
-    "title": "CorridorKey is What You Get When Artists Make AI Tools",
-    "url": "https://hackaday.com/2026/03/18/corridorkey-is-what-you-get-when-artists-make-ai-tools/",
-    "industry": "AI Tooling",
-    "summary": "CorridorKey is highlighted as an example of AI tools designed by artists, suggesting a trend towards more user-friendly and artist-centric AI applications in the creative space.",
-    "charlotte_impact": "This is important for Charlotte's developing art scene as AI offers opportunity for artists to expand their creativity. Companies in Charlotte that embrace AI tooling will also need to provide employee training to ensure employees are productive in their roles.",
-    "impact_score": 3
-  },
-  {
-    "title": "Dario Amodei Has a Cold",
-    "url": "https://www.vanityfair.com/news/story/dario-amodei-anthropic-ai",
-    "industry": "AI Leadership",
-    "summary": "An in-depth profile of Dario Amodei, founder of Anthropic, provides insights into the leadership driving the AI revolution and the ethical considerations guiding AI development.",
-    "charlotte_impact": "While not directly impactful, understanding the perspectives of AI leaders like Amodei is important for local business leaders as they formulate AI strategies for their companies. The article explores the ethical challenges in AI, especially with transparency, which Charlotte's companies can use to provide assurances for consumers and customers in the region.",
-    "impact_score": 3
-  },
-  {
-    "title": "India uniquely placed in AI: Cognizant chief AI exec cites nation's tech-savvy pool, deep foundation",
-    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/india-uniquely-placed-in-ai-cognizant-chief-ai-exec-cites-nations-tech-savvy-pool-deep-foundation/articleshow/129654194.cms",
-    "industry": "AI Adoption",
-    "summary": "Cognizant's chief AI exec emphasizes India's unique position in AI due to its tech-savvy pool and deep technological foundation, indicating the growing importance of emerging markets in AI development.",
-    "charlotte_impact": "This highlights the global competition for AI talent. Charlotte companies can use India's tech skills as an opportunity for collaboration. Partnerships with Indian companies will accelerate AI innovation efforts for Charlotte's companies.",
-    "impact_score": 3
-  },
-  {
-    "title": "Data Center Power Market to Exceed USD 38 Bn by 2031 with Electrical Solutions Holding 63.54% Share in 2025, Reports Mordor Intelligence",
-    "url": "https://www.globenewswire.com/news-release/2026/03/18/3258000/0/en/Data-Center-Power-Market-to-Exceed-USD-38-Bn-by-2031-with-Electrical-Solutions-Holding-63-54-Share-in-2025-Reports-Mordor-Intelligence.html",
-    "industry": "Data Centers",
-    "summary": "The data center power market is projected to exceed USD 38 billion by 2031, driven by AI workloads and the demand for energy-efficient infrastructure.",
-    "charlotte_impact": "This trend has direct implications for Duke Energy, as the demand for power from data centers continues to grow. Duke will need to invest in grid infrastructure that is both reliable and sustainable for future data centers to function. Charlotte's infrastructure needs to accommodate this growth to support the city's burgeoning tech sector.",
-    "impact_score": 7
-  },
-  {
-    "title": "The story of one failed digital transformation",
-    "url": "https://blogs.lse.ac.uk/businessreview/2026/03/18/the-story-of-one-failed-digital-transformation/",
-    "industry": "AI Failure",
-    "summary": "An 18-month study of a failed AI platform rollout on a Chinese construction site highlights the challenges of digital transformations and the importance of worker buy-in.",
-    "charlotte_impact": "This is a warning for Charlotte companies looking to implement AI-driven solutions. It's important that employees at all levels are involved in the deployment of AI solutions and have their concerns addressed. To ensure AI is successful in the enterprise, companies in Charlotte should focus on worker training and development to build the AI skills necessary for their employees to be successful.",
-    "impact_score": 5
-  },
-  {
-    "title": "Smarter robots: Agentic and physical AI converge in business",
-    "url": "https://www.techtarget.com/searchenterpriseai/feature/Smarter-robots-Agentic-and-physical-AI-converge-in-business",
-    "industry": "Robotics",
-    "summary": "The robotics industry is entering a new era where, thanks to AI, robots learn, optimize and solve the world's most complex supply chain, logistics and labor challenges in real time.",
-    "charlotte_impact": "While Charlotte isn't a major manufacturing hub, adoption of robots can drastically improve efficiencies for companies in supply chain and logistics. The Charlotte area's distribution centers could see increased automation with AI-powered robots, potentially impacting the local workforce, thus emphasizing the need for retraining and workforce development programs.",
-    "impact_score": 6
-  },
-  {
-    "title": "Microsoft Considers Suing to Halt Amazon-OpenAI Cloud Deal",
-    "url": "https://www.pymnts.com/amazon/2026/microsoft-considers-suing-to-halt-amazon-openai-cloud-deal/",
-    "industry": "Cloud Computing",
-    "summary": "Microsoft is reportedly considering legal action over Amazon and OpenAI's new cloud deal.",
-    "charlotte_impact": "This legal dispute would not likely have a direct impact on Charlotte. The impact will be felt more in large cloud providers. ",
+    "title": "India has 25 years to escape middle-income trap, says Axis Bank economist",
+    "url": "https://www.thehindubusinessline.com/economy/india-has-25-years-to-escape-middle-income-trap-says-axis-bank-economist/article70761499.ece",
+    "industry": "Economics",
+    "summary": "An Axis Bank economist warns India has 25 years to escape the middle-income trap, citing AI deployment as a key factor. This highlights the importance of AI adoption for economic growth.",
+    "charlotte_impact": "India's economic trajectory indirectly affects global markets and trade. Charlotte businesses with international operations may need to adjust their strategies based on the economic performance of key markets like India.",
     "impact_score": 2
   },
   {
-    "title": "Rebel Audio is a new AI podcasting tool aimed at first-time creators",
-    "url": "https://techcrunch.com/2026/03/18/rebel-audio-is-a-new-ai-podcasting-tool-aimed-at-first-time-creators/",
-    "industry": "Media",
-    "summary": "Rebel Audio is a new AI podcasting tool aimed at first-time creators.",
-    "charlotte_impact": "This would enable more voices in Charlotte to create content.",
-    "impact_score": 1
-  },
-  {
-    "title": "Preach from the heart, not with AI-generated homilies, priest says",
-    "url": "https://www.ewtnnews.com/world/americas/preach-from-the-heart-not-with-ai-generated-homilies-priest-says",
-    "industry": "Religion",
-    "summary": "A priest advises against using AI-generated homilies, emphasizing the importance of preaching from the heart.",
-    "charlotte_impact": "This article would likely have minimal direct impact in Charlotte.",
-    "impact_score": 1
-  },
-  {
-    "title": "Does Greta Thunberg have brain cancer? False rumor is AI slop",
-    "url": "https://www.snopes.com//fact-check/greta-thunberg-brain-cancer/",
-    "industry": "Social Media",
-    "summary": "A false rumor claiming Greta Thunberg has brain cancer is identified as AI generated.",
-    "charlotte_impact": "This article would likely have minimal direct impact in Charlotte.",
-    "impact_score": 1
-  },
-  {
-    "title": "Joint Statement on the U.S.-Mongolia Annual Bilateral Consultation",
-    "url": "https://www.globalsecurity.org/military/library/news/2026/03/mil-260317-state03.htm",
-    "industry": "International Affairs",
-    "summary": "Joint Statement on the U.S.-Mongolia Annual Bilateral Consultation.",
-    "charlotte_impact": "This article would likely have minimal direct impact in Charlotte.",
-    "impact_score": 1
-  },
-  {
-    "title": "Leclerc defends rule changes",
-    "url": "https://www.pitpass.com/82290/Leclerc-defends-rule-changes",
-    "industry": "Sports",
-    "summary": "Charles Leclerc defends rule changes.",
-    "charlotte_impact": "This article would likely have minimal direct impact in Charlotte.",
-    "impact_score": 1
-  },
-  {
-    "title": "Tax scams on the rise as April 15 approaches, IRS warns: Here are the \u2018dirty dozen\u2019 hoaxes to avoid",
-    "url": "https://nypost.com/2026/03/18/tech/tax-scams-on-the-rise-as-april-15-approaches-irs-warns/",
+    "title": "Crypto.com slashes 12% of workforce as it pivots to enterprise AI",
+    "url": "https://cryptobriefing.com/crypto-com-workforce-reduction-ai/",
     "industry": "Finance",
-    "summary": "Tax scams are on the rise as April 15 approaches, IRS warns: Here are the \u2018dirty dozen\u2019 hoaxes to avoid.",
-    "charlotte_impact": "This article would likely have minimal direct impact in Charlotte.",
+    "summary": "Crypto.com slashes 12% of its workforce as it pivots to enterprise AI. This illustrates the impact of automation on job markets within specific industries.",
+    "charlotte_impact": "This could signal potential for job losses in related Charlotte FinTech companies as AI automation increases. However, it can also stimulate new jobs centered around AI implementation and governance.",
+    "impact_score": 5
+  },
+  {
+    "title": "HSBC Weighs 10% Staffing Cut as Banks Hand Off Work to AI",
+    "url": "https://www.pymnts.com/news/banking/2026/hsbc-weighs-10-staffing-cut-as-banks-hand-off-work-to-ai/",
+    "industry": "Banking",
+    "summary": "HSBC is reportedly considering a 10% staffing cut as banks hand off work to AI.  The layoffs are expected to mostly focus on non-client facing jobs in the bank\u2019s service centers.",
+    "charlotte_impact": "Since Charlotte is a major banking center (Bank of America, Truist), this can lead to job losses in their support roles. The city must have workforce development initiatives to help displaced workers reskill and transition into new roles.",
+    "impact_score": 8
+  },
+  {
+    "title": "Enterprise AI enters its operational phase",
+    "url": "https://www.techtarget.com/searchhrsoftware/feature/Enterprise-AI-enters-its-operational-phase",
+    "industry": "Enterprise AI",
+    "summary": "Enterprise AI is entering its operational phase, with organizations deploying AI agents for practical tasks and facing governance challenges.",
+    "charlotte_impact": "This means Charlotte businesses are moving beyond AI experimentation and are trying to integrate AI into their existing systems. This means local businesses need to create clear AI implementation strategies and address issues like ethical concerns.",
+    "impact_score": 7
+  },
+  {
+    "title": "Gartner: Ditch \u2018big transformation\u2019 cyber strategies for continuous improvement",
+    "url": "https://www.computerweekly.com/news/366640480/Gartner-Ditch-big-transformation-cyber-strategies-for-continuous-improvement",
+    "industry": "Cybersecurity",
+    "summary": "Gartner advises ditching 'big transformation' cyber strategies for continuous improvement as AI reshapes the enterprise. CISOs must favor incremental changes for cyber resilience.",
+    "charlotte_impact": "This impacts Charlotte's financial industry (BoA, Truist). Instead of huge transformations that can make them vulnerable, security should be built incrementally. Local universities like UNC Charlotte can teach security strategies.",
+    "impact_score": 7
+  },
+  {
+    "title": "NetraMark Unveils AI-Discovered Treatment-Responsive Subgroups in A4 Alzheimer\u2019s Trial at AD/PD Conference",
+    "url": "https://financialpost.com/globe-newswire/netramark-unveils-ai-discovered-treatment-responsive-subgroups-in-a4-alzheimers-trial-at-ad-pd-conference",
+    "industry": "Healthcare",
+    "summary": "NetraMark Unveils AI-Discovered Treatment-Responsive Subgroups in A4 Alzheimer\u2019s Trial at AD/PD Conference, illustrating the potential for AI in precision medicine.",
+    "charlotte_impact": "This advancement would improve treatments at Charlotte's Atrium and Novant. It could also attract biotech startups focused on AI-driven drug discovery to Charlotte, creating new research partnerships and investment opportunities.",
+    "impact_score": 6
+  },
+  {
+    "title": "PicPay Revenues Jump 85% as Financial Services Portfolio Expands",
+    "url": "https://www.pymnts.com/digital-payments/2026/picpay-revenues-jump-85-as-financial-services-portfolio-expands/",
+    "industry": "Fintech",
+    "summary": "PicPay Revenues Jump 85% as Financial Services Portfolio Expands, increasingly leaning on artificial intelligence to manage its rapid scale.",
+    "charlotte_impact": "Local FinTech companies can observe the AI efforts done by PicPay and learn how to grow their business in a similar fashion. Local companies can partner with similar global organizations.",
+    "impact_score": 4
+  },
+  {
+    "title": "Alibaba pins hopes on AI as quarterly net profit drops",
+    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/alibaba-pins-hopes-on-ai-as-quarterly-net-profit-drops/articleshow/129677904.cms",
+    "industry": "E-commerce",
+    "summary": "Alibaba pins hopes on AI as quarterly net profit drops, emphasizing the need for AI in competitive e-commerce environments.",
+    "charlotte_impact": "Charlotte e-commerce companies can learn that they need to start investing in AI and see it as a necessity. Even companies in Charlotte need to invest in AI.",
+    "impact_score": 4
+  },
+  {
+    "title": "Africa\u2019s AI health moment is here. The evidence says proceed carefully",
+    "url": "https://www.devex.com/news/africa-s-ai-health-moment-is-here-the-evidence-says-proceed-carefully-112053",
+    "industry": "Healthcare",
+    "summary": "Studies of the same healthcare AI tool in Kenya show different results, with implications for AI uptake in low- and middle-income settings.",
+    "charlotte_impact": "Atrium and Novant need to ensure that AI is being fairly tested before deploying it. Results could vary from different settings so they need to do enough research before they deploy AI healthcare solutions.",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenClaw demand in China is driving up the price of used MacBooks",
+    "url": "https://www.cnbc.com/2026/03/19/openclaw-demand-in-china-is-driving-up-the-price-of-secondhand-macbooks.html",
+    "industry": "Computer Hardware",
+    "summary": "OpenClaw demand in China is driving up the price of used MacBooks. This illustrates the impact of AI on demand of old computer hardware.",
+    "charlotte_impact": "This should be a reminder to the city government to promote technology literacy programs. If people understand the value and can participate, then it has a real impact on everyone.",
+    "impact_score": 3
+  },
+  {
+    "title": "Why Mark Zuckerberg is shutting down Meta's Horizon World five years after calling it next big thing and $80 billion investment",
+    "url": "https://economictimes.indiatimes.com/news/new-updates/why-mark-zuckerberg-is-shutting-down-metas-horizon-world-five-years-after-calling-it-next-big-thing-and-80-billion-investment/articleshow/129677176.cms",
+    "industry": "Virtual Reality",
+    "summary": "Meta is ending its Horizon Worlds virtual reality platform for Quest headsets. After a massive investment of $80 billion, the company is removing the VR app by June 2026. This move follows a significant shift in focus towards artificial intelligence.",
+    "charlotte_impact": "This shows the importance of putting your resources into the right areas. Even if you have an $80B investment, the world is moving to AI so you need to move to AI. Any tech companies in Charlotte can see this as a cautionary tale.",
+    "impact_score": 3
+  },
+  {
+    "title": "Alibaba pins hopes on AI as quarterly net profit drops",
+    "url": "https://www.digitaljournal.com/world/alibaba-pins-hopes-on-ai-as-quarterly-net-profit-drops/article",
+    "industry": "E-commerce",
+    "summary": "Alibaba pins hopes on AI as quarterly net profit drops, signaling the rising importance of AI in business",
+    "charlotte_impact": "This shows the value in putting resources into AI rather than other initiatives. Any tech companies in Charlotte can see this as a good example and should start investing more.",
+    "impact_score": 3
+  },
+  {
+    "title": "Greek hospitality sector: Optimism soars as business climate outpaces EU average",
+    "url": "https://www.naftemporiki.gr/english/2087612/greek-hospitality-sector-optimism-soars-as-business-climate-outpaces-eu-average/",
+    "industry": "Travel and Leisure",
+    "summary": "Greek hospitality entrepreneurs are becoming increasingly optimistic about their future, with the business climate appearing significantly stronger than in previous years\u2014surpassing the EU average for the first time.",
+    "charlotte_impact": "There is no direct impact but it means that we must prioritize the hospitality industry in Charlotte and support the entrepreneurs as much as possible.",
     "impact_score": 1
   },
   {
-    "title": " Rafa Yuste to remain Bar\u00e7a president until 30 June",
-    "url": "https://onefootball.com/en/news/rafa-yuste-to-remain-barca-president-until-30-june-42576028",
-    "industry": "Sports",
-    "summary": "Rafa Yuste to remain Bar\u00e7a president until 30 June",
-    "charlotte_impact": "This article would likely have minimal direct impact in Charlotte.",
-    "impact_score": 1
+    "title": "Is that security alert a scam? How to tell the real from fake",
+    "url": "https://www.pcworld.com/article/3084543/is-that-security-alert-a-scam-how-to-tell-real-from-fake-warnings.html",
+    "industry": "Computer Security",
+    "summary": "Your smartphone vibrates and an email pops up: \u201cUnusual login activity detected on your account.\u201d For many users, this is a moment of panic. Are you experiencing a real hacker attack? Has your email account been hacked? Or is the message itself the actual att\u2026",
+    "charlotte_impact": "This means that Charlotte residents have to pay attention to security alerts. This should be taught at schools and universities.",
+    "impact_score": 2
   },
   {
-    "title": "Share Market Highlights: Sensex jumps 633 pts, Nifty tops 23,700; rupee sinks to record close",
-    "url": "https://www.thehindubusinessline.com/markets/stock-market-highlights-18-march-2026/article70753560.ece",
-    "industry": "Finance",
-    "summary": "Share Market Highlights: Sensex jumps 633 pts, Nifty tops 23,700; rupee sinks to record close",
-    "charlotte_impact": "This article would likely have minimal direct impact in Charlotte.",
+    "title": "Agricultural Microbials Market Report 2026-2032: Reshaping Commercial Crop Management, Combining Sustainability with Operational Resilience",
+    "url": "https://www.globenewswire.com/news-release/2026/03/19/3258809/28124/en/Agricultural-Microbials-Market-Report-2026-2032-Reshaping-Commercial-Crop-Management-Combining-Sustainability-with-Operational-Resilience.html",
+    "industry": "AgriTech",
+    "summary": "Agricultural Microbials Market Report 2026-2032: Reshaping Commercial Crop Management, Combining Sustainability with Operational Resilience.",
+    "charlotte_impact": "This does not impact Charlotte directly but the use of AI has an impact on food sustainability. If food production is optimized, there is less hunger.",
     "impact_score": 1
   }
 ]
