@@ -3,200 +3,200 @@
     "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
     "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
     "industry": "Cloud Infrastructure",
-    "summary": "Railway secures $100M to challenge AWS by offering AI-native cloud infrastructure with faster deployment times and lower costs.  Railway's platform allows for deployments in under a second, aligning with the speed of AI-generated code and appealing to developers.",
-    "charlotte_impact": "Charlotte's FinTech and banking sectors, heavily reliant on cloud services, could benefit from Railway's faster deployments and cost savings.  If Duke Energy is deploying AI for grid management or energy forecasting, Railway could provide a more efficient infrastructure. Local startups may also find Railway attractive for its developer-friendly platform and lower costs.",
+    "summary": "Railway, an AI-native cloud infrastructure provider, secured $100 million in funding to challenge AWS. They offer faster deployments and cost savings by building their own data centers and optimizing for AI workloads, attracting both startups and large enterprises.",
+    "charlotte_impact": "This investment in AI-native cloud infrastructure directly impacts Charlotte's growing FinTech sector and Duke Energy.  FinTech companies can leverage Railway's speed and cost benefits to accelerate development and deployment of AI-powered financial applications. Duke Energy benefits from potentially lower infrastructure costs for their growing data and AI needs, and it encourages competition that can drive innovation in cloud energy solutions.",
     "impact_score": 9
   },
   {
     "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
     "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
-    "industry": "Enterprise Software/AI Agents",
-    "summary": "Salesforce launches a rebuilt Slackbot AI agent powered by Anthropic's Claude (with plans for Gemini and others) to search data, draft documents, and take actions. The new Slackbot aims to be a 'super agent,' coordinating other AI agents within an organization and positioning Slack as a central hub for enterprise AI.",
-    "charlotte_impact": "Atrium Health and Novant Health could utilize Slackbot to synthesize patient data and improve collaboration among medical teams. Bank of America and other financial institutions could use it to automate regulatory reporting and internal communication, streamlining operations and improving compliance. Local Salesforce users will also be closely watching how this impacts their workflow.",
+    "industry": "Enterprise Software",
+    "summary": "Salesforce launched a rebuilt Slackbot AI agent to compete with Microsoft Copilot and Google Gemini.  Slackbot integrates with Salesforce data and other enterprise systems, aiming to be a \"super agent\" that manages other AI agents and streamlines workflows.",
+    "charlotte_impact": "This development directly impacts Charlotte's large financial institutions, particularly Bank of America and Truist. Slackbot can help them manage customer data, automate tasks, and improve employee productivity. Furthermore, Atrium Health and Novant Health could utilize Slackbot to improve internal communications and manage patient information more efficiently, ultimately enhancing patient care.",
     "impact_score": 9
   },
   {
     "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
     "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
-    "industry": "Market Research/AI",
-    "summary": "Listen Labs raises $69M for its AI-powered customer interview platform, which aims to replace traditional, slow, and costly market research with faster, more insightful, and scalable AI-driven video interviews. The platform emphasizes open-ended conversations and fraud detection to improve the quality of customer feedback.",
-    "charlotte_impact": "Charlotte's diverse business ecosystem, including marketing agencies and growing tech companies, can benefit from Listen Labs' faster and more efficient market research.  Local retailers could use the platform to gather rapid feedback on product development and marketing campaigns. The use of AI to reduce fraud in data collection could increase the accuracy of market research insights.",
+    "industry": "Market Research",
+    "summary": "Listen Labs raised $69M to scale AI-powered customer interviews, replacing traditional surveys and focus groups.  Their platform uses AI to conduct in-depth video interviews, identify insights, and deliver reports quickly and cost-effectively.",
+    "charlotte_impact": "Listen Labs impacts Charlotte by enabling local businesses to better understand customer needs. Companies like Duke Energy could use Listen Labs to gather feedback on new energy programs or customer service experiences. Additionally, local marketing agencies can leverage Listen Labs to improve market research and better serve their clients.",
     "impact_score": 8
   },
   {
-    "title": "Jeff Bezos reportedly wants $100 billion to buy and transform old manufacturing firms with AI",
-    "url": "https://techcrunch.com/2026/03/19/jeff-bezos-reportedly-wants-100-billion-to-buy-and-transform-old-manufacturing-firms-with-ai/",
-    "industry": "Manufacturing/Industrial AI",
-    "summary": "Jeff Bezos reportedly seeks $100B to acquire and revamp old manufacturing firms with AI. This initiative aims to modernize these firms and increase efficiency through AI-driven processes.",
-    "charlotte_impact": "While Charlotte isn't a major manufacturing hub, any initiative to infuse AI into manufacturing could lead to partnerships or acquisitions in the region.  Local industrial suppliers could see increased demand for AI-related services and technologies, potentially attracting talent and investment.",
-    "impact_score": 7
+    "title": "Microsoft rolls back some of its Copilot AI bloat on Windows",
+    "url": "https://techcrunch.com/2026/03/20/microsoft-rolls-back-some-of-its-copilot-ai-bloat-on-windows/",
+    "industry": "Operating Systems",
+    "summary": "Microsoft is reducing the number of entry points for its Copilot AI on Windows. This signals an adjustment in Microsoft's AI strategy and potentially a recognition of user concerns about AI integration.",
+    "charlotte_impact": "While this is a backtrack, it highlights the need for user-centered AI design. Charlotte companies need to be mindful of user adoption rates and potential resistance when implementing AI tools, ensuring seamless integration and clear benefits for employees to avoid similar negative reactions.",
+    "impact_score": 5
+  },
+  {
+    "title": "Are AI tokens the new signing bonus or just a cost of doing business?",
+    "url": "https://techcrunch.com/2026/03/21/are-ai-tokens-the-new-signing-bonus-or-just-a-cost-of-doing-business/",
+    "industry": "HR & Compensation",
+    "summary": "The article discusses the emergence of AI tokens as a form of compensation for engineers. It questions whether these tokens will become a standard part of the compensation package or simply a cost of doing business.",
+    "charlotte_impact": "This trend could impact Charlotte's ability to attract and retain top AI talent. Local companies, particularly those in the FinTech and energy sectors, need to understand and potentially incorporate AI tokens into their compensation packages to remain competitive in the national talent market.",
+    "impact_score": 6
   },
   {
     "title": "WordPress.com now lets AI agents write and publish posts, and more",
     "url": "https://techcrunch.com/2026/03/20/wordpress-com-now-lets-ai-agents-write-and-publish-posts-and-more/",
-    "industry": "Content Creation/AI",
-    "summary": "WordPress.com now lets AI agents write and publish posts, potentially lowering barriers to content creation.  This may flood the internet with more machine-generated content.",
-    "charlotte_impact": "Local news outlets and marketing firms could experiment with AI-generated content to supplement their output, but must navigate ethical considerations. Businesses with content marketing strategies may see a need to distinguish themselves from AI-generated content by emphasizing authenticity and human expertise.",
-    "impact_score": 6
-  },
-  {
-    "title": "The best AI investment might be in energy tech",
-    "url": "https://techcrunch.com/2026/03/20/the-best-ai-investment-might-be-in-energy-tech/",
-    "industry": "AI Infrastructure/Hardware",
-    "summary": "New AI notetaking devices record and transcribe meetings, providing summaries and action items using AI. Some also offer live translation.",
-    "charlotte_impact": "Corporations across Charlotte, particularly in banking, finance, and healthcare, could improve meeting efficiency and documentation through AI-powered notetakers. This technology could also facilitate communication among diverse teams within these industries.",
-    "impact_score": 7
-  },
-  {
-    "title": "DoorDash launches a new \u2018Tasks\u2019 app that pays couriers to submit videos to train AI",
-    "url": "https://techcrunch.com/2026/03/19/doordash-launches-a-new-tasks-app-that-pays-couriers-to-submit-videos-to-train-ai/",
-    "industry": "Data Collection/AI Training",
-    "summary": "DoorDash launches a new \u2018Tasks\u2019 app to pay couriers for submitting videos to train AI. This crowdsourced data collection strategy incentivizes workers to contribute to AI model development.",
-    "charlotte_impact": "DoorDash couriers in Charlotte can participate in the 'Tasks' app to earn extra income while contributing to AI training. This illustrates a trend towards leveraging gig workers for AI data collection, potentially impacting labor dynamics and the local economy.",
-    "impact_score": 5
-  },
-  {
-    "title": "Amazon working on new smartphone years after Fire Phone flop: Report",
-    "url": "https://economictimes.indiatimes.com/industry/cons-products/electronics/amazon-smartphone-plan-alexa-integration-transformer-project/articleshow/129697797.cms",
-    "industry": "Mobile/AI",
-    "summary": "Amazon plans a comeback in the smartphone market, developing an AI-driven mobile hub integrated with Alexa. This device could be a conventional smartphone or a simpler 'dumbphone'.",
-    "charlotte_impact": "Amazon's move into the smartphone market may indirectly impact local retailers selling mobile devices and related services. The potential integration of Alexa could also boost the adoption of Amazon's voice assistant platform within Charlotte households.",
-    "impact_score": 4
-  },
-  {
-    "title": "US universities pivot to AI degrees as campuses race to match the machine age",
-    "url": "https://timesofindia.indiatimes.com/education/news/us-universities-pivot-to-ai-degrees-as-campuses-race-to-match-the-machine-age/articleshow/129698069.cms",
-    "industry": "Education/AI",
-    "summary": "US universities are pivoting to AI degrees to meet rising industry demand.  Institutions are restructuring curricula to integrate AI across various disciplines.",
-    "charlotte_impact": "UNC Charlotte and other regional universities may accelerate their AI-related degree programs to remain competitive and address the talent needs of local industries. This could attract more students to STEM fields and contribute to the growth of Charlotte's tech ecosystem.",
-    "impact_score": 7
-  },
-  {
-    "title": "Robotaxi Market Trends and Growth Outlook 2026-2033 Featuring Profiles of Key Players - Waymo, Baidu, WeRide, Pony AI, EasyMile, Aptiv, Uber and More",
-    "url": "https://www.globenewswire.com/news-release/2026/03/20/3259624/28124/en/Robotaxi-Market-Trends-and-Growth-Outlook-2026-2033-Featuring-Profiles-of-Key-Players-Waymo-Baidu-WeRide-Pony-AI-EasyMile-Aptiv-Uber-and-More.html",
-    "industry": "Transportation/Autonomous Vehicles",
-    "summary": "The robotaxi market is poised for growth due to advancements in AI, machine learning, and sensor technologies, leading to increased safety and efficiency. The trend towards Mobility-as-a-Service also contributes to market expansion.",
-    "charlotte_impact": "If robotaxi services become viable, it could disrupt Charlotte's transportation landscape, impacting taxi services, ride-sharing companies, and potentially public transportation. Increased adoption of autonomous vehicles may necessitate infrastructure upgrades and adjustments to local transportation policies.",
-    "impact_score": 6
-  },
-  {
-    "title": "The best AI investment might be in energy tech",
-    "url": "https://techcrunch.com/2026/03/20/the-best-ai-investment-might-be-in-energy-tech/",
-    "industry": "Energy Tech",
-    "summary": "Power has become a major bottleneck in rolling out new AI data centers, creating an opportunity for investment in energy tech.",
-    "charlotte_impact": "Duke Energy will need to innovate in the area of energy generation as Charlotte\u2019s AI-enabled businesses and new data centers put more demand on the grid. This could bring about new partnerships between Duke and AI firms.",
-    "impact_score": 8
-  },
-  {
-    "title": "Meta rolls out new AI content enforcement systems while reducing reliance on third-party vendors",
-    "url": "https://techcrunch.com/2026/03/19/meta-rolls-out-new-ai-content-enforcement-systems-while-reducing-reliance-on-third-party-vendors/",
-    "industry": "Social Media",
-    "summary": "Meta rolls out new AI content enforcement systems while reducing reliance on third-party vendors. Meta believes these AI systems can detect more violations with greater accuracy, better prevent scams, respond more quickly to real-world events, and reduce over-enforcement.",
-    "charlotte_impact": "While Meta's content moderation efforts are global, improvements in scam detection could benefit Charlotte residents by reducing exposure to online fraud and misinformation. The reliability of AI-driven content moderation will continue to be an important aspect of public discourse.",
+    "industry": "Content Creation",
+    "summary": "WordPress.com now allows AI agents to write and publish posts.  This reduces the barrier to entry for publishing content, while simultaneously raising concerns about the proliferation of machine-generated content.",
+    "charlotte_impact": "This impacts Charlotte's media outlets and marketing agencies. They can leverage AI agents to automate content creation, but must also focus on maintaining high-quality, original content to avoid being drowned out by generic AI-generated material.",
     "impact_score": 4
   },
   {
     "title": "Trump\u2019s AI framework targets state laws, shifts child safety burden to parents",
     "url": "https://techcrunch.com/2026/03/20/trumps-ai-framework-targets-state-laws-shifts-child-safety-burden-to-parents/",
-    "industry": "AI Policy",
-    "summary": "Trump\u2019s AI framework pushes federal preemption of state laws, emphasizes innovation, and shifts responsibility for child safety toward parents while laying out lighter-touch rules for tech companies.",
-    "charlotte_impact": "The preemption of state laws would change the nature of digital privacy regulations. This would affect both local tech businesses and Charlotte residents.",
+    "industry": "AI Policy & Regulation",
+    "summary": "Trump's AI framework emphasizes innovation and shifts child safety responsibility to parents, while preempting state laws and laying out lighter rules for tech companies.",
+    "charlotte_impact": "This framework, if enacted, could impact the regulatory landscape for AI in Charlotte, potentially hindering more stringent state-level regulations. Local companies need to stay informed about evolving federal and state AI regulations to ensure compliance and responsible AI development.",
     "impact_score": 5
+  },
+  {
+    "title": "The best AI investment might be in energy tech",
+    "url": "https://techcrunch.com/2026/03/20/the-best-ai-investment-might-be-in-energy-tech/",
+    "industry": "Energy & Data Centers",
+    "summary": "Power has become a major bottleneck for rolling out new AI data centers. This creates opportunities for investment in energy tech and innovative solutions to power these data centers.",
+    "charlotte_impact": "This is significant for Duke Energy.  The energy provider needs to anticipate the increasing power demands of AI data centers and invest in energy-efficient solutions, renewable energy sources, and grid infrastructure upgrades to meet future needs.  Furthermore, Charlotte itself needs to attract and retain data centers by having available and affordable energy.",
+    "impact_score": 8
   },
   {
     "title": "These AI notetaking devices can help you record and transcribe your meetings",
     "url": "https://techcrunch.com/2026/03/20/ai-notetaker-hardware-devices-pins-pendants-record-transcribe/",
-    "industry": "AI Hardware",
-    "summary": "AI-based devices such as pins and pendants can record and transcribe meetings, giving users summaries and action items. Some offer live translation.",
-    "charlotte_impact": "The impact in Charlotte is very similar to the AI Notetaking devices. A large corporate city filled with many meetings will improve its efficiency and documentation through AI-powered devices.",
-    "impact_score": 4
-  },
-  {
-    "title": "$80 Billion Gone: What Was Meta\u2019s Metaverse Project That Is Now Shut Down?",
-    "url": "https://freerepublic.com/focus/f-news/4371417/posts",
-    "industry": "AR/VR",
-    "summary": "Meta has reportedly announced that it is shutting down its metaverse project. The dream project of its founder Mark Zuckerberg, who had called it \u201cthe next frontier\" upon rebranding the social media company from Facebook to Meta in 2021. For\u2026",
-    "charlotte_impact": "The shutdown of the metaverse project won't have a large impact in Charlotte. The project had many problems and was never truly adopted by the population",
-    "impact_score": 1
-  },
-  {
-    "title": "Xpeng Revenue Forecast Falls Short as China EV Demand Slows",
-    "url": "https://financialpost.com/pmn/business-pmn/xpeng-revenue-forecast-falls-short-as-china-ev-demand-slows",
-    "industry": "EV",
-    "summary": "Xpeng Inc.\u2019s first-quarter revenue forecast fell short of estimates as a slump in Chinese vehicle demand hurt deliveries at the start of the year. That overshadowed the automaker posting its first-ever quarterly profit at the end of 2025.",
-    "charlotte_impact": "As Charlotte moves towards EV, the chinese EV industry is slowing. This might show the trend that EVs are slowing.",
-    "impact_score": 2
-  },
-  {
-    "title": "Global Decentralized Clinical Trials Market Report 2026: Review of 2022-2025 with CAGR Projections Through 2030",
-    "url": "https://www.globenewswire.com/news-release/2026/03/20/3259643/28124/en/Global-Decentralized-Clinical-Trials-Market-Report-2026-Review-of-2022-2025-with-CAGR-Projections-Through-2030.html",
-    "industry": "Healthcare",
-    "summary": "Key opportunities include expanding cloud-based platforms, leveraging interventional and oncology trials, targeting pharmaceutical companies and CROs, and focusing on growth in regions like Asia-Pacific and Europe. Emphasis on sustainability and ESG practices",
-    "charlotte_impact": "More emphasis is being put on cloud-based platforms and oncology trials. Charlotte\u2019s healthcare sectors are always looking to push to the next level. This is a growing opportunity for Atrium Health and Novant Health",
+    "industry": "Hardware & Productivity",
+    "summary": "New AI notetaking devices transcribe audio and provide summaries and action items of meetings. These devices can also offer live translation, improving productivity and collaboration.",
+    "charlotte_impact": "Adoption of these technologies can improve productivity and collaboration within Charlotte's businesses, especially for companies with a global presence. Law firms, financial institutions, and healthcare providers can benefit from accurate meeting transcriptions and summaries.",
     "impact_score": 5
   },
   {
-    "title": "Global law enforcement operation targets AISURU, Kimwolf, JackSkid botnet operators",
-    "url": "https://securityaffairs.com/189710/cyber-crime/global-law-enforcement-operation-targets-aisuru-kimwolf-jackskid-botnet-operators.html",
-    "industry": "Cyber Security",
-    "summary": "DoJ disrupted IoT botnets\u2019 C2 infrastructure with global partners, targeting operators behind AISURU, Kimwolf, JackSkid, and others. The U.S. DoJ disrupted command-and-control infrastructure used by several IoT botnets, including AISURU, Kimwolf, JackSkid, an",
-    "charlotte_impact": "While this operation occurred across the world, the botnets could potentially hurt Charlotte companies and people. Targeting botnet operators may help prevent further attacks.",
+    "title": "AI researcher Andrej Karpathy no longer writes code; spends hours directing AI agents",
+    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-researcher-andrej-karpathy-no-longer-writes-code-spends-hours-directing-ai-agents/articleshow/129716812.cms",
+    "industry": "AI Research & Development",
+    "summary": "AI researcher Andrej Karpathy no longer writes code, but spends hours directing AI agents. This highlights the shift in the role of engineers to orchestrating and managing AI systems.",
+    "charlotte_impact": "This trend necessitates a shift in skills for Charlotte's tech workforce. Companies need to train employees to manage and direct AI agents, emphasizing critical thinking, system analysis, and prompt engineering skills.",
+    "impact_score": 6
+  },
+  {
+    "title": "\u2018AI not accurate enough to block calls automatically\u2019: Truecaller CEO Rishit Jhunjhunwala",
+    "url": "https://economictimes.indiatimes.com/industry/telecom/telecom-news/ai-not-accurate-enough-to-block-calls-automatically-truecaller-ceo-rishit-jhunjhunwala/articleshow/129716005.cms",
+    "industry": "Cybersecurity",
+    "summary": "Truecaller CEO says AI isn't accurate enough to automatically block calls. The company prioritizes user consent and offers comprehensive features.",
+    "charlotte_impact": "This highlights a challenge for FinTech companies in Charlotte dealing with security. AI security has to be highly accurate or consumers will lose faith in the brand, and this means FinTechs will need to keep people in the loop.",
+    "impact_score": 4
+  },
+  {
+    "title": "Infosys and Formula E Launch AI-Powered Race Centre, Taking Fan Experience to Pole Position",
+    "url": "https://www.thehindubusinessline.com/brandhub/pr-release/infosys-and-formula-e-launch-ai-powered-race-centre-taking-fan-experience-to-pole-position/article70768680.ece",
+    "industry": "Sports and entertainment",
+    "summary": "Infosys and Formula E launch AI-powered Race Centre. The platform leverages Infosys Topaz to deliver real-time insights that will redefine innovation for race day and beyond.",
+    "charlotte_impact": "There is a large Nascar presence in Charlotte. AI can improve fan experience in a similar way as Infosys is planning. It can also make the races safer.",
     "impact_score": 3
   },
   {
-    "title": "EXCLUSIVE: White House AI Framework Requires Measures to Protect Kids; Child Safety Advocates Want More",
-    "url": "https://www.dailysignal.com/2026/03/20/exclusive-white-house-ai-framework-requires-measures-protect-kids-child-safety-advocates-want-more/",
-    "industry": "AI Policy",
-    "summary": "The White House\u2019s long-awaited draft of the National Framework on Artificial Intelligence requires protections for children online, but some child safety advocates are looking for... Read More",
-    "charlotte_impact": "This article is similar to original_id: 7. The article focuses on child safety online, which is an area of concern across the country.",
-    "impact_score": 4
+    "title": "NHAI to deploy AI-enabled cameras on 40,000 km of NHs for monitoring",
+    "url": "https://economictimes.indiatimes.com/industry/transportation/roadways/nhai-to-deploy-ai-enabled-cameras-on-40000-km-of-nhs-for-monitoring/articleshow/129715914.cms",
+    "industry": "Transportation",
+    "summary": "NHAI to deploy AI-enabled cameras on 40,000 km of NHs for monitoring. The idea is to enhance remote tracking and road condition assessments using high-resolution imagery and video data.",
+    "charlotte_impact": "This highlights the potential to improve road safety in Charlotte. There is a large trucking industry here and AI could improve safety along major routes.",
+    "impact_score": 3
   },
   {
-    "title": "I Learned More Than I Thought I Would From Using Food-Tracking Apps",
-    "url": "https://www.wired.com/story/food-tracking-apps-ai-nutrition-weight-loss/",
-    "industry": "Food Tech",
-    "summary": "These apps, some of which use AI and computer vision, were helpful for meeting my caloric and nutrition intake goals. But they also gave me some anxiety.",
-    "charlotte_impact": "AI food apps have a low impact. Most people prefer to eat what they like, regardless of what is healthy.",
-    "impact_score": 1
-  },
-  {
-    "title": "Fake AI songs streamed billions of times, netting fraudster $10 million",
-    "url": "https://www.helpnetsecurity.com/2026/03/20/ai-music-streaming-fraud-guilty-plea/",
-    "industry": "Music",
-    "summary": "Michael Smith, 54, of Cornelius, North Carolina, has pleaded guilty in federal court to running a scheme that exploited music streaming platforms and diverted royalty payments from artists",
-    "charlotte_impact": "This is a big impact in Charlotte as Michael Smith of Cornelius, North Carolina plead guilty. This affects the people involved, as they now have a criminal record",
-    "impact_score": 4
-  },
-  {
-    "title": "Who's most optimistic about AI \u2014 and who isn't, according to Anthropic",
-    "url": "https://www.cnbc.com/2026/03/20/anthropic-whos-most-optimistic-about-ai-and-who-isnt.html",
-    "industry": "AI Analysis",
-    "summary": "Economic gains are people's main aspirations for AI, but analysts warned that not everyone stands to benefit equally.",
-    "charlotte_impact": "Charlotte\u2019s AI community and business will need to be careful to consider equitable distribution of gains as they progress with AI implementation. Charlotte will have to consider how the AI revolution will impact the lives of the many or the few.",
-    "impact_score": 5
-  },
-  {
-    "title": "Microsoft rolls back some of its Copilot AI bloat on Windows",
-    "url": "https://techcrunch.com/2026/03/20/microsoft-rolls-back-some-of-its-copilot-ai-bloat-on-windows/",
-    "industry": "Software",
-    "summary": "The company is reducing Copilot entry points on Windows, starting with Photos, Widgets, Notepad, and other apps.",
-    "charlotte_impact": "There is no impact here since Microsoft is just limiting the number of ways to use Copilot.",
-    "impact_score": 1
-  },
-  {
-    "title": "Everywoman announces 2026 Women in Technology Awards winners",
-    "url": "https://www.computerweekly.com/news/366640389/Everywoman-announces-2026-Women-in-Technology-Awards-winners",
-    "industry": "AI",
-    "summary": "Network for women in business, Everywoman, has announced the winners of this year\u2019s technology awards, in partnership with Salesforce",
-    "charlotte_impact": "Charlotte is home to a large corporate and tech scene, there may be people located in Charlotte who one this award.",
+    "title": "Publisher pulls horror novel \u2018Shy Girl\u2019 over AI concerns",
+    "url": "https://techcrunch.com/2026/03/21/publisher-pulls-horror-novel-shy-girl-over-ai-concerns/",
+    "industry": "Creative Industries",
+    "summary": "A publisher pulled a horror novel over concerns it was AI generated.",
+    "charlotte_impact": "Highlights the importance of oversight in the creative process. Companies in Charlotte should make sure they oversee anything generated by AI to avoid copyright issues.",
     "impact_score": 2
   },
   {
-    "title": "'Expect crushing disappointment': The Wheel of Time fans express concern and outrage over animated revival that could be created using AI",
-    "url": "https://www.techradar.com/streaming/expect-crushing-disappointment-the-wheel-of-time-fans-express-concern-and-outrage-over-animated-revival-that-could-be-created-using-ai",
-    "industry": "Entertainment",
-    "summary": "The Wheel of Time is being turned into an animated show \u2014 and fans say they can't imagine anything worse if AI is involved.",
-    "charlotte_impact": "Fans are afraid that AI will make the show worse and ruin the franchise. This is a common fear with AI.",
+    "title": "Cursor founder clears air on Kimi model use in Composer 2: Here\u2019s all you need to know",
+    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/cursor-clears-air-on-kimi-model-use-in-composer-2-heres-all-you-need-to-know/articleshow/129717767.cms",
+    "industry": "Software Development",
+    "summary": "Cursor founder clears air on Kimi model use in Composer 2. The model was built on a base model that was not initially disclosed at launch.",
+    "charlotte_impact": "This is a lesson in transparency. Companies based in Charlotte have to be honest about what AI is being used in their processes.",
+    "impact_score": 2
+  },
+  {
+    "title": "Cursor clears air on Kimi model use in Composer 2: Here\u2019s all you need to know",
+    "url": "https://economictimes.indiatimes.com/tech/technology/cursor-clears-air-on-kimi-model-use-in-composer-2-heres-all-you-need-to-know/articleshow/129717236.cms",
+    "industry": "Software Development",
+    "summary": "Cursor founder clears air on Kimi model use in Composer 2. The model was built on a base model that was not initially disclosed at launch.",
+    "charlotte_impact": "This is a lesson in transparency. Companies based in Charlotte have to be honest about what AI is being used in their processes.",
+    "impact_score": 2
+  },
+  {
+    "title": "Weekend reads: How to buy a scientific paper; creating responsible authorship culture; sanction authors for hallucinated references?",
+    "url": "https://retractionwatch.com/2026/03/21/weekend-reads-how-to-buy-scientific-paper-creating-responsible-authorship-culture-sanction-authors-hallucinated-references/",
+    "industry": "AI Ethics",
+    "summary": "The article touches on the topic of AI hallucinations, and whether authors should be sanctioned for them.",
+    "charlotte_impact": "Companies should have in place policies to correct AI errors. This should be especially true for any company in Charlotte in the FinTech or healthcare space.",
+    "impact_score": 3
+  },
+  {
+    "title": "MSMEs and start-ups are safeguarding national interests by strengthening defence capabilities & contributing to self-reliance vision: Raksha Rajya Mantri at National Defence Industries Conclave 2026",
+    "url": "https://www.globalsecurity.org/wmd/library/news/india/2026/india-260320-india-pib01.htm",
+    "industry": "Defense",
+    "summary": "MSMEs and start-ups are safeguarding national interests by strengthening defence capabilities & contributing to self-reliance vision.",
+    "charlotte_impact": "AI is used in national defense. If Charlotte wants to improve its reputation as a tech hub, it could look for areas in the defense sector where AI can make the U.S. safer.",
+    "impact_score": 2
+  },
+  {
+    "title": "Surveillance To Safety: Drivers Demand In-Vehicle Cameras Says Geotab",
+    "url": "https://www.forbes.com/sites/jamesmorris/2026/03/21/surveillance-to-safety-drivers-demand-in-vehicle-cameras-says-geotab/",
+    "industry": "Transportation",
+    "summary": "Drivers are demanding in-vehicle cameras, says Geotab. Drivers believe they are safer when there are in-vehicle cameras.",
+    "charlotte_impact": "This could be an opportunity for Charlotte to improve safety on roads. It could be especially useful for drivers who work in the city for transportation services.",
+    "impact_score": 2
+  },
+  {
+    "title": "Women are avoiding the very technology that threatens them most, as expert warns of a \u2018two-tiered AI economy\u2019 approaching",
+    "url": "https://fortune.com/2026/03/21/ai-gender-gap-two-tier-economy-adoption-inequality/",
+    "industry": "AI Ethics",
+    "summary": "Women are avoiding AI, which could lead to a gender gap in the economy.",
+    "charlotte_impact": "There could be opportunities for women to get hired into AI. Charlotte companies should encourage women to participate in the conversation.",
+    "impact_score": 2
+  },
+  {
+    "title": "Jaap Seidell: Ultra-Processed Foods & Health Risks - Archyworldys",
+    "url": "https://www.archyworldys.com/jaap-seidell-ultra-processed-foods-health-risks/",
+    "industry": "Food & Nutrition",
+    "summary": "The article discusses ultra-processed foods and their associated health risks, highlighting the need for personalized nutrition and a potential reset of the food system.",
+    "charlotte_impact": "This could affect grocery stores in Charlotte. They may need to offer more AI generated personalized recommendations to give them an advantage over their competition.",
+    "impact_score": 1
+  },
+  {
+    "title": " This week\u2019s kit news ",
+    "url": "https://onefootball.com/en/news/this-weeks-kit-news-42592313",
+    "industry": "Sports",
+    "summary": "This week\u2019s kit news",
+    "charlotte_impact": "There is potential for AI to play a role here, but the article is very brief.",
+    "impact_score": 1
+  },
+  {
+    "title": "Finland holds border security exercise on eastern frontier",
+    "url": "https://yle.fi/a/74-20216584",
+    "industry": "Security",
+    "summary": "Finland holds border security exercise on eastern frontier.",
+    "charlotte_impact": "There is potential for AI to play a role here, but the article is very brief.",
+    "impact_score": 1
+  },
+  {
+    "title": "Warren Kinsella: How Iran stage-manages anti-Israel campaigns in the West",
+    "url": "https://nationalpost.com/news/warren-kinsella-how-iran-stage-manages-anti-israel-campaigns-in-the-west",
+    "industry": "Politics",
+    "summary": "Warren Kinsella: How Iran stage-manages anti-Israel campaigns in the West",
+    "charlotte_impact": "There is potential for AI to play a role here, but the article is very brief.",
+    "impact_score": 1
+  },
+  {
+    "title": "The Price of Oil Is Surging. Here\u2019s How It Could Get Much Worse.",
+    "url": "https://slate.com/news-and-politics/2026/03/price-of-gas-trump-barrel-oil-iran-war.html",
+    "industry": "Oil",
+    "summary": "The Price of Oil Is Surging. Here\u2019s How It Could Get Much Worse.",
+    "charlotte_impact": "There is potential for AI to play a role here, but the article is very brief.",
     "impact_score": 1
   }
 ]
