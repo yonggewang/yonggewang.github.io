@@ -3,200 +3,112 @@
     "title": "Railway obtiene 100 millones de dólares para desafiar a AWS con una infraestructura de nube nativa de IA",
     "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
     "industry": "Cloud Infrastructure",
-    "summary": "Railway, un proveedor de infraestructura en la nube nativa de IA, obtuvo 100 millones de dólares en financiación para desafiar a AWS. Ofrecen implementaciones más rápidas y ahorros de costos al construir sus propios centros de datos y optimizar las cargas de trabajo de IA, lo que atrae tanto a nuevas empresas como a grandes empresas.",
-    "charlotte_impact": "Esta inversión en infraestructura de nube nativa de IA tiene un impacto directo en el creciente sector FinTech de Charlotte y en Duke Energy.  Las empresas de tecnología financiera pueden aprovechar los beneficios de velocidad y costos de Railway para acelerar el desarrollo y la implementación de aplicaciones financieras impulsadas por IA. Duke Energy se beneficia de costos de infraestructura potencialmente más bajos para sus crecientes necesidades de datos e inteligencia artificial, y fomenta la competencia que puede impulsar la innovación en soluciones de energía en la nube.",
+    "summary": "Railway obtuvo 100 millones de dólares en financiación Serie B para desafiar a AWS con su infraestructura de nube nativa de IA. La plataforma se centra en tiempos de implementación rápidos y ahorros de costos para los desarrolladores que aprovechan los asistentes de codificación de IA, con velocidades de implementación significativamente más rápidas y costos más bajos en comparación con los proveedores de nube tradicionales.",
+    "charlotte_impact": "El sector bancario y de tecnología financiera de Charlotte, que depende en gran medida de la infraestructura de la nube, podría beneficiarse de las velocidades de implementación más rápidas y las soluciones rentables de Railway.  Empresas como Bank of America y Truist podrían potencialmente acelerar sus ciclos de innovación y reducir los gastos operativos mediante la adopción de la plataforma en la nube optimizada para IA de Railway.  Esto también podría atraer más talento tecnológico a Charlotte centrado en tecnologías modernas de nube.",
     "impact_score": 9
   },
   {
     "title": "Salesforce lanza un nuevo agente de IA Slackbot mientras lucha contra Microsoft y Google en la IA en el lugar de trabajo",
     "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
     "industry": "Enterprise Software",
-    "summary": "Salesforce lanzó un agente Slackbot AI reconstruido para competir con Microsoft Copilot y Google Gemini.  Slackbot se integra con los datos de Salesforce y otros sistemas empresariales, con el objetivo de ser un \"superagente\" que gestiona otros agentes de IA y agiliza los flujos de trabajo.",
-    "charlotte_impact": "Este desarrollo impacta directamente a las grandes instituciones financieras de Charlotte, particularmente Bank of America y Truist. Slackbot puede ayudarlos a administrar los datos de los clientes, automatizar tareas y mejorar la productividad de los empleados. Además, Atrium Health y Novant Health podrían utilizar Slackbot para mejorar las comunicaciones internas y gestionar la información de los pacientes de forma más eficiente, mejorando en última instancia la atención al paciente.",
-    "impact_score": 9
+    "summary": "Salesforce lanzó un agente de inteligencia artificial de Slackbot reconstruido impulsado por Claude de Anthropic, transformándolo de una herramienta de notificación a un poderoso asistente de inteligencia artificial.  El nuevo Slackbot puede acceder a datos empresariales, redactar documentos y tomar acciones en nombre de los empleados, con el objetivo de ser el centro para la coordinación de los agentes de IA dentro de las organizaciones.",
+    "charlotte_impact": "Con una presencia significativa de Salesforce, incluidas empresas de servicios financieros, el nuevo Slackbot podría impulsar una mayor productividad y eficiencia en Charlotte.  La capacidad de Slackbot para sintetizar información de múltiples fuentes y automatizar tareas podría optimizar los flujos de trabajo para los equipos locales de ventas, marketing y atención al cliente.  Sin embargo, las empresas de Charlotte deben tener en cuenta las tarifas de acceso a datos y los cambios de API mencionados en el artículo.",
+    "impact_score": 8
   },
   {
     "title": "Listen Labs recauda 69 millones de dólares después de un truco de contratación de vallas publicitarias virales para escalar las entrevistas con clientes de IA",
     "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
     "industry": "Market Research",
-    "summary": "Listen Labs recaudó 69 millones de dólares para escalar las entrevistas a clientes basadas en inteligencia artificial, reemplazando las encuestas tradicionales y los grupos focales.  Su plataforma utiliza inteligencia artificial para realizar entrevistas en video en profundidad, identificar ideas y entregar informes de manera rápida y rentable.",
-    "charlotte_impact": "Listen Labs impacta a Charlotte al permitir que las empresas locales comprendan mejor las necesidades de los clientes. Empresas como Duke Energy podrían utilizar Listen Labs para recopilar comentarios sobre nuevos programas energéticos o experiencias de servicio al cliente. Además, las agencias de marketing locales pueden aprovechar Listen Labs para mejorar la investigación de mercado y prestar un mejor servicio a sus clientes.",
-    "impact_score": 8
+    "summary": "Listen Labs recaudó 69 millones de dólares para escalar su plataforma de entrevistas a clientes impulsada por IA, que reemplaza la investigación de mercado tradicional con investigadores de IA que encuentran participantes, realizan entrevistas en profundidad y brindan información procesable rápidamente. Clientes como Microsoft y Chubbies han visto mejoras significativas en la velocidad de la investigación y la calidad de los datos.",
+    "charlotte_impact": "El diverso panorama empresarial de Charlotte, desde el comercio minorista hasta la atención médica, podría aprovechar Listen Labs para obtener información más rápida y precisa sobre los clientes.  Por ejemplo, Atrium Health o Novant Health podrían utilizar la plataforma para comprender las necesidades de los pacientes y mejorar los servicios de atención médica. El potencial de ciclos de retroalimentación rápidos e iterativos también podría beneficiar a las nuevas empresas en la escena tecnológica de Charlotte.",
+    "impact_score": 7
+  },
+  {
+    "title": "Un recorrido exclusivo por el laboratorio Trainium de Amazon, el chip que ha conquistado a Anthropic, OpenAI e incluso Apple",
+    "url": "https://techcrunch.com/2026/03/22/an-exclusive-tour-of-amazons-trainium-lab-the-chip-thats-won-over-anthropic-openai-even-apple/",
+    "industry": "Semiconductors",
+    "summary": "El chip Trainium de Amazon, diseñado para el entrenamiento de IA, ha ganado terreno entre empresas como Anthropic, OpenAI y Apple, mostrando su competitividad en el mercado de hardware de IA.",
+    "charlotte_impact": "Si bien Charlotte no tiene una gran presencia en la fabricación de semiconductores, la mayor demanda de chips de IA afecta directamente la infraestructura de computación en la nube que sustenta los sectores energético y de tecnología financiera de Charlotte.  Los chips más eficientes y potentes reducen los costos y permiten aplicaciones de inteligencia artificial más complejas para empresas como Duke Energy e instituciones financieras locales.",
+    "impact_score": 6
   },
   {
     "title": "Microsoft revierte parte de su IA Copilot en Windows",
     "url": "https://techcrunch.com/2026/03/20/microsoft-rolls-back-some-of-its-copilot-ai-bloat-on-windows/",
     "industry": "Operating Systems",
-    "summary": "Microsoft está reduciendo la cantidad de puntos de entrada para su Copilot AI en Windows. Esto indica un ajuste en la estrategia de IA de Microsoft y potencialmente un reconocimiento de las preocupaciones de los usuarios sobre la integración de la IA.",
-    "charlotte_impact": "Si bien esto es un retroceso, resalta la necesidad de un diseño de IA centrado en el usuario. Las empresas de Charlotte deben tener en cuenta las tasas de adopción de los usuarios y la posible resistencia al implementar herramientas de inteligencia artificial, garantizando una integración perfecta y beneficios claros para los empleados para evitar reacciones negativas similares.",
+    "summary": "Microsoft está revirtiendo parte de su exceso de IA Copilot en Windows, reduciendo la cantidad de puntos de entrada para el asistente de IA.",
+    "charlotte_impact": "Este es un problema de usabilidad relevante para todas las empresas de Charlotte que utilizan Windows. Si bien reducir la \"inflación\" es positivo, cualquier cambio en la integración de la IA debe evaluarse cuidadosamente para determinar su impacto en los flujos de trabajo y la productividad de los empleados en varias industrias de Charlotte.",
+    "impact_score": 3
+  },
+  {
+    "title": "Cursor admite que su nuevo modelo de codificación se construyó sobre Kimi de Moonshot AI",
+    "url": "https://techcrunch.com/2026/03/22/cursor-admits-its-new-coding-model-was-built-on-top-of-moonshot-ais-kimi/",
+    "industry": "AI Models",
+    "summary": "Cursor, una herramienta de codificación de IA, admitió que su nuevo modelo de codificación se construyó sobre Kimi de Moonshot AI, un modelo chino.",
+    "charlotte_impact": "Esto plantea posibles preocupaciones con respecto a la seguridad de los datos y la propiedad intelectual de las empresas de Charlotte, especialmente en sectores sensibles como las finanzas. El uso de un modelo desarrollado en China introduce riesgos geopolíticos y requiere una debida diligencia cuidadosa para garantizar el cumplimiento de las regulaciones estadounidenses y la protección de información confidencial. Las implicaciones se intensifican para las empresas que manejan datos personales.",
     "impact_score": 5
   },
   {
     "title": "¿Son los tokens de IA el bono de nueva incorporación o simplemente un costo de hacer negocios?",
     "url": "https://techcrunch.com/2026/03/21/are-ai-tokens-the-new-signing-bonus-or-just-a-cost-of-doing-business/",
-    "industry": "HR & Compensation",
-    "summary": "El artículo analiza la aparición de tokens de IA como forma de compensación para los ingenieros. Se cuestiona si estos tokens se convertirán en una parte estándar del paquete de compensación o simplemente en un costo de hacer negocios.",
-    "charlotte_impact": "Esta tendencia podría afectar la capacidad de Charlotte para atraer y retener los mejores talentos de IA. Las empresas locales, en particular las de los sectores de tecnología financiera y energía, deben comprender y potencialmente incorporar tokens de IA en sus paquetes de compensación para seguir siendo competitivas en el mercado nacional de talentos.",
-    "impact_score": 6
-  },
-  {
-    "title": "WordPress.com ahora permite a los agentes de IA escribir y publicar publicaciones, y más",
-    "url": "https://techcrunch.com/2026/03/20/wordpress-com-now-lets-ai-agents-write-and-publish-posts-and-more/",
-    "industry": "Content Creation",
-    "summary": "WordPress.com ahora permite a los agentes de IA escribir y publicar publicaciones.  Esto reduce la barrera de entrada para la publicación de contenido y, al mismo tiempo, genera preocupación sobre la proliferación de contenido generado por máquinas.",
-    "charlotte_impact": "Esto afecta a los medios de comunicación y a las agencias de marketing de Charlotte. Pueden aprovechar los agentes de IA para automatizar la creación de contenido, pero también deben centrarse en mantener contenido original de alta calidad para evitar verse ahogados por material genérico generado por IA.",
+    "industry": "Compensation",
+    "summary": "El artículo analiza si los tokens de IA se convertirán en una parte estándar de la compensación de ingeniería, similar a las opciones sobre acciones.",
+    "charlotte_impact": "Si los tokens de IA se vuelven comunes, las empresas tecnológicas de Charlotte deberán adaptar sus estrategias de compensación para atraer y retener talento.  Esto podría afectar el grupo de talentos y las expectativas de compensación en la región de Charlotte, lo que influiría en el costo general de contratación de ingenieros.",
     "impact_score": 4
   },
   {
-    "title": "El marco de IA de Trump apunta a las leyes estatales y traslada la carga de la seguridad infantil a los padres",
-    "url": "https://techcrunch.com/2026/03/20/trumps-ai-framework-targets-state-laws-shifts-child-safety-burden-to-parents/",
-    "industry": "AI Policy & Regulation",
-    "summary": "El marco de IA de Trump enfatiza la innovación y traslada la responsabilidad de la seguridad infantil a los padres, al tiempo que se adelanta a las leyes estatales y establece reglas más ligeras para las empresas de tecnología.",
-    "charlotte_impact": "Este marco, si se promulga, podría afectar el panorama regulatorio de la IA en Charlotte, lo que podría obstaculizar regulaciones más estrictas a nivel estatal. Las empresas locales deben mantenerse informadas sobre la evolución de las regulaciones federales y estatales de IA para garantizar el cumplimiento y el desarrollo responsable de la IA.",
-    "impact_score": 5
-  },
-  {
-    "title": "La mejor inversión en IA podría ser en tecnología energética",
-    "url": "https://techcrunch.com/2026/03/20/the-best-ai-investment-might-be-in-energy-tech/",
-    "industry": "Energy & Data Centers",
-    "summary": "La energía se ha convertido en un obstáculo importante para el despliegue de nuevos centros de datos de IA. Esto crea oportunidades de inversión en tecnología energética y soluciones innovadoras para alimentar estos centros de datos.",
-    "charlotte_impact": "Esto es importante para Duke Energy.  El proveedor de energía debe anticipar las crecientes demandas de energía de los centros de datos de IA e invertir en soluciones energéticamente eficientes, fuentes de energía renovables y actualizaciones de la infraestructura de la red para satisfacer las necesidades futuras.  Además, la propia Charlotte necesita atraer y retener centros de datos al tener energía disponible y asequible.",
-    "impact_score": 8
-  },
-  {
-    "title": "Estos dispositivos para tomar notas con IA pueden ayudarle a grabar y transcribir sus reuniones",
-    "url": "https://techcrunch.com/2026/03/20/ai-notetaker-hardware-devices-pins-pendants-record-transcribe/",
-    "industry": "Hardware & Productivity",
-    "summary": "Los nuevos dispositivos de toma de notas con IA transcriben audio y proporcionan resúmenes y elementos de acción de las reuniones. Estos dispositivos también pueden ofrecer traducción en vivo, mejorando la productividad y la colaboración.",
-    "charlotte_impact": "La adopción de estas tecnologías puede mejorar la productividad y la colaboración dentro de los negocios de Charlotte, especialmente para las empresas con presencia global. Los bufetes de abogados, las instituciones financieras y los proveedores de atención médica pueden beneficiarse de transcripciones y resúmenes precisos de las reuniones.",
-    "impact_score": 5
-  },
-  {
-    "title": "El investigador de IA Andrej Karpathy ya no escribe código; pasa horas dirigiendo agentes de IA",
-    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-researcher-andrej-karpathy-no-longer-writes-code-spends-hours-directing-ai-agents/articleshow/129716812.cms",
-    "industry": "AI Research & Development",
-    "summary": "El investigador de IA Andrej Karpathy ya no escribe códigos, sino que pasa horas dirigiendo agentes de IA. Esto pone de relieve el cambio en el papel de los ingenieros hacia la orquestación y gestión de sistemas de IA.",
-    "charlotte_impact": "Esta tendencia requiere un cambio en las habilidades de la fuerza laboral tecnológica de Charlotte. Las empresas necesitan capacitar a los empleados para gestionar y dirigir agentes de IA, enfatizando el pensamiento crítico, el análisis de sistemas y las habilidades de ingeniería inmediatas.",
+    "title": "De SEO y CRO a optimización de IA agente (AAIO): por qué su sitio web necesita hablar con las máquinas a través de @sejournal, @slobodanmanic",
+    "url": "https://www.nohackspod.com/blog/seo-to-aaio",
+    "industry": "SEO/Marketing",
+    "summary": "Los navegadores agentes y los protocolos comerciales están redefiniendo la forma en que los usuarios interactúan con los sitios web, lo que requiere un cambio del SEO y CRO tradicionales a la optimización de IA agente (AAIO). Los sitios web ahora deben optimizarse para la interacción con las máquinas a fin de facilitar las transacciones completadas por los agentes de IA.",
+    "charlotte_impact": "Las agencias y empresas de marketing de Charlotte deben adaptarse a la AAIO para seguir siendo competitivas. Esto incluye optimizar los sitios web para navegadores agentes y protocolos comerciales, garantizando que puedan comunicarse de manera efectiva con los agentes de IA. Las empresas locales que no lo hagan pueden ver una disminución en la visibilidad en línea y en las tasas de transacción.",
     "impact_score": 6
   },
   {
-    "title": "\"La IA no es lo suficientemente precisa como para bloquear llamadas automáticamente\": Rishit Jhunjhunwala, director ejecutivo de Truecaller",
-    "url": "https://economictimes.indiatimes.com/industry/telecom/telecom-news/ai-not-accurate-enough-to-block-calls-automatically-truecaller-ceo-rishit-jhunjhunwala/articleshow/129716005.cms",
-    "industry": "Cybersecurity",
-    "summary": "El director ejecutivo de Truecaller dice que la IA no es lo suficientemente precisa como para bloquear llamadas automáticamente. La empresa prioriza el consentimiento del usuario y ofrece funciones integrales.",
-    "charlotte_impact": "Esto pone de relieve un desafío para las empresas FinTech de Charlotte que se ocupan de la seguridad. La seguridad de la IA tiene que ser muy precisa o los consumidores perderán la fe en la marca, y esto significa que las FinTech tendrán que mantener a las personas informadas.",
+    "title": "Target cargó silenciosamente su aplicación con un montón de funciones de compra de IA. Los probé.",
+    "url": "https://www.businessinsider.com/i-tried-target-new-app-features-that-make-shopping-easier-2026-3",
+    "industry": "Retail",
+    "summary": "Target ha implementado silenciosamente varias funciones de compra basadas en inteligencia artificial en su aplicación para mejorar la experiencia del cliente.",
+    "charlotte_impact": "Esto ilustra la creciente adopción de la IA en el comercio minorista para mejorar la experiencia del cliente. Los minoristas locales en Charlotte deben considerar integraciones de IA similares para seguir siendo competitivos con las cadenas nacionales. Esto podría incluir recomendaciones personalizadas, búsqueda impulsada por IA y funciones de prueba virtual.",
     "impact_score": 4
   },
   {
-    "title": "Infosys y la Fórmula E lanzan un centro de carreras impulsado por IA, llevando la experiencia de los fanáticos a la pole position",
-    "url": "https://www.thehindubusinessline.com/brandhub/pr-release/infosys-and-formula-e-launch-ai-powered-race-centre-taking-fan-experience-to-pole-position/article70768680.ece",
-    "industry": "Sports and entertainment",
-    "summary": "Infosys y la Fórmula E lanzan Race Center impulsado por IA. La plataforma aprovecha Infosys Topaz para brindar información en tiempo real que redefinirá la innovación para el día de la carrera y más allá.",
-    "charlotte_impact": "Hay una gran presencia de Nascar en Charlotte. La IA puede mejorar la experiencia de los fanáticos de una manera similar a la que planea Infosys. También puede hacer que las carreras sean más seguras.",
+    "title": "Por qué algunos agentes de IA empiezan a actuar como si fueran de la familia y qué revela eso sobre la cooperación",
+    "url": "https://economictimes.indiatimes.com/news/international/us/why-some-ai-agents-start-acting-like-family-and-what-that-reveals-about-cooperation/articleshow/129731091.cms",
+    "industry": "AI Research",
+    "summary": "Los investigadores están explorando cómo la teoría inclusiva de la aptitud biológica puede inspirar a los agentes de IA a cooperar, recompensándolos por ayudar a otros similares.",
+    "charlotte_impact": "Si bien es teórica, esta investigación es relevante para el desarrollo a largo plazo de los sistemas de IA. Promover el comportamiento cooperativo en los agentes de IA podría conducir a soluciones más eficientes y efectivas en diversos dominios, beneficiando potencialmente a las empresas de Charlotte que adopten tecnologías impulsadas por la IA.",
+    "impact_score": 2
+  },
+  {
+    "title": "Proyecto Terafab de Elon Musk: el plan de 25.000 millones de dólares para fabricar chips de IA para Tesla, SpaceX y xAI",
+    "url": "https://www.moneycontrol.com/news/business/elon-musk-s-terafab-project-the-25b-plan-to-make-ai-chips-for-tesla-spacex-and-xai-13867116.html",
+    "industry": "Semiconductors",
+    "summary": "Elon Musk está planeando un proyecto Terafab de 25 mil millones de dólares para fabricar chips de inteligencia artificial para Tesla, SpaceX y xAI.",
+    "charlotte_impact": "De manera similar al impacto de Trainium, esto fortalece la tendencia general de aumentar la producción de chips de IA. Esto tendrá un efecto indirecto y positivo para la infraestructura y la computación en la nube que beneficia a las empresas de Charlotte.",
+    "impact_score": 4
+  },
+  {
+    "title": "Las empresas criptográficas eliminan puestos de trabajo en medio de la integración de la IA y las presiones del mercado: detalles",
+    "url": "https://bitcoinist.com/crypto-firms-lay-offs-amid-ai-integration-pressures/",
+    "industry": "Cryptocurrency",
+    "summary": "Las empresas de cifrado están recortando puestos de trabajo en medio de la integración de la IA y las presiones del mercado.",
+    "charlotte_impact": "Dado el creciente sector Fintech de Charlotte, incluidas las empresas involucradas en la tecnología blockchain, esta tendencia sugiere posibles obstáculos para el empleo en esa área específica. Es posible que las empresas necesiten volver a capacitar a su fuerza laboral para centrarse en la integración de la IA en las aplicaciones criptográficas.",
     "impact_score": 3
   },
   {
-    "title": "NHAI desplegará cámaras habilitadas para IA en 40.000 km de NH para monitoreo",
-    "url": "https://economictimes.indiatimes.com/industry/transportation/roadways/nhai-to-deploy-ai-enabled-cameras-on-40000-km-of-nhs-for-monitoring/articleshow/129715914.cms",
-    "industry": "Transportation",
-    "summary": "NHAI implementará cámaras habilitadas para IA en 40.000 km de NH para monitoreo. La idea es mejorar el seguimiento remoto y las evaluaciones del estado de las carreteras utilizando imágenes y datos de vídeo de alta resolución.",
-    "charlotte_impact": "Esto resalta el potencial para mejorar la seguridad vial en Charlotte. Aquí existe una gran industria del transporte por carretera y la IA podría mejorar la seguridad en las rutas principales.",
+    "title": "Las empresas indias lideran a sus pares globales en la adopción de IA, pero se quedan atrás en experiencia: Deloitte",
+    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/indian-firms-lead-global-peers-in-ai-adoption-but-lag-in-expertise-deloitte/articleshow/129730843.cms",
+    "industry": "AI Adoption",
+    "summary": "Según un informe de Deloitte, las empresas indias son líderes mundiales en la adopción de IA, pero están rezagadas en experiencia en IA.",
+    "charlotte_impact": "Esto también refleja un desafío potencial para las empresas de Charlotte. Si bien muchas empresas están ansiosas por implementar soluciones de IA, es posible que carezcan de la experiencia interna para hacerlo de manera efectiva. Invertir en capacitación y asociaciones con especialistas en IA será crucial para maximizar los beneficios de la adopción de la IA en Charlotte.",
+    "impact_score": 5
+  },
+  {
+    "title": "CSG Technosol Pvt Ltd anuncia soluciones de inteligencia artificial de próxima generación para la nube, seguridad cibernética y marketing y transformación digital",
+    "url": "https://express-press-release.net/news/2026/03/22/1742781",
+    "industry": "IT Solutions",
+    "summary": "CSG Technosol Pvt Ltd anunció soluciones de inteligencia artificial de próxima generación para la nube, la ciberseguridad y la transformación del marketing digital.",
+    "charlotte_impact": "Esto refleja una tendencia global de las empresas de TI que ofrecen soluciones integradas de IA. Las empresas de Charlotte pueden beneficiarse de estos servicios para mejorar la infraestructura de la nube, reforzar la ciberseguridad y mejorar los esfuerzos de marketing digital.",
     "impact_score": 3
-  },
-  {
-    "title": "Editor retira la novela de terror 'Shy Girl' por preocupaciones sobre la IA",
-    "url": "https://techcrunch.com/2026/03/21/publisher-pulls-horror-novel-shy-girl-over-ai-concerns/",
-    "industry": "Creative Industries",
-    "summary": "Un editor retiró una novela de terror por temor a que fuera generada por IA.",
-    "charlotte_impact": "Destaca la importancia de la supervisión en el proceso creativo. Las empresas de Charlotte deberían asegurarse de supervisar todo lo generado por la IA para evitar problemas de derechos de autor.",
-    "impact_score": 2
-  },
-  {
-    "title": "El fundador de Cursor aclara el uso del modelo Kimi en Composer 2: aquí está todo lo que necesita saber",
-    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/cursor-clears-air-on-kimi-model-use-in-composer-2-heres-all-you-need-to-know/articleshow/129717767.cms",
-    "industry": "Software Development",
-    "summary": "El fundador de Cursor aclara el uso del modelo Kimi en Composer 2. El modelo se construyó sobre un modelo base que no se reveló inicialmente en el lanzamiento.",
-    "charlotte_impact": "Esta es una lección de transparencia. Las empresas con sede en Charlotte deben ser honestas acerca de qué IA se utiliza en sus procesos.",
-    "impact_score": 2
-  },
-  {
-    "title": "El cursor aclara el uso del modelo Kimi en Composer 2: esto es todo lo que necesita saber",
-    "url": "https://economictimes.indiatimes.com/tech/technology/cursor-clears-air-on-kimi-model-use-in-composer-2-heres-all-you-need-to-know/articleshow/129717236.cms",
-    "industry": "Software Development",
-    "summary": "El fundador de Cursor aclara el uso del modelo Kimi en Composer 2. El modelo se construyó sobre un modelo base que no se reveló inicialmente en el lanzamiento.",
-    "charlotte_impact": "Esta es una lección de transparencia. Las empresas con sede en Charlotte deben ser honestas acerca de qué IA se utiliza en sus procesos.",
-    "impact_score": 2
-  },
-  {
-    "title": "El fin de semana lee: Cómo comprar un artículo científico; crear una cultura de autoría responsable; ¿Sancionar a los autores por referencias alucinadas?",
-    "url": "https://retractionwatch.com/2026/03/21/weekend-reads-how-to-buy-scientific-paper-creating-responsible-authorship-culture-sanction-authors-hallucinated-references/",
-    "industry": "AI Ethics",
-    "summary": "El artículo aborda el tema de las alucinaciones causadas por IA y si los autores deberían ser sancionados por ellas.",
-    "charlotte_impact": "Las empresas deberían contar con políticas para corregir los errores de la IA. Esto debería ser especialmente cierto para cualquier empresa en Charlotte en el ámbito de FinTech o de atención médica.",
-    "impact_score": 3
-  },
-  {
-    "title": "Las mipymes y las empresas emergentes están salvaguardando los intereses nacionales fortaleciendo las capacidades de defensa y contribuyendo a la visión de autosuficiencia: Raksha Rajya Mantri en el Cónclave de Industrias de Defensa Nacional 2026",
-    "url": "https://www.globalsecurity.org/wmd/library/news/india/2026/india-260320-india-pib01.htm",
-    "industry": "Defense",
-    "summary": "Las MIPYMES y las empresas emergentes están salvaguardando los intereses nacionales fortaleciendo las capacidades de defensa y contribuyendo a la visión de autosuficiencia.",
-    "charlotte_impact": "La IA se utiliza en la defensa nacional. Si Charlotte quiere mejorar su reputación como centro tecnológico, podría buscar áreas en el sector de defensa donde la IA pueda hacer que Estados Unidos sea más seguro.",
-    "impact_score": 2
-  },
-  {
-    "title": "De la vigilancia a la seguridad: los conductores exigen cámaras en los vehículos, dice Geotab",
-    "url": "https://www.forbes.com/sites/jamesmorris/2026/03/21/surveillance-to-safety-drivers-demand-in-vehicle-cameras-says-geotab/",
-    "industry": "Transportation",
-    "summary": "Los conductores exigen cámaras en los vehículos, afirma Geotab. Los conductores creen que están más seguros cuando hay cámaras en el vehículo.",
-    "charlotte_impact": "Esta podría ser una oportunidad para que Charlotte mejore la seguridad en las carreteras. Podría resultar especialmente útil para los conductores que trabajan en la ciudad para servicios de transporte.",
-    "impact_score": 2
-  },
-  {
-    "title": "Las mujeres están evitando la tecnología que más las amenaza, como advierte un experto sobre una “economía de IA de dos niveles” que se acerca",
-    "url": "https://fortune.com/2026/03/21/ai-gender-gap-two-tier-economy-adoption-inequality/",
-    "industry": "AI Ethics",
-    "summary": "Las mujeres están evitando la IA, lo que podría generar una brecha de género en la economía.",
-    "charlotte_impact": "Podría haber oportunidades para que las mujeres sean contratadas en IA. Las empresas de Charlotte deberían alentar a las mujeres a participar en la conversación.",
-    "impact_score": 2
-  },
-  {
-    "title": "Jaap Seidell: Alimentos ultraprocesados ​​y riesgos para la salud - Noticias Ultimas",
-    "url": "https://www.archyworldys.com/jaap-seidell-ultra-processed-foods-health-risks/",
-    "industry": "Food & Nutrition",
-    "summary": "El artículo analiza los alimentos ultraprocesados ​​y los riesgos para la salud asociados, destacando la necesidad de una nutrición personalizada y un posible reinicio del sistema alimentario.",
-    "charlotte_impact": "Esto podría afectar a las tiendas de comestibles en Charlotte. Es posible que necesiten ofrecer más recomendaciones personalizadas generadas por IA para darles una ventaja sobre la competencia.",
-    "impact_score": 1
-  },
-  {
-    "title": "Las novedades del kit de esta semana.",
-    "url": "https://onefootball.com/en/news/this-weeks-kit-news-42592313",
-    "industry": "Sports",
-    "summary": "Las novedades del kit de esta semana.",
-    "charlotte_impact": "Existe la posibilidad de que la IA desempeñe un papel aquí, pero el artículo es muy breve.",
-    "impact_score": 1
-  },
-  {
-    "title": "Finlandia realiza ejercicios de seguridad fronteriza en la frontera oriental",
-    "url": "https://yle.fi/a/74-20216584",
-    "industry": "Security",
-    "summary": "Finlandia realiza ejercicios de seguridad fronteriza en la frontera oriental.",
-    "charlotte_impact": "Existe la posibilidad de que la IA desempeñe un papel aquí, pero el artículo es muy breve.",
-    "impact_score": 1
-  },
-  {
-    "title": "Warren Kinsella: Cómo Irán gestiona las campañas antiisraelíes en Occidente",
-    "url": "https://nationalpost.com/news/warren-kinsella-how-iran-stage-manages-anti-israel-campaigns-in-the-west",
-    "industry": "Politics",
-    "summary": "Warren Kinsella: Cómo Irán gestiona las campañas antiisraelíes en Occidente",
-    "charlotte_impact": "Existe la posibilidad de que la IA desempeñe un papel aquí, pero el artículo es muy breve.",
-    "impact_score": 1
-  },
-  {
-    "title": "El precio del petróleo está subiendo. Así es como podría empeorar mucho la situación.",
-    "url": "https://slate.com/news-and-politics/2026/03/price-of-gas-trump-barrel-oil-iran-war.html",
-    "industry": "Oil",
-    "summary": "El precio del petróleo está subiendo. Así es como podría empeorar mucho la situación.",
-    "charlotte_impact": "Existe la posibilidad de que la IA desempeñe un papel aquí, pero el artículo es muy breve.",
-    "impact_score": 1
   }
 ]
