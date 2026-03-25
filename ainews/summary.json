@@ -3,200 +3,104 @@
     "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
     "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
     "industry": "Cloud Infrastructure",
-    "summary": "Railway secured $100 million to challenge AWS with AI-native cloud infrastructure. Their platform focuses on rapid deployment and cost savings in the age of AI coding assistants. They've also built their own data centers from scratch, providing more control and potentially better uptime.",
-    "charlotte_impact": "Railway's focus on AI-native cloud infrastructure and reduced deployment times could be a boon to Charlotte's growing FinTech sector. Banks and financial institutions could leverage Railway to accelerate the development and deployment of AI-powered financial services, enhancing competitiveness and innovation.  Furthermore, the potential cost savings could free up resources for other tech investments in the region.",
+    "summary": "Railway secured $100 million to challenge AWS with AI-native cloud infrastructure, capitalizing on developer frustration with the complexity and cost of traditional platforms. They offer faster deployment times and cost savings by building their own data centers and focusing on efficient resource utilization.",
+    "charlotte_impact": "Railway's push for AI-native cloud infrastructure has the potential to attract FinTech startups in Charlotte seeking cost-effective and rapid deployment solutions for AI-powered applications.  The lower cost of operation could also attract Duke Energy to explore it for optimizing energy grid management and predictive maintenance.",
     "impact_score": 9
   },
   {
     "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
     "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
     "industry": "Enterprise Software",
-    "summary": "Salesforce launched a rebuilt Slackbot AI agent, powered by Anthropic's Claude, aiming to transform workplace collaboration and productivity. It can search enterprise data, draft documents, and take action, competing directly with Microsoft Copilot and Google Gemini. Internal testing showed significant time savings for employees.",
-    "charlotte_impact": "Atrium Health and Novant Health, major employers in Charlotte, could see significant benefits from deploying the new Slackbot. Streamlining communication, automating administrative tasks, and improving data access for healthcare professionals could lead to better patient care and operational efficiency. The ability to quickly synthesize information and coordinate actions across teams is highly valuable in a complex healthcare environment.",
-    "impact_score": 8
+    "summary": "Salesforce launched a rebuilt Slackbot AI agent powered by Anthropic's Claude to compete with Microsoft Copilot and Google Gemini in the workplace AI space. The new Slackbot can search enterprise data, draft documents, and take action on behalf of employees, positioning Slack as the 'front door to the agentic enterprise'.",
+    "charlotte_impact": "Atrium Health and Novant Health can leverage the new Slackbot to streamline communication, automate administrative tasks, and improve access to patient data.  Bank of America and Truist can also use it to enhance collaboration, automate report generation, and improve data-driven decision-making.",
+    "impact_score": 9
   },
   {
     "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
     "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
     "industry": "Market Research",
-    "summary": "Listen Labs raised $69M to scale AI-powered customer interviews, offering a faster and more scalable alternative to traditional market research. Their platform conducts AI-moderated video interviews and delivers actionable insights, addressing fraud concerns in the market research industry.  Customers report faster insights and improved product development.",
-    "charlotte_impact": "Charlotte's diverse business ecosystem, from established corporations to burgeoning startups, can leverage Listen Labs to gain deeper customer insights more rapidly. Companies like Duke Energy can benefit from AI-powered interviews to understand customer preferences regarding energy efficiency and renewable energy initiatives, facilitating better product design and service delivery. This could enable businesses in Charlotte to better serve their customers, driving economic growth and innovation.",
-    "impact_score": 7
-  },
-  {
-    "title": "Startup Gimlet Labs is solving the AI inference bottleneck in a surprisingly elegant way",
-    "url": "https://techcrunch.com/2026/03/23/startup-gimlet-labs-is-solving-the-ai-inference-bottleneck-in-a-surprisingly-elegant-way/",
-    "industry": "AI Infrastructure",
-    "summary": "Gimlet Labs raised $80 million to solve the AI inference bottleneck, enabling AI models to run across various chip architectures simultaneously (NVIDIA, AMD, Intel, ARM, Cerebras, and d-Matrix).",
-    "charlotte_impact": "Gimlet Labs' technology has the potential to significantly lower the cost and increase the accessibility of AI inference in Charlotte. This could enable local companies, particularly in FinTech and advanced manufacturing, to deploy AI models more efficiently and at scale, without being constrained by specific hardware vendors.",
+    "summary": "Listen Labs raised $69M to scale AI customer interviews, aiming to disrupt the $140 billion market research industry by offering faster, more accurate, and scalable insights through AI-powered video interviews. They combat fraud through advanced verification and claim to deliver actionable insights in hours, not weeks.",
+    "charlotte_impact": "Listen Labs' AI-powered market research could be a game-changer for Charlotte's growing tech scene, enabling startups to quickly validate product ideas and gather customer feedback.  Local marketing agencies could also leverage the platform to offer more efficient and data-driven market research services to their clients.",
     "impact_score": 8
   },
   {
-    "title": "Sam Altman-backed fusion startup Helion in talks to sell power to OpenAI",
-    "url": "https://techcrunch.com/2026/03/23/sam-altman-openai-fusion-energy-board-helion/",
-    "industry": "Energy/AI",
-    "summary": "Sam Altman-backed fusion startup Helion is in talks to sell power to OpenAI, marking a significant step toward commercially viable fusion energy. This highlights the growing intersection of AI and sustainable energy solutions.",
-    "charlotte_impact": "Duke Energy's investments in clean energy technologies could be accelerated by advancements in fusion power. If Helion's technology proves viable, it could provide a long-term, sustainable energy source for Charlotte, reducing reliance on fossil fuels and bolstering Duke Energy's commitment to carbon neutrality. This aligns with Charlotte's broader sustainability goals and could attract further investment in green technologies.",
+    "title": "With $3.5B in fresh capital, Kleiner Perkins is going all in on AI",
+    "url": "https://techcrunch.com/2026/03/24/with-3-5b-in-fresh-capital-kleiner-perkins-is-going-all-in-on-ai/",
+    "industry": "Venture Capital",
+    "summary": "Kleiner Perkins raised $3.5B in fresh capital, dedicating it to AI investments, signaling the VC's belief in the transformative power of AI and its long-term potential. $1 billion will go to early-stage startups, and $2.5 billion for late-stage growth businesses.",
+    "charlotte_impact": "Kleiner Perkins' increased focus on AI investments could indirectly benefit Charlotte's tech ecosystem by attracting more VC attention to the region and potentially funding local AI startups or companies leveraging AI in innovative ways.  However, Charlotte may need to actively market itself as a viable hub for AI innovation to capitalize on this trend.",
     "impact_score": 6
   },
   {
-    "title": "OpenAI sweetens private equity pitch amid enterprise turf war with Anthropic",
-    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-sweetens-private-equity-pitch-amid-enterprise-turf-war-with-anthropic/articleshow/129749942.cms",
-    "industry": "AI Investment",
-    "summary": "OpenAI is offering private-equity firms a guaranteed minimum return of 17.5% and early access to its newest AI models, indicating an intensified competition with Anthropic for enterprise adoption and investment capital.",
-    "charlotte_impact": "This move by OpenAI underscores the increasingly competitive landscape in AI.  Charlotte-based financial institutions must stay informed about these developments, as they could impact investment decisions and the adoption of various AI platforms for financial modeling, risk assessment, and customer service.",
-    "impact_score": 6
-  },
-  {
-    "title": "Peter Thiel Bets Big on $2 Billion AI Cow Collar Startup Halter Powered by 'Cowgorithms'",
-    "url": "https://www.ibtimes.com.au/peter-thiel-bets-big-2-billion-ai-cow-collar-startup-halter-powered-cowgorithms-1864143",
-    "industry": "AgTech",
-    "summary": "Peter Thiel is investing in Halter, an AI-powered \"cow collar\" startup valued at $2 billion. Halter uses 'cowgorithms' to manage and monitor cattle, highlighting the expanding applications of AI in agriculture.",
-    "charlotte_impact": "While Charlotte isn't a major agricultural hub, the technology behind Halter can be adapted for applications in other industries present in the region.  For example, similar sensor-based monitoring systems coupled with AI could be used to optimize energy consumption in large buildings or monitor the health of critical infrastructure.",
-    "impact_score": 3
-  },
-  {
-    "title": "Exclusive-OpenAI sweetens private equity pitch amid enterprise turf war with Anthropic, sources say",
-    "url": "https://www.channelnewsasia.com/business/exclusive-openai-sweetens-private-equity-pitch-amid-enterprise-turf-war-anthropic-sources-say-6011286",
-    "industry": "AI Investment",
-    "summary": "OpenAI is offering private-equity firms a sweeter deal than rival Anthropic as both AI companies court buyout firms to form joint ventures aimed at raising fresh capital and accelerating adoption of enterprise",
-    "charlotte_impact": "This move by OpenAI underscores the increasingly competitive landscape in AI.  Charlotte-based financial institutions must stay informed about these developments, as they could impact investment decisions and the adoption of various AI platforms for financial modeling, risk assessment, and customer service.",
-    "impact_score": 6
-  },
-  {
-    "title": "Air Street becomes one of the largest solo VCs in Europe with $232M fund",
-    "url": "https://techcrunch.com/2026/03/23/air-street-becomes-one-of-the-largest-solo-vcs-in-europe-with-232m-fund/",
-    "industry": "AI Investment",
-    "summary": "Air Street Capital raised a $232M fund to back early-stage European and North American AI companies, signaling continued investor confidence in the AI sector.",
-    "charlotte_impact": "The availability of significant venture capital specifically targeting AI startups could benefit Charlotte's nascent AI ecosystem.  Local startups focused on AI applications in FinTech, energy, or healthcare could potentially attract funding from firms like Air Street Capital, accelerating their growth and contributing to the region's tech hub status.",
-    "impact_score": 5
-  },
-  {
-    "title": "Apple sets June date for WWDC 2026, teasing \u2018AI advancements\u2019",
-    "url": "https://techcrunch.com/2026/03/23/apple-wwdc-june-8-12-ai-advancements-siri-developers-conference/",
-    "industry": "Consumer Tech/AI",
-    "summary": "Apple announced WWDC 2026 with a focus on 'AI advancements,' hinting at major updates to Siri with advanced AI capabilities.",
-    "charlotte_impact": "Enhanced AI capabilities in Apple products could impact how Charlotte businesses interact with customers and manage their operations.  For example, a more intelligent Siri could enable businesses to streamline customer service, automate tasks, and improve data analysis, driving productivity gains and enhancing competitiveness.",
-    "impact_score": 4
-  },
-  {
-    "title": "Littlebird raises $11M for its AI-assisted \u2018recall\u2019 tool that reads your computer screen",
-    "url": "https://techcrunch.com/2026/03/23/littlebird-raises-11m-to-capture-context-from-your-computer-so-you-can-query-your-data/",
-    "industry": "Productivity/AI",
-    "summary": "Littlebird raised $11M for its AI-assisted 'recall' tool that reads your computer screen to capture context, answer questions, and automate tasks.",
-    "charlotte_impact": "Littlebird's AI-assisted recall tool could significantly enhance productivity for knowledge workers in Charlotte's banking and financial services sectors. By capturing and analyzing information from their computer screens, employees can quickly access relevant data, automate tasks, and improve decision-making, leading to increased efficiency and innovation.",
-    "impact_score": 6
-  },
-  {
-    "title": "Cursor admits its new coding model was built on top of Moonshot AI\u2019s Kimi",
-    "url": "https://techcrunch.com/2026/03/22/cursor-admits-its-new-coding-model-was-built-on-top-of-moonshot-ais-kimi/",
-    "industry": "AI Ethics/Transparency",
-    "summary": "Cursor admitted its new coding model was built on top of Moonshot AI\u2019s Kimi, a Chinese model, raising concerns about transparency and potential risks associated with using AI technology from certain regions.",
-    "charlotte_impact": "This highlights the importance of due diligence and transparency in AI development and deployment. Charlotte businesses, particularly in the FinTech sector, must be aware of the origins and potential biases of AI models they use to ensure compliance and ethical practices. This can also influence the reliability and security of AI systems used in sensitive applications.",
-    "impact_score": 6
-  },
-  {
-    "title": "Fink says AI threatens to leave masses behind unless they invest",
-    "url": "https://financialpost.com/investing/fink-ai-threatens-leave-masses-behind",
-    "industry": "Economics/AI",
-    "summary": "BlackRock CEO Larry Fink warned that AI threatens to exacerbate inequality if individuals don't invest, suggesting that AI's economic benefits may disproportionately favor the wealthy.",
-    "charlotte_impact": "Fink's warning underscores the importance of addressing potential economic inequalities driven by AI in Charlotte. Local initiatives focused on workforce development, education, and access to capital are crucial to ensure that all residents can benefit from the AI revolution, rather than being left behind.",
+    "title": "Databricks bought two startups to underpin its new AI security product",
+    "url": "https://techcrunch.com/2026/03/24/databricks-buys-two-startups-lakewatch-antimatter-siftd-ai-security/",
+    "industry": "AI Security",
+    "summary": "Databricks acquired two startups, Antimatter and SiftD.ai, to underpin its new AI security product, demonstrating the increasing importance of security in the AI landscape and Databricks' ambition to be a leader in this space.",
+    "charlotte_impact": "With the increased focus on AI security, Charlotte's FinTech companies will likely be interested in Databricks' AI security product, enhancing their ability to protect sensitive financial data used in AI models. The rise of AI security also creates potential opportunities for local cybersecurity firms to specialize in securing AI systems.",
     "impact_score": 7
   },
   {
-    "title": "Fink Says AI Threatens to Leave Masses Behind Unless They Invest",
-    "url": "https://financialpost.com/pmn/business-pmn/fink-says-ai-threatens-to-leave-masses-behind-unless-they-invest",
-    "industry": "Economics/AI",
-    "summary": "BlackRock CEO Larry Fink warned that AI threatens to exacerbate inequality if individuals don't invest, suggesting that AI's economic benefits may disproportionately favor the wealthy.",
-    "charlotte_impact": "Fink's warning underscores the importance of addressing potential economic inequalities driven by AI in Charlotte. Local initiatives focused on workforce development, education, and access to capital are crucial to ensure that all residents can benefit from the AI revolution, rather than being left behind.",
-    "impact_score": 7
-  },
-  {
-    "title": "Influx of Data Weighs on Legacy Technology, Data Systems",
-    "url": "https://www.ai-cio.com/news/influx-of-data-weighs-on-legacy-technology-data-systems/",
-    "industry": "Data Management",
-    "summary": "A Macquarie Group engineer tells asset managers and investors that outdated systems can subject their organizations to risks and challenges and make it harder to integrate artificial intelligence tools.",
-    "charlotte_impact": "With a significant presence of financial institutions and asset management firms, Charlotte must prioritize the modernization of its legacy data systems. Failure to do so will limit the effectiveness of AI adoption and expose these institutions to increased risks and operational inefficiencies. Investment in modern data infrastructure and skilled personnel is critical to remain competitive in the AI era.",
-    "impact_score": 8
-  },
-  {
-    "title": "Bernie Sanders\u2019 AI \u2018gotcha\u2019 video flops, but the memes are great",
-    "url": "https://techcrunch.com/2026/03/23/bernie-sanders-ai-gotcha-video-flops-but-the-memes-are-great/",
-    "industry": "Politics/AI",
-    "summary": "Bernie Sanders' AI \u2018gotcha\u2019 video flops, but the memes are great. Demonstrates public perception and understanding of AI.",
-    "charlotte_impact": "Highlights that even well-intentioned efforts to engage the public with AI require careful consideration and understanding of the technology's capabilities. It underlines the need for well-informed public discourse about AI's societal impact.",
+    "title": "Lucid Bots raises $20M to keep up with demand for its\u00a0window-washing drones",
+    "url": "https://techcrunch.com/2026/03/25/lucid-bots-raises-20m-to-keep-up-with-demand-for-its-window-washing-drones/",
+    "industry": "Music/AI",
+    "summary": "Spotify is testing a new tool to prevent AI-generated music from being attributed to real artists, addressing concerns about the authenticity and integrity of the music ecosystem. This allows artists more control over which tracks are associated with their name on Spotify.",
+    "charlotte_impact": "While Charlotte may not have a large music production industry, the adoption of AI for music generation could impact local artists and recording studios. Spotify's tool may indirectly influence how Charlotte musicians protect their brand and control the use of AI in their creative work.",
     "impact_score": 3
   },
   {
-    "title": "Microsoft Warns IRS Phishing Hits 29,000 Users, Deploys RMM Malware",
-    "url": "https://thehackernews.com/2026/03/microsoft-warns-irs-phishing-hits-29000.html",
-    "industry": "Cybersecurity",
-    "summary": "Microsoft Warns IRS Phishing Hits 29,000 Users, Deploys RMM Malware. It is an email campaign that takes advantage of the urgency and time-sensitive nature of emails to send phishing messages.",
-    "charlotte_impact": "Due to the presence of large number of banks and fintech firms, there is a need for constant improvement of cybersecurity infrastructure as AI driven campaigns continue to get sophisticated.",
+    "title": "Talat\u2019s AI meeting notes stay on your machine, not in the cloud",
+    "url": "https://techcrunch.com/2026/03/24/talats-ai-meeting-notes-stay-on-your-machine-not-in-the-cloud/",
+    "industry": "Productivity",
+    "summary": "Talat's AI meeting notes app stays on your machine, prioritizing privacy by keeping data local and not in the cloud. This subscription-free app is a local-first twist on notetaking tools like Granola, providing an alternative for privacy-conscious users.",
+    "charlotte_impact": "Talat's AI meeting notes app aligns with the increasing demand for data privacy, which could resonate with Charlotte's FinTech and healthcare sectors, where data security is paramount.  Local businesses and professionals might prefer this local-first approach compared to cloud-based alternatives.",
+    "impact_score": 5
+  },
+  {
+    "title": "Nvidia CEO Jensen Huang Says He Thinks Artificial General Intelligence Is Here",
+    "url": "https://me.pcmag.com/en/ai/36121/nvidia-ceo-jensen-huang-says-he-thinks-artificial-general-intelligence-is-here",
+    "industry": "Artificial General Intelligence",
+    "summary": "Nvidia CEO Jensen Huang stated that he believes Artificial General Intelligence is here, then backtracked on part of this claim.  AGI has become the ultimate goal for tech CEOs in recent years, though its definition remains ill-defined.",
+    "charlotte_impact": "Whether AGI is truly here or not, Nvidia's dominant role in AI hardware gives them significant influence.  Charlotte's tech community and universities (UNC Charlotte) need to stay abreast of Nvidia's pronouncements and trends to prepare for the potential future of AGI and its impact on various industries.",
+    "impact_score": 4
+  },
+  {
+    "title": "FedEx launches same-day delivery with OneRail as Amazon, Walmart boost their speeds",
+    "url": "https://www.cnbc.com/2026/03/24/fedex-same-day-delivery-onerail.html",
+    "industry": "Logistics",
+    "summary": "FedEx launched same-day delivery with OneRail as Amazon and Walmart boost their speeds, emphasizing the increasing demand for faster delivery times in the e-commerce landscape. This shows how supply chains are adapting to meet the demand.",
+    "charlotte_impact": "Charlotte's distribution hub status means this trend towards same-day delivery will significantly impact local logistics companies. Expect increased demand for local delivery drivers, optimization of warehouse operations (potentially with AI), and integration of technologies to manage logistics in real-time.",
+    "impact_score": 7
+  },
+  {
+    "title": "Shifting AI From Fear to Optimism: U.S. Department of Labor\u2019s Taylor Stockton",
+    "url": "https://sloanreview.mit.edu/audio/shifting-ai-from-fear-to-optimism-u-s-department-of-labors-taylor-stockton/",
+    "industry": "Workforce Development",
+    "summary": "The U.S. Department of Labor is focused on shifting AI from fear to optimism, emphasizing AI's potential to reshape the workforce. This includes strategies to mitigate job displacement and promote workforce adaptation through training and education.",
+    "charlotte_impact": "UNC Charlotte and Central Piedmont Community College need to actively engage with the Department of Labor's initiatives to adapt their curriculum and training programs to align with the evolving skills demanded by the AI-driven economy.  Local businesses should also invest in upskilling their workforce to leverage AI effectively.",
+    "impact_score": 7
+  },
+  {
+    "title": "The AI Economy Is \u201cPropped Up by a Ponzi Scheme,\u201d Says Director of \u2018The AI Doc\u2019",
+    "url": "https://www.vanityfair.com/hollywood/story/ai-documentary-apocaloptimist-interview",
+    "industry": "AI Ethics",
+    "summary": "A documentary director claims the AI economy is \u201cpropped up by a Ponzi scheme,\u201d raising concerns about the hype and potential long-term sustainability of AI investments. This highlights the need for critical evaluation and responsible AI development.",
+    "charlotte_impact": "Charlotte's leadership needs to develop policies and ethical frameworks to guide the adoption of AI, ensuring fairness, transparency, and accountability.  This is especially important for the banking/FinTech and healthcare sectors where AI is increasingly used for decision-making.",
+    "impact_score": 5
+  },
+  {
+    "title": "The most innovative manufacturing companies for 2026",
+    "url": "https://www.fastcompany.com/91497254/manufacturing-most-innovative-companies-2026",
+    "industry": "Manufacturing",
+    "summary": "The most innovative manufacturing companies are leveraging production intelligence driven by pressure on energy, labor, and supply chains. This involves rethinking production processes through smarter, data-driven approaches.",
+    "charlotte_impact": "Though Charlotte's manufacturing base may be less prominent than FinTech, any manufacturing operations (especially those connected to the energy sector) can explore these innovations to improve efficiency and reduce costs. This aligns with Duke Energy's focus on sustainability and operational excellence.",
+    "impact_score": 4
+  },
+  {
+    "title": "Exclusive: Cambridge Mobile Telematics secures $350 million from TPG, Allianz to make driving safer",
+    "url": "https://fortune.com/2026/03/24/exclusive-cambridge-mobile-telematics-secures-350-million-from-tpg-allianz-to-make-driving-safer/",
+    "industry": "Insurance/Telematics",
+    "summary": "Cambridge Mobile Telematics secured $350 million to make driving safer by using real-time driving data and AI to price risk, prevent accidents, and improve road safety at scale. Insurers are using this data to create more accurate risk profiles.",
+    "charlotte_impact": "While not headquartered in Charlotte, major insurers with a presence in the region (e.g., those with regional offices or large customer bases) can leverage CMT's technologies to improve risk assessment and reduce accident rates among local drivers. This also creates opportunities for local tech companies to develop complementary solutions for insurance telematics.",
     "impact_score": 6
-  },
-  {
-    "title": "10 Monday AM Reads",
-    "url": "https://ritholtz.com/2026/03/10-monday-am-reads-467/",
-    "industry": "Economics/AI",
-    "summary": "Discusses the Fable of the ATMs and how contrary to belief, ATMs reduced teller demand. It discusses Jamie Dimon's outlook.",
-    "charlotte_impact": "Highlights the importance of addressing potential economic inequalities driven by AI in Charlotte. Local initiatives focused on workforce development, education, and access to capital are crucial to ensure that all residents can benefit from the AI revolution, rather than being left behind.",
-    "impact_score": 5
-  },
-  {
-    "title": "Intelligent Search vs Traditional Search Engines: Which Is Best for Your Business",
-    "url": "https://thefrisky.com/intelligent-search-vs-traditional-search-engines/",
-    "industry": "Search Engine Optimization",
-    "summary": "Intelligent Search vs Traditional Search Engines: Which Is Best for Your Business. The landscape of search technology is evolving, with intelligent search engines emerging as a robust alternative to traditional\u2026",
-    "charlotte_impact": "Charlotte firms must adjust their SEO practices to reflect the growing prominence of intelligent search engines. This could include the need to better target specific, niche keywords and demographics.",
-    "impact_score": 4
-  },
-  {
-    "title": "Cursor Faces Backlash over Missing Attribution for Kimi K2.5 Model",
-    "url": "https://www.geeky-gadgets.com/cursor-composer-attribution/",
-    "industry": "AI",
-    "summary": "Cursor Faces Backlash over Missing Attribution for Kimi K2.5 Model. Recent developments in artificial intelligence reveal ongoing tensions between progress, ethics and accountability. Universe of AI examines three significant events shaping the field: Anthropic\u2019s updates to Claude Code, Cursor\u2019s controversy over its Composer",
-    "charlotte_impact": "Highlights the importance of ethical business in all sectors, particularly the tech and AI sector that drives economic growth and job creation in Charlotte. By having a strong focus on ethics and being honest with customers, the market for these products expand and become more reliable.",
-    "impact_score": 5
-  },
-  {
-    "title": " Changes for Germany: Stiller and F\u00fchrich bolster the squad",
-    "url": "https://onefootball.com/en/news/changes-for-germany-stiller-and-fuehrich-bolster-the-squad-42603424",
-    "industry": "Sports",
-    "summary": "Changes for Germany: Stiller and F\u00fchrich bolster the squad. Discusses changes to the German national team's lineup. ",
-    "charlotte_impact": "Limited direct impact. The local Charlotte FC may consider leveraging AI tools to assess players and scout talent.",
-    "impact_score": 1
-  },
-  {
-    "title": "\"We know it\u2019s not right\u201d \u2013 why Carlos Sainz still doesn\u2019t like F1\u2019s new era",
-    "url": "https://www.motorsport.com/f1/news/we-know-its-not-right-why-carlos-sainz-still-doesnt-like-f1s-new-era/10807043/",
-    "industry": "Sports",
-    "summary": "\"We know it\u2019s not right\u201d \u2013 why Carlos Sainz still doesn\u2019t like F1\u2019s new era. Discusses changes to F1 racing for 2026.",
-    "charlotte_impact": "Limited direct impact. There could be indirect benefits for the local NASCAR teams based in Charlotte, using new data analysis techniques to study race performance.",
-    "impact_score": 1
-  },
-  {
-    "title": "The 24th China International Alcoholic Drinks Expo Kicks Off in Luzhou, China's \"City of Liquor\"",
-    "url": "https://www.globenewswire.com/news-release/2026/03/23/3260211/0/en/The-24th-China-International-Alcoholic-Drinks-Expo-Kicks-Off-in-Luzhou-China-s-City-of-Liquor.html",
-    "industry": "Food & Drink",
-    "summary": "The 24th China International Alcoholic Drinks Expo Kicks Off in Luzhou, China's \"City of Liquor\"",
-    "charlotte_impact": "Limited direct impact. Some restaurants and distributors in Charlotte can leverage data science to manage their inventory better.",
-    "impact_score": 1
-  },
-  {
-    "title": "Lithium Argentina Reports Fourth Quarter and Full Year 2025 Results",
-    "url": "https://financialpost.com/globe-newswire/lithium-argentina-reports-fourth-quarter-and-full-year-2025-results",
-    "industry": "Energy",
-    "summary": "Lithium Argentina Reports Fourth Quarter and Full Year 2025 Results. Reports on financial earnings for Lithium Argentina.",
-    "charlotte_impact": "Highlights increased focus on lithium production and development, and with the potential for more electric vehicles, Duke Energy must continue to build out charging infrastructure in Charlotte.",
-    "impact_score": 4
-  },
-  {
-    "title": "Lithium Argentina Reports Fourth Quarter and Full Year 2025 Results",
-    "url": "https://www.globenewswire.com/news-release/2026/03/23/3260202/0/en/Lithium-Argentina-Reports-Fourth-Quarter-and-Full-Year-2025-Results.html",
-    "industry": "Energy",
-    "summary": "Lithium Argentina Reports Fourth Quarter and Full Year 2025 Results. Reports on financial earnings for Lithium Argentina.",
-    "charlotte_impact": "Highlights increased focus on lithium production and development, and with the potential for more electric vehicles, Duke Energy must continue to build out charging infrastructure in Charlotte.",
-    "impact_score": 4
   }
 ]
