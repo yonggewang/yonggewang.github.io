@@ -3,200 +3,72 @@
     "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
     "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
     "industry": "Cloud Infrastructure",
-    "summary": "Railway secured $100 million to challenge AWS with AI-native cloud infrastructure. Their platform delivers deployments in under one second, enabling developers to keep pace with AI-generated code and significantly reduce infrastructure costs.",
-    "charlotte_impact": "This funding and Railway's approach can significantly benefit Charlotte's FinTech and banking sectors. Faster, cheaper cloud infrastructure allows local banks like Truist and Bank of America to deploy AI-powered financial services more rapidly and efficiently, potentially accelerating innovation in areas like fraud detection, personalized banking, and algorithmic trading. It also lowers the barrier for smaller FinTech startups in Charlotte to compete, fostering local innovation and job creation.",
+    "summary": "Railway secured $100 million to challenge AWS with AI-native cloud infrastructure, focusing on faster deployments to keep pace with AI coding assistants and offering significant cost savings. They differentiate by building their own data centers and claim to undercut hyperscalers by 50%.  Railway's growth reflects investor enthusiasm for companies positioned to benefit from the AI coding revolution.",
+    "charlotte_impact": "This development could significantly benefit Charlotte's growing tech scene by providing more cost-effective and efficient cloud infrastructure options.  FinTech companies, especially those focused on high-frequency trading or real-time data analysis, could leverage Railway's speed. Furthermore, companies building AI solutions could benefit from reduced infrastructure costs allowing them to focus resources on innovation.  Duke Energy could also benefit from optimized cloud infrastructure for managing its smart grid and energy distribution.",
     "impact_score": 9
   },
   {
     "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
     "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
-    "industry": "Enterprise Software",
-    "summary": "Salesforce launched a rebuilt Slackbot AI agent, integrated with Anthropic's Claude, to serve as a central hub for enterprise data access and task automation. Internal tests show significant time savings and high user satisfaction, positioning Slackbot as a \"super agent\" coordinating various AI functions.",
-    "charlotte_impact": "The upgraded Slackbot could streamline workflows at Charlotte's major employers like Atrium Health and Novant Health. By integrating with Salesforce and other enterprise systems, Slackbot can facilitate faster access to patient data (while maintaining HIPAA compliance), automate administrative tasks, and improve communication among healthcare professionals. Improved collaboration and efficiency can ultimately lead to better patient care and reduced operational costs.",
+    "industry": "Enterprise Software/AI Agents",
+    "summary": "Salesforce launched a rebuilt Slackbot, positioning it as a fully powered AI agent for enterprise data search, document drafting, and task automation. The new Slackbot runs on Anthropic's Claude and integrates with Salesforce, Google Drive, and other platforms. Early internal testing showed high adoption rates and significant time savings for employees, highlighting the potential of agentic AI in the workplace.",
+    "charlotte_impact": "The rollout of Slackbot could have a major impact on Charlotte's large financial institutions (Bank of America, Wells Fargo).  Improved information synthesis and automation could increase efficiency in customer service and compliance.  Atrium Health and Novant Health could use Slackbot to streamline communication between medical teams, potentially improving patient care coordination, although regulatory compliance would be a major factor.",
     "impact_score": 8
   },
   {
     "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
     "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
-    "industry": "Market Research",
-    "summary": "Listen Labs raised $69 million to scale its AI-powered customer interview platform, offering faster and more in-depth insights compared to traditional market research methods. The company uses AI to conduct interviews, analyze responses, and generate reports, addressing issues of fraud and inefficiency in the market research industry.",
-    "charlotte_impact": "Listen Labs presents a significant opportunity for Charlotte businesses across all sectors. Duke Energy can use the platform to better understand customer needs related to energy efficiency and renewable energy adoption. Retailers in Charlotte can gain rapid insights into consumer preferences and product feedback, enabling them to adapt quickly to market trends. The platform could also be valuable for attracting and retaining talent in the competitive Charlotte job market.",
+    "industry": "Market Research/AI",
+    "summary": "Listen Labs raised $69M to scale its AI-powered customer interview platform, which replaces traditional market research methods with AI researchers that conduct video interviews and deliver actionable insights.  The company claims its AI provides faster, more honest, and scalable customer feedback, addressing issues of fraud and bias in traditional surveys.  Companies like Microsoft, Sweetgreen, and Chubbies are using Listen to build better products.",
+    "charlotte_impact": "Listen Labs' technology could significantly benefit Charlotte's large consumer-facing businesses.  The ability to gather rapid feedback on products or services could allow for quicker iteration and improved customer satisfaction.  For example, Duke Energy could use Listen Labs to get real-time feedback on new energy-saving programs or customer service initiatives.",
     "impact_score": 7
   },
   {
-    "title": "Google unveils TurboQuant, a new AI memory compression algorithm \u2014\u00a0and yes, the internet is calling it \u2018Pied Piper\u2019",
-    "url": "https://techcrunch.com/2026/03/25/google-turboquant-ai-memory-compression-silicon-valley-pied-piper/",
-    "industry": "AI Algorithms",
-    "summary": "Google unveiled TurboQuant, a new AI memory compression algorithm promising to shrink AI's working memory by up to 6x. While still in the experimental phase, this technology could significantly improve the efficiency of AI models.",
-    "charlotte_impact": "Although still experimental, TurboQuant could be impactful for Charlotte's growing data center presence. If the algorithm proves successful, it could reduce the energy consumption and infrastructure costs associated with running large AI models, potentially making Charlotte a more attractive location for AI-related businesses and research.",
+    "title": "ByteDance\u2019s new AI video generation model, Dreamina Seedance 2.0, comes to CapCut",
+    "url": "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/",
+    "industry": "Security/AI",
+    "summary": "Conntour raised $7M to build an AI search engine for security video systems. This allows security teams to query camera feeds using natural language to find specific objects, people, or situations, improving response times and threat detection capabilities.",
+    "charlotte_impact": "This technology could greatly enhance security in Charlotte, particularly in the banking sector, major event venues, and public transportation. Banks could use it to improve fraud detection and ATM security. Atrium and Novant could use it to enhance patient safety and security in hospitals and clinics.",
+    "impact_score": 7
+  },
+  {
+    "title": "Conntour raises $7M from General Catalyst, YC to build an AI search engine for security video systems",
+    "url": "https://techcrunch.com/2026/03/26/conntour-raises-7m-from-general-catalyst-yc-to-build-an-ai-search-engine-for-security-video-systems/",
+    "industry": "Economic Impact/AI",
+    "summary": "Fears of AI-driven job loss are growing fast, and they\u2019re fueling backlash against data centers. Sen. Mark Warner suggests taxing them to help workers survive the transition.",
+    "charlotte_impact": "This could have a negative impact on Charlotte, as the city and surrounding region has been actively working to attract more data centers. A tax on data centers would make Charlotte less competitive compared to other locations. However, if AI causes significant job displacement in the banking sector, local leaders might be more open to such proposals.",
     "impact_score": 6
   },
   {
-    "title": "Granola raises $125M, hits $1.5B valuation as it expands from meeting notetaker to enterprise AI app",
-    "url": "https://techcrunch.com/2026/03/25/granola-raises-125m-hits-1-5b-valuation-as-it-expands-from-meeting-notetaker-to-enterprise-ai-app/",
-    "industry": "Enterprise Software",
-    "summary": "Granola raised $125M, reaching a $1.5B valuation, as it expands from a meeting notetaker to an enterprise AI app.  This expansion reflects the growing demand for AI agents within enterprise workflows.",
-    "charlotte_impact": "Granola's growth as an enterprise AI app could impact Charlotte businesses by providing improved meeting efficiency and decision-making capabilities. Local companies, particularly those in the FinTech sector, can leverage the platform to automate meeting summaries, action item tracking, and knowledge sharing, ultimately increasing productivity and collaboration.",
-    "impact_score": 7
-  },
-  {
-    "title": "Meta launches new initiative to support entrepreneurship, drive AI adoption",
-    "url": "https://techcrunch.com/2026/03/25/meta-launches-new-initiative-to-support-entrepreneurship-drive-ai-adoption/",
-    "industry": "Social Media",
-    "summary": "Meta launched a new initiative to support entrepreneurship and drive AI adoption, recognizing the importance of small businesses to its business model.",
-    "charlotte_impact": "Meta's initiative could provide valuable resources and support for Charlotte's small business community. By offering access to AI tools and training, Meta can empower local entrepreneurs to leverage social media for marketing, sales, and customer engagement, ultimately driving economic growth in the region.",
+    "title": "A \u2018pound of flesh\u2019 from data centers: one senator\u2019s answer to AI job losses",
+    "url": "https://techcrunch.com/2026/03/26/a-pound-of-flesh-from-data-centers-one-senators-answer-to-ai-job-losses/",
+    "industry": "AI Training/Workforce",
+    "summary": "Mercor competitor Deccan AI raises $25M, sources experts from India. Deccan AI concentrates its workforce in India to manage quality in a fast-growing but fragmented AI training market.",
+    "charlotte_impact": "This could increase the need for reskilling programs and further specialization in Charlotte, as AI training and development are outsourced, the city will need to focus on higher-level AI strategy, management, and application roles.",
     "impact_score": 5
   },
   {
-    "title": "Meta turns to AI to make shopping easier on Instagram and Facebook",
-    "url": "https://techcrunch.com/2026/03/25/meta-turns-to-ai-to-make-shopping-easier-on-instagram-and-facebook/",
-    "industry": "E-commerce",
-    "summary": "Meta is using generative AI to enhance shopping experiences on Instagram and Facebook, providing consumers with more detailed product and brand information.",
-    "charlotte_impact": "This development can significantly benefit Charlotte's retail sector, enabling local businesses to create more engaging and informative shopping experiences for online customers. By leveraging Meta's AI-powered tools, retailers can showcase their products effectively, increase brand awareness, and drive sales through social media platforms.",
+    "title": "SC flags \u2018menace\u2019 of citing AI-generated non-existent judgements",
+    "url": "https://www.thehindubusinessline.com/news/national/sc-flags-menace-of-citing-ai-generated-non-existent-judgements/article70787864.ece",
+    "industry": "Legal/AI",
+    "summary": "The Supreme Court has voiced concern over growing \"menace\" of litigants and lawyers citing non-existent judgements generated by artificial intelligence.",
+    "charlotte_impact": "Charlotte's legal community must develop strategies to mitigate the risk of using AI-generated legal information. Law firms may need to invest in AI auditing tools and training to ensure the accuracy and reliability of legal research.",
     "impact_score": 6
   },
   {
-    "title": "Notch raises $30M to expand AI operating system for regulated industries",
-    "url": "https://siliconangle.com/2026/03/25/notch-raises-30m-expand-ai-operating-system-regulated-industries/",
-    "industry": "AI Operating Systems",
-    "summary": "Notch raises $30M to expand its AI operating system for regulated industries, focusing on automating end-to-end operational workflows.",
-    "charlotte_impact": "Notch's focus on regulated industries is particularly relevant to Charlotte, given its strong presence in banking and finance. The AI operating system can help local financial institutions automate compliance processes, improve risk management, and enhance operational efficiency, while adhering to strict regulatory requirements.",
+    "title": "What 50% faster AI-driven loan decisions mean for India\u2019s lending sector",
+    "url": "https://economictimes.indiatimes.com/industry/banking/finance/what-50-faster-ai-driven-loan-decisions-mean-for-indias-lending-sector/articleshow/129822012.cms",
+    "industry": "FinTech/AI",
+    "summary": "AI is enabling 50% faster loan decisions in India's lending sector. Artificial intelligence is now poised to transform this core risk engine, addressing fragmented data and inconsistent decision-making, promising faster credit access.",
+    "charlotte_impact": "Charlotte's banking sector could benefit from adopting similar AI solutions to streamline loan application processes. This could lead to faster approvals, reduced operational costs, and improved customer experience. Competition may increase as lenders in India become more efficient.",
     "impact_score": 7
   },
   {
-    "title": "Mercor competitor Deccan AI raises $25M, sources experts from India",
-    "url": "https://techcrunch.com/2026/03/25/deccan-ai-raises-25m-as-ai-training-push-relies-on-india-based-workforce/",
-    "industry": "AI Training Data",
-    "summary": "Mercor competitor Deccan AI raises $25M, sourcing experts from India to manage quality in the AI training market.",
-    "charlotte_impact": "While the direct impact is limited, this highlights the increasing global nature of AI development.  Charlotte businesses might consider partnering with companies like Deccan AI to access specialized AI training talent and expertise, especially in areas where local resources are scarce. It may also spur local educational institutions to develop more robust AI training programs to compete in this global market.",
-    "impact_score": 4
-  },
-  {
-    "title": "The AI skills gap is here, says AI company, and power users are pulling ahead",
-    "url": "https://techcrunch.com/2026/03/25/the-ai-skills-gap-is-here-says-ai-company-and-power-users-are-pulling-ahead/",
-    "industry": "AI Skills Gap",
-    "summary": "Anthropic's data suggests a growing AI skills gap, where power users are gaining an advantage, raising concerns about workforce divides and potential job displacement.",
-    "charlotte_impact": "This skills gap poses a significant challenge for Charlotte. To remain competitive, local businesses must invest in AI training and upskilling programs for their employees. This could involve partnerships with local universities and community colleges to develop specialized AI curricula and workshops, ensuring that the workforce is equipped with the necessary skills to leverage AI effectively.",
+    "title": "Deepfake X-rays are so real even doctors can\u2019t tell the difference",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260326011452.htm",
+    "industry": "Healthcare/AI",
+    "summary": "Deepfake X-rays created by AI are now convincing enough to fool both doctors and AI models. In tests, radiologists had limited success identifying fake images, especially when they didn\u2019t know they were being shown, opening the door to risks like fraudulent claims.",
+    "charlotte_impact": "Atrium Health and Novant Health must invest in AI-based detection systems to identify deepfake medical images. This will require collaboration with AI developers and ongoing training for radiologists to identify potential fraud.",
     "impact_score": 8
-  },
-  {
-    "title": "Oracle applications chief sees enterprise AI agents as task-specific helpers",
-    "url": "https://www.computerweekly.com/news/366640725/Oracle-applications-chief-sees-enterprise-AI-agents-as-task-specific-helpers",
-    "industry": "Enterprise Software",
-    "summary": "Oracle is focused on AI agents as task-specific helpers in its Fusion Agentic Applications, focusing on appropriate use, pricing, and safeguards.",
-    "charlotte_impact": "This approach to AI aligns with the pragmatic needs of Charlotte businesses. Focusing on task-specific AI agents allows local companies to implement AI solutions that address specific pain points and improve efficiency in targeted areas, such as finance, HR, or customer service. The emphasis on safeguards is also crucial for ensuring responsible and ethical AI deployment.",
-    "impact_score": 6
-  },
-  {
-    "title": "Google Cloud, Openreach expand connectivity collaboration",
-    "url": "https://www.computerweekly.com/news/366640491/Google-Cloud-Openreach-expand-connectivity-collaboration",
-    "industry": "Telecommunications",
-    "summary": "Google Cloud and Openreach are expanding their collaboration, implementing AI to accelerate high-speed internet access and reduce carbon emissions.",
-    "charlotte_impact": "While Openreach is a UK company, this partnership points to a trend in AI-driven infrastructure improvements.  Duke Energy could explore similar collaborations with cloud providers to optimize energy grid management, improve renewable energy integration, and enhance customer service, contributing to both sustainability and efficiency.",
-    "impact_score": 5
-  },
-  {
-    "title": "Kuku bets on 'fourth wave' as audiences shift to bite-sized content",
-    "url": "https://economictimes.indiatimes.com/industry/media/entertainment/media/kuku-bets-on-fourth-wave-as-audiences-shift-to-bite-sized-content/articleshow/129799278.cms",
-    "industry": "Content Creation",
-    "summary": "Kuku is betting on bite-sized content and using AI extensively for content creation, aiming to produce thousands of videos per day.",
-    "charlotte_impact": "This trend has implications for Charlotte's media and marketing landscape. Local content creators and marketing agencies can leverage AI tools to produce high-quality, engaging short-form video content for social media platforms, enabling them to reach wider audiences and drive business growth.",
-    "impact_score": 4
-  },
-  {
-    "title": "Pacific Defense Launches Next-Generation AI-Enabled Digital Signal Processor for Next-Generation Mission Systems",
-    "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/pacific-defense-launches-next-generation-ai-enabled-digital-signal-processor-for-next-generation-mission-systems",
-    "industry": "Defense",
-    "summary": "Pacific Defense launches an AI-enabled digital signal processor for next-generation mission systems.",
-    "charlotte_impact": "While Charlotte doesn't have a significant defense industry presence, this illustrates the increasing use of AI in specialized hardware. This could indirectly affect local tech companies involved in embedded systems or edge computing, encouraging them to explore AI integration in their own product development efforts.",
-    "impact_score": 3
-  },
-  {
-    "title": "NetraMark Announces Strategic Oncology Research Collaboration with Fondazione per la Medicina Personalizzata to Analyze Landmark ROME Trial Dataset",
-    "url": "https://financialpost.com/globe-newswire/netramark-announces-strategic-oncology-research-collaboration-with-fondazione-per-la-medicina-personalizzata-to-analyze-landmark-rome-trial-dataset",
-    "industry": "Healthcare",
-    "summary": "NetraMark collaborates with Fondazione per la Medicina Personalizzata to analyze the ROME trial dataset using AI, aiming to uncover patient subpopulations and treatment insights.",
-    "charlotte_impact": "This type of collaboration is highly relevant to Atrium Health and Novant Health. By leveraging AI to analyze clinical trial data, local healthcare providers can gain valuable insights into personalized treatment approaches for cancer patients and other diseases, ultimately improving patient outcomes and advancing medical research.",
-    "impact_score": 7
-  },
-  {
-    "title": "An AI Reckoning for HR: Transform or Fade Away",
-    "url": "https://sloanreview.mit.edu/article/an-ai-reckoning-for-hr-transform-or-fade-away/",
-    "industry": "Human Resources",
-    "summary": "An MIT study emphasizes the need for HR to embrace AI to transform talent strategy and avoid becoming obsolete.",
-    "charlotte_impact": "This is a critical message for HR departments in Charlotte's major corporations. HR must proactively integrate AI tools and strategies to improve recruitment, talent management, employee training, and performance evaluation. This will enable companies to attract and retain top talent, optimize workforce productivity, and adapt to the evolving demands of the AI-driven economy.",
-    "impact_score": 8
-  },
-  {
-    "title": "Amex Makes Its Biggest Commercial Bet in Years With \u2018Business Membership\u2019",
-    "url": "https://www.pymnts.com/credit-cards/2026/amex-makes-its-biggest-commercial-bet-in-years-with-business-membership/",
-    "industry": "Finance",
-    "summary": "Amex makes its biggest commercial bet in years with 'Business Membership'.",
-    "charlotte_impact": "With Charlotte's significant financial sector, this initiative by Amex signals a potential shift in how financial services are offered to businesses. It could lead to new partnerships and opportunities for local FinTech companies to integrate with Amex's platform and provide value-added services to business customers.",
-    "impact_score": 4
-  },
-  {
-    "title": "Notch Raises $30 Million to Bring Production-Ready AI Agents to Regulated Industries",
-    "url": "https://www.globenewswire.com/news-release/2026/03/25/3262061/0/en/Notch-Raises-30-Million-to-Bring-Production-Ready-AI-Agents-to-Regulated-Industries.html",
-    "industry": "AI Operating Systems",
-    "summary": "Notch raised $30 million to bring production-ready AI agents to regulated industries that automate and execute end-to-end operational workflows.",
-    "charlotte_impact": "Charlotte's concentration of banking and financial services firms, makes this development directly relevant. Production-ready AI agents that automate and execute end-to-end operational workflows for regulatory compliance, risk management and other key functions, will reduce operational costs and increase the profit margins of Charlotte based financial institutions.",
-    "impact_score": 6
-  },
-  {
-    "title": "Drone-makers, defence start-ups to get 'rapid' funding under EU plans",
-    "url": "https://economictimes.indiatimes.com/tech/technology/drone-makers-defence-start-ups-to-get-rapid-funding-under-eu-plans/articleshow/129798908.cms",
-    "industry": "Defense",
-    "summary": "EU plans 'rapid' funding for drone-makers and defense start-ups.",
-    "charlotte_impact": "While Charlotte doesn't have much of a Defense presence, the EU's plans to rapidly fund drone-makers could still foster some economic growth in areas such as AI-assisted vision and other software enhancements which could be developed by firms in Charlotte for these new drones.",
-    "impact_score": 3
-  },
-  {
-    "title": "Trump Redirects Energy Firm Investment Away from Biden-Era Wind Energy Schemes to Oil & Gas Development",
-    "url": "https://legalinsurrection.com/2026/03/trump-redirects-energy-firm-investment-away-from-biden-era-wind-energy-schemes-to-oil-gas-development/",
-    "industry": "Energy",
-    "summary": "Trump redirects energy firm investment away from Biden-era wind energy schemes to oil & gas development.",
-    "charlotte_impact": "Although Duke Energy is investing in sustainable methods, there is still reliance on oil and gas. Charlotte would likely see a decline in clean energy jobs along with an increase in fossil-fuel related jobs if this were to take place.",
-    "impact_score": 2
-  },
-  {
-    "title": "On Iran, Trump is open to a deal but he also has \u2018a fist, waiting to punch you in the [expletive] face,\u2019 White House insider says",
-    "url": "https://fortune.com/2026/03/25/iran-trump-peace-deal-fist-waiting-to-punch-you-in-the-face/",
-    "industry": "Politics",
-    "summary": "On Iran, Trump is open to a deal but he also has \u2018a fist, waiting to punch you in the [expletive] face,\u2019 White House insider says.",
-    "charlotte_impact": "Geopolitics greatly influences business. With that said, any actions taken in Iran could potentially affect investment and financial decisions within Charlotte's financial industry as the outcomes in Iran are greatly unknown.",
-    "impact_score": 2
-  },
-  {
-    "title": "Large Polymarket, Wall Street bets on Trump\u2019s war news under scrutiny",
-    "url": "https://www.aljazeera.com/news/2026/3/25/large-polymarket-wall-street-bets-on-trumps-war-news-under-scrutiny",
-    "industry": "Politics",
-    "summary": "Large Polymarket, Wall Street bets on Trump\u2019s war news under scrutiny",
-    "charlotte_impact": "A potential war creates volatility in the market, and Polymarket as well as Wall Street bets could greatly influence financial decisions being made within Charlotte's banking industry.",
-    "impact_score": 3
-  },
-  {
-    "title": "Tinder's radical AI update changes all the rules of online dating",
-    "url": "https://www.notebookcheck.net/Tinder-s-radical-AI-update-changes-all-the-rules-of-online-dating.1258636.0.html",
-    "industry": "Social Media",
-    "summary": "Tinder's radical AI update changes all the rules of online dating.",
-    "charlotte_impact": "Although Tinder is not a business, a change in AI for dating could potentially be adopted by companies and organizations such as Atrium Health, to help find suitable employment for candidates. This would require a lot of regulation however, and the AI would need to be highly tested to ensure discrimination is avoided.",
-    "impact_score": 1
-  },
-  {
-    "title": "IIT Ropar\u2019s Annam.AI to set up weather intelligence network",
-    "url": "https://www.thehindubusinessline.com/economy/agri-business/iit-ropars-annamai-to-set-up-weather-intelligence-network/article70783571.ece",
-    "industry": "Farming",
-    "summary": "IIT Ropar\u2019s Annam.AI to set up weather intelligence network.",
-    "charlotte_impact": "Weather networks have a big impact on Duke Energy's ability to produce clean energy such as wind and solar. Having a reliable source for weather prediction could boost their profit margin.",
-    "impact_score": 1
-  },
-  {
-    "title": "6 of 22 teams: the final World Cup spots up for grabs",
-    "url": "https://onefootball.com/en/news/6-of-22-teams-the-final-world-cup-spots-up-for-grabs-42613092",
-    "industry": "Sports",
-    "summary": "6 of 22 teams: the final World Cup spots up for grabs.",
-    "charlotte_impact": "This article relates to the Sports Industry and FIFA. Charlotte has the opportunity to have sports-related businesses and activities, and it can grow into an important hub for the sports industry. There would have to be investment and collaboration to make this successful.",
-    "impact_score": 1
   }
 ]
