@@ -1,58 +1,202 @@
 [
   {
-    "title": "Railway obtiene 100 millones de dólares para desafiar a AWS con una infraestructura de nube nativa de IA",
-    "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
-    "industry": "Cloud Infrastructure",
-    "summary": "Railway obtiene 100 millones de dólares en financiación Serie B para desafiar a AWS con su infraestructura de nube nativa de IA. La plataforma de Railway enfatiza la velocidad y la rentabilidad, afirmando ofrecer implementaciones en menos de un segundo y ahorros de costos significativos en comparación con los proveedores de nube tradicionales.",
-    "charlotte_impact": "La financiación y el crecimiento del ferrocarril significan un cambio en el panorama de la infraestructura de la nube, lo que enfatiza la necesidad de velocidad y eficiencia en la era de la IA. Esta tendencia podría presionar a los proveedores de nube establecidos como AWS y Google Cloud para que se adapten y ofrezcan precios más competitivos y tiempos de implementación más rápidos. El éxito del enfoque de Railway demuestra el potencial de la infraestructura de IA especializada para revolucionar el mercado de la nube en general, atrayendo a desarrolladores que buscan soluciones optimizadas y rentables. Otros proveedores se verán obligados a encontrar nuevos nichos de oferta o correrán el riesgo de quedar obsoletos.",
-    "impact_score": 9
-  },
-  {
-    "title": "Salesforce lanza un nuevo agente de IA Slackbot mientras lucha contra Microsoft y Google en la IA en el lugar de trabajo",
-    "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
-    "industry": "Enterprise Software",
-    "summary": "Salesforce lanza un agente de inteligencia artificial de Slackbot reconstruido, impulsado por Claude de Anthropic, con el objetivo de posicionar a Slack en el centro de los flujos de trabajo empresariales. El nuevo Slackbot puede buscar datos empresariales, redactar documentos y automatizar tareas, y las pruebas internas muestran importantes ganancias en productividad.",
-    "charlotte_impact": "El Slackbot actualizado representa un impulso significativo por parte de Salesforce para integrar la IA en su ecosistema y competir con Microsoft Copilot y Google Gemini. Este desarrollo podría impulsar una mayor adopción de asistentes en el lugar de trabajo con tecnología de inteligencia artificial y transformar la forma en que los empleados interactúan con los datos empresariales, lo que podría optimizar los flujos de trabajo y mejorar la toma de decisiones. Las empresas buscarán cada vez más aprovechar herramientas de inteligencia artificial similares para mejorar la productividad y la colaboración de los empleados. Esto crea una economía para los proveedores e integradores de herramientas de IA.",
-    "impact_score": 9
-  },
-  {
-    "title": "Listen Labs recauda 69 millones de dólares después de un truco de contratación de vallas publicitarias virales para escalar las entrevistas con clientes de IA",
-    "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
-    "industry": "Market Research",
-    "summary": "Listen Labs recauda 69 millones de dólares para escalar su plataforma de entrevistas a clientes basada en inteligencia artificial, que promete brindar información procesable en horas, reemplazando los métodos tradicionales de investigación de mercado. La plataforma utiliza IA para realizar entrevistas en vídeo en profundidad y aborda el problema del fraude en la industria de la investigación de mercado a través de su \"guardia de calidad\".",
-    "charlotte_impact": "La financiación de Listen Labs destaca el potencial de la IA para revolucionar la industria tradicional de investigación de mercado. Al ofrecer información sobre los clientes más rápida y rentable, Listen Labs podría permitir a las empresas tomar decisiones de marketing y desarrollo de productos más informadas. La automatización de las entrevistas con los clientes podría conducir a ciclos de desarrollo de productos más ágiles y a un mayor enfoque en centrarse en el cliente en todas las industrias. El crecimiento impulsará la demanda de talento en inteligencia artificial y tecnología de marketing.",
-    "impact_score": 8
-  },
-  {
     "title": "Por qué el nuevo préstamo de 40.000 millones de dólares de SoftBank apunta a una oferta pública inicial de OpenAI en 2026",
     "url": "https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/",
-    "industry": "Finance",
-    "summary": "SoftBank obtiene un préstamo de 40.000 millones de dólares de JPMorgan y Goldman Sachs, lo que alimenta las especulaciones sobre una posible oferta pública inicial de OpenAI en 2026.",
-    "charlotte_impact": "El gran préstamo de SoftBank sugiere una perspectiva alcista continua en el sector de la IA y un potencial de retornos significativos de las inversiones en empresas como OpenAI. Una salida a bolsa de OpenAI exitosa podría validar las altas valoraciones de las nuevas empresas de IA y atraer más inversiones a la industria. Esto crea una ola de inversión en IA en general y alimenta la innovación tecnológica general.",
+    "industry": "Finance, AI",
+    "summary": "SoftBank está recibiendo un préstamo de 40.000 millones de dólares, lo que alimenta la especulación sobre una posible oferta pública inicial de OpenAI en 2026. El préstamo no está garantizado y es proporcionado por los gigantes de Wall Street JPMorgan y Goldman Sachs.",
+    "charlotte_impact": "Esta gran infusión de capital valida aún más el potencial de la IA para revolucionar diversas industrias y crear nuevas oportunidades de inversión.  Una salida a bolsa de OpenAI exitosa podría tener un impacto significativo en el mercado tecnológico, lo que generaría un mayor interés de los inversores en la IA y las empresas relacionadas, lo que podría impulsar las valoraciones en todos los ámbitos e impulsar una mayor innovación y competencia.",
+    "impact_score": 9
+  },
+  {
+    "title": "OpenAI cierra a Sora mientras Meta es excluida en la corte",
+    "url": "https://techcrunch.com/video/openai-shuts-down-sora-while-meta-gets-shut-out-in-court/",
+    "industry": "AI, Real Estate, Ethics",
+    "summary": "Según se informa, OpenAI cerró Sora, mientras que Meta enfrenta desafíos legales.  Una mujer de 82 años rechazó una oferta de 26 millones de dólares por su terreno para construir un centro de datos de IA, lo que pone de relieve las crecientes tensiones entre la infraestructura de IA y los impactos en el mundo real.",
+    "charlotte_impact": "La resistencia al desarrollo de centros de datos pone de relieve los crecientes desafíos para asegurar el apoyo territorial y comunitario a los proyectos de infraestructura de IA. Esto podría aumentar el costo y el tiempo necesarios para construir nuevos centros de datos, impactando el crecimiento general y la implementación de tecnologías de inteligencia artificial y potencialmente provocando debates comunitarios sobre la zonificación y el impacto ambiental.",
+    "impact_score": 7
+  },
+  {
+    "title": "Los capitalistas de riesgo están apostando miles de millones en la próxima ola de IA, entonces, ¿por qué OpenAI está matando a Sora?",
+    "url": "https://techcrunch.com/podcast/vcs-are-betting-billions-on-ais-next-wave-so-why-is-openai-killing-sora/",
+    "industry": "AI, Venture Capital",
+    "summary": "Los capitalistas de riesgo están invirtiendo mucho en IA, pero OpenAI supuestamente está cerrando Sora. El cierre plantea dudas sobre la viabilidad de los videos generados por IA y el ciclo general de exageración de la IA.",
+    "charlotte_impact": "Esto crea incertidumbre en el mercado de los vídeos de IA, lo que obliga a inversores y empresas a reevaluar sus estrategias y centrarse en aplicaciones de IA más sostenibles y comercialmente viables.  Puede conducir a un cambio hacia soluciones de IA más prácticas y a un enfoque más cauteloso ante los proyectos especulativos de IA.",
     "impact_score": 7
   },
   {
     "title": "El cierre de Sora podría ser un momento de control de la realidad para el vídeo de IA",
     "url": "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/",
-    "industry": "AI Video",
-    "summary": "El cierre de Sora de OpenAI plantea dudas sobre el futuro del vídeo generado por IA y si esto indica un retroceso más amplio de la tecnología.",
-    "charlotte_impact": "El cierre de Sora, ya sea temporal o permanente, sirve como advertencia para los inversores sobre la posible volatilidad y los desafíos en el espacio de generación de videos de IA. También hay una lección empresarial aquí: una empresa puede tener una tecnología innovadora, pero sin la protección o planificación adecuadas, no tiene valor.",
-    "impact_score": 6
+    "industry": "AI, Media, Video Generation",
+    "summary": "El cierre de Sora podría ser una prueba de realidad para la industria del vídeo con IA.  La medida plantea dudas sobre el futuro del vídeo generado por IA y si indica un retroceso más amplio en el sector.",
+    "charlotte_impact": "El cierre de Sora puede hacer que las empresas de medios y los creadores de contenido reconsideren su dependencia de las herramientas de vídeo generadas por IA. Esto podría conducir a una mayor inversión en métodos tradicionales de producción de vídeo o a un mayor enfoque en herramientas de inteligencia artificial que mejoren, en lugar de reemplazar, la creatividad humana. También podría influir en el desarrollo y la regulación del contenido generado por IA para garantizar la precisión y los estándares éticos.",
+    "impact_score": 7
   },
   {
     "title": "Bluesky se apoya en la IA con Attie, una aplicación para crear feeds personalizados",
     "url": "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
-    "industry": "Social Media",
-    "summary": "Bluesky lanza Attie, una aplicación que utiliza IA para ayudar a las personas a crear feeds personalizados, lo que indica una tendencia creciente a integrar la IA en las plataformas de redes sociales.",
-    "charlotte_impact": "El lanzamiento de Attie demuestra cómo se puede utilizar la IA para personalizar las experiencias de las redes sociales y mejorar el descubrimiento de contenido. Esto podría impulsar una mayor participación de los usuarios y crear nuevas oportunidades para los creadores de contenido y los anunciantes. Es probable que otras plataformas de redes sociales sigan su ejemplo, lo que generará experiencias de usuario más sofisticadas y personalizadas.",
+    "industry": "Social Media, AI",
+    "summary": "Bluesky lanzó Attie, una aplicación que utiliza inteligencia artificial para crear feeds personalizados en el protocolo de redes sociales atproto.",
+    "charlotte_impact": "La integración de la IA en las plataformas de redes sociales tiene el potencial de personalizar las experiencias de los usuarios y mejorar el descubrimiento de contenidos. La funcionalidad de alimentación personalizada de Attie podría impulsar la participación y fomentar comunidades especializadas dentro de Bluesky.  Esto podría presionar a las empresas de redes sociales más grandes a adoptar funciones de personalización similares basadas en inteligencia artificial.",
     "impact_score": 6
   },
   {
     "title": "Un estudio de Stanford describe los peligros de pedir consejo personal a los chatbots de IA",
     "url": "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
-    "industry": "AI Ethics",
-    "summary": "Un estudio de Stanford destaca los peligros de pedir consejo personal a los chatbots de IA, lo que genera preocupación sobre la posibilidad de recomendaciones dañinas.",
-    "charlotte_impact": "El estudio de Stanford refuerza la necesidad de precaución y consideraciones éticas en el desarrollo y despliegue de chatbots de IA. También es una advertencia de que la IA debe verse como una herramienta, no como un sustituto humano. A medida que la IA se integra más en nuestras vidas, es crucial abordar los riesgos potenciales asociados con depender de la IA para asuntos personales delicados.",
+    "industry": "AI, Ethics, Healthcare",
+    "summary": "Un estudio de Stanford destaca los peligros de pedir consejo personal a los chatbots de IA, lo que genera preocupación sobre la posibilidad de que se produzca una adulación dañina.",
+    "charlotte_impact": "Este estudio subraya los riesgos éticos asociados con el uso de chatbots de IA para asesoramiento personal, particularmente en áreas sensibles como la atención médica y las finanzas. Los hallazgos pueden conducir a regulaciones y pautas más estrictas para el desarrollo e implementación de chatbots de IA, así como a mayores esfuerzos para educar a los usuarios sobre las limitaciones y posibles sesgos de los consejos generados por IA.",
+    "impact_score": 8
+  },
+  {
+    "title": "Según los informes, el último cofundador de Elon Musk deja xAI",
+    "url": "https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/",
+    "industry": "AI",
+    "summary": "Según se informa, otro cofundador dejó xAI de Elon Musk, lo que indica posibles desafíos internos y cambios en la dirección de la empresa.",
+    "charlotte_impact": "Una alta rotación de cofundadores puede afectar negativamente la confianza de los inversores y obstaculizar la capacidad de la empresa para atraer y retener a los mejores talentos.  Esto podría ralentizar el ritmo de innovación en xAI y afectar su competitividad en el mercado de la IA.",
+    "impact_score": 6
+  },
+  {
+    "title": "Anthropic gana una orden judicial contra la administración Trump por la saga del Departamento de Defensa",
+    "url": "https://techcrunch.com/2026/03/26/anthropic-wins-injunction-against-trump-administration-over-defense-department-saga/",
+    "industry": "AI, Politics, Government",
+    "summary": "Anthropic ganó una orden judicial contra la administración Trump, rescindiendo las restricciones impuestas a la empresa de inteligencia artificial.",
+    "charlotte_impact": "Esta victoria legal puede afectar significativamente la capacidad de Anthropic para operar y competir en el mercado de la IA, ya que la orden judicial elimina restricciones anteriores impuestas por el gobierno. La decisión subraya la tensión actual entre la innovación tecnológica y la supervisión política, y puede influir en las futuras políticas regulatorias para las empresas de IA.",
     "impact_score": 7
+  },
+  {
+    "title": "Wikipedia toma medidas enérgicas contra el uso de IA en la redacción de artículos",
+    "url": "https://techcrunch.com/2026/03/26/wikipedia-cracks-down-on-the-use-of-ai-in-article-writing/",
+    "industry": "AI, Media, Content Creation",
+    "summary": "Wikipedia está tomando medidas enérgicas contra el uso de la IA en la redacción de artículos debido a preocupaciones sobre la calidad y la confiabilidad.",
+    "charlotte_impact": "La decisión de Wikipedia de restringir el contenido generado por IA puede llevar a otras organizaciones de medios y plataformas de contenido a reevaluar sus políticas sobre IA. Esto podría conducir a un mayor escrutinio del contenido generado por IA y a un mayor énfasis en la supervisión humana y la verificación de hechos para garantizar la precisión y la confiabilidad.",
+    "impact_score": 7
+  },
+  {
+    "title": "El nuevo modelo de generación de vídeo con IA de ByteDance, Dreamina Seedance 2.0, llega a CapCut",
+    "url": "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/",
+    "industry": "AI, Media, Video Generation",
+    "summary": "El modelo de generación de video con IA Dreamina Seedance 2.0 de ByteDance llega a CapCut con protecciones integradas para rostros reales y propiedad intelectual.",
+    "charlotte_impact": "La implementación de estas protecciones podría establecer un nuevo estándar para la generación ética de videos de IA, influyendo en otros desarrolladores y promoviendo el uso responsable de la tecnología de IA.  También puede atraer a CapCut a más usuarios preocupados por la infracción de derechos de autor y el uso indebido de imágenes personales.",
+    "impact_score": 7
+  },
+  {
+    "title": "Conntour recauda 7 millones de dólares de General Catalyst, YC para construir un motor de búsqueda de IA para sistemas de vídeo de seguridad",
+    "url": "https://techcrunch.com/2026/03/26/conntour-raises-7m-from-general-catalyst-yc-to-build-an-ai-search-engine-for-security-video-systems/",
+    "industry": "AI, Security",
+    "summary": "Conntour recaudó 7 millones de dólares para crear un motor de búsqueda de inteligencia artificial para sistemas de vídeo de seguridad, que permite a los equipos consultar las transmisiones de las cámaras utilizando lenguaje natural.",
+    "charlotte_impact": "Este motor de búsqueda impulsado por IA podría mejorar significativamente la eficiencia y eficacia de las operaciones de seguridad. Puede reducir los tiempos de respuesta a las amenazas a la seguridad y permitir el monitoreo proactivo de las instalaciones, lo que conduce a una mayor seguridad y una reducción de los costos operativos.",
+    "impact_score": 8
+  },
+  {
+    "title": "Una “libra de carne” de los centros de datos: la respuesta de un senador a la pérdida de empleos en la IA",
+    "url": "https://techcrunch.com/2026/03/26/a-pound-of-flesh-from-data-centers-one-senators-answer-to-ai-job-losses/",
+    "industry": "AI, Politics, Economics",
+    "summary": "Un senador sugiere gravar los centros de datos para ayudar a los trabajadores afectados por la pérdida de empleos provocada por la IA.",
+    "charlotte_impact": "El impuesto propuesto sobre los centros de datos podría tener importantes consecuencias económicas, aumentando potencialmente el costo de la computación en la nube y los servicios de inteligencia artificial, lo que podría afectar la innovación y la adopción. También indica un creciente enfoque político en abordar los posibles impactos negativos de la IA en el empleo.",
+    "impact_score": 8
+  },
+  {
+    "title": "Revisión de CriptoLoja: ¿Herramienta comercial segura o arriesgada? Probado y analizado",
+    "url": "https://whatjapanthinks.com/criptoloja-review/",
+    "industry": "Finance, AI, Crypto",
+    "summary": "CriptoLoja es un sistema de comercio de cifrado que utiliza tecnologías de aprendizaje automático para la inversión en activos digitales.",
+    "charlotte_impact": "La creciente integración del aprendizaje automático en las plataformas de comercio de cifrado puede conducir a estrategias comerciales más eficientes y automatizadas. Sin embargo, también plantea riesgos relacionados con el sesgo de los algoritmos, la manipulación del mercado y la posibilidad de inestabilidad sistémica en el mercado de las criptomonedas, lo que requiere un seguimiento y una regulación cuidadosos.",
+    "impact_score": 5
+  },
+  {
+    "title": "Revisión de Marnevance: ¿Sistema comercial confiable o fraude? Resultados expuestos",
+    "url": "https://whatjapanthinks.com/marnevance-review/",
+    "industry": "Finance, AI, Crypto",
+    "summary": "Marnevance es una solución de comercio de cifrado que utiliza inteligencia artificial para mejorar la experiencia comercial.",
+    "charlotte_impact": "Las plataformas impulsadas por IA pueden aumentar la eficiencia comercial y potencialmente la rentabilidad. Sin embargo, es crucial examinar las reclamaciones y garantizar una regulación y pruebas adecuadas para evitar el fraude o la manipulación del mercado. La transparencia y las medidas de seguridad sólidas son esenciales para proteger las inversiones y los datos de los usuarios.",
+    "impact_score": 5
+  },
+  {
+    "title": "Revisión de Vercadix: ¿legítimo o estafa? Desglose completo",
+    "url": "https://whatjapanthinks.com/vercadix-review/",
+    "industry": "Finance, AI, Crypto",
+    "summary": "Vercadix se presenta como una solución de comercio de activos digitales que utiliza inteligencia artificial para simplificar el proceso de comercio.",
+    "charlotte_impact": "El auge de las plataformas impulsadas por IA en el espacio criptográfico puede hacer que el comercio sea más accesible para una gama más amplia de inversores. Sin embargo, es importante evaluar la legitimidad y confiabilidad de estas plataformas, ya que el mercado de las criptomonedas es vulnerable a estafas y esquemas fraudulentos. Los inversores deben tener precaución y realizar una investigación exhaustiva antes de utilizar cualquier plataforma comercial nueva.",
+    "impact_score": 5
+  },
+  {
+    "title": "Revisión de Veralis Estates: ¿Plataforma comercial confiable o estafa? Nuestros hallazgos",
+    "url": "https://whatjapanthinks.com/veralis-estates-review/",
+    "industry": "Finance, AI, Crypto",
+    "summary": "Veralis Estates se presenta como una solución de comercio de activos digitales recién creada que utiliza inteligencia artificial avanzada.",
+    "charlotte_impact": "La integración de la IA en las plataformas de comercio de cifrado tiene el potencial de optimizar las estrategias comerciales y mejorar los resultados de las inversiones. Sin embargo, es importante verificar las afirmaciones hechas por estas plataformas y asegurarse de que no sean engañosas ni engañosas. Los inversores deben tener cuidado con las plataformas que prometen rendimientos poco realistas o carecen de transparencia sobre sus operaciones.",
+    "impact_score": 5
+  },
+  {
+    "title": "Aumento de las estafas de identidad: ¿dónde están y cómo evitarlas?",
+    "url": "https://www.digitaljournal.com/tech-science/rise-in-identity-scams-where-are-they-and-how-to-avoid-them/article",
+    "industry": "Security, AI, Technology",
+    "summary": "Un aumento en las estafas de identidad requiere una mayor vigilancia y concientización para prevenir la suplantación de identidad y el fraude financiero.",
+    "charlotte_impact": "El aumento de las estafas de identidad subraya la necesidad de medidas de seguridad más estrictas y mejores sistemas de detección de fraude. Las empresas y los consumidores deben adoptar prácticas como el uso de contraseñas seguras, permitir la autenticación multifactor y monitorear los informes crediticios para protegerse contra el robo de identidad. La IA puede desempeñar un papel en la detección y prevención de estafas de identidad mediante algoritmos avanzados de detección de fraude y tecnologías de autenticación biométrica.",
+    "impact_score": 6
+  },
+  {
+    "title": "Revisión inmediata de Bienestar: ¿Software comercial real o estafa? Hechos descubiertos",
+    "url": "https://whatjapanthinks.com/immediate-bienestar-review/",
+    "industry": "Finance, AI, Crypto",
+    "summary": "Immediate Bienestar utiliza IA en el comercio en línea para mejorar el viaje comercial de los comerciantes de criptomonedas.",
+    "charlotte_impact": "Si bien las plataformas comerciales impulsadas por inteligencia artificial pueden ofrecer beneficios potenciales, es importante que los inversores sean conscientes de los riesgos asociados. Estas plataformas pueden ser vulnerables a errores algorítmicos, filtraciones de datos y manipulación del mercado. Los inversores deben evaluar cuidadosamente los protocolos de seguridad y las estrategias de gestión de riesgos de la plataforma antes de confiarles sus fondos.",
+    "impact_score": 5
+  },
+  {
+    "title": "Revisión de Amethance: ¿estafa o plataforma comercial legítima? La verdad revelada",
+    "url": "https://whatjapanthinks.com/amethance-review/",
+    "industry": "Finance, AI, Crypto",
+    "summary": "Amethance utiliza inteligencia artificial para mejorar la experiencia comercial de las personas interesadas en las criptomonedas.",
+    "charlotte_impact": "La incorporación de inteligencia artificial en las plataformas de comercio de cifrado puede permitir estrategias comerciales más sofisticadas y adaptables. Sin embargo, los inversores deben tener cuidado con las plataformas que carecen de transparencia sobre sus algoritmos de inteligencia artificial y sus prácticas comerciales. Es importante comprender cómo funciona el sistema de inteligencia artificial y qué datos utiliza para tomar decisiones comerciales.",
+    "impact_score": 5
+  },
+  {
+    "title": "instantapi-sdk agregado a PyPI",
+    "url": "https://pypi.org/project/instantapi-sdk/",
+    "industry": "Software Development, AI",
+    "summary": "Instantapi-sdk, el SDK oficial de Python para InstantAPI, ahora está disponible en PyPI.",
+    "charlotte_impact": "El lanzamiento de instantapi-sdk puede simplificar la integración de InstantAPI en aplicaciones basadas en Python. Esto puede acelerar el desarrollo de herramientas y servicios impulsados ​​por IA al brindar a los desarrolladores una forma conveniente y eficiente de acceder a las capacidades de InstantAPI, lo que potencialmente impulsará la innovación en diversas industrias.",
+    "impact_score": 6
+  },
+  {
+    "title": "Revisión de Kronex: ¿Herramienta comercial segura o arriesgada? Probado y analizado",
+    "url": "https://whatjapanthinks.com/kronex-review/",
+    "industry": "Finance, AI, Crypto",
+    "summary": "Kronex es un sistema de comercio de cifrado introducido recientemente que utiliza inteligencia artificial.",
+    "charlotte_impact": "El uso de inteligencia artificial en los sistemas comerciales puede ofrecer ventajas en términos de velocidad y precisión. Sin embargo, es importante evaluar la confiabilidad y seguridad de estos sistemas. También es importante la regulación en el área para evitar el mal uso de los sistemas.",
+    "impact_score": 5
+  },
+  {
+    "title": "Revisión de Command Placane: ¿Sistema comercial confiable o fraude? Resultados expuestos",
+    "url": "https://whatjapanthinks.com/command-placane-review/",
+    "industry": "Finance, AI, Crypto",
+    "summary": "Command Placane es un sistema de comercio de cifrado recién creado que utiliza IA.",
+    "charlotte_impact": "El mercado de las criptomonedas ha experimentado un gran aumento en las integraciones de Ai. Esto puede resultar útil pero arriesgado. Si la fuente no es confiable, los datos pueden manipularse y el usuario puede sufrir el robo de su dinero o información.",
+    "impact_score": 5
+  },
+  {
+    "title": "Revisión de Podíl Portfelo: ¿Plataforma comercial genuina o falsa? Verificación de la realidad",
+    "url": "https://whatjapanthinks.com/podil-portfelo-review/",
+    "industry": "Finance, AI, Crypto",
+    "summary": "Podíl Portfelo es una solución de comercio de activos digitales recientemente desarrollada que utiliza tecnologías modernas.",
+    "charlotte_impact": "Con la implementación de un sistema tan avanzado, podríamos ver un gran aumento de usuarios. Con esto, podrían atraer gente para que los apoye. Esto también conlleva riesgos: la información privada de las personas es pirateada y también robada.",
+    "impact_score": 5
+  },
+  {
+    "title": "De contar a codificar",
+    "url": "https://www.thestar.com.my/news/education/2026/03/29/from-counting-to-coding",
+    "industry": "Education",
+    "summary": "Teniendo en cuenta la temática del artículo, realiza las siguientes actividades del idioma inglés. Leer historia completa",
+    "charlotte_impact": "Esto no está relacionado con Ai.",
+    "impact_score": 0
+  },
+  {
+    "title": "David Sacks ha terminado como zar de la IA: esto es lo que está haciendo en su lugar",
+    "url": "https://techcrunch.com/2026/03/26/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/",
+    "industry": "Politics, Government",
+    "summary": "David Sacks dejará su papel de zar de la IA.",
+    "charlotte_impact": "La salida de Sacks podría generar incertidumbre en el enfoque del gobierno respecto de la política y la regulación de la IA. Dependiendo de quién lo reemplace, puede haber cambios en las prioridades y estrategias, lo que afectará el desarrollo y la implementación de tecnologías de IA en varios sectores.",
+    "impact_score": 5
   }
 ]

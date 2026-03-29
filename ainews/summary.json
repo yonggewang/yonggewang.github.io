@@ -1,58 +1,202 @@
 [
   {
-    "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
-    "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
-    "industry": "Cloud Infrastructure",
-    "summary": "Railway secures $100 million in Series B funding to challenge AWS with its AI-native cloud infrastructure. Railway's platform emphasizes speed and cost-effectiveness, claiming to deliver deployments in under one second and significant cost savings compared to traditional cloud providers.",
-    "charlotte_impact": "Railway's funding and growth signify a shift in the cloud infrastructure landscape, emphasizing the need for speed and efficiency in the age of AI. This trend could pressure established cloud providers like AWS and Google Cloud to adapt and offer more competitive pricing and faster deployment times. The success of Railway's approach demonstrates the potential for specialized AI infrastructure to disrupt the broader cloud market, attracting developers seeking streamlined and cost-effective solutions. Other providers will be forced to find new niches of offerings, or risk obsolescence.",
-    "impact_score": 9
-  },
-  {
-    "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
-    "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
-    "industry": "Enterprise Software",
-    "summary": "Salesforce launches a rebuilt Slackbot AI agent, powered by Anthropic's Claude, aiming to position Slack at the center of enterprise workflows. The new Slackbot can search enterprise data, draft documents, and automate tasks, with internal testing showing significant productivity gains.",
-    "charlotte_impact": "The upgraded Slackbot represents a significant push by Salesforce to integrate AI into its ecosystem and compete with Microsoft Copilot and Google Gemini. This development could drive increased adoption of AI-powered workplace assistants and transform how employees interact with enterprise data, potentially streamlining workflows and improving decision-making. Businesses will increasingly look to leverage similar AI tools to enhance employee productivity and collaboration. This creates an economy for AI tool providers and integrators.",
-    "impact_score": 9
-  },
-  {
-    "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
-    "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
-    "industry": "Market Research",
-    "summary": "Listen Labs raises $69 million to scale its AI-powered customer interview platform, which promises to deliver actionable insights in hours, replacing traditional market research methods. The platform uses AI to conduct in-depth video interviews and addresses the issue of fraud in the market research industry through its 'quality guard'.",
-    "charlotte_impact": "Listen Labs' funding highlights the potential of AI to disrupt the traditional market research industry. By offering faster and more cost-effective customer insights, Listen Labs could enable companies to make more informed product development and marketing decisions. The automation of customer interviews could lead to more agile product development cycles and a greater focus on customer-centricity across industries. The growth will fuel demand for talent in AI and marketing technology.",
-    "impact_score": 8
-  },
-  {
     "title": "Why SoftBank\u2019s new $40B loan points to a 2026 OpenAI IPO",
     "url": "https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/",
-    "industry": "Finance",
-    "summary": "SoftBank secures a $40 billion loan from JPMorgan and Goldman Sachs, fueling speculation about a potential OpenAI IPO in 2026.",
-    "charlotte_impact": "SoftBank's large loan suggests a continued bullish outlook on the AI sector and potential for significant returns from investments in companies like OpenAI. A successful OpenAI IPO could validate the high valuations of AI startups and attract further investment into the industry. This creates a wave for AI investing in general and fuels overall technological innovation.",
+    "industry": "Finance, AI",
+    "summary": "SoftBank is receiving a $40B loan, fueling speculation about a potential OpenAI IPO in 2026. The loan is unsecured and provided by Wall Street giants JPMorgan and Goldman Sachs.",
+    "charlotte_impact": "This large infusion of capital further validates the potential for AI to disrupt various industries and create new investment opportunities.  A successful OpenAI IPO could significantly impact the tech market, leading to increased investor interest in AI and related companies, potentially boosting valuations across the board and driving further innovation and competition.",
+    "impact_score": 9
+  },
+  {
+    "title": "OpenAI shuts down Sora while Meta gets shut out in court",
+    "url": "https://techcrunch.com/video/openai-shuts-down-sora-while-meta-gets-shut-out-in-court/",
+    "industry": "AI, Real Estate, Ethics",
+    "summary": "OpenAI has reportedly shut down Sora, while Meta is facing legal challenges.  An 82-year-old woman refused a $26 million offer for her land to build an AI data center, highlighting growing tensions between AI infrastructure and real-world impacts.",
+    "charlotte_impact": "The resistance to data center development highlights the increasing challenges in securing land and community support for AI infrastructure projects. This could increase the cost and time required to build new data centers, impacting the overall growth and deployment of AI technologies, and potentially sparking community debates over zoning and environmental impact.",
+    "impact_score": 7
+  },
+  {
+    "title": "VCs are betting billions on AI\u2019s next wave, so why is OpenAI killing Sora?",
+    "url": "https://techcrunch.com/podcast/vcs-are-betting-billions-on-ais-next-wave-so-why-is-openai-killing-sora/",
+    "industry": "AI, Venture Capital",
+    "summary": "VCs are investing heavily in AI, but OpenAI is allegedly shutting down Sora. The shutdown raises questions about the viability of AI-generated video and the overall AI hype cycle.",
+    "charlotte_impact": "This creates uncertainty in the AI video market, forcing investors and companies to reassess their strategies and focus on more sustainable and commercially viable applications of AI.  It may lead to a shift towards more practical AI solutions and a more cautious approach to speculative AI projects.",
     "impact_score": 7
   },
   {
     "title": "Sora\u2019s shutdown could be a reality check moment for AI video",
     "url": "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/",
-    "industry": "AI Video",
-    "summary": "The shutdown of OpenAI's Sora raises questions about the future of AI-generated video and whether this signals a broader pullback on the technology.",
-    "charlotte_impact": "Sora's shutdown, whether temporary or permanent, serves as a caution to investors about the potential volatility and challenges in the AI video generation space. There is also a business lesson here: A company can have a breakthrough technology, but without proper protections or planning, it is worthless.",
-    "impact_score": 6
+    "industry": "AI, Media, Video Generation",
+    "summary": "Sora's shutdown could be a reality check for the AI video industry.  The move raises questions about the future of AI-generated video and whether it signals a broader pullback in the sector.",
+    "charlotte_impact": "The shutdown of Sora may cause media companies and content creators to reconsider their reliance on AI-generated video tools. This could lead to increased investment in traditional video production methods or a greater focus on AI tools that enhance rather than replace human creativity. It could also influence the development and regulation of AI-generated content to ensure accuracy and ethical standards.",
+    "impact_score": 7
   },
   {
     "title": "Bluesky leans into AI with Attie, an app for building custom feeds",
     "url": "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
-    "industry": "Social Media",
-    "summary": "Bluesky launches Attie, an app that uses AI to help people build custom feeds, indicating a growing trend of integrating AI into social networking platforms.",
-    "charlotte_impact": "Attie's launch demonstrates how AI can be used to personalize social media experiences and improve content discovery. This could drive increased user engagement and create new opportunities for content creators and advertisers. Other social media platforms will likely follow suit, leading to more sophisticated and personalized user experiences.",
+    "industry": "Social Media, AI",
+    "summary": "Bluesky has launched Attie, an app using AI to build custom feeds on the atproto social networking protocol.",
+    "charlotte_impact": "The integration of AI into social media platforms has the potential to personalize user experiences and enhance content discovery. Attie's custom feed functionality could drive engagement and foster niche communities within Bluesky.  This could pressure larger social media companies to adopt similar AI-powered personalization features.",
     "impact_score": 6
   },
   {
     "title": "Stanford study outlines dangers of asking AI chatbots for personal advice",
     "url": "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
-    "industry": "AI Ethics",
-    "summary": "A Stanford study highlights the dangers of asking AI chatbots for personal advice, raising concerns about the potential for harmful recommendations.",
-    "charlotte_impact": "The Stanford study reinforces the need for caution and ethical considerations in the development and deployment of AI chatbots. It is also a warning that AI should be viewed as a tool, not a human replacement. As AI becomes more integrated into our lives, it is crucial to address the potential risks associated with relying on AI for sensitive personal matters.",
+    "industry": "AI, Ethics, Healthcare",
+    "summary": "A Stanford study highlights the dangers of asking AI chatbots for personal advice, raising concerns about the potential for harmful sycophancy.",
+    "charlotte_impact": "This study underscores the ethical risks associated with using AI chatbots for personal advice, particularly in sensitive areas such as healthcare and finance. The findings may lead to stricter regulations and guidelines for AI chatbot development and deployment, as well as increased efforts to educate users about the limitations and potential biases of AI-generated advice.",
+    "impact_score": 8
+  },
+  {
+    "title": "Elon Musk\u2019s last co-founder reportedly leaves xAI",
+    "url": "https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/",
+    "industry": "AI",
+    "summary": "Another co-founder has reportedly left Elon Musk's xAI, signaling potential internal challenges and shifts in the company's direction.",
+    "charlotte_impact": "High co-founder turnover can negatively affect investor confidence and hinder the company's ability to attract and retain top talent.  This could slow down the pace of innovation at xAI and impact its competitiveness in the AI market.",
+    "impact_score": 6
+  },
+  {
+    "title": "Anthropic wins injunction against Trump administration over Defense Department saga",
+    "url": "https://techcrunch.com/2026/03/26/anthropic-wins-injunction-against-trump-administration-over-defense-department-saga/",
+    "industry": "AI, Politics, Government",
+    "summary": "Anthropic has won an injunction against the Trump administration, rescinding restrictions placed on the AI company.",
+    "charlotte_impact": "This legal victory can significantly impact Anthropic's ability to operate and compete in the AI market, as the injunction removes previous constraints imposed by the government. The decision underscores the ongoing tension between technological innovation and political oversight, and can influence future regulatory policies for AI companies.",
     "impact_score": 7
+  },
+  {
+    "title": "Wikipedia cracks down on the use of AI in article writing",
+    "url": "https://techcrunch.com/2026/03/26/wikipedia-cracks-down-on-the-use-of-ai-in-article-writing/",
+    "industry": "AI, Media, Content Creation",
+    "summary": "Wikipedia is cracking down on the use of AI in article writing due to concerns about quality and reliability.",
+    "charlotte_impact": "Wikipedia's decision to restrict AI-generated content may prompt other media organizations and content platforms to re-evaluate their policies on AI. This could lead to increased scrutiny of AI-generated content and a greater emphasis on human oversight and fact-checking to ensure accuracy and trustworthiness.",
+    "impact_score": 7
+  },
+  {
+    "title": "ByteDance\u2019s new AI video generation model, Dreamina Seedance 2.0, comes to CapCut",
+    "url": "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/",
+    "industry": "AI, Media, Video Generation",
+    "summary": "ByteDance's Dreamina Seedance 2.0 AI video generation model is coming to CapCut with built-in protections for real faces and intellectual property.",
+    "charlotte_impact": "The implementation of these protections could set a new standard for ethical AI video generation, influencing other developers and promoting responsible use of AI technology.  It may also attract more users to CapCut who are concerned about copyright infringement and misuse of personal likenesses.",
+    "impact_score": 7
+  },
+  {
+    "title": "Conntour raises $7M from General Catalyst, YC to build an AI search engine for security video systems",
+    "url": "https://techcrunch.com/2026/03/26/conntour-raises-7m-from-general-catalyst-yc-to-build-an-ai-search-engine-for-security-video-systems/",
+    "industry": "AI, Security",
+    "summary": "Conntour raised $7M to build an AI search engine for security video systems, allowing teams to query camera feeds using natural language.",
+    "charlotte_impact": "This AI-powered search engine could significantly improve the efficiency and effectiveness of security operations. It can reduce response times to security threats and enable proactive monitoring of facilities, leading to enhanced safety and reduced operational costs.",
+    "impact_score": 8
+  },
+  {
+    "title": "A \u2018pound of flesh\u2019 from data centers: one senator\u2019s answer to AI job losses",
+    "url": "https://techcrunch.com/2026/03/26/a-pound-of-flesh-from-data-centers-one-senators-answer-to-ai-job-losses/",
+    "industry": "AI, Politics, Economics",
+    "summary": "A senator suggests taxing data centers to help workers affected by AI-driven job losses.",
+    "charlotte_impact": "The proposed tax on data centers could have significant economic consequences, potentially increasing the cost of cloud computing and AI services, which could impact innovation and adoption. It also signals a growing political focus on addressing the potential negative impacts of AI on employment.",
+    "impact_score": 8
+  },
+  {
+    "title": "CriptoLoja Review: Secure or Risky Trading Tool? Tested & Analyzed",
+    "url": "https://whatjapanthinks.com/criptoloja-review/",
+    "industry": "Finance, AI, Crypto",
+    "summary": "CriptoLoja is a crypto trading system using machine learning technologies for digital asset investing.",
+    "charlotte_impact": "The increasing integration of machine learning in crypto trading platforms can lead to more efficient and automated trading strategies. However, it also poses risks related to algorithm bias, market manipulation, and the potential for systemic instability in the crypto market, requiring careful monitoring and regulation.",
+    "impact_score": 5
+  },
+  {
+    "title": "Marnevance Review: Trusted Trading System or Fraud? Results Exposed",
+    "url": "https://whatjapanthinks.com/marnevance-review/",
+    "industry": "Finance, AI, Crypto",
+    "summary": "Marnevance is a crypto trading solution that utilizes AI to improve the trading experience.",
+    "charlotte_impact": "AI driven platforms can increase trading efficiency and potentially profitability. However, it's crucial to scrutinize claims and ensure proper regulation and testing to avoid fraud or market manipulation. Transparency and robust security measures are essential to protect user investments and data.",
+    "impact_score": 5
+  },
+  {
+    "title": "Vercadix Review: Legit or Scam? Full Breakdown",
+    "url": "https://whatjapanthinks.com/vercadix-review/",
+    "industry": "Finance, AI, Crypto",
+    "summary": "Vercadix is introduced as a digital asset trading solution utilizing AI to simplify the trading process.",
+    "charlotte_impact": "The rise of AI-driven platforms in the crypto space can make trading more accessible to a wider range of investors. However, it's important to assess the legitimacy and reliability of these platforms, as the crypto market is vulnerable to scams and fraudulent schemes. Investors should exercise caution and conduct thorough research before engaging with any new trading platform.",
+    "impact_score": 5
+  },
+  {
+    "title": "Veralis Estates Review: Reliable Trading Platform or Scam? Our Findings",
+    "url": "https://whatjapanthinks.com/veralis-estates-review/",
+    "industry": "Finance, AI, Crypto",
+    "summary": "Veralis Estates presents itself as a freshly created digital asset trading solution that uses advanced AI.",
+    "charlotte_impact": "The integration of AI in crypto trading platforms has the potential to optimize trading strategies and improve investment outcomes. However, it's important to verify the claims made by these platforms and ensure that they are not misleading or deceptive. Investors should be wary of platforms that promise unrealistic returns or lack transparency about their operations.",
+    "impact_score": 5
+  },
+  {
+    "title": "Rise in identity\u00a0scams: Where are they and how to avoid them?",
+    "url": "https://www.digitaljournal.com/tech-science/rise-in-identity-scams-where-are-they-and-how-to-avoid-them/article",
+    "industry": "Security, AI, Technology",
+    "summary": "A surge in identity scams necessitates increased vigilance and awareness to prevent impersonation and financial fraud.",
+    "charlotte_impact": "The rise in identity scams underscores the need for stronger security measures and improved fraud detection systems. Businesses and consumers should adopt practices such as using strong passwords, enabling multi-factor authentication, and monitoring credit reports to protect against identity theft. AI can play a role in detecting and preventing identity scams through advanced fraud detection algorithms and biometric authentication technologies.",
+    "impact_score": 6
+  },
+  {
+    "title": "Immediate Bienestar Review: Real Trading Software or Scam? Facts Uncovered",
+    "url": "https://whatjapanthinks.com/immediate-bienestar-review/",
+    "industry": "Finance, AI, Crypto",
+    "summary": "Immediate Bienestar utilizes AI in online trading to improve the trading journey for crypto traders.",
+    "charlotte_impact": "While AI-powered trading platforms may offer potential benefits, it's important for investors to be aware of the associated risks. These platforms can be vulnerable to algorithmic errors, data breaches, and market manipulation. Investors should carefully evaluate the platform's security protocols and risk management strategies before entrusting them with their funds.",
+    "impact_score": 5
+  },
+  {
+    "title": "Amethance Review: Scam or Legit Trading Platform? Truth Revealed",
+    "url": "https://whatjapanthinks.com/amethance-review/",
+    "industry": "Finance, AI, Crypto",
+    "summary": "Amethance utilizes machine intelligence to enhance the trading experience for individuals interested in crypto.",
+    "charlotte_impact": "The incorporation of machine intelligence in crypto trading platforms can enable more sophisticated and adaptive trading strategies. However, investors should be cautious of platforms that lack transparency about their AI algorithms and trading practices. It's important to understand how the AI system works and what data it uses to make trading decisions.",
+    "impact_score": 5
+  },
+  {
+    "title": "instantapi-sdk added to PyPI",
+    "url": "https://pypi.org/project/instantapi-sdk/",
+    "industry": "Software Development, AI",
+    "summary": "The instantapi-sdk, the official Python SDK for InstantAPI, is now available on PyPI.",
+    "charlotte_impact": "The release of the instantapi-sdk can simplify the integration of InstantAPI into Python-based applications. This can accelerate the development of AI-powered tools and services by providing developers with a convenient and efficient way to access InstantAPI's capabilities, potentially driving innovation across various industries.",
+    "impact_score": 6
+  },
+  {
+    "title": "Kronex Review: Secure or Risky Trading Tool? Tested & Analyzed",
+    "url": "https://whatjapanthinks.com/kronex-review/",
+    "industry": "Finance, AI, Crypto",
+    "summary": "Kronex is a recently introduced crypto trading system that uses machine intelligence.",
+    "charlotte_impact": "The use of machine intelligence in trading systems may offer advantages in terms of speed and accuracy. However, it is important to assess the reliability and security of these systems. Also important is regulation in the area to prevent the misuse of systems.",
+    "impact_score": 5
+  },
+  {
+    "title": "Command Placane Review: Trusted Trading System or Fraud? Results Exposed",
+    "url": "https://whatjapanthinks.com/command-placane-review/",
+    "industry": "Finance, AI, Crypto",
+    "summary": "Command Placane is a freshly created crypto trading system created that uses AI.",
+    "charlotte_impact": "The crypto market has had a large rise in Ai integrations. This can be helpful but risky. If the source is untrustworthy, the data can be manipulated and the user can have their money or info stolen.",
+    "impact_score": 5
+  },
+  {
+    "title": "Pod\u00edl Portfelo Review: Genuine Trading Platform or Fake? Reality Check",
+    "url": "https://whatjapanthinks.com/podil-portfelo-review/",
+    "industry": "Finance, AI, Crypto",
+    "summary": "Pod\u00edl Portfelo is a newly developed digital asset trading solution utilizing modern technologies.",
+    "charlotte_impact": "With the implementation of such an advanced system, we could see a huge rise in users. With this, they could bring in people for support. With this also comes risks, people's private info being hacked and also stolen.",
+    "impact_score": 5
+  },
+  {
+    "title": "From counting to coding",
+    "url": "https://www.thestar.com.my/news/education/2026/03/29/from-counting-to-coding",
+    "industry": "Education",
+    "summary": "With the theme of the article in mind, carry out the following English language activities. Read full story",
+    "charlotte_impact": "This is not Ai related.",
+    "impact_score": 0
+  },
+  {
+    "title": "David Sacks is done as AI czar \u2014 here\u2019s what he\u2019s doing instead",
+    "url": "https://techcrunch.com/2026/03/26/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/",
+    "industry": "Politics, Government",
+    "summary": "David Sacks is stepping down from his role as AI czar.",
+    "charlotte_impact": "Sacks' departure could lead to uncertainty in the government's approach to AI policy and regulation. Depending on who replaces him, there may be shifts in priorities and strategies, impacting the development and deployment of AI technologies across various sectors.",
+    "impact_score": 5
   }
 ]
