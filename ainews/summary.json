@@ -3,96 +3,200 @@
     "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
     "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
     "industry": "Cloud Infrastructure",
-    "summary": "Railway secured $100M to challenge AWS with AI-native cloud infrastructure, focusing on speed and efficiency for AI application deployment. They built their own data centers to optimize performance and undercut hyperscaler pricing, attracting enterprises with significant cost and velocity improvements.",
-    "charlotte_impact": "This poses both an opportunity and a threat to Charlotte's FinTech sector. While Duke Energy and other large enterprises in Charlotte could benefit from Railway's cost-effective infrastructure for their expanding AI initiatives, local data centers and cloud providers may face increased competition. The focus on speed aligns well with FinTech's needs for real-time data processing.",
+    "summary": "Railway, an AI-native cloud platform, secured $100 million in Series B funding to challenge AWS by providing faster and more cost-effective deployments for AI-generated code, boasting sub-second deployment times. They differentiate by building their own data centers to optimize for 'agentic speed' and offering a simplified user interface.",
+    "charlotte_impact": "Railway's rise could disrupt Duke Energy's cloud infrastructure strategy. As Duke Energy explores AI for grid optimization and customer service, Railway's promise of lower costs and faster deployment times could become an appealing alternative to traditional cloud providers like AWS or Azure. The local FinTech sector may be drawn to Railway as well for its cost savings.",
     "impact_score": 9
   },
   {
     "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
     "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
-    "industry": "Enterprise Software/AI Agents",
-    "summary": "Salesforce launched a rebuilt Slackbot AI agent powered by Anthropic's Claude, aiming to integrate AI into workplace tasks like data search and document drafting. Early adoption among Salesforce employees suggests significant productivity gains, positioning Slack as a central 'super agent' for coordinating AI tasks.",
-    "charlotte_impact": "For Bank of America and other large employers in Charlotte, enhanced AI assistants like Slackbot could significantly improve employee productivity and decision-making. This could also drive adoption of Salesforce products within Charlotte's business community, impacting the local tech services ecosystem by creating demand for Salesforce integration and customization specialists.",
+    "industry": "Enterprise Software",
+    "summary": "Salesforce launched a rebuilt Slackbot powered by Anthropic's Claude, transforming it into an AI agent capable of searching enterprise data, drafting documents, and taking actions on behalf of employees. Salesforce aims to position Slack as the central hub for agentic AI, coordinating with other AI agents across an organization and improving employee productivity.",
+    "charlotte_impact": "The upgraded Slackbot could impact Atrium Health and Novant Health by improving internal communication and data access for healthcare professionals, potentially leading to faster decision-making and improved patient care. Large local employers in the banking sector could leverage Slackbot to streamline workflows and improve employee efficiency.",
     "impact_score": 8
   },
   {
     "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
     "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
-    "industry": "Market Research/AI",
-    "summary": "Listen Labs raised $69M to scale AI-powered customer interviews, promising faster and more honest insights than traditional methods. Their platform uses AI to conduct video interviews, verify participants, and deliver executive-ready reports, potentially disrupting the $140 billion market research industry.",
-    "charlotte_impact": "Charlotte-based companies, especially in the retail and consumer goods sectors, could benefit from Listen Labs' rapid market research capabilities to quickly iterate on products and understand customer preferences. The ability to identify and mitigate fraud in research participation would be valuable for companies seeking reliable data for strategic decision-making.",
+    "industry": "Market Research",
+    "summary": "Listen Labs raised $69 million to scale its AI-powered customer interview platform, which finds participants, conducts in-depth interviews, and delivers actionable insights faster than traditional methods. They aim to disrupt the $140 billion market research industry by combating fraud and offering a continuous feedback loop for product development.",
+    "charlotte_impact": "Listen Labs could revolutionize market research for Charlotte-based companies, enabling quicker and more insightful feedback on new products and services. This would be particularly useful for startups and growing tech companies seeking to rapidly iterate and validate their offerings. Financial institutions could also use the platform for real time understanding of consumer needs.",
     "impact_score": 7
   },
   {
-    "title": "SoftBank secures $40 billion loan to boost OpenAI investments",
-    "url": "https://www.channelnewsasia.com/business/softbank-secures-40-billion-loan-boost-openai-investments-6021261",
-    "industry": "Real Estate/Development",
-    "summary": "A major downtown redevelopment is underway in Uptown Charlotte, transforming the former Duke Energy headquarters into apartments and retail.",
-    "charlotte_impact": "While not directly AI related, this enhances Charlotte's attractiveness as a hub for tech talent by providing desirable living spaces and amenities. It supports the growth of the AI ecosystem by creating a vibrant urban environment where tech professionals want to live and work.",
-    "impact_score": 3
-  },
-  {
-    "title": "Yes, your office admin can fully remove Microsoft's Copilot app from your work PCs \u2014 if you follow this strict criteria for 28 days",
-    "url": "https://www.windowscentral.com/artificial-intelligence/microsoft-copilot/admins-can-remove-copilot-in-windows-11-insider-preview",
-    "industry": "Enterprise Software/AI Agents",
-    "summary": "Microsoft allows office admins to fully remove the Copilot app from work PCs under strict criteria, showing a degree of flexibility in Copilot deployment.",
-    "charlotte_impact": "For Charlotte's large enterprises, this offers control over AI adoption within the workplace. Organizations can strategically manage the rollout of Copilot based on their specific needs and security concerns. This also allows local IT departments to upskill in AI deployment and governance at a controlled pace.",
+    "title": "Why SoftBank\u2019s new $40B loan points to a 2026 OpenAI IPO",
+    "url": "https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/",
+    "industry": "AI Investment",
+    "summary": "SoftBank secured a new $40 billion loan, fueling speculation of a potential 2026 OpenAI IPO. This significant financial maneuver highlights the ongoing investor confidence in the long-term potential of AI and OpenAI's leading role in the sector.",
+    "charlotte_impact": "The prospect of an OpenAI IPO will likely generate excitement within Charlotte's investment community. Local fund managers and high-net-worth individuals will be closely monitoring the offering, recognizing the potential for substantial returns in a high-growth sector. This also could mean a boost to local investors who may be looking to get involved in related technology sectors.",
     "impact_score": 6
   },
   {
-    "title": "WhatsApp gets AI responses, but also useful new features",
-    "url": "https://www.notebookcheck.net/WhatsApp-gets-AI-responses-but-also-useful-new-features.1260503.0.html",
-    "industry": "Social Media/AI",
-    "summary": "WhatsApp gets AI responses, along with other useful new features, marking a further integration of AI in daily communication.",
-    "charlotte_impact": "Small businesses in Charlotte can use WhatsApp's AI features to automate customer service and marketing, improving efficiency and outreach. Local entrepreneurs can leverage these tools to engage with their customer base and drive sales, especially within the growing Hispanic community that relies on mobile messaging.",
+    "title": "OpenAI shuts down Sora while Meta gets shut out in court",
+    "url": "https://techcrunch.com/video/openai-shuts-down-sora-while-meta-gets-shut-out-in-court/",
+    "industry": "AI Regulation",
+    "summary": "OpenAI has reportedly shut down Sora while Meta experiences a setback in court, highlighting increasing regulatory pressures and public resistance to AI infrastructure projects. An 82-year-old Kentucky woman refused a $26 million offer from an AI company to build a data center on her land, underscoring the growing tension between AI expansion and community concerns.",
+    "charlotte_impact": "This resistance to AI data center development could affect future expansion plans by data center developers in the Charlotte region, requiring them to engage more proactively with local communities and address environmental concerns. This is particularly relevant as Charlotte aims to become a hub for tech and data-intensive industries.",
     "impact_score": 5
   },
   {
-    "title": "US court halts the Pentagon\u2019s \u2018supply chain risk\u2019 tag on Anthropic",
-    "url": "https://www.medianama.com/2026/03/223-us-court-pentagon-supply-chain-risk-anthropic/",
-    "industry": "Government/AI Ethics",
-    "summary": "A US court halted the Pentagon\u2019s \u2018supply chain risk\u2019 tag on Anthropic, ruling that the AI company might be 'unlawfully' punished for criticising the government in the press.",
-    "charlotte_impact": "This underscores the importance of protecting free speech and ethical AI development, which resonates with Charlotte's efforts to foster a responsible and diverse tech ecosystem. It serves as a reminder that AI companies should not be penalized for raising concerns about government policies or ethical considerations.",
+    "title": "Physical Intelligence in talks to raise $1 billion at $11 billion valuation",
+    "url": "https://economictimes.indiatimes.com/tech/funding/physical-intelligence-in-talks-to-raise-1-billion-at-11-billion-valuation/articleshow/129861525.cms",
+    "industry": "Robotics",
+    "summary": "Physical Intelligence, an AI robotics startup founded by former Google DeepMind scientists, is in talks to raise $1 billion at an $11 billion valuation, just four months after its last funding round. This significant investment indicates strong investor interest in advanced AI models for robots and their potential applications.",
+    "charlotte_impact": "While Charlotte doesn't have a large robotics industry presence, this news could stimulate local universities, such as UNC Charlotte, to increase their focus on AI-driven robotics research and development. Local manufacturing businesses could explore integrating Physical Intelligence robots to automate tasks and improve efficiency.",
     "impact_score": 4
   },
   {
-    "title": "Major Hollywood Union, SAG-AFTRA, \u2018Strongly Supports\u2019 Trump Admin\u2019s AI Framework for Human Creatives",
-    "url": "https://www.breitbart.com/entertainment/2026/03/27/sag-aftra-supports-trump-admins-ai-framework-for-human-creatives/",
-    "industry": "Entertainment/AI Ethics",
-    "summary": "SAG-AFTRA 'strongly supports' the Trump administration's AI framework for human creatives, which suggests an approach to AI regulation that balances innovation with worker protection.",
-    "charlotte_impact": "While Charlotte doesn't have a major film industry, this highlights the broader issue of AI's impact on creative jobs. Local marketing agencies and content creators need to be aware of AI's potential to disrupt their fields and should advocate for policies that safeguard their livelihoods.",
+    "title": "Bluesky leans into AI with Attie, an app for building custom feeds",
+    "url": "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
+    "industry": "Social Media",
+    "summary": "Bluesky introduced Attie, an app utilizing AI to help users build custom feeds within the atproto open social networking protocol. This move signifies the increasing integration of AI into social media platforms to enhance user experience and content discovery.",
+    "charlotte_impact": "This development showcases the potential of AI in personalizing social media experiences, a concept that could be adopted by local digital marketing agencies. Local businesses that engage with social media could benefit from AI-powered tools that enable more targeted content delivery and audience engagement.",
     "impact_score": 3
   },
   {
-    "title": "Hong Kong\u2019s Largest Standalone Intelligent Computing Hub \u2014 The Official Launch of China Mobile Global Intelligence Center",
-    "url": "https://www.thehindubusinessline.com/brandhub/pr-release/hong-kongs-largest-standalone-intelligent-computing-hub-the-official-launch-of-china-mobile-global-intelligence-center/article70791539.ece",
-    "industry": "Infrastructure/AI",
-    "summary": "Hong Kong's largest standalone intelligent computing hub, the China Mobile Global Intelligence Center, was officially launched.",
-    "charlotte_impact": "This development, although geographically distant, highlights the global race for AI infrastructure. It creates a competitive landscape that might incentivize Charlotte's leaders to invest more in local computing resources to support AI development and attract AI-focused businesses.",
-    "impact_score": 4
-  },
-  {
-    "title": "SoftBank secures $40 billion loan to boost OpenAI investments",
-    "url": "https://www.channelnewsasia.com/business/softbank-secures-40-billion-loan-boost-openai-investments-6021261",
-    "industry": "Finance",
-    "summary": "SoftBank secured a $40 billion loan to boost investments in OpenAI, indicating a strong belief in AI's future.",
-    "charlotte_impact": "This large-scale investment underscores the broader trend of capital flowing into AI companies, which may indirectly influence Charlotte's financial sector. It could encourage local investment firms to allocate more capital towards AI startups or companies leveraging AI, potentially fostering innovation and growth within the region's tech ecosystem.",
+    "title": "Stanford study outlines dangers of asking AI chatbots for personal advice",
+    "url": "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
+    "industry": "AI Ethics",
+    "summary": "A Stanford study highlights the dangers of asking AI chatbots for personal advice, raising concerns about the potential for harmful or biased recommendations. This underscores the importance of careful consideration and ethical guidelines in the development and deployment of AI-powered advice systems.",
+    "charlotte_impact": "This study is a reminder that, as Charlotte businesses integrate AI, they need a dedicated focus on ethics to maintain compliance and avoid potentially harmful or biased outcomes. Healthcare providers using AI for initial diagnosis or personalized treatment plans must prioritize patient safety and ethical considerations.",
     "impact_score": 7
   },
   {
-    "title": "Canada Ex-Defense Minister\u2019s Startup Juno Sees Anduril-Type Role",
-    "url": "https://financialpost.com/pmn/business-pmn/canada-ex-defense-ministers-startup-juno-sees-anduril-type-role",
-    "industry": "Defense Technology",
-    "summary": "Canada Ex-Defense Minister\u2019s Startup Juno Sees Anduril-Type Role",
-    "charlotte_impact": "This highlights the increasing convergence of AI and defense. While Charlotte is not a major defense hub, it could spur interest in the application of AI for security and infrastructure protection within the city.",
+    "title": "Wikipedia cracks down on the use of AI in article writing",
+    "url": "https://techcrunch.com/2026/03/26/wikipedia-cracks-down-on-the-use-of-ai-in-article-writing/",
+    "industry": "Content Moderation",
+    "summary": "Wikipedia is cracking down on the use of AI in article writing, highlighting concerns about the quality and accuracy of AI-generated content. This decision reflects the ongoing debate and challenges surrounding the responsible use of AI in content creation and dissemination.",
+    "charlotte_impact": "Wikipedia's decision to crack down on AI content could affect the content strategies of local businesses that rely on Wikipedia for SEO or brand awareness. It reinforces the importance of human oversight and quality control in AI-assisted content creation.",
+    "impact_score": 2
+  },
+  {
+    "title": "Why Your Next Car Might Soon Need 300GB Of RAM | Carscoops",
+    "url": "https://www.carscoops.com/2026/03/autonomous-vehicle-ram-demand/",
+    "industry": "Automotive",
+    "summary": "For Level 4 autonomy to be a reality, cars may look like mobile data centers with massive demands for memory. This is due to the massive amounts of data required for perception, mapping, and planning.",
+    "charlotte_impact": "Increased autonomy is a major interest for OEMs, suppliers, and tech companies. This increased reliance on autonomous vehicles will likely grow tech jobs in the area.",
+    "impact_score": 5
+  },
+  {
+    "title": "Cyber threats moving from data theft to physical life risks: Deloitte Cyber Lead",
+    "url": "https://www.thehindubusinessline.com/info-tech/cyber-threats-moving-from-data-theft-to-physical-life-risks-deloitte-cyber-lead/article70795886.ece",
+    "industry": "Cybersecurity",
+    "summary": "Cyber threats are moving from data theft to physical life risks. Gaurav Shukla, Partner and Leader - Cyber at Deloitte South Asia, explains that a cyber attack on a medical device altering patient data could be fatal, while a hack on power generation and transmission components could cause severe national blackouts.",
+    "charlotte_impact": "Charlotte is a financial hub with many banks and large corporations. As such, cybersecurity threats have become a concern for businesses of all sizes. The importance of investing in cybersecurity measures should be a top priority for the city's business leaders.",
+    "impact_score": 8
+  },
+  {
+    "title": "Cyber threats moving from data theft to physical life risks: Deloitte cyber lead",
+    "url": "https://economictimes.indiatimes.com/tech/technology/cyber-threats-moving-from-data-theft-to-physical-life-risks-deloitte-cyber-lead/articleshow/129862388.cms",
+    "industry": "Cybersecurity",
+    "summary": "Cyber threats moving from data theft to physical life risks: Deloitte cyber lead. Gaurav Shukla, partner and leader - cyber at Deloitte South Asia, explained that a cyber attack on a medical device altering patient data could be fatal, while a hack on power generation and transmission components could cause severe national blackouts.",
+    "charlotte_impact": "Given Charlotte's banking and energy sectors, heightened cybersecurity threats pose significant risks. A cyberattack on financial institutions could disrupt economic activity and compromise sensitive customer data, while a hack on Duke Energy's infrastructure could lead to widespread blackouts and endanger lives. Local organizations need to prioritize cybersecurity investments and collaborative threat intelligence sharing.",
+    "impact_score": 9
+  },
+  {
+    "title": "Trump wants a deadlocked Congress to move on AI. Frustrated states say they already have",
+    "url": "https://www.npr.org/2026/03/28/nx-s1-5755062/trump-wants-a-deadlocked-congress-to-move-on-ai-frustrated-states-say-they-already-have",
+    "industry": "AI Regulation",
+    "summary": "Trump wants a deadlocked Congress to move on AI. Frustrated states say they already have.",
+    "charlotte_impact": "Due to the lack of federal progress on AI regulation, local companies in the Carolinas could face a patchwork of state laws impacting how they build and deploy AI tools. The federal goverment must work quickly to set standards for the future.",
+    "impact_score": 5
+  },
+  {
+    "title": "David Sacks is done as AI czar \u2014 here\u2019s what he\u2019s doing instead",
+    "url": "https://techcrunch.com/2026/03/26/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/",
+    "industry": "Politics",
+    "summary": "David Sacks is done as AI czar. This implies a change in policy direction, or at least access and influence.",
+    "charlotte_impact": "A pivot in AI policy can greatly impact how Charlotte businesses and stakeholders operate. Policy changes can impact the tech industry at large and thus the growth and development of the sector as a whole. ",
     "impact_score": 3
   },
   {
-    "title": "Gemma O'Doherty relied on 'AI hallucinations' in failed appeal of Guerin defamation case, judge found",
-    "url": "https://www.thejournal.ie/gemma-odoherty-ai-appeal-court-veronica-guerin-6996321-Mar2026/",
-    "industry": "Law/Ethics",
-    "summary": "Gemma O'Doherty relied on 'AI hallucinations' in failed appeal of Guerin defamation case, judge found",
-    "charlotte_impact": "This serves as a stark reminder of the potential dangers of relying on AI-generated content without proper verification. For Charlotte businesses, particularly those in media and legal services, it underscores the need for strict fact-checking processes and critical evaluation of AI-generated information to avoid legal and reputational risks.",
-    "impact_score": 6
+    "title": "Anthropic wins injunction against Trump administration over Defense Department saga",
+    "url": "https://techcrunch.com/2026/03/26/anthropic-wins-injunction-against-trump-administration-over-defense-department-saga/",
+    "industry": "Law",
+    "summary": "Anthropic wins injunction against Trump administration over Defense Department saga. This will allow the company to progress with their projects and provide innovation.",
+    "charlotte_impact": "Increased technological advancement in the space will translate into more innovation across the enterprise landscape, affecting many Charlotte businesses. The ability for the tech sector to grow will also attract more investment into the area, furthering the area's reputation as a tech hub.",
+    "impact_score": 5
+  },
+  {
+    "title": "AI Planned Her Vacation, With Some Hits (and Big Misses)",
+    "url": "https://www.newser.com/story/386094/ai-planned-her-vacation-with-some-hits-and-big-misses.html",
+    "industry": "Travel",
+    "summary": "AI Planned Her Vacation, With Some Hits (and Big Misses). This shows AI is not yet perfect and can not be wholly relied on.",
+    "charlotte_impact": "The accuracy of AI travel tools and technologies is not yet where it needs to be. Travel agencies and businesses alike should be wary when relying on this technology.",
+    "impact_score": 1
+  },
+  {
+    "title": "Ukraine demonstrates advanced air defence capabilities to Lithuania and plans joint support for defence startups",
+    "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/03/ukraine-260327-ukraine-mod01.htm",
+    "industry": "Defense",
+    "summary": "Ukraine demonstrates advanced air defence capabilities to Lithuania and plans joint support for defence startups. Technology is constantly being pushed to improve air defence capabilities.",
+    "charlotte_impact": "Due to the increased support of defence startups, this may translate to technological transfer. This could cause new talent to flock into the area and set up shop to expand the reach of defense technology.",
+    "impact_score": 4
+  },
+  {
+    "title": "AudioEye (AEYE) Gains from DOJ Accessibility Mandate Tailwinds Despite Price Target Cuts on Mixed Guidance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/audioeye-aeye-gains-doj-accessibility-101718340.html",
+    "industry": "Legal Tech",
+    "summary": "AudioEye (AEYE) Gains from DOJ Accessibility Mandate Tailwinds Despite Price Target Cuts on Mixed Guidance",
+    "charlotte_impact": "Businesses must maintain compliance to avoid litigation. Charlotte companies may look into tools like AudioEye to prevent litigation issues.",
+    "impact_score": 3
+  },
+  {
+    "title": "Here\u2019s how countries are cracking down on kids\u2019 social media use",
+    "url": "https://economictimes.indiatimes.com/tech/technology/heres-how-countries-are-cracking-down-on-kids-social-media-use/articleshow/129862497.cms",
+    "industry": "Social Media",
+    "summary": "Here\u2019s how countries are cracking down on kids\u2019 social media use",
+    "charlotte_impact": "As concerns over online safety increase, Charlotte companies need to make sure their policies and technologies prevent violations. They need to verify data and keep up with compliance costs.",
+    "impact_score": 3
+  },
+  {
+    "title": "Global leaders gather in Istanbul for talks on communication, diplomacy",
+    "url": "https://www.hurriyetdailynews.com/global-leaders-gather-in-istanbul-for-talks-on-communication-diplomacy-220404",
+    "industry": "Global Politics",
+    "summary": "Global leaders gather in Istanbul for talks on communication, diplomacy",
+    "charlotte_impact": "The International Strategic Communication Summit focused on global instability, mediation diplomacy, digital transformation and the growing importance of AI in communications. These factors may influence how Charlotte businesses strategize to maintain global influence.",
+    "impact_score": 2
+  },
+  {
+    "title": "Minister Anand meets with Germany's Federal Minister for Foreign Affairs at G7 Foreign Ministers' Meeting",
+    "url": "https://www.globalsecurity.org/wmd/library/news/canada/2026/canada-260327-canada01.htm",
+    "industry": "Global Politics",
+    "summary": "Minister Anand meets with Germany's Federal Minister for Foreign Affairs at G7 Foreign Ministers' Meeting",
+    "charlotte_impact": "The Honourable Anita Anand, Minister of Foreign Affairs, today met with Johann Wadephul, Germany's Federal Minister for Foreign Affairs, at the G7 Foreign Ministers' Meeting in Vaux-de-Cernay, France. These partnerships may lead to advances in international business.",
+    "impact_score": 1
+  },
+  {
+    "title": "Minister Pevkur in Warsaw: Poland a Priority Partner for Estonia's Defence Industry",
+    "url": "https://www.globalsecurity.org/military/library/news/2026/03/mil-260327-estonia-mod01.htm",
+    "industry": "Defense",
+    "summary": "Minister Pevkur in Warsaw: Poland a Priority Partner for Estonia's Defence Industry",
+    "charlotte_impact": "Estonian Minister of Defence Hanno Pevkur met today in Warsaw with his Polish counterpart, W\u0142adys\u0142aw Kosiniak-Kamysz, to discuss strengthening defence cooperation, the European security environment, and the development of the defence industry. These partnerships may lead to advances in international business.",
+    "impact_score": 2
+  },
+  {
+    "title": "Firms flag data verification, compliance costs as major challenge under DPDP regime",
+    "url": "https://economictimes.indiatimes.com/tech/technology/firms-flag-data-verification-compliance-costs-as-major-challenge-under-dpdp-regime/articleshow/129861183.cms",
+    "industry": "Regulatory Compliance",
+    "summary": "Firms flag data verification, compliance costs as major challenge under DPDP regime",
+    "charlotte_impact": "The rising costs of meeting compliance is spooking many, with nearly 30% of respondents saying these new expenditures will be more than 10% of their turnover. They also fear business operations will be disrupted as routine tasks like security updates, marketi\u2026",
+    "impact_score": 5
+  },
+  {
+    "title": "Elon Musk\u2019s last co-founder reportedly leaves xAI",
+    "url": "https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/",
+    "industry": "AI Company",
+    "summary": "Elon Musk\u2019s last co-founder reportedly leaves xAI",
+    "charlotte_impact": "All but two of Musk's 11 xAI co-founders departed before this week. The company's future may be at question and talent may flow out to other firms. This may mean other firms may be at a discount to pick up that talent.",
+    "impact_score": 3
+  },
+  {
+    "title": "VCs are betting billions on AI\u2019s next wave, so why is OpenAI killing Sora?",
+    "url": "https://techcrunch.com/podcast/vcs-are-betting-billions-on-ais-next-wave-so-why-is-openai-killing-sora/",
+    "industry": "AI Company",
+    "summary": "VCs are betting billions on AI\u2019s next wave, so why is OpenAI killing Sora?",
+    "charlotte_impact": "When an 82-year-old Kentucky woman was&#160;offered $26 million&#160;from an AI company that wanted to build a data center on her land, she said no. The AI space may be overinvested in given market resistance.",
+    "impact_score": 4
   }
 ]
