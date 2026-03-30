@@ -2,201 +2,161 @@
   {
     "title": "为什么软银新的 400 亿美元贷款指向 2026 年 OpenAI IPO",
     "url": "https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/",
-    "industry": "Finance, AI",
-    "summary": "软银正在获得一笔 400 亿美元的贷款，这引发了人们对 OpenAI 可能在 2026 年进行 IPO 的猜测。这笔贷款是无抵押的，由华尔街巨头摩根大通和高盛提供。",
-    "charlotte_impact": "此次大量资本注入进一步验证了人工智能颠覆各行业并创造新投资机会的潜力。  OpenAI 的成功 IPO 可能会对科技市场产生重大影响，导致投资者对人工智能及相关公司的兴趣增加，有可能全面提升估值并推动进一步的创新和竞争。",
+    "industry": "Finance",
+    "summary": "软银从摩根大通和高盛获得 400 亿美元贷款，引发了有关 OpenAI 即将于 2026 年 IPO 的猜测。",
+    "charlotte_impact": "这笔巨额贷款表明投资者对 OpenAI 未来增长潜力充满信心。首次公开募股将极大地影响人工智能投资格局，吸引更多关注和资本进入该行业。虽然直接的地理影响很小，但各行业的公司都需要了解 OpenAI 不断增强的财务实力和战略方向。",
     "impact_score": 9
   },
   {
     "title": "OpenAI 关闭了 Sora，Meta 在法庭上被拒",
     "url": "https://techcrunch.com/video/openai-shuts-down-sora-while-meta-gets-shut-out-in-court/",
-    "industry": "AI, Real Estate, Ethics",
-    "summary": "据报道，OpenAI 已关闭 Sora，而 Meta 则面临法律挑战。  一名 82 岁的妇女拒绝了价值 2600 万美元的土地建设人工智能数据中心的报价，凸显了人工智能基础设施与现实世界影响之间日益紧张的关系。",
-    "charlotte_impact": "数据中心开发的阻力凸显了人工智能基础设施项目在获得土地和社区支持方面面临的日益严峻的挑战。这可能会增加建设新数据中心所需的成本和时间，影响人工智能技术的整体增长和部署，并可能引发社区关于分区和环境影响的辩论。",
+    "industry": "AI Ethics, Real Estate",
+    "summary": "一位 82 岁的肯塔基州妇女拒绝了 2600 万美元的土地建设数据中心，这说明人工智能基础设施扩张与现实世界的阻力之间日益紧张。",
+    "charlotte_impact": "这种情况凸显了将人工智能基础设施扩展到农村地区时所面临的挑战。随着数据中心需求的增加，类似的情况可能会出现在北卡罗来纳州夏洛特及其周边地区，这可能会导致土地价值增加以及开发商与当地社区之间的冲突。",
+    "impact_score": 7
+  },
+  {
+    "title": "OpenAI 放弃了另一个支线任务：ChatGPT 的色情模式",
+    "url": "https://techcrunch.com/2026/03/26/openai-abandons-yet-another-side-quest-chatgpts-erotic-mode/",
+    "industry": "AI Product Development",
+    "summary": "OpenAI 放弃了 ChatGPT 的色情模式，标志着另一个副项目在过去一周被终止。",
+    "charlotte_impact": "这种转变凸显了开发人工智能产品时考虑道德和社会因素的困难。它可能会影响当地的人工智能开发策略，鼓励在部署可能有争议的功能之前更加谨慎和稳健的测试。",
+    "impact_score": 5
+  },
+  {
+    "title": "Starcloud 筹集 1.7 亿美元 A 轮融资，建设太空数据中心",
+    "url": "https://techcrunch.com/2026/03/30/starcloud-raises-170-million-series-ato-build-data-centers-in-space/",
+    "industry": "Space, AI Infrastructure",
+    "summary": "Y Combinator 初创公司 Starcloud 在筹集 1.7 亿美元 A 轮资金用于建设太空数据中心后，跻身独角兽行列。",
+    "charlotte_impact": "天基数据中心的发展代表了人工智能基础设施的长期变革趋势。虽然这看起来似乎很遥远，但夏洛特周边电信和航空航天领域的公司可以从与天基计算相关的合作伙伴关系或研究机会中受益。",
+    "impact_score": 8
+  },
+  {
+    "title": "为什么 OpenAI 真的关闭了 Sora",
+    "url": "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
+    "industry": "AI Product Development, Data Privacy",
+    "summary": "人们猜测 OpenAI 决定关闭人工智能视频生成工具 Sora，人们担心用户面部上传可能会收集数据。",
+    "charlotte_impact": "这种情况凸显了数据隐私和安全在人工智能应用中的至关重要性。夏洛特地区开发或使用人工智能工具的公司必须确保采取强有力的数据保护措施，以避免类似争议并维护用户信任。",
     "impact_score": 7
   },
   {
     "title": "风险投资家在人工智能的下一波浪潮上押注数十亿美元，那么为什么 OpenAI 会杀死 Sora？",
     "url": "https://techcrunch.com/podcast/vcs-are-betting-billions-on-ais-next-wave-so-why-is-openai-killing-sora/",
-    "industry": "AI, Venture Capital",
-    "summary": "风险投资公司正在大力投资人工智能，但据称 OpenAI 正在关闭 Sora。这次关闭引发了人们对人工智能生成视频的可行性和整个人工智能炒作周期的质疑。",
-    "charlotte_impact": "这给人工智能视频市场带来了不确定性，迫使投资者和公司重新评估其策略，并专注于更可持续和商业上可行的人工智能应用。  它可能会导致转向更实用的人工智能解决方案，并对投机性人工智能项目采取更谨慎的态度。",
-    "impact_score": 7
+    "industry": "Venture Capital, AI Video Generation",
+    "summary": "风险投资家在人工智能的下一波浪潮上押注数十亿美元，而 OpenAI 关闭了 Sora，引发了人们对人工智能视频生成可行性的质疑。",
+    "charlotte_impact": "这种情况凸显了人工智能投资的波动性以及押注特定人工智能技术所涉及的潜在风险。夏洛特的投资者和企业必须仔细评估与人工智能企业相关的长期生存能力和风险。",
+    "impact_score": 6
   },
   {
     "title": "Sora 的关闭可能是人工智能视频的现实检验时刻",
     "url": "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/",
-    "industry": "AI, Media, Video Generation",
-    "summary": "Sora 的关闭可能是对人工智能视频行业的现实检验。  此举引发了人们对人工智能生成视频的未来的疑问，以及它是否预示着该行业将出现更广泛的回调。",
-    "charlotte_impact": "Sora 的关闭可能会导致媒体公司和内容创作者重新考虑对人工智能生成视频工具的依赖。这可能会导致对传统视频制作方法的投资增加，或者更加关注增强而不是取代人类创造力的人工智能工具。它还可能影响人工智能生成内容的开发和监管，以确保准确性和道德标准。",
-    "impact_score": 7
+    "industry": "AI Video Generation",
+    "summary": "Sora 的关闭可能标志着人工智能视频生成的现实检验，引发了有关该领域潜在更广泛回调的争论。",
+    "charlotte_impact": "这一发展可能会影响夏洛特地区探索人工智能生成视频内容的公司，促使他们重新评估这一特定人工智能应用的战略和投资计划。",
+    "impact_score": 5
   },
   {
     "title": "Bluesky 借助 Attie 进军人工智能领域，Attie 是一款用于构建自定义提要的应用程序",
     "url": "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
-    "industry": "Social Media, AI",
-    "summary": "Bluesky 推出了 Attie，这是一款使用人工智能在 atproto 社交网络协议上构建自定义提要的应用程序。",
-    "charlotte_impact": "将人工智能融入社交媒体平台有可能实现个性化用户体验并增强内容发现。 Attie 的自定义提要功能可以提高参与度并在 Bluesky 内培育利基社区。  这可能会迫使大型社交媒体公司采用类似的人工智能驱动的个性化功能。",
+    "industry": "Social Media, AI Applications",
+    "summary": "Bluesky 推出了 Attie，这是一款人工智能驱动的应用程序，可帮助用户在 atproto 开放社交网络协议上构建自定义提要。",
+    "charlotte_impact": "将人工智能集成到社交媒体平台以创建个性化内容是一种日益增长的趋势。位于夏洛特的营销和广告公司可以利用人工智能工具来增强其社交媒体策略和与目标受众的互动。",
     "impact_score": 6
   },
   {
     "title": "斯坦福大学的研究概述了向人工智能聊天机器人寻求个人建议的危险",
     "url": "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
-    "industry": "AI, Ethics, Healthcare",
-    "summary": "斯坦福大学的一项研究强调了向人工智能聊天机器人寻求个人建议的危险性，引发了人们对潜在有害阿谀奉承的担忧。",
-    "charlotte_impact": "这项研究强调了使用人工智能聊天机器人提供个人建议相关的道德风险，特别是在医疗保健和金融等敏感领域。这些发现可能会导致针对人工智能聊天机器人开发和部署制定更严格的法规和指南，并加大力度教育用户了解人工智能生成建议的局限性和潜在偏见。",
-    "impact_score": 8
+    "industry": "AI Ethics, Mental Health",
+    "summary": "斯坦福大学的一项研究揭示了向人工智能聊天机器人寻求个人建议的潜在危险，强调了对有害阿谀奉承的担忧。",
+    "charlotte_impact": "这项研究强调了在心理健康等敏感领域部署人工智能的伦理考虑。在夏洛特地区开发基于人工智能的咨询服务的公司必须优先考虑用户安全，并避免提供有害或有偏见的指导。",
+    "impact_score": 7
   },
   {
     "title": "据报道，埃隆·马斯克的最后一位联合创始人离开了 xAI",
     "url": "https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/",
-    "industry": "AI",
-    "summary": "据报道，另一位联合创始人离开了埃隆·马斯克的 xAI，这表明潜在的内部挑战和公司方向的转变。",
-    "charlotte_impact": "联合创始人的高流动率可能会对投资者的信心产生负面影响，并阻碍公司吸引和留住顶尖人才的能力。  这可能会减慢 xAI 的创新步伐，并影响其在人工智能市场的竞争力。",
-    "impact_score": 6
+    "industry": "AI Talent, AI Companies",
+    "summary": "据报道，埃隆·马斯克 (Elon Musk) 的最后一位联合创始人继早些时候离职后也离开了 xAI，这表明公司内部可能存在动荡。",
+    "charlotte_impact": "知名人工智能公司关键人员的离职可能会影响其发展轨迹和投资者信心。本地人工智能公司必须优先考虑留住人才并营造积极的工作环境，以避免类似的干扰。",
+    "impact_score": 5
   },
   {
     "title": "Anthropic 因国防部事件赢得针对特朗普政府的禁令",
     "url": "https://techcrunch.com/2026/03/26/anthropic-wins-injunction-against-trump-administration-over-defense-department-saga/",
-    "industry": "AI, Politics, Government",
+    "industry": "AI Regulation, Government",
     "summary": "Anthropic 赢得了针对特朗普政府的禁令，取消了对该人工智能公司的限制。",
-    "charlotte_impact": "这项法律胜利可能会对 Anthropic 在人工智能市场的运营和竞争能力产生重大影响，因为该禁令消除了政府此前施加的限制。该决定凸显了技术创新与政治监督之间持续存在的紧张关系，并可能影响人工智能公司未来的监管政策。",
-    "impact_score": 7
+    "charlotte_impact": "这一法律胜利凸显了人工智能创新与政府监管之间持续存在的紧张关系。这意味着夏洛特地区和全国范围内的人工智能公司必须密切监控并与监管机构合作，以确保良好的运营环境。",
+    "impact_score": 6
   },
   {
     "title": "维基百科严厉打击在文章写作中使用人工智能",
     "url": "https://techcrunch.com/2026/03/26/wikipedia-cracks-down-on-the-use-of-ai-in-article-writing/",
-    "industry": "AI, Media, Content Creation",
-    "summary": "出于对质量和可靠性的担忧，维基百科正在打击在文章写作中使用人工智能。",
-    "charlotte_impact": "维基百科限制人工智能生成内容的决定可能会促使其他媒体组织和内容平台重新评估其人工智能政策。这可能会导致对人工智能生成内容的审查更加严格，并更加重视人类监督和事实核查，以确保准确性和可信度。",
-    "impact_score": 7
+    "industry": "Content Creation, AI Ethics",
+    "summary": "维基百科严厉打击在文章写作中使用人工智能，强调了对准确性和真实性的担忧。",
+    "charlotte_impact": "这一决定强调了人类监督在内容创建中的重要性，以及解决使用人工智能时潜在的偏见和错误信息的必要性。夏洛特的内容创作者和教育工作者在使用人工智能工具时应强调批判性思维和验证。",
+    "impact_score": 6
   },
   {
     "title": "字节跳动全新AI视频生成模型Dreamina Seedance 2.0登陆CapCut",
     "url": "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/",
-    "industry": "AI, Media, Video Generation",
-    "summary": "字节跳动的 Dreamina Seedance 2.0 AI 视频生成模型即将登陆 CapCut，内置对真实面孔和知识产权的保护。",
-    "charlotte_impact": "这些保护措施的实施可以为道德人工智能视频生成制定新标准，影响其他开发者并促进负责任地使用人工智能技术。  它还可能吸引更多担心侵犯版权和滥用个人肖像的用户使用 CapCut。",
-    "impact_score": 7
+    "industry": "AI Video Generation",
+    "summary": "字节跳动将其新的人工智能视频生成模型 Dreamina Seedance 2.0 集成到 CapCut 中，并内置针对未经授权内容的保护。",
+    "charlotte_impact": "将人工智能视频生成集成到流行的编辑应用程序中，展示了这些技术日益增强的可访问性和复杂性。本地内容创作者和企业可以利用人工智能来增强视频营销力度，但他们必须注意版权和知识产权问题。",
+    "impact_score": 6
   },
   {
     "title": "Conntour 从 General Catalyst 和 YC 筹集了 700 万美元，用于构建用于安全视频系统的人工智能搜索引擎",
     "url": "https://techcrunch.com/2026/03/26/conntour-raises-7m-from-general-catalyst-yc-to-build-an-ai-search-engine-for-security-video-systems/",
-    "industry": "AI, Security",
-    "summary": "Conntour 筹集了 700 万美元来构建用于安全视频系统的人工智能搜索引擎，使团队能够使用自然语言查询摄像机源。",
-    "charlotte_impact": "这种人工智能驱动的搜索引擎可以显着提高安全运营的效率和有效性。它可以缩短对安全威胁的响应时间，并实现对设施的主动监控，从而提高安全性并降低运营成本。",
-    "impact_score": 8
+    "industry": "AI Security, Surveillance",
+    "summary": "Conntour 筹集了 700 万美元，用于开发用于安全视频系统的人工智能搜索引擎，支持对物体、人或情况进行自然语言查询。",
+    "charlotte_impact": "人工智能驱动的安全系统变得越来越复杂，从而实现更高效的监控和响应能力。夏洛特的企业和执法机构可以利用这些技术来增强安全性并提高态势感知能力。",
+    "impact_score": 7
   },
   {
-    "title": "数据中心的“一磅肉”：一位参议员对人工智能失业的回答",
-    "url": "https://techcrunch.com/2026/03/26/a-pound-of-flesh-from-data-centers-one-senators-answer-to-ai-job-losses/",
-    "industry": "AI, Politics, Economics",
-    "summary": "一位参议员建议对数据中心征税，以帮助受人工智能驱动的失业影响的工人。",
-    "charlotte_impact": "拟议的数据中心税可能会产生重大经济后果，可能会增加云计算和人工智能服务的成本，从而影响创新和采用。它还表明政治上越来越关注解决人工智能对就业的潜在负面影响。",
-    "impact_score": 8
+    "title": "礼来公司将与香港 Insilico Medicine 签署 20 亿美元人工智能药物开发协议：报告",
+    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/eli-lilly-to-sign-2-billion-deal-for-ai-drug-development-with-hong-kongs-insilico-medicine-report/articleshow/129879620.cms",
+    "industry": "Pharmaceuticals, Drug Discovery",
+    "summary": "据报道，礼来公司 (Eli Lilly) 与 Insilico Medicine 签署了一项价值 20 亿美元的协议，用于人工智能驱动的药物开发，重点开发治疗糖尿病的 GLP-1 药物。",
+    "charlotte_impact": "这笔巨额交易凸显了人工智能在药物研发中日益重要的作用。夏洛特地区的生物制药公司可以探索与人工智能公司的伙伴关系和合作，以加速药物发现并改善患者治疗结果。",
+    "impact_score": 9
   },
   {
-    "title": "CriptoLoja 评论：安全还是有风险的交易工具？测试和分析",
-    "url": "https://whatjapanthinks.com/criptoloja-review/",
-    "industry": "Finance, AI, Crypto",
-    "summary": "CriptoLoja 是一个使用机器学习技术进行数字资产投资的加密货币交易系统。",
-    "charlotte_impact": "机器学习在加密货币交易平台中的日益集成可以带来更高效和自动化的交易策略。然而，它也带来了与算法偏差、市场操纵以及加密货币市场系统性不稳定的可能性相关的风险，需要仔细的监控和监管。",
+    "title": "开发者警告说，大量的vibe编码应用程序可能会减缓苹果的审批速度",
+    "url": "https://www.businessinsider.com/developers-warn-flood-vibe-coded-apps-could-slow-apple-approvals-2026-3",
+    "industry": "App Development, AI Integration",
+    "summary": "开发人员警告说，人工智能推动的大量“vibe-coded”应用程序可能会减慢苹果应用程序商店的审批速度。",
+    "charlotte_impact": "这种情况凸显了人工智能驱动的应用程序数量不断增加，以及应用程序商店在审核和批准这些应用程序时面临的挑战。夏洛特开发人工智能应用程序的开发人员必须确保遵守应用程序商店指南，并优先考虑质量和用户体验。",
     "impact_score": 5
   },
   {
-    "title": "Marnevance 评论：值得信赖的交易系统还是欺诈？结果曝光",
-    "url": "https://whatjapanthinks.com/marnevance-review/",
-    "industry": "Finance, AI, Crypto",
-    "summary": "Marnevance 是一种利用人工智能改善交易体验的加密货币交易解决方案。",
-    "charlotte_impact": "人工智能驱动的平台可以提高交易效率和潜在的盈利能力。然而，审查索赔并确保适当的监管和测试以避免欺诈或市场操纵至关重要。透明度和强大的安全措施对于保护用户投资和数据至关重要。",
-    "impact_score": 5
+    "title": "德勤南亚首席运营官驳斥人工智能失业担忧，在印度大规模招聘中推动技能提升",
+    "url": "https://www.thehindubusinessline.com/info-tech/deloitte-south-asia-coo-dismisses-ai-job-loss-fears-pushes-for-upskilling-amid-massive-india-hiring/article70799130.ece",
+    "industry": "Consulting, Workforce Development",
+    "summary": "德勤南亚区首席运营官驳斥了人们对人工智能失业的担忧，主张在印度大量招聘的情况下提高技能。",
+    "charlotte_impact": "这种观点强调了人工智能时代劳动力适应的重要性。夏洛特的企业和教育机构应投资技能提升计划，让工人为不断变化的就业市场做好准备，并确保顺利过渡到人工智能驱动的工作场所。",
+    "impact_score": 7
   },
   {
-    "title": "Vercadix 评论：合法还是骗局？全面细分",
-    "url": "https://whatjapanthinks.com/vercadix-review/",
-    "industry": "Finance, AI, Crypto",
-    "summary": "Vercadix 是一种利用人工智能简化交易流程的数字资产交易解决方案。",
-    "charlotte_impact": "加密领域人工智能驱动平台的兴起可以让更广泛的投资者更容易进行交易。然而，评估这些平台的合法性和可靠性非常重要，因为加密市场很容易受到诈骗和欺诈计划的影响。投资者在参与任何新的交易平台之前应谨慎行事并进行彻底的研究。",
-    "impact_score": 5
+    "title": "德勤南亚首席运营官驳斥人工智能失业担忧，在印度大规模招聘中推动技能提升",
+    "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/deloitte-south-asia-coo-dismisses-ai-job-loss-fears-pushes-for-upskilling-amid-massive-india-hiring/articleshow/129878680.cms",
+    "industry": "Consulting, Workforce Development",
+    "summary": "德勤南亚区首席运营官驳斥了人们对人工智能失业的担忧，并在印度大规模招聘的情况下推动提高技能。",
+    "charlotte_impact": "这强化了夏洛特地区采取积极主动的劳动力适应战略的必要性。德勤在印度计划建立当地的“量子卓越中心”，可能会激发当地类似中心的兴趣和发展。",
+    "impact_score": 7
   },
   {
-    "title": "Veralis Estates 评论：可靠的交易平台还是骗局？我们的发现",
-    "url": "https://whatjapanthinks.com/veralis-estates-review/",
-    "industry": "Finance, AI, Crypto",
-    "summary": "Veralis Estates 是一个全新创建的数字资产交易解决方案，采用先进的人工智能。",
-    "charlotte_impact": "人工智能在加密货币交易平台中的集成有可能优化交易策略并改善投资结果。然而，验证这些平台的声明并确保它们不具有误导性或欺骗性非常重要。投资者应该警惕那些承诺不切实际的回报或缺乏运营透明度的平台。",
-    "impact_score": 5
+    "title": "MCP 将人工智能从聊天转向工作",
+    "url": "https://www.practicalecommerce.com/mcp-shifts-ai-from-chat-to-work",
+    "industry": "E-commerce, AI",
+    "summary": "模型上下文协议 (MCP) 标志着人工智能从聊天工具向企业内部操作员的转变。",
+    "charlotte_impact": "MCP从聊天工具向业务运营商的转变是一个关键的发展。这对北卡罗来纳州夏洛特市具有深远的经济和工业影响。  除了基本的客户服务之外，公司还可以从人工智能中受益。这为当地大大小小的企业提供了在其内部工作流程中采用和实施该工具的机会。",
+    "impact_score": 7
   },
   {
-    "title": "身份诈骗的增加：它们在哪里以及如何避免它们？",
-    "url": "https://www.digitaljournal.com/tech-science/rise-in-identity-scams-where-are-they-and-how-to-avoid-them/article",
-    "industry": "Security, AI, Technology",
-    "summary": "身份诈骗的激增需要提高警惕和意识，以防止冒充和金融欺诈。",
-    "charlotte_impact": "身份诈骗的增加凸显了加强安全措施和改进欺诈检测系统的必要性。企业和消费者应采取使用强密码、启用多因素身份验证和监控信用报告等做法来防止身份盗窃。人工智能可以通过先进的欺诈检测算法和生物特征认证技术在检测和防止身份诈骗方面发挥作用。",
-    "impact_score": 6
-  },
-  {
-    "title": "Bienestar 即时评论：真正的交易软件还是骗局？事实揭晓",
-    "url": "https://whatjapanthinks.com/immediate-bienestar-review/",
-    "industry": "Finance, AI, Crypto",
-    "summary": "Immediate Bienestar 在在线交易中利用人工智能来改善加密货币交易者的交易旅程。",
-    "charlotte_impact": "虽然人工智能驱动的交易平台可能会带来潜在的好处，但投资者了解相关风险也很重要。这些平台可能容易受到算法错误、数据泄露和市场操纵的影响。投资者在委托资金之前应仔细评估平台的安全协议和风险管理策略。",
-    "impact_score": 5
-  },
-  {
-    "title": "Amethance 评论：骗局还是合法交易平台？真相大白",
-    "url": "https://whatjapanthinks.com/amethance-review/",
-    "industry": "Finance, AI, Crypto",
-    "summary": "Amethance 利用机器智能来增强对加密货币感兴趣的个人的交易体验。",
-    "charlotte_impact": "将机器智能融入加密货币交易平台可以实现更复杂和适应性更强的交易策略。然而，投资者应谨慎对待人工智能算法和交易实践缺乏透明度的平台。了解人工智能系统如何工作以及它使用哪些数据来做出交易决策非常重要。",
-    "impact_score": 5
-  },
-  {
-    "title": "instantapi-sdk 添加到 PyPI",
-    "url": "https://pypi.org/project/instantapi-sdk/",
-    "industry": "Software Development, AI",
-    "summary": "InstantAPI-sdk 是 InstantAPI 的官方 Python SDK，现已在 PyPI 上提供。",
-    "charlotte_impact": "instantapi-sdk的发布可以简化InstantAPI与基于Python的应用程序的集成。这可以通过为开发人员提供便捷有效的方式来访问 InstantAPI 的功能，从而加速人工智能驱动的工具和服务的开发，从而有可能推动各个行业的创新。",
-    "impact_score": 6
-  },
-  {
-    "title": "Kronex 评论：安全还是有风险的交易工具？测试和分析",
-    "url": "https://whatjapanthinks.com/kronex-review/",
-    "industry": "Finance, AI, Crypto",
-    "summary": "Kronex 是最近推出的使用机器智能的加密货币交易系统。",
-    "charlotte_impact": "在交易系统中使用机器智能可能会在速度和准确性方面提供优势。然而，评估这些系统的可靠性和安全性非常重要。同样重要的是该领域的监管，以防止系统滥用。",
-    "impact_score": 5
-  },
-  {
-    "title": "Command Placane 评论：值得信赖的交易系统还是欺诈？结果曝光",
-    "url": "https://whatjapanthinks.com/command-placane-review/",
-    "industry": "Finance, AI, Crypto",
-    "summary": "Command Placane 是一个新创建的使用人工智能创建的加密货币交易系统。",
-    "charlotte_impact": "加密市场的人工智能集成度大幅上升。这可能有帮助，但也有风险。如果来源不可信，数据可能会被操纵，用户的金钱或信息可能会被盗。",
-    "impact_score": 5
-  },
-  {
-    "title": "Podíl Portfelo 评论：真正的交易平台还是假的？现实检验",
-    "url": "https://whatjapanthinks.com/podil-portfelo-review/",
-    "industry": "Finance, AI, Crypto",
-    "summary": "Podíl Portfelo 是利用现代技术新开发的数字资产交易解决方案。",
-    "charlotte_impact": "随着如此先进系统的实施，我们可以看到用户数量大幅增加。有了这个，他们就可以吸引人来支持。随之而来的还有风险，人们的私人信息被黑客攻击和窃取。",
-    "impact_score": 5
-  },
-  {
-    "title": "从计数到编码",
-    "url": "https://www.thestar.com.my/news/education/2026/03/29/from-counting-to-coding",
-    "industry": "Education",
-    "summary": "牢记文章的主题，开展以下英语语言活动。阅读全文",
-    "charlotte_impact": "这与艾无关。",
-    "impact_score": 0
-  },
-  {
-    "title": "大卫·萨克斯（David Sacks）不再是人工智能沙皇——这就是他正在做的事情",
-    "url": "https://techcrunch.com/2026/03/26/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/",
-    "industry": "Politics, Government",
-    "summary": "大卫·萨克斯 (David Sacks) 将辞去人工智能沙皇的职务。",
-    "charlotte_impact": "萨克斯的离开可能会导致政府的人工智能政策和监管方式产生不确定性。根据取代他的人的不同，优先事项和战略可能会发生变化，从而影响各个领域人工智能技术的开发和部署。",
-    "impact_score": 5
+    "title": "迈克尔·布隆伯格：美国政府对数据的攻击将损害治理、市场和经济",
+    "url": "https://www.livemint.com/opinion/online-views/michael-bloomberg-us-administration-assault-on-data-governance-markets-economy-statistics-federal-11774704786807.html",
+    "industry": "Politics, Economics",
+    "summary": "迈克尔·布隆伯格警告说，美国政府对数据的攻击将损害治理、市场和经济。",
+    "charlotte_impact": "数据完整性和开放数据访问对于明智决策和经济稳定至关重要。对数据的政治干预可能会给夏洛特地区带来负面经济后果，影响投资决策和商业规划。",
+    "impact_score": 7
   }
 ]
