@@ -1,0 +1,807 @@
+/* CSS Reset & Variable Tokens */
+:root {
+  --bg-primary: #121110;
+  --bg-card: #1c1a17;
+  --bg-page: #191714;
+  --text-main: #f3efe6;
+  --text-muted: #bdae9c;
+  --gold-primary: #d4af37;
+  --gold-accent: #f3d478;
+  --gold-gradient: linear-gradient(135deg, #bf953f, #fcf6ba, #b38728, #fbf5b7);
+  --border-gold: rgba(212, 175, 55, 0.35);
+  --shadow-lux: 0 20px 50px rgba(0, 0, 0, 0.7);
+  --font-serif: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  --font-sub: 'Cormorant Garamond', serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+}
+
+body.theme-light {
+  --bg-primary: #f4efe6;
+  --bg-card: #ffffff;
+  --bg-page: #faf8f5;
+  --text-main: #221e1a;
+  --text-muted: #665e54;
+  --gold-primary: #9e7d20;
+  --gold-accent: #b89128;
+  --gold-gradient: linear-gradient(135deg, #9e7d20, #d4af37, #9e7d20);
+  --border-gold: rgba(158, 125, 32, 0.35);
+  --shadow-lux: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  min-height: 100vh;
+  overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* TOP NAVIGATION (SCREEN ONLY) */
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: rgba(18, 17, 16, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border-gold);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+body.theme-light .top-nav {
+  background: rgba(244, 239, 230, 0.95);
+}
+
+.nav-brand {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--gold-accent);
+}
+
+.gold-accent {
+  color: var(--gold-accent);
+}
+
+.nav-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.search-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-box i {
+  position: absolute;
+  left: 12px;
+  color: var(--text-muted);
+}
+
+.search-box input {
+  background: var(--bg-card);
+  border: 1px solid var(--border-gold);
+  padding: 0.5rem 0.75rem 0.5rem 2.2rem;
+  border-radius: 20px;
+  color: var(--text-main);
+  font-size: 0.875rem;
+  width: 220px;
+  outline: none;
+  transition: width 0.3s ease;
+}
+
+.search-box input:focus {
+  width: 280px;
+  border-color: var(--gold-primary);
+}
+
+.view-toggle, .theme-toggle {
+  display: flex;
+  background: var(--bg-card);
+  border: 1px solid var(--border-gold);
+  border-radius: 20px;
+  padding: 2px;
+}
+
+.view-toggle button, .theme-toggle button {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  padding: 0.4rem 0.8rem;
+  font-size: 0.85rem;
+  border-radius: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: all 0.2s ease;
+}
+
+.view-toggle button.active {
+  background: var(--gold-primary);
+  color: #121110;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background: var(--gold-gradient);
+  color: #121110;
+  font-weight: 700;
+  border: none;
+  padding: 0.55rem 1.25rem;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.5);
+}
+
+/* MAIN MENU CONTAINER */
+.menu-container {
+  max-width: 1300px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* BOOK WRAPPER & FLIPBOOK SIMULATION */
+.book-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 800px;
+}
+
+.book-nav-btn {
+  background: var(--bg-card);
+  border: 1px solid var(--border-gold);
+  color: var(--gold-accent);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.2rem;
+  box-shadow: var(--shadow-lux);
+  transition: all 0.2s ease;
+  z-index: 100;
+}
+
+.book-nav-btn:hover {
+  background: var(--gold-primary);
+  color: #121110;
+  transform: scale(1.1);
+}
+
+.menu-book {
+  display: flex;
+  width: 1100px;
+  height: 780px;
+  background: var(--bg-page);
+  border-radius: 12px;
+  box-shadow: var(--shadow-lux);
+  border: 2px solid var(--border-gold);
+  position: relative;
+  overflow: hidden;
+}
+
+/* INDIVIDUAL PAGES */
+.page {
+  width: 50%;
+  height: 100%;
+  padding: 2.5rem;
+  overflow-y: auto;
+  position: absolute;
+  top: 0;
+  background: var(--bg-page);
+  border-right: 1px solid rgba(212, 175, 55, 0.15);
+  display: none; /* Controlled via JS */
+  flex-direction: column;
+}
+
+.page.active-left {
+  display: flex;
+  left: 0;
+  border-right: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.page.active-right {
+  display: flex;
+  right: 0;
+  border-left: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+/* COVER PAGE SPECIFIC */
+.page-cover {
+  width: 100% !important;
+  left: 0 !important;
+  right: 0 !important;
+  display: none;
+  background: radial-gradient(circle at center, #26221c 0%, #121110 100%);
+  padding: 2rem;
+}
+
+.page-cover.active-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover-content {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.gold-border-frame {
+  border: 2px solid var(--gold-primary);
+  outline: 1px solid var(--gold-accent);
+  outline-offset: -8px;
+  padding: 2.5rem 2rem;
+  border-radius: var(--radius-md);
+  text-align: center;
+  background: rgba(18, 17, 16, 0.85);
+  box-shadow: inset 0 0 30px rgba(212, 175, 55, 0.15);
+}
+
+.cover-header .japanese-kanji {
+  font-family: serif;
+  font-size: 2rem;
+  letter-spacing: 6px;
+  color: var(--gold-accent);
+  display: block;
+}
+
+.cover-header .sub-heading {
+  font-size: 0.85rem;
+  letter-spacing: 4px;
+  color: var(--text-muted);
+}
+
+.cover-hero-img-wrap {
+  margin: 1.5rem 0;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  border: 1px solid var(--border-gold);
+  height: 260px;
+}
+
+.cover-hero-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cover-titles .brand-title {
+  font-family: var(--font-serif);
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+  background: var(--gold-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.1;
+}
+
+.cover-titles .brand-subtitle {
+  font-family: var(--font-sub);
+  font-size: 1.6rem;
+  letter-spacing: 6px;
+  color: var(--text-main);
+  margin-bottom: 0.5rem;
+}
+
+.decorative-divider {
+  color: var(--gold-primary);
+  font-size: 0.9rem;
+  letter-spacing: 4px;
+  margin: 0.75rem 0;
+}
+
+.tagline {
+  font-size: 0.95rem;
+  letter-spacing: 2px;
+  color: var(--text-muted);
+  font-family: var(--font-sans);
+}
+
+.cover-footer-info {
+  margin-top: 1.5rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  border-top: 1px dashed var(--border-gold);
+  padding-top: 1rem;
+}
+
+/* INNER PAGE HEADERS & STRUCTURE */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border-gold);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--gold-accent);
+}
+
+.section-title-wrapper {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.section-title {
+  font-family: var(--font-serif);
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--gold-accent);
+  border-bottom: 2px solid var(--gold-primary);
+  display: inline-block;
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.section-subtitle {
+  font-size: 0.825rem;
+  color: var(--text-muted);
+  letter-spacing: 1px;
+}
+
+/* ALL YOU CAN EAT CARDS */
+.ayce-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.ayce-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-gold);
+  border-radius: var(--radius-sm);
+  padding: 1.25rem 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.ayce-card.highlight-card {
+  border-color: var(--gold-primary);
+  background: rgba(212, 175, 55, 0.08);
+  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.15);
+}
+
+.card-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background: var(--gold-primary);
+  color: #121110;
+  padding: 2px 8px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.ayce-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+}
+
+.price-tag {
+  font-family: var(--font-serif);
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--gold-accent);
+  margin: 0.25rem 0;
+}
+
+.per-person {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+.ayce-kids {
+  list-style: none;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  text-align: left;
+  margin-top: 0.5rem;
+  border-top: 1px dashed rgba(212, 175, 55, 0.2);
+  padding-top: 0.5rem;
+}
+
+.ayce-kids li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.2rem;
+}
+
+/* RULES BOX */
+.rules-box {
+  background: rgba(0, 0, 0, 0.25);
+  border-left: 3px solid var(--gold-primary);
+  padding: 1rem;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  margin-bottom: 1.5rem;
+}
+
+body.theme-light .rules-box {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.rules-box h4 {
+  font-size: 0.9rem;
+  color: var(--gold-accent);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.rules-box ul {
+  list-style: none;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.rules-box li {
+  margin-bottom: 0.4rem;
+  line-height: 1.35;
+}
+
+/* FEATURED & HERO PHOTOS IN PAGES */
+.page-featured-photo {
+  margin-top: auto;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  border: 1px solid var(--border-gold);
+}
+
+.page-featured-photo img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  display: block;
+}
+
+.photo-caption {
+  font-size: 0.75rem;
+  font-style: italic;
+  color: var(--text-muted);
+  text-align: center;
+  padding: 0.4rem;
+  background: var(--bg-card);
+}
+
+.hero-photo-box {
+  width: 100%;
+  height: 160px;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  border: 1px solid var(--border-gold);
+  margin-bottom: 1.25rem;
+}
+
+.hero-photo-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* MENU ITEMS & LISTINGS */
+.items-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.items-grid-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.9rem 1rem;
+}
+
+.menu-item {
+  border-bottom: 1px dotted rgba(212, 175, 55, 0.2);
+  padding-bottom: 0.4rem;
+}
+
+.menu-item.highlight-item {
+  background: rgba(212, 175, 55, 0.05);
+  border: 1px solid var(--border-gold);
+  border-radius: var(--radius-sm);
+  padding: 0.6rem 0.8rem;
+}
+
+.item-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.2rem;
+}
+
+.item-name {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.item-price {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--gold-accent);
+}
+
+.item-desc {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  line-height: 1.35;
+}
+
+/* DIETARY & BADGE TAGS */
+.diet-tag {
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.diet-tag.gf {
+  background: #2e7d32;
+  color: #ffffff;
+}
+
+.diet-tag.veg {
+  background: #388e3c;
+  color: #ffffff;
+}
+
+.diet-tag.spicy {
+  background: #c62828;
+  color: #ffffff;
+}
+
+.diet-tag.chef {
+  background: var(--gold-primary);
+  color: #121110;
+}
+
+/* NIGIRI GRID */
+.nigiri-table-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.nigiri-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-gold);
+  padding: 0.5rem 0.4rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.fish-jp {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--gold-accent);
+  font-weight: 600;
+}
+
+.fish-en {
+  display: block;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+}
+
+/* POKE HERO FLEX */
+.poke-hero-flex {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.poke-photo {
+  width: 40%;
+  height: 160px;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  border: 1px solid var(--border-gold);
+  flex-shrink: 0;
+}
+
+.poke-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.poke-details {
+  flex-grow: 1;
+}
+
+/* BACK COVER FOOTER */
+.back-cover-footer {
+  margin-top: auto;
+  text-align: center;
+  border-top: 1px double var(--border-gold);
+  padding-top: 1.25rem;
+}
+
+.back-cover-footer h3 {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  color: var(--gold-accent);
+  letter-spacing: 2px;
+}
+
+.back-cover-footer p {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.hours-text {
+  margin: 0.5rem 0;
+  line-height: 1.4;
+}
+
+/* PAGINATION PILLS (SCREEN) */
+.book-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.page-pill-btn {
+  background: var(--bg-card);
+  border: 1px solid var(--border-gold);
+  color: var(--text-muted);
+  padding: 0.4rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.page-pill-btn:hover, .page-pill-btn.active {
+  background: var(--gold-primary);
+  color: #121110;
+  font-weight: 600;
+}
+
+.mt-2 { margin-top: 0.5rem; }
+.mt-4 { margin-top: 1.25rem; }
+
+/* ----------------------------------------------------
+   PRINT STYLES FOR HIGH-QUALITY MENU BOOK PRINTING
+---------------------------------------------------- */
+@media print {
+  @page {
+    size: letter landscape;
+    margin: 0.4in;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #111111 !important;
+    font-size: 11pt;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .menu-container {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .book-wrapper {
+    min-height: auto !important;
+    display: block !important;
+  }
+
+  .menu-book {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+  }
+
+  .page {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    padding: 0.5in !important;
+    page-break-after: always !important;
+    border: none !important;
+    background: #ffffff !important;
+    color: #111111 !important;
+  }
+
+  .page-cover {
+    background: #121110 !important;
+    color: #ffffff !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .gold-border-frame {
+    border-color: #d4af37 !important;
+    box-shadow: none !important;
+  }
+
+  .section-title, .item-price, .fish-jp, .page-cat-title {
+    color: #8a6d1b !important;
+  }
+
+  .item-name {
+    color: #111111 !important;
+  }
+
+  .item-desc, .section-subtitle, .rules-box ul {
+    color: #333333 !important;
+  }
+
+  .ayce-card, .nigiri-card, .rules-box {
+    border-color: #cccccc !important;
+    background: #f9f9f9 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .hero-photo-box img, .page-featured-photo img, .cover-hero-img-wrap img {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

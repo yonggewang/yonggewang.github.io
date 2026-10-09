@@ -1,115 +1,524 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#b81725">
-  <meta name="description" content="Explore Yummy Sushi's all-you-can-eat sushi and hibachi menu in Charlotte, NC.">
-  <title>Menu | Yummy Sushi Charlotte</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yummy Sushi & Hibachi House | Premium Menu Book</title>
+  <meta name="description" content="Official luxury menu book for Yummy Sushi & Hibachi House Charlotte, NC. Featuring All You Can Eat Sushi, Hibachi Entrees, Specialty Rolls & Poke Bowls.">
+  
+  <!-- Google Fonts for Luxury Typography -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-family/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <div class="announcement">ALL-YOU-CAN-EAT SUSHI & HIBACHI · CHARLOTTE, NC</div>
-  <header class="site-header">
-    <a class="brand" href="#" aria-label="Yummy Sushi home">
-      <span class="brand-mark">寿</span>
-      <span class="brand-copy"><strong>YUMMY SUSHI</strong><small>ALL YOU CAN EAT SUSHI & HIBACHI</small></span>
-    </a>
-    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-    <nav class="main-nav" aria-label="Main navigation">
-      <a href="https://www.yummysushiclt.com/">Home</a>
-      <a class="active" href="#menu">Menu</a>
-      <a href="#experience">Our Experience</a>
-      <a href="#visit">Location</a>
-      <a class="order-button" href="https://www.yummysushiclt.com/">Order Online <span aria-hidden="true">↗</span></a>
-    </nav>
+<body class="theme-dark">
+
+  <!-- Top Action & Navigation Bar (Screen Only) -->
+  <header class="top-nav no-print" id="top-nav">
+    <div class="nav-brand">
+      <i class="fa-solid fa-utensils gold-accent"></i>
+      <span>YUMMY SUSHI & HIBACHI</span>
+    </div>
+    
+    <div class="nav-controls">
+      <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" id="menu-search" placeholder="Search rolls, hibachi, ingredients...">
+      </div>
+
+      <div class="view-toggle">
+        <button id="btn-book-view" class="active"><i class="fa-solid fa-book-open"></i> Book View</button>
+        <button id="btn-list-view"><i class="fa-solid fa-list-ul"></i> Scroll View</button>
+      </div>
+
+      <div class="theme-toggle">
+        <button id="btn-toggle-theme"><i class="fa-solid fa-moon"></i> Theme</button>
+      </div>
+
+      <button id="btn-print-menu" class="btn-primary">
+        <i class="fa-solid fa-print"></i> Print Menu Book
+      </button>
+    </div>
   </header>
 
-  <main>
-    <section class="hero">
-      <div class="hero-shade"></div>
-      <div class="hero-content">
-        <p class="eyebrow">YOUR TABLE IS WAITING</p>
-        <h1>Fresh flavor.<br><em>Endless favorites.</em></h1>
-        <p class="hero-description">Explore sushi, signature rolls, and sizzling hibachi made for sharing—and coming back for more.</p>
-        <div class="hero-actions">
-          <a class="button button-red" href="#menu">Explore the Menu <span>↓</span></a>
-          <a class="button button-outline" href="#experience">Discover All-You-Can-Eat</a>
-        </div>
+  <!-- Main Container -->
+  <main class="menu-container">
+    
+    <!-- Flipbook View Container -->
+    <div id="book-wrapper" class="book-wrapper">
+      <div class="book-nav-btn prev-btn" id="prev-page-btn"><i class="fa-solid fa-chevron-left"></i></div>
+      
+      <!-- The Menu Book Canvas -->
+      <div class="menu-book" id="menu-book">
+        
+        <!-- COVER PAGE -->
+        <section class="page page-cover" id="page-0" data-page="0">
+          <div class="page-content cover-content">
+            <div class="gold-border-frame">
+              <div class="cover-header">
+                <span class="japanese-kanji">美味寿司</span>
+                <span class="sub-heading">CHARLOTTE, NORTH CAROLINA</span>
+              </div>
+
+              <div class="cover-hero-img-wrap">
+                <img src="images/menu_cover_hero_1791569958611.jpg" alt="Yummy Sushi Fine Dining Cover" class="cover-img">
+              </div>
+
+              <div class="cover-titles">
+                <h1 class="brand-title">YUMMY SUSHI</h1>
+                <h2 class="brand-subtitle">& HIBACHI HOUSE</h2>
+                <div class="decorative-divider">❖ ❖ ❖</div>
+                <p class="tagline">All You Can Eat • Gourmet Hibachi • Signature Poke</p>
+              </div>
+
+              <div class="cover-footer-info">
+                <p><i class="fa-solid fa-location-dot"></i> 5933 South Blvd, Charlotte, NC 28217</p>
+                <p><i class="fa-solid fa-phone"></i> (980) 201-9993 | <i class="fa-solid fa-globe"></i> www.yummysushiclt.com</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- PAGE 1: WELCOME & ALL YOU CAN EAT EXPERIENCE -->
+        <section class="page page-right" id="page-1" data-page="1">
+          <div class="page-header">
+            <span class="page-cat-title">Welcome & Dining Guidelines</span>
+            <span class="page-num">Page 01</span>
+          </div>
+          <div class="page-content">
+            <div class="section-title-wrapper">
+              <h2 class="section-title">THE ALL-YOU-CAN-EAT EXPERIENCE</h2>
+              <p class="section-subtitle">Crafted Fresh To Order • Unlimited Premium Selection</p>
+            </div>
+
+            <div class="ayce-grid">
+              <div class="ayce-card lunch-card">
+                <div class="card-badge">MON - FRI 11:00 AM - 3:00 PM</div>
+                <h3>LUNCH AYCE</h3>
+                <div class="price-tag">$14.99 <span class="per-person">/ Adult</span></div>
+                <ul class="ayce-kids">
+                  <li><span>Kids (Ages 7-10):</span> <strong>$10.99</strong></li>
+                  <li><span>Kids (Ages 3-6):</span> <strong>$7.99</strong></li>
+                  <li><span>Toddlers (Under 3):</span> <strong>FREE</strong></li>
+                </ul>
+              </div>
+
+              <div class="ayce-card dinner-card highlight-card">
+                <div class="card-badge">MON-FRI 4PM-CLOSE • ALL DAY SAT & SUN</div>
+                <h3>DINNER AYCE</h3>
+                <div class="price-tag">$23.99 <span class="per-person">/ Adult</span></div>
+                <ul class="ayce-kids">
+                  <li><span>Kids (Ages 7-10):</span> <strong>$15.99</strong></li>
+                  <li><span>Kids (Ages 3-6):</span> <strong>$11.99</strong></li>
+                  <li><span>Toddlers (Under 3):</span> <strong>FREE</strong></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="rules-box">
+              <h4><i class="fa-solid fa-circle-info gold-accent"></i> Dine-In Experience Guidelines</h4>
+              <ul>
+                <li><i class="fa-solid fa-clock"></i> <strong>100-Minute Dining Limit:</strong> Enjoy unlimited rounds freshly prepared by our sushi chefs.</li>
+                <li><i class="fa-solid fa-leaf"></i> <strong>Zero Waste Policy:</strong> An additional fee of $0.50 – $1.00 per piece will apply to excessive leftover sushi or rice. Please order responsibly!</li>
+                <li><i class="fa-solid fa-users"></i> <strong>Table Consistency:</strong> All guests seated at the same table must choose the same dining style (All-You-Can-Eat or A La Carte).</li>
+                <li><i class="fa-solid fa-receipt"></i> <strong>Service Charge:</strong> 18% gratuity added for parties of 5 or more.</li>
+              </ul>
+            </div>
+
+            <div class="page-featured-photo">
+              <img src="images/japanese_appetizers_spread_1791570018657.jpg" alt="Fresh Appetizers Spread">
+              <p class="photo-caption">Authentic Japanese appetizers made fresh to order for every table.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- PAGE 2: APPETIZERS & SALADS -->
+        <section class="page page-left" id="page-2" data-page="2">
+          <div class="page-header">
+            <span class="page-cat-title">Starters & Fresh Greens</span>
+            <span class="page-num">Page 02</span>
+          </div>
+          <div class="page-content">
+            <h2 class="section-title">KITCHEN APPETIZERS</h2>
+            <div class="items-list">
+              <div class="menu-item">
+                <div class="item-head">
+                  <span class="item-name">Steamed Edamame <span class="diet-tag gf">GF</span> <span class="diet-tag veg">V</span></span>
+                  <span class="item-price">$4.95</span>
+                </div>
+                <p class="item-desc">Young soybean pods steamed to order, sprinkled with coarse sea salt flakes.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="item-head">
+                  <span class="item-name">Crispy Japanese Gyoza (Pork or Veg)</span>
+                  <span class="item-price">$6.50</span>
+                </div>
+                <p class="item-desc">Pan-fried savory dumplings served with spicy sesame soy dipping sauce.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="item-head">
+                  <span class="item-name">Golden Crab Rangoon (6 pcs)</span>
+                  <span class="item-price">$6.95</span>
+                </div>
+                <p class="item-desc">Crispy wonton pockets stuffed with velvety cream cheese, crab, and scallions with sweet chili dip.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="item-head">
+                  <span class="item-name">Takoyaki Octopus Balls (5 pcs)</span>
+                  <span class="item-price">$7.95</span>
+                </div>
+                <p class="item-desc">Osaka street style octopus savory batter balls topped with unagi sauce, Japanese mayo, and dancing bonito flakes.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="item-head">
+                  <span class="item-name">Rock Shrimp Tempura</span>
+                  <span class="item-price">$8.95</span>
+                </div>
+                <p class="item-desc">Bite-sized crispy shrimp tossed in a creamy, spicy Yummy chef sauce.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="item-head">
+                  <span class="item-name">Baked Cheese Mussels (4 pcs)</span>
+                  <span class="item-price">$8.50</span>
+                </div>
+                <p class="item-desc">Green lip mussels baked with spicy garlic aioli, eel sauce, and masago roe.</p>
+              </div>
+            </div>
+
+            <h2 class="section-title mt-4">SUSHI STARTERS & SOUPS</h2>
+            <div class="items-list">
+              <div class="menu-item highlight-item">
+                <div class="item-head">
+                  <span class="item-name">Salmon Yuzu Carpaccio <span class="diet-tag chef">Chef Pick</span></span>
+                  <span class="item-price">$11.50</span>
+                </div>
+                <p class="item-desc">Thinly sliced raw salmon dressed in yuzu ponzu, jalapeño rings, tobiko roe, and micro cilantro.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="item-head">
+                  <span class="item-name">Yellowtail Jalapeño Ponzu</span>
+                  <span class="item-price">$12.50</span>
+                </div>
+                <p class="item-desc">Fresh Hamachi slices topped with serrano jalapeño, sriracha dot, and citrus soy.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="item-head">
+                  <span class="item-name">Spicy Kani Salad</span>
+                  <span class="item-price">$6.50</span>
+                </div>
+                <p class="item-desc">Shredded crab stick and julienned cucumber tossed with crunch flakes, masago, and spicy aioli.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- PAGE 3: CHEF SIGNATURE SPECIALTY ROLLS -->
+        <section class="page page-right" id="page-3" data-page="3">
+          <div class="page-header">
+            <span class="page-cat-title">Artisanal Rolls</span>
+            <span class="page-num">Page 03</span>
+          </div>
+          <div class="page-content">
+            <h2 class="section-title">CHEF SIGNATURE ROLLS</h2>
+            
+            <div class="hero-photo-box">
+              <img src="images/sushi_specialty_rolls_1791570000694.jpg" alt="Signature Sushi Rolls" id="img-specialty-rolls">
+            </div>
+
+            <div class="items-grid-2col">
+              <div class="menu-item">
+                <div class="item-head">
+                  <span class="item-name">Yummy Special Roll <span class="diet-tag chef">Chef's Top Pick</span></span>
+                  <span class="item-price">$14.95</span>
+                </div>
+                <p class="item-desc">Fresh salmon, tuna, yellowtail, and avocado delicately wrapped in pink soy paper with house special glaze.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="item-head">
+                  <span class="item-name">Rainbow Roll</span>
+                  <span class="item-price">$13.50</span>
+                </div>
+                <p class="item-desc">Crab stick and cucumber roll topped with layers of salmon, tuna, yellowtail, white fish, and avocado.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="item-head">
+                  <span class="item-name">Godzilla Roll <span class="diet-tag spicy">Spicy</span></span>
+                  <span class="item-price">$13.95</span>
+                </div>
+                <p class="item-desc">Spicy tuna and avocado flash tempura fried, drizzled with spicy mayo, unagi sauce, scallions, and red tobiko.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="item-head">
+                  <span class="item-name">Red Dragon Roll <span class="diet-tag spicy">Spicy</span></span>
+                  <span class="item-price">$14.50</span>
+                </div>
+                <p class="item-desc">Crispy shrimp tempura & cucumber topped with spicy tuna, crunchy tempura pearls, and unagi reduction.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="item-head">
+                  <span class="item-name">White Dragon Roll</span>
+                  <span class="item-price">$14.50</span>
+                </div>
+                <p class="item-desc">Spicy yellowtail & tempura crunch inside, draped with escolar white tuna, jalapeño slice & chili glaze.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="item-head">
+                  <span class="item-name">Angel Hair Roll</span>
+                  <span class="item-price">$13.95</span>
+                </div>
+                <p class="item-desc">Tempura shrimp & avocado topped with sweet shredded crab meat, tempura crunch, and sweet chili drizzles.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="item-head">
+                  <span class="item-name">Crazy Hama Roll <span class="diet-tag spicy">Spicy</span></span>
+                  <span class="item-price">$14.95</span>
+                </div>
+                <p class="item-desc">Yellowtail, cucumber, and fresh cilantro topped with black pepper tuna, jalapeño, and citrus ponzu dressing.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="item-head">
+                  <span class="item-name">Golden Sunrise Roll</span>
+                  <span class="item-price">$13.95</span>
+                </div>
+                <p class="item-desc">Spicy crab salad & cucumber wrapped inside, layered with ripe sweet mango, salmon, and fruit reduction.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- PAGE 4: CLASSIC MAKI & FRESH NIGIRI / SASHIMI -->
+        <section class="page page-left" id="page-4" data-page="4">
+          <div class="page-header">
+            <span class="page-cat-title">Nigiri & Traditional Maki</span>
+            <span class="page-num">Page 04</span>
+          </div>
+          <div class="page-content">
+            <h2 class="section-title">FRESH NIGIRI & SASHIMI</h2>
+            <p class="section-subtitle">2 Pieces Nigiri over Seasoned Rice OR 3 Pieces Sliced Sashimi</p>
+
+            <div class="hero-photo-box">
+              <img src="images/sashimi_nigiri_combo_1791569988377.jpg" alt="Fresh Sashimi Nigiri Platter">
+            </div>
+
+            <div class="nigiri-table-grid">
+              <div class="nigiri-card">
+                <span class="fish-jp">鮭 Sake</span>
+                <span class="fish-en">Atlantic Salmon</span>
+              </div>
+              <div class="nigiri-card">
+                <span class="fish-jp">鮪 Maguro</span>
+                <span class="fish-en">Ahi Bluefin Tuna</span>
+              </div>
+              <div class="nigiri-card">
+                <span class="fish-jp">鰤 Hamachi</span>
+                <span class="fish-en">Japanese Yellowtail</span>
+              </div>
+              <div class="nigiri-card">
+                <span class="fish-jp">油魚 Escolar</span>
+                <span class="fish-en">Super White Tuna</span>
+              </div>
+              <div class="nigiri-card">
+                <span class="fish-jp">鰻 Unagi</span>
+                <span class="fish-en">Freshwater Eel</span>
+              </div>
+              <div class="nigiri-card">
+                <span class="fish-jp">海老 Ebi</span>
+                <span class="fish-en">Sweet Steamed Shrimp</span>
+              </div>
+              <div class="nigiri-card">
+                <span class="fish-jp">鯛 Tai</span>
+                <span class="fish-en">Red Sea Snapper</span>
+              </div>
+              <div class="nigiri-card">
+                <span class="fish-jp">章魚 Tako</span>
+                <span class="fish-en">Steamed Octopus</span>
+              </div>
+            </div>
+
+            <h2 class="section-title mt-4">CLASSIC MAKI ROLLS (6 Pcs)</h2>
+            <div class="items-grid-2col">
+              <div class="menu-item">
+                <div class="item-head"><span class="item-name">California Roll</span> <span class="item-price">$6.25</span></div>
+                <p class="item-desc">Crab stick, avocado, cucumber with sesame.</p>
+              </div>
+              <div class="menu-item">
+                <div class="item-head"><span class="item-name">Spicy Tuna Roll <span class="diet-tag spicy">Spicy</span></span> <span class="item-price">$7.25</span></div>
+                <p class="item-desc">Minced ahi tuna, chili sriracha aioli, cucumber.</p>
+              </div>
+              <div class="menu-item">
+                <div class="item-head"><span class="item-name">Philadelphia Roll</span> <span class="item-price">$7.25</span></div>
+                <p class="item-desc">Smoked salmon, cream cheese, cucumber.</p>
+              </div>
+              <div class="menu-item">
+                <div class="item-head"><span class="item-name">Shrimp Tempura Roll</span> <span class="item-price">$8.50</span></div>
+                <p class="item-desc">Crispy tempura shrimp, avocado, eel sauce.</p>
+              </div>
+              <div class="menu-item">
+                <div class="item-head"><span class="item-name">Spider Soft Shell Crab</span> <span class="item-price">$10.95</span></div>
+                <p class="item-desc">Fried soft shell crab, cucumber, masago, unagi sauce.</p>
+              </div>
+              <div class="menu-item">
+                <div class="item-head"><span class="item-name">Sweet Potato Tempura <span class="diet-tag veg">V</span></span> <span class="item-price">$5.95</span></div>
+                <p class="item-desc">Crispy sweet potato tempura with eel glaze.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- PAGE 5: GOURMET HIBACHI & POKE BOWLS -->
+        <section class="page page-right" id="page-5" data-page="5">
+          <div class="page-header">
+            <span class="page-cat-title">Teppanyaki & Island Bowls</span>
+            <span class="page-num">Page 05</span>
+          </div>
+          <div class="page-content">
+            <h2 class="section-title">SIZZLING HIBACHI ENTREES</h2>
+            <p class="section-subtitle">Served with Egg Fried Rice, Sautéed Zucchini, Mushrooms, Onions & Creamy Yum Yum Sauce</p>
+
+            <div class="hero-photo-box">
+              <img src="images/hibachi_steak_shrimp_1791570000694.jpg" alt="Sizzling Hibachi Steak and Shrimp">
+            </div>
+
+            <div class="items-grid-2col">
+              <div class="menu-item highlight-item">
+                <div class="item-head">
+                  <span class="item-name">Hibachi Steak & Shrimp Combo <span class="diet-tag chef">Top Seller</span></span>
+                  <span class="item-price">$18.95</span>
+                </div>
+                <p class="item-desc">Tender USDA sirloin beef steak cubes paired with jumbo grilled tiger shrimp cooked with garlic butter.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="item-head">
+                  <span class="item-name">Hibachi Chicken Dinner</span>
+                  <span class="item-price">$15.50</span>
+                </div>
+                <p class="item-desc">Juicy diced chicken breast seared with soy sauce, butter, and sesame seeds.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="item-head">
+                  <span class="item-name">Hibachi Atlantic Salmon</span>
+                  <span class="item-price">$17.95</span>
+                </div>
+                <p class="item-desc">Pan-seared salmon fillet glazed with teriyaki & teppanyaki seasonings.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="item-head">
+                  <span class="item-name">Hibachi Triple Deluxe</span>
+                  <span class="item-price">$22.95</span>
+                </div>
+                <p class="item-desc">The ultimate grand feast: tender steak, chicken breast, and succulent tiger shrimp.</p>
+              </div>
+            </div>
+
+            <h2 class="section-title mt-4">SIGNATURE POKE BOWLS</h2>
+            <div class="poke-hero-flex">
+              <div class="poke-photo">
+                <img src="images/yummy_poke_bowl_1791570033300.jpg" alt="Yummy Signature Poke Bowl">
+              </div>
+              <div class="poke-details">
+                <div class="menu-item">
+                  <div class="item-head">
+                    <span class="item-name">Yummy House Classic Poke Bowl</span>
+                    <span class="item-price">$14.95</span>
+                  </div>
+                  <p class="item-desc">Fresh cubed salmon & ahi tuna over warm sushi rice with ripe avocado, shelled edamame, cucumber, sweet mango, sesame seaweed salad, spicy mayo and soy reduction.</p>
+                </div>
+                <div class="menu-item mt-2">
+                  <div class="item-head">
+                    <span class="item-name">Spicy Hawaiian Tuna Bowl <span class="diet-tag spicy">Spicy</span></span>
+                    <span class="item-price">$14.50</span>
+                  </div>
+                  <p class="item-desc">Chili-marinated tuna, jalapeños, sweet onions, crunchy masago, crisp scallions, topped with furikake and spicy ponzu dressing.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- PAGE 6: DESSERTS, BEVERAGES & REARING BACK COVER -->
+        <section class="page page-left page-back" id="page-6" data-page="6">
+          <div class="page-header">
+            <span class="page-cat-title">Sweets & Sake Bar</span>
+            <span class="page-num">Page 06</span>
+          </div>
+          <div class="page-content">
+            <h2 class="section-title">DESSERTS & DRINKS</h2>
+            
+            <div class="hero-photo-box">
+              <img src="images/japanese_dessert_drinks_1791570051307.jpg" alt="Japanese Desserts and Drinks">
+            </div>
+
+            <div class="items-grid-2col">
+              <div class="menu-item">
+                <div class="item-head"><span class="item-name">Japanese Mochi Ice Cream (3 pcs)</span> <span class="item-price">$5.50</span></div>
+                <p class="item-desc">Soft rice dough filled with Green Tea, Mango, or Vanilla ice cream.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="item-head"><span class="item-name">Tempura Fried Banana Ice Cream</span> <span class="item-price">$6.50</span></div>
+                <p class="item-desc">Crispy golden tempura batter ripe banana served with vanilla bean ice cream & dark chocolate glaze.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="item-head"><span class="item-name">Japanese Ramune Soda</span> <span class="item-price">$3.95</span></div>
+                <p class="item-desc">Traditional marble sealed soda in Original, Melon, or Strawberry flavor.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="item-head"><span class="item-name">Craft Sake & Japanese Beer</span> <span class="item-price">$6 - $18</span></div>
+                <p class="item-desc">Selection of Sho Chiku Bai Hot Sake, Dassai Junmai Daiginjo, Asahi Super Dry & Sapporo Draft.</p>
+              </div>
+            </div>
+
+            <div class="back-cover-footer">
+              <div class="footer-gold-divider">❖ ❖ ❖</div>
+              <h3>YUMMY SUSHI & HIBACHI HOUSE</h3>
+              <p>5933 South Blvd, Charlotte, NC 28217 • (980) 201-9993</p>
+              <p class="hours-text"><strong>Hours of Operation:</strong><br>Mon – Thu: 11:00 AM – 9:30 PM | Fri – Sat: 11:00 AM – 10:30 PM | Sun: 12:00 PM – 9:30 PM</p>
+              <p class="copyright">© 2026 Yummy Sushi CLT. All Rights Reserved.</p>
+            </div>
+          </div>
+        </section>
+
       </div>
-      <div class="hero-note"><span class="note-dot"></span> SUSHI · HIBACHI · GOOD COMPANY</div>
-    </section>
 
-    <section class="value-strip" id="experience">
-      <article><span class="value-icon">◷</span><div><h3>Weekday Lunch</h3><p>Adults <strong>$14.99</strong></p><small>Monday–Friday</small></div></article>
-      <article><span class="value-icon">☾</span><div><h3>Dinner</h3><p>Adults <strong>$23.99</strong></p><small>Monday–Friday evenings</small></div></article>
-      <article><span class="value-icon">✦</span><div><h3>Weekend All Day</h3><p>Adults <strong>$23.99</strong></p><small>Saturday–Sunday</small></div></article>
-    </section>
+      <div class="book-nav-btn next-btn" id="next-page-btn"><i class="fa-solid fa-chevron-right"></i></div>
+    </div>
 
-    <section class="menu-section section-wrap" id="menu">
-      <div class="section-heading">
-        <div><p class="eyebrow red-eyebrow">FIND YOUR FAVORITE</p><h2>Explore the menu</h2></div>
-        <p class="section-intro">From a first bite to one more roll, find something you'll love.</p>
-      </div>
-      <div class="menu-tools">
-        <div class="category-tabs" role="tablist" aria-label="Menu categories">
-          <button class="category-tab active" data-category="all" role="tab" aria-selected="true">Featured</button>
-          <button class="category-tab" data-category="rolls" role="tab" aria-selected="false">Sushi & Rolls</button>
-          <button class="category-tab" data-category="sashimi" role="tab" aria-selected="false">Sashimi & Nigiri</button>
-          <button class="category-tab" data-category="hibachi" role="tab" aria-selected="false">Hibachi</button>
-          <button class="category-tab" data-category="starters" role="tab" aria-selected="false">Appetizers</button>
-        </div>
-        <label class="search-box"><span aria-hidden="true">⌕</span><input id="menu-search" type="search" placeholder="Search the menu…" aria-label="Search menu"></label>
-      </div>
-
-      <p class="prototype-note"><strong>Menu content note:</strong> Featured dishes below are design examples. Confirm dish names, descriptions, and any item prices with the restaurant's current menu before publishing. All-you-can-eat prices above are taken from the restaurant's current homepage.</p>
-
-      <div class="menu-grid" id="menu-grid">
-        <article class="food-card" data-category="rolls" data-search="rainbow roll sushi avocado crab tuna salmon">
-          <div class="food-image image-roll"><span class="food-tag">Guest favorite</span></div>
-          <div class="food-info"><div class="food-title-row"><h3>Rainbow Roll</h3><span class="dash"></span></div><p>A colorful sushi roll topped with a selection of fresh fish and creamy avocado.</p><span class="category-label">SUSHI & SIGNATURE ROLLS</span></div>
-        </article>
-        <article class="food-card" data-category="sashimi" data-search="sashimi nigiri salmon tuna fish">
-          <div class="food-image image-sashimi"></div>
-          <div class="food-info"><div class="food-title-row"><h3>Sashimi & Nigiri</h3><span class="dash"></span></div><p>Simple, classic cuts and bite-size favorites for sushi lovers.</p><span class="category-label">SASHIMI & NIGIRI</span></div>
-        </article>
-        <article class="food-card" data-category="hibachi" data-search="hibachi shrimp grilled vegetables">
-          <div class="food-image image-hibachi"></div>
-          <div class="food-info"><div class="food-title-row"><h3>Hibachi Shrimp</h3><span class="dash"></span></div><p>Sizzling shrimp with grilled vegetables and savory hibachi-style flavor.</p><span class="category-label">HIBACHI</span></div>
-        </article>
-        <article class="food-card" data-category="starters" data-search="gyoza dumplings appetizer">
-          <div class="food-image image-gyoza"></div>
-          <div class="food-info"><div class="food-title-row"><h3>Gyoza</h3><span class="dash"></span></div><p>Golden pan-seared dumplings, a comforting way to start your meal.</p><span class="category-label">APPETIZERS</span></div>
-        </article>
-        <article class="food-card" data-category="rolls" data-search="salmon avocado roll sushi">
-          <div class="food-image image-salmon"></div>
-          <div class="food-info"><div class="food-title-row"><h3>Salmon Roll</h3><span class="dash"></span></div><p>A timeless sushi favorite with salmon and a clean, delicate finish.</p><span class="category-label">SUSHI & SIGNATURE ROLLS</span></div>
-        </article>
-        <article class="food-card" data-category="hibachi" data-search="hibachi steak vegetables fried rice">
-          <div class="food-image image-steak"></div>
-          <div class="food-info"><div class="food-title-row"><h3>Hibachi Steak</h3><span class="dash"></span></div><p>Grilled steak and vegetables for a hearty hibachi-inspired plate.</p><span class="category-label">HIBACHI</span></div>
-        </article>
-      </div>
-      <div class="empty-state" id="empty-state" hidden>No matching dishes. Try another search or category.</div>
-      <p class="disclaimer">Food photos are illustrative and may not depict the exact preparation or presentation at the restaurant. Ask the team about ingredients and allergens.</p>
-    </section>
-
-    <section class="cta-band">
-      <div><p class="eyebrow">MAKE IT A YUMMY DAY</p><h2>Come hungry.<br><em>Leave happy.</em></h2><p>Bring your friends, bring your appetite, and discover your next favorite.</p></div>
-      <a class="button button-light" href="https://www.yummysushiclt.com/">Plan Your Visit <span>↗</span></a>
-    </section>
+    <!-- Pagination & Book Controls (Screen Only) -->
+    <div class="book-pagination no-print">
+      <button class="page-pill-btn active" data-jump="0">Cover</button>
+      <button class="page-pill-btn" data-jump="1">AYCE Info</button>
+      <button class="page-pill-btn" data-jump="2">Starters</button>
+      <button class="page-pill-btn" data-jump="3">Specialty Rolls</button>
+      <button class="page-pill-btn" data-jump="4">Nigiri & Maki</button>
+      <button class="page-pill-btn" data-jump="5">Hibachi & Poke</button>
+      <button class="page-pill-btn" data-jump="6">Desserts & Back</button>
+    </div>
   </main>
 
-  <footer id="visit" class="site-footer">
-    <div class="footer-brand"><span class="brand-mark">寿</span><div><strong>YUMMY SUSHI</strong><small>ALL YOU CAN EAT SUSHI & HIBACHI</small></div></div>
-    <div class="footer-column"><h3>Visit us</h3><p>5933 South Blvd<br>Charlotte, NC 28217</p><a href="https://maps.google.com/?q=5933+South+Blvd+Charlotte+NC+28217">Get directions ↗</a></div>
-    <div class="footer-column"><h3>Get in touch</h3><p><a href="tel:+19802019993">980-201-9993</a><br><a href="mailto:info@yummysushiclt.com">info@yummysushiclt.com</a></p></div>
-    <div class="footer-column"><h3>Order online</h3><p>Takeout and delivery options</p><a href="https://www.yummysushiclt.com/">Order online ↗</a></div>
-    <div class="footer-bottom"><span>© <span id="year"></span> Yummy Sushi. All rights reserved.</span><span>Made for good food and good company.</span></div>
-  </footer>
-  <script src="script.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
