@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#b81725">
+  <meta name="description" content="Explore Yummy Sushi's all-you-can-eat sushi and hibachi menu in Charlotte, NC.">
+  <title>Menu | Yummy Sushi Charlotte</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">ALL-YOU-CAN-EAT SUSHI & HIBACHI · CHARLOTTE, NC</div>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Yummy Sushi home">
+      <span class="brand-mark">寿</span>
+      <span class="brand-copy"><strong>YUMMY SUSHI</strong><small>ALL YOU CAN EAT SUSHI & HIBACHI</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="https://www.yummysushiclt.com/">Home</a>
+      <a class="active" href="#menu">Menu</a>
+      <a href="#experience">Our Experience</a>
+      <a href="#visit">Location</a>
+      <a class="order-button" href="https://www.yummysushiclt.com/">Order Online <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">YOUR TABLE IS WAITING</p>
+        <h1>Fresh flavor.<br><em>Endless favorites.</em></h1>
+        <p class="hero-description">Explore sushi, signature rolls, and sizzling hibachi made for sharing—and coming back for more.</p>
+        <div class="hero-actions">
+          <a class="button button-red" href="#menu">Explore the Menu <span>↓</span></a>
+          <a class="button button-outline" href="#experience">Discover All-You-Can-Eat</a>
+        </div>
+      </div>
+      <div class="hero-note"><span class="note-dot"></span> SUSHI · HIBACHI · GOOD COMPANY</div>
+    </section>
+
+    <section class="value-strip" id="experience">
+      <article><span class="value-icon">◷</span><div><h3>Weekday Lunch</h3><p>Adults <strong>$14.99</strong></p><small>Monday–Friday</small></div></article>
+      <article><span class="value-icon">☾</span><div><h3>Dinner</h3><p>Adults <strong>$23.99</strong></p><small>Monday–Friday evenings</small></div></article>
+      <article><span class="value-icon">✦</span><div><h3>Weekend All Day</h3><p>Adults <strong>$23.99</strong></p><small>Saturday–Sunday</small></div></article>
+    </section>
+
+    <section class="menu-section section-wrap" id="menu">
+      <div class="section-heading">
+        <div><p class="eyebrow red-eyebrow">FIND YOUR FAVORITE</p><h2>Explore the menu</h2></div>
+        <p class="section-intro">From a first bite to one more roll, find something you'll love.</p>
+      </div>
+      <div class="menu-tools">
+        <div class="category-tabs" role="tablist" aria-label="Menu categories">
+          <button class="category-tab active" data-category="all" role="tab" aria-selected="true">Featured</button>
+          <button class="category-tab" data-category="rolls" role="tab" aria-selected="false">Sushi & Rolls</button>
+          <button class="category-tab" data-category="sashimi" role="tab" aria-selected="false">Sashimi & Nigiri</button>
+          <button class="category-tab" data-category="hibachi" role="tab" aria-selected="false">Hibachi</button>
+          <button class="category-tab" data-category="starters" role="tab" aria-selected="false">Appetizers</button>
+        </div>
+        <label class="search-box"><span aria-hidden="true">⌕</span><input id="menu-search" type="search" placeholder="Search the menu…" aria-label="Search menu"></label>
+      </div>
+
+      <p class="prototype-note"><strong>Menu content note:</strong> Featured dishes below are design examples. Confirm dish names, descriptions, and any item prices with the restaurant's current menu before publishing. All-you-can-eat prices above are taken from the restaurant's current homepage.</p>
+
+      <div class="menu-grid" id="menu-grid">
+        <article class="food-card" data-category="rolls" data-search="rainbow roll sushi avocado crab tuna salmon">
+          <div class="food-image image-roll"><span class="food-tag">Guest favorite</span></div>
+          <div class="food-info"><div class="food-title-row"><h3>Rainbow Roll</h3><span class="dash"></span></div><p>A colorful sushi roll topped with a selection of fresh fish and creamy avocado.</p><span class="category-label">SUSHI & SIGNATURE ROLLS</span></div>
+        </article>
+        <article class="food-card" data-category="sashimi" data-search="sashimi nigiri salmon tuna fish">
+          <div class="food-image image-sashimi"></div>
+          <div class="food-info"><div class="food-title-row"><h3>Sashimi & Nigiri</h3><span class="dash"></span></div><p>Simple, classic cuts and bite-size favorites for sushi lovers.</p><span class="category-label">SASHIMI & NIGIRI</span></div>
+        </article>
+        <article class="food-card" data-category="hibachi" data-search="hibachi shrimp grilled vegetables">
+          <div class="food-image image-hibachi"></div>
+          <div class="food-info"><div class="food-title-row"><h3>Hibachi Shrimp</h3><span class="dash"></span></div><p>Sizzling shrimp with grilled vegetables and savory hibachi-style flavor.</p><span class="category-label">HIBACHI</span></div>
+        </article>
+        <article class="food-card" data-category="starters" data-search="gyoza dumplings appetizer">
+          <div class="food-image image-gyoza"></div>
+          <div class="food-info"><div class="food-title-row"><h3>Gyoza</h3><span class="dash"></span></div><p>Golden pan-seared dumplings, a comforting way to start your meal.</p><span class="category-label">APPETIZERS</span></div>
+        </article>
+        <article class="food-card" data-category="rolls" data-search="salmon avocado roll sushi">
+          <div class="food-image image-salmon"></div>
+          <div class="food-info"><div class="food-title-row"><h3>Salmon Roll</h3><span class="dash"></span></div><p>A timeless sushi favorite with salmon and a clean, delicate finish.</p><span class="category-label">SUSHI & SIGNATURE ROLLS</span></div>
+        </article>
+        <article class="food-card" data-category="hibachi" data-search="hibachi steak vegetables fried rice">
+          <div class="food-image image-steak"></div>
+          <div class="food-info"><div class="food-title-row"><h3>Hibachi Steak</h3><span class="dash"></span></div><p>Grilled steak and vegetables for a hearty hibachi-inspired plate.</p><span class="category-label">HIBACHI</span></div>
+        </article>
+      </div>
+      <div class="empty-state" id="empty-state" hidden>No matching dishes. Try another search or category.</div>
+      <p class="disclaimer">Food photos are illustrative and may not depict the exact preparation or presentation at the restaurant. Ask the team about ingredients and allergens.</p>
+    </section>
+
+    <section class="cta-band">
+      <div><p class="eyebrow">MAKE IT A YUMMY DAY</p><h2>Come hungry.<br><em>Leave happy.</em></h2><p>Bring your friends, bring your appetite, and discover your next favorite.</p></div>
+      <a class="button button-light" href="https://www.yummysushiclt.com/">Plan Your Visit <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer id="visit" class="site-footer">
+    <div class="footer-brand"><span class="brand-mark">寿</span><div><strong>YUMMY SUSHI</strong><small>ALL YOU CAN EAT SUSHI & HIBACHI</small></div></div>
+    <div class="footer-column"><h3>Visit us</h3><p>5933 South Blvd<br>Charlotte, NC 28217</p><a href="https://maps.google.com/?q=5933+South+Blvd+Charlotte+NC+28217">Get directions ↗</a></div>
+    <div class="footer-column"><h3>Get in touch</h3><p><a href="tel:+19802019993">980-201-9993</a><br><a href="mailto:info@yummysushiclt.com">info@yummysushiclt.com</a></p></div>
+    <div class="footer-column"><h3>Order online</h3><p>Takeout and delivery options</p><a href="https://www.yummysushiclt.com/">Order online ↗</a></div>
+    <div class="footer-bottom"><span>© <span id="year"></span> Yummy Sushi. All rights reserved.</span><span>Made for good food and good company.</span></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
