@@ -1,0 +1,88 @@
+<HTML>
+<HEAD>
+<TITLE>Statistical Testing Techniques For Pseudorandom generation</TITLE>
+<META NAME="description" CONTENT="No Title">
+<META NAME="keywords" CONTENT="results">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso_8859_1">
+</HEAD>
+
+<BODY background="backcloud.gif">
+<h1>Statistical Testing Techniques For Pseudorandom generation</h1>
+
+
+<b>Tools and Software for Download</b>: Java LIL Testing tool (JAR) (<a href="../liltest.zip">LIL Software, 432KB)</a>.  For instructions, run: <b>java -jar LILtest.jar</b>
+<p>
+
+
+<font size=+0>
+This site is dedicated for techniques, software package, and reports of
+statistical testing techniques for pseudorandom generators. We developed LIL testing
+techniques for pseudo-random generator testing. In the LIL testing, 
+The snapShot LIL test ideal results should look like this:
+<br> <img src="snapShotLIL.jpg" width="40%" height="40%">
+<br>
+It is reported in <a href="http://www.debian.org/security/2008/dsa-1571"> Debian security Advisory DSA-1571-1</a> that 
+the random number generator in Debian's openssl package is predictable
+since the following line of code in md_rand.c has been removed by mistake
+"MD_Update(&m,buf,j); /* purify complains */". We generated 10,000 sequences 
+(each sequence is 2GB long) using this version of the 
+Debian OpenSSL (with single thread).
+The snapShot LIL test results show a significant distance from the 
+  ideal results. Details could be found in following papers.
+
+<p>
+  
+  <b>Publications</b>
+  <ul>
+    <li>The idea of LIL testing was first proposed in the paper:
+      Yongge Wang: Linear complexity versus pseudorandomness: on Beth and Dai's result. In: Proc. Asiacrypt 99, pages 288--298. LNCS 1716, Springer Verlag. (<a href="../papers/acrypt991.pdf">pdf</a>)  
+<li>Yongge Wang and Tony Nicol: 
+Statistical Properties of 
+Pseudo Random Sequences and Experiments with PHP and Debian OpenSSL.
+<b>Computers and Security (53):44-64</b>, September 2015. 
+An extended abstract appeared in <b>ESORICS</b> 2014, LNCS 8712, pp. 454--471. 
+(<a href="../papers/lilesorics.pdf">pdf</a>)
+<a href="http://dx.doi.org/10.1016/j.cose.2015.05.005">Elsevier version</a>. 
+<li> Yongge Wang: 
+On the Design of LIL Tests for (Pseudo) Random Generators and Some Experimental Results  (<a href="../papers/liltest.pdf">pdf</a>)
+<li> Yongge Wang: On Stochastic Security of Pseudorandom Sequences 
+ (<a href="../papers/lilPrfV2.pdf">pdf</a>)
+
+<li>C.Calude, P.Hertling, B.Khoussainov, and Y.Wang: Recursively enumerable
+           reals and Chaitin's
+           &Omega; numbers.
+            <b>Theoretical Computer Science</b> 255:125--149, 2001.
+           (<A HREF="../papers/TCS01.pdf">pdf</A>)
+<li> Y.Wang: Genericity, randomness, and polynomial time approximations.
+          <b>SIAM Journal on Computing</b>,
+          28(2):394-408, 1999. (<A HREF="../papers/SIAM.pdf">pdf</A>)
+<li>Y.Wang: A separation of two randomness concepts.
+         <b>Information Processing Letters</b>, 69(3):115--118, 1999.
+           (<A HREF="../papers/IPL99.pdf">pdf</A>)
+<li>Y.Wang: Resource bounded randomness and computational complexity.
+            <b>Theoretical Computer Science</b> 237(1-2):33--55, 2000.
+         (<A HREF="../papers/TCS00.pdf">pdf</A>) 
+<li>Y.Wang: Randomness, stochasticity, and approximations.
+          <b>Theory of Computing Systems</b> 
+             32:517--529, 1999.
+            (<A HREF="../papers/TOCS99.pdf">pdf</A>)
+<li>Y.Wang: A comparison of two approaches to pseudorandomness. 
+<b>Theoretical Computer Science</b> 
+276(1-2):449--459, 2002. (<A HREF="../papers/TCS02.pdf">pdf</A>, 170K,  
+publisher's <A 
+href="http://www.elsevier.com/gej-ng//10/41/16/247/27/49/abstract.html">version</A>) 
+<li>Y.Wang: Randomness and Complexity. PhD Thesis, 1996. (<A HREF="../papers/thesis.pdf">pdf</A>)
+
+</ul>
+
+<b>Tools and Software for Download</b>
+<ul>
+<li> Yongge Wang: Java LIL Testing tool (<a href="../liltest.zip">LIL Software, 432KB)</a>. The JAR file runs on all platforms. For instructions, run: java -jar LILtest.jar
+</ul>
+
+
+
+
+</HTML>

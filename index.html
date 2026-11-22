@@ -1,123 +1,380 @@
 <HTML>
 <HEAD>
-  <TITLE>Quantum Resistant Public Key Cryptography</TITLE>
-  <style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-</style>
+<script type="text/javascript" src="jsencryption.js"></script>
+<TITLE>Yongge Wang's Home Page</TITLE>
 </HEAD>
-<BODY background="pattern.jpg">
- 
-
- <h1>Quantum Resistant Public Key Cryptography</h1>
+<BODY background="backcloud.gif">
 
 
- <b>    <a href="https://webpages.uncc.edu/yonwang/">Yongge Wang</a></b><p>
-<font size=+0>
-  We develop post-quantum (or quantum resistant) public key encryption techniques. Our first implementation is based on the Random Linear Code Based Public Key Encryption Shceme (RLCE) which was recently introduced by Dr. Yongge Wang.  The full package (including library and C codes for key generation, encryption, and decryption) is
-  available at here: <a href="https://github.com/yonggewang/RLCE">GitHub</a>
-<p>
-<b>Publications</b>
-<ul>
-<li>Yongge Wang: Random Linear Code Based Public Key Encryption Scheme RLCE. In Proc ISIT 2016 
-  (<a href="https://arxiv.org/abs/1512.08454">pdf</a>)
-<li>Yongge Wang: Decoding Generalized Reed-Solomon Codes and Its Application to RLCE Encryption Schemes. Manuscripts 2017.
-  (<a href="http://arxiv.org/abs/1702.07737">pdf</a>)
-  
-<li>Yongge Wang. Revised Quantum Resistant Public Key Encryption Scheme RLCE and IND-CCA2 Security for McEliece Schemes. (<a href="https://eprint.iacr.org/2017/206/">pdf</a>)
-  <li>Yongge Wang. RLCE Key Encapsulation Mechanism (RLCE-KEM) Specification (<a href="RLCEspec.pdf">pdf</a>)
-</ul>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15888382-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
 
 
-<p>
-  <h2>RLCE Performance</h2>
-<p>
- The following Table shows the comparison of the RLCE performance against OpenSSL RSA performance. Both RSA
-and RLCE were tested with a MacOS Sierra on a MacBook Pro with 2.9 GHz Intel Core i7. The time is in miliseconds.
+<table>
+<td>
+<img src="yongge.jpg" width=200>
+</td>
+
+<td>
+
+  <b><font color="#000000"><font size=+2>Yongge Wang</font> (<a href="cv.pdf">CV</a>)</font></b>
+  <br>Professor of SIS
 <br>
-<img src="rsa.png" alt="RSA vs RLCE" height="140">
-<p>
+PhD of Mathematics from <a href="http://www.uni-heidelberg.de/university/statistics/research.html">
+      Heidelberg University</a>, Germany
+<br>
+<div id="fz6PrzIX" title="U2FsdGVkX1+muMMySW6sxM8+FcxFCQcUdwRmNkCNfySlLcnYJ4T80SqsQMqCyRHa">
+	<a href="javascript:decryptText('fz6PrzIX')">Email address (decryption key: wang)</a>
+</div>
 
-  <h2>RLCE Parameters</h2>
-  <p>
-    The following Table lists the parameters for the RLCE encryption scheme with equivalent AES-128, AES-192, and AES-256 security levels. The Tabble also lists the sizes for the corresponding public key, private key, and message bandwidth
-    <br>
-  <img src="parameter.png" alt="RLCE parameters" height="150">
-  <br>
-  where the values in the RLCEpad column are from the following padding scheme<br>
-   <img src="rlcepad.png" alt="RLCE OAEP pad" height="220">
-  <p>
 
-     <!--
+<b>Post Quantum (NIST PQC round 1 candidate)</b>: <a href="http://quantumca.org/"> quantumca.org</a> or <a href="https://github.com/yonggewang/RLCE">GitHub</a>
+<br>
+<b>DLT consensus/Blockchain/DeFi Implementation</b>:  <a href="https://github.com/yonggewang/">GitHub</a> or <a href="https://github.com/hyperledger-labs/bdls">Hyperledger BDLS GitHub</a>
+<br>
+Phone: (704) 687-8665 <br>
+Office Hour: F 2:30-3:30pm
+<br>
+</td>
 
-    <h2>RLCE Performance Table on MacOS 2.9GHz Intel Core i7</h2>
-     <br>
-  <img src="performance.png" alt="RLCE performance" height="120">
-  <br>
-   
-     <table>
-  <tr>
-    <th>ID</th>
-    <th>Key Generation</th>
-    <th>Encryption</th>
-    <th>Decryption</th>
-  </tr>
-  <tr>
-    <td>0</td>
-    <td>340.616</td>
-    <td>0.538</td>
-    <td>1.509</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>1253.926</td>
-    <td>1.166</td>
-    <td>2.937</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>3215.791</td>
-    <td>2.796</td>
-    <td>12.925</td>
-  </tr>
-  
+</td>
+
 </table>
--->
-    <p>
 
-<b>Tools and Software for Download</b>
-<ul>
-  <li>RLCE parameter package: <a href="RLCE.jar">RLCE.jar</a> (19KB).
-    RLCE.jar will test the security strength for given parameters and
-    calculates the padding parameters. It runs on all platforms.
-    For instructions, run: <b>java -jar RLCE.jar</b>
-    
-<li> <a href="rlcefiltration.cpp">CPP Code</a> for RLCE filtration attack analysis.
-<li> The full package (including library and C codes for key generation, encryption, and decryption) is
-  available at here: <a href="RLCE.tar.gz">RLCE.tar.gz</a>
+
+<hr> 
+<b><a href="omega/" target="_top">
+Effective Randomness and &Omega; numbers Page</a></b>
+<br>
+<A HREF="teaching/"><b>Teaching</FONT></A></b>
+| 
+<A HREF="research/funding.html">
+  <b>Research</b></FONT></A></b>
+| 
+<A HREF="erdos.html"><b>Erdos</b></A>
+|
+<A HREF="cv.pdf"><b>CV</b></A>
+<br>
+<A HREF="industry.html"><b>Industry contributions</b></A>
+<br>
+<A HREF="ClassProject/index.htm">
+  <b>Selected course projects</b></A><br>
+
+
+<hr>
+
+<b>Representative Research Areas:</b><br>
+For a complete list of my publications, check 
+<A HREF="papers.html"><b>HERE</b></A></b>
+or <a href="http://scholar.google.com/citations?user=GZtrefYAAAAJ&hl=en">
+  Google Scholar</a> or <a href="https://dblp.org/pid/w/YonggeWang.html">DBLP</a>.
+
+<p>
+  <ol>
+    <li>Survey
+      <ul>
+	<li>Yongge Wang. A Review of Threshold Digital Signature Schemes
+	  (<A HREF="papers/reviewTSS.pdf">pdf</a>)
+	<li>Yongge Wang. Encryption Based Covert Channel for Large Language Models (<A HREF="https://eprint.iacr.org/2024/586.pdf">pdf</a>)
+	<li>Yongge Wang. DeepSeek Improvement on Transformers (<A HREF="papers/deepSeek.pdf">pdf</a>)
+	  <li>Yongge Wang. Smart Grid, Automation, and SCADA Systems Security
+	    (<a href="papers/ywangsmartgrid.pdf">pdf</a>, 200K).
+	    Chapter of "Security and Privacy in Smart Grids", 2013, 
+CRC Press (Taylor & Grancis Group). ISBN 978-1-4398-7783-8
+</li>
+
+<li>Yongge Wang. Public Key Cryptography Standards: PKCS 
+(<a href="papers/pkcs.pdf">pdf</a>, 150K). Chapter of "Handbook of Information Security", 
+John Wiley & Sons, Inc., 2005 
+<a href="http://www.wiley.com/WileyCDA/Section/id-131581.html">
+Publisher's ToC</a></li>
+	</ul>
+    <li> Blockchain
+      <ul>
+	<li> <img src="new_icon.gif"> Yongge Wang.
+	  Prediction Markets, Automated Market Makers, and Decentralized Finance (DeFi). In
+	  <b>3rd International Conference on Mathematical Research for Blockchain Economy (MARBLE 2022)</b>. See also
+	   <b>aRxiv</b>, September 2020 (<A HREF="https://arxiv.org/pdf/2009.01676.pdf">pdf</a>).
+	<li><img src="new_icon.gif"> Yongge Wang. Deterministic Blockchain BFT Protocol XP for Complete Asynchronous Network.
+	<li> <img src="new_icon.gif"> Yongge Wang.
+	  Byzantine Fault Tolerance For Distributed Ledgers Revisited.
+		  In <b>ACM Distributed Ledger Technologies: Research and Practice </b>, ACM 2022 (<A HREF="papers/bftACM.pdf">pdf</a> or <a href="https://doi.org/10.1145/3538227">DOI</a>).
+		  
+	<li> <img src="new_icon.gif"> Yongge Wang.
+	  The Adversary Capabilities In Practical Byzantine Fault Tolerance.
+	   In <b> International Workshop on Security and Trust Management</b>, (pp. 20-39). Springer LNCS 13075 (<A HREF="https://eprint.iacr.org/2021/1248.pdf">pdf</a> or <a href="https://www.doi.org/10.1007/978-3-030-91859-0_2">DOI</a>).
+	<li> Israa Alsarsour, Qutaibah Malluhi, and  Yongge Wang.
+	  Free Chain: Enabling Freedom of Expression through Public Blockchains. In 
+	  <b>IEEE DependSys 2020</b>, December 2020.  (<A HREF="papers/freechain.pdf">pdf</a>)
+	<li> <img src="new_icon.gif"> Yongge Wang.
+	  Byzantine Fault Tolerance in Partially Connected Asynchronous Networks <b>IACR ePrint</b>, December 2019 (<A HREF="https://eprint.iacr.org/2019/1460/">pdf</a>, <a href="https://github.com/yonggewang/BDLS">GitHub</a> implementation).
+	  
+    <li> <img src="new_icon.gif"> Yongge Wang and Q.M.Malluhi.
+      The Limit of Blockchains: Infeasibility of a Smart Obama-Trump Contract. <b>Communications of the ACM</b>, May 2019 (<A HREF="papers/cacm.pdf">pdf</a>).
+<li>  M. Ahmed, J. Wei, Yongge Wang, Ehab Al-Shaer: A Poisoning Attack Against Cryptocurrency Mining Pools. DPM/CBT@ESORICS 2018: 140-154.
+  (<a href="https://doi.org/10.1007/978-3-030-00305-0_11">pdf</a>)
+  </ul>
+  
+<li> Post-Quantum Cryptgraphy 
+  <ul>
+    <li> Liu, Jingang, Yongge Wang, Zongxinag Yi, and Dingyi Pei. "Quantum Resistant Public Key Encryption Scheme polarRLCE." In International Conference on Algebra, Codes and Cryptology, pp. 114-128. Springer, Cham, 2019. <a href="https://link.springer.com/chapter/10.1007/978-3-030-36237-9_7">Online </a>
+    <li> Haoyu Li, Renzhang Liu, Qutaibah M. Malluhi, Yanbin Pan, Yongge Wang, and Tianyuan Xie.
+  Breaking HK17 in Practice.  <b>Proc. ISIT</b> 2019. (<A HREF="papers/BreakHKisit19.pdf">pdf</a>).
+     <li> Yongge Wang. Revised Quantum Resistant Public Key Encryption Scheme RLCE and IND-CCA2 Security for McEliece Schemes. (<A HREF="papers/pqEncryption.pdf">pdf</a>)
+  <li>
+     Yongge Wang: 
+Quantum Resistant Random Linear Code Based Public Key Encryption Scheme RLCE. <b>Proc. IEEE <a href="http://www.isit2016.org">ISIT 2016 (Barcelona)</a></b>, pages 2519-2523
+  (<a href="papers/latticeEnc.pdf">pdf</a>).
+  <li> Yongge Wang: Decoding Generalized Reed-Solomon Codes and Its Application to RLCE Encryption Schemes. Manuscripts 2017.
+  (<a href="papers/ReedSolomon.pdf">pdf</a>)
 </ul>
 
-<b>Public keys and ciphertext for you to decrypt</b>
-<ul>
-  <li>ciphertext: <a href="samplecipher">samplecipher</a></li>
-  <li>public key: <a href="wangpubKey.txt">wangpubKey.txt</a></li>
-  <li>privafte key <a href="wangpriKey.txt">wangpriKey.txt</a></li>
+<li> Fully Homomorphic Encryption (FHE) and garbled computation 
+  <ul>
+       <li>  Y.Wang and  Q. Malluhi. Privacy Preserving Computation in Cloud Using Reusable Garbled Oblivious RAMs
+     (<a href="papers/oram.pdf">pdf</a>,  <a href="papers/ORAMslide.pdf">PPT</a>). Proc. 25th Information Security Conference 3--19. LNCS, Springer-Verlag, 2022.
+
+    <li>  Y.Wang and  Q. Malluhi. Reusable Garbled Turing Machines without FHE 
+(<a href="papers/garbledTM.pdf">pdf</a>). Proc. 3rd Conference C2SI, Codes, Cryptology and Information Security. LNCS, Springer-Verlag, 2019.
+  <li>Y.Wang and  Q. Malluhi. Reducing Garbled Circuit Size While Preserving Circuit Gate Privacy. <b>Proc. AfricaCrypt 2024.</b>
+(<a href="papers/efficientGC.pdf">paper</a> and <a href="papers/efficientGCPPT.pdf">PowerPoint Presentation</a>). 
+  <li>Wang, Y. and Desmedt, Y. (2015). Towards fully homomorphic encryption schemes from codes.
+    In Submitted, pages 1-1.
+ <li> Y.Wang and  Q. Malluhi. Privacy Preserving Computation in Cloud Using Noise-Free
+    Fully Homomorphic Encryption (FHE) Schemes. <b>ESORICS</b> 2016, LNCS 9878. 
+    (<a href="papers/octonionAlgebraEsorics.pdf">pdf</a>)
+<li>Y.Wang and Q. Malluhi and K.Khan: 
+Garbled computation in cloud.  <b>Future Generation of Computer Systems</b> 62(C):54--65, 2016 
 </ul>
-     
- </BODY>
+
+
+<li> <a href="liltest/"> Pseudorandomness and statistical testing</a>. Software tool: <a href="liltest.zip">LIL package, 432KB</a>. The JAR file runs on all platforms. For instructions, run: <b>java -jar LILtest.jar</b>
+  <ul>
+        <li> P.Li, X.Liu, X.Yi, Y.Wang and Yongge Wang.
+	  Brownian Motion Properties of Random Bit Generators Based on Laser Chaos. <b>Optics Express</b> 24(14):15822-15833 (<a href="papers/opticexpress16.pdf">pdf</a>,
+	  <a href="http://dx.doi.org/10.1364/OE.24.015822">Publisher version</a>, impact factor: 3.148 for 2015)
+<li>Yongge Wang: 
+On the Design of LIL Tests for (Pseudo) Random Generators and Some Experimental Results  (<a href="papers/liltest.pdf">pdf</a>)
+<li> Yongge Wang and Tony Nicol: 
+Statistical Properties of 
+Pseudo Random Sequences and Experiments with PHP and Debian OpenSSL.
+<b>Computers and Security (53):44-64</b>, September 2015. 
+An extended abstract appeared in <b>ESORICS</b> 2014, LNCS 8712, pp. 454--471. 
+(<a href="papers/lilesorics.pdf">pdf</a>)
+<a href="http://dx.doi.org/10.1016/j.cose.2015.05.005">Elsevier version</a>. 
+</ul>
+
+<li> LDPC based erasure codes, LT-codes, 
+digital fountain, efficient perfectly secure secret sharing schemes 
+and applications to cloud storage.
+<ul>
+<li>  M. Paterson, Douglas R. Stinson, and Yongge Wang:
+On Encoding Symbol Degrees of Array BP-XOR
+Codes. <b>Cryptography and Communications</b> 8(1):19--32, 2016, 2015. (<a href="papers/bpxorIT.pdf">pdf</a>)
+
+<li>  Yongge Wang:
+Privacy-preserving data storage in cloud using array BP-XOR codes. <b> 
+IEEE Transactions on Cloud Computing (TCC)</b> 3(4):425--435, 2015.
+ (<a href="papers/ecldpc.pdf">pdf</a>)
+
+<li> Yongge Wang and Yvo Desmedt. Efficient Secret Sharing Schemes 
+Achieving Optimal Information Rate. In IEEE <b>Information Theory Workshop (ITW)</b>, pages 516--520,
+2014. (<a href="papers/sss.pdf">pdf</a>)
+<li> Yongge Wang: Array BP-XOR Codes for Reliable Cloud Storage Systems.
+<b>Proc. IEEE ISIT 2013, </b> pages 326--330. 
+ (<a href="papers/isit2013.pdf">pdf</a>) and 
+(<a href="papers/isit13Presentation.pdf">presentation slide</a>).
+</ul>
+
+<li>Secure authenticated communications: identity based or password based 
+(avoiding off line dictionary attacks). 
+Two of my protocols have been included in the IEEE 1363 Standards. 
+They are: secure remote authentication protocol
+with passwords SRP5 in IEEE 1363.2 and identity based 
+key agreement WANG-KE in IEEE 1363.3. IEEE 1363 is one of the most
+important standards for industry cryptographic techniques.
+Recently, I am also interested in secure password protocols 
+for smart cards and memory sticks (or multi factor authentication).
+<ul>
+<li>  Y.Wang: Efficient Identity-Based and Authenticated Key
+Agreement Protocol (<A HREF="papers/idakj.pdf">pdf</A>).
+M.L. Gavrilova and C.J.K. Tan (Eds.) <b> Trans. on Comput. Sci. XVII, LNCS 7420, pp. 172--197.</b> Springer, Heidelberg (2013)
+<li> Z.Zhao, Z.Dong, and Y.Wang.
+Security Analysis of a Password-Based Authentication
+Protocol Proposed to IEEE 1363
+<b>Theoretical Computer Science</b>,
+<b>352</b>(1-3):280--287, 7 March 2006.
+(<a href="papers/TCSsrp5.pdf">pdf</a>).
+ Publisher's 
+<a href="http://dx.doi.org/10.1016/j.tcs.2005.11.038">version</a>.
+<li> Y.Wang. Password Protected Smart Card and Memory Stick Authentication
+Against Off-line Dictionary Attacks.
+In: D. Gritzalis, S. Furnell, and M. Theoharidou (Eds.): <b> SEC 2012, IFIP AICT 376</b>, pp. 489-500, 2012. (<a href="papers/smartcard.pdf">pdf</a>).
+</ul>
+<li> PSMT (perfectly secure message transmission)
+<ul>
+<li> Y.Wang and  Y.Desmedt. Perfectly Secure Message Transmission Revisited.
+<b>IEEE Transaction on Information Theory 54(6):2582--2595</b>, June 2008. 
+(<A HREF="papers/ecrypt02.pdf">pdf</A>). 
+Abstract in <b>EuroCrypt'02</b>, pages 502-517, LNCS 2332.
+
+<li>Y.Wang and Y.Desmedt: Secure communication in multicast channels.
+         <b>Journal of Cryptology</b> 14(2):121--135, 2001.
+          (<A HREF="papers/JCRYPTO.pdf">pdf</A>). 
+Abstract in <b>Eurocrypt 99</b>, pages 443--455.
+     LNCS 1592.
+<li>Y.Wang and Y.Desmedt. Edge-Colored Graphs with Applications 
+  To Homogeneous Faults.
+<b>Information Processing Letters 111(2011) 634-641</b>  (<A HREF="papers/iplwangcolor.pdf">pdf</A>). The publisher
+<a href="http://www.sciencedirect.com/science/journal/00200190"> version</a>. 
+<li>Y.Desmedt, Y.Wang and M.Burmester. A complete characterization of tolerable adversary structures for secure point-to-point transmissions. In Proc. 16th ISAAC (ratio: 112/549), LNCS 3827, pages 277-287, 2005. 
+(<A HREF="papers/isaac05.pdf">pdf</a>).
+</ul>
+
+<li> Critical Infrastruction Protection
+<ul>
+
+<li> Yongge Wang.
+Secure Communication and Authentication Against Off-line Dictionary Attacks in Smart Grid Systems. In Proc. CyberICPS 2016 (ESORICS Workshop), LNCS 10166, pages xxx-xxx, 2017.
+(<A HREF="papers/smartgridfull.pdf">pdf</a>). 
+<li> Yongge Wang. Smart Grid, Automation, and SCADA Systems Security 
+(<A HREF="papers/ywangsmartgrid.pdf">pdf</a>). Invited and anonymously refereed Chapter of "Security and Privacy in Smart Grids", 2013, CRC Press (Taylor & Grancis Group). ISBN 978-1-4398-7783-8 
+<li>Y.Wang. sSCADA: Securing SCADA Infrastructure Communications 
+(<A HREF="papers/scada.pdf">pdf</a>). Int. J. Communication Networks and Distributed Systems, 6(1):59--78, 2011. 
+<li>Y.Desmedt and Y.Wang: Analyzing vulnerabilities of critical infrastructures using flows and critical vertices in AND/OR graphs. International Journal of Foundations of Computer Science, 15(1):107--125, 2004 
+(<A HREF="papers/ijfcs03.pdf">pdf</a>) 
+<li> Y.Wang. <a href="http://smartgrid.ieee.org/december-2012/732-cryptographic-challenges-in-smart-grid-system-security"> 
+Cryptographic Challenges In Smart Grid System Security 
+</a>
+IEEE Smart Grid Newsletter, December, 2012.
+</ul>
+<li> Algorithmic Information Theory and Complexity. Several of my papers 
+have laid the foundation for effective randomness. In particular, we have 
+showed that a computably enumerable infinite string is 
+Martin-Lof random if and only if it is the halting probability
+of the universal Turing machine. Furthermore, I have showed 
+the separation of several randomness concepts such as recursive
+randomness and recursively constructive randomness (Schnorr randomness).
+I have a separate <a href="omega/index.html">Omega Randomness</a> page.
+<ul>
+
+
+
+
+<li>C.Calude, P.Hertling, B.Khoussainov, and Y.Wang: Recursively enumerable
+           reals and Chaitin's
+           &Omega; numbers.
+            <b>Theoretical Computer Science</b> 255:125--149, 2001.
+           (<A HREF="papers/TCS01.pdf">pdf</A>)
+<li> Y.Wang: Genericity, randomness, and polynomial time approximations.
+          <b>SIAM Journal on Computing</b>,
+          28(2):394-408, 1999. (<A HREF="papers/SIAM.pdf">pdf</A>)
+<li>Y.Wang: A separation of two randomness concepts.
+         <b>Information Processing Letters</b>, 69(3):115--118, 1999.
+           (<A HREF="papers/IPL99.pdf">pdf</A>)
+<li>Y.Wang: Resource bounded randomness and computational complexity.
+            <b>Theoretical Computer Science</b> 237(1-2):33--55, 2000.
+         (<A HREF="papers/TCS00.pdf">pdf</A>) 
+<li>Y.Wang: Randomness, stochasticity, and approximations.
+          <b>Theory of Computing Systems</b> 
+             32:517--529, 1999.
+            (<A HREF="papers/TOCS99.pdf">pdf</A>)
+<li>Y.Wang: NP-hard sets are superterse unless NP is small.
+       <b>Information Processing Letters</b> 61(1):1-6, 1997.
+           (<A HREF="papers/IPL97.pdf">pdf</A>) 
+<li>Y.Wang: Randomness and Complexity. PhD Thesis, 1996. (<A HREF="papers/thesis.pdf">pdf</A>)
+</ul>
+</ol>
+
+<b>Industry Standards:</b>
+<ul>
+<li> Secure Remote Password Authentication Protocol SRP5. Included 
+  in <a href="1363.2-2008.pdf">IEEE 1363.2</a> standards (<A HREF="papers/ecsrp.pdf">SRP5</A>).
+ There is a EC-SRP (SRP5) Android Library
+implementation <a href="https://github.com/mobilesec/secure-channel-srp-android-lib">here.</a> and a Java Card Applet 
+implementation
+<a href="https://github.com/mobilesec/secure-channel-ec-srp-applet">here.</a> 
+(both by Michael Holzl). 
+<li> Identity Based Authenticated Key Agreement Protocol WANG-KE. 
+  Included in <a href="13633-2013.pdf">IEEE 1363.3</a>) Standards (<a href="papers/P1363IBKAS.pdf">WANG-KE</a>).
+<li>S.Blake-Wilson, G. Karlinger, T. Kobayashi, and Y.Wang: ECDSA 
+with XML-Signature Syntax, <a href="http://www.ietf.org/rfc/rfc4050">
+IETF RFC 4050</a>, 2005.
+</ul>
+
+
+<hr> 
+<b><a href="omega/" target="_top">
+Effective Randomness and &Omega; numbers Page</a></b>
+<br>
+<A HREF="teaching/"><b>Teaching</FONT></A></b>
+| 
+<A HREF="research/funding.html">
+  <b>Research</b></FONT></A></b>
+| 
+<A HREF="erdos.html"><b>Erdos</b></A>
+|
+<A HREF="cv.pdf"><b>CV</b></A>
+<br>
+<A HREF="industry.html"><b>Industry contributions</b></A>
+<br>
+<A HREF="ClassProject/index.htm">
+  <b>Selected course projects</b></A><br>
+<br>
+<A HREF="j1.html">
+<b>J1 Visitors from China</b></A><br>
+
+<hr>
+<TABLE>
+<TR>
+<TD><font size=+1><b>Address</b></font>
+<br> Woodward Hall 330G
+
+<br> <a href="http://www.sis.uncc.edu/"> 
+     Dept. of Software and Information Systems</a>
+
+<br> <a href="http://cci.uncc.edu"> 
+     College of Computing and Informatics</a>
+
+<br>  <a href="http://www.uncc.edu"> 
+     University of North Carolina at Charlotte </a>
+
+<br> 9201 University City Blvd, Charlotte, NC 28223
+<br> phone: 704-687-8665
+<br> fax:   704-687-4893
+<br> email: 
+yongge.wang<img src="datasecurity/atmark.png"  height="12"   alt="-at-">gmail<img src="datasecurity/dot.png"  height="12"   alt="-dot-">com
+
+<br>
+</TD>
+
+
+
+</td>
+<td>
+<img src="YonggeWang.png" width=110 height=115>
+</td>
+
+</td>
+<td>
+ <img src="studentsurvey12.jpg">
+</td>
+
+</tr>
+
+</TABLE>
+
+<hr>
+<font color=red>Please use my GMAIL account at: yongge.wang<img src="datasecurity/atmark.png"  height="12"   alt="-at-">gmail<img src="datasecurity/dot.png"  height="12"   alt="-dot-">com</font>
+
+<p>
 
 </HTML>
 

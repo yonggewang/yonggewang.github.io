@@ -1,0 +1,965 @@
+\documentstyle[11pt]{article}
+
+\pagestyle{empty}
+
+\topmargin -.8in
+
+\textheight 9.5in
+
+\textwidth 6.2in
+
+\title{ An Algorithm And Its Data Structure From Sequential $US \ \ MMCM$
+
+To Parallel Machine}
+
+\author{Hu Guoding \& Wang Yongge \\ Nankai Institute of Mathematics
+
+\\ Nankai University, Tianjin, P.R.China}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\thispagestyle{empty}
+
+\begin{abstract}
+
+ In paper $[1]$,   Hu Guoding gave a general definition of  computing machine model
+
+$MMCM$,   and in $[2]$,  Hu proved that one kind of this machine,   called $US \ \ MMCM$,
+
+can be implemented parallely. In this paper,   we will give an algorithm to
+
+carry out this transformation from sequential $US \ \ MMCM$ to parallel $US \ \ MMCM$,   and
+
+also we will describe the software TR.LSP of this transformation on micro-computer
+
+PC/AT.
+
+\end{abstract}
+
+
+
+\section{Computing Machine Model $MMCM$}
+
+
+
+\subsection{Notations}
+
+
+
+Let $B$ be any set,   $N$ be a natural number, $<B>_N=\{ \alpha |\alpha\in
+
+B^*,   |\alpha|\leq N\}$.
+
+
+
+If $v=a_1a_2a_3\cdots a_n,   a_i\in A$,   then $\stackrel{\downarrow\mbox{ } }{v}
+
+=\stackrel{\downarrow}{a}_1a_2a_3\cdots a_n, $ and
+
+$\stackrel{\downarrow\mbox{ }}{v}=\epsilon$ for
+
+$n=0$;  $\stackrel{\mbox{ }\downarrow}{v}=
+
+a_1a_2a_3\cdots\stackrel{\downarrow}{a}_n, $ and
+
+$\stackrel{\mbox{ }\downarrow}{v}=\epsilon$ for
+
+$n=0$;  $\stackrel{\downarrow\downarrow}{v}=
+
+\stackrel{\downarrow}{a}_1a_2a_3\cdots \stackrel{\downarrow}{a}_n, $
+
+and $\stackrel{\downarrow\downarrow}{v}=\epsilon$ for
+
+$n=0$.
+
+
+
+\subsection{Computing Machine Model $MMCM$}
+
+
+
+For the detailed information of $MMCM$,   the reader is refered to $[1]$,
+
+here we will give a concise description of $MMCM$.
+
+
+
+{\bf Definition:} an $MMCM$ is a 6-tuple $(A,   W,   Q,   Q_h,   F,   P)$ where
+
+
+
+(1). $A$ is a finite alphabet set;
+
+
+
+(2). $W\subset A^*$ is the initial words set;
+
+
+
+(3). $Q$ is the finite states set and $Q_h\subset  Q$ is the halting states set;
+
+
+
+(4). $F:E_1\times (Q-Q_h)\longrightarrow E_2\times Q$;
+
+where $E_1\subset <A'\cup V>_N,   E_2\subset  <A\cup A'\cup V'>_N$ and
+
+$V=\{ v_1,  v_2,  \cdots ,  v_n\},
+
+V'=\{\stackrel{\downarrow\mbox{ }}{v},
+
+\stackrel{\mbox{ }\downarrow}{v},
+
+\stackrel{\downarrow\downarrow}{v}|v\in V\} ,
+
+A'=\{\stackrel{\downarrow}{a}|a\in A\}$,   the
+
+elements of $E_1$ is in the form of
+
+$\bar{\alpha}=v_1\stackrel{\downarrow}{a}_1v_2\stackrel{\downarrow}{a}_2\cdots v_m\stackrel{\downarrow}{a}_mv_{m+1};
+
+2m+1\leq N $.
+
+If $F(\bar{\alpha},  q)=(\bar{\alpha}_1, q_1)$, then $(\bar{\alpha}_1, q_1)$
+
+is only determined by
+
+$a_1,   a_2,   \cdots,   a_m,   q$; if $v$ or
+
+$\stackrel{\downarrow\mbox{ }}{v},
+
+\stackrel{\mbox{ }\downarrow}{v},   \stackrel{\downarrow\downarrow}{v}$
+
+ocur in $\bar{\alpha}_1,$ then
+
+$v$ must occur in $\bar{\alpha}$.
+
+
+
+(5). $P$ is the computation processes set,   e.g. the following is a computation
+
+process:
+
+
+
+\centerline{$(\alpha_{\lambda_0},  q_0)\rightarrow
+
+(\alpha_{\lambda_1},  q_1)\rightarrow \cdots\rightarrow (\alpha_{\lambda_t},  q_t)$}.
+
+
+
+Now,   we will show how to implement one step of this computation:
+
+
+
+\centerline{$(\alpha_{\lambda_i},  q_i)\rightarrow(\alpha_{\lambda_{i+1}},  q_{i+1});  \ \
+
+\alpha_{\lambda_i} \in (A\cup A')^*$}
+
+
+
+Firstly,   let $\alpha_{\lambda_i}=a_1\cdots\stackrel{\downarrow}{a}_{i_1}\cdots\stackrel{\downarrow}{a}_{i_m}\cdots a_n$
+
+and $v_1=a_1a_2\cdots a_{i_1-1};  v_2=a_{i_1+1}\cdots a_{i_2-1};   \cdots ;
+
+v_m=a_{i_{m-1}}\cdots a_{i_m-1};  v_{m+1}=a_{i_m+1}\cdots a_n$. Thus,   we have
+
+$\bar{\alpha}_{\lambda_i}=v_1\stackrel{\downarrow}{a}_{i_1}v_2\cdots
+
+v_m\stackrel{\downarrow}{a}_{i_m}v_{m+1}$,   using $F$,   we can
+
+have $F(\bar{\alpha}_{\lambda_i}, q_i)=(\bar{\alpha}_{\lambda_{i}'},   q); $
+
+replace
+
+the $v_i$ in $\bar{\alpha}_{\lambda_i}$ with the above definitions of $v_i$,
+
+we get $\alpha_{\lambda_{i+1}}$;  and $q'=q_{i+1}$.
+
+
+
+Lastly,   we need that $q_0$ is the initial state and $q_t\in Q_h$. If
+
+we remove the arrows in $\alpha_{\lambda_0}$,   it becomes an element of $W$.
+
+
+
+\section{Uniformly Separable Machine $US \ \ MMCM$}
+
+
+
+{\bf Definition:} An $MMCM$  \ $M$ is a Uniformly
+
+Separable $MMCM$,   if its instruction set
+
+$F:E_1\rightarrow E_2$ (or we can write it as
+
+$(v_1\stackrel{\downarrow}{a}_1v_2\cdots
+
+v_m\stackrel{\downarrow}{a}_mv_{m+1}, q)
+
+\stackrel{F}{\rightarrow} (\bar{\alpha},   q)$)
+
+satisfies the following conditions:
+
+
+
+(1). the length of $\bar{\alpha}$  only depends on $m,   q$;
+
+
+
+(2). $q'$ only depends on $m,   q$;
+
+
+
+(3). the letters of $(V\cup V')$ which occur in $\bar{\alpha}$
+
+and their occuring position
+
+in $\bar{\alpha}$ only depend on $m, q$;
+
+
+
+(4). the occuring-positions of letters of $A$ in
+
+$\bar{\alpha}$ only depend on $m,   q$;
+
+
+
+(5). which letters of $A\cup A'$ will occur in $\bar{\alpha}$
+
+only depends on $a_1, a_2, \cdots, a_m, m$ and  $q$.
+
+
+
+\section{The Transformation Algorithm From Sequential
+
+$US \ \ MMCM$ to Parallel $US \ \ MMCM$}
+
+
+
+\subsection{the data structure of storing a $US \ \ MMCM$}
+
+
+
+
+
+Although an $MMCM$ M is a 6-tuple $(A,  W,  Q,  Q_h,  F,  P)$,
+
+we need only to store the $W,   Q_h$ and $F$,   because
+
+$A$ can be a default general finite alphabet
+
+set,   $Q$ belongs to $F$,   $P$ can be computed from
+
+$W, F$ and $Q_h$. Without loss of generality, we can assume
+
+that there is only one element in $Q_h$ and it is stored in
+
+the form of an alphabet string in computer. The computation process
+
+$P$ of a $US \ \ MMCM$ is always the same when the length
+
+of input words and the operating letters coodinates are
+
+the same,   so for an $N$-length input words with the operating
+
+letters coodinates $(\lambda_1\ \  \lambda_2\ \ \cdots\ \ \lambda_s)$,
+
+we can store it in a variable (((a 1)\  (a 2)\  (a 3) \  $\cdots$ \  (a N) \
+
+($\lambda_1$ \  $\lambda_2$\   $\cdots$\    $\lambda_s$)). For the
+
+convenience of LISP language, we use (a i) to denote the
+
+variable $a_i$. Any one production rule of $F$
+
+can be stored in the form of structure(which equivelents
+
+to a record in Pascal language). That is, a Production structure
+
+is made up of the fields $premise,  poperating, pstate, result,
+
+roperating,  rnewborn$ and $rstate$, here $premise$ is the
+
+premise, stored in the form of ((a 1)\  (a 2) (a 3)\ $\cdots$\ (a n));
+
+$poperating$ is the operating letters coodinates, stored in
+
+the form of ($i_1$  $i_2$  $\cdots$ $i_s$);
+
+$result$ is the result which has the same data structure
+
+as $premise$; $roperating$ is operating letters coodinates
+
+for next operation, stored in the form of
+
+$((i_1\ s_1)\ \ (i_2\ s_2)\ \  \cdots\ \  (i_t \ s_t))$,
+
+where $i_j$ is the operating letters coodinates and
+
+$s_j=0,\ 1,\ 2$ or $3$, here $(i_j\  0), \  (i_j\  1), \
+
+(i_j \ 2)$ and $(i_j \ 3)$ denote
+
+$v, \stackrel{\downarrow\mbox{ }}{v}, \stackrel{\mbox{ }\downarrow}{v}
+
+and \stackrel{\downarrow\downarrow}{v}$ respectively;
+
+$rnewborn$ is newborn words, stored in the form of
+
+$(\mu_1\ \mu_2\ \cdots\  \mu_t)$; $pstate$ and $ratate$
+
+are states, stored in the form of alphabet string. After
+
+the above structural  process,   the whole $F$ can then be
+
+stored in an array $proarry$ which has structure as its components.
+
+
+
+\subsection{the algorithm to obtain $US \ \ MMCM$'s computation process}
+
+
+
+Generally, production rule is in the form of
+
+$v_1c_1v_2c_2\cdots v_nc_nv_{n+1}\rightarrow v_{i_1}b_1v_{i_2}b_2\cdots v_{i_m}b_mv_{i_{m+1}}$,
+
+where $v_i$ are string variables and $c_i, b_i$ are letters.
+
+because the initial word is $a_1a_2\cdots a_n$,
+
+to obtain the computation, we must replace
+
+subwords between operating letters with the variables, i.e.
+
+if $\alpha_0=a_1\cdots\stackrel{\downarrow}{a}_{i_1}\cdots\stackrel{\downarrow}{a}_{i_m}\cdots a_n$,
+
+then let $v_1=a_1a_2\cdots a_{i_1-1}; v_2=a_{i_1+1}\cdots a_{i_2-1}; \cdots ;
+
+v_m=a_{i_{m-1}}\cdots a_{i_m-1}; v_{m+1}=a_{i_m+1}\cdots a_n$,
+
+so we have
+
+$\alpha_0'=v_1\stackrel{\downarrow}{a}_{i_1}v_2\cdots v_m\stackrel{\downarrow}{a}_{i_m}v_{m+1}$.
+
+After doing this, we use the appropriate
+
+production rule in $F$ to carry out the computation,
+
+and then, replace the $v_i$'s with the old value. This
+
+computation process is the task of function $adapt$ and
+
+$huanyan$ in the software {\bf TR.LSP}. The complexities
+
+of $adapt$ and $huanyan$ are $O(n)$ and $O(n^2)$ respectively.
+
+From above analysis, each one step of the computation process
+
+$P$ can be obtained from the following computations:
+
+
+
+(1). $adapt$;
+
+
+
+(2). search for the approprate production rule(which is
+
+completed by the function $search$);
+
+
+
+(3). $huanyan$.
+
+
+
+\subsection{find out the maximal parallelism in $P$}
+
+
+
+Step 1: find the $PSCPP$'s in $P$(Pure Serial Computation
+
+Partial Process), i.e. the $k_1, k_2, \cdots, k_t$ in paper
+
+$[2]$. To do this, for each step of $P$, we test whether
+
+there are any operating letters of this step which belong to the
+
+newborn words of last step. The result of this step is
+
+stored in the array $klevel$, i.e. $klevel[i]$ is made up of
+
+the steps of $P$ which are in $k_i$. the complexity of this
+
+step is $O(n)$.
+
+
+
+\noindent
+
+Step 2: find out the maximum parallelism for each $k_i$ in $PSCPP$,
+
+i.e. we classify $PSCPP$ into $I_1, I_2, \cdots, I_s$
+
+so that for each $I_j$, the elements $k_i$ in $I_j$ can be
+
+implemented parallely. To get $I_j$, firstly, we must have the
+
+operating letters for each $k_i$(Remark: $k_i$ is a composite
+
+map of simple $US \ \ MMCM$ map, its operating letters is
+
+the union of the submaps's operating letters) and these
+
+operating letters are produced by which $k_s$, secondly,
+
+using the above result to label each $k_i$, e.g. if
+
+the operating letters of $k_i$ are produced by
+
+$k_{j_1}, k_{j_2}, \cdots, k_{j_t}$,
+
+then give $k_i$ the label $\max(j_1, j_2, \cdots, j_t)$.
+
+Lastly, using the labels to get the classification. The
+
+complexity of step 2 is $O(n^3)$.
+
+
+
+\section{The Auto-transformation Software From
+
+Sequential Algorithm to Parallel Algorithm}
+
+
+
+We have designed a software {\bf TR.LSP} which can be
+
+used on PC/AT to carry out this transformation. The
+
+function of this software is: iuput a sequential
+
+$US \ \ MMCM$, then the software can output the parallel
+
+machine equivalent to the inputed sequential machine. I.e.
+
+output the computation process $P$:
+
+
+
+\centerline{$\alpha_0 \stackrel{1*}{\longrightarrow}\alpha_1\stackrel{2*}{\longrightarrow}\alpha_2\stackrel{3*}{\longrightarrow}\cdots\stackrel{n*}{\longrightarrow}\alpha_n$}
+
+
+
+\noindent
+
+and classify this process into: $I_1,  I_2,  \cdots,   I_l$ which satisfies:
+
+
+
+(1). $\cup_{i=1}^lI_i=\{ 1*,   2*,  \cdots,   n*\} $;
+
+
+
+(2). $I_i\cap I_j=\phi,   i\not= j$;
+
+
+
+(3). If $I_i=\{ n_1*,   n_2*,   \cdots,   n_k*\}$,   then,   in the process $P$,
+
+the $n_1*,   n_2*,   \cdots,   n_k*$-st step can be implemented parallely.
+
+
+
+In other words,   the output parallel machine operates as follows:
+
+
+
+Step 1. carry out each steps in $I_1$ parallely;
+
+
+
+Step 2. carry out each steps in $I_2$ parallely;
+
+
+
+\ \ \ \ \ \  \  \ $\cdots$  \ \ \ \ \ $\cdots$
+
+
+
+Step l. carry out each steps in $I_l$ parallely;
+
+and output the whole result.
+
+
+
+The strucral scheme of this software can be found
+
+at the end of this article.
+
+
+
+\section{An application of This Software}
+
+
+
+Example: one application of software TR.LSP: Mulplication of numbers:
+
+
+
+\vskip 3pt
+
+\noindent
+
+(I). the production rules for $US \ \ MMCM$  M of mulplication
+
+
+
+( ((v 1) (a 1) (a 2) (a 3)) (2 3 4) ``q0" ((v 1) (b 1) (b 2) (a 2) (a 3) (b 3)
+
+(b 4)) ((1 2) (4 0) (5 0)) (2 3 6 7) ``q1")
+
+
+
+( ((v 1) (a 1) (v 2) (a 2) (a 3) (v 3)) (2 4 5) ``q1" ((v 1) (b 1) (b 2) (v 2) (a 2)
+
+(a 3) (b 3) (b 4) (v 3)) ((1 2) (5 0) (6 0)) (2  3 7 8) ``q1")
+
+
+
+( ((a 1) (v 1) (a 2) (a 3) (v 2)) (1 3 4) ``q1" ((b 1) (b 2) (v 1) (a 3) (b 3)
+
+(b 4) (v 2)) ((3 2) (4 0)) (1 2 5 6) ``q1")
+
+
+
+( ((v 1) (a 1) (a 2) (v 2)) (2 3) ``q1" ((v 1) (a 1) (a 2) (v 2)) ((1 2) (3 0))
+
+nil ``q1")
+
+
+
+( ((v 1) (a 1) (v 2) (a 2) (v 3)) (2 4) ``q1" ((v 1) (a 1) (v 2) (a 2) (v 3))
+
+((1 2) (2 0) (4 0)) nil ``q2")
+
+
+
+( ((v 1) (a 1) (v 2) (a 2) (v 3)) (2 4) ``q2" ((v 1) (a 1) (v 2) (a 2) (v 3))
+
+((1 2) (2 0) (4 0)) nil ``q2")
+
+
+
+( ((v 1) (a 1) (a 2) (v 2) (a 3) (v 3)) (2 3 5) ``q2" ((v 1) (b 1) (b 2) (v 2)
+
+(a 3) (v 3)) ((1 2) (5 0)) (2 3) ``q2" )
+
+
+
+( ((a 1) (v 1) (a 2) (v 2)) (1 3) ``q2" ((a 1) (v 1) (a 2) (v 2)) ((2 2) (3 0))
+
+ nil ``q3" )
+
+
+
+( ((a 1) (a 2) (v 1) (a 3) (v 2)) (1 2 4) ``q2" ((b 1) (b 2) (v 1) (a 3) (v 2))
+
+((3 2) (4 0)) (1 2) ``q3" )
+
+
+
+( ((v 1) (a 1) (a 2) (v 2)) (2 3) ``q3" ((v 1) (a 1) (a 2) (v 2)) ((1 2) (3 0))
+
+ nil ``q3" )
+
+
+
+( ((v 1) (a 1) (v 2) (a 2) (v 3)) (2 4) ``q3" ((v 1) (a 1) (v 2) (a 2) (v 3))
+
+((1 2) (4 0)) nil  ``q4" )
+
+
+
+( ((v 1) (a 1) (v 2) (a 2) (v 3)) (2 4) ``q4" ((v 1) (a 1) (v 2) (a 2) (v 3))
+
+((1 2) (4 0)) nil ``q5" )
+
+
+
+( ((v 1) (a 1) (v 2) (a 2) (v 3)) (2 4) ``q5" ((v 1) (a 1) (v 2) (a 2) (v 3))
+
+((1 2) (2 0) (4 0)) nil ``q5" )
+
+
+
+( ((v 1) (a 1) (a 2) (v 2) (a 3) (v 3)) (2 3 5) ``q5" ((v 1) (b 1) (v 2)
+
+(a 3) (v 3)) ((1 2) (4 0)) (2) ``q5" )
+
+
+
+( ((a 1) (v 1) (a 2) (v 2)) (1 3) ``q5" ((b 1) (v 1) (a 2) (v 2)) ((3 0) (4 2))
+
+(1) ``q7" )
+
+
+
+( ((a 1) (a 2) (v 1) (a 3) (v 2)) (1 2 4) ``q5" ((b 11) (v 1) (a 3)
+
+(v 2)) ((3 0) (4 2)) (1) ``q7" )
+
+
+
+( ((v 1) (a 1) (v 2) (a 2)) (2 4) ``q7" ((v 1) (a 1) (v 2) (a 2))
+
+ ((2 0) (3 2)) nil ``q7" )
+
+
+
+( ((v 1) (a 1) (v 2) (a 2) (v 3)) (2 4) ``q7" ((v 1) (a 1) (v 2) (a 2) (v 3))
+
+((2 0) (3 2) (4 0)) nil ``q8" )
+
+
+
+( ((v 1) (a 1) (v 2) (a 2) (v 3)) (2 4) ``q8" ((v 1) (a 1) (v 2) (a 2) (v 3))
+
+((2 0) (3 2) (4 0)) nil ``q8")
+
+
+
+( ((v 1) (a 1) (v 2) (a 2) (a 3) (v 3)) (2 4 5) ``q8" ((v 1) (a 1) (v 2) (b 7)
+
+ (b 8) (v 3)) ((2 0) (3 2)) (4 5) ``q8" )
+
+
+
+( ((v 1) (a 1) (a 2) (v 2)) (2 3) ``q8" ((v 1) (a 1) (a 2) (v 2)) ((2 0) (4 2))
+
+ nil ``q9" )
+Š( ((v 1) (a 1) (a 2) (a 3) (v 2)) (2 3 4) ``q8" ((v 1) (a 1) (b 1) (b 2) (v 2))
+
+ ((2 0) (5 2)) (3 4) ``q9" )
+
+
+
+( ((v 1) (a 1) (v 2) (a 2)) (2 4) ``q9" ((v 1) (a 1) (v 2) (a 2)) ((2 0) (3 2))
+
+ nil ``q9" )
+
+
+
+( ((v 1) (a 1) (v 2) (a 2) (v 3)) (2 4) ``q9" ((v 1) (a 1) (v 2) (a 2) (v 3))
+
+((2 0) (3 2)) nil  ``q10" )
+
+
+
+( ((v 1) (a 1) (v 2) (a 2) (v 3)) (2 4) ``q10" ((v 1) (a 1) (v 2) (a 2) (v 3))
+
+ ((2 0) (3 2)) nil ``q11" )
+
+
+
+( ((v 1) (a 1) (v 2) (a 2) (v 3)) (2 4) ``q11" ((v 1) (a 1) (v 2) (a 2) (v 3))
+
+ ((2 0) (3 2) (4 0)) nil ``q11" )
+
+
+
+( ((v 1) (a 1) (v 2) (a 3) (a 4) (v 3)) (2 4 5) ``q11" ((v 1) (a 1) (v 2) (b 9)
+
+(v 3)) ((2 0) (3 2)) (5) ``q11" )
+
+
+
+( ((v 1) (a 1) (a 2) (v 2)) (2 3) ``q11" ((v 1) (a 1) (b 1) (v 2))
+
+((1 2) (2 0) (4 2)) (3) ``q12" )
+
+
+
+( ((v 1) (a 1) (a 2) (a 3) (v 2)) (2 3 4) ``q11" ((v 1) (a 1) (b 11)
+
+(v 2)) ((1 2) (2 0) (4 2)) (3) ``q12" )
+
+
+
+( ((v 1) (a 1) (a 2) (v 2) (a 3)) (2 3 5) ``q12" ((v 1) (a 1) (a 2) (v 2) (a 3))
+
+((1 2) (3 0) (5 0)) nil ``q13")
+
+
+
+( ((v 1) (a 1) (v 2) (a 2) (v 3) (a 3)) (2 4 6) ``q13" ((v 1) (b 1) (b 2) (v 2)
+
+(a 2) (v 3)) ((1 2) (5 0) (6 2)) (2 3) ``q13")
+
+
+
+( ((a 1) (v 1) (a 2) (v 2) (a 3)) (1 3 5) ``q13" ((b 1) (b 2) (v 1) (a 2) (v 2))
+
+((4 0) (5 2)) (1 2) ``q13")
+
+
+
+( ((v 1) (a 1) (v 2) (a 2)) (2 4) ``q13" ((b 1) (b 2) (v 1) (a 1) (v 2))
+
+((4 0) (5 2)) (1 2) ``q13")
+
+
+
+( ((v 1) (a 1) (a 2)) (2 3) ``q13" ((b 1) (b 2) (v 1) (a 1)) ((3 2) (4 0))
+
+(1 2) ``q14")
+
+
+
+( ((v 1) (a 1) (a 2)) (2 3) ``q14" ((v 1) (a 1)) ((1 2)) nil ``q14")
+
+( ((v 1) (a 1) (v 2)) (2) ``q14" ((v 1) (a 1) (v 2)) ((1 2)) nil ``q15")
+
+
+
+( ((v 1) (a 1) (v 2)) (2) ``q15" ((v 1) (a 1) (v 2)) ((1 2) (2 0)) nil ``q15")
+
+( ((v 1) (a 1) (a 2) (v 2)) (2 3) ``q15" ((v 1) (b 1) (v 2)) ((1 2)) (2) ``q15")
+
+
+
+( ((a 1) (a 2) (v 1)) (1 2) ``q15" ((b 1) (v 1)) nil (1) ``qe")
+
+( ((a 1) (v 1)) (1) ``q15" ((b 1) (v 1)) nil (1) ``qe")
+
+
+
+nil
+
+
+
+\noindent
+
+(II). the computation process for above $MMCM$ when
+
+input length ``2''$\times$``10'' is:
+
+
+
+\centerline{$\alpha_0\stackrel{1*}{\longrightarrow}\alpha_1\stackrel{2*}{\longrightarrow}\cdots\stackrel{128*}{\longrightarrow}\alpha_{128}$}
+
+the exact description of $\alpha_i$ are omited here.
+
+
+
+\noindent
+
+(III). the parallel machine for multiplication of ``10''$\times$``2'' is:
+
+
+
+
+
+$I_1=(1 \  2\  3 \  4 \  5 \  6 \ 7 \ 8 \ 9 \ 10)$
+
+ 
+
+$I_2=$(11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  50
+
+51  52  53  54  55  56  57  58  59  60  61  62  63  64  65  66  67  68  69  70  71  90  91  104)
+
+
+
+$I_3=$(32  33  34  35  36  37  38   39  40  41  42  43  44  45  46  47  48  49  72  73  74
+
+  75  76  77  78  79  80  81  82  83  84  85  86  87  88  89  92  93  94  102  103)
+
+
+
+$I_4=$(95 96 97 98 99 100 101 105 106 107 108 109 110 125 126 127)
+
+
+
+$I_5$=(111  112  113  114  115  116  117  118  119  120  121  122  123  124  128)
+
+
+
+The above result shows that for the multiplication of form ``10''$\times$``2'',
+
+the sequential machine need 128 steps,   but the parallel machine needs only 5
+
+steps: $I_1,   I_2,   I_3,   I_4,   I_5$.
+
+
+
+\vskip 10pt
+
+
+
+\begin{center}
+
+
+
+\begin{tabular}{|l|}\hline
+
+{\em Input the $US \ \ MMCM$ machine}\\
+
+{\em and the interface process}\\ \hline
+
+\end{tabular}
+
+
+
+$\downarrow$
+
+
+
+\begin{tabular}{|l|}\hline
+
+{\em Adapt the initial words}\\
+
+{\em $a_1\cdots a_N$ to the production}\\
+
+{\em form $a_1v_1\cdots a_mv_m$,}\\
+
+{\em i.e. the function: $adapt$}\\ \hline
+
+\end{tabular}
+
+
+
+$\downarrow$
+
+
+
+\begin{tabular}{|l|}\hline
+
+{\em search production rule: i.e.$search$}\\ \hline
+
+\end{tabular}
+
+
+
+$\downarrow$
+
+
+
+\begin{tabular}{|l|}\hline
+
+{\em variables replacement: $huanyan$}\\ \hline
+
+\end{tabular}
+
+
+
+$\downarrow$
+
+
+
+\begin{tabular}{|l|}\hline
+
+{\em Obtain the computation}\\
+
+{\em process, i.e. $getprocess$}\\ \hline
+
+\end{tabular}
+
+
+
+$\downarrow$
+
+
+
+\begin{tabular}{|l|}\hline
+
+{\em Label the $PSCPP$}\\
+
+{\em i.e. $getlevel$}\\ \hline
+
+\end{tabular}
+
+
+
+$\downarrow$
+
+
+
+\begin{tabular}{|l|}\hline
+
+{\em Classification: $getIs$}\\ \hline
+
+\end{tabular}
+
+
+
+$\downarrow$
+
+
+
+\begin{tabular}{|l|}\hline
+
+{\em The mainbody of software}\\ \hline
+
+\end{tabular}
+
+
+
+$\downarrow$
+
+
+
+\begin{tabular}{|l|}\hline
+
+{\em Show the results}\\ \hline
+
+\end{tabular}
+
+
+
+\vskip 10pt
+
+
+
+{\it Fig.1 the structral scheme of TR.LSP}
+
+\end{center}
+
+
+
+\vskip10pt
+
+
+
+\centerline{\bf References}
+
+
+
+$[1]$. Hu Guo-ding. On Mathematical Model of Computing Machine,
+
+J. of Comp. 1988.
+
+
+
+$[2]$. Hu Guo-ding.  Parallel Machine Simulating Serial Computing
+
+Machine. {\it in this volume.}
+
+
+
+$[3]$. Gold Hill Computer Company,   GOLDEN COMMON LISP REFERENCE.
+
+
+
+$[4]$. L.Silklossy,   LET'S TALK LISP,   1976.
+
+\end{document}
+
+
+
