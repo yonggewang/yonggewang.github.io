@@ -258,11 +258,39 @@
       font-style: italic;
     }
 
+    .people-subheading {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #1e3a8a;
+      margin-top: 24px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 6px;
+    }
+
+    .researcher-search-box {
+      width: 100%;
+      padding: 10px 14px;
+      font-size: 0.95rem;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      margin-top: 12px;
+      margin-bottom: 8px;
+      outline: none;
+      box-sizing: border-box;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .researcher-search-box:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(30, 58, 138, 0.1);
+    }
+
     .people-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
       gap: 14px;
-      margin-top: 16px;
+      margin-top: 12px;
     }
 
     .people-card {
@@ -271,6 +299,13 @@
       border-radius: 8px;
       padding: 14px 18px;
       font-size: 0.92rem;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .people-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      border-color: #cbd5e1;
     }
 
     .footer-bar {
@@ -327,7 +362,7 @@
     <a href="#recent-advances">Recent Advances (2010–2026)</a>
     <a href="#millers-derivation">Miller's Derivation & d.c.e. Reals</a>
     <a href="#citations">Citing Literature (81)</a>
-    <a href="#community">Community & Researchers</a>
+    <a href="#community">Community & Researchers (64)</a>
   </nav>
 
   <!-- Overview & History -->
@@ -704,45 +739,290 @@ Limit Computability and Constructive Measure</li>
 
   <!-- Community & Researchers -->
   <section id="community" class="content-card">
-    <div class="card-header">
+    <div class="card-header" style="display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap;">
       <h2 class="card-title">Key Researchers in Effective Randomness & AIT</h2>
+      <span style="font-size:0.88rem; font-weight:600; color:var(--text-muted);" id="researcher-count">64 Scholars</span>
     </div>
-    <div class="people-grid">
-      <div class="people-card">
-        <strong>Gregory J. Chaitin</strong><br>
-        <span style="color:var(--text-muted); font-size:0.85rem;">Father of Algorithmic Information Theory & &Omega;</span>
+    <p style="font-size:0.92rem; color:var(--text-muted); margin-bottom:12px;">
+      An extensive international directory of pioneers, foundational theorists, and active scholars across Algorithmic Information Theory, Computability Theory, Martin-Löf Randomness, and Chaitin's &Omega; numbers.
+    </p>
+
+    <input type="text" id="researcher-search" class="researcher-search-box" placeholder="Filter researchers by name, institution, or research topic..." aria-label="Filter researchers">
+
+    <!-- Subgroup 1: Pioneers -->
+    <div class="people-subgroup">
+      <div class="people-subheading">1. Founding Pioneers & Mathematical Roots</div>
+      <div class="people-grid">
+        <div class="people-card">
+          <strong>Andrei N. Kolmogorov</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Academy of Sciences of USSR (Founder of Kolmogorov Complexity & Axiomatic Probability)</span>
+        </div>
+        <div class="people-card">
+          <strong>Ray Solomonoff</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Zator Company (Inventor of Algorithmic Probability, Universal Prior & Machine Induction)</span>
+        </div>
+        <div class="people-card">
+          <strong>Gregory J. Chaitin</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">IBM Watson / UFRJ (Pioneer of Algorithmic Information Theory & Halting Probability &Omega;)</span>
+        </div>
+        <div class="people-card">
+          <strong>Per Martin-Löf</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Stockholm University (Constructive Measure Theory & Martin-Löf Randomness Tests)</span>
+        </div>
+        <div class="people-card">
+          <strong>Claus-Peter Schnorr</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Goethe University Frankfurt (Martingale Formulation of Randomness & Schnorr Randomness)</span>
+        </div>
+        <div class="people-card">
+          <strong>Leonid Levin</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Boston University (Levin–Schnorr Theorem, Universal Search & Average-Case Completeness)</span>
+        </div>
+        <div class="people-card">
+          <strong>Robert M. Solovay</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">UC Berkeley (Solovay Reducibility &le;<sub>S</sub>, Solovay Randomness & Set-Theoretic Analysis)</span>
+        </div>
+        <div class="people-card">
+          <strong>Jean Ville</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Université de Poitiers (Formalization of Martingales & Separation from von Mises Collectives)</span>
+        </div>
+        <div class="people-card">
+          <strong>Richard von Mises</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Univ. of Berlin / Harvard (Pioneering Foundations of Random Sequences via <em>Kollektivs</em>)</span>
+        </div>
+        <div class="people-card">
+          <strong>Donald E. Knuth</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Stanford University (Seminal Analysis of Random Sequences in <em>The Art of Computer Programming</em>)</span>
+        </div>
       </div>
-      <div class="people-card">
-        <strong>Cristian S. Calude</strong><br>
-        <span style="color:var(--text-muted); font-size:0.85rem;">University of Auckland (Co-author of 2001 &Omega; Characterization)</span>
+    </div>
+
+    <!-- Subgroup 2: The Omega Characterization & Solovay Degrees -->
+    <div class="people-subgroup">
+      <div class="people-subheading">2. The &Omega; Characterization & Solovay Degrees</div>
+      <div class="people-grid">
+        <div class="people-card">
+          <strong>Cristian S. Calude</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">University of Auckland (Co-author of 2001 &Omega; Characterization, AIT Monographs)</span>
+        </div>
+        <div class="people-card">
+          <strong>Peter Hertling</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Universität der Bundeswehr München (Co-author of 2001 &Omega; Characterization, Computable Analysis)</span>
+        </div>
+        <div class="people-card">
+          <strong>Bakhadyr Khoussainov</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Univ. of Auckland / EIT (Co-author of 2001 &Omega; Characterization, Automatic Structures)</span>
+        </div>
+        <div class="people-card">
+          <strong>Yongge Wang</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">UNC Charlotte (Co-author of 2001 &Omega; Theorem, Randomness Separations, Miller Derivation on d.c.e. Reals)</span>
+        </div>
+        <div class="people-card">
+          <strong>Antonín Kučera</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Charles University Prague (Kučera–Slaman Theorem, Kučera Coding & Fixed Point Methods)</span>
+        </div>
+        <div class="people-card">
+          <strong>Theodore A. Slaman</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">UC Berkeley (Kučera–Slaman Characterization of &Omega;, Solovay Completeness, Turing Degrees)</span>
+        </div>
+        <div class="people-card">
+          <strong>George Barmpalias</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Chinese Academy of Sciences (Author of <em>Aspects of Chaitin's Omega</em>, Solovay Degrees)</span>
+        </div>
+        <div class="people-card">
+          <strong>Michael J. Dinneen</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">University of Auckland (Exact Algorithmic Computation of &Omega; Prefix Bits & Complexity)</span>
+        </div>
       </div>
-      <div class="people-card">
-        <strong>Claus-Peter Schnorr</strong><br>
-        <span style="color:var(--text-muted); font-size:0.85rem;">University of Frankfurt (Schnorr Randomness & Martingales)</span>
-      </div>
-      <div class="people-card">
-        <strong>Klaus Ambos-Spies</strong><br>
-        <span style="color:var(--text-muted); font-size:0.85rem;">Heidelberg University (Resource-Bounded Randomness & Recursion Theory)</span>
-      </div>
-      <div class="people-card">
-        <strong>Rodney Downey & Denis Hirschfeldt</strong><br>
-        <span style="color:var(--text-muted); font-size:0.85rem;">Victoria Univ. & Univ. of Chicago (Authors of <em>Algorithmic Randomness and Complexity</em>)</span>
-      </div>
-      <div class="people-card">
-        <strong>André Nies</strong><br>
-        <span style="color:var(--text-muted); font-size:0.85rem;">University of Auckland (Author of <em>Computability and Randomness</em>)</span>
-      </div>
-      <div class="people-card">
-        <strong>Joseph S. Miller</strong><br>
-        <span style="color:var(--text-muted); font-size:0.85rem;">University of Wisconsin–Madison (Miller's Derivation & Effective Differentiability)</span>
-      </div>
-      <div class="people-card">
-        <strong>George Barmpalias</strong><br>
-        <span style="color:var(--text-muted); font-size:0.85rem;">Chinese Academy of Sciences (Author of <em>Aspects of Chaitin's Omega</em>)</span>
-      </div>
-      <div class="people-card">
-        <strong>Yongge Wang</strong><br>
-        <span style="color:var(--text-muted); font-size:0.85rem;">UNC Charlotte (Co-author of 2001 &Omega; Theorem, Miller Derivation on d.c.e. Reals)</span>
+    </div>
+
+    <!-- Subgroup 3: Scholars & Active Researchers -->
+    <div class="people-subgroup">
+      <div class="people-subheading">3. Algorithmic Randomness, Computability & Complexity Scholars</div>
+      <div class="people-grid">
+        <div class="people-card">
+          <strong>Rodney G. Downey</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Victoria Univ. of Wellington (Co-author of <em>Algorithmic Randomness and Complexity</em>, CCR Chair)</span>
+        </div>
+        <div class="people-card">
+          <strong>Denis R. Hirschfeldt</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">University of Chicago (Co-author of <em>Algorithmic Randomness and Complexity</em>, K-Triviality)</span>
+        </div>
+        <div class="people-card">
+          <strong>André Nies</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">University of Auckland (Author of <em>Computability and Randomness</em>, Lowness for &Omega;)</span>
+        </div>
+        <div class="people-card">
+          <strong>Joseph S. Miller</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Univ. of Wisconsin–Madison (Miller's Derivation, Continuous Degrees, Effective Differentiability)</span>
+        </div>
+        <div class="people-card">
+          <strong>Klaus Ambos-Spies</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Heidelberg University (Resource-Bounded Randomness & Recursion Theory)</span>
+        </div>
+        <div class="people-card">
+          <strong>Jack H. Lutz</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Iowa State University (Resource-Bounded Measure & Effective Fractal Dimension)</span>
+        </div>
+        <div class="people-card">
+          <strong>Elvira Mayordomo</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Universidad de Zaragoza (Resource-Bounded Dimension, Effective Dimension, CCR Steering Committee)</span>
+        </div>
+        <div class="people-card">
+          <strong>Wolfgang Merkle</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Universität Heidelberg (Martingales, Autoreducibility, Randomness Hierarchies)</span>
+        </div>
+        <div class="people-card">
+          <strong>Sebastiaan A. Terwijn</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Radboud University Nijmegen (Computability and Measure, Constructive Measure Theory)</span>
+        </div>
+        <div class="people-card">
+          <strong>Verónica Becher</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Universidad de Buenos Aires (Normal Numbers, Computability, CCR Steering Committee)</span>
+        </div>
+        <div class="people-card">
+          <strong>Laurent Bienvenu</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Université de Bordeaux / CNRS (Algorithmic Randomness, Betting Strategies & Tests)</span>
+        </div>
+        <div class="people-card">
+          <strong>Liang Yu</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Nanjing University (Algorithmic Randomness, Higher Computability & Degrees)</span>
+        </div>
+        <div class="people-card">
+          <strong>Alexander Shen</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">CNRS / LIRMM Montpellier (Author of <em>Kolmogorov Complexity and Algorithmic Randomness</em>)</span>
+        </div>
+        <div class="people-card">
+          <strong>Nikolai K. Vereshchagin</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Moscow State University / HSE (Kolmogorov Complexity & Algorithmic Statistics)</span>
+        </div>
+        <div class="people-card">
+          <strong>Paul Vitányi</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">CWI & Univ. of Amsterdam (Author of <em>An Introduction to Kolmogorov Complexity and Its Applications</em>)</span>
+        </div>
+        <div class="people-card">
+          <strong>Ming Li</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">University of Waterloo (Author of <em>An Introduction to Kolmogorov Complexity and Its Applications</em>)</span>
+        </div>
+        <div class="people-card">
+          <strong>Marcus Hutter</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Australian National University / DeepMind (Universal Algorithmic Probability & AIXI)</span>
+        </div>
+        <div class="people-card">
+          <strong>Vladimir Vovk</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Royal Holloway, Univ. of London (Game-Theoretic Probability & Martingale Conformal Prediction)</span>
+        </div>
+        <div class="people-card">
+          <strong>Vasco Brattka</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Universität der Bundeswehr München (Computable Analysis, Effective Differentiation & Rademacher Theorems)</span>
+        </div>
+        <div class="people-card">
+          <strong>Jan Reimann</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Pennsylvania State University (Effective Dimension, Continuous Measures & Randomness)</span>
+        </div>
+        <div class="people-card">
+          <strong>Noam Greenberg</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Victoria Univ. of Wellington (Higher Randomness, Computability Theory & Cost Functions)</span>
+        </div>
+        <div class="people-card">
+          <strong>Dan Turetsky</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Victoria Univ. of Wellington (Computability, Higher Computability & Cost Functions)</span>
+        </div>
+        <div class="people-card">
+          <strong>Benoit Monin</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Université Paris-Est Créteil (Higher Computability, Higher Randomness & Effective Null Tests)</span>
+        </div>
+        <div class="people-card">
+          <strong>Christopher Porter</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Drake University (Computability, Effective Randomness & Epistemic Probability)</span>
+        </div>
+        <div class="people-card">
+          <strong>Paul Shafer</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">University of Leeds (Reverse Mathematics, Computable Analysis & Randomness)</span>
+        </div>
+        <div class="people-card">
+          <strong>Mathieu Hoyrup</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Inria Nancy (Computable Measure Theory & Randomness on Metric Spaces)</span>
+        </div>
+        <div class="people-card">
+          <strong>Cristobal Rojas</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Universidad Andrés Bello (Algorithmic Randomness in Dynamical Systems & Ergodic Theory)</span>
+        </div>
+        <div class="people-card">
+          <strong>Kenshi Miyabe</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Meiji University (L<sup>1</sup>-Randomness, Uniformity & Schnorr Randomness)</span>
+        </div>
+        <div class="people-card">
+          <strong>Donald Stull</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Université de Lorraine / Inria (Effective Fractal Dimension & Pointwise Dimension Theory)</span>
+        </div>
+        <div class="people-card">
+          <strong>Neil Lutz</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Swarthmore College (Effective Fractal Dimension & Geometric Measure Theory)</span>
+        </div>
+        <div class="people-card">
+          <strong>Frank Stephan</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">National University of Singapore (Inductive Inference, Automatic Structures & Degrees)</span>
+        </div>
+        <div class="people-card">
+          <strong>Sanjay Jain</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">National University of Singapore (Algorithmic Learning Theory & Recursion Theory)</span>
+        </div>
+        <div class="people-card">
+          <strong>Rupert Hölzl</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Universität der Bundeswehr München (Effective Randomness & Effective Hausdorff Dimension)</span>
+        </div>
+        <div class="people-card">
+          <strong>Bruno Bauwens</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">University of Porto (Algorithmic Complexity, Tests of Randomness)</span>
+        </div>
+        <div class="people-card">
+          <strong>Douglas Cenzer</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">University of Florida (&Pi;<sup>0</sup><sub>1</sub> Classes, Effectively Closed Sets & Randomness)</span>
+        </div>
+        <div class="people-card">
+          <strong>Harry Buhrman</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">CWI Amsterdam / QuSoft (Computational Complexity, Quantum Information & Kolmogorov Complexity)</span>
+        </div>
+        <div class="people-card">
+          <strong>Eric Allender</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Rutgers University (Computational Complexity, Kolmogorov Complexity & Derandomization)</span>
+        </div>
+        <div class="people-card">
+          <strong>Lance Fortnow</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">University of Michigan (Computational Complexity, Resource-Bounded Complexity)</span>
+        </div>
+        <div class="people-card">
+          <strong>John M. Hitchcock</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">University of Wyoming (Resource-Bounded Measure, Dimension & Complexity)</span>
+        </div>
+        <div class="people-card">
+          <strong>Klaus Weihrauch</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">FernUniversität Hagen (Pioneer of Computable Analysis & Type-2 Effectivity)</span>
+        </div>
+        <div class="people-card">
+          <strong>Xizhong Zheng</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Arcadia University (Computable Analysis, Weakly Computable Real Numbers)</span>
+        </div>
+        <div class="people-card">
+          <strong>Carl Jockusch</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Univ. of Illinois Urbana-Champaign (Degrees of Unsolvability & Basis Theorems)</span>
+        </div>
+        <div class="people-card">
+          <strong>Robert I. Soare</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">University of Chicago (Recursively Enumerable Sets and Degrees, Computability)</span>
+        </div>
+        <div class="people-card">
+          <strong>Richard A. Shore</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Cornell University (Degree Structures, Reverse Mathematics & Computability)</span>
+        </div>
+        <div class="people-card">
+          <strong>Gerald E. Sacks</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Harvard / MIT (Higher Recursion Theory, Degrees & Randomness)</span>
+        </div>
+        <div class="people-card">
+          <strong>Lu Liu</strong><br>
+          <span style="color:var(--text-muted); font-size:0.85rem;">Central South University (Reverse Mathematics & Computability of Ramsey's Theorem)</span>
+        </div>
       </div>
     </div>
   </section>
@@ -755,6 +1035,34 @@ Limit Computability and Constructive Measure</li>
   </footer>
 
 </div>
+
+<script>
+  const searchInput = document.getElementById('researcher-search');
+  if (searchInput) {
+    searchInput.addEventListener('input', function(e) {
+      const q = e.target.value.toLowerCase().trim();
+      const cards = document.querySelectorAll('.people-card');
+      let visibleCount = 0;
+      cards.forEach(card => {
+        const text = card.textContent.toLowerCase();
+        if (!q || text.includes(q)) {
+          card.style.display = '';
+          visibleCount++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+      const countEl = document.getElementById('researcher-count');
+      if (countEl) {
+        countEl.textContent = q ? `${visibleCount} Found` : `${cards.length} Scholars`;
+      }
+      document.querySelectorAll('.people-subgroup').forEach(group => {
+        const anyVisible = Array.from(group.querySelectorAll('.people-card')).some(c => c.style.display !== 'none');
+        group.style.display = anyVisible ? '' : 'none';
+      });
+    });
+  }
+</script>
 
 </body>
 </html>
