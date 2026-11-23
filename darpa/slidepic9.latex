@@ -1,0 +1,54 @@
+\setlength{\unitlength}{1973sp}%
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined
+% extract first six characters in \fmtname
+\def\x#1#2#3#4#5#6#7\relax{\def\x{#1#2#3#4#5#6}}%
+\expandafter\x\fmtname xxxxxx\relax \def\y{splain}%
+\ifx\x\y   % LaTeX or SliTeX?
+\gdef\SetFigFont#1#2#3{%
+  \ifnum #1<17\tiny\else \ifnum #1<20\small\else
+  \ifnum #1<24\normalsize\else \ifnum #1<29\large\else
+  \ifnum #1<34\Large\else \ifnum #1<41\LARGE\else
+     \huge\fi\fi\fi\fi\fi\fi
+  \csname #3\endcsname}%
+\else
+\gdef\SetFigFont#1#2#3{\begingroup
+  \count@#1\relax \ifnum 25<\count@\count@25\fi
+  \def\x{\endgroup\@setsize\SetFigFont{#2pt}}%
+  \expandafter\x
+    \csname \romannumeral\the\count@ pt\expandafter\endcsname
+    \csname @\romannumeral\the\count@ pt\endcsname
+  \csname #3\endcsname}%
+\fi
+\fi\endgroup
+\begin{picture}(6162,3732)(826,-3988)
+\thicklines
+\put(2798,-339){\circle{150}}
+\put(3376,-361){\circle{150}}
+\put(4351,-361){\circle{150}}
+\put(3901,-3886){\circle{150}}
+\put(1951,-1111){\vector( 1, 2){330}}
+\put(2026,-1261){\vector( 1, 1){787.500}}
+\put(2176,-1336){\vector( 4, 3){1152}}
+\put(2251,-1561){\vector( 2, 1){2070}}
+\put(1276,-2461){\vector( 2,-1){2610}}
+\put(3826,-2836){\framebox(3150,1425){}}
+\put(826,-436){\makebox(0,0)[lb]{\smash{\SetFigFont{6}{7.2}{rm}INPUTS}}}
+\put(976,-1111){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{rm}A}}}
+\put(976,-1486){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{rm}L}}}
+\put(2251,-361){\circle{150}}
+\put(976,-1861){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{rm}I}}}
+\put(3976,-2611){\makebox(0,0)[lb]{\smash{\SetFigFont{6}{7.2}{rm}-) it achieves the desired computation}}}
+\put(901,-2311){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{rm}C}}}
+\put(901,-2761){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{rm}E}}}
+\put(1501,-1261){\makebox(0,0)[lb]{\smash{\SetFigFont{6}{7.2}{rm}gives:}}}
+\put(1501,-1486){\makebox(0,0)[lb]{\smash{\SetFigFont{6}{7.2}{rm}where to}}}
+\put(1501,-1711){\makebox(0,0)[lb]{\smash{\SetFigFont{6}{7.2}{rm}send data}}}
+\put(4051,-3961){\makebox(0,0)[lb]{\smash{\SetFigFont{6}{7.2}{rm}OUTPUT}}}
+\put(1426,-2911){\makebox(0,0)[lb]{\smash{\SetFigFont{6}{7.2}{rm}maximum vertex}}}
+\put(1426,-3136){\makebox(0,0)[lb]{\smash{\SetFigFont{6}{7.2}{rm}disjoint solution graphs}}}
+\put(3976,-1711){\makebox(0,0)[lb]{\smash{\SetFigFont{6}{7.2}{rm}Graph such that:}}}
+\put(3976,-1936){\makebox(0,0)[lb]{\smash{\SetFigFont{6}{7.2}{rm}-) is k' connected}}}
+\put(3976,-2161){\makebox(0,0)[lb]{\smash{\SetFigFont{6}{7.2}{rm}-) finding k vertices set U:}}}
+\put(3976,-2386){\makebox(0,0)[lb]{\smash{\SetFigFont{6}{7.2}{rm}     exists VS: |U cap VS|>|VS|/2}}}
+\end{picture}

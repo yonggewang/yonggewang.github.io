@@ -1,0 +1,99 @@
+\setlength{\unitlength}{0.00073333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined
+% extract first six characters in \fmtname
+\def\x#1#2#3#4#5#6#7\relax{\def\x{#1#2#3#4#5#6}}%
+\expandafter\x\fmtname xxxxxx\relax \def\y{splain}%
+\ifx\x\y   % LaTeX or SliTeX?
+\gdef\SetFigFont#1#2#3{%
+  \ifnum #1<17\tiny\else \ifnum #1<20\small\else
+  \ifnum #1<24\normalsize\else \ifnum #1<29\large\else
+  \ifnum #1<34\Large\else \ifnum #1<41\LARGE\else
+     \huge\fi\fi\fi\fi\fi\fi
+  \csname #3\endcsname}%
+\else
+\gdef\SetFigFont#1#2#3{\begingroup
+  \count@#1\relax \ifnum 25<\count@\count@25\fi
+  \def\x{\endgroup\@setsize\SetFigFont{#2pt}}%
+  \expandafter\x
+    \csname \romannumeral\the\count@ pt\expandafter\endcsname
+    \csname @\romannumeral\the\count@ pt\endcsname
+  \csname #3\endcsname}%
+\fi
+\fi\endgroup
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(4326,2736)(0,-10)
+\put(1275,2427){\ellipse{212}{212}}
+\put(1694,2202){\ellipse{212}{212}}
+\put(2250,2202){\ellipse{212}{212}}
+\put(2850,2427){\ellipse{212}{212}}
+\put(3900,2352){\ellipse{212}{212}}
+\path(300,1227)(430,1302)(430,1452)
+	(300,1527)(170,1452)(170,1302)(300,1227)
+\path(1309,1203)(1439,1278)(1439,1428)
+	(1309,1503)(1179,1428)(1179,1278)(1309,1203)
+\path(1725,1527)(1855,1602)(1855,1752)
+	(1725,1827)(1595,1752)(1595,1602)(1725,1527)
+\path(2325,1527)(2455,1602)(2455,1752)
+	(2325,1827)(2195,1752)(2195,1602)(2325,1527)
+\path(1800,252)(2475,252)(2475,27)
+	(1800,27)(1800,252)
+\path(300,2277)(300,1527)
+\blacken\path(270.000,1647.000)(300.000,1527.000)(330.000,1647.000)(270.000,1647.000)
+\path(1275,2277)(1275,1527)
+\blacken\path(1245.000,1647.000)(1275.000,1527.000)(1305.000,1647.000)(1245.000,1647.000)
+\path(1725,2052)(1725,1827)
+\blacken\path(1695.000,1947.000)(1725.000,1827.000)(1755.000,1947.000)(1695.000,1947.000)
+\path(2250,2127)(2250,1827)
+\blacken\path(2220.000,1947.000)(2250.000,1827.000)(2280.000,1947.000)(2220.000,1947.000)
+\path(2850,2352)(2850,1452)
+\blacken\path(2820.000,1572.000)(2850.000,1452.000)(2880.000,1572.000)(2820.000,1572.000)
+\path(3900,2277)(3900,1452)
+\blacken\path(3870.000,1572.000)(3900.000,1452.000)(3930.000,1572.000)(3870.000,1572.000)
+\path(2870,1152)(3000,1227)(3000,1377)
+	(2870,1452)(2740,1377)(2740,1227)(2870,1152)
+\path(3920,1152)(4050,1227)(4050,1377)
+	(3920,1452)(3790,1377)(3790,1227)(3920,1152)
+\path(2325,1527)(1425,1377)
+\blacken\path(1538.435,1426.320)(1425.000,1377.000)(1548.299,1367.136)(1538.435,1426.320)
+\path(2325,1527)(2775,1377)
+\blacken\path(2651.671,1386.487)(2775.000,1377.000)(2670.645,1443.408)(2651.671,1386.487)
+\path(375,1227)(1950,252)
+\blacken\path(1832.178,289.655)(1950.000,252.000)(1863.759,340.671)(1832.178,289.655)
+\path(1350,1227)(1950,252)
+\blacken\path(1861.559,338.476)(1950.000,252.000)(1912.658,369.922)(1861.559,338.476)
+\path(2850,1152)(2175,252)
+\blacken\path(2223.000,366.000)(2175.000,252.000)(2271.000,330.000)(2223.000,366.000)
+\path(3900,1152)(2400,252)
+\blacken\path(2487.464,339.464)(2400.000,252.000)(2518.334,288.015)(2487.464,339.464)
+\put(300,2427){\ellipse{212}{212}}
+\put(2625,27){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{rm}{\small{OUTPUT}}}}}}}
+\put(2280,1602){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{rm}{\small$\wedge$}}}}}}
+\put(600,1827){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{rm}......}}}}}
+\put(1875,1902){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{rm}......}}}}}
+\put(2400,1977){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{rm}......}}}}}
+\put(3150,1902){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{rm}.......}}}}}
+\put(4050,1827){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{rm}......}}}}}
+\put(1650,1602){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{rm}{\small$\wedge$}}}}}}
+\put(3900,1227){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{rm}{\small$\wedge$}}}}}}
+\put(0,1302){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{rm}{\small$u_1$}}}}}}
+\put(1050,1302){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{rm}{\small$u_i$}}}}}}
+\put(2550,1227){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{rm}{\small$u_j$}}}}}}
+\put(3600,1227){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{rm}{\small$u_n$}}}}}}
+\put(225,2502){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{rm}{\small$I_1$}}}}}}
+\put(1200,2577){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{rm}{\small$I_i$}}}}}}
+\put(1650,2352){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{rm}{\small$I_{i,1}$}}}}}}
+\put(2175,2352){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{rm}{\small$I_{i,j}$}}}}}}
+\put(2850,2577){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{rm}{\small$I_j$}}}}}}
+\put(3900,2502){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{rm}{\small$I_n$}}}}}}
+\put(1400,1752){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{rm}{\small$u_{i,1}$}}}}}}
+\put(2475,1752){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{rm}{\small$u_{i,j}$}}}}}}
+\put(1275,1302){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{rm}{\small$\wedge$}}}}}}
+\put(2850,1227){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{rm}{\small$\wedge$}}}}}}
+\put(225,1302){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{rm}{\small$\wedge$}}}}}}
+\put(2100,27){\makebox(0,0)[lb]{\smash{{{\SetFigFont{12}{14.4}{rm}{\small$\wedge$}}}}}}
+\end{picture}
+}
+
+
+

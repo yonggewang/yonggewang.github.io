@@ -1,0 +1,100 @@
+#!/usr/bin/perl -w
+use Socket;                 
+@passs = ("*", "*", "*", "*");
+if (!defined open_TCP("131.151.18.8", "9999")) {
+    print "Error connecting to xsg server:\n";
+    exit(-1);
+}
+$mynick = 10 * rand ();
+$mynick =~ tr/.0123456789/abcdefghijk/;
+$mynick = "qq";
+syswrite(F, "\/nick $mynick\n", length("\/nick $mynick\n"));
+syswrite(F, "\/observe $ARGV[0]\n", length("\/observe $ARGV[0]\n"));
+for ($iidd = 33; $iidd < 128; $iidd++) {
+    $pas = chr($iidd);
+    syswrite(F, "\/26 $pas$pas$pas$pas\n", length("\/26 $pas$pas$pas$pas\n"));
+    verify ();
+}
+$pas = chr(255);
+syswrite(F, "\/26 $pas$pas$pas$pas\n", length("\/26 $pas$pas$pas$pas\n"));  
+verify ();
+print "the deployment is as follows:";
+syswrite(F, "\/26 $passs[0]$passs[1]$passs[2]$passs[3]\n", length("\/26 $passs[0]$passs[1]$passs[2]$passs[3]\n"));
+syswrite(F, "\/refresh\n", length("\/refresh\n"));
+$seer = <F>;
+while ($seer !~ /stage/) {
+    $seer = <F>;
+}
+for ($i = 0; $i < 18; $i++) {
+    $seer = <F>;
+    $seer =~ s/m/dl/g;
+    $seer =~ s/b/bm/g;
+    $seer =~ s/s/gb/g;
+    $seer =~ s/1/pz/g;
+    $seer =~ s/2/li/g;
+    $seer =~ s/3/yz/g;
+    $seer =~ s/4/tz/g;
+    $seer =~ s/5/lu/g;
+    $seer =~ s/6/sz/g;
+    $seer =~ s/7/jz/g;
+    $seer =~ s/8/sl/g;
+    print $seer;
+}
+print "The observing  pass for game $ARGV[0] is:",  @passs, "\n";
+close (F);
+sub verify {
+    syswrite(F, "\/refresh\n", length("\/refresh\n"));
+    $seer = <F>;
+    while ($seer !~ /\sobserving games/) {
+	$seer = <F>;
+    }
+    while ($seer !~ /stage/) {
+	$seer = <F>;
+    }
+    $t0 = 1;
+    $t1 = 1;
+    $t2 = 1;
+    $t3 = 1;
+    for ($i = 0; $i < 18; $i++) {
+	$seer = <F>;
+	if ($seer =~ /<\s+</) {
+	    $t3 = 0;
+	}
+	if ($seer =~ />\s+>/) {
+	    $t1 = 0;
+	}
+	if ($seer =~ /v\s+v/) {
+	    $t0 = 0;
+	}
+	if ($seer =~ /\^\s+\^/) {
+	    $t2 = 0;
+	}
+    }
+    if ($t0 == 1) {
+	$passs[0] = $pas;
+    }
+    if ($t1 == 1) {
+	$passs[1] = $pas;
+    }
+    if ($t2 == 1) {
+	$passs[2] = $pas;
+    }
+    if ($t3 == 1) {
+	$passs[3] = $pas;
+    }
+    print "($iidd)@passs\n";
+    if ($t0 == 1 || $t1 == 1 || $t2 == 1 || $t3 ==1) {
+    }
+}
+
+sub open_TCP {
+    ($dest, $port) = @_;
+    $proto = getprotobyname('tcp');
+    socket('F', PF_INET, SOCK_STREAM, $proto);
+    $sin = sockaddr_in($port,inet_aton($dest));
+    connect('F',$sin) || return undef;
+    $old_fh = select(F);
+    $| = 1;
+    select($old_fh);
+    1;
+}

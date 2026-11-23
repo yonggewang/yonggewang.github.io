@@ -1,0 +1,240 @@
+<HTML>
+<HEAD>
+<TITLE>No Title</TITLE>
+<META NAME="description" CONTENT="No Title">
+<META NAME="keywords" CONTENT="results">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso_8859_1">
+<LINK REL="STYLESHEET" HREF="results.css">
+</HEAD>
+<BODY background="backcloud.gif">
+<H1 align="center">R E S U L T S</H1>
+<H2><A HREF="#SECTION00010000000000000000">
+Details</A>
+</H2>
+<BR>
+<H2><A HREF="#SECTION00020000000000000000">
+Publications and submissions
+</A>
+</H2>
+<HEAD>
+<H1><A NAME="SECTION00010000000000000000">
+DETAILS</A>
+</H1>
+The following topics have been studied:
+<H2><A NAME="SECTION00011000000000000000">
+Models to study survivability</A>
+</H2>
+Modeling a scenario in which the adversary is
+malicious should allow for a dynamic topology in
+which changes in the system may take place without
+the (non-faulty) processors being aware of it. It
+should also allow for the most general type of
+processor which could represent a simple gate, a
+software package, or a powerful computer. So
+memory, and the ability to perform complicated
+operations must be allowed for. The model should
+also describe the structure of the system at the
+appropriate level of abstraction: it must
+distinguish those aspects which are relevant to
+the computation and abstract out those aspects
+which are not essential. Such a model should offer
+the maximum flexibility to the designer. Previous
+models originated from the network community are
+unsuitable.  First these models assume that the
+network is known, which is often not the case.
+Secondly, processors, programs, etc., are more
+than switching centers.  Indeed, they many have
+more than one type of input.
+<P>
+Based on our analysis of redundant computation
+systems with multiple inputs, several models have
+been introduced and analyzed. Specifically, two
+models for independent faults were introduced: a
+model based on a &quot;directed multi-graph with
+colored edges&quot; and a monotone graph model. Two
+models for dependent faults have also been
+developed: a monotone graph with colored vertices
+and a monotone graph with partial orders on the
+colors of the vertices.
+<H3><A NAME="SECTION00011100000000000000">
+A directed multi-graph with colored edges
+model</A>
+</H3>
+A redundant computation system can be
+modeled by a directed multi-graph with colored
+edges.  There is at least one input vertex and one
+output vertex. One assumes that there is at most
+one edge of any given color which joins distinct
+vertices. There are several possible applications
+for this model. For example, processors whose
+inputs have the same color need only use one input
+(when there are no faults). If the colors are
+different then the processor must use one input
+for each of the input colors, to carry out its
+computation (or whatever it is supposed to do).
+For example, the processors of the aviation
+control system need data from several sensors,
+as the airplane's speed, position, etc. Of course,
+this is only one of many possible applications.
+<H3><A NAME="SECTION00011200000000000000">
+A monotone graph model</A>
+</H3>
+ A monotone graph is
+defined to be a directed graph with two types of
+vertices, labeled and-vertices and
+or-vertices. The graph must have at least one
+input (source) vertex and one output (sink)
+vertex. Input vertices may be regarded as
+and-vertices. This model and the previous one are
+equivalent in the sense that one can transform a
+directed multi-graph with colored edges into a
+monotone graph and vice-versa.
+<H3><A NAME="SECTION00011300000000000000">
+A monotone graph with colored vertices</A>
+</H3>
+When the faults are dependent one can model
+redundant computation by a monotone graph with
+colored vertices. There are several possible
+applications for this model.  For example, all
+computers which run Windows 95 could be marked
+with one color.  When a vertex fails, then all
+vertices with the same color will fail. In a
+fault-tolerant computation system, all vertices
+with the same color will have the same failure
+probability.
+<H3><A NAME="SECTION00011400000000000000">
+A monotone graph with partial orders on the
+colors of the vertices</A>
+</H3>
+ The monotone graphs
+with colored vertices reflect the dependent faults
+in a natural way. This model however does not
+focus on the faults which are weakly dependent on
+one another and therefore it does not describe
+some of the finer aspects of dependent faults.
+<P>
+In this model one identifies different types of
+vertices by a color. A color could correspond with
+an operating system, or with the microprocessor
+used, etc. This operating system could be
+replicated and different replications correspond
+to different vertices in the model.
+<P>
+In many instances there is a hierarchy on the type
+of failures. For example, if the hardware of a
+computer has a design flaw, all operating systems
+that require that hardware may also fail. Also, if
+the operating system fails all application
+programs requiring that operating system will
+fail. So one has an hierarchy of types of
+vertices. This additional aspect can (more
+generally) be expressed by using a partial
+ordering on the colors. So, such a redundant
+computation system can be modeled by a monotone
+graph with colored vertices which in addition has
+a partial order on the colors.
+<H2><A NAME="SECTION00012000000000000000">
+Multiple inputs</A>
+</H2>
+The monotone graph model has been used to compare
+the design of reliable computer systems with one
+type of input versus the case with multiple
+inputs.  While there is an efficient algorithm for
+using redundant networks (finding vertex disjoint
+paths in networks), our work shows that the
+equivalent problem in computation with multiple
+inputs seems hard (it is <B>NP</B>-hard).
+It follows that in the general case redundancy
+alone may not help to achieve survivability.
+<H2><A NAME="SECTION00013000000000000000">
+Preventing malicious attacks</A>
+</H2>
+Byzantine type of attacks in the case the graph is
+unknown have been described in&nbsp;[<A
+ HREF="results.html#BurmesterDesmedtKabatianskii96Threats">4</A>].
+The
+goal of this research is to study when these can
+be prevented. One assumes that the redundant
+computation can be modeled by a network.
+<P>
+In the case the sender knows the network, but the
+receiver does not, the attacks can easily be
+prevented. The sender basically sends (together
+with the message and other data) via all paths
+used the following pair of information:
+(description of the graph, the paths used)&nbsp;[<A
+ HREF="results.html#BurmesterDesmedt98ElecLet">2</A>].
+<P>
+The case in which each node has a public key and
+an edge in the unknown graph corresponds with a
+certificate of the public key is now
+described. The Byzantine type of attack allowing
+malicious processors to claim the existence of
+non-existent nodes or certificates, can also be
+prevented. An efficient algorithm has been
+described when the graph is 5/2k+1 connected,
+where k is the number of faulty nodes (when the
+graph is only 2k+1 connected an exponential time
+algorithm has also been found). Several measures
+are needed to prevent the attack to succeed. The
+details of the algorithm are described in a
+scientific paper (submitted).
+<P>
+Other cases are currently under investigation. 
+This part of the research has also an impact on
+network security.
+<H2><A NAME="SECTION00014000000000000000">
+Critical study of redundancy</A>
+</H2>
+In traditional reliability, used in reliable
+network design for example, one has the following
+result. If the adversary can destroy k vertices,
+one needs at least k+1 vertices to obtain the
+desired output.  Our result shows that in the case
+of multi-inputs, it is possible to protect against
+an adversary who can destroy ck vertices (c a
+constant) while having only a redundancy factor of
+k. This work implies that such redundant
+computation can be made less expensive than one
+would have estimated with the traditional model of
+redundant computation.
+<H1><A NAME="SECTION00020000000000000000">
+PUBLICATIONS AND SUBMISSIONS</A>
+</H1>
+<DL COMPACT><P></P><DT><A NAME="BurmesterDesmedt98"><STRONG>1</STRONG></A>
+<DD>
+M. Burmester and Y. Desmedt.
+<BR>Secure communication in an unknown network using certificates, 1998.
+<BR>Submitted.
+<P><P></P><DT><A NAME="BurmesterDesmedt98ElecLet"><STRONG>2</STRONG></A>
+<DD>
+M. Burmester and Y. G. Desmedt.
+<BR>Secure communication in an unknown network with Byzantine faults.
+<BR><EM>Electronics Letters</EM>, 34(8), pp. 741-742, April 16, 1998.
+<P><P></P><DT><A NAME="WangDesmedtBurmester98"><STRONG>3</STRONG></A>
+<DD>
+Y. Wang, Y. Desmedt, and M. Burmester.
+<BR>NP-hardness of dependable computation with multiple inputs, 1998.
+<BR>Submitted.
+</DL>
+<H2><A NAME="SECTIONREF">Other references</A>
+</H2>
+<DL COMPACT><P></P><DT><A NAME="BurmesterDesmedtKabatianskii96Threats"><STRONG>4</STRONG></A>
+<DD>
+M. Burmester, Y. Desmedt, and G. Kabatianskii.
+<BR>Trust and security: A new look at the Byzantine generals problem.
+<BR>In R. N. Wright and P. G. Neumann, editors, <EM>Network Threats,
+  DIMACS, Series in Discrete Mathematics and Theoretical Computer Science,
+  December 2-4, 1996, vol. 38</EM>. AMS, 1998.
+</DL>
+
+<BR><BR>
+<HR size =2>
+<a href="index.html" TARGET=_top>Click here to go back to the main
+page.</a>
+
+</BODY>
+</html>
+

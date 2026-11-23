@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+<TITLE>Current Byzantine model is inadequate for computer security</TITLE>
+</HEAD>
+
+<H1>Current Byzantine model is inadequate for computer security</h1>
+<p>
+<b>Example: </b> The Survivable Computation of the Position of an Airplane.
+
+
+<TABLE>
+<TR>
+<TD><IMG SRC="f16_2.jpg"></TD>
+
+<TD>The airplane's next position is decided by
+the airplane's current position, the speed, and the
+acceleration. More specifically, 
+<IMG WIDTH="169" HEIGHT="31" ALIGN="MIDDLE" BOR
+DER="0"
+ SRC="img1.gif"
+ ALT="$s=s_0+v\times t+\frac{1}{2}a\times t^2$">, 
+where <I>s<SUB>0</SUB></I>
+is the current position, <I>v</I> the 
+current speed, and <I>a</I> the current
+acceleration. In the following, we give 
+an example of survivable computation
+of the airplane's next position (in the example, 
+we assume that <I>a</I>=0).
+<BR>
+
+</TD>
+</TR>
+</TABLE>
+<p>
+
+For the case of no redundancy, the airplane's next position
+can be computed by the following graph (see the left hand side).
+In the case of a malicious environment, redundancy
+is needed in the computation (see the right hand side).
+<TABLE>
+<TR>
+<TD>
+<IMG SRC="picture0.gif"><BR><P>
+<IMG WIDTH="169" HEIGHT="31" ALIGN="MIDDLE" BOR
+DER="0"
+ SRC="space.gif"> </TD>
+
+<TD><IMG WIDTH="60" HEIGHT="31" ALIGN="MIDDLE" BOR
+DER="0"
+ SRC="space.gif">
+</TD>
+
+<TD>
+ <IMG SRC="picture1.gif"></TD>
+</TR>
+</TABLE>
+<IMG SRC="caption.gif">
+
+<P>
+
+<b>Important Observation:</b>
+In this example, there are three position sensors,
+two speed sensors.
+It is easy to see that the above graph with 
+multi-colored edges is three-connected
+in the classical graph theoretical sense. In order for one processor 
+to compute the (intermediate) result, it needs one input
+from each color. Whence it is only
+two-connected for the multi-colored graph model.
+This implies that the above computation graph is only robust
+against the destruction of two processors (excluding the time input
+and the output), 
+but not against malicious errors.
+
+
+<p>
+<b>Note: </b> Generally, it is <b>NP</b>-hard to find vertex
+disjoint solution graphs in a multi-color graphs. For details,
+see <b> <a href="results/results.html#SECTION00022000000000000000">Results</a></b>
+</BODY>
+</HTML>
