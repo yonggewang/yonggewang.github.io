@@ -3,18 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yongge Wang | Professor of Cybersecurity</title>
+  <title>Yongge Wang, Ph.D. | Professor of Cybersecurity | UNC Charlotte</title>
+  <meta name="description" content="Homepage of Dr. Yongge Wang, Professor of Cybersecurity at UNC Charlotte. Research in Post-Quantum Cryptography, AI-Assisted Scientific Discovery, Blockchain Consensus, and Algorithmic Information Theory.">
   <script type="text/javascript" src="jsencryption.js"></script>
   <style>
     :root {
-      --primary: #1e3a8a;       /* Academic Navy */
+      --primary: #1e3a8a;       /* Deep Academic Navy */
       --primary-hover: #1d4ed8;
       --accent: #2563eb;
-      --text-main: #1e293b;     /* Slate 800 */
-      --text-muted: #475569;    /* Slate 600 */
+      --accent-light: #eff6ff;
+      --text-main: #0f172a;     /* Slate 900 */
+      --text-body: #334155;     /* Slate 700 */
+      --text-muted: #64748b;    /* Slate 500 */
       --bg-page: #f8fafc;       /* Slate 50 */
       --bg-card: #ffffff;
       --border-color: #e2e8f0;
+      --border-hover: #cbd5e1;
       --badge-bg: #eff6ff;
       --badge-text: #1d4ed8;
       --badge-border: #bfdbfe;
@@ -28,10 +32,10 @@
 
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      color: var(--text-main);
+      color: var(--text-body);
       background-color: var(--bg-page);
-      line-height: 1.65;
-      font-size: 15.5px;
+      line-height: 1.6;
+      font-size: 15px;
     }
 
     a {
@@ -45,31 +49,95 @@
       text-decoration: underline;
     }
 
-    .container {
-      max-width: 1040px;
-      margin: 0 auto;
-      padding: 32px 20px 60px;
+    /* Top Sticky Navigation Bar */
+    .site-nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--border-color);
+      padding: 10px 0;
     }
 
-    /* Profile / Header Card */
-    .profile-card {
+    .nav-inner {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .nav-brand {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--primary);
+      text-decoration: none !important;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .nav-brand:hover {
+      color: var(--primary-hover);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+
+    .nav-links a {
+      color: var(--text-body);
+      padding: 4px 8px;
+      border-radius: 4px;
+      transition: all 0.15s ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--primary);
+      background: #f1f5f9;
+      text-decoration: none;
+    }
+
+    .nav-links a.active-link {
+      color: var(--primary);
+      font-weight: 600;
+      background: var(--badge-bg);
+    }
+
+    .container {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 28px 20px 60px;
+    }
+
+    /* Profile / Hero Section */
+    .hero-card {
       background: var(--bg-card);
       border: 1px solid var(--border-color);
       border-radius: 12px;
-      padding: 36px;
-      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      padding: 32px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
       display: flex;
       gap: 32px;
       align-items: flex-start;
-      margin-bottom: 24px;
+      margin-bottom: 28px;
     }
 
     .profile-photo {
-      width: 190px;
-      height: auto;
+      width: 185px;
+      height: 235px;
       border-radius: 10px;
       object-fit: cover;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
       border: 1px solid var(--border-color);
       flex-shrink: 0;
     }
@@ -79,38 +147,44 @@
     }
 
     .profile-name {
-      font-size: 2rem;
+      font-size: 2.1rem;
       font-weight: 700;
-      color: #0f172a;
+      color: var(--text-main);
       letter-spacing: -0.02em;
+      line-height: 1.2;
       margin-bottom: 4px;
     }
 
     .profile-title {
       font-size: 1.15rem;
-      font-weight: 500;
+      font-weight: 600;
       color: var(--primary);
       margin-bottom: 6px;
     }
 
     .profile-affiliation {
-      color: var(--text-muted);
+      color: var(--text-body);
       font-size: 0.95rem;
+      line-height: 1.45;
       margin-bottom: 14px;
-      line-height: 1.5;
     }
 
     .profile-meta {
       font-size: 0.92rem;
-      color: var(--text-muted);
+      color: var(--text-body);
       margin-bottom: 16px;
       line-height: 1.6;
+    }
+
+    .profile-meta span {
+      display: inline-block;
+      margin-right: 14px;
     }
 
     .profile-links {
       display: flex;
       flex-wrap: wrap;
-      gap: 10px;
+      gap: 8px;
       margin-top: 14px;
     }
 
@@ -118,10 +192,10 @@
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      padding: 6px 14px;
+      padding: 6px 13px;
       background: #f1f5f9;
       color: #334155;
-      font-size: 0.88rem;
+      font-size: 0.86rem;
       font-weight: 500;
       border-radius: 6px;
       border: 1px solid var(--border-color);
@@ -146,58 +220,28 @@
       color: #ffffff;
     }
 
-    /* Key Project Highlights Banner */
-    .highlights-banner {
-      background: #ffffff;
-      border: 1px solid var(--border-color);
-      border-left: 4px solid var(--primary);
-      border-radius: 8px;
-      padding: 18px 24px;
-      margin-bottom: 28px;
-      font-size: 0.95rem;
-      line-height: 1.65;
+    /* Responsive 2-Column Dashboard */
+    .dashboard-grid {
+      display: grid;
+      grid-template-columns: 1fr 330px;
+      gap: 28px;
+      align-items: start;
     }
 
-    .highlights-banner strong {
-      color: #0f172a;
-    }
-
-    /* Navigation Bar */
-    .nav-bar {
-      background: var(--bg-card);
-      border: 1px solid var(--border-color);
-      border-radius: 8px;
-      padding: 12px 20px;
-      margin-bottom: 28px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 16px;
-      font-size: 0.95rem;
-      font-weight: 500;
-    }
-
-    .nav-bar a {
-      color: var(--text-muted);
-    }
-
-    .nav-bar a:hover {
-      color: var(--primary);
-    }
-
-    /* Section Styling */
-    .section-card {
+    /* Cards */
+    .content-card {
       background: var(--bg-card);
       border: 1px solid var(--border-color);
       border-radius: 12px;
-      padding: 32px;
-      margin-bottom: 28px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+      padding: 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
     }
 
-    .section-header {
+    .card-header {
       border-bottom: 2px solid #e2e8f0;
       padding-bottom: 12px;
-      margin-bottom: 24px;
+      margin-bottom: 20px;
       display: flex;
       justify-content: space-between;
       align-items: baseline;
@@ -205,23 +249,106 @@
       gap: 10px;
     }
 
-    .section-title {
-      font-size: 1.45rem;
+    .card-title {
+      font-size: 1.35rem;
       font-weight: 700;
-      color: #0f172a;
-      letter-spacing: -0.01em;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 8px;
     }
 
-    .section-subtext {
-      font-size: 0.92rem;
+    .card-subtitle {
+      font-size: 0.9rem;
       color: var(--text-muted);
     }
 
-    /* Research Area Box */
+    /* Featured Project Highlights Grid */
+    .highlights-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .highlight-item {
+      background: #f8fafc;
+      border: 1px solid var(--border-color);
+      border-left: 3px solid var(--primary);
+      border-radius: 6px;
+      padding: 12px 14px;
+      font-size: 0.88rem;
+    }
+
+    .highlight-item strong {
+      display: block;
+      color: var(--text-main);
+      font-size: 0.92rem;
+      margin-bottom: 3px;
+    }
+
+    /* Research Area Filtering Toolbar */
+    .filter-toolbar {
+      background: #f8fafc;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-bottom: 22px;
+    }
+
+    .search-input-box {
+      width: 100%;
+      padding: 9px 12px;
+      font-size: 0.92rem;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      margin-bottom: 10px;
+      outline: none;
+      transition: all 0.15s ease;
+    }
+
+    .search-input-box:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(30, 58, 138, 0.1);
+      background: #fff;
+    }
+
+    .filter-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .filter-pill {
+      font-size: 0.8rem;
+      padding: 4px 10px;
+      border-radius: 20px;
+      background: #ffffff;
+      color: var(--text-body);
+      border: 1px solid var(--border-color);
+      cursor: pointer;
+      font-weight: 500;
+      transition: all 0.15s ease;
+      user-select: none;
+    }
+
+    .filter-pill:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    .filter-pill.active {
+      background: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+    }
+
+    /* Research Area Blocks */
     .research-area {
-      margin-bottom: 28px;
-      padding-bottom: 24px;
+      margin-bottom: 26px;
+      padding-bottom: 22px;
       border-bottom: 1px dashed #e2e8f0;
+      transition: opacity 0.2s ease;
     }
 
     .research-area:last-child {
@@ -233,7 +360,7 @@
     .area-title {
       font-size: 1.12rem;
       font-weight: 600;
-      color: #0f172a;
+      color: var(--text-main);
       margin-bottom: 12px;
       display: flex;
       align-items: center;
@@ -248,11 +375,13 @@
       height: 24px;
       background: var(--badge-bg);
       color: var(--badge-text);
-      font-size: 0.8rem;
+      font-size: 0.78rem;
       font-weight: 700;
       border-radius: 50%;
+      flex-shrink: 0;
     }
 
+    /* Paper List */
     .paper-list {
       list-style-type: none;
       padding-left: 0;
@@ -262,7 +391,7 @@
       position: relative;
       padding-left: 20px;
       margin-bottom: 12px;
-      font-size: 0.94rem;
+      font-size: 0.93rem;
       line-height: 1.55;
     }
 
@@ -276,7 +405,7 @@
     }
 
     .paper-title {
-      color: #0f172a;
+      color: var(--text-main);
       font-weight: 500;
     }
 
@@ -285,7 +414,7 @@
       font-style: italic;
     }
 
-    /* Publication Badge */
+    /* Badges */
     .badge {
       display: inline-block;
       padding: 1px 7px;
@@ -297,555 +426,752 @@
       border: 1px solid var(--badge-border);
       background: var(--badge-bg);
       color: var(--badge-text);
+      text-decoration: none !important;
     }
 
     .badge:hover {
       background: #dbeafe;
-      text-decoration: none;
+      color: var(--primary);
     }
 
-    /* Footer Info */
-    .footer-grid {
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-      gap: 28px;
-      font-size: 0.92rem;
+    /* Sidebar Widgets */
+    .sidebar-widget {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.02);
+    }
+
+    .widget-title {
+      font-size: 1.02rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #f1f5f9;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .widget-list {
+      list-style: none;
+    }
+
+    .widget-list li {
+      margin-bottom: 10px;
+      font-size: 0.9rem;
+      line-height: 1.45;
+    }
+
+    .widget-list li:last-child {
+      margin-bottom: 0;
+    }
+
+    .widget-list a {
+      font-weight: 500;
+    }
+
+    .widget-desc {
+      display: block;
+      font-size: 0.82rem;
       color: var(--text-muted);
+      margin-top: 2px;
     }
 
-    .footer-address strong {
-      color: #0f172a;
+    /* Contact Details Card */
+    .contact-card {
+      background: #f8fafc;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 16px;
+      font-size: 0.9rem;
+      color: var(--text-body);
+      line-height: 1.5;
     }
 
-    .footer-bottom {
+    .contact-card strong {
+      color: var(--text-main);
+    }
+
+    /* Footer */
+    .site-footer {
       text-align: center;
-      font-size: 0.85rem;
-      color: #94a3b8;
-      margin-top: 36px;
-      padding-top: 20px;
+      font-size: 0.86rem;
+      color: var(--text-muted);
+      margin-top: 40px;
+      padding-top: 24px;
       border-top: 1px solid var(--border-color);
     }
 
-    /* Decryption box */
+    /* Decryption Container */
     .decrypt-box {
-      margin-top: 6px;
+      margin-top: 4px;
       display: inline-block;
     }
 
-    @media (max-width: 768px) {
-      .profile-card {
+    @media (max-width: 900px) {
+      .dashboard-grid {
+        grid-template-columns: 1fr;
+      }
+      .hero-card {
         flex-direction: column;
         align-items: center;
         text-align: center;
         padding: 24px;
       }
       .profile-photo {
-        width: 150px;
+        width: 160px;
+        height: auto;
       }
       .profile-links {
         justify-content: center;
-      }
-      .footer-grid {
-        grid-template-columns: 1fr;
       }
     }
   </style>
 </head>
 <body>
 
+<!-- Top Navigation -->
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-brand">
+      <strong>Yongge Wang, Ph.D.</strong>
+    </a>
+    <div class="nav-links">
+      <a href="#about" class="active-link">Overview</a>
+      <a href="#research">Representative Research</a>
+      <a href="papers.html">All Publications</a>
+      <a href="#standards">Standards</a>
+      <a href="teaching/">Teaching</a>
+      <a href="omega/">Omega Portal</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
 <div class="container">
 
   <!-- Header / Profile Section -->
-  <header class="profile-card">
+  <header id="about" class="hero-card">
     <img src="yongge.jpg" alt="Professor Yongge Wang" class="profile-photo">
     <div class="profile-details">
       <h1 class="profile-name">Yongge Wang, Ph.D.</h1>
       <div class="profile-title">Professor of Cybersecurity</div>
       <div class="profile-affiliation">
-        Department of Cybersecurity<br>
-        College of Computing and Informatics<br>
+        Department of Cybersecurity &bull; College of Computing and Informatics<br>
         University of North Carolina at Charlotte
       </div>
       <div class="profile-meta">
-        <strong>Education:</strong> Ph.D. in Mathematics from <a href="http://www.uni-heidelberg.de/university/statistics/research.html" target="_blank" rel="noopener">Heidelberg University</a>, Germany<br>
-        <strong>Office:</strong> Woodward Hall 330G | <strong>Phone:</strong> (704) 687-8665<br>
-        <strong>Office Hours:</strong> Friday 2:30 – 3:30 PM<br>
+        <div><strong>Education:</strong> Ph.D. in Mathematics, <a href="http://www.uni-heidelberg.de/university/statistics/research.html" target="_blank" rel="noopener">Heidelberg University</a>, Germany</div>
+        <div><strong>Office:</strong> Woodward Hall 330G &bull; <strong>Phone:</strong> (704) 687-8665 &bull; <strong>Office Hours:</strong> Friday 2:30 – 3:30 PM</div>
         <div class="decrypt-box" id="fz6PrzIX" title="U2FsdGVkX1+muMMySW6sxM8+FcxFCQcUdwRmNkCNfySlLcnYJ4T80SqsQMqCyRHa">
-          <strong>Email:</strong> <a href="javascript:decryptText('fz6PrzIX')">Reveal Email (decryption key: wang)</a>
+          <strong>Direct Email:</strong> <a href="javascript:decryptText('fz6PrzIX')">Reveal Email (Key: wang)</a> 
+          <span style="font-family:monospace; font-size:0.86rem; color:var(--text-muted); margin-left:6px;">[yongge.wang<img src="datasecurity/atmark.png" height="11" alt="@">gmail<img src="datasecurity/dot.png" height="11" alt=".">com]</span>
         </div>
       </div>
       <div class="profile-links">
         <a href="cv.pdf" class="pill-btn primary">Curriculum Vitae (PDF)</a>
-        <a href="papers.html" class="pill-btn">All Publications</a>
+        <a href="papers.html" class="pill-btn">Complete Publications</a>
         <a href="https://scholar.google.com/citations?user=GZtrefYAAAAJ&hl=en" target="_blank" rel="noopener" class="pill-btn">Google Scholar</a>
         <a href="https://dblp.org/pid/w/YonggeWang.html" target="_blank" rel="noopener" class="pill-btn">DBLP Profile</a>
         <a href="https://github.com/yonggewang" target="_blank" rel="noopener" class="pill-btn">GitHub</a>
-        <a href="industry.html" class="pill-btn">Industry Standards</a>
-        <a href="teaching/" class="pill-btn">Teaching</a>
+        <a href="teaching/" class="pill-btn">Teaching & Syllabi</a>
       </div>
     </div>
   </header>
 
-  <!-- Key Highlights Banner -->
-  <section class="highlights-banner">
-    <div><strong>Post-Quantum Cryptography (NIST PQC candidate):</strong> <a href="rlce/">RLCE Project</a> | <a href="https://github.com/yonggewang/RLCE" target="_blank" rel="noopener">RLCE GitHub</a></div>
-    <div><strong>DLT Consensus, Blockchain & DeFi:</strong> <a href="https://github.com/hyperledger-labs/bdls" target="_blank" rel="noopener">Hyperledger Labs BDLS</a> | <a href="https://github.com/yonggewang" target="_blank" rel="noopener">GitHub Implementations</a></div>
-  </section>
-
-  <!-- Navigation Bar -->
-  <nav class="nav-bar">
-    <a href="#research-areas">Representative Research</a>
-    <a href="papers.html">Complete Publications</a>
-    <a href="teaching/">Teaching & Syllabi</a>
-    <a href="omega/">Omega & Effective Randomness</a>
-    <a href="liltest/">LIL Test Package</a>
-    <a href="ClassProject/index.htm">Course Projects</a>
-    <a href="erdos.html">Erdős Number</a>
-    <a href="j1.html">J1 Visitors</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <!-- Main Research Section -->
-  <main id="research-areas" class="section-card">
-    <div class="section-header">
-      <h2 class="section-title">Representative Research Areas</h2>
-      <div class="section-subtext">
-        For a comprehensive bibliography, see <a href="papers.html"><strong>Complete Publication List</strong></a> or <a href="https://scholar.google.com/citations?user=GZtrefYAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>.
-      </div>
+  <!-- Key Initiative Highlights -->
+  <section class="highlights-grid">
+    <div class="highlight-item">
+      <strong>Post-Quantum Cryptography (PQC)</strong>
+      NIST PQC candidate: <a href="rlce/">RLCE Encryption Scheme</a> &bull; <a href="https://github.com/yonggewang/RLCE" target="_blank" rel="noopener">RLCE Code</a>
     </div>
-
-    <!-- Area 1: AI assisted scientific discovery (New Area) -->
-    <div class="research-area">
-      <h3 class="area-title"><span class="area-number">1</span> AI Assisted Scientific Discovery</h3>
-      <ul class="paper-list">
-        <li class="paper-item">
-          Yongge Wang. <span class="paper-title">Projective Jet Geometry and Hold-Out Rank of Binary Goppa Codes</span>.
-          <a href="https://eprint.iacr.org/2026/2769" target="_blank" rel="noopener" class="badge">ePrint 2026/2769</a>
-        </li>
-        <li class="paper-item">
-          Yongge Wang. <span class="paper-title">Hidden Curves and Short Duals: Cubic Jets, Dual Leaks, and the Limits of Masked-Code Encryption</span>.
-          <a href="https://eprint.iacr.org/2026/2710" target="_blank" rel="noopener" class="badge">ePrint 2026/2710</a>
-        </li>
-        <li class="paper-item">
-          Yongge Wang. <span class="paper-title">Fifteen Code-Based KEMs, One Framework: Structural and Parametric Cryptanalysis of the NGCC Round-1 Code-Based Candidates</span>.
-          <a href="https://github.com/yonggewang/ClaudeAI/blob/main/NGCC/main.pdf" target="_blank" rel="noopener" class="badge">PDF / GitHub</a>
-        </li>
-        <li class="paper-item">
-          Yongge Wang. <span class="paper-title">Betting versus Compression in Polynomial Time: One-Way Functions and the Levin–Schnorr Theorem</span>.
-          <a href="papers/betting-vs-compression.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Yongge Wang. <span class="paper-title">On the Range of Miller's Derivation on the d.c.e Reals</span>.
-          <a href="papers/derivation-range-v10.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Yongge Wang. <span class="paper-title">An Injective Oneway Function on the Reals That Preserves Randomness</span>.
-          <a href="papers/injective-oneway.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Yongge Wang. <span class="paper-title">The Theory of the Polynomial Time Isomorphism Types of Tally Sets in P is Undecidable</span>.
-          <a href="papers/tally-undecidable.pdf" class="badge">PDF</a>
-        </li>
-      </ul>
+    <div class="highlight-item">
+      <strong>Blockchain & BFT Consensus</strong>
+      Hyperledger Labs: <a href="https://github.com/hyperledger-labs/bdls" target="_blank" rel="noopener">BDLS Consensus Protocol</a> &bull; <a href="papers/bftACM.pdf">ACM DLT</a>
     </div>
-
-    <!-- Area 2: Survey -->
-    <div class="research-area">
-      <h3 class="area-title"><span class="area-number">2</span> Surveys and Reference Monographs</h3>
-      <ul class="paper-list">
-        <li class="paper-item">
-          Yongge Wang. <span class="paper-title">A Review of Threshold Digital Signature Schemes</span>.
-          <a href="papers/reviewTSS.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Yongge Wang. <span class="paper-title">Encryption Based Covert Channel for Large Language Models</span>.
-          <a href="https://eprint.iacr.org/2024/586.pdf" target="_blank" rel="noopener" class="badge">ePrint 2024/586</a>
-        </li>
-        <li class="paper-item">
-          Yongge Wang. <span class="paper-title">DeepSeek Improvement on Transformers</span>.
-          <a href="papers/deepSeek.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Yongge Wang. <span class="paper-title">Smart Grid, Automation, and SCADA Systems Security</span>.
-          <span class="paper-venue">Security and Privacy in Smart Grids</span>, CRC Press (Taylor & Francis Group), ISBN 978-1-4398-7783-8, 2013.
-          <a href="papers/ywangsmartgrid.pdf" class="badge">PDF (200K)</a>
-        </li>
-        <li class="paper-item">
-          Yongge Wang. <span class="paper-title">Public Key Cryptography Standards: PKCS</span>.
-          <span class="paper-venue">Handbook of Information Security</span>, John Wiley & Sons, Inc., 2005.
-          <a href="papers/pkcs.pdf" class="badge">PDF (150K)</a>
-          <a href="http://www.wiley.com/WileyCDA/Section/id-131581.html" target="_blank" rel="noopener" class="badge">Publisher's ToC</a>
-        </li>
-      </ul>
+    <div class="highlight-item">
+      <strong>AI-Assisted Scientific Discovery</strong>
+      2026 breakthroughs across Post-Quantum KEM cryptanalysis, Jet Geometry & Complexity.
     </div>
-
-    <!-- Area 3: Blockchain (all 'new' tags removed) -->
-    <div class="research-area">
-      <h3 class="area-title"><span class="area-number">3</span> Blockchain, Consensus & Decentralized Finance</h3>
-      <ul class="paper-list">
-        <li class="paper-item">
-          Yongge Wang. <span class="paper-title">Prediction Markets, Automated Market Makers, and Decentralized Finance (DeFi)</span>.
-          <span class="paper-venue">3rd International Conference on Mathematical Research for Blockchain Economy (MARBLE 2022)</span>.
-          <a href="https://arxiv.org/pdf/2009.01676.pdf" target="_blank" rel="noopener" class="badge">arXiv:2009.01676</a>
-        </li>
-        <li class="paper-item">
-          Yongge Wang. <span class="paper-title">Deterministic Blockchain BFT Protocol XP for Complete Asynchronous Network</span>.
-        </li>
-        <li class="paper-item">
-          Yongge Wang. <span class="paper-title">Byzantine Fault Tolerance For Distributed Ledgers Revisited</span>.
-          <span class="paper-venue">ACM Distributed Ledger Technologies: Research and Practice</span>, 2022.
-          <a href="papers/bftACM.pdf" class="badge">PDF</a>
-          <a href="https://doi.org/10.1145/3538227" target="_blank" rel="noopener" class="badge">DOI</a>
-        </li>
-        <li class="paper-item">
-          Yongge Wang. <span class="paper-title">The Adversary Capabilities In Practical Byzantine Fault Tolerance</span>.
-          <span class="paper-venue">International Workshop on Security and Trust Management (STM)</span>, pp. 20–39, Springer LNCS 13075.
-          <a href="https://eprint.iacr.org/2021/1248.pdf" target="_blank" rel="noopener" class="badge">ePrint</a>
-          <a href="https://www.doi.org/10.1007/978-3-030-91859-0_2" target="_blank" rel="noopener" class="badge">DOI</a>
-        </li>
-        <li class="paper-item">
-          Israa Alsarsour, Qutaibah Malluhi, and Yongge Wang. <span class="paper-title">Free Chain: Enabling Freedom of Expression through Public Blockchains</span>.
-          <span class="paper-venue">IEEE DependSys 2020</span>, December 2020.
-          <a href="papers/freechain.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Yongge Wang. <span class="paper-title">Byzantine Fault Tolerance in Partially Connected Asynchronous Networks</span>.
-          <span class="paper-venue">IACR ePrint 2019/1460</span>, December 2019.
-          <a href="https://eprint.iacr.org/2019/1460/" target="_blank" rel="noopener" class="badge">ePrint</a>
-          <a href="https://github.com/yonggewang/BDLS" target="_blank" rel="noopener" class="badge">GitHub BDLS</a>
-        </li>
-        <li class="paper-item">
-          Yongge Wang and Q. M. Malluhi. <span class="paper-title">The Limit of Blockchains: Infeasibility of a Smart Obama-Trump Contract</span>.
-          <span class="paper-venue">Communications of the ACM</span>, May 2019.
-          <a href="papers/cacm.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          M. Ahmed, J. Wei, Yongge Wang, and Ehab Al-Shaer. <span class="paper-title">A Poisoning Attack Against Cryptocurrency Mining Pools</span>.
-          <span class="paper-venue">DPM/CBT@ESORICS 2018</span>: 140–154.
-          <a href="https://doi.org/10.1007/978-3-030-00305-0_11" target="_blank" rel="noopener" class="badge">DOI / PDF</a>
-        </li>
-      </ul>
-    </div>
-
-    <!-- Area 4: Post-Quantum Cryptography -->
-    <div class="research-area">
-      <h3 class="area-title"><span class="area-number">4</span> Post-Quantum Cryptography</h3>
-      <ul class="paper-list">
-        <li class="paper-item">
-          Jingang Liu, Yongge Wang, Zongxiang Yi, and Dingyi Pei. <span class="paper-title">Quantum Resistant Public Key Encryption Scheme polarRLCE</span>.
-          <span class="paper-venue">International Conference on Algebra, Codes and Cryptology</span>, pp. 114–128, Springer, 2019.
-          <a href="https://link.springer.com/chapter/10.1007/978-3-030-36237-9_7" target="_blank" rel="noopener" class="badge">Online</a>
-        </li>
-        <li class="paper-item">
-          Haoyu Li, Renzhang Liu, Qutaibah M. Malluhi, Yanbin Pan, Yongge Wang, and Tianyuan Xie. <span class="paper-title">Breaking HK17 in Practice</span>.
-          <span class="paper-venue">Proc. IEEE ISIT 2019</span>.
-          <a href="papers/BreakHKisit19.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Yongge Wang. <span class="paper-title">Revised Quantum Resistant Public Key Encryption Scheme RLCE and IND-CCA2 Security for McEliece Schemes</span>.
-          <a href="papers/pqEncryption.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Yongge Wang. <span class="paper-title">Quantum Resistant Random Linear Code Based Public Key Encryption Scheme RLCE</span>.
-          <span class="paper-venue">Proc. IEEE ISIT 2016 (Barcelona)</span>, pp. 2519–2523.
-          <a href="papers/latticeEnc.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Yongge Wang. <span class="paper-title">Decoding Generalized Reed-Solomon Codes and Its Application to RLCE Encryption Schemes</span>.
-          <span class="paper-venue">Manuscript 2017</span>.
-          <a href="papers/ReedSolomon.pdf" class="badge">PDF</a>
-        </li>
-      </ul>
-    </div>
-
-    <!-- Area 5: Fully Homomorphic Encryption & Garbled Computation -->
-    <div class="research-area">
-      <h3 class="area-title"><span class="area-number">5</span> Fully Homomorphic Encryption (FHE) & Garbled Computation</h3>
-      <ul class="paper-list">
-        <li class="paper-item">
-          Y. Wang and Q. Malluhi. <span class="paper-title">Privacy Preserving Computation in Cloud Using Reusable Garbled Oblivious RAMs</span>.
-          <span class="paper-venue">Proc. 25th Information Security Conference (ISC)</span>, pp. 3–19, LNCS, Springer, 2022.
-          <a href="papers/oram.pdf" class="badge">PDF</a>
-          <a href="papers/ORAMslide.pdf" class="badge">PPT Slides</a>
-        </li>
-        <li class="paper-item">
-          Y. Wang and Q. Malluhi. <span class="paper-title">Reusable Garbled Turing Machines without FHE</span>.
-          <span class="paper-venue">Proc. 3rd Conference C2SI, Codes, Cryptology and Information Security</span>, LNCS, Springer, 2019.
-          <a href="papers/garbledTM.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Y. Wang and Q. Malluhi. <span class="paper-title">Reducing Garbled Circuit Size While Preserving Circuit Gate Privacy</span>.
-          <span class="paper-venue">Proc. AfricaCrypt 2024</span>.
-          <a href="papers/efficientGC.pdf" class="badge">Paper</a>
-          <a href="papers/efficientGCPPT.pdf" class="badge">Presentation</a>
-        </li>
-        <li class="paper-item">
-          Y. Wang and Y. Desmedt. <span class="paper-title">Towards Fully Homomorphic Encryption Schemes from Codes</span> (2015).
-        </li>
-        <li class="paper-item">
-          Y. Wang and Q. Malluhi. <span class="paper-title">Privacy Preserving Computation in Cloud Using Noise-Free Fully Homomorphic Encryption (FHE) Schemes</span>.
-          <span class="paper-venue">ESORICS 2016</span>, LNCS 9878.
-          <a href="papers/octonionAlgebraEsorics.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Y. Wang, Q. Malluhi, and K. Khan. <span class="paper-title">Garbled Computation in Cloud</span>.
-          <span class="paper-venue">Future Generation Computer Systems</span>, 62(C):54–65, 2016.
-        </li>
-      </ul>
-    </div>
-
-    <!-- Area 6: Pseudorandomness & Statistical Testing -->
-    <div class="research-area">
-      <h3 class="area-title"><span class="area-number">6</span> Pseudorandomness & Statistical Testing</h3>
-      <p style="font-size:0.92rem; color:var(--text-muted); margin-bottom:12px;">
-        Software package: <a href="liltest.zip"><strong>LIL package (JAR)</strong></a>. For instructions, see the <a href="liltest/"><strong>LIL Project Page</strong></a>.
-      </p>
-      <ul class="paper-list">
-        <li class="paper-item">
-          P. Li, X. Liu, X. Yi, and Yongge Wang. <span class="paper-title">Brownian Motion Properties of Random Bit Generators Based on Laser Chaos</span>.
-          <span class="paper-venue">Optics Express</span> 24(14):15822–15833, 2016.
-          <a href="papers/opticexpress16.pdf" class="badge">PDF</a>
-          <a href="http://dx.doi.org/10.1364/OE.24.015822" target="_blank" rel="noopener" class="badge">Publisher</a>
-        </li>
-        <li class="paper-item">
-          Yongge Wang. <span class="paper-title">On the Design of LIL Tests for (Pseudo) Random Generators and Some Experimental Results</span>.
-          <a href="papers/liltest.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Yongge Wang and Tony Nicol. <span class="paper-title">Statistical Properties of Pseudo Random Sequences and Experiments with PHP and Debian OpenSSL</span>.
-          <span class="paper-venue">Computers & Security</span>, 53:44–64, 2015. (Extended abstract in <span class="paper-venue">ESORICS 2014</span>, LNCS 8712).
-          <a href="papers/lilesorics.pdf" class="badge">PDF</a>
-          <a href="http://dx.doi.org/10.1016/j.cose.2015.05.005" target="_blank" rel="noopener" class="badge">Elsevier</a>
-        </li>
-      </ul>
-    </div>
-
-    <!-- Area 7: LDPC & Erasure Codes -->
-    <div class="research-area">
-      <h3 class="area-title"><span class="area-number">7</span> LDPC-Based Erasure Codes, Fountain Codes & Secret Sharing</h3>
-      <ul class="paper-list">
-        <li class="paper-item">
-          M. Paterson, Douglas R. Stinson, and Yongge Wang. <span class="paper-title">On Encoding Symbol Degrees of Array BP-XOR Codes</span>.
-          <span class="paper-venue">Cryptography and Communications</span>, 8(1):19–32, 2016.
-          <a href="papers/bpxorIT.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Yongge Wang. <span class="paper-title">Privacy-Preserving Data Storage in Cloud Using Array BP-XOR Codes</span>.
-          <span class="paper-venue">IEEE Transactions on Cloud Computing (TCC)</span>, 3(4):425–435, 2015.
-          <a href="papers/ecldpc.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Yongge Wang and Yvo Desmedt. <span class="paper-title">Efficient Secret Sharing Schemes Achieving Optimal Information Rate</span>.
-          <span class="paper-venue">IEEE Information Theory Workshop (ITW)</span>, pp. 516–520, 2014.
-          <a href="papers/sss.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Yongge Wang. <span class="paper-title">Array BP-XOR Codes for Reliable Cloud Storage Systems</span>.
-          <span class="paper-venue">Proc. IEEE ISIT 2013</span>, pp. 326–330.
-          <a href="papers/isit2013.pdf" class="badge">PDF</a>
-          <a href="papers/isit13Presentation.pdf" class="badge">Presentation</a>
-        </li>
-      </ul>
-    </div>
-
-    <!-- Area 8: Secure Authenticated Communications -->
-    <div class="research-area">
-      <h3 class="area-title"><span class="area-number">8</span> Secure Authenticated Communications (Password & Identity Based)</h3>
-      <ul class="paper-list">
-        <li class="paper-item">
-          Y. Wang. <span class="paper-title">Efficient Identity-Based and Authenticated Key Agreement Protocol</span>.
-          <span class="paper-venue">Transactions on Computational Science XVII</span>, LNCS 7420, pp. 172–197, Springer, 2013.
-          <a href="papers/idakj.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Z. Zhao, Z. Dong, and Y. Wang. <span class="paper-title">Security Analysis of a Password-Based Authentication Protocol Proposed to IEEE 1363</span>.
-          <span class="paper-venue">Theoretical Computer Science</span>, 352(1-3):280–287, 2006.
-          <a href="papers/TCSsrp5.pdf" class="badge">PDF</a>
-          <a href="http://dx.doi.org/10.1016/j.tcs.2005.11.038" target="_blank" rel="noopener" class="badge">Publisher</a>
-        </li>
-        <li class="paper-item">
-          Y. Wang. <span class="paper-title">Password Protected Smart Card and Memory Stick Authentication Against Off-line Dictionary Attacks</span>.
-          <span class="paper-venue">SEC 2012, IFIP AICT 376</span>, pp. 489–500, 2012.
-          <a href="papers/smartcard.pdf" class="badge">PDF</a>
-        </li>
-      </ul>
-    </div>
-
-    <!-- Area 9: PSMT -->
-    <div class="research-area">
-      <h3 class="area-title"><span class="area-number">9</span> Perfectly Secure Message Transmission (PSMT)</h3>
-      <ul class="paper-list">
-        <li class="paper-item">
-          Y. Wang and Y. Desmedt. <span class="paper-title">Perfectly Secure Message Transmission Revisited</span>.
-          <span class="paper-venue">IEEE Transactions on Information Theory</span>, 54(6):2582–2595, June 2008. (Extended abstract in <span class="paper-venue">EuroCrypt 2002</span>, LNCS 2332).
-          <a href="papers/ecrypt02.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Y. Wang and Y. Desmedt. <span class="paper-title">Secure Communication in Multicast Channels</span>.
-          <span class="paper-venue">Journal of Cryptology</span>, 14(2):121–135, 2001. (Extended abstract in <span class="paper-venue">Eurocrypt 1999</span>, LNCS 1592).
-          <a href="papers/JCRYPTO.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Y. Wang and Y. Desmedt. <span class="paper-title">Edge-Colored Graphs with Applications to Homogeneous Faults</span>.
-          <span class="paper-venue">Information Processing Letters</span>, 111:634–641, 2011.
-          <a href="papers/iplwangcolor.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Y. Desmedt, Y. Wang, and M. Burmester. <span class="paper-title">A Complete Characterization of Tolerable Adversary Structures for Secure Point-to-Point Transmissions</span>.
-          <span class="paper-venue">Proc. 16th ISAAC</span>, LNCS 3827, pp. 277–287, 2005.
-          <a href="papers/isaac05.pdf" class="badge">PDF</a>
-        </li>
-      </ul>
-    </div>
-
-    <!-- Area 10: Critical Infrastructure Protection -->
-    <div class="research-area">
-      <h3 class="area-title"><span class="area-number">10</span> Critical Infrastructure Protection & SCADA Systems</h3>
-      <ul class="paper-list">
-        <li class="paper-item">
-          Yongge Wang. <span class="paper-title">Secure Communication and Authentication Against Off-line Dictionary Attacks in Smart Grid Systems</span>.
-          <span class="paper-venue">Proc. CyberICPS 2016 (ESORICS Workshop)</span>, LNCS 10166, 2017.
-          <a href="papers/smartgridfull.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Yongge Wang. <span class="paper-title">Smart Grid, Automation, and SCADA Systems Security</span>.
-          <span class="paper-venue">Security and Privacy in Smart Grids</span>, CRC Press, 2013.
-          <a href="papers/ywangsmartgrid.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Y. Wang. <span class="paper-title">sSCADA: Securing SCADA Infrastructure Communications</span>.
-          <span class="paper-venue">Int. J. Communication Networks and Distributed Systems</span>, 6(1):59–78, 2011.
-          <a href="papers/scada.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Y. Desmedt and Y. Wang. <span class="paper-title">Analyzing Vulnerabilities of Critical Infrastructures Using Flows and Critical Vertices in AND/OR Graphs</span>.
-          <span class="paper-venue">International Journal of Foundations of Computer Science</span>, 15(1):107–125, 2004.
-          <a href="papers/ijfcs03.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Y. Wang. <span class="paper-title">Cryptographic Challenges in Smart Grid System Security</span>.
-          <span class="paper-venue">IEEE Smart Grid Newsletter</span>, December 2012.
-          <a href="http://smartgrid.ieee.org/december-2012/732-cryptographic-challenges-in-smart-grid-system-security" target="_blank" rel="noopener" class="badge">IEEE</a>
-        </li>
-      </ul>
-    </div>
-
-    <!-- Area 11: Algorithmic Information Theory & Complexity -->
-    <div class="research-area">
-      <h3 class="area-title"><span class="area-number">11</span> Algorithmic Information Theory, Randomness & Complexity</h3>
-      <p style="font-size:0.92rem; color:var(--text-muted); margin-bottom:12px;">
-        For further research materials, see the <a href="omega/"><strong>Omega Randomness Page</strong></a>.
-      </p>
-      <ul class="paper-list">
-        <li class="paper-item">
-          C. Calude, P. Hertling, B. Khoussainov, and Y. Wang. <span class="paper-title">Recursively Enumerable Reals and Chaitin's &Omega; Numbers</span>.
-          <span class="paper-venue">Theoretical Computer Science</span>, 255:125–149, 2001.
-          <a href="papers/TCS01.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Y. Wang. <span class="paper-title">Genericity, Randomness, and Polynomial Time Approximations</span>.
-          <span class="paper-venue">SIAM Journal on Computing</span>, 28(2):394–408, 1999.
-          <a href="papers/SIAM.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Y. Wang. <span class="paper-title">A Separation of Two Randomness Concepts</span>.
-          <span class="paper-venue">Information Processing Letters</span>, 69(3):115–118, 1999.
-          <a href="papers/IPL99.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Y. Wang. <span class="paper-title">Resource Bounded Randomness and Computational Complexity</span>.
-          <span class="paper-venue">Theoretical Computer Science</span>, 237(1-2):33–55, 2000.
-          <a href="papers/TCS00.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Y. Wang. <span class="paper-title">Randomness, Stochasticity, and Approximations</span>.
-          <span class="paper-venue">Theory of Computing Systems</span>, 32:517–529, 1999.
-          <a href="papers/TOCS99.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Y. Wang. <span class="paper-title">NP-Hard Sets Are Superterse Unless NP Is Small</span>.
-          <span class="paper-venue">Information Processing Letters</span>, 61(1):1–6, 1997.
-          <a href="papers/IPL97.pdf" class="badge">PDF</a>
-        </li>
-        <li class="paper-item">
-          Y. Wang. <span class="paper-title">Randomness and Complexity</span>. Ph.D. Dissertation, Heidelberg University, 1996.
-          <a href="papers/thesis.pdf" class="badge">PDF</a>
-        </li>
-      </ul>
-    </div>
-
-  </main>
-
-  <!-- Industry Standards Section -->
-  <section class="section-card">
-    <div class="section-header">
-      <h2 class="section-title">Industry Cryptographic Standards</h2>
-      <div class="section-subtext">Selected international security specifications developed and standardized.</div>
-    </div>
-    <ul class="paper-list">
-      <li class="paper-item">
-        <strong>Secure Remote Password Authentication Protocol (SRP5)</strong>. Standardized in <a href="1363.2-2008.pdf"><strong>IEEE 1363.2</strong></a> (<a href="papers/ecsrp.pdf" class="badge">SRP5 Paper</a>).
-        Implementations: <a href="https://github.com/mobilesec/secure-channel-srp-android-lib" target="_blank" rel="noopener">EC-SRP Android Library</a> and <a href="https://github.com/mobilesec/secure-channel-ec-srp-applet" target="_blank" rel="noopener">Java Card Applet</a> (by Michael Hölzl).
-      </li>
-      <li class="paper-item">
-        <strong>Identity-Based Authenticated Key Agreement Protocol (WANG-KE)</strong>. Standardized in <a href="13633-2013.pdf"><strong>IEEE 1363.3</strong></a> (<a href="papers/P1363IBKAS.pdf" class="badge">WANG-KE Paper</a>).
-      </li>
-      <li class="paper-item">
-        S. Blake-Wilson, G. Karlinger, T. Kobayashi, and Yongge Wang. <strong>ECDSA with XML-Signature Syntax</strong>. <a href="http://www.ietf.org/rfc/rfc4050" target="_blank" rel="noopener"><strong>IETF RFC 4050</strong></a>, 2005.
-      </li>
-    </ul>
-  </section>
-
-  <!-- Teaching & Quick Links Section -->
-  <section class="section-card">
-    <div class="section-header">
-      <h2 class="section-title">Academic & Professional Resources</h2>
-    </div>
-    <div style="display:flex; flex-wrap:wrap; gap:12px;">
-      <a href="teaching/" class="pill-btn">Teaching & Syllabi</a>
-      <a href="research/funding.html" class="pill-btn">Research Funding</a>
-      <a href="erdos.html" class="pill-btn">Erdős Number</a>
-      <a href="industry.html" class="pill-btn">Industry Contributions</a>
-      <a href="ClassProject/index.htm" class="pill-btn">Selected Course Projects</a>
-      <a href="j1.html" class="pill-btn">J1 Visitors from China</a>
-      <a href="omega/" class="pill-btn">Omega & Effective Randomness</a>
-      <a href="liltest/" class="pill-btn">LIL Randomness Testing</a>
+    <div class="highlight-item">
+      <strong>Algorithmic Information Theory</strong>
+      Chaitin's &Omega; Characterization &bull; <a href="omega/">Omega Portal & Directory</a>
     </div>
   </section>
 
-  <!-- Footer / Contact Card -->
-  <footer id="contact" class="section-card">
-    <div class="section-header">
-      <h2 class="section-title">Contact & Office Information</h2>
-    </div>
-    <div class="footer-grid">
-      <div class="footer-address">
-        <p><strong>Dr. Yongge Wang</strong></p>
-        <p>Woodward Hall 330G</p>
-        <p><a href="http://www.sis.uncc.edu/" target="_blank" rel="noopener">Department of Cybersecurity</a></p>
-        <p><a href="http://cci.uncc.edu" target="_blank" rel="noopener">College of Computing and Informatics</a></p>
-        <p><a href="http://www.uncc.edu" target="_blank" rel="noopener">University of North Carolina at Charlotte</a></p>
-        <p>9201 University City Blvd, Charlotte, NC 28223, USA</p>
-        <p style="margin-top:8px;">Phone: (704) 687-8665 | Fax: (704) 687-4893</p>
-      </div>
-      <div>
-        <div style="background:#f1f5f9; padding:16px; border-radius:8px; border:1px solid var(--border-color);">
-          <strong style="color:#0f172a;">Direct Email:</strong>
-          <div style="margin-top:6px; font-family:monospace; font-size:0.95rem; color:#1e293b;">
-            yongge.wang<img src="datasecurity/atmark.png" height="12" alt="@">gmail<img src="datasecurity/dot.png" height="12" alt=".">com
+  <!-- Main 2-Column Responsive Dashboard -->
+  <div class="dashboard-grid">
+
+    <!-- Primary Column: Research Areas & Standards -->
+    <main>
+
+      <!-- Representative Research Section -->
+      <section id="research" class="content-card">
+        <div class="card-header">
+          <div>
+            <h2 class="card-title">Representative Research Areas</h2>
+            <div class="card-subtitle">Curated landmark publications across foundational and applied cybersecurity.</div>
           </div>
-          <div style="margin-top:10px; font-size:0.85rem; color:var(--text-muted);">
-            Preferred correspondence address.
+          <div>
+            <a href="papers.html" class="pill-btn primary" style="font-size:0.82rem;">Complete Bibliography &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Filter & Search Toolbar -->
+        <div class="filter-toolbar">
+          <input type="text" id="paper-search" class="search-input-box" placeholder="Filter representative papers by title, topic, or keyword..." aria-label="Filter representative papers">
+          <div class="filter-pills" id="category-pills">
+            <button class="filter-pill active" data-filter="all">All Areas (11)</button>
+            <button class="filter-pill" data-filter="ai">AI Discovery (7)</button>
+            <button class="filter-pill" data-filter="pqc">Post-Quantum (5)</button>
+            <button class="filter-pill" data-filter="blockchain">Blockchain & BFT (8)</button>
+            <button class="filter-pill" data-filter="fhe">FHE & Cloud (6)</button>
+            <button class="filter-pill" data-filter="ait">AIT & Omega (7)</button>
+            <button class="filter-pill" data-filter="codes">Coding & Sharing (4)</button>
+            <button class="filter-pill" data-filter="comms">Communications (3)</button>
+            <button class="filter-pill" data-filter="psmt">PSMT (4)</button>
+            <button class="filter-pill" data-filter="scada">SCADA Systems (5)</button>
+            <button class="filter-pill" data-filter="pseudo">Randomness Testing (3)</button>
+            <button class="filter-pill" data-filter="surveys">Surveys (5)</button>
+          </div>
+        </div>
+
+        <!-- Area 1: AI Assisted Scientific Discovery -->
+        <div class="research-area" data-category="ai">
+          <h3 class="area-title"><span class="area-number">1</span> AI Assisted Scientific Discovery</h3>
+          <ul class="paper-list">
+            <li class="paper-item">
+              Yongge Wang. <span class="paper-title">Projective Jet Geometry and Hold-Out Rank of Binary Goppa Codes</span>.
+              <a href="https://eprint.iacr.org/2026/2769" target="_blank" rel="noopener" class="badge">ePrint 2026/2769</a>
+            </li>
+            <li class="paper-item">
+              Yongge Wang. <span class="paper-title">Hidden Curves and Short Duals: Cubic Jets, Dual Leaks, and the Limits of Masked-Code Encryption</span>.
+              <a href="https://eprint.iacr.org/2026/2710" target="_blank" rel="noopener" class="badge">ePrint 2026/2710</a>
+            </li>
+            <li class="paper-item">
+              Yongge Wang. <span class="paper-title">Chinese PQC Round-1, One Framework: Cryptanalysis of the NGCC Round-1 KEM, Signature and Key-Exchange Candidates</span>.
+              <a href="https://github.com/yonggewang/ClaudeAI/blob/main/NGCC/main.pdf" target="_blank" rel="noopener" class="badge">PDF / GitHub</a>
+            </li>
+            <li class="paper-item">
+              Yongge Wang. <span class="paper-title">Betting versus Compression in Polynomial Time: One-Way Functions and the Levin–Schnorr Theorem</span>.
+              <a href="papers/betting-vs-compression.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Yongge Wang. <span class="paper-title">On the Range of Miller's Derivation on the d.c.e Reals</span>.
+              <a href="papers/derivation-range-v10.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Yongge Wang. <span class="paper-title">An Injective Oneway Function on the Reals That Preserves Randomness</span>.
+              <a href="papers/injective-oneway.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Yongge Wang. <span class="paper-title">The Theory of the Polynomial Time Isomorphism Types of Tally Sets in P is Undecidable</span>.
+              <a href="papers/tally-undecidable.pdf" class="badge">PDF</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Area 2: Surveys and Reference Monographs -->
+        <div class="research-area" data-category="surveys">
+          <h3 class="area-title"><span class="area-number">2</span> Surveys and Reference Monographs</h3>
+          <ul class="paper-list">
+            <li class="paper-item">
+              Yongge Wang. <span class="paper-title">A Review of Threshold Digital Signature Schemes</span>.
+              <a href="papers/reviewTSS.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Yongge Wang. <span class="paper-title">Encryption Based Covert Channel for Large Language Models</span>.
+              <a href="https://eprint.iacr.org/2024/586.pdf" target="_blank" rel="noopener" class="badge">ePrint 2024/586</a>
+            </li>
+            <li class="paper-item">
+              Yongge Wang. <span class="paper-title">DeepSeek Improvement on Transformers</span>.
+              <a href="papers/deepSeek.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Yongge Wang. <span class="paper-title">Smart Grid, Automation, and SCADA Systems Security</span>.
+              <span class="paper-venue">Security and Privacy in Smart Grids</span>, CRC Press, ISBN 978-1-4398-7783-8, 2013.
+              <a href="papers/ywangsmartgrid.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Yongge Wang. <span class="paper-title">Public Key Cryptography Standards: PKCS</span>.
+              <span class="paper-venue">Handbook of Information Security</span>, John Wiley & Sons, Inc., 2005.
+              <a href="papers/pkcs.pdf" class="badge">PDF</a>
+              <a href="http://www.wiley.com/WileyCDA/Section/id-131581.html" target="_blank" rel="noopener" class="badge">Publisher</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Area 3: Blockchain, Consensus & Decentralized Finance -->
+        <div class="research-area" data-category="blockchain">
+          <h3 class="area-title"><span class="area-number">3</span> Blockchain, Consensus & Decentralized Finance</h3>
+          <ul class="paper-list">
+            <li class="paper-item">
+              Yongge Wang. <span class="paper-title">Prediction Markets, Automated Market Makers, and Decentralized Finance (DeFi)</span>.
+              <span class="paper-venue">MARBLE 2022</span>.
+              <a href="https://arxiv.org/pdf/2009.01676.pdf" target="_blank" rel="noopener" class="badge">arXiv:2009.01676</a>
+            </li>
+            <li class="paper-item">
+              Yongge Wang. <span class="paper-title">Deterministic Blockchain BFT Protocol XP for Complete Asynchronous Network</span>.
+            </li>
+            <li class="paper-item">
+              Yongge Wang. <span class="paper-title">Byzantine Fault Tolerance For Distributed Ledgers Revisited</span>.
+              <span class="paper-venue">ACM Distributed Ledger Technologies: Research and Practice</span>, 2022.
+              <a href="papers/bftACM.pdf" class="badge">PDF</a>
+              <a href="https://doi.org/10.1145/3538227" target="_blank" rel="noopener" class="badge">DOI</a>
+            </li>
+            <li class="paper-item">
+              Yongge Wang. <span class="paper-title">The Adversary Capabilities In Practical Byzantine Fault Tolerance</span>.
+              <span class="paper-venue">STM 2021</span>, Springer LNCS 13075, pp. 20–39.
+              <a href="https://eprint.iacr.org/2021/1248.pdf" target="_blank" rel="noopener" class="badge">ePrint</a>
+              <a href="https://www.doi.org/10.1007/978-3-030-91859-0_2" target="_blank" rel="noopener" class="badge">DOI</a>
+            </li>
+            <li class="paper-item">
+              Israa Alsarsour, Qutaibah Malluhi, and Yongge Wang. <span class="paper-title">Free Chain: Enabling Freedom of Expression through Public Blockchains</span>.
+              <span class="paper-venue">IEEE DependSys 2020</span>.
+              <a href="papers/freechain.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Yongge Wang. <span class="paper-title">Byzantine Fault Tolerance in Partially Connected Asynchronous Networks</span>.
+              <span class="paper-venue">IACR ePrint 2019/1460</span>.
+              <a href="https://eprint.iacr.org/2019/1460/" target="_blank" rel="noopener" class="badge">ePrint</a>
+              <a href="https://github.com/yonggewang/BDLS" target="_blank" rel="noopener" class="badge">BDLS GitHub</a>
+            </li>
+            <li class="paper-item">
+              Yongge Wang and Q. M. Malluhi. <span class="paper-title">The Limit of Blockchains: Infeasibility of a Smart Obama-Trump Contract</span>.
+              <span class="paper-venue">Communications of the ACM (CACM)</span>, May 2019.
+              <a href="papers/cacm.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              M. Ahmed, J. Wei, Yongge Wang, and Ehab Al-Shaer. <span class="paper-title">A Poisoning Attack Against Cryptocurrency Mining Pools</span>.
+              <span class="paper-venue">DPM/CBT@ESORICS 2018</span>: 140–154.
+              <a href="https://doi.org/10.1007/978-3-030-00305-0_11" target="_blank" rel="noopener" class="badge">DOI / PDF</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Area 4: Post-Quantum Cryptography -->
+        <div class="research-area" data-category="pqc">
+          <h3 class="area-title"><span class="area-number">4</span> Post-Quantum Cryptography</h3>
+          <ul class="paper-list">
+            <li class="paper-item">
+              Jingang Liu, Yongge Wang, Zongxiang Yi, and Dingyi Pei. <span class="paper-title">Quantum Resistant Public Key Encryption Scheme polarRLCE</span>.
+              <span class="paper-venue">Algebra, Codes and Cryptology</span>, pp. 114–128, Springer, 2019.
+              <a href="https://link.springer.com/chapter/10.1007/978-3-030-36237-9_7" target="_blank" rel="noopener" class="badge">Online</a>
+            </li>
+            <li class="paper-item">
+              Haoyu Li, Renzhang Liu, Qutaibah M. Malluhi, Yanbin Pan, Yongge Wang, and Tianyuan Xie. <span class="paper-title">Breaking HK17 in Practice</span>.
+              <span class="paper-venue">Proc. IEEE ISIT 2019</span>.
+              <a href="papers/BreakHKisit19.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Yongge Wang. <span class="paper-title">Revised Quantum Resistant Public Key Encryption Scheme RLCE and IND-CCA2 Security for McEliece Schemes</span>.
+              <a href="papers/pqEncryption.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Yongge Wang. <span class="paper-title">Quantum Resistant Random Linear Code Based Public Key Encryption Scheme RLCE</span>.
+              <span class="paper-venue">Proc. IEEE ISIT 2016</span>, pp. 2519–2523.
+              <a href="papers/latticeEnc.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Yongge Wang. <span class="paper-title">Decoding Generalized Reed-Solomon Codes and Its Application to RLCE Encryption Schemes</span>.
+              <span class="paper-venue">Manuscript 2017</span>.
+              <a href="papers/ReedSolomon.pdf" class="badge">PDF</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Area 5: Fully Homomorphic Encryption & Garbled Computation -->
+        <div class="research-area" data-category="fhe">
+          <h3 class="area-title"><span class="area-number">5</span> Fully Homomorphic Encryption & Garbled Computation</h3>
+          <ul class="paper-list">
+            <li class="paper-item">
+              Y. Wang and Q. Malluhi. <span class="paper-title">Privacy Preserving Computation in Cloud Using Reusable Garbled Oblivious RAMs</span>.
+              <span class="paper-venue">ISC 2022</span>, pp. 3–19, Springer LNCS.
+              <a href="papers/oram.pdf" class="badge">PDF</a>
+              <a href="papers/ORAMslide.pdf" class="badge">Slides</a>
+            </li>
+            <li class="paper-item">
+              Y. Wang and Q. Malluhi. <span class="paper-title">Reusable Garbled Turing Machines without FHE</span>.
+              <span class="paper-venue">C2SI 2019</span>, Springer LNCS.
+              <a href="papers/garbledTM.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Y. Wang and Q. Malluhi. <span class="paper-title">Reducing Garbled Circuit Size While Preserving Circuit Gate Privacy</span>.
+              <span class="paper-venue">AfricaCrypt 2024</span>.
+              <a href="papers/efficientGC.pdf" class="badge">PDF</a>
+              <a href="papers/efficientGCPPT.pdf" class="badge">Slides</a>
+            </li>
+            <li class="paper-item">
+              Y. Wang and Y. Desmedt. <span class="paper-title">Towards Fully Homomorphic Encryption Schemes from Codes</span> (2015).
+            </li>
+            <li class="paper-item">
+              Y. Wang and Q. Malluhi. <span class="paper-title">Privacy Preserving Computation in Cloud Using Noise-Free Fully Homomorphic Encryption (FHE) Schemes</span>.
+              <span class="paper-venue">ESORICS 2016</span>, LNCS 9878.
+              <a href="papers/octonionAlgebraEsorics.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Y. Wang, Q. Malluhi, and K. Khan. <span class="paper-title">Garbled Computation in Cloud</span>.
+              <span class="paper-venue">Future Generation Computer Systems</span>, 62(C):54–65, 2016.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Area 6: Pseudorandomness & Statistical Testing -->
+        <div class="research-area" data-category="pseudo">
+          <h3 class="area-title"><span class="area-number">6</span> Pseudorandomness & Statistical Testing</h3>
+          <p style="font-size:0.9rem; color:var(--text-muted); margin-bottom:10px;">
+            Software suite: <a href="liltest.zip"><strong>LIL package (JAR)</strong></a> &bull; Documentation: <a href="liltest/"><strong>LIL Project Page</strong></a>.
+          </p>
+          <ul class="paper-list">
+            <li class="paper-item">
+              P. Li, X. Liu, X. Yi, and Yongge Wang. <span class="paper-title">Brownian Motion Properties of Random Bit Generators Based on Laser Chaos</span>.
+              <span class="paper-venue">Optics Express</span> 24(14):15822–15833, 2016.
+              <a href="papers/opticexpress16.pdf" class="badge">PDF</a>
+              <a href="http://dx.doi.org/10.1364/OE.24.015822" target="_blank" rel="noopener" class="badge">Publisher</a>
+            </li>
+            <li class="paper-item">
+              Yongge Wang. <span class="paper-title">On the Design of LIL Tests for (Pseudo) Random Generators and Some Experimental Results</span>.
+              <a href="papers/liltest.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Yongge Wang and Tony Nicol. <span class="paper-title">Statistical Properties of Pseudo Random Sequences and Experiments with PHP and Debian OpenSSL</span>.
+              <span class="paper-venue">Computers & Security</span>, 53:44–64, 2015 (ESORICS 2014 abstract).
+              <a href="papers/lilesorics.pdf" class="badge">PDF</a>
+              <a href="http://dx.doi.org/10.1016/j.cose.2015.05.005" target="_blank" rel="noopener" class="badge">Elsevier</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Area 7: LDPC & Erasure Codes -->
+        <div class="research-area" data-category="codes">
+          <h3 class="area-title"><span class="area-number">7</span> LDPC-Based Erasure Codes, Fountain Codes & Secret Sharing</h3>
+          <ul class="paper-list">
+            <li class="paper-item">
+              M. Paterson, Douglas R. Stinson, and Yongge Wang. <span class="paper-title">On Encoding Symbol Degrees of Array BP-XOR Codes</span>.
+              <span class="paper-venue">Cryptography and Communications</span>, 8(1):19–32, 2016.
+              <a href="papers/bpxorIT.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Yongge Wang. <span class="paper-title">Privacy-Preserving Data Storage in Cloud Using Array BP-XOR Codes</span>.
+              <span class="paper-venue">IEEE Transactions on Cloud Computing (TCC)</span>, 3(4):425–435, 2015.
+              <a href="papers/ecldpc.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Yongge Wang and Yvo Desmedt. <span class="paper-title">Efficient Secret Sharing Schemes Achieving Optimal Information Rate</span>.
+              <span class="paper-venue">IEEE ITW 2014</span>, pp. 516–520.
+              <a href="papers/sss.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Yongge Wang. <span class="paper-title">Array BP-XOR Codes for Reliable Cloud Storage Systems</span>.
+              <span class="paper-venue">Proc. IEEE ISIT 2013</span>, pp. 326–330.
+              <a href="papers/isit2013.pdf" class="badge">PDF</a>
+              <a href="papers/isit13Presentation.pdf" class="badge">Slides</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Area 8: Secure Authenticated Communications -->
+        <div class="research-area" data-category="comms">
+          <h3 class="area-title"><span class="area-number">8</span> Secure Authenticated Communications</h3>
+          <ul class="paper-list">
+            <li class="paper-item">
+              Y. Wang. <span class="paper-title">Efficient Identity-Based and Authenticated Key Agreement Protocol</span>.
+              <span class="paper-venue">Transactions on Computational Science XVII</span>, Springer LNCS 7420, pp. 172–197, 2013.
+              <a href="papers/idakj.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Z. Zhao, Z. Dong, and Y. Wang. <span class="paper-title">Security Analysis of a Password-Based Authentication Protocol Proposed to IEEE 1363</span>.
+              <span class="paper-venue">Theoretical Computer Science</span>, 352:280–287, 2006.
+              <a href="papers/TCSsrp5.pdf" class="badge">PDF</a>
+              <a href="http://dx.doi.org/10.1016/j.tcs.2005.11.038" target="_blank" rel="noopener" class="badge">Publisher</a>
+            </li>
+            <li class="paper-item">
+              Y. Wang. <span class="paper-title">Password Protected Smart Card and Memory Stick Authentication Against Off-line Dictionary Attacks</span>.
+              <span class="paper-venue">SEC 2012, IFIP AICT 376</span>, pp. 489–500, 2012.
+              <a href="papers/smartcard.pdf" class="badge">PDF</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Area 9: PSMT -->
+        <div class="research-area" data-category="psmt">
+          <h3 class="area-title"><span class="area-number">9</span> Perfectly Secure Message Transmission (PSMT)</h3>
+          <ul class="paper-list">
+            <li class="paper-item">
+              Y. Wang and Y. Desmedt. <span class="paper-title">Perfectly Secure Message Transmission Revisited</span>.
+              <span class="paper-venue">IEEE Transactions on Information Theory</span>, 54(6):2582–2595, 2008 (Eurocrypt 2002).
+              <a href="papers/ecrypt02.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Y. Wang and Y. Desmedt. <span class="paper-title">Secure Communication in Multicast Channels</span>.
+              <span class="paper-venue">Journal of Cryptology</span>, 14(2):121–135, 2001 (Eurocrypt 1999).
+              <a href="papers/JCRYPTO.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Y. Wang and Y. Desmedt. <span class="paper-title">Edge-Colored Graphs with Applications to Homogeneous Faults</span>.
+              <span class="paper-venue">Information Processing Letters</span>, 111:634–641, 2011.
+              <a href="papers/iplwangcolor.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Y. Desmedt, Y. Wang, and M. Burmester. <span class="paper-title">A Complete Characterization of Tolerable Adversary Structures for Secure Point-to-Point Transmissions</span>.
+              <span class="paper-venue">ISAAC 2005</span>, Springer LNCS 3827, pp. 277–287.
+              <a href="papers/isaac05.pdf" class="badge">PDF</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Area 10: Critical Infrastructure Protection -->
+        <div class="research-area" data-category="scada">
+          <h3 class="area-title"><span class="area-number">10</span> Critical Infrastructure Protection & SCADA Systems</h3>
+          <ul class="paper-list">
+            <li class="paper-item">
+              Yongge Wang. <span class="paper-title">Secure Communication and Authentication Against Off-line Dictionary Attacks in Smart Grid Systems</span>.
+              <span class="paper-venue">CyberICPS 2016</span>, Springer LNCS 10166, 2017.
+              <a href="papers/smartgridfull.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Yongge Wang. <span class="paper-title">Smart Grid, Automation, and SCADA Systems Security</span>.
+              <span class="paper-venue">Security and Privacy in Smart Grids</span>, CRC Press, 2013.
+              <a href="papers/ywangsmartgrid.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Y. Wang. <span class="paper-title">sSCADA: Securing SCADA Infrastructure Communications</span>.
+              <span class="paper-venue">Int. J. Communication Networks and Distributed Systems</span>, 6(1):59–78, 2011.
+              <a href="papers/scada.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Y. Desmedt and Y. Wang. <span class="paper-title">Analyzing Vulnerabilities of Critical Infrastructures Using Flows and Critical Vertices in AND/OR Graphs</span>.
+              <span class="paper-venue">Int. J. Foundations of Computer Science</span>, 15(1):107–125, 2004.
+              <a href="papers/ijfcs03.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Y. Wang. <span class="paper-title">Cryptographic Challenges in Smart Grid System Security</span>.
+              <span class="paper-venue">IEEE Smart Grid Newsletter</span>, Dec. 2012.
+              <a href="http://smartgrid.ieee.org/december-2012/732-cryptographic-challenges-in-smart-grid-system-security" target="_blank" rel="noopener" class="badge">IEEE</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Area 11: Algorithmic Information Theory & Complexity -->
+        <div class="research-area" data-category="ait">
+          <h3 class="area-title"><span class="area-number">11</span> Algorithmic Information Theory, Randomness & Complexity</h3>
+          <p style="font-size:0.9rem; color:var(--text-muted); margin-bottom:10px;">
+            Comprehensive portal: <a href="omega/"><strong>The Omega Randomness & AIT Portal</strong></a>.
+          </p>
+          <ul class="paper-list">
+            <li class="paper-item">
+              C. Calude, P. Hertling, B. Khoussainov, and Y. Wang. <span class="paper-title">Recursively Enumerable Reals and Chaitin's &Omega; Numbers</span>.
+              <span class="paper-venue">Theoretical Computer Science</span>, 255:125–149, 2001.
+              <a href="papers/TCS01.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Y. Wang. <span class="paper-title">Genericity, Randomness, and Polynomial Time Approximations</span>.
+              <span class="paper-venue">SIAM Journal on Computing</span>, 28(2):394–408, 1999.
+              <a href="papers/SIAM.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Y. Wang. <span class="paper-title">A Separation of Two Randomness Concepts</span>.
+              <span class="paper-venue">Information Processing Letters</span>, 69(3):115–118, 1999.
+              <a href="papers/IPL99.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Y. Wang. <span class="paper-title">Resource Bounded Randomness and Computational Complexity</span>.
+              <span class="paper-venue">Theoretical Computer Science</span>, 237(1-2):33–55, 2000.
+              <a href="papers/TCS00.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Y. Wang. <span class="paper-title">Randomness, Stochasticity, and Approximations</span>.
+              <span class="paper-venue">Theory of Computing Systems</span>, 32:517–529, 1999.
+              <a href="papers/TOCS99.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Y. Wang. <span class="paper-title">NP-Hard Sets Are Superterse Unless NP Is Small</span>.
+              <span class="paper-venue">Information Processing Letters</span>, 61(1):1–6, 1997.
+              <a href="papers/IPL97.pdf" class="badge">PDF</a>
+            </li>
+            <li class="paper-item">
+              Y. Wang. <span class="paper-title">Randomness and Complexity</span>. Ph.D. Dissertation, Heidelberg University, 1996.
+              <a href="papers/thesis.pdf" class="badge">PDF</a>
+            </li>
+          </ul>
+        </div>
+
+      </section>
+
+      <!-- Industry Standards Section -->
+      <section id="standards" class="content-card">
+        <div class="card-header">
+          <div>
+            <h2 class="card-title">Industry Cryptographic Standards</h2>
+            <div class="card-subtitle">International security specifications and standard protocols authored or contributed by Dr. Wang.</div>
+          </div>
+          <div>
+            <a href="industry.html" class="pill-btn" style="font-size:0.82rem;">Standards Overview &rarr;</a>
+          </div>
+        </div>
+        <ul class="paper-list">
+          <li class="paper-item">
+            <strong>Secure Remote Password Authentication Protocol (SRP5)</strong>. Standardized in <a href="1363.2-2008.pdf"><strong>IEEE 1363.2</strong></a> (<a href="papers/ecsrp.pdf" class="badge">SRP5 Paper</a>).
+            Implementations: <a href="https://github.com/mobilesec/secure-channel-srp-android-lib" target="_blank" rel="noopener">EC-SRP Android Library</a> and <a href="https://github.com/mobilesec/secure-channel-ec-srp-applet" target="_blank" rel="noopener">Java Card Applet</a> (by Michael Hölzl).
+          </li>
+          <li class="paper-item">
+            <strong>Identity-Based Authenticated Key Agreement Protocol (WANG-KE)</strong>. Standardized in <a href="13633-2013.pdf"><strong>IEEE 1363.3</strong></a> (<a href="papers/P1363IBKAS.pdf" class="badge">WANG-KE Paper</a>).
+          </li>
+          <li class="paper-item">
+            S. Blake-Wilson, G. Karlinger, T. Kobayashi, and Yongge Wang. <strong>ECDSA with XML-Signature Syntax</strong>. <a href="http://www.ietf.org/rfc/rfc4050" target="_blank" rel="noopener"><strong>IETF RFC 4050</strong></a>, 2005.
+          </li>
+        </ul>
+      </section>
+
+    </main>
+
+    <!-- Secondary Column: Sidebar Navigation & Portals -->
+    <aside>
+
+      <!-- Portals & Key Projects -->
+      <div class="sidebar-widget">
+        <h3 class="widget-title">Research Portals & Software</h3>
+        <ul class="widget-list">
+          <li>
+            <a href="omega/"><strong>The Omega (&Omega;) Portal</strong></a>
+            <span class="widget-desc">Effective Randomness, Chaitin's &Omega; Numbers, and 64-Scholar Directory.</span>
+          </li>
+          <li>
+            <a href="rlce/"><strong>RLCE Post-Quantum Scheme</strong></a>
+            <span class="widget-desc">NIST PQC Candidate, Specification & C implementations.</span>
+          </li>
+          <li>
+            <a href="https://github.com/hyperledger-labs/bdls" target="_blank" rel="noopener"><strong>Hyperledger Labs BDLS</strong></a>
+            <span class="widget-desc">BFT consensus protocol for distributed ledgers and blockchains.</span>
+          </li>
+          <li>
+            <a href="liltest/"><strong>LIL Randomness Test Suite</strong></a>
+            <span class="widget-desc">Statistical testing based on the Law of the Iterated Logarithm.</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Academic & Teaching Links -->
+      <div class="sidebar-widget">
+        <h3 class="widget-title">Academic & Teaching Resources</h3>
+        <ul class="widget-list">
+          <li>
+            <a href="teaching/"><strong>Teaching & Course Syllabi</strong></a>
+            <span class="widget-desc">Cybersecurity, Cryptography, Network Security courses.</span>
+          </li>
+          <li>
+            <a href="ClassProject/index.htm"><strong>Selected Student Projects</strong></a>
+            <span class="widget-desc">Course projects and undergraduate/graduate work.</span>
+          </li>
+          <li>
+            <a href="research/funding.html"><strong>Research Grants & Funding</strong></a>
+            <span class="widget-desc">NSF, DARPA, and industry-sponsored projects.</span>
+          </li>
+          <li>
+            <a href="j1.html"><strong>J-1 Visiting Scholars</strong></a>
+            <span class="widget-desc">International research visitors and scholars.</span>
+          </li>
+          <li>
+            <a href="erdos.html"><strong>Erdős Number: 2</strong></a>
+            <span class="widget-desc">Via Paul Erdős &rarr; Douglas R. Stinson &rarr; Yongge Wang.</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Contact & Office Widget -->
+      <div id="contact" class="sidebar-widget">
+        <h3 class="widget-title">Contact & Office</h3>
+        <div class="contact-card">
+          <p><strong>Dr. Yongge Wang</strong></p>
+          <p>Woodward Hall 330G</p>
+          <p><a href="http://www.sis.uncc.edu/" target="_blank" rel="noopener">Department of Cybersecurity</a></p>
+          <p><a href="http://cci.uncc.edu" target="_blank" rel="noopener">College of Computing and Informatics</a></p>
+          <p>University of North Carolina at Charlotte</p>
+          <p>9201 University City Blvd, Charlotte, NC 28223</p>
+          <p style="margin-top:8px;"><strong>Phone:</strong> (704) 687-8665<br><strong>Fax:</strong> (704) 687-4893</p>
+          <div style="margin-top:10px; padding-top:8px; border-top:1px solid #e2e8f0;">
+            <strong>Email:</strong><br>
+            <span style="font-family:monospace; font-size:0.88rem;">yongge.wang<img src="datasecurity/atmark.png" height="10" alt="@">gmail<img src="datasecurity/dot.png" height="10" alt=".">com</span>
           </div>
         </div>
       </div>
-    </div>
-    <div class="footer-bottom">
-      &copy; Yongge Wang. Hosted on <a href="https://yonggewang.github.io/">GitHub Pages</a>.
-    </div>
+
+    </aside>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; Yongge Wang, Ph.D. &bull; Department of Cybersecurity, UNC Charlotte. Hosted on <a href="https://yonggewang.github.io/">GitHub Pages</a>.</p>
   </footer>
 
 </div>
+
+<!-- Interactive Category Filtering & Search Script -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const searchInput = document.getElementById('paper-search');
+    const filterPills = document.querySelectorAll('.filter-pill');
+    const areas = document.querySelectorAll('.research-area');
+
+    let activeCategory = 'all';
+
+    function filterPapers() {
+      const query = searchInput ? searchInput.value.toLowerCase().trim() : '';
+
+      areas.forEach(area => {
+        const category = area.getAttribute('data-category');
+        const matchesCategory = (activeCategory === 'all' || category === activeCategory);
+
+        if (!matchesCategory) {
+          area.style.display = 'none';
+          return;
+        }
+
+        if (!query) {
+          area.style.display = '';
+          const items = area.querySelectorAll('.paper-item');
+          items.forEach(item => item.style.display = '');
+          return;
+        }
+
+        // Filter individual items within matched category
+        const items = area.querySelectorAll('.paper-item');
+        let hasVisibleItems = false;
+        items.forEach(item => {
+          const text = item.textContent.toLowerCase();
+          if (text.includes(query)) {
+            item.style.display = '';
+            hasVisibleItems = true;
+          } else {
+            item.style.display = 'none';
+          }
+        });
+
+        area.style.display = hasVisibleItems ? '' : 'none';
+      });
+    }
+
+    if (filterPills.length > 0) {
+      filterPills.forEach(pill => {
+        pill.addEventListener('click', function () {
+          filterPills.forEach(p => p.classList.remove('active'));
+          this.classList.add('active');
+          activeCategory = this.getAttribute('data-filter');
+          filterPapers();
+        });
+      });
+    }
+
+    if (searchInput) {
+      searchInput.addEventListener('input', filterPapers);
+    }
+  });
+</script>
 
 </body>
 </html>
