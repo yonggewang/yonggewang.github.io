@@ -1,0 +1,384 @@
+<HTML>
+<HEAD><TITLE>Yongge Wang - List of Papers</TITLE></HEAD>
+<BODY BACKGROUND="http://www.cs.uwm.edu/~wang/cgi-bin/counter/stat.cgi">
+
+
+<b> Yongge Wang's Papers </b>
+
+<P>
+
+<a href="#journals"> Journal Articles</a> | 
+<a href="#conferences"> Conference Articles</a> |
+<a href="#others"> Others</a> |
+<a href="#thesis"> Thesis</a>
+<p>
+
+<b><a name = "journals"> Journal Articles</a></b>
+
+<ol>
+
+<LI> Abuses of probabilistic encryption schemes.
+Electronics Letters,  34(8):753--754, 1998. 
+(<A HREF="papers/Elecletter.ps.gz">postscript</A>,
+39K). There is also a long version for this paper:
+Abuses of Ajtai-Dwork Cryptosystem 
+(<A HREF="papers/abusecryp.ps.gz">postscript</A>,80K)
+<P><b>[Abstract:]</b>
+Ajtai and Dwork \cite{ad97} have recently introduced a 
+probabilistic public-key encryption scheme
+which is secure under the assumption that a certain computational
+problem on lattices is hard on the worst-case. Their encryption method
+may cause decrytion errors, though  with small probability. 
+Goldreich, Goldwasser, and Halevi \cite{ggh97} later modified the 
+encryption method of Ajtai and Dwork and made
+Ajtai-Dwork cryptosystem error-free. In this paper, we 
+demonstrate how (improved) Ajtai-Dwork cryptosystem
+can be abused.
+Using this kind of abuses, users can communicate secrets in a key escrowed 
+Ajtai-Dwork cryptosystem without fearing that their 
+secrets will be revealed later
+by reconstructing their escrowed private-keys. 
+However, we will also show that users have to trust their implementers
+because unscrupulous implementers of Ajtai-Dwork cryptosystem 
+can leak their private-keys without their awareness.
+Using techniques by Desmedt \cite{desmedt88}, 
+we will show how one can make Ajtai-Dwork cryptosystem abuse-free.
+At the end of the paper, we will point out that our 
+abuses of Ajtai-Dwork cryptosystem can be applied to all 
+probabilistic cryptosystems, 
+for example, to cryptosystems by 
+McEliece \cite{mceliece} and by Goldreich, 
+Goldwasser, and Halevi \cite{ggh97sys}.
+
+<p>
+</LI> 
+
+
+<li>
+<a  href="TCS-rb-random.ps.gz"> Resource bounded randomness and computational
+    complexity</A>. To appear in: Theoretical Computer Science (1998?).
+
+<P><b>[Abstract:]</b> The following is a survey of resource bounded 
+randomness concepts 
+and their relations to each other. 
+Further, we introduce several new resource bounded 
+randomness concepts corresponding to the classical 
+randomness concepts, and show that the notion of 
+polynomial time 
+bounded Ko randomness is independent of the notions of 
+polynomial time bounded Lutz, Schnorr and Kurtz randomness. 
+Lutz has conjectured that, for a given time or space 
+bound, the corresponding
+resource bounded Lutz randomness is a proper refinement of 
+resource bounded Schnorr randomness. This 
+conjecture is answered for the case of polynomial time bound.
+Moreover, we will show that polynomial time
+bounded Schnorr randomness is a proper refinement 
+of polynomial time bounded Kurtz randomness.
+In contrast to this result, we show 
+that the notions of polynomial time bounded 
+Lutz, Schnorr and Kurtz randomness coincide in the case of 
+recursive sets,  thus it suffices
+to study the notion of resource bounded Lutz 
+randomness in the context of  complexity theory.
+The stochastic properties of resource bounded random
+sequences will be discussed in detail. 
+Schnorr has already shown that the law of large numbers holds 
+for $p$-random sequences. We will show that another 
+important law in probability theory, 
+the law of the iterated logarithm, holds for 
+$p$-random sequences too. 
+Hence almost all sets in the exponential time complexity 
+class are ``hard" from the viewpoint of statistics. 
+<p>
+
+<li> (With P.Hertling) 
+<a  href="invjucs.ps.gz">
+   Invariance Properties of Random Sequences, </A>
+   Journal of Universal Computer Science, 3(11):1241-1449, 1997.
+ 
+<P><b>[Abstract:]</b>
+We present invariance characterizations of different types of
+random sequences. We correct Schnorr's original, incorrect
+characterization of Martin-L{\"o}f random sequences, compare it with
+Schnorr's corresponding characterization of his own randomness
+concept, and give a similar, new chararacterization of
+Kurtz random sequences.
+That is, we show that an infinite sequence $\xi$ is Kurtz random if and only if
+for every partial,  computable, measure-invariant
+function $\Phi:\Sigma^\omega\rightarrow \Sigma^\omega$ the sequence
+$\Phi(\xi)$ is not recursive.
+
+<p>
+
+<li> 
+<a  href="SIAM.ps.gz">
+ Category, measure and polynomial
+    approximations</A>, SIAM Journal on Computing, 1998 (to appear).
+
+<P><b>[Abstract:]</b>
+Polynomial time safe and unsafe approximations 
+for intractable sets were introduced 
+by Meyer and Paterson \cite{meyer1} and Yesha \cite{yesha} respectively.
+The question of which sets have optimal safe and 
+unsafe approximations has been 
+investigated  extensively. Recently, Duris and Rolim  \cite{duris} and 
+Ambos-Spies \cite{ambos7}  showed that the existence of optimal 
+polynomial time approximations for the safe and unsafe cases is independent. 
+Using the law of the iterated logarithm for $p$-random sequences 
+(which has been recently proven in \cite{wang3}), we extend this
+observation by showing that 
+both the class of polynomial time $\Delta$-levelable sets and the class of
+sets which have optimal polynomial time unsafe 
+approximations have $p$-measure $0$.
+Hence typical sets in {\bf E} (in the sense of $p$-measure) 
+do not have optimal polynomial time unsafe approximations.
+We will also establish the relations between resource bounded genericity
+concepts and the polynomial time safe and unsafe approximation concepts.
+
+<p>
+
+<li>
+    <a  href="IPL-selective.ps.gz">
+     NP-hard sets are superterse unless NP is small.</A>
+Information Processing Letters 61(1):1-6, 1997. 
+    <P><b>[Abstract:]</b>
+In this paper, we show that the class {\bf P}-$mc(n)$ of polynomial time 
+$n$-membership comparable sets (defined by Ogihara \cite{ogihara})
+has $p$-measure $0$. Using this result, 
+we will show that the class of sets which 
+are $\le^p_{tt}$-reducible to some {\bf P}-selective set 
+has p-measure 0. Furthermore, we will show that 
+if {\bf NP} does not have $p$-measure $0$
+then no $\le^p_{tt}$-hard set for {\bf NP} is {\bf P}-approximable.
+
+<p>
+The following three papers are in chinese. I wrote them before
+I became a PhD student in Germany.
+<p>
+<li> (With G.Hu) 
+<a href="actor.tcx">The fundamental theory for object-oriented 
+languages</A>. (<a href="actor.ps.gz"> PS file </A>).
+ Journal of Computer Science, 
+20(4):1-6, 1993.
+
+ <P><b>[Abstract:]</b>
+We give a description of  the basic model, Actor Model, for 
+concurrent object-oriented 
+paradigm. By comparing it with other models of concurrency such as 
+CSP,  FP,  GHCL etc., we make a discussion of this model in the 
+following aspect: concurrent laws,  semantic systems and 
+characteristics of Actor languages, i.e.,  history-sensitive behavior,  
+joint  continuation,  delayed evaluation and inherent concurrency. 
+In the last part of the paper,  we discuss the reason why Actor 
+system can be regarded as the theoretical model for multicomputer system.
+
+<p>
+
+<li> 
+<a href="ruan-jian-petri.gb"> 
+The computing power of ordered Petri nets</A>.  
+(<a href="ruan-jian-petri.ps.gz"> PS file </A>)  Journal of Software,
+ 4(3):35-41, 1993.
+
+ <P><b>[Abstract:]</b>
+    Based on the parallel computation model Petri Net, we'll introduce 
+a kind of Ordered Petri Nets, whose computing power is much more stronger
+compared with Petri Net, by giving a partial order on the transition
+set of Petri Net, and define a parallel model of computing machine: 
+Ordered Petri Net Computing Machine. In the last section, it is proved 
+that this kind of machine can compute all the general recursive 
+functions, and so it can be regarded as the basic model of computing 
+machine.
+
+
+<p>
+<li> (With S.Xu) 
+<a href="ruan-jian-speed.gb"> Blum's speedup theorem and 
+the hierarchy of
+recursive functions</A>. (<a  href="ruan-jian-speed.ps.gz">
+PS file</A>)   Journal of Software, 4(4):38-43, 1993.
+
+ <P><b>[Abstract:]</b>
+In this paper, we'll introduce a kind 
+of $O(F)$-$LOOP$ operator,
+which will lead to a hierarchy of any recursive functions:
+$O(F)=\cup^\infty_{n=0}O(F)_n$. We've proved that this
+hierarchy corresponds to the speed-up theorem, 
+that is, given any 
+$r(x)\in O(F)_i$, there is a language having $O(F)_{i+1}$ 
+complexity which can be speeded up by $r(x)$, 
+and also there is a
+$r(x)$ in $O(F)_i$, so that any language having $O(F)_i$
+complexity cannot be speeded up by $r(x)$. 
+Through this, we can
+grasp the soul of Speed-up theorem in a more higher level.
+
+<p>
+</ol>
+
+
+<P>
+<b><a name = "conferences"> Conference Articles</a></b>
+
+<ol>
+
+<li> (With C.Calude, P.Hertling and B.Khoussainov)
+<a href="omega.ps.gz"> R.E. Reals and Chaitin's 
+\Omega Numbers.</a> In: Proc. 
+ 15th STACS, pages 596--606. Lecture Notes in Computer Science 1373,
+Springer Verlag, 
+1998.
+
+<P><b>[Abstract:]</b>
+A real $\alpha$ is called  recursively enumerable if it
+is the limit of a recursive, increasing, converging
+sequence of rationals.
+Following Solovay \cite{solovaymanu} and Chaitin \cite{chaitinait} we say
+that an r.e.~real $\alpha$ {\em dominates} an r.e.~real $\beta$ if
+from a good approximation
+of $\alpha$ from below one can compute a good approximation of $\beta$
+from below. We shall study this relation and
+characterize it in terms of relations between r.e.\ sets.
+Solovay's \cite{solovaymanu}
+$\Omega$-like numbers are the maximal r.e.~real numbers
+with respect to this order.
+They are random r.e.\ real numbers.
+The halting probability of a universal self-delimiting Turing machine
+(Chaitin's  $\Omega$ number, \cite{chaitin75})
+is also a random r.e.~real.
+Solovay showed that any Chaitin $\Omega$ number is $\Omega$-like.
+In this paper we show that the converse implication is true as well:
+any $\Omega$-like real in the unit interval is the halting probability of a
+universal self-delimiting Turing machine.
+
+
+<p>
+
+<li> 
+<a href="random97.ps"> Randomness, Stochasticity and Approximations.</A>
+In: Proc. of RANDOM'97 (Italy), pages 213--225.
+Lecture Notes in Computer Science 1269, Springer Verlag.
+<P><b>[Abstract:]</b>
+
+Polynomial time unsafe approximations for intractable 
+sets were introduced 
+by Meyer and Paterson \cite{meyer1} and Yesha \cite{yesha} respectively.
+The question of which sets have optimal unsafe 
+approximations has been 
+investigated  extensively, see, e.g., 
+\cite{ambos7,duris,wangthesis,wang5}. Recently, 
+Wang \cite{wangthesis,wang5} showed that polynomial time 
+random sets are neither optimally unsafe approximable 
+nor $\Delta$-levelable. In this paper, we will show that: 
+(1) There exists a polynomial time 
+stochastic set in ${\bf E}_2$ which has an optimal unsafe 
+approximation.
+(2) There exists a polynomial time stochastic set in ${\bf E}_2$ 
+which is $\Delta$-levelable. The above two results answer a question asked by
+Ambos-Spies and Lutz et al. \cite{amboslutz}: 
+What kind of natural complexity property
+can be characterized by $p$-randomness but not
+by $p$-stochasticity? Our above results also extend
+Ville's \cite{ville} historical result.
+The proof of our first result shows that, for Ville's stochastic sequence, 
+we can find an optimal betting strategy (prediction function)
+such that we will never lose our own money 
+(except the money we have earned), that is to say, if at the beginning
+we have only one dollar and we always bet one dollar that the next selected 
+bit is $1$, then we always have enough money to bet on 
+the next bit. Our second 
+result shows that there is a stochastic sequence
+for which there is a betting strategy such that we will never lose
+our own money (except the money we have earned), but 
+there is no such kind of optimal betting strategy. That is to say, for any 
+such kind of betting strategy, we can find another 
+betting strategy which could be used to make money more quickly.
+
+<p>
+<li> 
+<a href="96-structure.ps.gz"> 
+ The Law of the Iterated Logarithm for p-Random Sequences</A>.
+In: Proc.
+11th Conference on Computational Complexity 
+(formerly: Conference on 
+Structure 
+in Complexity Theory), pages 180-189. IEEE Computer Society Press, 1996. 
+<P><b>[Abstract:]</b> The extended version of this paper
+will appear in <b>Theoretical Computer Science</b>.
+
+
+<p>
+<li> (With K. Ambos-Spies, E. Mayordomo and X. Zheng)
+<a href="STACS-am.ps.gz">
+Resource bounded balanced genericity, stochasticity and weak 
+ randomness</A>. In: Proc. 
+ 13rd STACS, pages 63-74. Lecture Notes in Computer Science 1046, 1996.
+<P><b>[Abstract:]</b>
+We introduce balanced $t(n)$-genericity which is a 
+refinement of the genericity 
+concept of Ambos-Spies, Fleischhack and Huwig \cite{afhcsl} 
+and which in addition controls the frequency with which a condition is met. 
+We show that this concept coincides with the resource-bounded version of 
+Church's stochasticity \cite{church}. By uniformly describing these concepts 
+and weaker notions of stochasticity introduced by Wilber \cite{wilber} and 
+Ko \cite{ko1} in terms of prediction functions, we clarify the relations 
+among these resource-bounded stochasticity concepts. Moreover, 
+we give descriptions of these concepts in the framework of Lutz's 
+resource-bounded measure theory \cite{lutz1} based on martingales: We show 
+that $t(n)$-stochasticity coincides with a weak notion of $t(n)$-randomness 
+based on so-called simple martingales but that it is strictly weaker 
+than $t(n)$-randomness in the sense of Lutz.
+
+
+<p>
+<li> (With W. Merkle)
+Separations by random oracles and almost-classes
+   for generalized reducibilities. Proceedings of 20th MFCS, 
+   Lecture  Notes in Computer Science 969, pages 179-190, 1995. 
+  
+
+<li> (With G.Hu) 
+<a href="mmcm2usmmcm.tex">
+  An algorithm and its data structure from sequential 
+    US MMCM to parallel machine.</A> 
+   In: Computer Mathematics, pages 58-65,
+    World Sci. Publishing, River Edge, NJ, 1993 (MR: 94m:68041).
+    Here is the 
+   <a href="mmcm2usmmcm.lsp"> software </A> 
+ to implement the algorithm.
+<P><b>[Abstract:]</b>
+In paper [1],   Hu Guoding gave a general definition of  
+computing machine model
+$MMCM$,   and in $[2]$,  Hu proved that one kind of this machine,   
+called $US\ MMCM$,
+can be implemented parallely. In this paper,   we will give 
+an algorithm to
+carry out this transformation from sequential $US \ MMCM$ to parallel $US\ 
+MMCM$,   and
+also we will describe the software TR.LSP of this transformation 
+on micro-computer PC/AT.
+<p>
+	 
+</ol>
+ 
+<P>
+<b><a name = "others"> Others </a></b>
+
+<ol>
+
+<li> 
+The algebraic structure of the p-1-1 degrees of the tally 
+polynomial time sets. Heidelberg, 1994. 
+
+<li> A note on pseudorandom generators. 1997.
+
+  </ol>
+
+   
+<b><a name = "thesis"> Thesis </a></b>
+
+<P>
+<a href="thesis.ps.gz"> Randomness and Complexity</A>. 1996. 
+
+</HTML>

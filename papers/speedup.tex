@@ -1,0 +1,767 @@
+\documentstyle[11pt]{article}
+\setlength{\textheight}{8.8in}
+\setlength{\columnsep}{2.0pc}
+\setlength{\textwidth}{6.8in}
+\setlength{\footheight}{0.0in}
+\setlength{\topmargin}{0.25in}
+\setlength{\headheight}{0.0in}
+\setlength{\headsep}{0.0in}
+\setlength{\oddsidemargin}{-.19in}
+\setlength{\parindent}{1pc}
+
+\title{An Hierarchy Description of the Blum's Complexity
+of Languages}
+\author{Wang Yongge\\
+Nankai Institute of Mathematics\\
+Nankai University\\
+300071, Tianjin, P.R.China
+}
+\date{ }
+\begin{document}
+\date{}
+\maketitle
+\begin{abstract}
+In this paper, we'll introduce a kind 
+of $O(F)$-$LOOP$ operator,
+which will lead to a hierarchy of any recursive functions:
+$O(F)=\cup^\infty_{n=0}O(F)_n$. We've proved that this
+hierarchy corresponds to the speed-up theorem, 
+that is, given any 
+$r(x)\in O(F)_i$, there is a language having $O(F)_{i+1}$ 
+complexity which can be speeded up by $r(x)$, 
+and also there is a
+$r(x)$ in $O(F)_i$, so that any language having $O(F)_i$
+complexity cannot be speeded up by $r(x)$. 
+Through this, we can
+grasp the soul of Speed-up theorem in a more higher level.
+\end{abstract}
+
+\section{Introduction}
+
+In paper [6], Grzegorczyk gives a 
+method to get the hierarchy
+of the primitive recursive functions, and in [4], there are
+many other methods to get the hierarchy of the primitive 
+recursive functions. It has turned out that all 
+these methods are 
+equivalent. But it still remains a big question 
+that how we can 
+generalize these methods to the functions beyond 
+the primitive 
+recursive functions. In this paper, we'll introduce 
+a kind of 
+$O(F)$-$LOOP$ operator, which is a generalization 
+of the methods
+mentioned above and by which we can get a 
+hierarchy of any set of 
+recursive functions. The Grzegorczyk's
+hierarchy and the hierarchy derived from the 
+$O(F)$-$LOOP$ operator
+have very good property, i.e. they correspond to 
+the Speed-up 
+theorem, from this the abstract Speed-up hierarchy 
+can be defined as follows:
+Given ${\cal F}=\cup^\infty_{n=0}{\cal F}_n$, if it 
+satisfies some 
+certain conditions, then the the sequence: ${\cal F}_1,{\cal F}_2,
+\cdots$ is called a Speed-up hierarchy of 
+${\cal F}$. At the end of this paper,
+the following theorem is proved: for any 
+$r(x)\in{\cal F}_i$,
+there exists a language having ${\cal F}_{i+1}$ 
+complexity, which 
+can be speeded up by $r(x)$; and there exists 
+another $r(x)\in{\cal F}_i$, such that any language having ${\cal F}_i$ 
+complexity cannot 
+be speeded up by $r(x)$. Because of this theorem, 
+we can
+understand the Speed-up theorem in a new sense, 
+Speed-up theorem describes a
+hierarchic speed-up phenomenon: for any speed-up 
+factor $r(x)$, the language
+$L$ that can be speeded up by $r(x)$ has at 
+least one-level higher
+complexity than $r(x)$, and the new algorithm 
+got from the speed-up
+still has the complexity of the same level as the old
+algorithm, so we can really say that $r(x)$ does 
+not speed up the
+algorithm in essential. For example, the language 
+that can be 
+speeded up by polynomial has exponential(or higher) 
+complexity and
+the new algorithm got from the speed-up still has 
+exponential
+complexity.
+
+\section{Program Language $O(F)$-$LOOP$}
+
+Study in the following sections is based on 
+a kind of $O(F)$-$LOOP$
+language, so we first give the description 
+of the language. In 
+this language, some alphabets are used to 
+denote variables.
+Especially, let
+$$X_1,X_2,\cdots\ \mbox{ and }\ Y$$
+denote input and output variables, respectively; and let
+$$Z_1,Z_2,\cdots$$
+denote local variables.
+
+The language $O(F)$-$LOOP$ has the following six types of
+instructions:
+
+
+1. $V\gets 0$ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ zero,
+
+2. $V\gets V+1$ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ increment,
+
+3. $V\gets V'$ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ assignment,
+
+4. $LOOP \ V$ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ loop,
+
+5. $END$ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ end,
+
+6. $V\gets 0(f(V_1,\cdots,V_n))$ \ \ \ \ \ \ \ oracle;
+
+\noindent
+where $f\in F$ is a finite set of functions and
+$V,V',V_1,\cdots,V_n$ are any variables.
+
+Definition 1.1. $F$ is a given set of functions, a function
+$g(x_1,\cdots,x_n)$ can be computed by a $O(F)$-$LOOP$ program $P$
+iff for any input $X_1=c_1,X_2=c_2,\cdots,X_n=c_n$, the output 
+$Y$ of an execution of $P$ is $g(c_1,\cdots,c_n)$.
+
+Example: Given program $P$
+
+$$\begin{array}{ll}
+Z_1\longleftarrow X_1+1\\
+Z_2\longleftarrow Z_1+1\\
+\ \ \ LOOP\ \ Z_2\\
+Z_2\longleftarrow Z_2+1\\
+\ \ \ \mbox{END}\\
+Z_3\longleftarrow O(f(Z_2))\\
+Y\longleftarrow Z_3\end{array}$$
+where $f(x)\in F$.
+
+For input $x_1=1,x_2=2$, when $P$ runs to the third instruction
+$LOOP\ \  Z_2$, the value of $Z_2$ is 3, so the loop body composed of
+the third, fourth and fifth instructions should be executed 3 times. When
+we are through with the execution of $P$, it will output 
+$y=f(6)$. In fact, this program can compute the function
+$y=f(2x_1+4)$.
+
+Renmark: the fourth instruction in loop body will change the
+value of $Z_2$, but this will not affect the number of loop 
+iterations in the computation any more.
+
+Definition 1.2. $O(F)$-$LOOP_n$ is the class of $O(F)$-$LOOP$
+programs with $LOOP$---$END$ pairs nested to a depth of at most $n$.
+$O(F)_n$ is the class of functions computable by programs in
+$O(F)$-$LOOP_n$ and $O(F)$ is the class of functions computable by
+$O(F)$-$LOOP$ programs.
+
+Obviously, $\cup^\infty_{n=0}O(F)$-$LOOP_n$ is the class of all
+$O(F)$-$LOOP$ programs and $O(F)=\cup^\infty_{n=0}O(F)_n$.
+\vfill\pagebreak
+
+\section{$E$-Ackermann Function}
+
+For the reason of convenience, in the following sections, we
+assume that: $F=\{f_1,\cdots,f_m\}$ is the set of 
+functions that
+satisfies the following properties (1) to (3)
+
+(1). $f_i(x_1,\cdots,x_t)$ is a total function, 
+$1\le i\le m$;
+
+(2). $f_1(x)=x+2, f_2(x,y)=\max\{x,y\}$;
+
+(3). for any component $x_i, f_j(x_1,\cdots,x_n)$ is
+a nondecreasing function of $x_i$, $1\le i\le n, 2\le j\le m$.
+
+
+Definition 2.1. the $E$-Ackermann function 
+$A_F(m,n)$ based on 
+$F$ is defined as follows:
+$$\begin{array}{l}
+A_F(0,0)=1,\\
+A_F(0,1)=2,\\
+A_F(0,n)=\max\{f_1(n),f_2(n,n),\cdots,f_m(n,\cdots,n)\}\ \ (n\ge 3),\\
+A_F(m+1,n+1)=A_F(m,A(m+1,n));\end{array}$$
+and the functions in sequence $\{u_n(x)|u_n(x)=A_F(n,x)\}$ are called
+the hierarchy functions derived from $A_F(m,n)$.
+
+
+We can easily show
+$$\begin{array}{l} 
+u_0(0)=1,\ \ u_0(1)=2,\\
+u_0(x)=\max\{x+2,x,f_3(x,\cdots,x),f_m(x,\cdots,x)\}\ \ (x\ge 3);\\
+u_{n+1}(x)=u^{(x)}_n(1)\end{array}$$
+where $u^{(x)}_n(1)$ stands for $\underbrace{u_n\cdots u_n}_{x\
+\mbox{ times }}(1)$.
+
+Now we give some properties of $\{u_n(x)\}$ that will be used in 
+the following sections.
+
+Proposition 2.1. $u_{n+1}(x+1)=u_n(u_{n+1}(x))$.
+
+Proposition 2.2. $u^{(k)}_0(x)\ge k$.
+
+Proposition 2.3. $u_n(x)>x$.
+
+Proposition 2.4. $u_n(x+1)>u_n(x)$.
+
+Proposition 2.5. $u_{n+1}(x)\ge u_n(x)$.
+
+Proposition 2.6. $u^{(k+1)}_n(x)>u^{(k)}_n(x)$.
+
+Proposition 2.7. $u^{(k+1)}_n(x)\ge 2\cdot u^{(k)}_n(x),\ \ (n\ge 
+1)$.
+
+Proposition 2.8. $u^{(k+1)}_n(x)\ge u^{(k)}_n(x)+x$.
+
+Proposition 2.9. $u^{(k)}_1(x)\ge 2^k\cdot x$.
+
+The proofs of all the Propositions mentioned above are completely
+like that of Ackermann function's properties, the reader is
+refered to [1].
+
+Proposition 2.10. For any $n,k,u_{n+1}(x)>u^{(k)}_n(x)$ a.e..
+
+{\it Proof}. For $n=0$, we have
+$$u_0(x)>x+2,\ \ u_1(m)=u^{(m)}_0(1)\ge 1+2m,$$
+so for any $k$, when $x>2k-1$,
+$$u^{(x-k)}_0(1)\ge 1+2(x-k)=1+2x-2k>x$$
+i.e. for $x>2k-1$
+$$u_1(x)=u^{(k)}_0(u^{(x-k)}_0(1))>u^{(k)}_0(x)$$
+
+For $n\ne 0$, we proceed by induction on $k$.
+For $k=0$, we have
+using Proposition 2.3,
+$$u_{n+1}(x)>x=u^{(0)}_n(x)$$
+
+Suppose that $u_{n+1}(x)>u^{(k)}_n(x)$ a.e., then
+$$\begin{array}{ll}  
+&u^{(k+1)}_n(x)<u^{(k+1)}_n(2x-4)\ \ a.e.\\
+\le &u^{(k+1)}_n(u_1(x-2))\ \ \ \ \ \ \mbox{ (Proposition 2.9)}\\
+\le &u^{(k+1)}_n(u_n(x-2))\\
+= &u^{(2)}_n(u^{(k)}_n(x-2))\\
+\le &u^{(2)}_n(u_{n+1}(x-2))\ \ \ \ a.e.\\
+=&u^{(2)}_n(u^{(x-2)}_n(1))\\
+=&u_{n+1}(x)\end{array}$$
+
+
+Proposition 2.11. $u_n(x)>x^2$ a.e. when $n>2$.
+
+{\it Proof}. $$\begin{array}{l}  
+u_1(x)\ge 2x,\\
+u_2(x)\ge 2^x>x^2\ \mbox{ a.e.},\\
+u_n(x)>u_2(x)>x^2\ \mbox{ a.e.}\ (n>2).\end{array}$$
+
+\section{$O(F)$-$LOOP$\ \ Functions}
+
+Definition 3.1. If $P$ is a $O(F)$-$LOOP$ program with input
+variables $X_1,X_2,\cdots$, $X_n$, then the time, space and time-space
+complexity of $P$ are defined as follows:
+$T_P(x_1,\cdots,x_n)$ is the time complexity of $P$ defined as 
+the total number of executions of zero, increment, assignment and 
+oracle statements in the given computation. $S_P(x_1,\cdots,x_n)$ 
+is the space complexity of $P$ defined as the maximal value of  
+all the input variables, local variables and output variable in 
+the given computation. And 
+$ST_P(x_1,\cdots,x_n)=\max\{S_P(x_1,\cdots,x_n),T_P(x_1,\cdots,x_n)\}$ 
+is the time-space complexity of $P$.
+
+
+Theorem 3.1. If $P\in O(F)$-$LOOP_n$ then $ST_P(x_1,\cdots,x_n)\in
+O(F)_n$.
+
+{\it Proof}. To compute $ST_P$ for a given program $P$, we simply
+modify $P$ by inserting counters $T$ and $S$, where $T$ is 
+incremented each time a zero, increment, assignment or an oracle 
+statement is executed in $P$, and $S$ is incremented according to 
+the value of variables in the execution of $P$. This is 
+accomplished by placing instructions ``$T\gets T+1$'' and 
+``$S\gets O(\max(S,V))$'' immediately after each zero, increment, 
+assignment and oracle statement in $P$, where $V$ is the variable 
+whose value is changed in the statement after which ``$S\gets 
+O(\max(S,V))$'' is inserted. Lastly, place an instruction 
+``$Y\gets O(\max(T,S))$'' at the end of $P$. Thus, at the end of 
+the computation, $S$, $T$ and $Y$ contains the value of $S_P,T_P$
+and $ST_P$. This modified program obviously has  the same depth 
+of nesting as $P$.
+
+
+
+Theorem 3.2. If $P\in O(F)$-$LOOP_n$, then there is a $k$ such that
+$$ST_P(x_1,\cdots,x_m)\le u^{(k)}_n(\max(x_1,\cdots,x_m)).$$
+
+{\it Proof}. Let $v$ denote $\max(x_1,\cdots,x_m)$.
+By induction on $n$. For $n=0$, there are no loops in $P$,
+suppose that there are $k$ statements in $P$, so
+$$ST_P(x_1,\cdots,x_m)\le u^{(k)}_{n-1}(v)\le u^{(k)}_n(v)$$
+where we have used Proposition 2.3.
+
+Now assume that the result is known for $n-1$ and let 
+$P\in O(F)$-$LOOP_n$, we consider three cases:
+
+{\it Case} 1. $P\in O(F)$-$LOOP_{n-1}$, using Proposition 2.6. and
+induction hypothesis.
+$$ST_P(x_1,\cdots,x_m)\le u^{(k)}_{n-1}(v)\le u^{(k)}_n(v)$$
+
+{\it Case} 2. $P$ has the form
+$$LOOP\ \ V$$
+$$Q$$
+$$END\ \ \ \ \ \ $$
+where $Q\in O(F)$-$LOOP_{n-1}$. By induction hypothesis, there is a
+$k$ such that
+$$S_Q(x_1,\cdots,x_m)\le ST_Q(x_1,\cdots,x_m)\le u^{(k)}_{n-
+1}(v)$$
+$$T_Q(x_1,\cdots,x_m)\le ST_Q(x_1,\cdots,x_m)\le u^{(k)}_{n-
+1}(v)$$
+
+Hence the possible maximal value of all variables after the first 
+running of loop body $Q$ is
+$$u^{(k)}_{n-1}(v)$$
+and after the second running of loop body $Q$, the possible 
+maximal value of all variables is
+$$u^{(2k)}_{n-1}(v)$$
+proceeding in the same way, we have
+$$\begin{array}{l}  
+S_P(x_1,\cdots,x_m)\\
+\le u^{(v\cdot k)}_{n-1}(v)\\
+\le u^{(vk+1)}_{n-1}(v)\\
+\le u^{(v\cdot(k+1))}_{n-1}(1)\\
+\le u^{(v\cdot 2^{k+1})}_{n-1}(1)\\
+\le u^{(u^{(k+1)}_n(v))}_{n-1}(1)\\
+\le u^{(u^{(k+1)}(v))}_{n-1}(1)\\
+=u_n(u^{(k+1)}_n(v))\\
+=u^{(k+2)}_n(v),\end{array}$$
+using Proposition 2.8. repeatedly, we have
+$$\begin{array}{l}  
+T_P(x_1,\cdots,x_m)\\
+\le u^{(k)}_{n-1}(v)+u^{(2k)}_{n-1}(v)+\cdots+u^{(v\cdot k)}_{n-
+1}(v)\\
+\le u^{(k+1+k)}_{n-1}(v)+u^{(3k)}_{n-1}(v)+\cdots+u^{(v\cdot 
+k)}_{n-1}(v)\\
+\cdots\cdots\\
+\le u^{(vk+1)}_{n-1}(v)\\
+\cdots\cdots\\
+\le u^{(k+2)}_n(v).\end{array}$$
+hence
+$$ST_P(x_1,\cdots,x_m)\le u^{(k+2)}_n(v)$$
+
+{\it Case} 3. For the general case, $P$ has the form
+$$\begin{array}{l} 
+\ \ Q_0\\
+LOOP\ \ V_1\\
+\ \ P_1\\
+END\\
+\ \ \cdots\\
+LOOP\ \ V_r\\
+\ \ P_r\\
+END\\
+\ \ Q_r\end{array}$$
+where $P_i,Q_i\in O(F)$-$LOOP_{n-1}$.
+
+
+Using Proposition 2.8. repeatedly, we have
+$$\begin{array}{l}  
+ST_P(x_1,\cdots,x_m)\\
+\le 
+u^{(k_1)}_n(v)+u^{(k_2)}_n(u^{(k_1)}_n(v))+\cdots+u^{(k_s)}_n(u^{(k_{s-1})}_n
+(\cdots u^{(k_1)}_n(v)\cdots))\\
+\le\cdots\le u^{(k_s+\cdots+k_1+s-1)}_n(v)\end{array}$$
+
+Now the induction step has been finished.
+
+Corollary. If $g\in O(F)_n$, then there is a number $k$ such that 
+$$g(x_1,\cdots,x_n)\le u^{(k)}_n(\max(x_1,\cdots,x_n))$$
+
+Theorem 3.3. $u_0(x)\in O(F)_0, u_{n+1}(x)\in O(F)_{n+1}\setminus O(F)_n, (n\ge 0).$
+
+{\it Proof}. Firstly we show that $u_{n+1}(x)\in O(F)_{n+1}$.
+
+By induction on $n$. For $n=0$, the result is obvious.
+
+If $u_n(x)\in O(F)_n$, i.e. there exists a $Q\in O(F)$-$LOOP_n$
+which can compute $u_n(x)$, then because of 
+$u_{n+1}(x)=u^{(x)}_n(1)$, the following program $P$ can compute 
+$u_{n+1}(x)$
+$$\begin{array}{l}  
+Z_1\longleftarrow X_1\\
+X_1\longleftarrow 1\\
+LOOP\ \ Z_1\\
+\ \ Q\\
+X_1\longleftarrow Y\\
+END\end{array}$$
+of course, $P\in O(F)$-$LOOP_{n+1}$ and hence
+$u_{n+1}(x)\in O(F)$-$LOOP_{n+1}$.
+
+Now, we show $u_{n+1}(x)\notin O(F)_n$. 
+
+If $u_{n+1}(x)\in O(F)_n$, then there is a $k$ such that
+$$u_{n+1}(x)\le u^{(k)}_n(x)$$
+but
+$$u^{(k)}_n(x)<u_{n+1}(x)\ \ a.e.$$
+hence
+$$u_{n+1}(x)<u_{n+1}(x)\ \ a.e.$$
+a contradiction. So we have proved that $u_{n+1}(x)\notin 
+O(F)_n$.
+
+Theorem 3.4. If $P$ is an $O(F)$-$LOOP$ program that can compute
+$g(x_1,\cdots,x_m)$ and for some $n\ge 2$, there is a $k$ such 
+that
+$$ST_P(x_1,\cdots,x_m)\le u^{(k)}_n(\max(x_1,\cdots,x_m)),$$
+then $g\in O(F)_n$.
+
+The proof is completely like that of the same result for the
+$LOOP$ program in [1]. For details, the reader is refered to [1].
+
+\section{Speed-up Hierarchy and the Speed-up Theorem}
+
+In the rest of this paper, if not stated apparently we will use
+$S_i(x)$ to denote the space complexity of Turing machine $M_i$,
+and all the results is proved only for space complexity, but we
+can easily modify these results to any Blum complexity, especially
+to time complexity. for example, the lemma4.1, theorems4.1 and 4.2
+are also true to Blum complexity.
+ 
+Definition 4.1. An off-line $TM$ (i.e. Turing Machine) $M$ is a 
+multitape $TM$ who has one read-only tape with endmarks and $k$ 
+semi-infinite storage tapes. If for every input word of length 
+$n$, $M$ scans at most $S(n)$ cells on any storage tape, then $M$ 
+is said to be an $S(n)$ space-bounded Turing Machine, or of space 
+complexity $S(n)$. The language recognized by $M$ is also said to 
+be of space complexity $S(n)$.
+
+Definition 4.2. A function $S(n)$ is said to be space 
+constructible if there is some $TM$ $M$ which is $S(n)$ space
+bounded and for each $n$, there is some input of length $n$ on 
+which $M$ actually uses $S(n)$ tape cells, and especially, if for 
+all $n$, $M$ in fact uses exactly $S(n)$ cells on any input of 
+length $n$, then we say $S(n)$ is fully space constructible.
+
+Proposition 4.1. For any totally defined recursive function 
+$f(x)$, there is a function $g(x)\ge f(x)$ such that $g(x)$ is
+space constructible.
+
+Proposition 4.2. $\log n, n^k,2^n$ and $n!$ are all space 
+constructible.
+
+Proposition 4.3. If $S_1(n)$ and $S_2(n)$ are space 
+constructible, then $S_1(n)\cdot 
+S_2(n)$, $2^{S_1(n)}$, $S_1(n)^{S_2(n)}$ and $f(n)=S_1^{(n)}(1)$ are
+all space constructible.
+
+Proposition 4.4. If $S(n)\ge n$ is space constructible, then 
+$S(n)$ is also fully space constructible.
+
+The proofs of all these Propositions mentioned above are refered 
+to [2].
+
+Definition 4.3. The function set sequence ${\cal F}_0,{\cal F}_1,
+\cdots$ is said to be a Speed-up hierarchy of function set
+${\cal F}$, if it satisfies the following properties (1) to (4)
+
+(1). ${\cal F}=\cup^\infty_{n=0}{\cal F}_n$,
+
+(2). ${\cal F}_0\subset{\cal F}_1\subset\cdots$,
+
+(3). there is a fully space constructible function $u_0(x)$ such
+that for any $k$, $u^{(k)}_0(x)\in{\cal F}_0$, $u^{(k)}_n(x)
+F_n\setminus{\cal F}_{n-1}$, where $u_n(x)=u^{(x)}_{n-1}(1)$. And 
+$\{u_n(x)\}$ are called the hierarchy functions of this Speed-up
+hierarchy,
+
+(4). for any $f(x)\in{\cal F}_n$, there is a $k$ such that
+$$f(x)\le u^{(k)}_n(x)$$
+
+Example 4.1. The Grzegorczyk hierarchy of the primitive recursive 
+functions is a Speed-up hierarchy and the hierarchy functions are 
+the functions derived from Ackermann function, i.e. $\{u_n(x)|u_n(x)=A(n,x)\}$.
+
+Example 4.2. Choose a proper function set $F$ in \S2 such that
+$$u_0(x)=\max\{f_1(x),f_2(x,x),\cdots,f_m(x,\cdots,x)\}$$
+is fully space constructible, then $\{O(F)_n|n=0,1,\cdots\}$ is a 
+Speed-up hierarchy of $O(F)$.
+
+Definition 4.4. If $r(x)$ is a totally defined recursive 
+function, $L$ is a language on $\sum=\{0,1\}$, then we say that 
+$L$ can be speeded up by $r(x)$, if and only if for any $TM$ 
+$M_i$ that accepts $L$, there is another $TM$ $M_j$ accepting $L$
+such that
+$$r(S_j(x))\le S_i(x)$$
+where $S_i(x), S_j(x)$ are the space complexity of $M_i$ and 
+$M_j$, respectively.
+
+Definition 4.5. We say that language $L$ has ${\cal F}$ complexity 
+if there are an $TM$ $M_i$ accepting $L$ and a function 
+$f(x)\in{\cal F}$, such that
+$$S_i(x)\le f(x)$$
+
+Lemma 4.1. Suppose that $\{u_n(x)\}$ are the hierarchy functions of
+some Speed-up hierarchy of ${\cal F}$; for some given $m$, if
+$u_m(x)\ge x^2$ a.e., then there is a language $L$ that satisfies 
+the following properties (1) to (2).
+
+(1). if $M_i$ accepts $L$, then $S_i(x)>u_{m+1}(x-i)$ a.e.,
+
+
+
+(2). for any $k$, there is a $TM$ $M_j$ accepting $L$ such that
+for any $x\ge k$
+$$S_j(x)\le u_{m+1}(x-k).$$
+
+{\it Proof}. See \S5. Appendix.
+
+Theorem 4.1. If ${\cal F}=\cup^\infty_{n=0}{\cal F}_n$ is a Speed-up 
+hierarchy of ${\cal F}$, $\{u_n(x)\}$ are the hierarchy functions
+and $u_m(x)\ge x^2$ a.e. for some given $m$, then
+
+(1). there is an $r(x)\in{\cal F}_m$ such that for any nontrivial
+language $L$ (i.e. having at least linear complexity) having 
+${\cal F}_m$ complexity, $L$ cannot be speeded up by $r(x)$.
+
+
+(2). for any nondecreasing function $r(x)\in{\cal F}_m$, there is a
+language $L$ having ${\cal F}_{m+1}$ complexity such that $L$ can
+be speeded up by $r(x)$.
+
+
+
+Before proving this theorem, we firstly give some remarks on this 
+theorem. Result (1) of this theorem says that Speed-up theorem is 
+a hierarchic speed-up: for any speed-up factor $r(x)$, the language
+that can be speeded up by $r(x)$ has at least ${\cal F}_{m+1}$ 
+complexity, i.e. $L$ has one level higher complexity than $r(x)$.
+Result (2) is exactly the Speed-up theorem. Generally speaking, 
+results (1) and (2) show that for any $r(x)\in{\cal F}_{m-1}$,
+there is a language $L$ having ${\cal F}_m$ complexity which can be
+speeded up by $r(x)$. In fact, this speed-up is not a
+``real'' speed-up to $L$, becuase the new algorithm obtained from
+the speed-up does not have ${\cal F}_{m-1}$ or even lower complexity, but still 
+has the ${\cal F}_m$
+complexity, i.e. speed-up cannot pull down the complexity in
+quantity level. Intuitively, we can say that for any speed-up 
+factor $r(x)$, there is a language $L$ whose complexity $S_i(x)$ 
+is so high that $r(S_i(x))$ and $S_i(x)$ have the same 
+quantitative level of complexity. So it seems that Speed-up 
+theorem has not much ``actual'' meaning. For example,useing Grzegorczyk
+hierarchy, we can easily show: when $r(x)$ is a polynomial, then
+there is a language having exponential complexity that can be speeded
+up by $r(x)$, and really the language that can be speeded up
+by $r(x)$ has at least exponential complexity and the new
+algorithm obtained from the speed-up still
+has exponential complexity. Meanwhile, we expect that this 
+theorem will be a help to the last solution of $P=?NP$ problem. For
+if we can find an $NP$-complete problem which can be speeded up
+by a polynomial, then we can assert that $P\ne NP$! The reason
+for this is that from the analysis mentioned above we find out that
+the language that can be speeded up by a polynomial has no 
+algorithm of polynomial complexity(attention: here we have only used
+the time complexity and the Grzegorczyk hierarchy).
+
+{\it Proof of theorem} 4.1
+
+
+(1). Let $r(x)=u_m(x)$, then for any nontrivial language $L$ having
+${\cal F}_m$ complexity, there are an $r_m(x)\in{\cal F}_m$ and
+an $TM$ $M_i$, such that $M_i$ accepts $L$ and $S_i(x)\le 
+r_m(x)$. $r_m(x)\in{\cal F}_m$ shows that there is a number $k$ so 
+that $r_m(x)\le u^{(k)}_m(x)$. If $L$ can be speeded up $r(x)$, 
+then there is another $TM$ $M_j$ accepting $L$ and 
+$r^{(k+1)}(S_j(x))\le S_i(x)\le u^{(k)}_m(x)$, but $S_j(x)\ge x$, 
+so $u^{(k+1)}_m(x)\le u^{(k)}_m(x)$, which is a contradiction to 
+Proposition 2.6.. Now we've proved that $L$ cannot be speeded up
+by $r(x)$.
+
+(2). Proposition 4.1. shows that there is a language $L$ that
+satisfies the following properties:
+
+$<$a$>$. If $M_i$ accepts $L$, then $S_i(x)>u_{m+1}(x-i)$ a.e.,
+$<$b$>$. For any $k$, there is an $TM$ $M_j$ that accpets $L$ and
+$$S_j(x)\le u_{m+1}(x-k);$$
+
+
+and $r(x)\in{\cal F}_m$ shows that there is a $k_0$ such that
+$$r(x)\le u^{(k_0)}_m(x).$$
+
+Now for any $TM$ $M_i$ that accepts $L$, $<$a$>$. shows that
+$$S_i(x)>u_{m+1}(x-t)\ \ \ \ a.e.,$$
+let $k=i+k_0+1$, then $<$b$>$. shows that there is an $TM$ $M_j$
+accpeting $L$ such that
+$$S_j(x)\le u_{m+1}(x-k)$$
+hence
+$$\begin{array}{l}   
+r(S_j(x))\le u^{(k_0)}_m(u_{m+1}(x-k))\\
+=u_{m+1}(x-k+k_0)\\
+<u_{m+1}(x-i)\\
+<S_i(x).\end{array}$$
+
+Theorem 4.2. (Internal Displacement Speed-up). Let ${\cal F}
+=\cup^\infty_{n=0}{\cal F}_n$ be a Speed-up hierarchy, then for
+any $m$ and $c$, there is a language $L$ having ${\cal F}_{m+1}$ 
+complexity, such that for any $TM$ $M_i$ accepting $L$, there
+is another $TM$ $M_j$ accepting $L$ and
+$$S_j(n)\le S_i(n-c)\ \ \ \ a.e.$$
+
+{\it Proof}. Lemma 4.1. shows that for this $m$ there is a language $L$
+having ${\cal F}_{m+1}$ complexity and
+
+(1). for any $M_i$ that accepts $L$, we have
+$$S_i(n)>u_{m+1}(n-i)\ \ \ \ a.e.,$$
+
+(2). for $k=i+c$, there is an $TM$ $M_j$ that accepts $L$ and
+$$S_j(n)<u_{m+1}(n-i-c)$$
+so we have
+$$S_i(n-c)>u_{m+1}(n-i-c)>S_j(n)\ \ \ \ a.e.$$
+
+When we've obtained the theorems 4.1. and 4.2., perhaps we'll ask: Is
+there an internal linear Speed-up theorem?, i.e.
+
+Internal Linear Speed-up Phenomenon: For any $c\le 1,$ there is a language $L$, such that for any $TM$
+$M_i$ accepting $L$, there is another $TM$ $M_j$ that
+satisfies the property:
+$$S_j(n)\le S_i([c*n])\ \ \ \ a.e.$$
+
+About this question and the relations 
+among all these Speed-up 
+theorems mentioned in this paper, 
+we'll deal with in another paper.
+
+\section{Appendix}
+
+{\it Proof of Lemma} 4.1.
+
+Remark: this proof is mainly from [2].
+Because $u_0(x)$ is fully space constructible, we can easily show 
+that $u_{m+1}(x)$ is also fully space constructible, the details 
+is left to reader.
+
+Let $M_1,M_2,\cdots$ be an enumeration of
+ all off-line $TM$'s.
+Now let us construct $L\subseteq 0^*$ to satisfy (1) and (2). For
+$n=0,1,2,\cdots$ in turn, we specify whether $0^n$ is in $L$. In
+the process, certain $M_i$ are designated as ``canceled''. A 
+canceled $TM$ surely does not accept $L$, let $\sigma(n)$ be the 
+least integer $j\le n$ such that $S_j(n)<u_{m+1}(n-j)$, and $M_j$ 
+is not canceled by $i=0,1,\cdots,n-1$. When we consider $n$, if 
+$\sigma(n)$ exists, $M_{\sigma(n)}$ is designated as canceled. 
+Then $0^n$ is placed in $L$ if and only if $\sigma(n)$ exists and
+$0^n$ is not accepted by $M_{\sigma(n)}$.
+
+Next we prove that $L$ satisfies (1), namely: if $L(M_i)=L$, then 
+$S_i(n)\ge u_{m+1}(n-i)$ a.e. Let $L(M_i)=L$. In constructing 
+$L$, all $TM$'s $M_j$, for $j<i$, that are ever canceled are 
+canceled after considering some finite number of $n$'s, say up to 
+$n_0$. Note that $n_0$ cannot be effectively computed, but 
+nevertheless exists. Suppose $S_i(n)<u_{m+1}(n-i)$ for some 
+$n>\max(n_0,i)$. When we consider $n$, no $M_j, j<i$ is canceled. 
+But an $TM$ that is canceled will surelly not accept $L$. Thus 
+$S_i(n)\ge u_{m+1}(n-i)$ for $n>\max(n_0,i)$, that is, $S_i(n)\ge 
+u_{m+1}(n-i)$ a.e..
+
+To prove condition (2), we show that there exists, for given $k$, 
+an $TM$ $M=M_j$ such that $L(M)=L$, and $S_j(n)\le u_{m+1}(n-k)$
+for all $n$. To determine whether $0^n$ in $L$, $M$ must simulate
+$M_{\sigma(n)}$ on $0^n$. To know what $\sigma(n)$ is, $M$ must
+determine which $M_i$'s have already been canceled by $0^l$ for
+$l<n$. However, constructing the list of canceled $TM$'s directly 
+requires seeing if $M_i$ uses more than $u_{m+1}(l-i)$ space for 
+$0\le l\le n$ and $1\le i\le n$, this requires more than 
+$u_{m+1}(n-k)$ space.
+
+The solution is to observe that any $TM$ $M_i$, $i\le k$, that is 
+ever canceled, is canceled when we consider some $l$ less than a 
+particular $n_1$. For each $l\le n_1$, incorporate into the 
+finite control of $M$ whether $0^l$ is in $L$, and also
+incorporate a list of all $TM$'s $M_i$ canceled by $l\le n_1$. 
+Thus no space at all is needed by $M$ if $n\le n_1$. If $n>n_1$, 
+to compute $\sigma(n)$ and simulate $M_{\sigma(n)}$, on $0^n$, it
+will only be necessary to simulate $TM$'s $M_i$ on input $0^l$,
+where $n_1<l\le n$ and $k<i\le n$, to see whether $M_i$ is 
+canceled by $l$.
+
+To test whether $M_i$ is canceled by $l$, we need only simulate 
+$M_i$ using $u_{m+1}(l-i)$ of $M_i$'s cells, which is less than 
+$u_{m+1}(n-k)$, as $l\le n$ and $i>k$. As $n>n_1$, it must be 
+that $\sigma(n)$, if it exists, is greater than $k$. Thus 
+simulating $M_{\sigma(n)}$ on input $0^n$ takes $u_{m+1}(n-
+\sigma(n))$ of $M_{\sigma(n)}$'s cells, which is less than 
+$u_{m+1}(n-k)$ cells.
+
+Lastly, we must show that $M$ can be made to operate within space 
+$u_{m+1}(n-k)$. We need only simulate $TM$'s $M_i$ for $k<i\le n$ 
+on inputs $0^l$, $n_1\le l\le n$, to see whether they get
+canceled, so we need represent no more than $u_{m+1}(n-k-1)$ 
+cells of $M_i$'s tape for any simulation. Since $i\le n$, the 
+integer code for $M_i$ has length no more than $\log_2 n$. Thus
+any tape symbol of $M_i$ can be coded using $\log_2 n$ of $M$'s
+cells. As
+$$u_{m+1}(n-k)\ge [u_{m+1}(n-k-1)]^2\ge\log_2 n\cdot u_{m+1}(n-k-
+1)\ \ a.e.,$$
+$u_{m+1}(n-k)$ space is sufficient for the simulation for almost 
+all $n$.
+
+In addition to the sapce required for simulating the $TM$'s, 
+space is needed to maintain the list of canceled $TM$'s. This 
+list consists of at most $n$ $TM$'s, each with a code of length 
+at most $\log_2 n$. The $n\cdot\log_2 n$ space needed to maintain
+the list of canceled $TM$'s is also less than $u_{m+1}(n-k)$ 
+a.e., so $M$ can be modified to recognize words $0^n$, where
+$u_{m+1}(n-k)<[u_{m+1}(n-k-1)]^2$, or $u_{m+1}(n-k-1)<\log_2 n$, 
+or $n\cdot\log_2 n>u_{m+1}(n-k)$, in its finite control. The 
+resulting $TM$ is of sapce complexity $u_{m+1}(n-k)$ for all $n$, 
+and is the desired $M_j$.
+
+\section{Acknowledgement}
+
+Before finishing this paper, we must 
+mention that professor Xu 
+Shuruen advised us to give more attention on 
+the reason why there 
+is the Speed-up phenomenon. And this paper is the result of
+repeadedly discussions between professor Xu and the author. Here 
+the author would like to express his great 
+gratitute to professor Xu.
+
+\begin{thebibliography}{99}
+
+\bibitem{[1]} 
+M.D.Davis, E.J.Weyuker, Computability, Complexity, and 
+Languages, Academic Press. 1983.
+
+\bibitem{[2]} J.E.Hopcroft, J.D.Ullman, 
+Introduction to Automata Theory, 
+Languages, and computation, 1979.
+
+\bibitem{[3]}Cutland, Computability, 1981.
+
+\bibitem{[4]}  E.Borger, 
+Computability, Complexity, Logic, North-Horland. 
+1989.
+
+
+\bibitem{[5]} E.Rose, Subrecursion: 
+Functions and Hierarchy, Oxford Logic 
+Series. 1984.
+
+\bibitem{[6]} Grzegorczyk, Some classes of 
+recursive functions. Selected 
+Papers on Mathematical Logic.
+
+\bibitem{[7]} Zhang Min-hua, 
+Computability, Qin Hua University
+Press. 1984.
+\end{thebibliography}
+\end{document}
+
+
+\bibitem{[1]} 
+
+
+
+
