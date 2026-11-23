@@ -1,257 +1,776 @@
-<HTMl>
-<HEAD>
-<TITLE>Yongge Wang's Publications</TITLE> 
-<META NAME="description" CONTENT="No Title"> 
-<META NAME="keywords" CONTENT="results"> 
-<META NAME="resource-type" CONTENT="document"> 
-<META NAME="distribution" CONTENT="global"> 
-<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso_8859_1"> 
-</HEAD> 
-<BODY background="backcloud.gif">
-<h1>Yongge Wang's Publications</h1> 
-<script type="text/javascript">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publications | Yongge Wang | Professor of Cybersecurity</title>
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --primary-hover: #1d4ed8;
+      --accent: #2563eb;
+      --text-main: #1e293b;
+      --text-muted: #475569;
+      --bg-page: #f8fafc;
+      --bg-card: #ffffff;
+      --border-color: #e2e8f0;
+      --badge-bg: #eff6ff;
+      --badge-text: #1d4ed8;
+      --badge-border: #bfdbfe;
+    }
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-15888382-2']);
-  _gaq.push(['_trackPageview']);
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: var(--text-main);
+      background-color: var(--bg-page);
+      line-height: 1.65;
+      font-size: 15.5px;
+    }
 
-</script>
-<hr> 
-<b><font size=+1>Survey articles</font></b>
-<ol>
-  <li>Yongge Wang. Encryption Based Covert Channel for Large Language Models (<A HREF="https://eprint.iacr.org/2024/586.pdf">pdf</a>)
-  <li>Yongge Wang. A Review of Threshold Digital Signature Schemes
-	   (<A HREF="papers/reviewTSS.pdf">pdf</a>)</li>
-<li>Yongge Wang. Smart Grid, Automation, and SCADA Systems Security
-(<a href="papers/ywangsmartgrid.pdf">pdf</a>, 200K).  Chapter of "Security and Privacy in Smart Grids", 2013, 
-CRC Press (Taylor & Grancis Group). ISBN 978-1-4398-7783-8
-</li>
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      transition: color 0.15s ease;
+    }
 
-<li>Yongge Wang. Public Key Cryptography Standards: PKCS 
-(<a href="papers/pkcs.pdf">pdf</a>, 150K). Chapter of "Handbook of Information Security", 
-John Wiley & Sons, Inc., 2005 
-<a href="http://www.wiley.com/WileyCDA/Section/id-131581.html">
-Publisher's ToC</a></li>
-<li> Securing eBusiness with cryptographic techniques
-(<a href="wangMD5.pdf">pdf 319KB</a> or 
-<a href="wangMD51.pdf">pdf 945KB</a>). In Bank Fraud and IT Security
-December 2004 Issue, by
-<a href="http://www.southeastconsulting.com/Publications.htm">
-Southeast Consulting Inc.</a></li>
-</ol>
-<hr>
-<b><font size=+1>Refereed conference and journal papers </font></b> 
-<br> 
- 
-<ol>
-  
-     
-<li> Yongge Wang: On LIL Tests. 
-  (<a href="papers/liltest.pdf">pdf</a>)
-  	<li> Yongge Wang.
+    a:hover {
+      color: var(--primary-hover);
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 32px 20px 60px;
+    }
+
+    /* Header Bar */
+    .header-bar {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 28px 32px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .header-title h1 {
+      font-size: 1.85rem;
+      font-weight: 700;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+
+    .header-title p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-top: 4px;
+    }
+
+    .header-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .pill-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      background: #f1f5f9;
+      color: #334155;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border-radius: 6px;
+      border: 1px solid var(--border-color);
+      transition: all 0.15s ease;
+    }
+
+    .pill-btn:hover {
+      background: var(--badge-bg);
+      color: var(--primary-hover);
+      border-color: var(--badge-border);
+      text-decoration: none;
+    }
+
+    .pill-btn.primary {
+      background: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+    }
+
+    .pill-btn.primary:hover {
+      background: var(--primary-hover);
+      color: #ffffff;
+    }
+
+    /* Search & Filter Controls */
+    .filter-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 20px 24px;
+      margin-bottom: 28px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 10px 16px;
+      font-size: 0.95rem;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      background: #f8fafc;
+      outline: none;
+      transition: border-color 0.15s ease;
+      margin-bottom: 14px;
+    }
+
+    .search-input:focus {
+      border-color: var(--primary);
+      background: #ffffff;
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+    }
+
+    .filter-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .filter-tag {
+      padding: 4px 12px;
+      font-size: 0.84rem;
+      font-weight: 500;
+      border-radius: 6px;
+      cursor: pointer;
+      background: #f1f5f9;
+      color: #475569;
+      border: 1px solid transparent;
+      transition: all 0.15s ease;
+    }
+
+    .filter-tag:hover, .filter-tag.active {
+      background: var(--badge-bg);
+      color: var(--badge-text);
+      border-color: var(--badge-border);
+    }
+
+    /* Sections */
+    .section-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 32px;
+      margin-bottom: 28px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+    }
+
+    .section-header {
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 12px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .section-title {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    .section-count {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .paper-list {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .paper-item {
+      position: relative;
+      padding-left: 24px;
+      margin-bottom: 16px;
+      font-size: 0.94rem;
+      line-height: 1.55;
+      padding-bottom: 12px;
+      border-bottom: 1px dashed #f1f5f9;
+    }
+
+    .paper-item:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .paper-item::before {
+      content: "•";
+      position: absolute;
+      left: 6px;
+      color: var(--primary);
+      font-size: 1.3rem;
+      line-height: 1;
+    }
+
+    .paper-title {
+      color: #0f172a;
+      font-weight: 600;
+    }
+
+    .paper-venue {
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 1px 7px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      border-radius: 4px;
+      margin-left: 5px;
+      vertical-align: middle;
+      border: 1px solid var(--badge-border);
+      background: var(--badge-bg);
+      color: var(--badge-text);
+      white-space: nowrap;
+    }
+
+    .badge:hover {
+      background: #dbeafe;
+      text-decoration: none;
+    }
+
+    .coauthors-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .coauthor-card {
+      background: #f8fafc;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-size: 0.9rem;
+    }
+
+    .footer-bar {
+      text-align: center;
+      font-size: 0.88rem;
+      color: #94a3b8;
+      margin-top: 36px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border-color);
+    }
+
+    @media (max-width: 768px) {
+      .header-bar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .coauthors-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Header Navigation Bar -->
+  <header class="header-bar">
+    <div class="header-title">
+      <h1>Yongge Wang | Publications</h1>
+      <p>Professor of Cybersecurity | University of North Carolina at Charlotte</p>
+    </div>
+    <div class="header-links">
+      <a href="index.html" class="pill-btn primary">← Academic Homepage</a>
+      <a href="cv.pdf" class="pill-btn">Curriculum Vitae (PDF)</a>
+      <a href="https://scholar.google.com/citations?user=GZtrefYAAAAJ&hl=en" target="_blank" rel="noopener" class="pill-btn">Google Scholar</a>
+      <a href="https://dblp.org/pid/w/YonggeWang.html" target="_blank" rel="noopener" class="pill-btn">DBLP Profile</a>
+      <a href="omega/" class="pill-btn">Omega & Randomness</a>
+    </div>
+  </header>
+
+  <!-- Filter & Real-Time Search -->
+  <div class="filter-card">
+    <input type="text" id="paperSearch" class="search-input" placeholder="Type to filter publications by title, keyword, co-author, venue, or year..." onkeyup="filterPapers()">
+    <div class="filter-pills">
+      <span class="filter-tag active" onclick="setCategory('all', this)">All Publications</span>
+      <span class="filter-tag" onclick="setCategory('ai', this)">AI Assisted Discovery (2026)</span>
+      <span class="filter-tag" onclick="setCategory('survey', this)">Surveys & Monographs</span>
+      <span class="filter-tag" onclick="setCategory('recent', this)">Recent Research (2018–2024)</span>
+      <span class="filter-tag" onclick="setCategory('refereed', this)">Refereed Archives</span>
+      <span class="filter-tag" onclick="setCategory('standards', this)">Standards & Patents</span>
+    </div>
+  </div>
+
+  <!-- Section 1: AI Assisted Scientific Discovery (2026) -->
+  <section class="section-card paper-group" data-cat="ai">
+    <div class="section-header">
+      <h2 class="section-title">AI Assisted Scientific Discovery (2026 Preprints & Breakthroughs)</h2>
+      <span class="section-count">6 Papers</span>
+    </div>
+    <ul class="paper-list">
+      <li class="paper-item">
+        Yongge Wang. <span class="paper-title">Projective Jet Geometry and Hold-Out Rank of Binary Goppa Codes</span>.
+        <span class="paper-venue">IACR Cryptology ePrint Archive, Report 2026/2769, 2026</span>.
+        <a href="https://eprint.iacr.org/2026/2769" target="_blank" rel="noopener" class="badge">ePrint 2026/2769</a>
+      </li>
+      <li class="paper-item">
+        Yongge Wang. <span class="paper-title">Hidden Curves and Short Duals: Cubic Jets, Dual Leaks, and the Limits of Masked-Code Encryption</span>.
+        <span class="paper-venue">IACR Cryptology ePrint Archive, Report 2026/2710, 2026</span>.
+        <a href="https://eprint.iacr.org/2026/2710" target="_blank" rel="noopener" class="badge">ePrint 2026/2710</a>
+      </li>
+      <li class="paper-item">
+        Yongge Wang. <span class="paper-title">Fifteen Code-Based KEMs, One Framework: Structural and Parametric Cryptanalysis of the NGCC Round-1 Code-Based Candidates</span>.
+        <span class="paper-venue">Technical Report / Preprint, 2026</span>.
+        <a href="https://github.com/yonggewang/ClaudeAI/blob/main/NGCC/main.pdf" target="_blank" rel="noopener" class="badge">PDF / GitHub</a>
+      </li>
+      <li class="paper-item">
+        Yongge Wang. <span class="paper-title">Betting versus Compression in Polynomial Time: One-Way Functions and the Levin–Schnorr Theorem</span>.
+        <span class="paper-venue">Research Manuscript, 2026</span>.
+        <a href="papers/betting-vs-compression.pdf" class="badge">PDF</a>
+      </li>
+      <li class="paper-item">
+        Yongge Wang. <span class="paper-title">On the Range of Miller's Derivation on the d.c.e Reals</span>.
+        <span class="paper-venue">Research Manuscript, 2026</span>.
+        <a href="papers/derivation-range-v10.pdf" class="badge">PDF</a>
+      </li>
+      <li class="paper-item">
+        Yongge Wang. <span class="paper-title">An Injective Oneway Function on the Reals That Preserves Randomness</span>.
+        <span class="paper-venue">Research Manuscript, 2026</span>.
+        <a href="papers/injective-oneway.pdf" class="badge">PDF</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Section 2: Recent Research & Refereed Works (2018-2024) -->
+  <section class="section-card paper-group" data-cat="recent">
+    <div class="section-header">
+      <h2 class="section-title">Recent Refereed Works & Consensus Research (2018–2024)</h2>
+      <span class="section-count">15 Papers</span>
+    </div>
+    <ul class="paper-list">
+      <li class="paper-item">
+        Y. Wang and Q. Malluhi. <span class="paper-title">Reducing Garbled Circuit Size While Preserving Circuit Gate Privacy</span>.
+        <span class="paper-venue">Proc. 16th International Conference on Cryptology in Africa (AfricaCrypt 2024)</span>.
+        <a href="papers/efficientGC.pdf" class="badge">Paper</a> <a href="papers/efficientGCPPT.pdf" class="badge">Slides</a>
+      </li>
+      <li class="paper-item">
+        Yongge Wang. <span class="paper-title">Encryption Based Covert Channel for Large Language Models</span>.
+        <span class="paper-venue">IACR Cryptology ePrint Archive, Report 2024/586, 2024</span>.
+        <a href="https://eprint.iacr.org/2024/586.pdf" target="_blank" rel="noopener" class="badge">ePrint 2024/586</a>
+      </li>
+      <li class="paper-item">
+        Yongge Wang. <span class="paper-title">DeepSeek Improvement on Transformers</span>.
+        <span class="paper-venue">Technical Report, 2024</span>.
+        <a href="papers/deepSeek.pdf" class="badge">PDF</a>
+      </li>
+      <li class="paper-item">
+        Yongge Wang. <span class="paper-title">Byzantine Fault Tolerance For Distributed Ledgers Revisited</span>.
+        <span class="paper-venue">ACM Distributed Ledger Technologies: Research and Practice, 2022</span>.
+        <a href="papers/bftACM.pdf" class="badge">PDF</a> <a href="https://doi.org/10.1145/3538227" target="_blank" rel="noopener" class="badge">DOI</a>
+      </li>
+      <li class="paper-item">
+        Yongge Wang. <span class="paper-title">Prediction Markets, Automated Market Makers, and Decentralized Finance (DeFi)</span>.
+        <span class="paper-venue">3rd International Conference on Mathematical Research for Blockchain Economy (MARBLE 2022)</span>.
+        <a href="https://arxiv.org/pdf/2009.01676.pdf" target="_blank" rel="noopener" class="badge">arXiv:2009.01676</a>
+      </li>
+      <li class="paper-item">
+        Y. Wang and Q. Malluhi. <span class="paper-title">Privacy Preserving Computation in Cloud Using Reusable Garbled Oblivious RAMs</span>.
+        <span class="paper-venue">Proc. 25th Information Security Conference (ISC), pp. 3–19, LNCS, Springer, 2022</span>.
+        <a href="papers/oram.pdf" class="badge">PDF</a> <a href="papers/ORAMslide.pdf" class="badge">Slides</a>
+      </li>
+      <li class="paper-item">
+        Yongge Wang. <span class="paper-title">The Adversary Capabilities In Practical Byzantine Fault Tolerance</span>.
+        <span class="paper-venue">International Workshop on Security and Trust Management (STM), pp. 20–39, Springer LNCS 13075, 2021</span>.
+        <a href="https://eprint.iacr.org/2021/1248.pdf" target="_blank" rel="noopener" class="badge">ePrint</a> <a href="https://www.doi.org/10.1007/978-3-030-91859-0_2" target="_blank" rel="noopener" class="badge">DOI</a>
+      </li>
+      <li class="paper-item">
+        Israa Alsarsour, Qutaibah Malluhi, and Yongge Wang. <span class="paper-title">Free Chain: Enabling Freedom of Expression through Public Blockchains</span>.
+        <span class="paper-venue">IEEE DependSys 2020, December 2020</span>.
+        <a href="papers/freechain.pdf" class="badge">PDF</a>
+      </li>
+      <li class="paper-item">
+        Yongge Wang. <span class="paper-title">Deterministic Blockchain BFT Protocol XP for Complete Asynchronous Network</span>.
+        <span class="paper-venue">Technical Report, 2020</span>.
+        
+      </li>
+      <li class="paper-item">
+        Yongge Wang. <span class="paper-title">Byzantine Fault Tolerance in Partially Connected Asynchronous Networks</span>.
+        <span class="paper-venue">IACR Cryptology ePrint Archive, Report 2019/1460, December 2019</span>.
+        <a href="https://eprint.iacr.org/2019/1460/" target="_blank" rel="noopener" class="badge">ePrint</a> <a href="https://github.com/yonggewang/BDLS" target="_blank" rel="noopener" class="badge">GitHub BDLS</a>
+      </li>
+      <li class="paper-item">
+        Yongge Wang and Q. M. Malluhi. <span class="paper-title">The Limit of Blockchains: Infeasibility of a Smart Obama-Trump Contract</span>.
+        <span class="paper-venue">Communications of the ACM, May 2019</span>.
+        <a href="papers/cacm.pdf" class="badge">PDF</a>
+      </li>
+      <li class="paper-item">
+        Jingang Liu, Yongge Wang, Zongxiang Yi, and Dingyi Pei. <span class="paper-title">Quantum Resistant Public Key Encryption Scheme polarRLCE</span>.
+        <span class="paper-venue">International Conference on Algebra, Codes and Cryptology, pp. 114–128, Springer, 2019</span>.
+        <a href="https://link.springer.com/chapter/10.1007/978-3-030-36237-9_7" target="_blank" rel="noopener" class="badge">Online</a>
+      </li>
+      <li class="paper-item">
+        Haoyu Li, Renzhang Liu, Qutaibah M. Malluhi, Yanbin Pan, Yongge Wang, and Tianyuan Xie. <span class="paper-title">Breaking HK17 in Practice</span>.
+        <span class="paper-venue">Proc. IEEE ISIT 2019</span>.
+        <a href="papers/BreakHKisit19.pdf" class="badge">PDF</a>
+      </li>
+      <li class="paper-item">
+        Y. Wang and Q. Malluhi. <span class="paper-title">Reusable Garbled Turing Machines without FHE</span>.
+        <span class="paper-venue">Proc. 3rd Conference C2SI, Codes, Cryptology and Information Security, LNCS, Springer, 2019</span>.
+        <a href="papers/garbledTM.pdf" class="badge">PDF</a>
+      </li>
+      <li class="paper-item">
+        M. Ahmed, J. Wei, Yongge Wang, and Ehab Al-Shaer. <span class="paper-title">A Poisoning Attack Against Cryptocurrency Mining Pools</span>.
+        <span class="paper-venue">DPM/CBT@ESORICS 2018: 140–154</span>.
+        <a href="https://doi.org/10.1007/978-3-030-00305-0_11" target="_blank" rel="noopener" class="badge">DOI / PDF</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Section 3: Surveys & Reference Monographs -->
+  <section class="section-card paper-group" data-cat="survey">
+    <div class="section-header">
+      <h2 class="section-title">Surveys, Handbooks & Reference Monographs</h2>
+      <span class="section-count">6 Papers</span>
+    </div>
+    <ul class="paper-list">
+      <li class="paper-item">
+        Yongge Wang. <span class="paper-title">A Review of Threshold Digital Signature Schemes</span>.
+        <span class="paper-venue">Survey Monograph, 2024</span>.
+        <a href="papers/reviewTSS.pdf" class="badge">PDF</a>
+      </li>
+      <li class="paper-item">
+        Yongge Wang. <span class="paper-title">Encryption Based Covert Channel for Large Language Models</span>.
+        <span class="paper-venue">IACR Cryptology ePrint Archive, Report 2024/586, 2024</span>.
+        <a href="https://eprint.iacr.org/2024/586.pdf" target="_blank" rel="noopener" class="badge">ePrint 2024/586</a>
+      </li>
+      <li class="paper-item">
+        Yongge Wang. <span class="paper-title">DeepSeek Improvement on Transformers</span>.
+        <span class="paper-venue">Survey / Technical Monograph, 2024</span>.
+        <a href="papers/deepSeek.pdf" class="badge">PDF</a>
+      </li>
+      <li class="paper-item">
+        Yongge Wang. <span class="paper-title">Smart Grid, Automation, and SCADA Systems Security</span>.
+        <span class="paper-venue">Security and Privacy in Smart Grids, CRC Press (Taylor & Francis Group), ISBN 978-1-4398-7783-8, 2013</span>.
+        <a href="papers/ywangsmartgrid.pdf" class="badge">PDF (200K)</a>
+      </li>
+      <li class="paper-item">
+        Yongge Wang. <span class="paper-title">Public Key Cryptography Standards: PKCS</span>.
+        <span class="paper-venue">Handbook of Information Security, John Wiley & Sons, Inc., 2005</span>.
+        <a href="papers/pkcs.pdf" class="badge">PDF (150K)</a> <a href="http://www.wiley.com/WileyCDA/Section/id-131581.html" target="_blank" rel="noopener" class="badge">Publisher's ToC</a>
+      </li>
+      <li class="paper-item">
+        Yongge Wang. <span class="paper-title">Securing eBusiness with Cryptographic Techniques</span>.
+        <span class="paper-venue">Bank Fraud and IT Security, Southeast Consulting Inc., December 2004</span>.
+        <a href="wangMD5.pdf" class="badge">PDF (319K)</a> <a href="wangMD51.pdf" class="badge">PDF (945K)</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Section 4: Industry Standards -->
+  <section class="section-card paper-group" data-cat="standards">
+    <div class="section-header">
+      <h2 class="section-title">Industry Cryptographic Standards</h2>
+    </div>
+    <ul class="paper-list">
+      <li class="paper-item">
+        <strong>Secure Remote Password Authentication Protocol (SRP5)</strong>. Standardized in <a href="1363.2-2008.pdf"><strong>IEEE 1363.2</strong></a> (<a href="papers/ecsrp.pdf" class="badge">SRP5 Paper</a>).
+        Implementations: <a href="https://github.com/mobilesec/secure-channel-srp-android-lib" target="_blank" rel="noopener">EC-SRP Android Library</a> and <a href="https://github.com/mobilesec/secure-channel-ec-srp-applet" target="_blank" rel="noopener">Java Card Applet</a> (by Michael Hölzl).
+      </li>
+      <li class="paper-item">
+        <strong>Identity-Based Authenticated Key Agreement Protocol (WANG-KE)</strong>. Standardized in <a href="13633-2013.pdf"><strong>IEEE 1363.3</strong></a> (<a href="papers/P1363IBKAS.pdf" class="badge">WANG-KE Paper</a>).
+      </li>
+      <li class="paper-item">
+        S. Blake-Wilson, G. Karlinger, T. Kobayashi, and Yongge Wang. <strong>ECDSA with XML-Signature Syntax</strong>. <a href="http://www.ietf.org/rfc/rfc4050" target="_blank" rel="noopener"><strong>IETF RFC 4050</strong></a>, 2005.
+      </li>
+    </ul>
+  </section>
+
+  <!-- Section 5: Comprehensive Refereed Journal & Conference Papers -->
+  <section class="section-card paper-group" data-cat="refereed">
+    <div class="section-header">
+      <h2 class="section-title">Refereed Journal & Conference Papers (Chronological Archive)</h2>
+      <span class="section-count">85 Publications</span>
+    </div>
+    <ul class="paper-list">
+      <li class="paper-item">
+        Yongge Wang: On LIL Tests. 
+  <a href="papers/liltest.pdf" class="badge">pdf</a>
+      </li>
+      <li class="paper-item">
+        Yongge Wang.
 	  Another Look at CBC Casper Consensus Protocol <b></b>, March, 2020
-	  (<A HREF="papers/CBCcasper.pdf">pdf</a>).
-	  	<li>  Yongge Wang.
-	  Byzantine Fault Tolerance in Partially Connected Asynchronous Networks <b>IACR ePrint</b>, December 2019 (<A HREF="https://eprint.iacr.org/2019/1460/">pdf</a>).
-	  
-  <li> Yongge Wang. Revised Quantum Resistant Public Key Encryption Scheme RLCE and IND-CCA2 Security for McEliece Schemes. (<A HREF="papers/pqEncryption.pdf">pdf</a>)
-<li> Yongge Wang: Decoding Generalized Reed-Solomon Codes and Its Application to RLCE Encryption Schemes. Manuscripts 2017. (<A HREF="papers/ReedSolomon.pdf">pdf</a>)
-
-
-
-  
-   <li>Y.Wang and  Q. Malluhi. Reducing Garbled Circuit Size While Preserving Circuit Gate Privacy. <b>Proc. AfricaCrypt 2024.</b>
+	  <a href="papers/CBCcasper.pdf" class="badge">pdf</a>.
+      </li>
+      <li class="paper-item">
+        Yongge Wang.
+	  Byzantine Fault Tolerance in Partially Connected Asynchronous Networks <b>IACR ePrint</b>, December 2019 <a href="https://eprint.iacr.org/2019/1460/" class="badge">pdf</a>.
+      </li>
+      <li class="paper-item">
+        Yongge Wang. Revised Quantum Resistant Public Key Encryption Scheme RLCE and IND-CCA2 Security for McEliece Schemes. <a href="papers/pqEncryption.pdf" class="badge">pdf</a>
+      </li>
+      <li class="paper-item">
+        Yongge Wang: Decoding Generalized Reed-Solomon Codes and Its Application to RLCE Encryption Schemes. Manuscripts 2017. <a href="papers/ReedSolomon.pdf" class="badge">pdf</a>
+      </li>
+      <li class="paper-item">
+        Y.Wang and  Q. Malluhi. Reducing Garbled Circuit Size While Preserving Circuit Gate Privacy. <b>Proc. AfricaCrypt 2024.</b>
       (<a href="papers/efficientGC.pdf">paper</a> and <a href="papers/efficientGCPPT.pdf">PowerPoint Presentation</a>).
-    
-   <li>  Y.Wang and  Q. Malluhi. Privacy Preserving Computation in Cloud Using Reusable Garbled Oblivious RAMs
+      </li>
+      <li class="paper-item">
+        Y.Wang and  Q. Malluhi. Privacy Preserving Computation in Cloud Using Reusable Garbled Oblivious RAMs
      (<a href="papers/oram.pdf">pdf</a>,  <a href="papers/ORAMslide.pdf">PPT</a>). Proc. 25th Information Security Conference. LNCS, Springer-Verlag, 2022.
-
-     	<li>  Yongge Wang.
+      </li>
+      <li class="paper-item">
+        Yongge Wang.
 	  The Adversary Capabilities In Practical Byzantine Fault Tolerance.
 	   In <b> International Workshop on Security and Trust Management</b>, (pp. 20-39). Springer LNCS 13075 (<A HREF="https://eprint.iacr.org/2021/1248.pdf">pdf</a> or <a href="https://www.doi.org/10.1007/978-3-030-91859-0_2">DOI</a>).
-	<li> Israa Alsarsour, Qutaibah Malluhi, and  Yongge Wang.
+      </li>
+      <li class="paper-item">
+        Israa Alsarsour, Qutaibah Malluhi, and  Yongge Wang.
 	  Free Chain: Enabling Freedom of Expression through Public Blockchains. In 
-	  <b>IEEE DependSys 2020</b>, December 2020.  (<A HREF="papers/freechain.pdf">pdf</a>)
-	
-
-<li> Liu, Jingang, Yongge Wang, Zongxinag Yi, and Dingyi Pei. "Quantum Resistant Public Key Encryption Scheme polarRLCE." In International Conference on Algebra, Codes and Cryptology, pp. 114-128. Springer, Cham, 2019. <a href="https://link.springer.com/chapter/10.1007/978-3-030-36237-9_7">Online </a>
-  
-<li>  M. Ahmed, J. Wei, Yongge Wang, Ehab Al-Shaer: A Poisoning Attack Against Cryptocurrency Mining Pools. DPM/CBT@ESORICS 2018: 140-154.
-  (<a href="https://doi.org/10.1007/978-3-030-00305-0_11">pdf</a>)
-
-  
-   <li>  Y.Wang and  Q. Malluhi. Reusable Garbled Turing Machines without FHE 
-(<a href="papers/garbledTM.pdf">pdf</a>). Proc. 3rd Conference C2SI, Codes, Cryptology and Information Security. LNCS, Springer-Verlag, 2019.
-
-
-<li> Yongge Wang and Khaled Khan. Matrix Barcode Based Secure Authentication without Trusting Third Party. IEEE IT Professionals, May 2019. (<A HREF="papers/mobileQR.pdf">pdf</a>).
-
-<li> Gretchen Mattthews and Yongge Wang. Quantum Resistant Public Key Encryption Scheme HermitianRLCE. Proc. Code Based Cryptography. 2019 (<A HREF="papers/hermitianRLCE.pdf">pdf</a>).
-
-<li> Haoyu Li, Renzhang Liu, Qutaibah M. Malluhi, Yanbin Pan, Yongge Wang, and Tianyuan Xie.
+	  <b>IEEE DependSys 2020</b>, December 2020.  <a href="papers/freechain.pdf" class="badge">pdf</a>
+      </li>
+      <li class="paper-item">
+        Liu, Jingang, Yongge Wang, Zongxinag Yi, and Dingyi Pei. "Quantum Resistant Public Key Encryption Scheme polarRLCE." In International Conference on Algebra, Codes and Cryptology, pp. 114-128. Springer, Cham, 2019. <a href="https://link.springer.com/chapter/10.1007/978-3-030-36237-9_7">Online </a>
+      </li>
+      <li class="paper-item">
+        M. Ahmed, J. Wei, Yongge Wang, Ehab Al-Shaer: A Poisoning Attack Against Cryptocurrency Mining Pools. DPM/CBT@ESORICS 2018: 140-154.
+  <a href="https://doi.org/10.1007/978-3-030-00305-0_11" class="badge">pdf</a>
+      </li>
+      <li class="paper-item">
+        Y.Wang and  Q. Malluhi. Reusable Garbled Turing Machines without FHE 
+<a href="papers/garbledTM.pdf" class="badge">pdf</a>. Proc. 3rd Conference C2SI, Codes, Cryptology and Information Security. LNCS, Springer-Verlag, 2019.
+      </li>
+      <li class="paper-item">
+        Yongge Wang and Khaled Khan. Matrix Barcode Based Secure Authentication without Trusting Third Party. IEEE IT Professionals, May 2019. <a href="papers/mobileQR.pdf" class="badge">pdf</a>.
+      </li>
+      <li class="paper-item">
+        Gretchen Mattthews and Yongge Wang. Quantum Resistant Public Key Encryption Scheme HermitianRLCE. Proc. Code Based Cryptography. 2019 <a href="papers/hermitianRLCE.pdf" class="badge">pdf</a>.
+      </li>
+      <li class="paper-item">
+        Haoyu Li, Renzhang Liu, Qutaibah M. Malluhi, Yanbin Pan, Yongge Wang, and Tianyuan Xie.
   Breaking HK17 in Practice. 
-  Proc. ISIT 2019. (<A HREF="papers/BreakHKisit19.pdf">pdf</a>).
-  
-<li> Yongge Wang and Q.M.Malluhi.
-      The Limit of Blockchains: Infeasibility of a Smart Obama-Trump Contract. Communications of ACM, May 2019 (<A HREF="papers/cacm.pdf">pdf</a>).
-
-  <li>K. Khan, M.Shaheen, and Y.Wang. Using Sparse Matrices to Prevent Information Leakage in Cloud Computing. Proc. 2018 IEEE 6th International Conference on Future Internet of Things and Cloud.  (<A HREF="https://doi.org/10.1109/FiCloud.2018.00070">pdf</a>).
-
-  
-<li> M. Punekar, Q. Malluhi, Y. Wang, and Y. Desmedt. Candidate MDS Array Codes for Tolerating Three Disk Failures in RAID-7 Architectures. Proc. ACM BDCAT’17, December 5–8, 2017, Austin, Texas, USA.  (<A HREF="papers/RAID7.pdf">pdf</a>).
-<li>M. Punekar, Q. Malluhi, Y. Wang, and Y. Desmedt. Computational Aspects of Ideal (t, n)-Threshold Scheme of Chen, Laing, and Martin. Proc. CANS 2017.  (<A HREF="papers/CANS2017.pdf">pdf</a>).
-
-  
-<li>Khaled Khan, Mahboob Shaheen, and Yongge Wang. Data Confidentiality in Cloud-based Pervasive System. Proc. ACM 2nd International Conference on Internet of Things, Data and Cloud Computing 2017.
-  (<a href="papers/2017ICC.pdf">pdf</a>).
-
-  <li> Yongge Wang. Secure Communication and Authentication Against Off-line Dictionary Attacks in Smart Grid Systems. In Proc. CyberICPS 2016 (ESORICS Workshop), LNCS 10166, pages 103-120. (<A HREF="papers/smartgridfull.pdf">pdf</a>). 
-  
- <li> Y. Wang. and Q.M. Malluhi. Privacy Preserving Computation in Cloud Using Noise-Free Fully Homomorphic Encryption (FHE) Schemes. Proc. ESORICS 2016, LNCS 9878, pp. 301-323. (<a href="papers/octonionAlgebraEsorics.pdf">pdf</a>).
-  
-<li> Yongge Wang: 
+  Proc. ISIT 2019. <a href="papers/BreakHKisit19.pdf" class="badge">pdf</a>.
+      </li>
+      <li class="paper-item">
+        Yongge Wang and Q.M.Malluhi.
+      The Limit of Blockchains: Infeasibility of a Smart Obama-Trump Contract. Communications of ACM, May 2019 <a href="papers/cacm.pdf" class="badge">pdf</a>.
+      </li>
+      <li class="paper-item">
+        K. Khan, M.Shaheen, and Y.Wang. Using Sparse Matrices to Prevent Information Leakage in Cloud Computing. Proc. 2018 IEEE 6th International Conference on Future Internet of Things and Cloud.  <a href="https://doi.org/10.1109/FiCloud.2018.00070" class="badge">pdf</a>.
+      </li>
+      <li class="paper-item">
+        M. Punekar, Q. Malluhi, Y. Wang, and Y. Desmedt. Candidate MDS Array Codes for Tolerating Three Disk Failures in RAID-7 Architectures. Proc. ACM BDCAT’17, December 5–8, 2017, Austin, Texas, USA.  <a href="papers/RAID7.pdf" class="badge">pdf</a>.
+      </li>
+      <li class="paper-item">
+        M. Punekar, Q. Malluhi, Y. Wang, and Y. Desmedt. Computational Aspects of Ideal (t, n)-Threshold Scheme of Chen, Laing, and Martin. Proc. CANS 2017.  <a href="papers/CANS2017.pdf" class="badge">pdf</a>.
+      </li>
+      <li class="paper-item">
+        Khaled Khan, Mahboob Shaheen, and Yongge Wang. Data Confidentiality in Cloud-based Pervasive System. Proc. ACM 2nd International Conference on Internet of Things, Data and Cloud Computing 2017.
+  <a href="papers/2017ICC.pdf" class="badge">pdf</a>.
+      </li>
+      <li class="paper-item">
+        Yongge Wang. Secure Communication and Authentication Against Off-line Dictionary Attacks in Smart Grid Systems. In Proc. CyberICPS 2016 (ESORICS Workshop), LNCS 10166, pages 103-120. <a href="papers/smartgridfull.pdf" class="badge">pdf</a>.
+      </li>
+      <li class="paper-item">
+        Y. Wang. and Q.M. Malluhi. Privacy Preserving Computation in Cloud Using Noise-Free Fully Homomorphic Encryption (FHE) Schemes. Proc. ESORICS 2016, LNCS 9878, pp. 301-323. <a href="papers/octonionAlgebraEsorics.pdf" class="badge">pdf</a>.
+      </li>
+      <li class="paper-item">
+        Yongge Wang: 
 Quantum Resistant Random Linear Code Based Public Key Encryption Scheme RLCE. <b>Proc. IEEE pages</b> 2519-2523 <a href="http://www.isit2016.org">ISIT 2016 (Barcelona)</a>
-(<a href="papers/latticeEnc.pdf">pdf</a>). 
-
-   <li> P.Li, X.Liu, X.Yi, Y.Wang and Yongge Wang.
+<a href="papers/latticeEnc.pdf" class="badge">pdf</a>.
+      </li>
+      <li class="paper-item">
+        P.Li, X.Liu, X.Yi, Y.Wang and Yongge Wang.
 	  Brownian Motion Properties of Random Bit Generators Based on Laser Chaos. <b>Optics Express</b> 24(14):15822-15833 (<a href="papers/opticexpress16.pdf">pdf</a>,
      <a href="http://dx.doi.org/10.1364/OE.24.015822">Publisher version</a>, impact factor: 3.148 for 2015)
-<li> Y.Wang and Q. Malluhi and K.Khan: 
+      </li>
+      <li class="paper-item">
+        Y.Wang and Q. Malluhi and K.Khan: 
   Garbled computation in cloud. <b>Future Generation of Computer Systems</b>,
   Vol 62, pages 54-65, 2015
-(<a href="papers/futureGC.pdf">pdf</a>)
-
-<li> Yongge Wang and Yvo Desmedt. Efficient Secret Sharing Schemes 
+<a href="papers/futureGC.pdf" class="badge">pdf</a>
+      </li>
+      <li class="paper-item">
+        Yongge Wang and Yvo Desmedt. Efficient Secret Sharing Schemes 
 Achieving Optimal Information Rate. In <b>Information Theory Workshop (ITW)</b>
-  pages 516-520, 2014. (<a href="papers/sss.pdf">pdf</a>)
-
-  
-<li>  Yongge Wang:
+  pages 516-520, 2014. <a href="papers/sss.pdf" class="badge">pdf</a>
+      </li>
+      <li class="paper-item">
+        Yongge Wang:
 Privacy-preserving data storage in cloud using array BP-XOR codes. <b> 
 IEEE Transactions on Cloud Computing (TCC)</b>, 3(4):425-435, 2015
- (<a href="papers/ecldpc.pdf">pdf</a>)
-
-<li>  M. Paterson, Douglas R. Stinson, and Yongge Wang:
+ <a href="papers/ecldpc.pdf" class="badge">pdf</a>
+      </li>
+      <li class="paper-item">
+        M. Paterson, Douglas R. Stinson, and Yongge Wang:
 On Encoding Symbol Degrees of Array BP-XOR
 Codes. <b>Cryptography and Communications</b>, pages 1-14, 
-2015. (<a href="papers/bpxorIT.pdf">pdf</a>)
-
-<li> Yongge Wang and Tony Nicol: 
+2015. <a href="papers/bpxorIT.pdf" class="badge">pdf</a>
+      </li>
+      <li class="paper-item">
+        Yongge Wang and Tony Nicol: 
 Statistical Properties of Pseudo Random Sequences and Experiments with PHP and Debian OpenSSL.
 <b>Computers and Security (53):44-64</b>, September 2015. 
 An extended abstract appeared in <b>ESORICS</b> 2014, LNCS 8712, pp. 454--471. 
-(<a href="papers/lilesorics.pdf">pdf</a>)
+<a href="papers/lilesorics.pdf" class="badge">pdf</a>
 <a href="http://dx.doi.org/10.1016/j.cose.2015.05.005">Elsevier version</a>.  (<a href="liltest.zip">LIL Software, 432KB)</a>. The JAR file runs on all platforms. For instructions, run: java -jar LILtest.jar
-
-
-<li>Q. Duan, Y.Wang, F.Mohsen, and E.Al-Shaer.
+      </li>
+      <li class="paper-item">
+        Q. Duan, Y.Wang, F.Mohsen, and E.Al-Shaer.
 Private and Anonymous Data Storage and Distribution in Cloud. 
 <b>Proc. IEEE SCC 2013, </b> pages 264-271. 
- (<a href="papers/scc2013.pdf">pdf</a>)
-
-<li> Yongge Wang: Array BP-XOR Codes for Reliable Cloud Storage Systems.
+ <a href="papers/scc2013.pdf" class="badge">pdf</a>
+      </li>
+      <li class="paper-item">
+        Yongge Wang: Array BP-XOR Codes for Reliable Cloud Storage Systems.
 <b>Proc. IEEE ISIT 2013, </b> pages 326--330. 
- (<a href="papers/isit2013.pdf">pdf</a>) and 
-(<a href="isit13Presentation.pdf">presentation slide</a>).
-<li>  Y.Wang: Efficient Identity-Based and Authenticated Key
-Agreement Protocol (<A HREF="papers/idakj.pdf">pdf</A>).
+ <a href="papers/isit2013.pdf" class="badge">pdf</a> and 
+<a href="isit13Presentation.pdf" class="badge">presentation slide</a>.
+      </li>
+      <li class="paper-item">
+        Y.Wang: Efficient Identity-Based and Authenticated Key
+Agreement Protocol <a href="papers/idakj.pdf" class="badge">pdf</a>.
 M.L. Gavrilova and C.J.K. Tan (Eds.) <b> Trans. on Comput. Sci. XVII, LNCS 7420, pp. 172--197.</b> Springer, Heidelberg (2013)
-
-<li> Y.Wang. Password Protected Smart Card and Memory Stick Authentication
+      </li>
+      <li class="paper-item">
+        Y.Wang. Password Protected Smart Card and Memory Stick Authentication
 Against Off-line Dictionary Attacks.
 In: D. Gritzalis, S. Furnell, and M. Theoharidou (Eds.): <b> SEC 2012, IFIP AICT 376</b>, pp. 489-500, 2012.
 
-(<a href="papers/smartcard.pdf">pdf</a>).
-<li> M.Tozal, Y.Wang, E.Al-Shaer, K.Sarac, B.Thuraisingham, B.Chu.
+<a href="papers/smartcard.pdf" class="badge">pdf</a>.
+      </li>
+      <li class="paper-item">
+        M.Tozal, Y.Wang, E.Al-Shaer, K.Sarac, B.Thuraisingham, B.Chu.
 Adaptive Information Coding for Secure and Reliable Wireless Telesurgery Communications. 
 In <b>Mobile Networks and Applications </b> MONET, 18(5):697-711. 2011
-(<a href="papers/telesurgery.pdf">pdf</a>)
-
-<li> M.Tozal, Y.Wang, E.Al-Shaer, K.Sarac, B.Thuraisingham, B.Chu.
+<a href="papers/telesurgery.pdf" class="badge">pdf</a>
+      </li>
+      <li class="paper-item">
+        M.Tozal, Y.Wang, E.Al-Shaer, K.Sarac, B.Thuraisingham, B.Chu.
 On Secure and Resilient Telesurgery Communications over Unreliable Networks. 
 In
 <b>INFOCOM Cyber-Physical Networking Systems (CPNS)</b>,  pages 714--719, IEEE 2011.
-(<a href="papers/udpcodingCPS.pdf">pdf</a>)
-
-<li>Y.Wang and Y.Desmedt. Edge-Colored Graphs with Applications To Homogeneous Faults.
-<b>Information Processing Letters 111(2011) 634-641</b>  (<A HREF="papers/iplwangcolor.pdf">pdf</A>). 
-Publisher's <a href="http://www.sciencedirect.com/science/journal/00200190"> version</a>. 
-<li>Y.Wang and Y.Desmedt. Homogeneous Faults, Colored Edge Graphs, and Cover Free Families.
+<a href="papers/udpcodingCPS.pdf" class="badge">pdf</a>
+      </li>
+      <li class="paper-item">
+        Y.Wang and Y.Desmedt. Edge-Colored Graphs with Applications To Homogeneous Faults.
+<b>Information Processing Letters 111(2011) 634-641</b>  <a href="papers/iplwangcolor.pdf" class="badge">pdf</a>. 
+Publisher's <a href="http://www.sciencedirect.com/science/journal/00200190"> version</a>.
+      </li>
+      <li class="paper-item">
+        Y.Wang and Y.Desmedt. Homogeneous Faults, Colored Edge Graphs, and Cover Free Families.
 In Proc. 5th International Conference on Information Theoretic Security (<b>ICITS 2011</b>), pages 58-72. LNCS 6673.
-<a href="papers/coloredge.pdf"> pdf</a> 
-<li> Y.Wang. sSCADA: Securing SCADA Infrastructure Communications (<a href="papers/scada.pdf">pdf</a>). 
+<a href="papers/coloredge.pdf"> pdf</a>
+      </li>
+      <li class="paper-item">
+        Y.Wang. sSCADA: Securing SCADA Infrastructure Communications <a href="papers/scada.pdf" class="badge">pdf</a>. 
 Int. J. Communication Networks and Distributed Systems, 6(1):59--78, 2011.
-<li> M.Boujettif and Y.Wang. Constructivist Approach To Information Security Awareness In The Middle East.
+      </li>
+      <li class="paper-item">
+        M.Boujettif and Y.Wang. Constructivist Approach To Information Security Awareness In The Middle East.
 BWCCA, pp.192-199, 2010 International Conference on Broadband, Wireless Computing, Communication and Applications, 2010, 
 IEEE press.
-(<a href="papers/bwcca.pdf">pdf</a>, <a href="papers/bwcca2010.pptx">pptx</a>). 
-<li> Y.Wang and Y.Desmedt. Perfectly Secure Message Transmission Revisited. IEEE Transaction on Information Theory 54(6):2582--2595, June 2008.
-<li> Y.Desmedt, Y.Wang and M.Burmester.
+(<a href="papers/bwcca.pdf">pdf</a>, <a href="papers/bwcca2010.pptx">pptx</a>).
+      </li>
+      <li class="paper-item">
+        Y.Wang and Y.Desmedt. Perfectly Secure Message Transmission Revisited. IEEE Transaction on Information Theory 54(6):2582--2595, June 2008.
+      </li>
+      <li class="paper-item">
+        Y.Desmedt, Y.Wang and M.Burmester.
 Revisiting Colored Networks and Privacy Preserving Censorship.
 Proc. 1st International Workshop on 
 Critical Information Infrastructures Security (CRITIS'06)
 August 30 - September 2, 2006, Samos Island, Greece. LNCS 4347, pages 
 140-150, 2006.
-(<a href="papers/censorship.pdf">pdf</a>),
-(<a href="papers/censorshipslide.pdf">Yvo Desmedt's slide</a>),
-(<a href="http://www.springerlink.com/content/h1216h1x645x6p84/">
-Springer Verlag version</a>).
-
-<li> Z.Zhao, Z.Dong, and Y.Wang.
+<a href="papers/censorship.pdf" class="badge">pdf</a>,
+<a href="papers/censorshipslide.pdf" class="badge">Yvo Desmedt's slide</a>,
+<a href="http://www.springerlink.com/content/h1216h1x645x6p84/" class="badge">
+Springer Verlag version</a>.
+      </li>
+      <li class="paper-item">
+        Z.Zhao, Z.Dong, and Y.Wang.
 Security Analysis of a Password-Based Authentication
 Protocol Proposed to IEEE 1363
 <b>Theoretical Computer Science</b>,
 <b>352</b>(1-3):280--287, 7 March 2006.
-(<a href="papers/TCSsrp5.pdf">pdf</a>).
+<a href="papers/TCSsrp5.pdf" class="badge">pdf</a>.
  Publisher's 
 <a href="http://dx.doi.org/10.1016/j.tcs.2005.11.038">version</a>.
-<li> Y.Desmedt and Y. Wang. Survey of Models for Critical Infrastructures and Methods to Measure Robustness. 
+      </li>
+      <li class="paper-item">
+        Y.Desmedt and Y. Wang. Survey of Models for Critical Infrastructures and Methods to Measure Robustness. 
 Proc. of the first CRIS International Workshop on Critical Information Infrastructures (CIIW'05).
-<li> Y.Desmedt, Y.Wang and M.Burmester.
+      </li>
+      <li class="paper-item">
+        Y.Desmedt, Y.Wang and M.Burmester.
 A complete characterization of tolerable adversary structures for 
 secure point-to-point transmissions.
 In Proc. <b>16th ISAAC</b> (ratio: 112/549), LNCS 3827, pages 277-287, 2005.
-(<a href="papers/isaac05.pdf">pdf</a>). Publisher's 
+<a href="papers/isaac05.pdf" class="badge">pdf</a>. Publisher's 
 <a href="http://dx.doi.org/10.1007/11602613_29">version</a>.
-
-<li> Y.Wang and X.Wu.
+      </li>
+      <li class="paper-item">
+        Y.Wang and X.Wu.
 Approximate inverse frequent itemset mining: 
 privacy, complexity, and approximation.
 In Proc. 5th <b>IEEE ICDM,</b> (ratio: 69/630),
  pages 482-289, 2005. 
 (<A HREF="papers/icdmitem.pdf">pdf</A>, 79K)
-
-<li> Y.Zheng and Y.Wang.
+      </li>
+      <li class="paper-item">
+        Y.Zheng and Y.Wang.
 Efficient and provably secure ciphers for storage device
 block level encryption.
 In Proc. <b>ACM StorageSS workshop</b>.
 pages 103-107, 2005. 
 (<A HREF="papers/hess.pdf">pdf</A>, 72K)
-
-<li>X.Wu, C.Sanghvi, Y.Wang, and Y.Zheng.
+      </li>
+      <li class="paper-item">
+        X.Wu, C.Sanghvi, Y.Wang, and Y.Zheng.
 Privacy aware data generation for testing database applications.
 Proc. of Ninth International Database Engineering and 
-Applications Symposium (IDEAS 2005)}, pages 317--326. IEEE Press. 
-
-<li> Y.Desmedt, Y.Wang, R.Safavi-Naini, and H.Wang.
+Applications Symposium (IDEAS 2005)}, pages 317--326. IEEE Press.
+      </li>
+      <li class="paper-item">
+        Y.Desmedt, Y.Wang, R.Safavi-Naini, and H.Wang.
 Radio networks with reliable communications.
  In Proc. <b>COCOON</b> (ratio: 96/360), pages 156-166, LNCS 3595, 2005. 
 (<A HREF="papers/radio.pdf">pdf</A>, 79K)
-
-
-<li> X.Wu, Y.Wu, Y.Wang, and Y.Li.
+      </li>
+      <li class="paper-item">
+        X.Wu, Y.Wu, Y.Wang, and Y.Li.
 Privacy aware market basket data set generation: a feasible approach
 for inverse frequent set mining. In Proc. 5th </b>SIAM
 International Conference on Data Mining</b>, April 2005.
-
-
-<li> Y.Wang, X. Wu, and Y. Zheng.
+      </li>
+      <li class="paper-item">
+        Y.Wang, X. Wu, and Y. Zheng.
 Privacy preserving data generation for database application 
 performance testing.
 In: Proc. 1st International Conference on Trust and Privacy in Digital Business
@@ -259,89 +778,106 @@ In: Proc. 1st International Conference on Trust and Privacy in Digital Business
 Zaragoza, Spain), LNCS 3184, pages 142-151. 
 Springer-Verlag. 
 (<A HREF="papers/trustbus04.pdf">pdf</A>, 79K)
-
-<li> Y.Wang. 
+      </li>
+      <li class="paper-item">
+        Y.Wang. 
 Robust key establishment in sensor networks.
 <b>ACM SIGMOD Record</b>, 33(1):14--19, March 2004.
 (<A HREF="papers/sigmodrecordwang03.pdf">pdf</A>, 79K,
 publisher's  
-<A href="http://www.acm.org/sigmod/record/index.html">version</A>) 
-
-<li>Y.Desmedt and Y.Wang: Analyzing vulnerabilities of 
+<A href="http://www.acm.org/sigmod/record/index.html">version</A>)
+      </li>
+      <li class="paper-item">
+        Y.Desmedt and Y.Wang: Analyzing vulnerabilities of 
 critical infrastructures using flows and critical vertices 
 in AND/OR graphs. 
 <b>International Journal of Foundations of Computer Science</b>, 
 <b>15</b>(1):107--125, 2004 
-(<A HREF="papers/ijfcs03.pdf">pdf</A>, 61K) 
- 
-<li> Y.Wang and Y.Zheng. Fast and secure WORM storage systems. 
+(<A HREF="papers/ijfcs03.pdf">pdf</A>, 61K)
+      </li>
+      <li class="paper-item">
+        Y.Wang and Y.Zheng. Fast and secure WORM storage systems. 
 In: Proceedings of the <b>IEEE Security in Storage Workshop (SISW)</b>,
 pages 11-19, 2003
 (<a href="papers/worm.pdf">pdf</a>, 73K).
 Publisher's 
-<a href="http://csdl.computer.org/comp/proceedings/sisw/2003/2059/00/20590011abs.htm">version</a> </li> 
-
-<li> M.Burmester, Y.Desmedt, and Y.Wang. 
+<a href="http://csdl.computer.org/comp/proceedings/sisw/2003/2059/00/20590011abs.htm">version</a> </li>
+      </li>
+      <li class="paper-item">
+        M.Burmester, Y.Desmedt, and Y.Wang. 
 A Critical Analysis of Models for Fault-Tolerant and Secure Computation.
 In: Proceedings of the IASTED Communication, Network, and Information Security (CNIS)
 2003, pages 147-152, 2003
-(<a href="papers/CNIS.pdf">pdf</a>, 73K). </li> 
-
-
-<li>X.Wu, Y.Wang, and Y.Zheng: Privacy preserving database 
+(<a href="papers/CNIS.pdf">pdf</a>, 73K). </li>
+      </li>
+      <li class="paper-item">
+        X.Wu, Y.Wang, and Y.Zheng: Privacy preserving database 
 application testing. Proceedings of 
 <b>the ACM Workshop on Privacy in Electronic Society</b>, 
 (ratio 16/50) pages 118--128, 2003  
-(<A HREF="papers/dbtest.pdf">pdf</A>, 150K) 
- 
- 
-<li>Z.Liu and Y.Wang: A secure agent architecture for sensor networks. 
+(<A HREF="papers/dbtest.pdf">pdf</A>, 150K)
+      </li>
+      <li class="paper-item">
+        Z.Liu and Y.Wang: A secure agent architecture for sensor networks. 
 Proceedings of The 2003 International Conference on Artificial 
 Intelligence--Intelligent Pervasive Computing Workshop  
 (IC-AI'03 June 23-26, 2003, Las Vegas, Nevada, USA), pages 10--16, 2003 
 (Eds. H.R.Arabnia, R. Joshua, and Y.Mun), CSREA Press 
-(<A HREF="papers/sensor03ai.pdf">pdf</A>, 61K) 
- 
-<li>Y.Wang, Y.Zheng, and B.Chu: Efficient and secure storage systems based on  
+(<A HREF="papers/sensor03ai.pdf">pdf</A>, 61K)
+      </li>
+      <li class="paper-item">
+        Y.Wang, Y.Zheng, and B.Chu: Efficient and secure storage systems based on  
 peer-to-peer systems. 
 Proceedings of The 2003 International Conference on Artificial 
 IntelligenceIntelligent Pervasive Computing Workshop   
 (IC-AI'03 June 23-26, 2003, Las Vegas, Nevada, USA), pages 17--22, 2003 
 (Eds. H.R.Arabnia, R. Joshua, and Y.Mun) CSREA Press 
-(<A HREF="papers/p2p03ai.pdf">pdf</A>, 61K) 
-<li>Y.Desmedt and Y.Wang: Efficient Zero-knowledge proofs for some 
+(<A HREF="papers/p2p03ai.pdf">pdf</A>, 61K)
+      </li>
+      <li class="paper-item">
+        Y.Desmedt and Y.Wang: Efficient Zero-knowledge proofs for some 
 practical graph problems. Proceedings of 
 Third Conference on Security in Communication Networks, 
 LNCS 2576, pages 296--308, 2002 
-(<A HREF="papers/zkip.pdf">pdf</A>, 150K) 
-<li>Y.Wang: A comparison of two approaches to pseudorandomness. 
+(<A HREF="papers/zkip.pdf">pdf</A>, 150K)
+      </li>
+      <li class="paper-item">
+        Y.Wang: A comparison of two approaches to pseudorandomness. 
 <b>Theoretical Computer Science</b> 
 276(1-2):449--459, 2002. (<A HREF="papers/TCS02.pdf">pdf</A>, 170K,  
 publisher's <A 
-href="http://www.elsevier.com/gej-ng//10/41/16/247/27/49/abstract.html">version</A>) 
-
-
-<li>Y.Wang: The algebraic structure of the isomorphic types of 
+href="http://www.elsevier.com/gej-ng//10/41/16/247/27/49/abstract.html">version</A>)
+      </li>
+      <li class="paper-item">
+        Y.Wang: The algebraic structure of the isomorphic types of 
          tally polynomial time sets.  <b>Archive for Mathematical 
            Logic</b> 41(3): 215--244, 2002.  
 (<A HREF="papers/AML.pdf">pdf</A>, 301K, publisher's  
-<A href="http://link.springer.de/link/service/journals/00153/bibs/2041003/20410215.htm">version</A>) 
-<li> Y.Desmedt and Y.Wang: Maximum Flows and Critical Vertices in AND/OR 
+<A href="http://link.springer.de/link/service/journals/00153/bibs/2041003/20410215.htm">version</A>)
+      </li>
+      <li class="paper-item">
+        Y.Desmedt and Y.Wang: Maximum Flows and Critical Vertices in AND/OR 
 Graphs <b>COCOON '02</b> 2002, pages 238-248. LNCS 2387, Springer-Verlag. 
 (<A HREF="papers/COCOON02.pdf">pdf</A>, 202K). Preliminary results was 
-presented at <b>INFORMS</b> '99 Cincinnati, section SA34.1 
-<li>  Y.Desmedt and Y.Wang: Perfectly Secure Message Transmission Revisited. 
+presented at <b>INFORMS</b> '99 Cincinnati, section SA34.1
+      </li>
+      <li class="paper-item">
+        Y.Desmedt and Y.Wang: Perfectly Secure Message Transmission Revisited. 
  <b>EuroCrypt'02</b> 2002, pages 502-517. LNCS 2332, Springer-Verlag. 
- (<A HREF="papers/ecrypt02.pdf">pdf</A>, 259K) 
-<li> W.Merkle and Y.Wang: Separations by random oracles and almost-classes 
+ (<A HREF="papers/ecrypt02.pdf">pdf</A>, 259K)
+      </li>
+      <li class="paper-item">
+        W.Merkle and Y.Wang: Separations by random oracles and almost-classes 
        for generalized reducibilities.  
            <b>Mathematical Logic Quarterly</b> 47(2):249--269, 2001. 
             (<A HREF="papers/MLQ.pdf">pdf</A>, 301K, publisher's 
 <A href="http://www3.interscience.wiley.com/cgi-bin/abstract/77005490/START">
 version</A>). 
 A preliminary version of this paper appeared in: Proc. of 20th <b>MFCS</b>.  
-LNCS 969, pages 179-190, 1995. 
-<li>Y.Wang and Y.Desmedt: Secure communication in multicast channels. 
+LNCS 969, pages 179-190, 1995.
+      </li>
+      <li class="paper-item">
+        Y.Wang and Y.Desmedt: Secure communication in multicast channels. 
          <b>Journal of Cryptology</b> 14(2):121--135, 2001. 
         (<A HREF="papers/JCRYPTO.pdf">pdf</A>, 264K, publisher's <A  
 href="http://link.springer.de/link/service/journals/00145/contents/01/0002/">
@@ -349,172 +885,223 @@ version</A>). A preliminary version of this paper appeared
 in:  Proc. <b>Eurocrypt 99</b>, pages 443--455. LNCS 1592, Springer Verlag. 
 (publisher's <A  
 href="http://link.springer.de/link/service/series/0558/bibs/1592/15920446.htm">
-version</A>)  
-<li>C.Calude, P.Hertling, B.Khoussainov, and Y.Wang: Recursively enumerable 
+version</A>)
+      </li>
+      <li class="paper-item">
+        C.Calude, P.Hertling, B.Khoussainov, and Y.Wang: Recursively enumerable 
            reals and Chaitin's 
            &Omega; numbers.  
             <b>Theoretical Computer Science</b> 255:125--149, 2001. 
            (<A HREF="papers/TCS01.pdf">pdf</A>, 200K, publisher's <A  
 href="http://www.elsevier.nl/gej-ng/10/41/16/197/21/show/toc.htt">version</A>).
 A preliminary version of this paper appeared in: Proc. 15th <b>STACS</b>, 
-pages 596--606.  LNCS 1373, Springer Verlag, 1998.  
- 
-<li>Y.Wang, Y.Desmedt, and M.Burmester: Models for dependable computation  
+pages 596--606.  LNCS 1373, Springer Verlag, 1998.
+      </li>
+      <li class="paper-item">
+        Y.Wang, Y.Desmedt, and M.Burmester: Models for dependable computation  
        with multiple inputs and some hardness results.   
         <b>Fundamenta Informaticae</b>, 42(1):61--73, 2000.  
         (<A HREF="papers/FI.pdf">pdf</A>, 251K, publisher's <A  
-      href="http://alfa.mimuw.edu.pl/FI/vol42.html">version</A>) 
- 
-<li>Y.Wang: Resource bounded randomness and computational complexity.  
+      href="http://alfa.mimuw.edu.pl/FI/vol42.html">version</A>)
+      </li>
+      <li class="paper-item">
+        Y.Wang: Resource bounded randomness and computational complexity.  
             <b>Theoretical Computer Science</b> 237(1-2):33--55, 2000. 
          (<A HREF="papers/TCS00.pdf">pdf</A>, 164K, publisher's <A  
-      href="http://www.elsevier.nl/gej-ng/10/41/16/171/21/show/toc.htt">version</A>) 
- 
-<li>Y.Wang: Using mobile agent results to create hard-to-detect computer viruses 
+      href="http://www.elsevier.nl/gej-ng/10/41/16/171/21/show/toc.htt">version</A>)
+      </li>
+      <li class="paper-item">
+        Y.Wang: Using mobile agent results to create hard-to-detect computer viruses 
         In: Information Security for Global Information Infrastructures,  
               the 16th <b> IFIP SEC (2000)</b>, pages 161--170, 
                Kluwer Academic Publishers. 
-              (<A HREF="papers/virus.pdf">pdf</A>, 159K) 
- 
-<li> Y.Wang: Genericity, randomness, and polynomial time approximations. 
+              (<A HREF="papers/virus.pdf">pdf</A>, 159K)
+      </li>
+      <li class="paper-item">
+        Y.Wang: Genericity, randomness, and polynomial time approximations. 
           <b>SIAM Journal on Computing</b>, 
           28(2):394-408, 1999. (<A HREF="papers/SIAM.pdf">pdf</A>, 253K, publisher's <A  
-      href="http://epubs.siam.org/sam-bin/dbq/article/30235">version</A>) 
- 
-<li>Y.Wang: A separation of two randomness concepts. 
+      href="http://epubs.siam.org/sam-bin/dbq/article/30235">version</A>)
+      </li>
+      <li class="paper-item">
+        Y.Wang: A separation of two randomness concepts. 
          <b>Information Processing Letters</b>, 69(3):115--118, 1999. 
            (<A HREF="papers/IPL99.pdf">pdf</A>, 154K, publisher's <A  
-      href="http://www.elsevier.nl/gej-ng/10/23/20/47/19/show/toc.htt">version</a>) 
-
-<li>Y.Wang: Randomness, stochasticity, and approximations.  
+      href="http://www.elsevier.nl/gej-ng/10/23/20/47/19/show/toc.htt">version</a>)
+      </li>
+      <li class="paper-item">
+        Y.Wang: Randomness, stochasticity, and approximations.  
           <b>Theory of Computing Systems</b> (formerly: <b>Mathematical  
              Systems Theory</b>) 32:517--529, 1999. 
             (<A HREF="papers/TOCS99.pdf">pdf</A>, 77K, publisher's  
 <A href="http://link.springer.de/link/service/journals/00224/bibs/32n5p517.html"> 
 version</A>). A preliminary version of this paper appeared in:  
             Proc. of <b>RANDOM 97</b> 
-       (Italy), pages 213--225. LNCS 1269, Springer Verlag. 
- 
-<li>Y.Wang: Linear complexity versus pseudorandomness: 
+       (Italy), pages 213--225. LNCS 1269, Springer Verlag.
+      </li>
+      <li class="paper-item">
+        Y.Wang: Linear complexity versus pseudorandomness: 
      on Beth and Dai's result.  
      In: Proc.<b> Asiacrypt 99</b>, 
       pages 288--298.  LNCS 1716, Springer 
-        Verlag. (<A HREF="papers/acrypt991.pdf">pdf</A>, 170K) 
- 
-<li>Y.Desmedt and Y.Wang: Approximation hardness and secure communication 
+        Verlag. (<A HREF="papers/acrypt991.pdf">pdf</A>, 170K)
+      </li>
+      <li class="paper-item">
+        Y.Desmedt and Y.Wang: Approximation hardness and secure communication 
            in broadcast channels.  
    In: Proc.<b> Asiacrypt 99</b>, pages 247--257.
    LNCS 1716, Springer  Verlag. (<A HREF="papers/acrypt992.pdf">pdf</A>, 180K)
-
-<li>Y.Wang: Abuses of probabilistic encryption schemes. 
+      </li>
+      <li class="paper-item">
+        Y.Wang: Abuses of probabilistic encryption schemes. 
          <b>IEE Electronics Letters</b>, 34(8):753--754, 1998. 
-          (<A HREF="papers/Eletter.pdf">pdf</A>, 92K).  
- 
-<li>Y.Desmedt, M.Burmester, and Y.Wang: Using approximation hardness 
+          (<A HREF="papers/Eletter.pdf">pdf</A>, 92K).
+      </li>
+      <li class="paper-item">
+        Y.Desmedt, M.Burmester, and Y.Wang: Using approximation hardness 
 to achieve dependable computation. In: Proc. of <b>RANDOM 98</b>, 
           pages 172-186. LNCS 1518, Springer 
           Verlag. (<A HREF="papers/rand98.pdf">pdf</A>, 201K, publisher's <A  
-href="http://link.springer.de/link/service/series/0558/bibs/1518/15180172.htm">version</A>) 
- 
-<li>P.Hertling and Y.Wang: Invariance properties of random sequences. <b>  
+href="http://link.springer.de/link/service/series/0558/bibs/1518/15180172.htm">version</A>)
+      </li>
+      <li class="paper-item">
+        P.Hertling and Y.Wang: Invariance properties of random sequences. <b>  
     Journal of Universal Computer Science</b>, 3(11):1241-1449, 1997.  
           (<A HREF="papers/jucs97.pdf">pdf</A>, 153K, publisher's <A  
-href="http://www.jucs.org/jucs_3_11/invariance_properties_of_random">version</A>) 
- 
-<li>Y.Wang: NP-hard sets are superterse unless NP is small.  
+href="http://www.jucs.org/jucs_3_11/invariance_properties_of_random">version</A>)
+      </li>
+      <li class="paper-item">
+        Y.Wang: NP-hard sets are superterse unless NP is small.  
        <b>Information Processing Letters</b> 61(1):1-6, 1997. 
            (<A HREF="papers/IPL97.pdf">pdf</A>, 153K, publisher's <A  
-      href="http://www.elsevier.nl/gej-ng/10/23/20/39/22/show/toc.htt">version</A>) 
- 
-<li>Y.Wang: The law of the iterated logarithm for p-random sequences. In: Proc. 
+      href="http://www.elsevier.nl/gej-ng/10/23/20/39/22/show/toc.htt">version</A>)
+      </li>
+      <li class="paper-item">
+        Y.Wang: The law of the iterated logarithm for p-random sequences. In: Proc. 
    11th IEEE Conference on Computational Complexity (<b>CCC</b>),   
 pages 180-189. IEEE Computer Society Press, 1996. 
-           (<A HREF="papers/CCC96.pdf">pdf</A>, 212K) 
- 
-<li>K.Ambos-Spies, E.Mayordomo, Y.Wang, and X. Zheng: Resource bounded 
+           (<A HREF="papers/CCC96.pdf">pdf</A>, 212K)
+      </li>
+      <li class="paper-item">
+        K.Ambos-Spies, E.Mayordomo, Y.Wang, and X. Zheng: Resource bounded 
         balanced genericity, stochasticity and weak randomness. In: Proc. 13rd 
          <b>STACS</b>, pages 63-74. LNCS 1046,  
-           1996. (<A HREF="papers/STACS.pdf">pdf</A>, 185K) 
- 
-<li>Y.Wang: Modified data-flow models and their applications.  
+           1996. (<A HREF="papers/STACS.pdf">pdf</A>, 185K)
+      </li>
+      <li class="paper-item">
+        Y.Wang: Modified data-flow models and their applications.  
            <b>Chinese Journal of Software</b>, 5(3):43-48, 1994.  
            (<A HREF="papers/cdfm.pdf">pdf</A>, 
-          85K; <A HREF="papers/cdfm.gb">guobiao</A>, 37K) 
- 
-<li>G.Hu and Y.Wang: The fundamental theory for object-oriented languages. 
+          85K; <A HREF="papers/cdfm.gb">guobiao</A>, 37K)
+      </li>
+      <li class="paper-item">
+        G.Hu and Y.Wang: The fundamental theory for object-oriented languages. 
            <b>Chinese Journal of Computer Science</b>,  
              20(4):1-6, 1993. (<A HREF="papers/actor.pdf">pdf</A>, 
-             174K; <A HREF="papers/actor.doc"> Word</A>, 86K) 
- 
-<li>Y.Wang: The computing power of ordered Petri nets. <b>Chinese  
+             174K; <A HREF="papers/actor.doc"> Word</A>, 86K)
+      </li>
+      <li class="paper-item">
+        Y.Wang: The computing power of ordered Petri nets. <b>Chinese  
         Journal of Software</b>, 4(3):35-41, 
           1993. (<A HREF="papers/petri.pdf">pdf</A>, 106K;  
-            <A HREF="papers/petri.doc">Word</A>, 75K)  
- 
-<li>S.Xu and Y.Wang: Blum's speedup theorem and the hierarchy of recursive 
+            <A HREF="papers/petri.doc">Word</A>, 75K)
+      </li>
+      <li class="paper-item">
+        S.Xu and Y.Wang: Blum's speedup theorem and the hierarchy of recursive 
           functions. <b>Chinese Journal of Software</b>, 4(4):38-43, 1993.  
            (<A HREF="papers/speedup.pdf">pdf</A>, 
-            97K; <A HREF="papers/speedup.doc">Word</A>, 80K) 
- 
-<li>G.Hu and Y.Wang: An algorithm and its data structure from sequential US 
+            97K; <A HREF="papers/speedup.doc">Word</A>, 80K)
+      </li>
+      <li class="paper-item">
+        G.Hu and Y.Wang: An algorithm and its data structure from sequential US 
 MMCM to parallel machine. In:<b> Computer Mathematics</b>, pages 58-65, World 
 Sci. Publishing, River Edge, NJ, 1993 (MR: 94m:68041).  
 (<A HREF="papers/mmcm2usmmcm.tex">tex</A>, 
 18K) The <A HREF="papers/mmcm2usmmcm.lsp"> software </A> to implement the 
-algorithm.  
- 
-<li>Y.Wang: Randomness and Complexity. PhD Thesis, 1996.  
-    (<A HREF="papers/thesis.pdf">pdf</A>, 523K)    
+algorithm.
+      </li>
+      <li class="paper-item">
+        Y.Wang: Randomness and Complexity. PhD Thesis, 1996.  
+    (<A HREF="papers/thesis.pdf">pdf</A>, 523K)
+      </li>
+    </ul>
+  </section>
 
-
- 
-</ol>          
-<HR> 
-<P><A NAME="coauthors"></A><B>Co-authors </B> </P> 
-Over the past years I have benefited from joint works with 
-following co-authors:  
- 
-
-<ul> 
-<li><a href="http://www.math.uni-heidelberg.de/logic/personen.html"> 
-Prof. Klaus Ambos-Spies</a>, Universitaet Heidelberg, Germany</li> 
- 
-
-<li><a href="http://www.cs.fsu.edu/~burmester//">Prof. Mike Burmester</a>, 
-Florida State University</li> 
-
-<li><a href="http://www.cs.auckland.ac.nz/~cristian/">Prof. Cris Calude</a>, 
-Auckland University, New Zealand</li> 
-
-<li><a href="http://www.sis.uncc.edu/~billchu/"> 
-Prof. Bei-tseng Chu</a>,University of North Carolina at Charlotte</li> 
-
-<li><a href="http://www.cs.fsu.edu/~desmedt/">Prof. Yvo Desmedt</a>, 
-Florida State University</li> 
-
-<li><a href="http://www.informatik.uni-duisburg.de/AGHertling/index.html">
-Dr. Peter Hertling</a>, Universitaet Duisburg-Essen, Germany</li> 
-
-<li>Prof Guoding Hu, Nankai University, China</li> 
-<li><a href="http://www.sis.uncc.edu/~zhliu/"> 
-Prof. Zhaoyu Liu</a>,University of North Carolina at Charlotte</li> 
-<li><a href="http://www.cps.unizar.es/~elvira/"> 
-Prof. Elvira Mayordomo</a>,Universidad de Zaragoza, Spain</li> 
-<li><a href="http://math.uni-heidelberg.de/logic/merkle/merkle.html"> 
-Dr. Wolfgang Merkle</a>, Universitaet Heidelberg, Germany</li> 
-<li><a href="http://www.cs.uncc.edu/~xwu/"> 
-Prof. Xintao Wu</a>,University of North Carolina at Charlotte</li> 
-<li>Prof Shurun Xu, Nankai University, China</li> 
-<li><a href="http://www.sis.uncc.edu/~yzheng/"> 
-Prof. Yuliang Zheng</a>,University of North Carolina at Charlotte</li> 
-<li> 
-<a href="http://www-sst.informatik.tu-cottbus.de/~wwwti/zheng/"> 
+  <!-- Section 6: Co-Authors -->
+  <section class="section-card">
+    <div class="section-header">
+      <h2 class="section-title">Co-Authors & Academic Collaborators</h2>
+    </div>
+    <p style="font-size:0.92rem; color:var(--text-muted); margin-bottom:14px;">
+      Over the past decades, Dr. Wang has had the privilege of collaborating with prominent researchers worldwide:
+    </p>
+    <div class="coauthors-grid">
+      <div class="coauthor-card"><a href="http://www.math.uni-heidelberg.de/logic/personen.html"> 
+Prof. Klaus Ambos-Spies</a>, Universitaet Heidelberg, Germany</div>
+      <div class="coauthor-card"><a href="http://www.cs.fsu.edu/~burmester//">Prof. Mike Burmester</a>, 
+Florida State University</div>
+      <div class="coauthor-card"><a href="http://www.cs.auckland.ac.nz/~cristian/">Prof. Cris Calude</a>, 
+Auckland University, New Zealand</div>
+      <div class="coauthor-card"><a href="http://www.sis.uncc.edu/~billchu/"> 
+Prof. Bei-tseng Chu</a>,University of North Carolina at Charlotte</div>
+      <div class="coauthor-card"><a href="http://www.cs.fsu.edu/~desmedt/">Prof. Yvo Desmedt</a>, 
+Florida State University</div>
+      <div class="coauthor-card"><a href="http://www.informatik.uni-duisburg.de/AGHertling/index.html">
+Dr. Peter Hertling</a>, Universitaet Duisburg-Essen, Germany</div>
+      <div class="coauthor-card">Prof Guoding Hu, Nankai University, China</div>
+      <div class="coauthor-card"><a href="http://www.sis.uncc.edu/~zhliu/"> 
+Prof. Zhaoyu Liu</a>,University of North Carolina at Charlotte</div>
+      <div class="coauthor-card"><a href="http://www.cps.unizar.es/~elvira/"> 
+Prof. Elvira Mayordomo</a>,Universidad de Zaragoza, Spain</div>
+      <div class="coauthor-card"><a href="http://math.uni-heidelberg.de/logic/merkle/merkle.html"> 
+Dr. Wolfgang Merkle</a>, Universitaet Heidelberg, Germany</div>
+      <div class="coauthor-card"><a href="http://www.cs.uncc.edu/~xwu/"> 
+Prof. Xintao Wu</a>,University of North Carolina at Charlotte</div>
+      <div class="coauthor-card">Prof Shurun Xu, Nankai University, China</div>
+      <div class="coauthor-card"><a href="http://www.sis.uncc.edu/~yzheng/"> 
+Prof. Yuliang Zheng</a>,University of North Carolina at Charlotte</div>
+      <div class="coauthor-card"><a href="http://www-sst.informatik.tu-cottbus.de/~wwwti/zheng/"> 
 Prof. Xizhong Zheng</a>, Brandenburgischen Technischen Universitaet Cottbus, 
- Germany</li> 
+ Germany</div>
+    </div>
+  </section>
 
-</ul> 
- 
-<HR> 
-</td></tr></table> 
-</BODY> 
-</HTML> 
+  <footer class="footer-bar">
+    &copy; Yongge Wang. Hosted on <a href="https://yonggewang.github.io/">GitHub Pages</a>.
+  </footer>
+
+</div>
+
+<script>
+  function filterPapers() {
+    var query = document.getElementById('paperSearch').value.toLowerCase();
+    var items = document.querySelectorAll('.paper-item');
+    items.forEach(function(item) {
+      var text = item.textContent.toLowerCase();
+      if (text.indexOf(query) !== -1) {
+        item.style.display = '';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  }
+
+  function setCategory(cat, el) {
+    document.querySelectorAll('.filter-tag').forEach(function(tag) {
+      tag.classList.remove('active');
+    });
+    el.classList.add('active');
+
+    var groups = document.querySelectorAll('.paper-group');
+    groups.forEach(function(group) {
+      if (cat === 'all' || group.getAttribute('data-cat') === cat) {
+        group.style.display = '';
+      } else {
+        group.style.display = 'none';
+      }
+    });
+  }
+</script>
+
+</body>
+</html>

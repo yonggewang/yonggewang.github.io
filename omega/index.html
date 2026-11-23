@@ -1,17 +1,753 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title></title>
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Effective Randomness & Chaitin's Omega (Ω) Numbers | Yongge Wang</title>
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --primary-hover: #1d4ed8;
+      --accent: #2563eb;
+      --text-main: #1e293b;
+      --text-muted: #475569;
+      --bg-page: #f8fafc;
+      --bg-card: #ffffff;
+      --border-color: #e2e8f0;
+      --badge-bg: #eff6ff;
+      --badge-text: #1d4ed8;
+      --badge-border: #bfdbfe;
+    }
 
-<frameset cols="150,*">
-  <frame name="contents" target="main" src="contents.html" scorlling="NO" 
-      frameborder="0" noresize>
-  <frame name="main" src="main.html" scorlling="AUTO" frameborder="0" noresize>
-  <noframes>
-  <body>
-  <p>This page uses frames, but your browser doesn't support them. </p>
-  </body>
-  </noframes>
-</frameset>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: var(--text-main);
+      background-color: var(--bg-page);
+      line-height: 1.7;
+      font-size: 15.5px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      transition: color 0.15s ease;
+    }
+
+    a:hover {
+      color: var(--primary-hover);
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 32px 20px 60px;
+    }
+
+    /* Header */
+    .header-bar {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 32px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    }
+
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+
+    .omega-symbol {
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: var(--primary);
+      margin-right: 8px;
+    }
+
+    .header-title h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+      display: flex;
+      align-items: center;
+    }
+
+    .header-subtitle {
+      color: var(--text-muted);
+      font-size: 1rem;
+      margin-top: 6px;
+      line-height: 1.5;
+    }
+
+    .pill-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      background: #f1f5f9;
+      color: #334155;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border-radius: 6px;
+      border: 1px solid var(--border-color);
+      transition: all 0.15s ease;
+    }
+
+    .pill-btn:hover {
+      background: var(--badge-bg);
+      color: var(--primary-hover);
+      border-color: var(--badge-border);
+      text-decoration: none;
+    }
+
+    .pill-btn.primary {
+      background: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+    }
+
+    .pill-btn.primary:hover {
+      background: var(--primary-hover);
+      color: #ffffff;
+    }
+
+    /* Nav Tabs */
+    .nav-bar {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 12px 20px;
+      margin-bottom: 28px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+
+    .nav-bar a {
+      color: var(--text-muted);
+    }
+
+    .nav-bar a:hover {
+      color: var(--primary);
+    }
+
+    /* Cards */
+    .content-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 32px;
+      margin-bottom: 28px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+    }
+
+    .card-header {
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 12px;
+      margin-bottom: 20px;
+    }
+
+    .card-title {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    .theorem-box {
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-left: 5px solid var(--primary);
+      border-radius: 8px;
+      padding: 20px 24px;
+      margin: 20px 0;
+      font-size: 0.98rem;
+    }
+
+    .theorem-title {
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 8px;
+      font-size: 1.05rem;
+    }
+
+    .paper-list {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .paper-item {
+      position: relative;
+      padding-left: 24px;
+      margin-bottom: 14px;
+      font-size: 0.94rem;
+      line-height: 1.55;
+      padding-bottom: 10px;
+      border-bottom: 1px dashed #f1f5f9;
+    }
+
+    .paper-item:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .paper-item::before {
+      content: "•";
+      position: absolute;
+      left: 6px;
+      color: var(--primary);
+      font-size: 1.3rem;
+      line-height: 1;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 1px 7px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      border-radius: 4px;
+      margin-left: 5px;
+      vertical-align: middle;
+      border: 1px solid var(--badge-border);
+      background: var(--badge-bg);
+      color: var(--badge-text);
+      white-space: nowrap;
+    }
+
+    .badge:hover {
+      background: #dbeafe;
+      text-decoration: none;
+    }
+
+    .recent-block {
+      margin-bottom: 24px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid #f1f5f9;
+    }
+
+    .recent-block:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .recent-heading {
+      font-size: 1.12rem;
+      font-weight: 600;
+      color: #0f172a;
+      margin-bottom: 6px;
+    }
+
+    .math-expr {
+      font-family: "Cambria Math", "Times New Roman", serif;
+      font-style: italic;
+    }
+
+    .people-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 14px;
+      margin-top: 16px;
+    }
+
+    .people-card {
+      background: #f8fafc;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 14px 18px;
+      font-size: 0.92rem;
+    }
+
+    .footer-bar {
+      text-align: center;
+      font-size: 0.88rem;
+      color: #94a3b8;
+      margin-top: 36px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border-color);
+    }
+
+    @media (max-width: 768px) {
+      .header-top {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .people-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Header Section -->
+  <header class="header-bar">
+    <div class="header-top">
+      <div>
+        <h1><span class="omega-symbol">&Omega;</span> Effective Randomness & Chaitin's Omega Numbers</h1>
+        <div class="header-subtitle">
+          Foundations of Algorithmic Information Theory, Martin-Löf Randomness, Computable Analysis, and Halting Probabilities
+        </div>
+      </div>
+      <div>
+        <a href="../index.html" class="pill-btn primary">← Back to Homepage</a>
+        <a href="../papers.html" class="pill-btn">Publications</a>
+      </div>
+    </div>
+    <div style="font-size:0.92rem; color:var(--text-muted); margin-top:8px;">
+      Curated by <strong>Prof. Yongge Wang</strong> | Department of Software & Information Systems, University of North Carolina at Charlotte
+    </div>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav class="nav-bar">
+    <a href="#overview">Overview & History</a>
+    <a href="#characterization">The Fundamental Theorem</a>
+    <a href="#recent-advances">Recent Advances (2010–2026)</a>
+    <a href="#millers-derivation">Miller's Derivation & d.c.e. Reals</a>
+    <a href="#citations">Citing Literature (82)</a>
+    <a href="#community">Community & Researchers</a>
+  </nav>
+
+  <!-- Overview & History -->
+  <section id="overview" class="content-card">
+    <div class="card-header">
+      <h2 class="card-title">Historical Foundations of Effective Randomness</h2>
+    </div>
+    <p>
+      The mathematical formalization of individual random sequences was initiated by <strong>Richard von Mises</strong> in 1919 (the stochastic approach of <em>Kollektivs</em>). 
+      In 1939, <strong>Jean Ville</strong> demonstrated that von Mises' selection rules were insufficient by constructing a counterexample violating the Law of the Iterated Logarithm, proving that martingales are essential for a sound measure-theoretic treatment.
+    </p>
+    <p style="margin-top:12px;">
+      In the 1960s, three independent and converging perspectives revolutionized the field into modern <strong>Algorithmic Information Theory (AIT)</strong>:
+    </p>
+    <ul style="padding-left:24px; margin-top:10px; font-size:0.95rem; line-height:1.7;">
+      <li><strong>Incompressibility & Program-Size Complexity (Kolmogorov 1965, Chaitin 1966, 1969):</strong> A string or sequence is random if its shortest self-delimiting algorithmic description (prefix-free Kolmogorov complexity <span class="math-expr">K(x)</span>) is essentially as long as the string itself.</li>
+      <li><strong>Constructive Measure Theory & Typicalness (Martin-Löf 1966):</strong> A sequence is random (now known as <em>Martin-Löf random</em>) if it passes all effective null-tests—it avoids all effectively presented sets of measure zero.</li>
+      <li><strong>Predictability & Martingales (Schnorr 1971):</strong> An effective gambler cannot make an infinite fortune betting on the bits of the sequence. Schnorr also introduced computable and Schnorr randomness to study resource-bounded formulations.</li>
+      <li><strong>Separation of Randomness Paradigms (Wang 1996, 1999):</strong> Rigorously established the separation between Martin-Löf randomness, Schnorr randomness, and computable randomness, laying foundations for polynomial-time and resource-bounded randomness.</li>
+    </ul>
+  </section>
+
+  <!-- Fundamental Characterization Theorem -->
+  <section id="characterization" class="content-card">
+    <div class="card-header">
+      <h2 class="card-title">Chaitin's Halting Probability & The Landmark Theorem</h2>
+    </div>
+    <p>
+      For a universal prefix-free Turing machine <span class="math-expr">U</span>, <strong>Gregory Chaitin</strong> defined the halting probability:
+    </p>
+    <div style="text-align:center; margin:16px 0; font-size:1.25rem; font-family:'Cambria Math',serif;">
+      <strong>&Omega;<sub>U</sub> = &sum;<sub>U(p)&darr;</sub> 2<sup>&minus;|p|</sup></strong>
+    </div>
+    <p>
+      Because <span class="math-expr">U</span> is prefix-free (Kraft's inequality holds), <span class="math-expr">&Omega; &isin; (0, 1)</span>. 
+      The number <span class="math-expr">&Omega;</span> is uncomputable, maximally incompressible, and maximally information-dense: knowing the first <span class="math-expr">n</span> bits of <span class="math-expr">&Omega;</span> solves the Halting Problem for all programs of length up to <span class="math-expr">n</span>. 
+      Furthermore, <span class="math-expr">&Omega;</span> is <strong>left-computably enumerable</strong> (left-c.e., or recursively enumerable from below) because we can approximate it from below by enumerating halting programs step by step.
+    </p>
+
+    <div class="theorem-box">
+      <div class="theorem-title">The Calude–Hertling–Khoussainov–Wang Theorem (2001)</div>
+      <p>
+        <strong>Theorem:</strong> <em>A real number &alpha; &isin; (0, 1) is a Chaitin &Omega; number (the halting probability of some optimal prefix-free universal Turing machine) if and only if &alpha; is left-computably enumerable (left-c.e.) and Martin-Löf random.</em>
+      </p>
+      <div style="margin-top:10px; font-size:0.9rem; color:#1e3a8a;">
+        Reference: C. Calude, P. Hertling, B. Khoussainov, and Y. Wang. <em>Recursively enumerable reals and Chaitin's &Omega; numbers</em>. <strong>Theoretical Computer Science</strong> 255:125–149, 2001. 
+        <a href="../papers/TCS01.pdf" class="badge">PDF</a>
+        (See also related independent characterizations via Solovay completeness by Kučera and Slaman, 2001).
+      </div>
+    </div>
+
+    <p>
+      This foundational result elevated <span class="math-expr">&Omega;</span> from a mathematical curiosity of a specific machine to the universal canonical representative of all left-c.e. Martin-Löf random reals under <strong>Solovay reducibility</strong> (<span class="math-expr">&le;<sub>S</sub></span>).
+    </p>
+  </section>
+
+  <!-- Recent Advances (2010 - 2026) -->
+  <section id="recent-advances" class="content-card">
+    <div class="card-header">
+      <h2 class="card-title">Recent Developments in &Omega; and Effective Randomness (2010–2026)</h2>
+    </div>
+
+    <div class="recent-block">
+      <div class="recent-heading">1. Structural Monograph: Aspects of Chaitin's Omega (Barmpalias)</div>
+      <p style="font-size:0.95rem; color:#334155;">
+        George Barmpalias's foundational survey <em>Aspects of Chaitin's Omega</em> systematized decades of structural and measure-theoretic results. It maps out how <span class="math-expr">&Omega;</span> operates as an operator on Turing degrees, explores relativized versions <span class="math-expr">&Omega;<sup>A</sup></span>, and proves that <span class="math-expr">A</span> is <strong>low for &Omega;</strong> (meaning <span class="math-expr">&Omega;</span> remains random relative to <span class="math-expr">A</span>) if and only if <span class="math-expr">A</span> is <span class="math-expr">K</span>-trivial (Hirschfeldt, Miller, Nies).
+      </p>
+    </div>
+
+    <div class="recent-block">
+      <div class="recent-heading">2. Effective Differentiability and Classical Analysis (Brattka, Miller, Nies)</div>
+      <p style="font-size:0.95rem; color:#334155;">
+        A major breakthrough in the 2010s demonstrated that algorithmic randomness characterizes classical analytical properties: a real <span class="math-expr">z</span> is Martin-Löf random if and only if every computable function of bounded variation is differentiable at <span class="math-expr">z</span> (effective Lebesgue / Rademacher differentiation theorem). This bridged recursion theory with real analysis, Lipschitz functions, and geometric measure theory.
+      </p>
+    </div>
+
+    <div class="recent-block">
+      <div class="recent-heading">3. Chaitin's Heuristic Principle & Generalized Halting Probabilities</div>
+      <p style="font-size:0.95rem; color:#334155;">
+        Recent research has rigorously tested the boundaries of Chaitin's Heuristic Principle—the notion that an axiomatic system cannot prove a mathematical theorem of significantly higher algorithmic complexity than the system's own axioms. Further investigations have developed generalized halting probabilities across continuous measures and infinite discrete probability spaces beyond standard binary prefix-free machines.
+      </p>
+    </div>
+
+    <div class="recent-block">
+      <div class="recent-heading">4. Concrete Bits of &Omega; and The Busy Beaver Boundary</div>
+      <p style="font-size:0.95rem; color:#334155;">
+        While <span class="math-expr">&Omega;</span> is uncomputable, hybrid symbolic-numeric algorithms have pushed the known exact bits of specific universal machines (e.g., Calude, Dinneen, Shu computing the first 64 bits). These verification efforts interact directly with the Busy Beaver competition and exact small-program termination boundaries.
+      </p>
+    </div>
+  </section>
+
+  <!-- Miller's Derivation & d.c.e. Reals -->
+  <section id="millers-derivation" class="content-card">
+    <div class="card-header">
+      <h2 class="card-title">Miller's Derivation, d.c.e. Reals & Cryptographic Randomness</h2>
+    </div>
+    <p>
+      In recent algorithmic information theory, <strong>Joseph S. Miller</strong> introduced the study of approximation speed and derivatives between left-c.e. random reals:
+    </p>
+    <div style="background:#f8fafc; border:1px solid var(--border-color); border-radius:8px; padding:16px; margin:16px 0; font-family:'Cambria Math',serif;">
+      For two Martin-Löf random left-c.e. reals &alpha; and &beta; with computable approximations &lang;a<sub>n</sub>&rang; and &lang;b<sub>n</sub>&rang;, 
+      the limit of the ratio:
+      <div style="text-align:center; font-size:1.15rem; margin:10px 0;">
+        <strong>D(&alpha;, &beta;) = lim<sub>n&rarr;&infin;</sub> (&alpha; &minus; a<sub>n</sub>) / (&beta; &minus; b<sub>n</sub>)</strong>
+      </div>
+      behaves as an effective derivative connecting speedability, continuous operators on Cantor space, and difference-of-c.e. (d.c.e.) reals.
+    </div>
+
+    <div class="recent-heading" style="margin-top:20px;">Recent 2026 Breakthroughs by Prof. Yongge Wang:</div>
+    <ul class="paper-list" style="margin-top:12px;">
+      <li class="paper-item">
+        Yongge Wang. <span style="font-weight:600; color:#0f172a;">On the Range of Miller's Derivation on the d.c.e Reals</span> (2026).
+        <p style="font-size:0.92rem; color:var(--text-muted); margin-top:3px;">
+          Investigates the algebraic structure and exact image of Miller's derivation over difference-of-c.e. reals, answering open structural questions on effective differentiation.
+          <a href="../papers/derivation-range-v10.pdf" class="badge">PDF</a>
+        </p>
+      </li>
+      <li class="paper-item">
+        Yongge Wang. <span style="font-weight:600; color:#0f172a;">Betting versus Compression in Polynomial Time: One-Way Functions and the Levin–Schnorr Theorem</span> (2026).
+        <p style="font-size:0.92rem; color:var(--text-muted); margin-top:3px;">
+          Unifies resource-bounded martingale betting with polynomial-time compression, providing new equivalences for cryptographic one-way functions and computational randomness.
+          <a href="../papers/betting-vs-compression.pdf" class="badge">PDF</a>
+        </p>
+      </li>
+      <li class="paper-item">
+        Yongge Wang. <span style="font-weight:600; color:#0f172a;">An Injective Oneway Function on the Reals That Preserves Randomness</span> (2026).
+        <p style="font-size:0.92rem; color:var(--text-muted); margin-top:3px;">
+          Constructs an explicit injective transformation on real numbers that preserves Martin-Löf randomness while providing one-way cryptographic hardness.
+          <a href="../papers/injective-oneway.pdf" class="badge">PDF</a>
+        </p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Citing Literature Archive -->
+  <section id="citations" class="content-card">
+    <div class="card-header" style="display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap;">
+      <h2 class="card-title">Selected Citing Literature & Research Archive</h2>
+      <span style="font-size:0.88rem; font-weight:600; color:var(--text-muted);">82 Landmark Works</span>
+    </div>
+    <p style="font-size:0.92rem; color:var(--text-muted); margin-bottom:16px;">
+      Foundational publications citing Dr. Wang's work on effective randomness, separation of randomness concepts, and Chaitin's &Omega; numbers:
+    </p>
+    <ul class="paper-list">
+      <li class="paper-item">Y.Wang: Randomness and Complexity. 1996. 
+    (<A HREF="../papers/thesis.pdf">pdf</A>, 971K)</li>
+      <li class="paper-item">Y.Wang: A separation of two randomness concepts.</li>
+      <li class="paper-item">Y.Wang: Resource bounded randomness and computational complexity.</li>
+      <li class="paper-item">C.Calude, P.Hertling, B.Khoussainov, and Y.Wang: Recursively enumerable
+    reals and Chaitin's W numbers.</li>
+      <li class="paper-item">A. Klaus-Spies and E. Mayordomo. 
+Resource-bounded measure and randomness.  
+In "Complexity, Logic, and Recursion Theory" (A. Sorbi, Ed.), 
+Lecture Notes in Pure and Applied Mathematics,  
+Vol 187 (1997) 1-47, Marcel Dekker.</li>
+      <li class="paper-item">C.Calude and A.Nies.
+Chaitin Numbers and Strong Reducibilities.
+Journal of Universal Computer Science, 1997.</li>
+      <li class="paper-item">Y Wang. 
+The Law of the Iterated Logarithm for p-Random Sequences. IEEE CCC 1996.</li>
+      <li class="paper-item">Y Wang.
+NP-hard sets are superterse unless NP is small. 
+Information Processing Letters, 1997</li>
+      <li class="paper-item">S. A. Terwijn, Computability and measure, PhD thesis, 
+University of Amsterdam, 1998.</li>
+      <li class="paper-item">Peter Hertling and Klaus Weihrauch.
+In Proc. of ICALP'98. LNCS 1443, Springer-Verlag.</li>
+      <li class="paper-item">Y Wang.
+Genericity, randomness, and polynomial-time approximations. 
+SIAM J. Comput., 1998</li>
+      <li class="paper-item">M Burmester, Y Desmedt, Y Wang.
+Using Approximation Hardness to Achieve Dependable Computation
+In: RANDOM, 1998</li>
+      <li class="paper-item">JI Lathrop and JH Lutz.
+Recursive Computational Depth.
+Information and Computation, 1999</li>
+      <li class="paper-item">Y Wang.
+Randomness, Stochasticity, and Approximations.
+Theory of Computing Systems, 1999</li>
+      <li class="paper-item">Y Wang.
+Linear Complexity versus Pseudorandomness: On Beth and Dai's Result.
+ASIACRYPT, 1999</li>
+      <li class="paper-item">R.Downey. Computability, definability, and algebraic structures. Proceedings of the 7th Asian Logic Conference, 1999.</li>
+      <li class="paper-item">T. Ebert, W. Merkle, H. Vollmer. On the Autoreducibility of 
+Random Sequences. In: Mathematical Foundations of Computer Science 2000, 
+LNCS 2000:333-343, Springer 2000.</li>
+      <li class="paper-item">K. Ambos-Spies and A. Kucera. Randomness in Computability Theory. In: 
+"Computability Theory: Current Trends and Open Problems" 
+(P. Cholak et al., Eds.),  Contemporary Mathematics, Vol 257 (2000) 1-14, 
+American Mathematical Society.</li>
+      <li class="paper-item">S. A. Terwijn. On the quantitative structure of \Delta_2^0.  
+in: U. Berger, H.Osswald, and P. Schuster (eds.), Reuniting the Antipodes.  
+Constructive and Nonstandard Views of the Continuum, Synthese 
+Library, Kluwer Academic Press, 2000, 271-283.</li>
+      <li class="paper-item">K Ambos-Spies, K Weihrauch, X Zheng. 
+Weakly computable real numbers. Journal of Complexity, 2000.</li>
+      <li class="paper-item">C.Calude.
+Chaitin numbers, Solovay machines and Godel incompleteness. 
+Theoretical Computer Science, 2000</li>
+      <li class="paper-item">R.Downey.
+Some computability-theoretical aspects of reals and randomness
+<a href="http://www.comp.vuw.ac.nz/math/papers/notredame.ps">2000</a></li>
+      <li class="paper-item">C.Calude.
+Who is afraid of randomness.
+Millennial Symposium Defining the Science of Stochastics, 2000.</li>
+      <li class="paper-item">C.Calude, M.Dinneen, and C.Shu.
+Computing 80 Initial Bits of A Chaitin Omega Number.
+CDMTCS Research Report, 2000</li>
+      <li class="paper-item">C.Calude. Real Numbers: From Computable to Random.
+CDMTCS Research Report, 2000</li>
+      <li class="paper-item">G.Wu.  Prefix-free languages and initial segments of 
+computably enumerable degrees. 
+Proc. of COCOON, LNCS 2108, pages 576--585, Springer-Verlag, 2001.</li>
+      <li class="paper-item">R. Downey, D. Hirschfeldt, and G. LaForte. 
+Randomness and reducibility. In: Proc. of MFCS 2001, 
+LNCS 2136, Springer Verlag.</li>
+      <li class="paper-item">Marcus Hutter. Convergence and Error bounds of Universal 
+Prediction for General Alphabet. 
+In: Proceedings of the 12th Eurpean Conference on Machine 
+Learning (ECML-2001) (Luc De Raedt and Peter Flach, eds.) 
+Lecture Notes in Artificial Intelligence (LNAI 2167), pages 239--250, 2001.</li>
+      <li class="paper-item">A. Kucera and T. Slaman. Randomness and recursive 
+enumerability, SIAM J. Comput., 31:199-211, 2001.</li>
+      <li class="paper-item">V.Becher, S.Daicz and G.Chaitin. A highly random number.
+In roceedings of the Third Discrete Mathematics and Theoretical Computer
+Science Conference (DMTCS'01), pages 55--68. Springer-Verlag London, 2001.</li>
+      <li class="paper-item">W Merkle.
+The global power of additional queries to p-random oracles.
+SIAM J. Comput. 31(2):483--495, 2001.</li>
+      <li class="paper-item">R.ROCHA.
+A Proposal of a Computational Device Based on Adaptive Automata
+<a href="http://www.pcs.usp.br/~lta/artigos/rocha_laptec2001.pdf">
+2001</a></li>
+      <li class="paper-item">R. Downey, D. Hirschfeldt, and A. Nies. Randomness, computability, 
+and density. SIAM J. COMPUT. 31(4):1169--1183, 2002. 
+(an Earlier version appeared in STAC 2001)</li>
+      <li class="paper-item">R. Downey, D. Hirschfeldt, A. Nies, and F. Stephen. Trivial reals.  
+Electronic Notes in Theoretical Computer Science 66(1), 2002.</li>
+      <li class="paper-item">R. Downey and S. Terwijn. Computably enumerable reals 
+and uniformly presentable ideals. 
+Mathematical Logic Quarterly 48(1):29-40, 2002.</li>
+      <li class="paper-item">X. Zheng. Recursive approximability of real numbers. 
+Mathematical Logic Quarterly, 48(2002), Suppl. 1, 131 - 156</li>
+      <li class="paper-item">R. Downey and G. LaForte. 
+Presentations of computably enumerable reals. Theoretical Computer 
+Science 284(2):539--555, 2002.</li>
+      <li class="paper-item">R. Downey and S. A. Terwijn, Computably enumerable reals 
+and uniformly presentable ideals, Mathematical Logic Quarterly 48(1) 
+(2002) 29-40.</li>
+      <li class="paper-item">R.Downey and E.Griffiths.
+Schnorr randomness. Electronic Notes in THeoretical Computer Science 66(1), 
+2002.</li>
+      <li class="paper-item">K. Tadaki. Upper bound by Kolmogorov complexity for the 
+probability in computable POVM measurement. 
+<a href="http://arxiv.org/PS_cache/quant-ph/pdf/0212/0212071.pdf">2002</a></li>
+      <li class="paper-item">C.Calude. A characterization of ce random reals.
+Theoretical Computer Science 271 (2002).</li>
+      <li class="paper-item">J.Schmidhuber.
+Hierarchies of Generalized Kolmogorov Complexities and Nonenumerable 
+Universal Measures Computable. 
+International Journal of Foundations of Computer Science, 2002</li>
+      <li class="paper-item">R.Rettinger, X.Zheng, R.Gengler, B.von Braunmuehl.
+Monotonically Computable Real Numbers.  Math. Log. Quart. 48 (2002).</li>
+      <li class="paper-item">C.Calude, M.Dinneen, C.Shu.
+Computing a glimpse of randomness.
+Experimental Mathematics, 2002.</li>
+      <li class="paper-item">C.Calude. Incompleteness, Complexity, Randomness and Beyond.
+Minds and Machines, 2002.</li>
+      <li class="paper-item">R.Downey and S.Terwijn.
+Computably Enumerable Reals and Uniformly Presentable Ideals.
+Math. Log. Quart. 48 (2002) Suppl. 1, 29-40.</li>
+      <li class="paper-item">G.Wu. Structural properties of the dce 
+degrees and presentations of ce reals. PhD thesis, University of 
+Victoria at Wellington, 2002.</li>
+      <li class="paper-item">W Merkle.
+The Kolmogorov-Loveland Stochastic Sequences Are Not Closed under 
+Selecting Subsequences.
+In: Proc. ICALP, 2002</li>
+      <li class="paper-item">J. Hitchcock, J. Lutz, and S. Terwijn. The arithmetical complexity of  
+dimension and randomness. Proceedings of the 17th Annual Conference 
+of the European Association for Computer Science Logic 
+(Vienna, Austria, August 25-30, 2003), LNCS 2803, pages 241-254, 
+Springer-Verlag, 2003.</li>
+      <li class="paper-item">S. Terwijn. Complexity and randomness. 
+<a href="http://www.cs.auckland.ac.nz/CDMTCS/researchreports/212bas.pdf">
+CDMTCS Research Report 212</a>.</li>
+      <li class="paper-item">M.Hutter.
+Optimality of Universal Bayesian Sequence Prediction for General 
+Loss and Alphabet. Journal of Machine Learning Research, 2003</li>
+      <li class="paper-item">R.Rettinger and X.Zheng.
+On the hierarchy and extension of monotonically computable real numbers.
+J. Complexity, 2003</li>
+      <li class="paper-item">Marcus Hutter.
+On the Existence and Convergence of Computable Universal Priors.
+In: Proc. Algorithmic Learning Theory 2003, LNCS 2842, Springer-Verlag GmbH.</li>
+      <li class="paper-item">S Reid.
+The classes of algorithmically random reals.
+Master Thesis, University of Wellington, 2003.</li>
+      <li class="paper-item">W Merkle.
+The complexity of stochastic sequences
+In: Proc. IEEE Conference on Computational Complexity, 2003</li>
+      <li class="paper-item">S.Cooper. Computability Theory. CRC Press, 2003. ISBN: 1584882379.</li>
+      <li class="paper-item">Rodney G. Downey: Some Recent Progress in Algorithmic Randomness. 
+MFCS 2004: 42-83</li></li>
+      <li class="paper-item">R.Downey, E.Friffiths, and S.Reid. On Kurtz randomness.
+Theoretical Computer Science, 2004. </li></li>
+      <li class="paper-item">R.Downey, E.Griffiths, and G.Laforte. 
+On Schnorr and computable randomness,
+martingales, and machines.  Math. Log. Quart. 50, No. 6. 613-627, 2004.</li>
+      <li class="paper-item">W. Merkle, N. Mihailovic, and T. Slaman.
+Some results on effective randomness.  
+In Proc.  31st ICALP 2004. </li></li>
+      <li class="paper-item">K. Tadaki. An extension of Chaitin's halting probability 
+W to measurement operator in infinite 
+dimensional quantum system. <a href="http://www.informatik.uni-trier.de/~ley/db/journals/corr/corr0407.html#quant-ph-0407023"> 2004</a></li>
+      <li class="paper-item">L.Yu and D.Ding.
+There is no SW-complete ce real. J. Symb. Logic, 2004.</li>
+      <li class="paper-item">L. Yu, D. Ding, and R. Downey. The Kolmogorov complexity of the 
+random reals. Ann. Pure Appl. Logic, 2004.</li>
+      <li class="paper-item">R. Downey, G. Wu, and X. Zheng. Degrees of d.c.e. reals. 
+Mathematical Logic Quarterly, 2004.</li>
+      <li class="paper-item">X.Zheng, R.Rettinger, and R.Gengler.
+Closure Properties of Real Number Classes under CBV Functions.
+Theory of Computing Systems, 2004.</li>
+      <li class="paper-item">Xizhong Zheng and Robert Rettinger.
+On the Extensions of Solovay-Reducibility. COCOON 2004, LNCS 3106.</li>
+      <li class="paper-item">Xizhong Zheng.
+On the Hierarchy of Delts_2^0-real numbers.
+In: Real Numbers and Computers, 192-216, 2004, Dagstuhl.</li>
+      <li class="paper-item">J Poland and M Hutter.
+Convergence of discrete MDL for sequential prediction.
+In: Proc. 17th Annual Conf. on Learning Theory (COLT-2004).</li>
+      <li class="paper-item">G.Wu.
+Regular reals. Math. Log. Quart. 51(2):111-119, 2005.</li>
+      <li class="paper-item">S.Figueira, A.Nies, and F.Stephan.
+Lowness properties and approximations of the jump. WoLLIC 2005</li>
+      <li class="paper-item">V.BECHER and S.GRIGORIEFF.
+Random reals and possibly infinite computations part I: randomness.
+J. Symbolic Logic, 2005</li>
+      <li class="paper-item">R Rettinger and X Zheng.
+Solovay Reducibility on Dc. e Real Numbers. COCOON 2005, LNCS 3595.</li>
+      <li class="paper-item">Frank Stephan  and Guohua Wu.
+Presentations of K-Trivial Reals and Kolmogorov Complexity.
+First Conference on Computability in Europe, CiE 2005.
+LNCS 3526, Springer Verlag.</li>
+      <li class="paper-item">S Kohler, C Schindelhauer, and M Ziegler.
+On Approximating Real-World Halting Problems. 
+In: 15th International Symposium, FCT 2005, LNCS 3623, Springer Verlag.</li>
+      <li class="paper-item">Andre Nies, FStephan and Sebastiaan A. Terwijn
+Randomness, relativization and Turing degrees.
+J. Symbolic Logic  70, iss. 2 (2005).</li>
+      <li class="paper-item">M Hutter 
+On Generalized Computable Universal Priors and their Convergence.
+<a href="http://arxiv.org/PS_cache/cs/pdf/0503/0503026.pdf">2005</a>.</li>
+      <li class="paper-item">R.Downey, D.Hirschfeldt, J.Miller, and A.Nies.
+Relativizing Chaitin's halting probability.
+In: Journal of Mathematical Logic</li>
+      <li class="paper-item">R.Downey, D.Hirschfeldt, A.Nies, and S.Terwijn.
+Calibrating randomness. Bulletin of Symbolic Logic</li>
+      <li class="paper-item">P. Hellekalek. Randomness and
+(pseudo-)random number generators.
+<a href="http://random.mat.sbg.ac.at/~peter/students/unterlagen/lecture_CECAM.pdf">PDF</a>  
+</li></li>
+      <li class="paper-item">L.Yu, D.Ding, and R.Downey.
+The complexity of the random reals.
+<a href="http://www.mcs.vuw.ac.nz/~yuliang/Hrandom2.ps">here</a></li>
+      <li class="paper-item">F.Rosemeier.
+Zufallige Binarfolgen und zufallige reelle Zahlen.
+<a href="http://www.fernuni-hagen.de/MATHEMATIK/ALGGEO/Mitarbeiter/Rosemeier/Zufall/Zufall04.pdf">here</a></li>
+      <li class="paper-item">DR Hirschfeldt, SA Terwijn.
+Limit Computability and Constructive Measure</li>
+    </ul>
+  </section>
+
+  <!-- Community & Researchers -->
+  <section id="community" class="content-card">
+    <div class="card-header">
+      <h2 class="card-title">Key Researchers in Effective Randomness & AIT</h2>
+    </div>
+    <div class="people-grid">
+      <div class="people-card">
+        <strong>Gregory J. Chaitin</strong><br>
+        <span style="color:var(--text-muted); font-size:0.85rem;">Father of Algorithmic Information Theory & &Omega;</span>
+      </div>
+      <div class="people-card">
+        <strong>Cristian S. Calude</strong><br>
+        <span style="color:var(--text-muted); font-size:0.85rem;">University of Auckland (Co-author of 2001 &Omega; Characterization)</span>
+      </div>
+      <div class="people-card">
+        <strong>Claus-Peter Schnorr</strong><br>
+        <span style="color:var(--text-muted); font-size:0.85rem;">University of Frankfurt (Schnorr Randomness & Martingales)</span>
+      </div>
+      <div class="people-card">
+        <strong>Klaus Ambos-Spies</strong><br>
+        <span style="color:var(--text-muted); font-size:0.85rem;">Heidelberg University (Resource-Bounded Randomness & Recursion Theory)</span>
+      </div>
+      <div class="people-card">
+        <strong>Rodney Downey & Denis Hirschfeldt</strong><br>
+        <span style="color:var(--text-muted); font-size:0.85rem;">Victoria Univ. & Univ. of Chicago (Authors of <em>Algorithmic Randomness and Complexity</em>)</span>
+      </div>
+      <div class="people-card">
+        <strong>André Nies</strong><br>
+        <span style="color:var(--text-muted); font-size:0.85rem;">University of Auckland (Author of <em>Computability and Randomness</em>)</span>
+      </div>
+      <div class="people-card">
+        <strong>Joseph S. Miller</strong><br>
+        <span style="color:var(--text-muted); font-size:0.85rem;">University of Wisconsin–Madison (Miller's Derivation & Effective Differentiability)</span>
+      </div>
+      <div class="people-card">
+        <strong>George Barmpalias</strong><br>
+        <span style="color:var(--text-muted); font-size:0.85rem;">Chinese Academy of Sciences (Author of <em>Aspects of Chaitin's Omega</em>)</span>
+      </div>
+      <div class="people-card">
+        <strong>Yongge Wang</strong><br>
+        <span style="color:var(--text-muted); font-size:0.85rem;">UNC Charlotte (Co-author of 2001 &Omega; Theorem, Miller Derivation on d.c.e. Reals)</span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-bar">
+    &copy; Yongge Wang. Effective Randomness and &Omega; Numbers Resource Portal. Hosted on <a href="https://yonggewang.github.io/">GitHub Pages</a>.
+  </footer>
+
+</div>
+
+</body>
 </html>
